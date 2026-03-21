@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://brandschutzköln.com";
+/** Kanonische URL (www, ASCII – konsistent mit Vercel & ohne Redirect-Schleifen) */
+const siteUrl = "https://www.brandschutzkoeln.com";
 
 export interface PageSeoOptions {
   title: string;

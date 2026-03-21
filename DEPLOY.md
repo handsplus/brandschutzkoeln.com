@@ -6,7 +6,7 @@ Next.js-Projekt – auf Vercel ohne extra Konfiguration deploybar.
 
 ## Domain **brandschutzkoeln.com** mit Vercel verbinden
 
-Die Website ist für **brandschutzkoeln.com** (ASCII) und die Schreibweise **brandschutzköln.com** (mit „ö“) vorbereitet. In `next.config.ts` leiten **brandschutzkoeln.com** und **www.brandschutzkoeln.com** auf die kanonische Adresse weiter (Punycode **xn--brandschutzkln-6pb.com**).
+Kanonische Live-URL: **`https://www.brandschutzkoeln.com`**. Alternative Domains (z. B. kölnbrandschutz…) leiten in `next.config.ts` dorthin um – **ohne** Redirect der Hauptdomain auf eine zweite URL, damit es keine Schleife mit Vercel (apex ↔ www) gibt.
 
 ### Schritt 1: Code bei Vercel bereitstellen (empfohlen: GitHub)
 

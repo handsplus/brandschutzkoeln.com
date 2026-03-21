@@ -23,7 +23,7 @@ const defaultMetadata = createPageMetadata({
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  metadataBase: new URL("https://brandschutzköln.com"),
+  metadataBase: new URL("https://www.brandschutzkoeln.com"),
   title: {
     default: defaultMetadata.title as string,
     template: "%s | Brandschutz Köln | H&S+",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     "Brandschutzordnung",
     "Evakuierungskonzept",
   ],
-  authors: [{ name: SITE.name, url: "https://brandschutzköln.com" }],
+  authors: [{ name: SITE.name, url: "https://www.brandschutzkoeln.com" }],
   creator: SITE.name,
   formatDetection: { telephone: false, email: false },
   twitter: {
