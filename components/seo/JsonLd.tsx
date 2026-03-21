@@ -11,9 +11,9 @@ export function JsonLd() {
     "@type": "Organization",
     "@id": `${siteUrl}/#organization`,
     name: SITE.name,
-    alternateName: SITE.shortName,
+    alternateName: [SITE.shortName, "Brandschutz Köln"],
     url: siteUrl,
-    description: `${SITE.tagline} ${SITE.name} – Professioneller Brandschutz für Unternehmen, Immobilien und Projekte in ${SITE.region}.`,
+    description: `${SITE.tagline} Professioneller Brandschutz für Unternehmen, Immobilien und Projekte in ${SITE.region}.`,
     email: CONTACT.email,
     telephone: CONTACT.phoneTel,
     areaServed: {
@@ -27,7 +27,8 @@ export function JsonLd() {
   const webSite = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: `${SITE.tagline} | ${SITE.name}`,
+    /** Fokus nur Brandschutz (kein „Arbeitsschutz“ im Seitennamen für Suchmaschinen) */
+    name: "Brandschutz Köln | H&S+",
     url: siteUrl,
     description: `Professioneller Brandschutz für Unternehmen, Immobilien und Projekte in ${SITE.region}.`,
     publisher: { "@id": `${siteUrl}/#organization` },
