@@ -2,6 +2,8 @@
 
 Next.js-Projekt – auf Vercel ohne extra Konfiguration deploybar.
 
+**Neu von Null (alles gelöscht / frischer Start):** Schritt-für-Schritt in **`docs/NEUSTART-BRANDSCHUTZKOELN.md`**.
+
 ## Domain **brandschutzkoeln.com** mit Vercel verbinden
 
 Die Website ist für **brandschutzkoeln.com** (ASCII) und die Schreibweise **brandschutzköln.com** (mit „ö“) vorbereitet. In `next.config.ts` leiten **brandschutzkoeln.com** und **www.brandschutzkoeln.com** auf die kanonische Adresse weiter (Punycode **xn--brandschutzkln-6pb.com**).

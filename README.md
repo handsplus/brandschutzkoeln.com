@@ -74,4 +74,9 @@ Die Server Action `app/kontakt/actions.ts` verarbeitet das Formular. Für E-Mail
 ## Domain
 
 - Konfiguration: `lib/constants.ts` (domain, email), `lib/seo.ts` (siteUrl).
-- Domain: **brandschutzköln.com**
+- Live-Domain: **brandschutzkoeln.com**
+
+## Deployment (Vercel + Domain)
+
+- Kurz: **`DEPLOY.md`**
+- **Neu einrichten** (GitHub, Vercel, IONOS): **`docs/NEUSTART-BRANDSCHUTZKOELN.md`**
