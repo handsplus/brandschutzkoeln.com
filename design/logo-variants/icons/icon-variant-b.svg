@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Schichten">
+  <rect width="64" height="64" rx="14" fill="#fff"/>
+  <rect x="10" y="14" width="44" height="12" rx="3" fill="#fef2f2" stroke="#fecaca"/>
+  <rect x="14" y="26" width="44" height="12" rx="3" fill="#fff7ed" stroke="#fed7aa"/>
+  <rect x="18" y="38" width="44" height="12" rx="3" fill="#fef2f2"/>
+  <path fill="#9B2423" d="M18 38h4v12h-4z"/>
+</svg>

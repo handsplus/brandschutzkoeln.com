@@ -1,15 +1,23 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import Link from "next/link";
 import { createPageMetadata } from "@/lib/seo";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Über uns",
+  title: "Über uns | Brandschutzsachverständiger in Köln",
   description:
-    "H&S+ – Ihr Brandschutzsachverständiger in Köln. Mission, Werte, regionale Expertise. Warum wir die richtige Wahl für Ihren Brandschutz sind.",
+    "H&S+ als Brandschutzsachverständiger in Köln: Mission, Werte, regionale Expertise und fachliche Begleitung für rechtssicheren, praxisnahen Brandschutz.",
+  ogDescription:
+    "Lernen Sie H&S+ kennen: Brandschutzsachverständiger in Köln mit Fokus auf klare, rechtssichere und praxisnahe Lösungen.",
+  keywords: [
+    "Brandschutzsachverständiger Köln",
+    "Über uns Brandschutz Köln",
+    "Brandschutz Experte Köln",
+  ],
   path: "/ueber-uns",
 });
 
@@ -17,6 +25,14 @@ export default function UeberUnsPage() {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: "Start", path: "/" }, { name: "Über uns", path: "/ueber-uns" }]} />
+      <PageGeoJsonLd
+        name="Über uns - Brandschutzsachverständiger in Köln"
+        path="/ueber-uns"
+        pageType="AboutPage"
+        description="Über H&S+ in Köln: Fokus auf Brandschutz, regionale Expertise und fachliche Begleitung durch Brandschutzsachverständige."
+        serviceName="Brandschutzsachverständiger in Köln"
+        serviceType={["Brandschutzsachverständiger", "Brandschutzberatung", "Brandschutz in Köln"]}
+      />
       <section className="border-b border-stone-200 bg-white py-16 sm:py-20">
         <div className="container-narrow">
           <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">

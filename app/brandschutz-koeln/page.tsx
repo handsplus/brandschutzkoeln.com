@@ -1,14 +1,23 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import Link from "next/link";
 import { createPageMetadata } from "@/lib/seo";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutz in Köln – Regionale Besonderheiten",
+  title: "Brandschutz Köln | Anforderungen, Behörden, Praxis",
   description:
-    "Brandschutz in Köln: Behördenanforderungen, Risiken nach Branchen, BauO NRW. Regionale Expertise für Gewerbe, Hotels, Büros – H&S+.",
+    "Brandschutz in Köln mit regionalem Fokus: Behördenanforderungen, branchenspezifische Risiken und praxisnahe Umsetzung nach BauO NRW für Unternehmen und Immobilien.",
+  ogDescription:
+    "Was beim Brandschutz in Köln zählt: regionale Anforderungen, Behördenpraxis und konkrete Umsetzung für Gewerbe, Büros, Hotels und Immobilien.",
+  keywords: [
+    "Brandschutz Köln",
+    "Brandschutz Anforderungen Köln",
+    "BauO NRW Brandschutz",
+    "Brandschutzberatung Köln",
+  ],
   path: "/brandschutz-koeln",
 });
 
@@ -16,6 +25,13 @@ export default function BrandschutzKoelnPage() {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: "Start", path: "/" }, { name: "Brandschutz in Köln", path: "/brandschutz-koeln" }]} />
+      <PageGeoJsonLd
+        name="Brandschutz in Köln - Regionale Anforderungen"
+        path="/brandschutz-koeln"
+        description="Regionale Besonderheiten im Brandschutz in Köln: Behördenanforderungen, branchenspezifische Risiken und praxisnahe Unterstützung vor Ort."
+        serviceName="Regionale Brandschutzberatung Köln"
+        serviceType={["Brandschutz in Köln", "Behördenanforderungen Brandschutz", "Regionale Brandschutzberatung"]}
+      />
       <section className="border-b border-stone-200 bg-white py-16 sm:py-20">
         <div className="container-narrow">
           <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">

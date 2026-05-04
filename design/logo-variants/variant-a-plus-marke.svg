@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" role="img" aria-labelledby="t">
+  <title id="t">H&amp;S+ Variante A - Plus als Marke</title>
+  <rect width="420" height="100" fill="#fff"/>
+  <!-- Geometrisches Plus in abgerundetem Quadrat -->
+  <rect x="8" y="18" width="64" height="64" rx="14" fill="#9B2423"/>
+  <path fill="#fff" d="M38 30h4v40h-4z M26 48h28v4H26z"/>
+  <!-- Wortmarke -->
+  <text x="92" y="62" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="38" font-weight="700" fill="#1c1917">H&amp;S</text>
+  <text x="212" y="62" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="38" font-weight="700" fill="#9B2423">+</text>
+  <text x="92" y="88" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" letter-spacing="0.2em" fill="#78716c">BRANDSCHUTZ</text>
+</svg>

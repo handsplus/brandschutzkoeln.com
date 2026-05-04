@@ -9,6 +9,9 @@ export const SITE = {
   /** Zwei kleine Badges im Hero (mit Symbol, (VdS) bei beiden) */
   heroBadge1: "Zertifizierter Brandschutzbeauftragter (VdS)",
   heroBadge2: "Zertifizierter Brandschutzmanager (VdS)",
+  /** Rollenbezeichnung für Fließtexte & SEO (Singular/Plural) */
+  expertRole: "Brandschutzsachverständiger",
+  expertRolePlural: "Brandschutzsachverständige",
   /** Link zu Google-Bewertungen (H&S+ / Brandschutz Köln) */
   googleReviewsUrl:
     "https://www.google.com/search?q=Health+and+Safety+%2B+%7C+Arbeitsschutz+%26+Brandschutz+K%C3%B6ln+Rezensionen&tbm=lcl",
@@ -29,7 +32,7 @@ export const FOOTER_WEBSITES = [
   { href: "https://www.sigeko.koeln", label: "www.sigeko.koeln", external: true },
   { href: "https://www.handsplus.de", label: "www.handsplus.de", external: true },
   { href: "https://www.arbeitssicherheit.nrw", label: "www.arbeitssicherheit.nrw", external: true },
-  { href: "/", label: "www.brandschutzkoeln.com", external: false },
+  { href: "/", label: "brandschutzkoeln.com", external: false },
   { href: "https://www.arbeitssicherheitkoeln.de", label: "www.arbeitssicherheitkoeln.de", external: true },
 ] as const;
 

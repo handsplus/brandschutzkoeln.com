@@ -22,8 +22,8 @@ export default function HomePage() {
         badges={[SITE.heroBadge1, SITE.heroBadge2]}
         title="Brandschutz Köln für Ihr Unternehmen und Bauvorhaben"
         titleHighlight="für Ihr Unternehmen und Bauvorhaben"
-        description="Brandschutz beginnt mit Expertise: Professionelle Leistungen gemäß BauO NRW, ArbSchG und ASR A2.2 in Köln und Umgebung. Wir sorgen für Sicherheit, Rechtskonformität und einen reibungslosen Betrieb."
-        ctaLabel="Kostenlose Erstberatung"
+        description={`Brandschutz beginnt mit Expertise: Professionelle Leistungen gemäß BauO NRW, ArbSchG und ASR A2.2 in Köln und Umgebung. Wir sorgen für Sicherheit, Rechtskonformität und einen reibungslosen Betrieb – als ${SITE.expertRolePlural} für Ihre fachliche Begleitung.`}
+        ctaLabel="Angebot anfordern"
         ctaHref="/kontakt"
         secondaryCtaLabel="Unsere Leistungen"
         secondaryCtaHref="/leistungen"
@@ -51,7 +51,7 @@ export default function HomePage() {
               regionaler Kenntnis und dem Fokus auf Ihre Sicherheit. Informieren Sie sich über
               unsere <Link href="/leistungen" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">Leistungen</Link>, über{" "}
               <Link href="/brandschutz-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">Brandschutz in Köln</Link> oder
-              {" "}<Link href="/kontakt" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">fordern Sie eine Beratung an</Link>.
+              {" "}<Link href="/kontakt" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">fordern Sie ein Angebot an</Link>.
             </p>
           </div>
         </div>
@@ -110,9 +110,9 @@ export default function HomePage() {
       <FaqSection />
 
       <CTA
-        title="Jetzt kostenlose Erstberatung sichern"
-        description="Lassen Sie sich unverbindlich beraten. Wir finden die passende Brandschutz-Lösung für Ihr Unternehmen – professionell und zuverlässig."
-        buttonLabel="Erstberatung anfordern"
+        title="Jetzt unverbindliches Angebot anfordern"
+        description="Beschreiben Sie kurz Ihr Vorhaben – wir melden uns mit einer passenden Brandschutz-Lösung für Ihr Unternehmen."
+        buttonLabel="Angebot anfordern"
         buttonHref="/kontakt"
         variant="accent"
       />

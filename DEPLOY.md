@@ -6,7 +6,7 @@ Next.js-Projekt – auf Vercel ohne extra Konfiguration deploybar.
 
 ## Domain **brandschutzkoeln.com** mit Vercel verbinden
 
-Kanonische Live-URL: **`https://www.brandschutzkoeln.com`**. Alternative Domains (z. B. kölnbrandschutz…) leiten in `next.config.ts` dorthin um – **ohne** Redirect der Hauptdomain auf eine zweite URL, damit es keine Schleife mit Vercel (apex ↔ www) gibt.
+Kanonische Live-URL (Production): **`https://brandschutzkoeln.com`** (ohne `www`). **`www.brandschutzkoeln.com`** in Vercel per Redirect (308) auf die Apex-Domain – passt zu `lib/seo.ts` / Layout. Alternative Domains (z. B. kölnbrandschutz…) leiten in `next.config.ts` auf dieselbe Apex-URL um. **Keine** zusätzlichen Next-Redirects für `brandschutzkoeln.com` / `www`, sonst Schleife mit Vercel.
 
 ### Schritt 1: Code bei Vercel bereitstellen (empfohlen: GitHub)
 
@@ -75,4 +75,4 @@ Domain kannst du danach ebenfalls unter **Project → Settings → Domains** hin
 
 - **Kontaktformular:** fest **https://formspree.io/f/mnjgpqoq** – unter Formspree → Settings → **Restrict to Domain** z. B. `brandschutzkoeln.com` (ohne `https://`) eintragen, damit nur deine Live-Seite senden darf.
 
-- **Test:** `https://brandschutzkoeln.com` und `https://www.brandschutzkoeln.com` aufrufen – Weiterleitung zur kanonischen URL ist in der App vorgesehen.
+- **Test:** `https://brandschutzkoeln.com` lädt die Seite; `https://www.brandschutzkoeln.com` leitet nach Vercel-Einstellung auf die Apex-URL um (308).

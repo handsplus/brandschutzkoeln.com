@@ -11,7 +11,7 @@ export interface HeroProps {
   subtitle?: string;
   /** Optionaler Fließtext unter der Subheadline (wie im Referenz-Layout) */
   description?: string;
-  /** CTA-Button: Text (z. B. "Kostenlose Erstberatung →") */
+  /** CTA-Button: Text (z. B. "Angebot anfordern →") */
   ctaLabel?: string;
   /** CTA-Button: Link (default: /kontakt) */
   ctaHref?: string;
@@ -39,7 +39,7 @@ export function Hero({
   titleHighlight,
   subtitle,
   description,
-  ctaLabel = "Kostenlose Erstberatung",
+  ctaLabel = "Angebot anfordern",
   ctaHref = "/kontakt",
   secondaryCtaLabel = "Unsere Leistungen",
   secondaryCtaHref = "/leistungen",

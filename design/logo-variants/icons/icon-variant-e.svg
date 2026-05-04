@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="H und S Monogramm">
+  <rect width="64" height="64" rx="14" fill="#fff"/>
+  <rect x="4" y="8" width="56" height="48" rx="14" fill="#1c1917"/>
+  <text
+    x="30"
+    y="30"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="system-ui,-apple-system,'Segoe UI',sans-serif"
+  >
+    <tspan font-size="18" font-weight="800" fill="#fff">H</tspan>
+    <tspan font-size="13" font-weight="700" fill="#d6d3d1" dx="2">&amp;</tspan>
+    <tspan font-size="18" font-weight="800" fill="#FEF3C7" dx="2">S</tspan>
+  </text>
+  <circle cx="54" cy="51" r="9" fill="#9B2423"/>
+  <path fill="#fff" d="M52 47h4v8h-4z M50 50h8v2H50z"/>
+</svg>

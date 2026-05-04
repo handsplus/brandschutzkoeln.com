@@ -1,3 +1,4 @@
+﻿import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS, SITE, CONTACT, FOOTER_WEBSITES } from "@/lib/constants";
 
@@ -36,15 +37,11 @@ export function Footer() {
     <footer className="border-t border-brand-red/20 bg-stone-950 text-stone-300">
       <div className="container-wide py-14 md:py-16 lg:py-20">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
-          {/* Marke, Adresse, Websites – E-Mail nur unter Kontakt */}
+          {/* Marke, Adresse, Websites - E-Mail nur unter Kontakt */}
           <div className="lg:col-span-2">
-            <p className="text-lg font-semibold tracking-tight text-white">
-              <span className="text-brand-red">{SITE.shortName}</span>
-              <span className="text-stone-400"> · </span>
-              Brandschutz Köln
-            </p>
+            <Image src="/logo.svg" alt="H&S+ Brandschutz Köln" width={345} height={127} className="h-[3.45rem] w-auto" />
             <p className="mt-3 max-w-md text-sm leading-relaxed text-stone-400">
-              {SITE.name} – Ihr spezialisierter Partner für Brandschutz in Köln und Umgebung.
+              {SITE.name} - Ihr spezialisierter Partner für Brandschutz in Köln und Umgebung.
               Rechtskonform, praxisnah, verantwortungsvoll.
             </p>
             <p className="mt-5 text-sm text-stone-400">
@@ -96,7 +93,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Kontakt – E-Mail, Telefon, WhatsApp (einzige Stelle für Kontaktdaten) */}
+          {/* Kontakt - E-Mail, Telefon, WhatsApp (einzige Stelle für Kontaktdaten) */}
           <div>
             <h3 className={sectionHeading}>Kontakt</h3>
             <ul className="mt-5 flex flex-col gap-2.5 text-sm text-stone-400" role="list">
@@ -136,7 +133,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className={`text-stone-500 hover:text-stone-300 ${linkBase}`}
             >
-              {SITE.name} – handsplus.de
+              {SITE.name} - handsplus.de
             </a>
           </p>
         </div>

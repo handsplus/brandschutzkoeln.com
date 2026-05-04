@@ -1,15 +1,25 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import Link from "next/link";
 import { createPageMetadata } from "@/lib/seo";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { LEISTUNGEN } from "@/content/leistungen";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Leistungen",
+  title: "Brandschutz Leistungen Köln | Konzepte, Pläne, Schulungen",
   description:
-    "Brandschutzkonzepte, Brandschutzordnungen, Feuerwehrpläne, Flucht- und Rettungspläne, Brandschutzhelfer-Ausbildung. Alle Leistungen – H&S+ Köln.",
+    "Alle Brandschutz-Leistungen in Köln: Brandschutzkonzepte, Brandschutzordnungen, Feuerwehrpläne, Flucht- und Rettungspläne sowie Brandschutzhelfer-Ausbildung.",
+  ogDescription:
+    "Brandschutz-Leistungen in Köln auf einen Blick: Konzepte, Ordnungen, Pläne und Schulungen für rechtssichere, praxisnahe Umsetzung im Betrieb.",
+  keywords: [
+    "Brandschutz Leistungen Köln",
+    "Brandschutzkonzept Köln",
+    "Brandschutzordnung Köln",
+    "Feuerwehrplan Köln",
+    "Brandschutzhelfer Ausbildung Köln",
+  ],
   path: "/leistungen",
 });
 
@@ -17,6 +27,19 @@ export default function LeistungenPage() {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: "Start", path: "/" }, { name: "Leistungen", path: "/leistungen" }]} />
+      <PageGeoJsonLd
+        name="Leistungen Brandschutz Köln"
+        path="/leistungen"
+        description="Brandschutz-Leistungen in Köln: Brandschutzkonzepte, Brandschutzordnungen, Feuerwehrpläne, Brandschutzhelfer-Ausbildung und fachliche Begleitung."
+        serviceName="Brandschutz-Leistungen in Köln"
+        serviceType={[
+          "Brandschutzberatung",
+          "Brandschutzkonzept",
+          "Brandschutzordnung",
+          "Feuerwehrplan",
+          "Brandschutzhelfer-Ausbildung",
+        ]}
+      />
       <section className="border-b border-stone-200 bg-white py-16 sm:py-20">
         <div className="container-narrow">
           <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">

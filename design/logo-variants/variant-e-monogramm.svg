@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" role="img" aria-labelledby="t">
+  <title id="t">H&amp;S+ Variante E - Monogramm</title>
+  <rect width="440" height="100" fill="#fff"/>
+  <!-- H & S im Block (zentriert) + Plus-Badge -->
+  <rect x="10" y="16" width="88" height="68" rx="18" fill="#1c1917"/>
+  <text
+    x="50"
+    y="48"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="system-ui,-apple-system,'Segoe UI',sans-serif"
+  >
+    <tspan font-size="28" font-weight="800" fill="#fff">H</tspan>
+    <tspan font-size="20" font-weight="700" fill="#d6d3d1" dx="3">&amp;</tspan>
+    <tspan font-size="28" font-weight="800" fill="#FEF3C7" dx="3">S</tspan>
+  </text>
+  <circle cx="92" cy="78" r="11" fill="#9B2423"/>
+  <path fill="#fff" d="M90 74h4v8h-4z M88 77h8v2H88z"/>
+  <text x="108" y="56" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="28" font-weight="700" fill="#9B2423">H&amp;S+</text>
+  <text x="108" y="80" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="500" fill="#78716c">Brandschutz K&#246;ln</text>
+</svg>

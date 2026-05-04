@@ -1,3 +1,4 @@
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Navigation } from "./Navigation";
 import { SITE } from "@/lib/constants";
@@ -9,10 +10,16 @@ export function Header() {
         <Link
           href="/"
           className="flex items-center gap-2 font-semibold text-stone-900 focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red focus-visible:ring-offset-2"
-          aria-label={`${SITE.name} – Startseite`}
+          aria-label={`${SITE.name} - Startseite`}
         >
-          <span className="text-brand-red">{SITE.shortName}</span>
-          <span className="hidden sm:inline">· Brandschutz Köln</span>
+          <Image
+            src="/logo.svg"
+            alt="H&S+ Brandschutz Köln"
+            width={345}
+            height={127}
+            className="h-[2.875rem] w-auto sm:h-[3.1625rem]"
+            priority
+          />
         </Link>
 
         {/* Desktop-Navigation */}

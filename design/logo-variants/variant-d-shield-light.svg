@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" role="img" aria-labelledby="t">
+  <title id="t">H&amp;S+ Variante D - Schild mit Flamme</title>
+  <defs>
+    <linearGradient id="schildRand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c53030"/>
+      <stop offset="50%" stop-color="#9B2423"/>
+      <stop offset="100%" stop-color="#5c1810"/>
+    </linearGradient>
+    <radialGradient id="flammeAussen" cx="50%" cy="88%" r="85%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </radialGradient>
+    <radialGradient id="flammeMitte" cx="48%" cy="82%" r="75%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="55%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </radialGradient>
+    <radialGradient id="flammeKern" cx="50%" cy="78%" r="65%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </radialGradient>
+    <filter id="weichesGluhen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 0.3 0 0 0  0 0 0.3 0 0  0 0 0 0.55 0"/>
+    </filter>
+  </defs>
+  <rect width="440" height="100" fill="#fff"/>
+  <!-- dezentes Warmlicht hinter der Flamme -->
+  <ellipse cx="44" cy="52" rx="18" ry="11" fill="#fecaca" filter="url(#weichesGluhen)" opacity="0.45"/>
+  <!-- dynamischere Flamme (3 Schichten) -->
+  <path
+    fill="url(#flammeAussen)"
+    d="M44 61C28 60 20 48 22 38C24 28 32 26 37 31C35 29 38 27 40 30C39 26 42 25 44 28C46 25 49 26 48 30C52 28 60 34 62 42C64 52 56 61 44 61z"
+  />
+  <path
+    fill="url(#flammeMitte)"
+    d="M44 56C32 55 28 46 29 40C30 35 34 33 38 36C37 34 40 32 42 34C41 31 43 30 44 32C45 30 47 31 46 34C50 32 56 36 58 42C59 48 52 56 44 56z"
+  />
+  <path
+    fill="url(#flammeKern)"
+    d="M44 51C39 50 35 47 36 43C36 41 40 43 44 46C48 43 52 41 52 43C53 47 49 50 44 51z"
+  />
+  <!-- Schild zuletzt: liegt optisch �ber dem Flammenrand -->
+  <path
+    fill="none"
+    stroke="url(#schildRand)"
+    stroke-width="2.75"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M44 18 68 28v22c0 14-10 26-24 32C30 76 20 64 20 50V28L44 18z"
+  />
+  <text x="92" y="58" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#1c1917">H&amp;S+</text>
+  <text x="92" y="82" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" letter-spacing="0.08em" fill="#78716c">HEALTH &#183; SAFETY &#183; BRANDSCHUTZ</text>
+</svg>

@@ -1,15 +1,23 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import Link from "next/link";
 import { createPageMetadata } from "@/lib/seo";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { CONTACT } from "@/lib/constants";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Kontakt",
+  title: "Kontakt Brandschutz Köln | Angebot & Erstberatung",
   description:
-    "Kostenlose Erstberatung Brandschutz Köln. Kontaktformular, Telefon, WhatsApp – unverbindlich anfragen. H&S+ meldet sich zeitnah.",
+    "Kontakt für Brandschutz in Köln: Angebot und unverbindliche Erstberatung per Formular, Telefon oder WhatsApp. Schnelle Rückmeldung durch H&S+.",
+  ogDescription:
+    "Jetzt unverbindlich Kontakt aufnehmen: Angebot und Erstberatung für Brandschutz in Köln per Formular, Telefon oder WhatsApp.",
+  keywords: [
+    "Kontakt Brandschutz Köln",
+    "Brandschutz Angebot Köln",
+    "Brandschutz Erstberatung Köln",
+  ],
   path: "/kontakt",
 });
 
@@ -17,6 +25,14 @@ export default function KontaktPage() {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: "Start", path: "/" }, { name: "Kontakt", path: "/kontakt" }]} />
+      <PageGeoJsonLd
+        name="Kontakt Brandschutz Köln"
+        path="/kontakt"
+        pageType="ContactPage"
+        description="Kontakt für Brandschutz in Köln: unverbindliche Erstberatung per Formular, E-Mail, Telefon oder WhatsApp."
+        serviceName="Brandschutz-Erstberatung Köln"
+        serviceType={["Brandschutzberatung", "Erstberatung Brandschutz", "Kontakt Brandschutz Köln"]}
+      />
       <section className="border-b border-stone-200 bg-white py-16 sm:py-20">
         <div className="container-narrow">
           <h1 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">

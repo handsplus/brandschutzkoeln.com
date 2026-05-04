@@ -6,6 +6,13 @@ import { SITE, CONTACT, LEGAL } from "@/lib/constants";
  * Wird von Suchmaschinen für Rich Snippets genutzt.
  */
 export function JsonLd() {
+  const geo = { "@type": "GeoCoordinates", latitude: 50.9375, longitude: 6.9603 };
+  const areaServed = [
+    { "@type": "City", name: "Köln" },
+    { "@type": "AdministrativeArea", name: "Nordrhein-Westfalen" },
+    { "@type": "Country", name: "Deutschland" },
+  ];
+
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -13,15 +20,28 @@ export function JsonLd() {
     name: SITE.name,
     alternateName: [SITE.shortName, "Brandschutz Köln"],
     url: siteUrl,
-    description: `${SITE.tagline} Professioneller Brandschutz für Unternehmen, Immobilien und Projekte in ${SITE.region}.`,
+    description: `${SITE.tagline} Professioneller Brandschutz für Unternehmen, Immobilien und Projekte in ${SITE.region} – ${SITE.expertRolePlural}.`,
     email: CONTACT.email,
     telephone: CONTACT.phoneTel,
-    areaServed: {
-      "@type": "GeoCircle",
-      geoMidpoint: { "@type": "GeoCoordinates", latitude: 50.9375, longitude: 6.9603 },
-      geoRadius: "50000",
+    areaServed,
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: CONTACT.email,
+      telephone: CONTACT.phoneTel,
+      areaServed,
+      availableLanguage: ["de-DE"],
     },
-    sameAs: [SITE.groupWebsite],
+    knowsAbout: [
+      "Brandschutz",
+      "Brandschutzberatung",
+      "Brandschutzkonzept",
+      "Brandschutzordnung",
+      "Feuerwehrplan",
+      "Brandschutzhelfer-Ausbildung",
+      "Brandschutzgutachten",
+    ],
+    sameAs: [SITE.groupWebsite, SITE.googleReviewsUrl],
   };
 
   const webSite = {
@@ -33,14 +53,21 @@ export function JsonLd() {
     description: `Professioneller Brandschutz für Unternehmen, Immobilien und Projekte in ${SITE.region}.`,
     publisher: { "@id": `${siteUrl}/#organization` },
     inLanguage: "de-DE",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${siteUrl}/kontakt?anfrage={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
   };
 
   const localBusiness = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "@id": `${siteUrl}/#organization`,
+    "@id": `${siteUrl}/#local-business`,
+    isPartOf: { "@id": `${siteUrl}/#organization` },
     name: `${SITE.name} – Brandschutz Köln`,
-    description: "Brandschutzberatung, Brandschutzkonzepte, Brandschutzordnungen, Feuerwehrpläne und Brandschutzhelfer-Ausbildung in Köln.",
+    description:
+      "Brandschutzberatung, Brandschutzkonzepte, Brandschutzordnungen, Feuerwehrpläne, Brandschutzhelfer-Ausbildung und fachliche Einschätzungen durch Brandschutzsachverständige in Köln.",
     url: siteUrl,
     email: CONTACT.email,
     telephone: CONTACT.phoneTel,
@@ -49,15 +76,20 @@ export function JsonLd() {
       streetAddress: LEGAL.addressStreet,
       postalCode: LEGAL.addressZip,
       addressLocality: LEGAL.addressCity,
+      addressCountry: "DE",
     },
-    areaServed: "Köln und Umgebung",
+    geo,
+    areaServed,
+    availableLanguage: ["de-DE"],
     priceRange: "$$",
     serviceType: [
+      "Brandschutzsachverständiger",
       "Brandschutzberatung",
       "Brandschutzkonzept",
       "Brandschutzordnung",
       "Feuerwehrplan",
       "Brandschutzhelfer Ausbildung",
+      "Brandschutzgutachten",
     ],
   };
 
@@ -78,3 +110,4 @@ export function JsonLd() {
     </>
   );
 }
+

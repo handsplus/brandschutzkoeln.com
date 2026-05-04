@@ -6,7 +6,7 @@
 |--------|--------|
 | Git **main** = **origin/main** (`handsplus/brandschutzkoeln.com`) | ✓ |
 | Redirect-Fix (**ERR_TOO_MANY_REDIRECTS**) in `next.config.ts` | ✓ |
-| Kanonische URL **https://www.brandschutzkoeln.com** (SEO, Layout) | ✓ |
+| Kanonische URL **https://brandschutzkoeln.com** (SEO, Layout, ohne `www`) | ✓ |
 | `npm run build` (Production) | ✓ nach Bedarf `.next` löschen |
 | `tsc --noEmit` (TypeScript) | ✓ |
 
@@ -23,8 +23,8 @@ npm run build
 
 1. **Vercel** → Projekt **brandschutzkoeln-com** → **Deployments** → letzter Build **Ready** (nach Git-Push automatisch).
 2. **Test-URLs:**
-   - `https://www.brandschutzkoeln.com`
-   - `https://brandschutzkoeln.com` (Weiterleitung zu www ok)
+   - `https://brandschutzkoeln.com` (Production / kanonisch)
+   - `https://www.brandschutzkoeln.com` (Redirect auf Apex in Vercel)
    - `https://brandschutzkoeln-com.vercel.app`
 3. **IONOS** → DNS nur wie **Vercel → Domains** anzeigt.
 4. **Formspree** → „Restrict to Domain“ → `brandschutzkoeln.com` oder `www.brandschutzkoeln.com`.

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Schild mit Flamme">
+  <defs>
+    <linearGradient id="schildRand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c53030"/>
+      <stop offset="50%" stop-color="#9B2423"/>
+      <stop offset="100%" stop-color="#5c1810"/>
+    </linearGradient>
+    <radialGradient id="flammeAussen" cx="50%" cy="88%" r="85%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </radialGradient>
+    <radialGradient id="flammeMitte" cx="48%" cy="82%" r="75%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="55%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </radialGradient>
+    <radialGradient id="flammeKern" cx="50%" cy="78%" r="65%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </radialGradient>
+    <filter id="weichesGluhen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 0.3 0 0 0  0 0 0.3 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#fff"/>
+  <ellipse cx="32" cy="42" rx="9" ry="6" fill="#fecaca" filter="url(#weichesGluhen)" opacity="0.45"/>
+  <path
+    fill="url(#flammeAussen)"
+    d="M32 50C18 49 12 40 14 32C16 24 22 22 27 26C25 24 28 22 30 24C29 21 31 20 32 22C33 20 35 21 34 24C37 22 44 26 46 32C48 40 42 49 32 50z"
+  />
+  <path
+    fill="url(#flammeMitte)"
+    d="M32 46C22 45 19 38 20 34C21 30 24 29 27 31C26 30 28 28 30 29C29 28 30 27 32 28C33 27 35 28 34 30C37 29 42 32 43 36C44 40 39 45 32 46z"
+  />
+  <path
+    fill="url(#flammeKern)"
+    d="M32 42C28 41 25 39 26 36C26 35 28 36 32 38C36 36 39 35 39 36C40 39 36 41 32 42z"
+  />
+  <path
+    fill="none"
+    stroke="url(#schildRand)"
+    stroke-width="2.75"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M32 8 52 18v20c0 14-10 26-20 32C22 64 12 52 12 38V18L32 8z"
+  />
+</svg>

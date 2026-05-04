@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" role="img" aria-labelledby="t">
+  <title id="t">H&amp;S+ Variante C - Minimal Flame</title>
+  <rect width="460" height="100" fill="#fff"/>
+  <!-- Flamme: 2 Formen -->
+  <path fill="#9B2423" d="M36 68c-8-12-2-28 8-36 2 10 12 14 10 24-2 8-10 12-18 12z"/>
+  <path fill="#FEF3C7" d="M38 62c-4-6 0-14 6-18 1 5 6 7 5 12-1 5-6 8-11 6z"/>
+  <text x="88" y="58" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#1c1917">H&amp;S+</text>
+  <text x="88" y="82" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#57534e">Brandschutz K�ln</text>
+</svg>

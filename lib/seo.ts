@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 
-/** Kanonische URL (www, ASCII – konsistent mit Vercel & ohne Redirect-Schleifen) */
-const siteUrl = "https://www.brandschutzkoeln.com";
+/** Kanonische URL (Apex, ASCII – muss mit Vercel übereinstimmen: Production = brandschutzkoeln.com, www per 308 dorthin) */
+const siteUrl = "https://brandschutzkoeln.com";
 
 export interface PageSeoOptions {
   title: string;
   description: string;
+  ogDescription?: string;
+  keywords?: string[];
   path?: string;
   noIndex?: boolean;
 }
@@ -17,6 +19,8 @@ const MAX_DESCRIPTION_LENGTH = 160;
 export function createPageMetadata({
   title,
   description,
+  ogDescription,
+  keywords,
   path = "",
   noIndex = false,
 }: PageSeoOptions): Metadata {
@@ -25,12 +29,18 @@ export function createPageMetadata({
     description.length > MAX_DESCRIPTION_LENGTH
       ? description.slice(0, MAX_DESCRIPTION_LENGTH - 3).trim() + "…"
       : description;
+  const trimmedOgDescription = ogDescription
+    ? ogDescription.length > MAX_DESCRIPTION_LENGTH
+      ? ogDescription.slice(0, MAX_DESCRIPTION_LENGTH - 3).trim() + "…"
+      : ogDescription
+    : trimmedDescription;
   return {
     title,
     description: trimmedDescription,
+    keywords,
     openGraph: {
       title,
-      description: trimmedDescription,
+      description: trimmedOgDescription,
       url,
       locale: "de_DE",
       type: "website",

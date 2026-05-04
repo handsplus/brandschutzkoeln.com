@@ -162,7 +162,7 @@ export function ContactForm() {
           disabled={status === "loading"}
           className="w-full rounded-lg bg-brand-red px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-brand-redDark focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red focus-visible:ring-offset-2 disabled:opacity-60 sm:w-auto"
         >
-          {status === "loading" ? "Wird gesendet …" : "Erstberatung anfordern"}
+          {status === "loading" ? "Wird gesendet …" : "Angebot anfordern"}
         </button>
       </div>
     </form>

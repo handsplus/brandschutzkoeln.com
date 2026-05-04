@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 /**
- * Kanonische Produktions-URL (muss mit Vercel-Domain-Setup übereinstimmen: www als Ziel,
- * keine Next-Redirects für dieselben Hosts, die Vercel bereits apex ↔ www weiterleitet –
- * sonst ERR_TOO_MANY_REDIRECTS).
+ * Kanonische Produktions-URL (muss mit Vercel übereinstimmen: Apex = Production,
+ * www per Vercel 308 → Apex. Keine Next-Redirects für brandschutzkoeln.com / www.)
  */
-const canonicalBase = "https://www.brandschutzkoeln.com";
+const canonicalBase = "https://brandschutzkoeln.com";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,

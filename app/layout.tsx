@@ -15,15 +15,30 @@ const geistSans = Geist({
 });
 
 const defaultMetadata = createPageMetadata({
-  title: "Brandschutz Köln – Brandschutz beginnt mit Expertise",
+  title: "Brandschutz Köln | Brandschutzsachverständiger H&S+",
+  /** Kürzer für SERP-Snippets (Tools messen oft Pixelbreite; unter ca. 155 Zeichen ist sicher). */
   description:
-    "Brandschutz beginnt mit Expertise: Konzepte, Brandschutzordnungen, Feuerwehrpläne, Brandschutzhelfer-Ausbildung in Köln. Ihr Spezialist – H&S+.",
+    "Brandschutzsachverständiger Köln (H&S+): Konzepte, Ordnungen, Feuerwehrpläne, Schulungen. Fachberatung für Gewerbe & Immobilien.",
+  ogDescription:
+    "Brandschutz Köln mit H&S+: Konzepte, Ordnungen, Pläne & Brandschutzhelfer-Ausbildung – kompetente Begleitung.",
+  keywords: [
+    "Brandschutz Köln",
+    "Brandschutzsachverständiger Köln",
+    "Brandschutzberatung Köln",
+    "Brandschutzkonzept Köln",
+  ],
   path: "/",
 });
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  metadataBase: new URL("https://www.brandschutzkoeln.com"),
+  alternates: {
+    ...defaultMetadata.alternates,
+    languages: {
+      "de-DE": "https://brandschutzkoeln.com/",
+    },
+  },
+  metadataBase: new URL("https://brandschutzkoeln.com"),
   title: {
     default: defaultMetadata.title as string,
     template: "%s | Brandschutz Köln | H&S+",
@@ -31,13 +46,17 @@ export const metadata: Metadata = {
   applicationName: SITE.name,
   icons: {
     icon: [
-      { url: "/icon.svg?v=2", type: "image/svg+xml" },
-      { url: "/icon.svg?v=2", type: "image/svg+xml", sizes: "any" },
+      { url: "/icon.svg?v=4", type: "image/svg+xml" },
+      { url: "/icon.svg?v=4", type: "image/svg+xml", sizes: "any" },
     ],
-    apple: [{ url: "/icon.svg?v=2", type: "image/svg+xml" }],
+    shortcut: [{ url: "/icon.svg?v=4", type: "image/svg+xml" }],
+    apple: [{ url: "/icon.svg?v=4", type: "image/svg+xml" }],
   },
   keywords: [
     "Brandschutz Köln",
+    "Brandschutzsachverständiger Köln",
+    "Brandschutz Sachverständiger",
+    "Brandschutz Gutachten Köln",
     "Brandschutzkonzept Köln",
     "Brandschutzberatung Köln",
     "Brandschutzhelfer Ausbildung Köln",
@@ -45,7 +64,7 @@ export const metadata: Metadata = {
     "Brandschutzordnung",
     "Evakuierungskonzept",
   ],
-  authors: [{ name: SITE.name, url: "https://www.brandschutzkoeln.com" }],
+  authors: [{ name: SITE.name, url: "https://brandschutzkoeln.com" }],
   creator: SITE.name,
   formatDetection: { telephone: false, email: false },
   twitter: {
