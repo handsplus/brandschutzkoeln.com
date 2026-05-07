@@ -50,7 +50,20 @@ export default function LeistungenPage() {
             Schulung und Begleitung vor Ort. Mehr zu den Anforderungen in der Region finden Sie unter{" "}
             <Link href="/brandschutz-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
               Brandschutz in Köln
-            </Link>.
+            </Link>
+            . Häufig gesuchte Themen:{" "}
+            <Link href="/brandschutzkonzept-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+              Brandschutzkonzept Köln
+            </Link>
+            ,{" "}
+            <Link href="/brandschutzordnung-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+              Brandschutzordnung Köln
+            </Link>{" "}
+            und{" "}
+            <Link href="/brandschutzhelfer-ausbildung-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+              Brandschutzhelfer-Ausbildung Köln
+            </Link>
+            .
           </p>
         </div>
       </section>

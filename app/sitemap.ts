@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { siteUrl } from "@/lib/seo";
-import { NAV_LINKS } from "@/lib/constants";
+import { NAV_LINKS, SEO_LINKS } from "@/lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl;
@@ -10,6 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: (href === "/" ? "weekly" : "monthly") as "weekly" | "monthly",
       priority: href === "/" ? 1 : 0.8,
+    })),
+    ...SEO_LINKS.map(({ href }) => ({
+      url: `${base}${href}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     })),
     {
       url: `${base}/impressum`,

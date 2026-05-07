@@ -1,6 +1,6 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS, SITE, CONTACT, FOOTER_WEBSITES } from "@/lib/constants";
+import { NAV_LINKS, SITE, CONTACT, FOOTER_WEBSITES, SEO_LINKS } from "@/lib/constants";
 
 const linkBase =
   "transition-colors duration-200 focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red focus-visible:ring-offset-2 focus-visible:ring-offset-stone-900";
@@ -90,6 +90,16 @@ export function Footer() {
                   Impressum & Datenschutz
                 </Link>
               </li>
+            </ul>
+            <h3 className={`${sectionHeading} mt-8`}>Themen</h3>
+            <ul className="mt-5 flex flex-col gap-2.5 text-sm text-stone-400" role="list">
+              {SEO_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className={`hover:text-white ${linkBase}`}>
+                    {label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

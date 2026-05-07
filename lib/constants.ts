@@ -44,6 +44,15 @@ export const NAV_LINKS = [
   { href: "/kontakt", label: "Kontakt" },
 ] as const;
 
+/** SEO-Landingpages für häufig gesuchte Themen. */
+export const SEO_LINKS = [
+  { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
+  { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung Köln" },
+  { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer Ausbildung Köln" },
+  { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
+  { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+] as const;
+
 /** Kontaktdaten (wie sigeko.koeln) */
 export const CONTACT = {
   email: "kontakt@handsplus.de",

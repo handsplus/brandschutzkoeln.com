@@ -64,6 +64,24 @@ export default function HomePage() {
         moreLabel="Alle Leistungen ansehen"
       />
 
+      <section className="py-12 bg-white" aria-labelledby="haeufig-gesucht">
+        <div className="container-narrow">
+          <SectionHeader
+            id="haeufig-gesucht"
+            title="Häufig gesuchte Themen in Köln"
+            subtitle="Direkt zu den wichtigsten Brandschutz-Themen."
+            align="center"
+          />
+          <ul className="mt-2 grid gap-3 sm:grid-cols-2" role="list">
+            <li><Link href="/brandschutzkonzept-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzkonzept Köln</Link></li>
+            <li><Link href="/brandschutzordnung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzordnung Köln</Link></li>
+            <li><Link href="/brandschutzhelfer-ausbildung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzhelfer-Ausbildung Köln</Link></li>
+            <li><Link href="/brandschutzbeauftragter-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzbeauftragter Köln</Link></li>
+            <li className="sm:col-span-2"><Link href="/brandschutzberatung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzberatung Köln</Link></li>
+          </ul>
+        </div>
+      </section>
+
       {/* Vertrauenselemente */}
       <section className="py-16 sm:py-20 bg-stone-50" aria-labelledby="vertrauen">
         <div className="container-wide">
