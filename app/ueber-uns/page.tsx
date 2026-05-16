@@ -56,9 +56,9 @@ export default function UeberUnsPage() {
               {SITE.name} ({SITE.shortName}) ist die Marke für professionellen Brandschutz in Köln.
               Wir konzentrieren uns ausschließlich auf die Sparte Brandschutz – von der
               Beratung über Konzepte und Brandschutzordnungen bis zur Ausbildung von
-              Brandschutzhelfern und der Begleitung bei behördlichen Anforderungen. Damit
-              sind wir kein Generalist, sondern Ihr fachlicher Partner, wenn es um
-              Sicherheit, Rechtskonformität und praxisnahe Lösungen geht.
+              Brandschutzhelfern und der Begleitung bei behördlichen Anforderungen. So
+              sind wir Ihr fachlicher Partner für Sicherheit, Rechtskonformität und
+              praxisnahe Lösungen.
             </p>
           </div>
         </div>
