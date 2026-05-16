@@ -1,6 +1,7 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS, SITE, CONTACT, FOOTER_WEBSITES, SEO_LINKS } from "@/lib/constants";
+import { RATGEBER_ARTICLES } from "@/content/ratgeber";
 
 const linkBase =
   "transition-colors duration-200 focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red focus-visible:ring-offset-2 focus-visible:ring-offset-stone-900";
@@ -90,6 +91,21 @@ export function Footer() {
                   Impressum & Datenschutz
                 </Link>
               </li>
+            </ul>
+            <h3 className={`${sectionHeading} mt-8`}>Ratgeber</h3>
+            <ul className="mt-5 flex flex-col gap-2.5 text-sm text-stone-400" role="list">
+              <li>
+                <Link href="/ratgeber" className={`hover:text-white ${linkBase}`}>
+                  Alle Ratgeber-Artikel
+                </Link>
+              </li>
+              {RATGEBER_ARTICLES.map(({ slug, title }) => (
+                <li key={slug}>
+                  <Link href={`/ratgeber/${slug}`} className={`hover:text-white ${linkBase}`}>
+                    {title}
+                  </Link>
+                </li>
+              ))}
             </ul>
             <h3 className={`${sectionHeading} mt-8`}>Themen</h3>
             <ul className="mt-5 flex flex-col gap-2.5 text-sm text-stone-400" role="list">

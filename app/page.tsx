@@ -69,10 +69,15 @@ export default function HomePage() {
           <SectionHeader
             id="haeufig-gesucht"
             title="Häufig gesuchte Themen in Köln"
-            subtitle="Direkt zu den wichtigsten Brandschutz-Themen."
+            subtitle="Leistungen und Ratgeber zu BauO NRW und Brandschutz."
             align="center"
           />
-          <ul className="mt-2 grid gap-3 sm:grid-cols-2" role="list">
+          <p className="mt-4 text-center">
+            <Link href="/ratgeber" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+              Zum Ratgeber: BauO NRW &amp; Brandschutz →
+            </Link>
+          </p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2" role="list">
             <li><Link href="/brandschutzkonzept-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzkonzept Köln</Link></li>
             <li><Link href="/brandschutzordnung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzordnung Köln</Link></li>
             <li><Link href="/brandschutzhelfer-ausbildung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzhelfer-Ausbildung Köln</Link></li>

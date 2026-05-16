@@ -1,5 +1,6 @@
 import { siteUrl } from "@/lib/seo";
 import { CONTACT, SITE } from "@/lib/constants";
+import { RATGEBER_ARTICLES } from "@/content/ratgeber";
 
 export function GET() {
   const content = [
@@ -31,6 +32,8 @@ export function GET() {
     `- Brandschutz in Koeln: ${siteUrl}/brandschutz-koeln`,
     `- Ueber uns: ${siteUrl}/ueber-uns`,
     `- Kontakt: ${siteUrl}/kontakt`,
+    `- Ratgeber: ${siteUrl}/ratgeber`,
+    ...RATGEBER_ARTICLES.map((a) => `- Ratgeber: ${siteUrl}/ratgeber/${a.slug}`),
     `- Impressum: ${siteUrl}/impressum`,
     `- Sitemap: ${siteUrl}/sitemap.xml`,
     "",

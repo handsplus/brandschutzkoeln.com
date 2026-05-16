@@ -39,6 +39,7 @@ export const FOOTER_WEBSITES = [
 export const NAV_LINKS = [
   { href: "/", label: "Start" },
   { href: "/leistungen", label: "Leistungen" },
+  { href: "/ratgeber", label: "Ratgeber" },
   { href: "/brandschutz-koeln", label: "Brandschutz in Köln" },
   { href: "/ueber-uns", label: "Über uns" },
   { href: "/kontakt", label: "Kontakt" },
