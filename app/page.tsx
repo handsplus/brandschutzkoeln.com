@@ -89,6 +89,9 @@ export default function HomePage() {
             <li><Link href="/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Imbiss &amp; Nutzungsänderung (Ratgeber)</Link></li>
             <li><Link href="/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Eilbegehung Restaurant (Ratgeber)</Link></li>
             <li><Link href="/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Bestandsschutz TGA (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Feuerschutztüren Bestand (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/brandschau-koeln-feuerwehr" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschau Köln (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/lagerhalle-buero-umnutzung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Lagerhalle Umnutzung (Ratgeber)</Link></li>
           </ul>
         </div>
       </section>

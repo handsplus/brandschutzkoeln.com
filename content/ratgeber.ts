@@ -2,24 +2,10 @@
  * Ratgeber-Artikel: BauO NRW & Brandschutz (eigene Formulierungen, praxisnah für Köln).
  */
 
-export type RatgeberSection = {
-  id: string;
-  title: string;
-  paragraphs: string[];
-  list?: string[];
-};
+import { RATGEBER_ARTICLES_BATCH2 } from "./ratgeber-articles-batch2";
 
-export type RatgeberArticle = {
-  slug: string;
-  title: string;
-  excerpt: string;
-  metaTitle: string;
-  metaDescription: string;
-  keywords: string[];
-  sections: RatgeberSection[];
-  relatedLinks: { href: string; label: string }[];
-  faq: { question: string; answer: string }[];
-};
+export type { RatgeberArticle, RatgeberSection } from "./ratgeber-types";
+import type { RatgeberArticle } from "./ratgeber-types";
 
 export const RATGEBER_ARTICLES: RatgeberArticle[] = [
   {
@@ -322,6 +308,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       { href: "/ratgeber/teilsanierung-buero-brandschutz-koeln", label: "Teilsanierung Büro" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
       { href: "/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln", label: "Ladenlokal zum Imbiss (Praxis)" },
+      { href: "/ratgeber/lagerhalle-buero-umnutzung-koeln", label: "Lagerhalle zu Büro" },
+      { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau Köln" },
     ],
     faq: [
       {
@@ -377,9 +365,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
     ],
     relatedLinks: [
       { href: "/brandschutz-koeln", label: "Brandschutz in Köln" },
+      { href: "/ratgeber/bauantrag-brandschutz-unterlagen-koeln", label: "Bauantrag-Checkliste" },
       { href: "/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln", label: "Zwischenbescheid Brandschutz" },
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
-      { href: "/kontakt", label: "Kontakt aufnehmen" },
     ],
     faq: [
       {
@@ -444,9 +432,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
     ],
     relatedLinks: [
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
+      { href: "/ratgeber/sprinkler-rueckbau-bma-nutzungsaenderung-koeln", label: "Sprinkler-Rückbau & BMA" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
-      { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten nach BauO NRW" },
-      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+      { href: "/ratgeber/abschottungen-durchbrueche-baustelle-koeln", label: "Abschottungen Baustelle" },
     ],
     faq: [
       {
@@ -732,10 +720,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/feuerwehrplan-fluchtplaene-pflicht-koeln", label: "Feuerwehr- & Fluchtpläne" },
       { href: "/leistungen", label: "Alle Leistungen inkl. Pläne" },
       { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung Köln" },
-      { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter" },
-      { href: "/ratgeber/escape-room-brandschutzordnung-fluchtplan", label: "Besucherintensive Nutzungen" },
+      { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau Köln" },
     ],
     faq: [
       {
@@ -1329,6 +1317,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       },
     ],
   },
+  ...RATGEBER_ARTICLES_BATCH2,
 ];
 
 export function getRatgeberArticle(slug: string): RatgeberArticle | undefined {
