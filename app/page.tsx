@@ -3,6 +3,7 @@ import { Hero } from "@/components/ui/Hero";
 import { LeistungsTeaser } from "@/components/ui/LeistungsTeaser";
 import { CTA } from "@/components/ui/CTA";
 import { ReviewsSection } from "@/components/sections/ReviewsSection";
+import { PraxisFaelleSection } from "@/components/sections/PraxisFaelleSection";
 import { getLeistungenTeaser } from "@/content/leistungen";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
@@ -64,7 +65,9 @@ export default function HomePage() {
         moreLabel="Alle Leistungen ansehen"
       />
 
-      <section className="py-12 bg-white" aria-labelledby="haeufig-gesucht">
+      <PraxisFaelleSection />
+
+      <section className="py-12 bg-stone-50" aria-labelledby="haeufig-gesucht">
         <div className="container-narrow">
           <SectionHeader
             id="haeufig-gesucht"

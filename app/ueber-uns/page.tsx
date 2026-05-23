@@ -6,11 +6,12 @@ import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { SITE } from "@/lib/constants";
+import { PraxisFaelleSection } from "@/components/sections/PraxisFaelleSection";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Über uns | Brandschutzsachverständiger in Köln",
   description:
-    "H&S+ als Brandschutzsachverständiger in Köln: Mission, Werte, regionale Expertise und fachliche Begleitung für rechtssicheren, praxisnahen Brandschutz.",
+    "H&S+ als Brandschutzsachverständiger in Köln: Praxisfälle, Mission, Werte und fachliche Begleitung für rechtssicheren Brandschutz bei Genehmigung und Betrieb.",
   ogDescription:
     "Lernen Sie H&S+ kennen: Brandschutzsachverständiger in Köln mit Fokus auf klare, rechtssichere und praxisnahe Lösungen.",
   keywords: [
@@ -64,6 +65,8 @@ export default function UeberUnsPage() {
         </div>
       </section>
 
+      <PraxisFaelleSection variant="compact" background="stone" />
+
       <section className="py-16 sm:py-20 bg-white" aria-labelledby="mission">
         <div className="container-narrow">
           <SectionHeader
@@ -104,7 +107,7 @@ export default function UeberUnsPage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 bg-stone-50" aria-labelledby="beste-wahl">
+      <section className="py-16 sm:py-20 bg-stone-50 border-t border-stone-200" aria-labelledby="beste-wahl">
         <div className="container-narrow">
           <SectionHeader
             id="beste-wahl"

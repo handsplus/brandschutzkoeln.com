@@ -26,8 +26,12 @@ export function ReviewsSection() {
             Bewertung: 5 von 5 Sternen auf Google.
           </p>
 
+          <p className="mt-6 text-center text-sm text-stone-600">
+            Beispiel aus einem abgeschlossenen Genehmigungsprojekt in Köln – Gastronomie und Nutzungsänderung.
+          </p>
+
           {/* Beispiel-Zitat (Brandschutz) */}
-          <blockquote className="mt-6 border-l-4 border-brand-red pl-4 text-stone-600 sm:pl-6">
+          <blockquote className="mt-4 border-l-4 border-brand-red pl-4 text-stone-600 sm:pl-6">
             <p className="italic">
               „Wir haben im Rahmen unserer Baugenehmigung mit der Firma im Bereich Brandschutz
               zusammengearbeitet und sind äußerst zufrieden. Das Team war sehr kompetent,
