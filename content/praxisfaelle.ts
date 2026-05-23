@@ -20,11 +20,11 @@ export const PRAXISFAELLE: Praxisfall[] = [
     industry: "Gastronomie",
     title: "Restaurant in Köln – Nutzungsänderung nach Planabweichung",
     situation:
-      "Bestehende Baugenehmigung für ein Restaurant, die bauliche Abnahme war wegen Abweichungen beim Innenausbau ausgesetzt.",
+      "Bestehende Baugenehmigung für eine Schank- und Speisegaststätte (GK 5); die bauliche Abnahme war wegen Abweichungen beim Innenausbau in Leichtbauweise ausgesetzt.",
     approach:
-      "Brandschutztechnische Neubewertung der geänderten Leichtbauwände – als Ergänzung zum bereits genehmigten Brandschutzkonzept, ohne Verschlechterung des Schutzniveaus.",
+      "Brandschutztechnische Neubewertung nur der geänderten Innenwände – als Ergänzung zum genehmigten Gesamtkonzept, mit Begehung und klarer Einordnung: keine Verschlechterung des Brandschutzes.",
     result:
-      "Baugenehmigung für die angepasste Ausführung – Grundlage für die Fortführung von Abnahme und Betrieb.",
+      "Neue Baugenehmigung für die angepasste Ausführung – Stellungnahme Bestandteil der Genehmigung, Abnahme kann fortgeführt werden.",
     ratgeberHref: "/ratgeber/umbau-nutzungsaenderung-brandschutz",
     ratgeberLabel: "Umbau & Nutzungsänderung",
   },

@@ -12,64 +12,129 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
     slug: "gebaeudeklassen-brandschutz-bauo-nrw",
     title: "Gebäudeklassen und Brandschutz nach BauO NRW",
     excerpt:
-      "Die Gebäudeklasse bestimmt viele brandschutztechnische Anforderungen. Was GK 1 bis 5 für Ihr Objekt bedeutet – verständlich erklärt.",
+      "GK 1 bis 5 nach BauO NRW: Einordnung nach Höhe und Nutzungseinheiten, typische Feuerwiderstände der Bauteile und was das für Rettungswege und Genehmigung bedeutet.",
     metaTitle: "Gebäudeklassen NRW | Brandschutz BauO | H&S+",
     metaDescription:
-      "Gebäudeklassen 1–5 nach BauO NRW: Einordnung, Brandschutzanforderungen & Praxis in Köln. Ratgeber von H&S+ – Beratung anfragen.",
+      "Gebäudeklassen 1–5 BauO NRW: Kriterien, Feuerwiderstand feuerhemmend bis feuerbeständig, Steck- vs. Drehleiter. Praxis Köln – H&S+ berät.",
     keywords: [
       "Gebäudeklassen NRW",
       "Gebäudeklasse Brandschutz",
       "BauO NRW Gebäudeklassen",
       "Brandschutz Gebäudeklasse",
       "Brandschutz Köln",
+      "feuerhemmend feuerbeständig",
     ],
     sections: [
       {
         id: "was-sind-gk",
         title: "Was sind Gebäudeklassen?",
         paragraphs: [
-          "Die Bauordnung für das Land Nordrhein-Westfalen (BauO NRW) teilt Gebäude in fünf Gebäudeklassen (GK 1 bis GK 5) ein. Die Einstufung hängt von Nutzung, Größe, Höhe und der Zahl möglicher Aufenthaltsräume ab – nicht vom „Gefühl“, wie gefährlich ein Betrieb ist.",
-          "Für den Brandschutz ist die Gebäudeklasse zentral: Sie steuert unter anderem Anforderungen an tragende Bauteile, Fluchtwege, Brandabschnitte und die Notwendigkeit besonderer Nachweise.",
+          "Die Bauordnung für das Land Nordrhein-Westfalen (BauO NRW) teilt Gebäude in fünf Gebäudeklassen (GK 1 bis GK 5) ein. Die Einstufung ist nutzungsneutral – sie hängt vor allem von Gebäudehöhe, Zahl und Größe der Nutzungseinheiten sowie davon ab, ob ein Gebäude freistehend ist.",
+          "Für den Brandschutz ist die Gebäudeklasse zentral: Sie bestimmt typische Anforderungen an tragende und nichttragende Bauteile, Brand- und Rauchwände, Decken, Rettungswege und oft den Umfang der Nachweise im Genehmigungsverfahren.",
+          "Wichtig: Die Gebäudeklasse ist nicht dasselbe wie „Sonderbau“. Ein Gewerbebetrieb kann GK 3 sein und trotzdem Sonderbau-Anforderungen auslösen – beides muss geprüft werden.",
         ],
       },
       {
-        id: "ueberblick",
-        title: "Überblick GK 1 bis GK 5",
+        id: "hoehe",
+        title: "Gebäudehöhe (OKF) – woran gemessen wird",
         paragraphs: [
-          "Je höher die Gebäudeklasse, desto strenger sind in der Regel die baulichen und organisatorischen Brandschutzanforderungen. In der Praxis entscheidet oft die Nutzung (z. B. Versammlungsstätte, Pflege, Industrie) über die Einordnung.",
+          "Maßgeblich ist die Höhe der Fußbodenoberkante (OKF) des höchsten Geschosses, in dem ein Aufenthaltsraum möglich ist – gemessen ab der Geländeoberfläche im Mittel (§ 2 Abs. 3 BauO NRW).",
+          "Kellergeschosse zählen bei der Flächenberechnung der Nutzungseinheiten in der Regel nicht mit (Brutto-Grundflächen ohne Keller). Das erklärt, warum ein kompakter zweigeschossiger Gewerbebau anders eingestuft werden kann als ein scheinbar „niedriges“ Gebäude mit ausgebautem Dachgeschoss voller Aufenthaltsräume.",
+        ],
+      },
+      {
+        id: "einordnung",
+        title: "Einordnung GK 1 bis GK 5 (BauO NRW)",
+        paragraphs: [
+          "Die folgende Übersicht fasst die gesetzlichen Einstufungskriterien zusammen. Im Einzelfall prüft die Bauaufsicht das konkrete Vorhaben.",
         ],
         list: [
-          "GK 1: kleinere, weniger komplexe Gebäude mit begrenzter Personenzahl",
-          "GK 2 und 3: mittlere Komplexität, häufig Gewerbe und Büros",
-          "GK 4 und 5: größere oder höhere Gebäude mit erhöhtem Schutzbedarf",
-          "Sonderbauten: können zusätzliche Anforderungen auslösen (eigener Regelungskomplex)",
+          "GK 1a – freistehend: Höhe bis 7 m, höchstens 2 Nutzungseinheiten, Summe der Brutto-Grundflächen aller NE höchstens 400 m² (ohne Keller)",
+          "GK 1b – land- oder forstwirtschaftliche Nutzung (und vergleichbare Nutzungen): eigene Zuordnung innerhalb GK 1",
+          "GK 2 – nicht freistehend: dieselben Grenzen wie GK 1a (bis 7 m, höchstens 2 NE, insgesamt höchstens 400 m²)",
+          "GK 3 – sonstige Gebäude mit Höhe bis 7 m, die nicht GK 1 oder 2 sind (z. B. mehr NE, größere Gesamtfläche, höhere Komplexität)",
+          "GK 4 – Höhe bis 13 m und jede Nutzungseinheit höchstens 400 m² in einem Geschoss (ohne Keller)",
+          "GK 5 – alle übrigen Gebäude, einschließlich unterirdischer Bauwerke (z. B. Höhe über 13 m oder mindestens eine NE über 400 m² in einem Geschoss)",
         ],
       },
       {
-        id: "praxis",
-        title: "Was das für Betriebe in Köln bedeutet",
+        id: "brandschutz-bauteile",
+        title: "Typische brandschutztechnische Anforderungen an Bauteile",
         paragraphs: [
-          "Bei Neubau, Umbau oder Nutzungsänderung prüft die Bauaufsicht, ob die geplante Nutzung zur Gebäudeklasse passt und welche brandschutztechnischen Nachweise erforderlich sind. Fehlen belastbare Unterlagen, verzögert sich die Genehmigung oder entstehen teure Nachforderungen.",
-          "Wir unterstützen Sie dabei, die brandschutzrechtliche Einordnung nachvollziehbar darzustellen und passende Konzepte oder Stellungnahmen vorzubereiten.",
+          "Je höher die Gebäudeklasse, desto höher sind in der Regel die geforderten Feuerwiderstandsklassen der baulichen Bauteile (z. B. feuerhemmend F 30, hochfeuerhemmend F 60, feuerbeständig F 90). Die genauen Werte stehen in den Anlagen zur BauO NRW und hängen von der Bauteilart ab (Wand, Decke, Dach, Brandwand).",
+          "Die nachfolgende Darstellung ist eine Praxisübersicht – keine Ersatz-Berechnung für ein Genehmigungsverfahren:",
+        ],
+        list: [
+          "GK 1 / GK 2: innenliegende Wände und Decken in der Regel feuerhemmend; bei GK 2 zusätzlich Anforderungen an trennende Wände zwischen Nutzungseinheiten (stärkerer Schutz zur Nachbar-Nutzung)",
+          "GK 3: feuerhemmende Innenbauteile; an kritischen Stellen (z. B. tragende Wände, Brandwände) häufig feuerbeständig; Außenwände und Trennwände mit gestaffelten Anforderungen innen/außen",
+          "GK 4: Decken und innenliegende Wände oft hochfeuerhemmend; tragende Außenwände und Brandwände feuerbeständig; Wände unter zusätzlicher mechanischer Beanspruchung verstärkt",
+          "GK 5: tragende und aussteifende Bauteile, Decken und Brandwände in der Regel feuerbeständig; Brandwände unter mechanischer Beanspruchung ebenfalls feuerbeständig",
+        ],
+      },
+      {
+        id: "feuerwehr",
+        title: "Feuerwehr-Einsatz und Rettungswege (Praxisbezug)",
+        paragraphs: [
+          "Die Gebäudeklasse hängt eng mit der Rettung von Personen über die Feuerwehr zusammen. Vereinfacht gilt in der Praxis oft:",
+        ],
+        list: [
+          "GK 1 bis GK 3 (Gebäudehöhe bis 7 m): Rettung über Steckleitern und Innenangriffe häufig im Vordergrund – die Einsatzplanung ist „niedrig“",
+          "GK 4 und GK 5 (bis 13 m bzw. darüber): für die Personenrettung von außen wird planerisch eher mit Drehleitern gerechnet; Rettungswege und Anleitbarkeit müssen nachvollziehbar sein",
+        ],
+      },
+      {
+        id: "feuerwehr-einordnung",
+        title: "Einordnung für Planung und Genehmigung",
+        paragraphs: [
+          "Die Steck- und Drehleiter-Regel ist eine vereinfachte Orientierung, kein Ersatz für brandschutztechnische Planung. Sie erklärt aber, warum bei Geschäftshäusern und Mehrfamilienhäusern (häufig GK 4/5) die Anforderungen an Rettungswege und Feuerwehrzufahrten strenger sind als bei einem kleinen freistehenden Gebäude.",
+        ],
+      },
+      {
+        id: "praxis-koeln",
+        title: "Was das in Köln bedeutet",
+        paragraphs: [
+          "In Köln sind Geschäfts- und Wohnhäuser mit Gewerbe im Erdgeschoss (Mischnutzung, oft GK 5) sowie kleinere Gewerbe- und Gastronomieobjekte (häufig GK 3 bis 5) typisch. Bei Nutzungsänderungen – etwa Laden zu Restaurant, Praxiszusammenlegung, Studio im Untergeschoss – kann sich die Gebäudeklasse nicht ändern, aber die Sonderbau-Regeln oder der Nachweis-Umfang schon.",
+          "Wir ordnen im Genehmigungsverfahren ein, welche Bauteile und Nachweise für Ihr Vorhaben relevant sind, und bereiten Stellungnahmen oder Konzepte vor.",
+        ],
+      },
+      {
+        id: "hinweis",
+        title: "Grenzen dieser Übersicht",
+        paragraphs: [
+          "Abweichungen, Bestandsschutz, Denkmalschutz und Sonderbauten können strengere oder abweichende Lösungen erfordern. Für verbindliche Auskünfte ist immer das konkrete Bauvorhaben mit Plänen und Nutzungsbeschreibung maßgeblich – nicht allein eine allgemeine Gebäudeklassen-Tabelle.",
         ],
       },
     ],
     relatedLinks: [
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
       { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
-      { href: "/brandschutz-koeln", label: "Brandschutz in Köln" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Wann Brandschutzkonzept nötig?" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
       {
         question: "Wer legt die Gebäudeklasse fest?",
         answer:
-          "Die Einordnung erfolgt anhand der BauO NRW anhand objektbezogener Merkmale. In Genehmigungsverfahren bewertet die Bauaufsicht die geplante Nutzung und Dimensionierung.",
+          "Die Einordnung folgt aus § 2 Abs. 3 BauO NRW anhand von Höhe, Nutzungseinheiten und Freistehendheit. Im Genehmigungsverfahren bewertet die Bauaufsicht die eingereichten Unterlagen.",
       },
       {
         question: "Kann sich die Gebäudeklasse durch Umbau ändern?",
         answer:
-          "Ja. Nutzungsänderungen, Vergrößerungen oder neue Aufenthaltsräume können eine andere Einordnung und damit neue Brandschutzanforderungen auslösen.",
+          "Die Klasse selbst ändert sich nur, wenn sich Höhe, Zahl oder Größe der Nutzungseinheiten ändern. Umbauten können aber neue brandschutztechnische Anforderungen oder Sonderbau-Pflichten auslösen – auch innerhalb derselben GK.",
+      },
+      {
+        question: "Was bedeutet feuerhemmend vs. feuerbeständig?",
+        answer:
+          "Feuerhemmend (z. B. F 30) hält Feuer für eine begrenzte Zeit stand. Feuerbeständig (z. B. F 90) für länger – typisch bei höheren Gebäudeklassen für tragende Bauteile und Brandwände. Die genaue Zuordnung steht in den Anlagen zur BauO NRW.",
+      },
+      {
+        question: "Ist ein Zweifamilienhaus immer GK 2?",
+        answer:
+          "Ein nicht freistehendes Zweifamilienhaus mit zwei Nutzungseinheiten und höchstens 400 m² Gesamtfläche (ohne Keller) und Höhe bis 7 m fällt unter GK 2. Freistehend mit denselben Grenzen wäre es GK 1a.",
+      },
+      {
+        question: "Ab wann ist ein Gebäude GK 5?",
+        answer:
+          "Wenn es nicht in GK 1 bis 4 passt – typisch ab mehr als 13 m Höhe (OKF) oder wenn mindestens eine Nutzungseinheit in einem Geschoss größer als 400 m² ist. Viele Geschäftshäuser in Köln sind GK 5.",
       },
     ],
   },
@@ -150,8 +215,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "unterschied",
         title: "Konzept und Stellungnahme – nicht dasselbe",
         paragraphs: [
-          "Ein **Brandschutzkonzept** nach BauPrüfVO ist das umfassende Dokument für genehmigungsbedürftige oder sonderbau-relevante Vorhaben: Fluchtwege, Bauteile, Technik, Löschwasser, betriebliche Maßnahmen – strukturiert für Bauaufsicht und Fachbeteiligte.",
-          "Eine **brandschutztechnische Stellungnahme** beantwortet konkrete Fragen: Ist das Vorhaben mit Bestand und BauO NRW vereinbar? Welche Maßnahmen sind nötig? Sie kann intern oder als Ergänzung zum Antrag dienen – ersetzt aber nicht automatisch ein behördlich verlangtes Konzept.",
+          "Ein  nach BauPrüfVO ist das umfassende Dokument für genehmigungsbedürftige oder sonderbau-relevante Vorhaben: Fluchtwege, Bauteile, Technik, Löschwasser, betriebliche Maßnahmen – strukturiert für Bauaufsicht und Fachbeteiligte.",
+          "Eine  beantwortet konkrete Fragen: Ist das Vorhaben mit Bestand und BauO NRW vereinbar? Welche Maßnahmen sind nötig? Sie kann intern oder als Ergänzung zum Antrag dienen – ersetzt aber nicht automatisch ein behördlich verlangtes Konzept.",
         ],
       },
       {
@@ -172,8 +237,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "ohne-konzept",
         title: "Wann oft keine vollständige Konzeptpflicht",
         paragraphs: [
-          "Bei **Teilsanierungen** ohne Nutzungsänderung (z. B. Büromodernisierung, BMA-Erneuerung) reicht häufig eine begleitende Stellungnahme plus Fachplanung – die Pflichten in den umbauten Bereichen bleiben dennoch vollumfänglich.",
-          "Bei **rein technischen Maßnahmen** ohne Eingriff in tragende oder raumabschließende Bauteile kann der **Bestandsschutz** (§ 59 BauO NRW) greifen, wenn keine neuen Gefahren entstehen.",
+          "Bei  ohne Nutzungsänderung (z. B. Büromodernisierung, BMA-Erneuerung) reicht häufig eine begleitende Stellungnahme plus Fachplanung – die Pflichten in den umbauten Bereichen bleiben dennoch vollumfänglich.",
+          "Bei  ohne Eingriff in tragende oder raumabschließende Bauteile kann der  (§ 59 BauO NRW) greifen, wenn keine neuen Gefahren entstehen.",
         ],
       },
       {
@@ -429,12 +494,41 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Wir empfehlen: Vor-Ort-Termin, maßstäblicher Umbauplan, Abgleich mit Sprinklerunterlagen und frühzeitige Einbindung von Entrauchung/Lüftung, wenn viele Personen in Untergeschossen untergebracht werden.",
         ],
       },
+      {
+        id: "varianten",
+        title: "Varianten im Überblick (Praxis)",
+        paragraphs: [
+          "In der Stellungnahme werden die Lösungswege gegenübergestellt – nicht pauschal „alles neu“, sondern passend zum Bestand:",
+        ],
+        list: [
+          "Variante A: Zusätzliche Sprinklerköpfe in neuen Raumzellen (kein Ersatz der Zentrale)",
+          "Variante B: Trockenbau nur bis ca. 2,50 m – Sprinklerwirkraum an der Decke bleibt offen",
+          "Variante C: Vollhöhenwände nur mit nachgewiesener Durchdringung (Fachplaner Sprinkler/VdS)",
+          "Immer: schriftliche Bestätigung der Instandhaltung oder des Fachplaners Sprinkler für das Genehmigungspaket",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Checkliste vor dem Bauantrag",
+        list: [
+          "Nutzung und maximale Personenzahl schriftlich festhalten",
+          "Maßstäbliche Pläne Ist und geplant (UG, Schnitte, Deckenhöhen)",
+          "Bestehende Sprinklerunterlagen und Einbindung Tiefgarage klären",
+          "Variante Sprinkler/Trockenbau fachlich festlegen und bestätigen lassen",
+          "Flucht- und Rettungswege zum Bestand abgleichen",
+          "Entrauchung/Lüftung bei personenreichen UG-Nutzungen einplanen",
+          "Brandschutzkonzept oder Stellungnahme als Ergänzung zum Bestandskonzept",
+          "Abstimmung mit Eigentümer/Gemeinschaft bei Mietkomplexen",
+        ],
+        paragraphs: [
+          "Wer diese Punkte vor der Einreichung klärt, vermeidet teure Planänderungen nach Zwischenbescheid oder ausgesetzter Abnahme.",
+        ],
+      },
     ],
     relatedLinks: [
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
-      { href: "/ratgeber/sprinkler-rueckbau-bma-nutzungsaenderung-koeln", label: "Sprinkler-Rückbau & BMA" },
-      { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
-      { href: "/ratgeber/abschottungen-durchbrueche-baustelle-koeln", label: "Abschottungen Baustelle" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
       {
@@ -446,6 +540,16 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         question: "Wer bestätigt den Sprinklerschutz bei Trockenbau?",
         answer:
           "In der Regel die Instandhaltungsfirma oder ein Fachplaner Sprinkler. Diese Bestätigung gehört in das Genehmigungs- bzw. Konzeptpaket.",
+      },
+      {
+        question: "Wann ist ein Sonderbau nach § 50 BauO NRW zu erwarten?",
+        answer:
+          "Bei personenreichen, öffentlich zugänglichen Nutzungen – auch unterhalb der Schwelle der Versammlungsstättenverordnung. Dann sind Fluchtwege, Entrauchung und Nachweise oft anspruchsvoller als bei einfachem Gewerbe.",
+      },
+      {
+        question: "Was passiert ohne Gesamtkonzept des Gebäudekomplexes?",
+        answer:
+          "Die Bauaufsicht kann Nachweise zu Brandabschnitten, Erschließung und technischen Anlagen verlangen. Ein aktuelles Übersichtskonzept des Eigentümers beschleunigt Genehmigung und Abnahme deutlich.",
       },
     ],
   },
@@ -506,11 +610,27 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "In Köln wirkt die Feuerwehr bei brandschutztechnischen Fragestellungen mit; die Bauaufsicht prüft die Einhaltung der BauO NRW. Beide erwarten nachvollziehbare, vollständige Unterlagen. Wer die Abstimmung strukturiert vorbereitet, entlastet Architekten, Bauherren und Behörden gleichermaßen.",
         ],
       },
+      {
+        id: "checkliste-fw",
+        title: "Checkliste: Vorab-Paket an die Feuerwehr",
+        list: [
+          "Kurzbeschreibung Nutzung, Personenzahl, Öffnungszeiten",
+          "Lageplan und Grundrisse Ist/geplant (maßstäblich)",
+          "Schnitte mit Rettungswegen und ggf. Dachfenster",
+          "Fotos vom Bestand (Rettungswege, Zufahrt, Hindernisse)",
+          "Darstellung 1. und 2. Rettungsweg ins Freie",
+          "Fragestellung an die Feuerwehr (klar formuliert)",
+          "Kontakt Entwurfsverfasser / Bauherr",
+          "Ggf. Erklärung zur Kostenübernahme der Prüfung",
+        ],
+        paragraphs: [
+          "Erst wenn die schriftliche Stellungnahme vorliegt, wird das Brandschutzkonzept finalisiert und mit dem Bauantrag eingereicht – so vermeiden Sie widersprüchliche Bewertungen.",
+        ],
+      },
     ],
     relatedLinks: [
-      { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht & Unterlagen Köln" },
-      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept erstellen lassen" },
-      { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Zweiter Rettungsweg über Dachfenster" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
       { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
@@ -523,6 +643,16 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         question: "Gilt das auch für reine Gewerbeumbauten in Köln?",
         answer:
           "Ja, sobald Rettungswege, Personenanzahl oder Sonderbau-Themen die Feuerwehr berühren. Der Ablauf ist übertragbar, die zuständige Stelle kann je nach Gemeinde variieren.",
+      },
+      {
+        question: "Wie lange dauert die Feuerwehr-Stellungnahme?",
+        answer:
+          "Das variiert stark nach Auslastung und Komplexität. Planen Sie Vorlauf ein und reichen Sie vollständige Unterlagen ein – unvollständige Pakete verzögern den Prozess.",
+      },
+      {
+        question: "Was passiert, wenn Feuerwehr und Bauamt unterschiedlich bewerten?",
+        answer:
+          "Deshalb die Reihenfolge: zuerst Feuerwehr, dann angepasstes Konzept, dann Bauamt. So sind alle Unterlagen konsistent.",
       },
     ],
   },
@@ -576,12 +706,28 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Typisch ist ein Gesamtpaket: Erstellung der BSO, Flucht- und Rettungspläne nach Begehung, erstes Jahr Betreuung durch Brandschutzbeauftragten. Entscheidend ist, dass Pläne und Ordnung dieselbe Ist-Situation beschreiben – sonst scheitert die Nachweisführung bei Kontrollen.",
         ],
       },
+      {
+        id: "begehung",
+        title: "Ablauf: Begehung und Plananzahl",
+        paragraphs: [
+          "Bei besucherintensiven Nutzungen im Untergeschoss mit mehreren Spiel- oder Gastbereichen ist nach der Ist-Aufnahme oft eine  sinnvoll – in der Praxis häufig im Bereich von  für unterschiedliche Bereiche und Ebenen.",
+          "Die Begehung klärt: Wo sind tatsächliche Fluchtwege? Wo sind Verriegelungen, Verschlüsse oder Einengungen? Stimmen Alarmierung, Beschilderung und genehmigtes Konzept (Entrauchung, Türen) noch überein? Erst danach werden BSO Teil A–C und die Pläne auf denselben Stand gebracht.",
+        ],
+        list: [
+          "Ist-Aufnahme mit Betriebsleitung (Fotos kritischer Stellen)",
+          "Abgleich mit genehmigtem Brandschutzkonzept und Entrauchung",
+          "Flucht- und Rettungspläne je Bereich/Ebene",
+          "BSO DIN 14096 Teil A (Aushang), B und C (Personal)",
+          "Abstimmung Brandschutzbeauftragter / Unterweisungen",
+          "Fortschreibung bei Umbau oder neuen Spielbereichen",
+        ],
+      },
     ],
     relatedLinks: [
       { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung Köln" },
       { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
       { href: "/leistungen", label: "Fluchtpläne & Leistungen" },
-      { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege BauO NRW" },
+      { href: "/kontakt", label: "Beratung anfragen" },
     ],
     faq: [
       {
@@ -593,6 +739,16 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         question: "Wie oft muss die BSO überprüft werden?",
         answer:
           "Nach DIN 14096 mindestens alle zwei Jahre durch eine fachkundige Person – bei Nutzungsänderungen früher.",
+      },
+      {
+        question: "Braucht jeder Spielbereich einen eigenen Plan?",
+        answer:
+          "Oft ja, wenn Wege, Türen oder Sammelstellen je Bereich unterschiedlich sind. Die genaue Anzahl ergibt sich aus Begehung und Nutzung – nicht aus einer Pauschale.",
+      },
+      {
+        question: "Was ist bei Escape Rooms in Köln besonders kritisch?",
+        answer:
+          "Unbekannte Gäste, ggf. Verriegelungen und Untergeschosslage. Bauliches Konzept, Pläne, BSO und geschultes Personal müssen zusammenpassen – Behörde und Versicherer achten darauf.",
       },
     ],
   },
@@ -647,12 +803,19 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Für Genehmigungsfähigkeit sind zwei unabhängige Rettungswege und die dokumentierte Feuerwehr-Abstimmung zentrale Bausteine.",
         ],
       },
+      {
+        id: "begehung",
+        title: "Begehung mit Feuerwehr: Was vor Ort geklärt wird",
+        paragraphs: [
+          "Der zweite Rettungsweg über Rettungsgeräte ist keine Formsache. In der Praxis werden vor Ort geprüft: Erreichbarkeit vom Innenraum, Lichtöffnung, Abstände zur Traufkante, Hindernisse auf der öffentlichen Verkehrsfläche (z. B. Baumkronen – ggf. Baumpflege dokumentieren) und die Anleiterbarkeit von der Straße aus.",
+          "Ohne diese Begehung und schriftliche Stellungnahme sollte das Konzept nicht final beim Bauamt eingereicht werden.",
+        ],
+      },
     ],
     relatedLinks: [
-      { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor dem Bauamt" },
-      { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen BauO NRW" },
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
-      { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
       {
@@ -664,6 +827,16 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         question: "Was ist bei Legalisierung eines bereits ausgebauten Spitzbodens wichtig?",
         answer:
           "Nachweis, dass zwei Rettungswege vorhanden sind und der Bestand außerhalb der Wohnung unverändert bleibt. Oft ist eine brandschutztechnische Stellungnahme ausreichend.",
+      },
+      {
+        question: "Welche Rolle spielt Denkmalschutz im Bestand?",
+        answer:
+          "Bei denkmalgeschützten Gebäuden können zusätzliche Auflagen gelten. Die brandschutztechnische Lösung muss Bestandsschutz und Rettungswege zusammen denkbar machen – früh abstimmen.",
+      },
+      {
+        question: "Muss der 2. Rettungsweg auch bei kleinen Dachwohnungen geprüft werden?",
+        answer:
+          "Sobald Aufenthaltsräume betroffen sind, gelten die Anforderungen der BauO NRW grundsätzlich. Die konkrete Ausgestaltung ist einzelfallbezogen.",
       },
     ],
   },
@@ -878,6 +1051,21 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         ],
       },
       {
+        id: "timeline",
+        title: "Typischer Verlauf (Praxis Köln)",
+        paragraphs: [
+          "In einem abgeschlossenen Verfahren zur Praxiszusammenlegung im 2. OG lagen  – mit Zwischenbescheid, Nachreichung der brandschutztechnischen Stellungnahme und Beantwortung der Mängelliste dazwischen.",
+          "Das ist kein Garantiewert, zeigt aber: Wer Fristen in der Vorgangsauskunft+ ernst nimmt und fachlich vollständig nachreicht, kann auch bei Bestandsgebäuden zum Ziel kommen.",
+        ],
+        list: [
+          "Monat 0: Bauantrag mit ersten Plänen",
+          "Zwischenbescheid mit Brandschutz-Mängelliste",
+          "Nachreichung: Stellungnahme, EG/1.OG-Grundrisse, Lageplan, Bestandsnachweise",
+          "Fachliche Prüfung und ggf. Rückfragen",
+          "Baugenehmigung mit Auflagen zur Umsetzung",
+        ],
+      },
+      {
         id: "koeln",
         title: "Besonderheiten in Köln",
         paragraphs: [
@@ -886,10 +1074,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
-      { href: "/ratgeber/arztpraxen-zusammenlegen-brandschutz-koeln", label: "Arztpraxen zusammenlegen" },
-      { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht & Unterlagen" },
-      { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor dem Bauamt" },
       { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
       {
@@ -1028,6 +1215,21 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         ],
       },
       {
+        id: "sofort",
+        title: "Sofortmaßnahmen (typisch nach Eilbegehung)",
+        list: [
+          "Abgelaufene Prüfplaketten: Feuerlöscher fachgerecht prüfen oder austauschen lassen",
+          "Fluchtwege sofort freiräumen (keine Lagerung in Wegen und Treppen)",
+          "Fettbrandlöscher an heißen Küchenstellen bereitstellen",
+          "Rauchwarnmelder im UG prüfen bzw. ergänzen",
+          "Kurzunterweisung Personal: Wege, Alarm, Feuerlöscher",
+          "Mängelliste mit Fristen intern dokumentieren",
+        ],
+        paragraphs: [
+          "Die Eilbegehung ersetzt keine Genehmigung – sie schafft aber eine belastbare Grundlage für die nächsten Schritte (Konzept, Sanierung, Behörde).",
+        ],
+      },
+      {
         id: "ablauf",
         title: "Typischer Ablauf einer Eilbegehung",
         list: [
@@ -1050,9 +1252,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
-      { href: "/ratgeber/feuerloescher-gastronomie-koeln", label: "Feuerlöscher Gastronomie" },
       { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
-      { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung erstellen" },
+      { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung Köln" },
       { href: "/kontakt", label: "Eilbegehung anfragen" },
     ],
     faq: [
@@ -1160,15 +1361,15 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Typischer Fall: Teilsanierung statt Komplettumbau",
         paragraphs: [
           "In einem abgeschlossenen Beratungsprojekt in Köln stand die Teilsanierung eines großen Büro- und Verwaltungsgebäudes an (Baujahr 1978, mehrere Geschosse, mehrere hundert Mitarbeitende am Standort). Umbauten betrafen etwa die Hälfte der Bruttogrundfläche: neuer Trockenbau, Türen, Technik, Umkleiden im Kellergeschoss, Sanierung von WC-Bereichen und eine vollständige Neuplanung der Brandmeldeanlage (BMA).",
-          "Laut Planungsunterlagen war **keine Nutzungsänderung** vorgesehen – dennoch greifen BauO NRW, Arbeitsschutz (ASR) und betrieblicher Brandschutz in den betroffenen Zonen. Die Einordnung als Gebäudeklasse 5 und Sonderbau erhöht die Sorgfalt bei Nachweisen und Abstimmungen.",
+          "Laut Planungsunterlagen war  vorgesehen – dennoch greifen BauO NRW, Arbeitsschutz (ASR) und betrieblicher Brandschutz in den betroffenen Zonen. Die Einordnung als Gebäudeklasse 5 und Sonderbau erhöht die Sorgfalt bei Nachweisen und Abstimmungen.",
         ],
       },
       {
         id: "konzept",
         title: "Brandschutzkonzept oder Stellungnahme?",
         paragraphs: [
-          "Ob ein vollständiges Brandschutzkonzept für die Bauaufsicht nötig ist, hängt von Art und Umfang der baulichen Änderung sowie von einer möglichen Nutzungsänderung ab. Eine reine Teilsanierung **ohne** wesentliche Nutzungsänderung löst nicht automatisch ein Genehmigungsverfahren mit umfangreichem Konzept aus – ersetzt aber nicht die Pflicht, in den umbauten Bereichen alle brandschutzrechtlichen Anforderungen einzuhalten.",
-          "Praktisch arbeiten Betreiber und Planer oft mit einer **brandschutztechnischen Stellungnahme** als Leitfaden für TGA, Architektur und Ausführung. Wird die Nutzung wesentlich geändert oder sind Sonderbau-Anforderungen neu zu begründen, ist ein formelles Brandschutzkonzept naheliegend.",
+          "Ob ein vollständiges Brandschutzkonzept für die Bauaufsicht nötig ist, hängt von Art und Umfang der baulichen Änderung sowie von einer möglichen Nutzungsänderung ab. Eine reine Teilsanierung  wesentliche Nutzungsänderung löst nicht automatisch ein Genehmigungsverfahren mit umfangreichem Konzept aus – ersetzt aber nicht die Pflicht, in den umbauten Bereichen alle brandschutzrechtlichen Anforderungen einzuhalten.",
+          "Praktisch arbeiten Betreiber und Planer oft mit einer  als Leitfaden für TGA, Architektur und Ausführung. Wird die Nutzung wesentlich geändert oder sind Sonderbau-Anforderungen neu zu begründen, ist ein formelles Brandschutzkonzept naheliegend.",
         ],
       },
       {
@@ -1202,8 +1403,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "flucht",
         title: "Fluchtwege: lichte Breiten nach ASR A2.3",
         paragraphs: [
-          "Für Arbeitsstätten (Büro/Verwaltung) regeln ASR A2.3 und BauO NRW die Fluchtwege. Maßgeblich ist die **Personenzahl im Einzugsgebiet** des jeweiligen Hauptfluchtwegs – nicht pauschal die Gesamtbelegung des Gebäudes, wenn mehrere unabhängige Wege existieren.",
-          "Die lichten Mindestbreiten steigen mit der Personenzahl (z. B. ab 100 Personen im Einzugsgebiet: mindestens etwa 1,00 m bei Durchgängen/Türen, 1,20 m bei Hauptfluchtwegen – verbindlich ist stets die gültige ASR-Fassung). Der Umbau darf vorhandene Breiten, Weglängen und einen zweiten Rettungsweg **nicht verschlechtern**.",
+          "Für Arbeitsstätten (Büro/Verwaltung) regeln ASR A2.3 und BauO NRW die Fluchtwege. Maßgeblich ist die  des jeweiligen Hauptfluchtwegs – nicht pauschal die Gesamtbelegung des Gebäudes, wenn mehrere unabhängige Wege existieren.",
+          "Die lichten Mindestbreiten steigen mit der Personenzahl (z. B. ab 100 Personen im Einzugsgebiet: mindestens etwa 1,00 m bei Durchgängen/Türen, 1,20 m bei Hauptfluchtwegen – verbindlich ist stets die gültige ASR-Fassung). Der Umbau darf vorhandene Breiten, Weglängen und einen zweiten Rettungsweg .",
         ],
         list: [
           "Einzugsgebiete im Plan definieren und dokumentieren",
@@ -1258,16 +1459,16 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "fall",
         title: "Typischer Fall: nur Anlagen tauschen, Gebäude bleibt gleich",
         paragraphs: [
-          "In einem abgeschlossenen Projekt ging es um ein **Bestandsgebäude** (Baujahr 1971) einer technischen Betriebsanlage. Geplant war ausschließlich die Erneuerung von Anlagenteilen im Inneren (u. a. Austausch einer Leitung mit geringerer Nennweite) – **ohne** Änderung der baulichen Struktur, der Nutzung oder der Gebäudeklasse.",
-          "Die Frage der Betreiber: Muss im Zuge der Maßnahme auch die **vorhandene Holzdecke** an heutige Neubauanforderungen angepasst werden?",
+          "In einem abgeschlossenen Projekt ging es um ein  (Baujahr 1971) einer technischen Betriebsanlage. Geplant war ausschließlich die Erneuerung von Anlagenteilen im Inneren (u. a. Austausch einer Leitung mit geringerer Nennweite) –  Änderung der baulichen Struktur, der Nutzung oder der Gebäudeklasse.",
+          "Die Frage der Betreiber: Muss im Zuge der Maßnahme auch die  an heutige Neubauanforderungen angepasst werden?",
         ],
       },
       {
         id: "recht",
         title: "§ 59 und § 14 BauO NRW im Bestand",
         paragraphs: [
-          "Nach § 59 BauO NRW bleiben **bestehende** bauliche Anlagen grundsätzlich zulässig, solange durch Änderungen **keine neuen oder erhöhten Gefahren** entstehen und sich **keine brandschutztechnische Verschlechterung** ergibt.",
-          "§ 14 BauO NRW verlangt weiterhin Vorbeugung gegen Brand und Rauch sowie die Möglichkeit von Rettung und Löscharbeiten – im Bestand werden die Anforderungen an **tragende, raumabschließende und brandabschnittsbildende** Bauteile (§§ 26 ff. BauO NRW) jedoch **nicht pauschal rückwirkend** angewendet, solange kein auslösender Tatbestand vorliegt.",
+          "Nach § 59 BauO NRW bleiben  bauliche Anlagen grundsätzlich zulässig, solange durch Änderungen  entstehen und sich  ergibt.",
+          "§ 14 BauO NRW verlangt weiterhin Vorbeugung gegen Brand und Rauch sowie die Möglichkeit von Rettung und Löscharbeiten – im Bestand werden die Anforderungen an  Bauteile (§§ 26 ff. BauO NRW) jedoch  angewendet, solange kein auslösender Tatbestand vorliegt.",
         ],
         list: [
           "Keine wesentliche bauliche Änderung",
@@ -1280,7 +1481,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "holzdecke",
         title: "Holzdecke und andere Bestandsbauteile",
         paragraphs: [
-          "Eine Holzdecke, die Bestandteil des **genehmigten Bestands** ist, muss nicht deshalb ertüchtigt werden, weil technische Leitungen erneuert werden – wenn die Decke **nicht baulich verändert** wird und **kein funktionaler Zusammenhang** mit der Anlagenmaßnahme besteht.",
+          "Eine Holzdecke, die Bestandteil des  ist, muss nicht deshalb ertüchtigt werden, weil technische Leitungen erneuert werden – wenn die Decke  wird und  mit der Anlagenmaßnahme besteht.",
           "Auslöser für Nachrüstung wären z. B. wesentliche Umbauten, Nutzungsänderung, Eingriffe in die Decke als raumabschließendes Bauteil oder eine nachweisbare Verschlechterung des Brandschutzniveaus.",
         ],
       },

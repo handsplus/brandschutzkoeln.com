@@ -24,8 +24,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Typischer Fall: Bestandstüren in einem Technikgebäude",
         paragraphs: [
-          "In einem abgeschlossenen Gutachten in Köln wurden **15 ein- und zweiflügelige Feuerschutzabschlüsse** (feuerhemmend, Bauzeit ca. 1973) in einem **technischen Betriebsgebäude** bewertet. Frage: Gleichwertiger Erhalt der Schutzwirkung – oder Austausch?",
-          "Die Türen waren gekennzeichnet, wiesen aber **Gebrauchsspuren**, teils **fehlende Selbstschließung**, defekte Schließfolgen oder Bohrungen in den Türblättern auf.",
+          "In einem abgeschlossenen Gutachten in Köln wurden  (feuerhemmend, Bauzeit ca. 1973) in einem  bewertet. Frage: Gleichwertiger Erhalt der Schutzwirkung – oder Austausch?",
+          "Die Türen waren gekennzeichnet, wiesen aber , teils , defekte Schließfolgen oder Bohrungen in den Türblättern auf.",
         ],
       },
       {
@@ -38,7 +38,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Ertüchtigung mit zugelassenen Systemen vs. kompletter Tausch",
         ],
         paragraphs: [
-          "Ohne Nutzungsänderung kann Bestandsschutz greifen – **Verschlechterung** der Türen (offen stehend, beschädigt) ist dennoch zu beseitigen.",
+          "Ohne Nutzungsänderung kann Bestandsschutz greifen –  der Türen (offen stehend, beschädigt) ist dennoch zu beseitigen.",
         ],
       },
       {
@@ -87,7 +87,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Begehung nach Umbau – was passiert",
         paragraphs: [
-          "Nach einem Umbau in Köln diente eine **Begehung** dazu, die **Umsetzung des Brandschutzkonzepts** stichprobenartig zu prüfen, bevor der Betrieb final freigegeben wird.",
+          "Nach einem Umbau in Köln diente eine  dazu, die  stichprobenartig zu prüfen, bevor der Betrieb final freigegeben wird.",
         ],
       },
       {
@@ -98,11 +98,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Solche Punkte verzögern keine Genehmigung allein, blockieren aber Betrieb, Versicherung und behördliche Erwartungen.",
         ],
         list: [
-          "Feuerschutzabschluss gekennzeichnet als T30, aber **nicht selbstschließend** oder beschädigt",
-          "Wand mit **Glasbausteinen** statt geforderter feuerbeständiger Trennung – Nachweis fehlt",
-          "Planabweichung, die brandschutztechnisch **unschädlich** sein kann – muss dokumentiert werden",
-          "**Feuerwehrplan** oder Schlüsseldepot (FSD) noch nicht vorhanden",
-          "**Flucht- und Rettungsplan** fehlt, obwohl Arbeitsstätten-Pflicht greift",
+          "Feuerschutzabschluss gekennzeichnet als T30, aber  oder beschädigt",
+          "Wand mit  statt geforderter feuerbeständiger Trennung – Nachweis fehlt",
+          "Planabweichung, die brandschutztechnisch  sein kann – muss dokumentiert werden",
+          " oder Schlüsseldepot (FSD) noch nicht vorhanden",
+          " fehlt, obwohl Arbeitsstätten-Pflicht greift",
         ],
       },
       {
@@ -152,7 +152,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "was",
         title: "Was ist eine Brandschau?",
         paragraphs: [
-          "Die **Brandschau** (über die zuständige Feuerwehr, in Köln die Berufsfeuerwehr) prüft, ob ein Betrieb den **betrieblichen und baulichen Brandschutz** im Alltag umsetzt – oft nach Anzeige, bei Sonderbauten oder nach Vorfällen.",
+          "Die  (über die zuständige Feuerwehr, in Köln die Berufsfeuerwehr) prüft, ob ein Betrieb den  im Alltag umsetzt – oft nach Anzeige, bei Sonderbauten oder nach Vorfällen.",
           "Sie ersetzt kein vollständiges Brandschutzkonzept für die Bauaufsicht, ergänzt aber die behördliche und betriebliche Sicht.",
         ],
       },
@@ -164,7 +164,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
         list: [
           "Flucht- und Rettungswege frei, gekennzeichnet, beleuchtet",
-          "Feuerlöscher: Anzahl, Standort, **Prüfplakette**",
+          "Feuerlöscher: Anzahl, Standort, ",
           "Türen entlang Fluchtwege: schließbar, nicht verriegelt",
           "Brandmeldeanlage, Alarmierung, Unterweisungen",
           "Feuerwehrplan, Zufahrt, Hydranten (soweit relevant)",
@@ -175,7 +175,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "unterschied",
         title: "Brandschau vs. Bauaufsicht vs. Zwischenbescheid",
         paragraphs: [
-          "Die **Bauaufsicht** entscheidet über Genehmigungen und bauliche Nachweise. Die **Feuerwehr** fokussiert Betrieb und Schutz der Einsatzkräfte. Ein **Zwischenbescheid** der Bauaufsicht betrifft Genehmigungsmängel – siehe eigenen Ratgeber.",
+          "Die  entscheidet über Genehmigungen und bauliche Nachweise. Die  fokussiert Betrieb und Schutz der Einsatzkräfte. Ein  der Bauaufsicht betrifft Genehmigungsmängel – siehe eigenen Ratgeber.",
         ],
       },
     ],
@@ -211,16 +211,16 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "pflicht",
         title: "Wann ist Fachbauleitung nötig?",
         paragraphs: [
-          "Nach § 56 Abs. 2 BauO NRW kann die Bauaufsicht **Fachbauleitung** für bestimmte Gewerke anordnen – häufig **Brandschutz** bei Sonderbauten und technischen Anlagen.",
-          "Am Ende steht oft eine **Bescheinigung** über stichprobenartige Kontrolle während der Ausführung.",
+          "Nach § 56 Abs. 2 BauO NRW kann die Bauaufsicht  für bestimmte Gewerke anordnen – häufig  bei Sonderbauten und technischen Anlagen.",
+          "Am Ende steht oft eine  über stichprobenartige Kontrolle während der Ausführung.",
         ],
       },
       {
         id: "maengel",
         title: "Typische Feststellungen auf der Baustelle",
         list: [
-          "Trennwände zu Technikräumen nicht **feuerbeständig** bis Rohdecke geführt",
-          "Durchführungen ohne **zugelassene Abschottung** (Ü-Plakette fehlt)",
+          "Trennwände zu Technikräumen nicht  bis Rohdecke geführt",
+          "Durchführungen ohne  (Ü-Plakette fehlt)",
           "Leitungsführung in klassifizierten Wänden nicht nach MLAR/LAR",
           "Türen falsch eingebaut oder Beschädigung durch Folgegewerke",
         ],
@@ -274,7 +274,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Typisches Vorhaben",
         paragraphs: [
-          "In Köln (Gewerbegebiet) war die **Umnutzung einer Lagerhalle mit Büroanteil** geplant. Ein vollständiges **Brandschutzkonzept** nach § 9 BauPrüfVO bildete Feuerwehrzufahrten, Löschwasser, Brandabschnitte, Rettungswege, Nutzerzahl und Alarmierung ab.",
+          "In Köln (Gewerbegebiet) war die  geplant. Ein vollständiges  nach § 9 BauPrüfVO bildete Feuerwehrzufahrten, Löschwasser, Brandabschnitte, Rettungswege, Nutzerzahl und Alarmierung ab.",
         ],
       },
       {
@@ -284,8 +284,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "In Konzepten für Hallenumnutzungen werden typischerweise folgende Bereiche vertieft:",
         ],
         list: [
-          "Einordnung: Gebäudeklasse, ggf. **Sonderbau** § 50 BauO NRW",
-          "Zwei **Rettungswege** und Weglängen – oft kritisch in Hallen",
+          "Einordnung: Gebäudeklasse, ggf.  § 50 BauO NRW",
+          "Zwei  und Weglängen – oft kritisch in Hallen",
           "Löschwasser und Hydranten im Umfeld",
           "Rauch- und Wärmeabzug, Lüftung brandschutztechnisch",
           "Feuerlöscher, ggf. BMA, Flucht- und Feuerwehrpläne",
@@ -295,7 +295,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "genehmigung",
         title: "Genehmigung und Betrieb",
         paragraphs: [
-          "Umnutzung ist in der Regel **genehmigungspflichtig**. Frühzeitig Konzept und Bauantrag einplanen – Abstimmung mit Feuerwehr Köln bei Sonderbauten üblich.",
+          "Umnutzung ist in der Regel . Frühzeitig Konzept und Bauantrag einplanen – Abstimmung mit Feuerwehr Köln bei Sonderbauten üblich.",
         ],
       },
     ],
@@ -331,8 +331,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Praxisfall: Produktion wird IT-Fläche",
         paragraphs: [
-          "In einem abgeschlossenen Projekt sollte ein **Druck-/Technikbereich** zu **IT- und Montagefläche** umgenutzt werden. Die **Sprinkleranlage** im betroffenen Brandabschnitt sollte **zurückgebaut** werden.",
-          "Die Fortschreibung des Brandschutzkonzepts prüfte, ob der Schutz durch **automatische Brandmelder (BMA Vollschutz)** mit Aufschaltung zur Feuerwehr Köln und angepasste Feuerlöscher ausreicht.",
+          "In einem abgeschlossenen Projekt sollte ein  zu  umgenutzt werden. Die  im betroffenen Brandabschnitt sollte  werden.",
+          "Die Fortschreibung des Brandschutzkonzepts prüfte, ob der Schutz durch  mit Aufschaltung zur Feuerwehr Köln und angepasste Feuerlöscher ausreicht.",
         ],
       },
       {
@@ -383,20 +383,20 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Typische Fragestellung",
         paragraphs: [
-          "Darf ein **Tankfahrzeug mit ca. 1.000 l Diesel** in einer **Wagenhalle** abgestellt werden? In einem Praxisfall wurde das unter **Garagenrecht (SBauVO NRW)** und **TRGS 510** geprüft.",
+          "Darf ein  in einer  abgestellt werden? In einem Praxisfall wurde das unter  und  geprüft.",
         ],
       },
       {
         id: "bewertung",
         title: "Bewertungslogik (vereinfacht)",
         list: [
-          "Kraftstoff **im** Fahrzeug vs. lose Lagerung – unterschiedliche Anforderungen",
-          "Ab **100 kg** Diesel: zusätzliche organisatorische Maßnahmen (TRGS 510)",
+          "Kraftstoff  Fahrzeug vs. lose Lagerung – unterschiedliche Anforderungen",
+          "Ab  Diesel: zusätzliche organisatorische Maßnahmen (TRGS 510)",
           "Belüftung, dichter Boden, Kennzeichnung, Rauchverbot",
           "Feuerlöscher und Fettbrand-Risiko an Technik getrennt betrachten",
         ],
         paragraphs: [
-          "Ergebnis im Fall: Abstellung bis 1.000 l unter genannten Voraussetzungen zulässig – **Einzelfallentscheidung**, nicht pauschal übertragbar.",
+          "Ergebnis im Fall: Abstellung bis 1.000 l unter genannten Voraussetzungen zulässig – , nicht pauschal übertragbar.",
         ],
       },
     ],
@@ -432,7 +432,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "warum",
         title: "Warum Abschottungen scheitern",
         paragraphs: [
-          "Trockenbau und TGA erzeugen viele **Durchdringungen**. Ohne zugelassene Abschottung verliert die Wand ihre **Feuerwiderstandsklasse** – im Abnahme- und Versicherungsfall ein klassisches Problem.",
+          "Trockenbau und TGA erzeugen viele . Ohne zugelassene Abschottung verliert die Wand ihre  – im Abnahme- und Versicherungsfall ein klassisches Problem.",
         ],
       },
       {
@@ -482,8 +482,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "grundlagen",
         title: "Anforderungen nach BauO NRW",
         paragraphs: [
-          "§ 14 BauO NRW verlangt eine **ausreichende Löschwasserversorgung**. Für viele Gewerbeobjekte reicht der **öffentliche Hydranten-Grundschutz** (orientierend DVGW W 405: z. B. 96 m³/h über 2 h).",
-          "Große Hallen oder Industrie können **höhere Mengen** oder **Objektschutz** (eigene Hydranten) erfordern.",
+          "§ 14 BauO NRW verlangt eine . Für viele Gewerbeobjekte reicht der  (orientierend DVGW W 405: z. B. 96 m³/h über 2 h).",
+          "Große Hallen oder Industrie können  oder  (eigene Hydranten) erfordern.",
         ],
       },
       {
@@ -491,7 +491,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Praxisbeispiele (anonym)",
         paragraphs: [
           "Orientierungswerte aus abgeschlossenen Projekten – im Einzelfall immer nachrechnen:",
-          "Für kleine Gewerbebetriebe in Köln ist oft der **öffentliche Anschluss** entscheidend – im Konzept dokumentieren.",
+          "Für kleine Gewerbebetriebe in Köln ist oft der  entscheidend – im Konzept dokumentieren.",
         ],
         list: [
           "Campus/Industrie: mehrere Hydranten im 300-m-Umfeld, 96 m³/h bestätigt",
@@ -535,9 +535,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Betriebe sollten diese Planarten unterscheiden und aktuell halten:",
         ],
         list: [
-          "**Flucht- und Rettungspläne** (ASR A1.3/A2.3) – für Beschäftigte, aushängen",
-          "**Feuerwehrpläne** nach DIN 14095 – für Einsatzkräfte, Abstimmung Feuerwehr",
-          "**Feuerwehr-Schlüsseldepot (FSD)** – Zugang im Einsatzfall",
+          " (ASR A1.3/A2.3) – für Beschäftigte, aushängen",
+          " nach DIN 14095 – für Einsatzkräfte, Abstimmung Feuerwehr",
+          " – Zugang im Einsatzfall",
           "Betriebsinterne Brandschutzordnung (Teil A/B)",
         ],
       },
@@ -545,8 +545,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "wann",
         title: "Wann Aktualisierung nötig ist",
         paragraphs: [
-          "Nach **Umbau**, geänderter Raumaufteilung, neuer BMA oder geänderten Fluchtwegen sind Pläne fortzuschreiben. In einem Abnahmefall fehlten Feuerwehrplan und FSD trotz Konzept – häufiger Mangel.",
-          "Teilsanierungen in Bürogebäuden: Pläne mit **Personenzahl je Einzugsgebiet** und Fluchtwegbreiten abgleichen.",
+          "Nach , geänderter Raumaufteilung, neuer BMA oder geänderten Fluchtwegen sind Pläne fortzuschreiben. In einem Abnahmefall fehlten Feuerwehrplan und FSD trotz Konzept – häufiger Mangel.",
+          "Teilsanierungen in Bürogebäuden: Pläne mit  und Fluchtwegbreiten abgleichen.",
         ],
       },
     ],
@@ -582,7 +582,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Typisches Vorhaben",
         paragraphs: [
-          "Ein **Bildgebungs-/Röntgenbereich** sollte umgebaut werden: neue **MR-Kabine**, Wartezone, Anmeldung. Das Gebäude stand in **Nähe zu einem Klinikbau** – Abstände und Verbindungen brandschutzrelevant.",
+          "Ein  sollte umgebaut werden: neue , Wartezone, Anmeldung. Das Gebäude stand in  – Abstände und Verbindungen brandschutzrelevant.",
         ],
       },
       {
@@ -633,8 +633,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "einordnung",
         title: "Baurechtliche Einordnung",
         paragraphs: [
-          "Eingeschossige Gebäude **ohne Aufenthaltsräume** (nur Wartung, wenige Personen) werden oft **GK 1** zugeordnet, zugleich als **Sonderbau** mit angepassten Anforderungen.",
-          "Typisch: **Trafostation**, **Notstrom-Diesel**, unterirdische **Kraftstofftanks** (doppelwandig, Lecküberwachung).",
+          "Eingeschossige Gebäude  (nur Wartung, wenige Personen) werden oft  zugeordnet, zugleich als  mit angepassten Anforderungen.",
+          "Typisch: , , unterirdische  (doppelwandig, Lecküberwachung).",
         ],
       },
       {
@@ -699,7 +699,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "ablauf",
         title: "Ablauf in Köln",
         paragraphs: [
-          "Bauaufsichtsamt Köln prüft mit ggf. **Fachstelle Brandschutz** und Feuerwehr. Vollständigkeit spart Monate – siehe auch Ratgeber Zwischenbescheid.",
+          "Bauaufsichtsamt Köln prüft mit ggf.  und Feuerwehr. Vollständigkeit spart Monate – siehe auch Ratgeber Zwischenbescheid.",
           "Vereinfachtes Verfahren § 64 BauO NRW nur bei klarer Einordnung (z. B. kleine Gewerbenutzung).",
         ],
       },
