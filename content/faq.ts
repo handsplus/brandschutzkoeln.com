@@ -14,9 +14,9 @@ export const HOMEPAGE_FAQ = [
       "Je nach Bauordnung (z. B. BauO NRW), Nutzung und Größe des Objekts können Behörden ein Brandschutzkonzept oder die Bestellung eines Brandschutzbeauftragten verlangen. Bei Nutzungsänderungen, Sonderbauten, Gewerbe und Industrie ist professioneller Brandschutz oft Pflicht. Wir beraten Sie unverbindlich, ob und welche Nachweise Sie benötigen.",
   },
   {
-    question: "Was kostet eine Brandschutzordnung oder ein Feuerwehrplan?",
+    question: "Was kostet Brandschutzberatung, Ordnung oder Feuerwehrplan in Köln?",
     answer:
-      "Die Kosten hängen von der Gebäudegröße, Nutzung und dem Umfang ab (z. B. Brandschutzordnung Teil A, B, C). Für ein klares Angebot erfassen wir Ihr Objekt und Ihren Bedarf in einer kostenlosen Erstberatung. So vermeiden Sie Pauschalangaben und erhalten ein passgenaues Angebot.",
+      "Die Kosten hängen von Gebäudegröße, Nutzung und Umfang ab. In der unverbindlichen Erstberatung klären wir Ihr Anliegen und nennen die nächsten Schritte – ohne Pauschalversprechen, dafür mit passgenauer Einschätzung.",
   },
   {
     question: "Führen Sie die Brandschutzhelfer-Ausbildung vor Ort in Köln durch?",

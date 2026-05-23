@@ -5,13 +5,16 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
+import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
+import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzbeauftragter Köln | Externe Unterstützung",
+  title: "Brandschutzbeauftragter Köln | Extern H&S+",
+  absoluteTitle: true,
   description:
-    "Brandschutzbeauftragter in Köln: externe fachliche Unterstützung für Organisation, Unterweisung, Begehung und Dokumentation im vorbeugenden Brandschutz.",
+    "Brandschutzbeauftragter Köln: Begehungen, Unterweisung, Dokumentation & Maßnahmen – extern und praxisnah. Jetzt Erstberatung anfragen.",
   ogDescription:
-    "Externe Unterstützung als Brandschutzbeauftragter in Köln - praxisnah, rechtssicher und passend zu Ihrem Betrieb.",
+    "Externer Brandschutzbeauftragter in Köln: Organisation und Umsetzung im Betrieb – passend zu Ihrer Branche.",
   keywords: [
     "Brandschutzbeauftragter Köln",
     "externer Brandschutzbeauftragter Köln",
@@ -67,10 +70,15 @@ export default function BrandschutzbeauftragterKoelnPage() {
             <Link href="/brandschutzhelfer-ausbildung-koeln" className="text-brand-red font-medium hover:underline">
               Brandschutzhelfer-Schulungen
             </Link>
+            . Ratgeber:{" "}
+            <Link href="/ratgeber/umbau-nutzungsaenderung-brandschutz" className="text-brand-red font-medium hover:underline">
+              Brandschutz bei Umbau
+            </Link>
             .
           </p>
         </div>
       </section>
+      <LandingFaqSection items={LANDING_FAQS["/brandschutzbeauftragter-koeln"]} />
       <CTA
         title="Externe Unterstützung als Brandschutzbeauftragter"
         description="Wir klären in einer Erstberatung, welche Leistungen für Ihren Betrieb sinnvoll sind."

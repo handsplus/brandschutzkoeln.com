@@ -29,11 +29,11 @@ export const EXTERNAL_LINKS = [
 
 /** Reihenfolge der Websites in der Fußzeile (Überschrift „Websites“). */
 export const FOOTER_WEBSITES = [
-  { href: "https://www.sigeko.koeln", label: "www.sigeko.koeln", external: true },
-  { href: "https://www.handsplus.de", label: "www.handsplus.de", external: true },
-  { href: "https://www.arbeitssicherheit.nrw", label: "www.arbeitssicherheit.nrw", external: true },
+  { href: "https://sigeko.koeln", label: "sigeko.koeln", external: true },
+  { href: "https://handsplus.de", label: "handsplus.de", external: true },
+  { href: "https://arbeitssicherheit.nrw", label: "arbeitssicherheit.nrw", external: true },
   { href: "/", label: "brandschutzkoeln.com", external: false },
-  { href: "https://www.arbeitssicherheitkoeln.de", label: "www.arbeitssicherheitkoeln.de", external: true },
+  { href: "https://arbeitssicherheitkoeln.de", label: "arbeitssicherheitkoeln.de", external: true },
 ] as const;
 
 export const NAV_LINKS = [

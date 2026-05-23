@@ -78,11 +78,17 @@ export default function HomePage() {
             </Link>
           </p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2" role="list">
+            <li><Link href="/brandschutzberatung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzberatung Köln</Link></li>
             <li><Link href="/brandschutzkonzept-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzkonzept Köln</Link></li>
             <li><Link href="/brandschutzordnung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzordnung Köln</Link></li>
-            <li><Link href="/brandschutzhelfer-ausbildung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzhelfer-Ausbildung Köln</Link></li>
+            <li><Link href="/brandschutzhelfer-ausbildung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzhelfer Köln</Link></li>
             <li><Link href="/brandschutzbeauftragter-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzbeauftragter Köln</Link></li>
-            <li className="sm:col-span-2"><Link href="/brandschutzberatung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Brandschutzberatung Köln</Link></li>
+            <li><Link href="/ratgeber/teilsanierung-buero-brandschutz-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Teilsanierung Büro (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Sprinkler &amp; Trockenbau (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/escape-room-brandschutzordnung-fluchtplan" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Escape Room &amp; BSO (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Imbiss &amp; Nutzungsänderung (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Eilbegehung Restaurant (Ratgeber)</Link></li>
+            <li><Link href="/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw" className="block rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-brand-red font-medium hover:bg-stone-100">Bestandsschutz TGA (Ratgeber)</Link></li>
           </ul>
         </div>
       </section>

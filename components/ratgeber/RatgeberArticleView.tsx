@@ -1,7 +1,9 @@
 import Link from "next/link";
 import type { RatgeberArticle } from "@/content/ratgeber";
+import { RATGEBER_ARTICLES } from "@/content/ratgeber";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
+import { SeoLandingLinks } from "@/components/sections/SeoLandingLinks";
 
 const linkClass =
   "text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red";
@@ -51,24 +53,41 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
             ) : null}
 
             <section className="rounded-xl border border-stone-200 bg-white p-6">
-              <h2 className="font-semibold text-stone-900">Passende Leistungen</h2>
+              <h2 className="font-semibold text-stone-900">Passende Leistungen &amp; Themen</h2>
               <ul className="mt-4 flex flex-col gap-2" role="list">
                 {article.relatedLinks.map(({ href, label }) => (
                   <li key={href}>
                     <Link href={href} className={linkClass}>
-                      {label}
+                      {label} →
                     </Link>
                   </li>
                 ))}
                 <li>
                   <Link href="/ratgeber" className={linkClass}>
-                    Alle Ratgeber-Artikel
+                    Alle Ratgeber-Artikel →
                   </Link>
                 </li>
               </ul>
             </section>
+
+            <section className="rounded-xl border border-stone-200 bg-stone-50 p-6">
+              <h2 className="font-semibold text-stone-900">Weitere Ratgeber-Artikel</h2>
+              <ul className="mt-4 flex flex-col gap-2" role="list">
+                {RATGEBER_ARTICLES.filter((a) => a.slug !== article.slug)
+                  .slice(0, 4)
+                  .map((a) => (
+                    <li key={a.slug}>
+                      <Link href={`/ratgeber/${a.slug}`} className={linkClass}>
+                        {a.title} →
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </section>
         </div>
       </section>
+
+      <SeoLandingLinks />
 
       <CTA
         title="Brandschutz in Köln – wir beraten Sie"

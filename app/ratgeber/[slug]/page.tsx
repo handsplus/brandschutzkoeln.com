@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return createPageMetadata({
     title: article.metaTitle,
+    absoluteTitle: true,
     description: article.metaDescription,
     keywords: article.keywords,
     path: `/ratgeber/${article.slug}`,

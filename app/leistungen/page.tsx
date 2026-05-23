@@ -6,13 +6,18 @@ import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { LEISTUNGEN } from "@/content/leistungen";
+import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
+import { SeoLandingLinks } from "@/components/sections/SeoLandingLinks";
+import { LANDING_FAQS } from "@/content/landing-faqs";
+import { SEO_LINKS } from "@/lib/constants";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutz Leistungen Köln | Konzepte, Pläne, Schulungen",
+  title: "Brandschutz Leistungen Köln | H&S+ Übersicht",
+  absoluteTitle: true,
   description:
-    "Alle Brandschutz-Leistungen in Köln: Brandschutzkonzepte, Brandschutzordnungen, Feuerwehrpläne, Flucht- und Rettungspläne sowie Brandschutzhelfer-Ausbildung.",
+    "Brandschutz Leistungen Köln: Konzepte, Ordnungen, Pläne, Brandschutzhelfer & Beratung. Alle Leistungen von H&S+ – Erstberatung anfragen.",
   ogDescription:
-    "Brandschutz-Leistungen in Köln auf einen Blick: Konzepte, Ordnungen, Pläne und Schulungen für rechtssichere, praxisnahe Umsetzung im Betrieb.",
+    "Übersicht Brandschutz-Leistungen in Köln: von Konzept bis Schulung, praxisnah und rechtssicher.",
   keywords: [
     "Brandschutz Leistungen Köln",
     "Brandschutzkonzept Köln",
@@ -79,7 +84,19 @@ export default function LeistungenPage() {
             title="Alle Brandschutz-Leistungen im Überblick"
             subtitle="Jede Leistung mit Kurzbeschreibung, Nutzen, Rechtsgrundlagen, Ablauf und Ergebnis."
           />
-          <ul className="space-y-12" role="list">
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2" role="list">
+            {SEO_LINKS.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="block rounded-lg border border-brand-red/20 bg-white px-4 py-3 text-brand-red font-medium hover:bg-stone-50 focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red"
+                >
+                  {label} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <ul className="mt-12 space-y-12" role="list">
             {LEISTUNGEN.map((leistung) => (
               <li
                 key={leistung.id}
@@ -90,6 +107,13 @@ export default function LeistungenPage() {
                   {leistung.title}
                 </h2>
                 <p className="mt-3 text-stone-600">{leistung.description}</p>
+                {leistung.seoHref ? (
+                  <p className="mt-3">
+                    <Link href={leistung.seoHref} className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+                      {leistung.seoLabel ?? "Mehr zu dieser Leistung in Köln"} →
+                    </Link>
+                  </p>
+                ) : null}
 
                 <h3 className="mt-6 font-semibold text-stone-900">Nutzen für Sie</h3>
                 <ul className="mt-2 list-disc space-y-1 pl-5 text-stone-600" role="list">
@@ -126,6 +150,8 @@ export default function LeistungenPage() {
         </div>
       </section>
 
+      <LandingFaqSection items={LANDING_FAQS["/leistungen"]} />
+      <SeoLandingLinks className="border-t border-stone-200" />
       <p className="container-wide px-4 sm:px-6 lg:px-8 mx-auto text-center text-stone-600 text-sm mb-8">
         Sie möchten mehr über uns erfahren?{" "}
         <Link href="/ueber-uns" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">

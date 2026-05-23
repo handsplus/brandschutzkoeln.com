@@ -14,13 +14,15 @@ const geistSans = Geist({
   preload: true,
 });
 
+const HOME_TITLE = "Brandschutz Köln | Sachverständiger H&S+";
+
 const defaultMetadata = createPageMetadata({
-  title: "Brandschutz Köln | Brandschutzsachverständiger H&S+",
-  /** Kürzer für SERP-Snippets (Tools messen oft Pixelbreite; unter ca. 155 Zeichen ist sicher). */
+  title: HOME_TITLE,
+  absoluteTitle: true,
   description:
-    "Brandschutzsachverständiger Köln (H&S+): Konzepte, Ordnungen, Feuerwehrpläne, Schulungen. Fachberatung für Gewerbe & Immobilien.",
+    "Brandschutz Köln: Konzepte, Ordnungen, Pläne & Brandschutzhelfer-Schulung. Sachverständige von H&S+ – Erstberatung unverbindlich.",
   ogDescription:
-    "Brandschutz Köln mit H&S+: Konzepte, Ordnungen, Pläne & Brandschutzhelfer-Ausbildung – kompetente Begleitung.",
+    "Brandschutzsachverständiger Köln: BauO NRW, Gewerbe & Immobilien. Jetzt Erstberatung anfragen.",
   keywords: [
     "Brandschutz Köln",
     "Brandschutzsachverständiger Köln",
@@ -40,7 +42,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://brandschutzkoeln.com"),
   title: {
-    default: defaultMetadata.title as string,
+    default: HOME_TITLE,
     template: "%s | Brandschutz Köln | H&S+",
   },
   applicationName: SITE.name,
@@ -69,7 +71,7 @@ export const metadata: Metadata = {
   formatDetection: { telephone: false, email: false },
   twitter: {
     card: "summary_large_image",
-    title: defaultMetadata.title as string,
+    title: HOME_TITLE,
     description: defaultMetadata.description as string,
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Brandschutz Köln | H&S+" }],
   },

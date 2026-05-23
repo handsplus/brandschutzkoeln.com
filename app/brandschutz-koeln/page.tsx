@@ -7,11 +7,12 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutz Köln | Anforderungen, Behörden, Praxis",
+  title: "Brandschutz Köln | Behörden & BauO NRW",
+  absoluteTitle: true,
   description:
-    "Brandschutz in Köln mit regionalem Fokus: Behördenanforderungen, branchenspezifische Risiken und praxisnahe Umsetzung nach BauO NRW für Unternehmen und Immobilien.",
+    "Brandschutz Köln: Bauaufsicht, Feuerwehr, BauO NRW & Branchenrisiken. H&S+ berät Gewerbe & Immobilien – Erstberatung unverbindlich.",
   ogDescription:
-    "Was beim Brandschutz in Köln zählt: regionale Anforderungen, Behördenpraxis und konkrete Umsetzung für Gewerbe, Büros, Hotels und Immobilien.",
+    "Brandschutz in Köln verständlich: Anforderungen, Behörden und Umsetzung mit H&S+.",
   keywords: [
     "Brandschutz Köln",
     "Brandschutz Anforderungen Köln",
@@ -68,7 +69,15 @@ export default function BrandschutzKoelnPage() {
               <Link href="/kontakt" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
                 unverbindliche Beratung
               </Link>{" "}
-              unterstützen Sie dabei.
+              unterstützen Sie dabei. Mehr im{" "}
+              <Link href="/ratgeber" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+                Ratgeber BauO NRW
+              </Link>{" "}
+              und zur{" "}
+              <Link href="/brandschutzberatung-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+                Brandschutzberatung Köln
+              </Link>
+              .
             </p>
           </div>
         </div>

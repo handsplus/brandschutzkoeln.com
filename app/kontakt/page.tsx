@@ -8,9 +8,10 @@ import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { CONTACT } from "@/lib/constants";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Kontakt Brandschutz Köln | Angebot & Erstberatung",
+  title: "Kontakt | Brandschutz Köln H&S+",
+  absoluteTitle: true,
   description:
-    "Kontakt für Brandschutz in Köln: Angebot und unverbindliche Erstberatung per Formular, Telefon oder WhatsApp. Schnelle Rückmeldung durch H&S+.",
+    "Kontakt Brandschutz Köln: Erstberatung & Angebot per Formular, Telefon oder WhatsApp. H&S+ meldet sich zeitnah zurück.",
   ogDescription:
     "Jetzt unverbindlich Kontakt aufnehmen: Angebot und Erstberatung für Brandschutz in Köln per Formular, Telefon oder WhatsApp.",
   keywords: [

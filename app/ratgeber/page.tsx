@@ -10,10 +10,11 @@ import { siteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Ratgeber Brandschutz & BauO NRW | H&S+ Köln",
+  absoluteTitle: true,
   description:
-    "Ratgeber zu Brandschutz und Bauordnung NRW: verständliche Erläuterungen zu Gebäudeklassen, Sonderbauten, Konzepten und Fluchtwegen – für Unternehmen in Köln.",
+    "Ratgeber BauO NRW & Brandschutz: Gebäudeklassen, Sonderbauten, Konzepte, Fluchtwege. Praxiswissen für Köln – mit passenden Leistungen von H&S+.",
   ogDescription:
-    "Fachlicher Ratgeber: Brandschutz, BauO NRW und Praxis in Köln – von H&S+ Brandschutzsachverständigen.",
+    "Brandschutz-Ratgeber zu Bauordnung NRW und Köln – von Gebäudeklassen bis Bauaufsicht.",
   keywords: [
     "Ratgeber Brandschutz",
     "BauO NRW Brandschutz",
@@ -61,8 +62,9 @@ export default function RatgeberPage() {
             Ratgeber Brandschutz &amp; BauO NRW
           </h1>
           <p className="mt-4 text-lg text-stone-600">
-            Verständliche Erläuterungen zu Bauordnung, Brandschutz und typischen Pflichten – mit Bezug zur
-            Praxis in Köln und Umgebung. Für konkrete Leistungen siehe{" "}
+            Verständliche Erläuterungen zu Bauordnung, Brandschutz und typischen Pflichten – viele Artikel
+            stützen sich auf anonymisierte Projekte aus Köln und Umgebung (ohne Mandatsdetails). Für
+            Leistungen siehe{" "}
             <Link href="/leistungen" className={linkClass}>
               Leistungen
             </Link>
@@ -76,7 +78,7 @@ export default function RatgeberPage() {
           <SectionHeader
             id="ratgeber-liste"
             title="Alle Artikel"
-            subtitle="Sechs Themen zum Einstieg – regelmäßig erweiterbar."
+            subtitle={`${RATGEBER_ARTICLES.length} Artikel zu BauO NRW und Praxisfällen – regelmäßig erweitert.`}
           />
           <ul className="mt-8 space-y-4" role="list">
             {RATGEBER_ARTICLES.map((article) => (
@@ -88,15 +90,31 @@ export default function RatgeberPage() {
                     </Link>
                   </h2>
                   <p className="mt-2 text-stone-600">{article.excerpt}</p>
-                  <p className="mt-4">
-                    <Link href={`/ratgeber/${article.slug}`} className={`text-sm ${linkClass}`}>
+                  <p className="mt-4 flex flex-wrap gap-4 text-sm">
+                    <Link href={`/ratgeber/${article.slug}`} className={linkClass}>
                       Artikel lesen →
                     </Link>
+                    {article.relatedLinks[0] ? (
+                      <Link href={article.relatedLinks[0].href} className={linkClass}>
+                        {article.relatedLinks[0].label} →
+                      </Link>
+                    ) : null}
                   </p>
                 </article>
               </li>
             ))}
           </ul>
+          <p className="mt-10 text-stone-600">
+            Konkrete Umsetzung:{" "}
+            <Link href="/brandschutzberatung-koeln" className={linkClass}>
+              Brandschutzberatung Köln
+            </Link>
+            ,{" "}
+            <Link href="/brandschutzhelfer-ausbildung-koeln" className={linkClass}>
+              Brandschutzhelfer Schulung
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

@@ -5,13 +5,16 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
+import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
+import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Brandschutzordnung Köln | Teil A, B, C",
+  absoluteTitle: true,
   description:
-    "Brandschutzordnung in Köln erstellen oder aktualisieren: Teil A, B und C nach DIN 14096 für Unternehmen, Immobilien und Sondernutzungen.",
+    "Brandschutzordnung Köln nach DIN 14096: Teil A, B & C für Ihr Objekt. Erstellung, Fortschreibung & Aushang – jetzt anfragen.",
   ogDescription:
-    "Professionelle Brandschutzordnung für Köln: klare Regeln für Verhalten im Brandfall, Verantwortlichkeiten und betriebliche Organisation.",
+    "Brandschutzordnung in Köln: klare Regeln im Brandfall und betriebliche Organisation von H&S+.",
   keywords: [
     "Brandschutzordnung Köln",
     "Brandschutzordnung Teil A B C",
@@ -84,10 +87,16 @@ export default function BrandschutzordnungKoelnPage() {
             <Link href="/brandschutzhelfer-ausbildung-koeln" className="text-brand-red font-medium hover:underline">
               Brandschutzhelfer-Ausbildung in Köln
             </Link>{" "}
-            an.
+            . Mehr im{" "}
+            <Link href="/ratgeber/flucht-und-rettungswege-bauo-nrw" className="text-brand-red font-medium hover:underline">
+              Ratgeber Flucht- und Rettungswege
+            </Link>
+            .
           </p>
         </div>
       </section>
+
+      <LandingFaqSection items={LANDING_FAQS["/brandschutzordnung-koeln"]} />
 
       <CTA
         title="Brandschutzordnung in Köln erstellen lassen"

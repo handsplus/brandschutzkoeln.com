@@ -20,10 +20,10 @@ export function ReviewsSection() {
               ★★★★★
             </span>
             <span className="text-lg font-semibold text-stone-900">5,0</span>
-            <span className="text-stone-500">(42 Bewertungen)</span>
+            <span className="text-stone-500">auf Google</span>
           </div>
           <p className="sr-only">
-            Bewertung: 5 von 5 Sternen basierend auf 42 Bewertungen.
+            Bewertung: 5 von 5 Sternen auf Google.
           </p>
 
           {/* Beispiel-Zitat (Brandschutz) */}

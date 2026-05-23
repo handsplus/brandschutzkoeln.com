@@ -12,6 +12,9 @@ export interface Leistung {
   rechtsgrundlagen?: string[];
   ablauf?: string[];
   ergebnis: string;
+  /** SEO-Landingpage für interne Verlinkung */
+  seoHref?: string;
+  seoLabel?: string;
 }
 
 export const LEISTUNGEN: Leistung[] = [
@@ -35,6 +38,8 @@ export const LEISTUNGEN: Leistung[] = [
     ],
     ergebnis:
       "Vollständige, anerkannte brandschutztechnische Stellungnahme oder ein Brandschutzkonzept als Grundlage für Genehmigung und Umsetzung.",
+    seoHref: "/brandschutzkonzept-koeln",
+    seoLabel: "Brandschutzkonzept Köln",
   },
   {
     id: "brandschutzordnung",
@@ -56,6 +61,8 @@ export const LEISTUNGEN: Leistung[] = [
     ],
     ergebnis:
       "Eine vollständige, an Ihr Objekt angepasste Brandschutzordnung inkl. Aushang (Teil A) und Handlungsanweisungen für den Brandfall.",
+    seoHref: "/brandschutzordnung-koeln",
+    seoLabel: "Brandschutzordnung Köln",
   },
   {
     id: "evakuierungskonzept",
@@ -182,6 +189,8 @@ export const LEISTUNGEN: Leistung[] = [
     ],
     ergebnis:
       "Ausgebildete Brandschutzhelfer mit Nachweis und aktualisierter Brandschutzorganisation.",
+    seoHref: "/brandschutzhelfer-ausbildung-koeln",
+    seoLabel: "Brandschutzhelfer-Ausbildung Köln",
   },
   {
     id: "feuerversicherer-anordnungen",
@@ -371,6 +380,8 @@ export const LEISTUNGEN: Leistung[] = [
     ],
     ergebnis:
       "Klare, umsetzbare Empfehlungen im baulichen, anlagentechnischen und organisatorischen Brandschutz.",
+    seoHref: "/brandschutzberatung-koeln",
+    seoLabel: "Brandschutzberatung Köln",
   },
 ];
 

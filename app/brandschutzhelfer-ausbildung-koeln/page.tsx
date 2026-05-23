@@ -5,16 +5,19 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
+import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
+import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzhelfer Ausbildung Köln | Inhouse Schulung",
+  title: "Brandschutzhelfer Köln | Inhouse ASR A2.2",
+  absoluteTitle: true,
   description:
-    "Brandschutzhelfer-Ausbildung in Köln nach ASR A2.2: Theorie und Praxis, Inhouse möglich, mit Nachweis und klaren Handlungsvorgaben für Ihr Team.",
+    "Brandschutzhelfer Köln: Inhouse-Ausbildung nach ASR A2.2 mit Theorie, Löschübung & Nachweis. Termine flexibel – Schulung jetzt anfragen.",
   ogDescription:
-    "Professionelle Brandschutzhelfer-Schulung in Köln: praxisnah, rechtskonform und auf Ihren Betrieb zugeschnitten.",
+    "Brandschutzhelfer-Ausbildung in Köln vor Ort: rechtskonform, praxisnah, mit Teilnahmenachweis für Ihren Betrieb.",
   keywords: [
-    "Brandschutzhelfer Ausbildung Köln",
     "Brandschutzhelfer Köln",
+    "Brandschutzhelfer Ausbildung Köln",
     "Brandschutzschulung Köln",
     "ASR A2.2 Schulung",
   ],
@@ -78,10 +81,16 @@ export default function BrandschutzhelferAusbildungKoelnPage() {
             <Link href="/brandschutzordnung-koeln" className="text-brand-red font-medium hover:underline">
               passende Brandschutzordnung
             </Link>
+            . Mehr zur{" "}
+            <Link href="/ratgeber/flucht-und-rettungswege-bauo-nrw" className="text-brand-red font-medium hover:underline">
+              Fluchtwegsicherung im Ratgeber
+            </Link>
             .
           </p>
         </div>
       </section>
+
+      <LandingFaqSection items={LANDING_FAQS["/brandschutzhelfer-ausbildung-koeln"]} />
 
       <CTA
         title="Brandschutzhelfer in Köln schulen lassen"

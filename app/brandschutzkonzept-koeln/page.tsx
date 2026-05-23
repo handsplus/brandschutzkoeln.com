@@ -5,13 +5,16 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
+import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
+import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzkonzept Köln | Erstellung & Begleitung",
+  title: "Brandschutzkonzept Köln | Erstellung H&S+",
+  absoluteTitle: true,
   description:
-    "Brandschutzkonzept in Köln erstellen lassen: rechtssichere Unterlagen für Neubau, Umbau und Nutzungsänderung nach BauO NRW - inklusive behördlicher Begleitung.",
+    "Brandschutzkonzept Köln: für Neubau, Umbau & Nutzungsänderung nach BauO NRW. Einreichfähige Unterlagen – Erstberatung unverbindlich.",
   ogDescription:
-    "Professionelles Brandschutzkonzept in Köln: von der Bestandsaufnahme bis zur einreichfähigen Dokumentation für Bauaufsicht, Feuerwehr und Versicherer.",
+    "Brandschutzkonzept in Köln erstellen lassen: von Bestandsaufnahme bis Behördenabstimmung.",
   keywords: [
     "Brandschutzkonzept Köln",
     "Brandschutz Konzept Köln",
@@ -63,9 +66,17 @@ export default function BrandschutzkonzeptKoelnPage() {
             <li>- Sanierungs- und Bestandsprojekte mit neuen Anforderungen</li>
           </ul>
           <p className="mt-6 text-stone-600">
-            Details zu weiteren Leistungen finden Sie auf der Seite{" "}
+            Wann ein Konzept nötig ist, erklären wir im{" "}
+            <Link href="/ratgeber/brandschutzkonzept-wann-noetig" className="text-brand-red font-medium hover:underline">
+              Ratgeber „Wann Brandschutzkonzept?“
+            </Link>
+            . Weitere{" "}
             <Link href="/leistungen" className="text-brand-red font-medium hover:underline">
               Leistungen
+            </Link>{" "}
+            und{" "}
+            <Link href="/brandschutzberatung-koeln" className="text-brand-red font-medium hover:underline">
+              Brandschutzberatung Köln
             </Link>
             .
           </p>
@@ -83,6 +94,8 @@ export default function BrandschutzkonzeptKoelnPage() {
           </ol>
         </div>
       </section>
+
+      <LandingFaqSection items={LANDING_FAQS["/brandschutzkonzept-koeln"]} />
 
       <CTA
         title="Brandschutzkonzept für Ihr Projekt in Köln"

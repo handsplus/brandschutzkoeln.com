@@ -5,14 +5,18 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
+import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
+import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzberatung Köln | Fachberatung für Unternehmen",
+  title: "Brandschutzberatung Köln | H&S+ Erstberatung",
+  absoluteTitle: true,
   description:
-    "Brandschutzberatung in Köln für Unternehmen, Immobilien und Bauvorhaben: Analyse, Maßnahmenplan und umsetzbare Empfehlungen nach BauO NRW und Arbeitsschutz.",
+    "Brandschutzberatung Köln: Ist-Analyse, priorisierte Maßnahmen nach BauO NRW. Für Gewerbe, Immobilien & Umbau – unverbindliche Erstberatung.",
   ogDescription:
-    "Praxisnahe Brandschutzberatung in Köln mit klaren Handlungsempfehlungen für Rechtssicherheit, Personenschutz und Werterhalt.",
+    "Fachliche Brandschutzberatung in Köln mit klaren nächsten Schritten. Jetzt Erstberatung anfragen.",
   keywords: [
+    "Brandschutzberatung",
     "Brandschutzberatung Köln",
     "Brandschutz Berater Köln",
     "vorbeugender Brandschutz Köln",
@@ -62,15 +66,24 @@ export default function BrandschutzberatungKoelnPage() {
             Je nach Bedarf begleiten wir Sie weiter mit{" "}
             <Link href="/brandschutzkonzept-koeln" className="text-brand-red font-medium hover:underline">
               Brandschutzkonzept
-            </Link>{" "}
-            oder{" "}
+            </Link>
+            ,{" "}
             <Link href="/brandschutzordnung-koeln" className="text-brand-red font-medium hover:underline">
               Brandschutzordnung
+            </Link>{" "}
+            oder als{" "}
+            <Link href="/brandschutzbeauftragter-koeln" className="text-brand-red font-medium hover:underline">
+              externer Brandschutzbeauftragter
+            </Link>
+            . Hintergründe zur BauO NRW im{" "}
+            <Link href="/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw" className="text-brand-red font-medium hover:underline">
+              Ratgeber Gebäudeklassen
             </Link>
             .
           </p>
         </div>
       </section>
+      <LandingFaqSection items={LANDING_FAQS["/brandschutzberatung-koeln"]} />
       <CTA
         title="Jetzt Brandschutzberatung in Köln anfragen"
         description="Sie erhalten eine fachliche Einschätzung und konkrete nächste Schritte für Ihr Objekt oder Unternehmen."

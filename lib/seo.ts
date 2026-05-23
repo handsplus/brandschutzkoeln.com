@@ -10,6 +10,8 @@ export interface PageSeoOptions {
   keywords?: string[];
   path?: string;
   noIndex?: boolean;
+  /** Voller SERP-Titel ohne Layout-Template (empfohlen für Landingpages). */
+  absoluteTitle?: boolean;
 }
 
 /** Maximale Länge Meta-Description (empfohlen für Snippets). */
@@ -23,6 +25,7 @@ export function createPageMetadata({
   keywords,
   path = "",
   noIndex = false,
+  absoluteTitle = false,
 }: PageSeoOptions): Metadata {
   const url = path ? `${siteUrl}${path}` : siteUrl;
   const trimmedDescription =
@@ -35,7 +38,7 @@ export function createPageMetadata({
       : ogDescription
     : trimmedDescription;
   return {
-    title,
+    title: absoluteTitle ? { absolute: title } : title,
     description: trimmedDescription,
     keywords,
     openGraph: {
