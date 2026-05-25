@@ -42,7 +42,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Image src="/logo.svg" alt="H&S+ Brandschutz Köln" width={345} height={127} className="h-[3.45rem] w-auto" />
             <p className="mt-3 max-w-md text-sm leading-relaxed text-stone-400">
-              {SITE.name} - Ihr spezialisierter Partner für Brandschutz in Köln und Umgebung.
+              {SITE.name} – Ihr spezialisierter Partner für Brandschutz in {SITE.region}.
               Rechtskonform, praxisnah, verantwortungsvoll.
             </p>
             <p className="mt-5 text-sm text-stone-400">

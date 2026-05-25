@@ -52,7 +52,7 @@ export default function LeistungenPage() {
           </h1>
           <p className="mt-4 text-lg text-stone-600">
             Schwerpunkt: brandschutztechnische Konzepte und Stellungnahmen sowie Brandschutzordnungen nach DIN 14096.
-            Standort Köln und Umgebung; genehmigungsrelevante Projekte in NRW (z. B. Bonn) nach Absprache. Darüber hinaus
+            In Köln und NRW. Darüber hinaus
             Pläne, Schulungen und Begleitung – von der Konzepterstellung bis vor Ort. Mehr zu den Anforderungen in der Region finden Sie unter{" "}
             <Link href="/brandschutz-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
               Brandschutz in Köln
@@ -82,8 +82,8 @@ export default function LeistungenPage() {
         <div className="container-narrow">
           <SectionHeader
             id="schwerpunkte"
-            title="Schwerpunkte"
-            subtitle="Hier liegt der Großteil unserer Projekte – mit eigener Vertiefungsseite."
+            title="Hauptleistungen"
+            subtitle="Konzept, Stellungnahme und Brandschutzordnung – mit eigener Vertiefungsseite."
           />
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             <article className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm">

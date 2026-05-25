@@ -410,26 +410,68 @@ const LEISTUNGEN_TEASER_IDS = [
   "beratung-baulich-anlagentechnisch-organisatorisch",
 ] as const;
 
-/** Kürzere Teaser-Texte für die Startseite (Fokus Umsatz-Leistungen). */
+/** Kürzere Teaser-Titel und Texte für die Startseite. */
+const LEISTUNGEN_TEASER_TITLES: Partial<Record<(typeof LEISTUNGEN_TEASER_IDS)[number], string>> = {
+  "stellungnahmen-konzepte": "Brandschutzkonzept & Stellungnahme",
+  brandschutzordnung: "Brandschutzordnung",
+  "neubau-umbau-nutzungsaenderung": "Neubau, Umbau & Nutzungsänderung",
+  "behoerdliche-anordnungen": "Behördliche Auflagen",
+  "beratung-baulich-anlagentechnisch-organisatorisch": "Brandschutzberatung",
+};
+
 const LEISTUNGEN_TEASER_COPY: Partial<Record<(typeof LEISTUNGEN_TEASER_IDS)[number], string>> = {
   "stellungnahmen-konzepte":
-    "Brandschutzkonzept, Stellungnahme und Fortschreibung § 9 BauPrüfVO NRW – für Genehmigung und Umbau.",
-  brandschutzordnung: "Brandschutzordnung nach DIN 14096 (Teil A, B, C) – Erstellung und Fortschreibung.",
+    "Konzept, brandschutztechnische Stellungnahme und Fortschreibung nach BauO NRW – für Genehmigung, Umbau und Sonderbau.",
+  brandschutzordnung: "Teil A, B und C nach DIN 14096 – Erstellung, Aushang und Fortschreibung.",
   "neubau-umbau-nutzungsaenderung":
-    "Neubau, Umbau, Nutzungsänderung: Nachweis und Begleitung bis Abnahme und Betrieb.",
+    "Nachweis und Begleitung von der Planung bis zur Abnahme und Übergabe in den Betrieb.",
   "behoerdliche-anordnungen":
-    "Behördliche Auflagen und Nachforderungen – fachliche Umsetzung bis zur Abnahme.",
+    "Umsetzung von Auflagen und Nachforderungen der Bauaufsicht oder Feuerwehr bis zur Abnahme.",
   "beratung-baulich-anlagentechnisch-organisatorisch":
     "Beratung baulich, anlagentechnisch und organisatorisch – ein Ansprechpartner.",
 };
 
-export function getLeistungenTeaser(): { title: string; description: string; href: string }[] {
-  return LEISTUNGEN.filter((l) =>
-    (LEISTUNGEN_TEASER_IDS as readonly string[]).includes(l.id)
-  ).map((l) => ({
-    title: l.title,
-    description:
-      LEISTUNGEN_TEASER_COPY[l.id as (typeof LEISTUNGEN_TEASER_IDS)[number]] ?? l.shortDescription,
+const LEISTUNGEN_TEASER_FEATURED: (typeof LEISTUNGEN_TEASER_IDS)[number][] = [
+  "stellungnahmen-konzepte",
+  "brandschutzordnung",
+];
+
+const LEISTUNGEN_TEASER_SECONDARY: (typeof LEISTUNGEN_TEASER_IDS)[number][] = [
+  "neubau-umbau-nutzungsaenderung",
+  "behoerdliche-anordnungen",
+  "beratung-baulich-anlagentechnisch-organisatorisch",
+];
+
+export type HomepageLeistungenTeaserItem = {
+  title: string;
+  description: string;
+  href: string;
+};
+
+export type HomepageLeistungenTeaser = {
+  featured: HomepageLeistungenTeaserItem[];
+  secondary: HomepageLeistungenTeaserItem[];
+};
+
+function mapTeaserItem(id: (typeof LEISTUNGEN_TEASER_IDS)[number]): HomepageLeistungenTeaserItem {
+  const l = LEISTUNGEN.find((x) => x.id === id)!;
+  return {
+    title: LEISTUNGEN_TEASER_TITLES[id] ?? l.title,
+    description: LEISTUNGEN_TEASER_COPY[id] ?? l.shortDescription,
     href: l.seoHref ?? `/leistungen#${l.id}`,
-  }));
+  };
+}
+
+/** Startseite: zwei Schwerpunkt-Karten + drei ergänzende Leistungen. */
+export function getHomepageLeistungenTeaser(): HomepageLeistungenTeaser {
+  return {
+    featured: LEISTUNGEN_TEASER_FEATURED.map(mapTeaserItem),
+    secondary: LEISTUNGEN_TEASER_SECONDARY.map(mapTeaserItem),
+  };
+}
+
+/** @deprecated Nutze getHomepageLeistungenTeaser – flache Liste für Abwärtskompatibilität. */
+export function getLeistungenTeaser(): HomepageLeistungenTeaserItem[] {
+  const { featured, secondary } = getHomepageLeistungenTeaser();
+  return [...featured, ...secondary];
 }

@@ -2,9 +2,17 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { CONTACT } from "@/lib/constants";
 
+export type HeroHeadlineLine = {
+  text: string;
+  /** Wort am Zeilenende hervorheben (z. B. „Köln“) */
+  highlight?: string;
+};
+
 export interface HeroProps {
   /** Hauptüberschrift (z. B. H1) */
   title: string;
+  /** Optional: feste Zeilen – verhindert unschöne Umbrüche („und“ allein) */
+  headlineLines?: HeroHeadlineLine[];
   /** Optional: Teil der Headline, der hervorgehoben wird (auf rotem Grund: Creme) */
   titleHighlight?: string;
   /** Untertitel / Subheadline */
@@ -15,10 +23,12 @@ export interface HeroProps {
   ctaLabel?: string;
   /** CTA-Button: Link (default: /kontakt) */
   ctaHref?: string;
-  /** Zweiter CTA-Button (z. B. "Unsere Leistungen") */
+  /** Zweiter CTA (Outline) – Standard: „Unsere Leistungen“ → /leistungen */
   secondaryCtaLabel?: string;
-  /** Link für zweiten CTA (default: /leistungen) */
   secondaryCtaHref?: string;
+  /** Dritter CTA (Outline), z. B. „Kostenlose Erstberatung“ */
+  tertiaryCtaLabel?: string;
+  tertiaryCtaHref?: string;
   /** Einzelner Badge-Text (falls nur einer) */
   badge?: string;
   /** Zwei kleine Badges (Brandschutzbeauftragter, Brandschutzmanager) – kompakt wie Referenz */
@@ -32,10 +42,28 @@ export interface HeroProps {
 }
 
 /**
- * Hero 1:1 wie Referenz: roter Hintergrund, weiße Schrift, Badge, 2 Buttons, Kontaktzeile.
+ * Hero wie Referenz: roter Hintergrund, Primär-CTA (weiß) + Outline-CTAs, Kontaktzeile.
  */
+function renderHeadlineLine(
+  { text, highlight }: HeroHeadlineLine,
+  isRedBg: boolean
+) {
+  if (!highlight || !text.includes(highlight)) {
+    return text;
+  }
+  const [before, after] = text.split(highlight);
+  return (
+    <>
+      {before}
+      <span className={isRedBg ? "text-heroHighlight" : "text-brand-red"}>{highlight}</span>
+      {after}
+    </>
+  );
+}
+
 export function Hero({
   title,
+  headlineLines,
   titleHighlight,
   subtitle,
   description,
@@ -43,6 +71,8 @@ export function Hero({
   ctaHref = "/kontakt",
   secondaryCtaLabel = "Unsere Leistungen",
   secondaryCtaHref = "/leistungen",
+  tertiaryCtaLabel,
+  tertiaryCtaHref = "/kontakt",
   badge,
   badges,
   showContactStrip = true,
@@ -53,15 +83,51 @@ export function Hero({
   const isRedBg = variant === "dark";
   const HeadingTag = asH1 ? "h1" : "h2";
 
-  const headlineContent = titleHighlight ? (
-    <>
-      {title.split(titleHighlight)[0]}
-      <span className={isRedBg ? "text-heroHighlight" : "text-brand-red"}>{titleHighlight}</span>
-      {title.split(titleHighlight)[1]}
-    </>
-  ) : (
-    title
+  const ctaFocus = "focus-visible:outline focus-visible:ring-2 focus-visible:ring-offset-2";
+  const ctaPrimary = cn(
+    "inline-flex min-h-[2.75rem] items-center justify-center gap-1.5 rounded-lg px-6 py-3 text-[0.9375rem] font-bold sm:min-h-[3rem] sm:px-7 sm:py-3.5 sm:text-base",
+    "transition-[transform,box-shadow,background-color] duration-200 ease-out motion-reduce:transition-none motion-reduce:hover:transform-none",
+    ctaFocus,
+    isRedBg
+      ? [
+          "bg-white text-brand-red ring-1 ring-black/5",
+          "shadow-[0_3px_0_rgba(0,0,0,0.12),0_4px_14px_rgba(0,0,0,0.28)]",
+          "hover:-translate-y-1 hover:bg-stone-50",
+          "hover:shadow-[0_5px_0_rgba(0,0,0,0.1),0_10px_22px_rgba(0,0,0,0.38)]",
+          "active:translate-y-px active:shadow-[0_1px_0_rgba(0,0,0,0.15),0_3px_10px_rgba(0,0,0,0.22)]",
+          "focus-visible:ring-white focus-visible:ring-offset-brand-red",
+        ]
+      : [
+          "bg-brand-red text-white shadow-md",
+          "hover:-translate-y-0.5 hover:bg-brand-redDark hover:shadow-lg",
+          "active:translate-y-px active:shadow-md",
+          "focus-visible:ring-brand-red",
+        ]
   );
+  const ctaGhost = cn(
+    "inline-flex min-h-[2.125rem] items-center justify-center rounded-lg border px-2.5 py-1 text-xs font-normal tracking-tight transition-colors sm:px-3 sm:py-1.5 sm:text-sm",
+    ctaFocus,
+    isRedBg
+      ? "border-white/75 bg-transparent text-white/90 hover:border-white hover:bg-white/10 hover:text-white focus-visible:ring-white focus-visible:ring-offset-brand-red"
+      : "border-stone-300 bg-transparent text-stone-600 hover:bg-stone-100 focus-visible:ring-stone-400"
+  );
+
+  const headlineContent =
+    headlineLines && headlineLines.length > 0 ? (
+      headlineLines.map((line, i) => (
+        <span key={i} className="block">
+          {renderHeadlineLine(line, isRedBg)}
+        </span>
+      ))
+    ) : titleHighlight ? (
+      <>
+        {title.split(titleHighlight)[0]}
+        <span className={isRedBg ? "text-heroHighlight" : "text-brand-red"}>{titleHighlight}</span>
+        {title.split(titleHighlight)[1]}
+      </>
+    ) : (
+      title
+    );
 
   return (
     <section
@@ -121,7 +187,7 @@ export function Hero({
         <HeadingTag
           id="hero-title"
           className={cn(
-            "text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl",
+            "max-w-4xl text-[1.75rem] font-bold leading-[1.15] tracking-normal sm:text-4xl sm:leading-[1.12] lg:text-5xl xl:text-[3.25rem]",
             isRedBg ? "text-white" : "text-stone-900"
           )}
         >
@@ -143,33 +209,22 @@ export function Hero({
           </p>
         )}
 
-        {/* Zwei Buttons wie Referenz: Primär hell, Sekundär dunkler */}
-        <div className="mt-10 flex flex-wrap gap-4">
+        {/* Drei CTAs: Primär breiter/hervorgehoben, Outline schmaler */}
+        <div className="mt-8 flex flex-wrap items-center gap-2 sm:gap-2.5">
           {ctaLabel && (
-            <Link
-              href={ctaHref}
-              className={cn(
-                "inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-base font-semibold shadow-sm focus-visible:outline focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-brand-red",
-                isRedBg
-                  ? "bg-white text-brand-red hover:bg-stone-100 focus-visible:ring-white"
-                  : "bg-brand-red text-white hover:bg-brand-redDark focus-visible:ring-brand-red"
-              )}
-            >
+            <Link href={ctaHref} className={ctaPrimary}>
               {ctaLabel}
               <span aria-hidden>→</span>
             </Link>
           )}
           {secondaryCtaLabel && (
-            <Link
-              href={secondaryCtaHref}
-              className={cn(
-                "inline-flex items-center justify-center rounded-lg px-6 py-3 text-base font-semibold focus-visible:outline focus-visible:ring-2 focus-visible:ring-offset-2",
-                isRedBg
-                  ? "bg-black/25 text-white hover:bg-black/35 focus-visible:ring-offset-brand-red focus-visible:ring-white/40"
-                  : "border-2 border-stone-300 bg-transparent text-stone-700 hover:bg-stone-100 focus-visible:ring-stone-400"
-              )}
-            >
+            <Link href={secondaryCtaHref} className={ctaGhost}>
               {secondaryCtaLabel}
+            </Link>
+          )}
+          {tertiaryCtaLabel && (
+            <Link href={tertiaryCtaHref} className={ctaGhost}>
+              {tertiaryCtaLabel}
             </Link>
           )}
         </div>

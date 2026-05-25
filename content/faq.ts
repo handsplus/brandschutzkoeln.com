@@ -4,23 +4,28 @@
 
 export const HOMEPAGE_FAQ = [
   {
-    question: "Was leistet ein Brandschutzsachverständiger – und wann brauche ich das?",
+    question: "Was erstellt H&S+ im Brandschutz?",
     answer:
-      "Brandschutzsachverständige liefern fachlich fundierte Einschätzungen im vorbeugenden Brandschutz – etwa bei Nutzungsänderungen, Sanierungen, Versicherungs- oder Behördenfragen und wenn eine neutrale Expertise gefragt ist. Wir klären mit Ihnen, welche Rolle im Einzelfall passt (z. B. ergänzend zu einem Brandschutzbeauftragten oder bei der Ausarbeitung/Kontrolle von Konzepten).",
+      "Schwerpunkt sind brandschutztechnische Konzepte und Stellungnahmen nach BauO NRW sowie Brandschutzordnungen nach DIN 14096 (Teil A, B, C). Ergänzend: Umbau und Nutzungsänderung, behördliche Auflagen, Pläne, Brandschutzhelfer-Schulung und Beratung.",
   },
   {
-    question: "Wer braucht einen Brandschutzbeauftragten oder ein Brandschutzkonzept in Köln?",
+    question: "Wann brauche ich ein Brandschutzkonzept – und wann reicht eine Stellungnahme?",
     answer:
-      "Je nach Bauordnung (z. B. BauO NRW), Nutzung und Größe des Objekts können Behörden ein Brandschutzkonzept oder die Bestellung eines Brandschutzbeauftragten verlangen. Bei Nutzungsänderungen, Sonderbauten, Gewerbe und Industrie ist professioneller Brandschutz oft Pflicht. Wir beraten Sie unverbindlich, ob und welche Nachweise Sie benötigen.",
+      "Bei genehmigungspflichtigem Neubau, Umbau, Nutzungsänderung und Sonderbau ist oft ein vollständiges Konzept nötig. Bei klar abgegrenzten Bestandsänderungen reicht häufig eine brandschutztechnische Stellungnahme – die Bauaufsicht entscheidet. Wir ordnen Ihr Vorhaben in der Erstberatung ein.",
   },
   {
-    question: "Was kostet Brandschutzberatung, Ordnung oder Feuerwehrplan in Köln?",
+    question: "Arbeiten Sie nur in Köln?",
     answer:
-      "Die Kosten hängen von Gebäudegröße, Nutzung und Umfang ab. In der unverbindlichen Erstberatung klären wir Ihr Anliegen und nennen die nächsten Schritte – ohne Pauschalversprechen, dafür mit passgenauer Einschätzung.",
+      "Schwerpunkt: brandschutztechnische Konzepte, Stellungnahmen und Brandschutzordnungen – in Köln und NRW.",
   },
   {
-    question: "Führen Sie die Brandschutzhelfer-Ausbildung vor Ort in Köln durch?",
+    question: "Was kostet ein Brandschutzkonzept oder eine Brandschutzordnung?",
     answer:
-      "Ja. Die Ausbildung von Brandschutzhelfern gemäß ASR A2.2 führen wir in Theorie und Praxis durch – bei Ihnen vor Ort in Köln und Umgebung oder in unseren Schulungsräumen. So erfüllen Sie die Anforderungen des Arbeitsschutzes und haben geschulte Ansprechpartner im Betrieb.",
+      "Der Aufwand hängt von Nutzung, Gebäude und behördlichem Umfang ab. In der unverbindlichen Erstberatung klären wir Ihr Vorhaben und nennen die nächsten Schritte – ohne pauschale Festpreise.",
+  },
+  {
+    question: "Führen Sie Brandschutzhelfer-Ausbildungen durch?",
+    answer:
+      "Ja, nach ASR A2.2 in Theorie und Praxis – bei Ihnen vor Ort in Köln und Umgebung. Die BSO und organisatorischer Brandschutz können wir parallel abstimmen.",
   },
 ] as const;

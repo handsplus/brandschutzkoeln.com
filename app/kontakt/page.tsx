@@ -41,7 +41,7 @@ export default function KontaktPage() {
           </h1>
           <p className="mt-4 text-lg text-stone-600">
             Kostenlose und unverbindliche Erstberatung – wir melden uns zeitnah bei Ihnen.
-            Standort Köln und Umgebung; Konzepte, Ordnungen und größere Vorhaben auch in NRW nach Absprache.
+            Konzepte, Ordnungen und Vorhaben – in Köln und NRW.
             Noch nicht vertraut mit uns?{" "}
             <Link href="/ueber-uns" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
               Über uns

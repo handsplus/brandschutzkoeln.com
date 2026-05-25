@@ -51,8 +51,7 @@ export default function BrandschutzkonzeptKoelnPage() {
           </h1>
           <p className="mt-4 text-lg text-stone-600">
             Schwerpunkt unserer Arbeit: brandschutztechnische Konzepte und Stellungnahmen nach BauO NRW und
-            BauPrüfVO NRW – für Genehmigung, Umbau und Nutzungsänderung. Standort Köln und Umgebung; Projekte
-            in NRW (z. B. Bonn, Rhein-Sieg, Bergisches Land) nach Absprache.
+            BauPrüfVO NRW – für Genehmigung, Umbau und Nutzungsänderung. In Köln und NRW.
           </p>
         </div>
       </section>

@@ -75,7 +75,7 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Arbeiten Sie nur in Köln?",
       answer:
-        "Standort und Schwerpunkt: Köln und Umgebung. Größere oder genehmigungsrelevante Projekte in NRW (z. B. Bonn, Rhein-Sieg) übernehmen wir nach Absprache – einheitlicher Planstand mit Ihrer Architektur.",
+        "In Köln und NRW – einheitlicher Planstand mit Ihrer Architektur.",
     },
     {
       question: "Unterstützen Sie bei Rückfragen der Bauaufsicht?",
@@ -117,7 +117,7 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Arbeiten Sie nur in Köln?",
       answer:
-        "Schwerpunkt Köln und Umgebung; BSO und Schulungen für weitere Standorte in NRW nach Projektumfang und Absprache.",
+        "BSO und Schulungen – in Köln und NRW.",
     },
   ],
   "/leistungen": [
@@ -129,7 +129,7 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Arbeiten Sie nur in Köln?",
       answer:
-        "Standort und Schwerpunkt: Köln und Umgebung. Genehmigungsrelevante Konzepte und größere Vorhaben in NRW (z. B. Bonn, Rhein-Sieg) nach Absprache.",
+        "Brandschutztechnische Konzepte und Vorhaben – in Köln und NRW.",
     },
     {
       question: "Wie erhalte ich ein Angebot?",

@@ -13,7 +13,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Brandschutzordnung Köln | Teil A, B, C",
   absoluteTitle: true,
   description:
-    "Brandschutzordnung nach DIN 14096: Teil A, B und C – Erstellung und Fortschreibung. Köln und Umgebung, auch NRW. H&S+.",
+    "Brandschutzordnung nach DIN 14096: Teil A, B und C – Erstellung und Fortschreibung. In Köln und NRW. H&S+.",
   ogDescription:
     "Brandschutzordnung: Verhalten im Brandfall, betriebliche Organisation, Aushang und Fortschreibung.",
   keywords: [
@@ -50,7 +50,7 @@ export default function BrandschutzordnungKoelnPage() {
           </h1>
           <p className="mt-4 text-lg text-stone-600">
             Zweiter Schwerpunkt unserer Leistungen: Brandschutzordnungen nach DIN 14096 – Erstellung, Einführung
-            und Fortschreibung. Standort Köln und Umgebung; Betreuung weiterer Standorte in NRW nach Projektumfang.
+            und Fortschreibung. In Köln und NRW.
           </p>
         </div>
       </section>

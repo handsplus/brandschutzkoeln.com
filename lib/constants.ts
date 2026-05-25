@@ -5,7 +5,7 @@ export const SITE = {
   shortName: "H&S+",
   tagline: "Brandschutz Köln – Brandschutz beginnt mit Expertise.",
   domain: "brandschutzkoeln.com",
-  region: "Köln und Umgebung",
+  region: "Köln und NRW",
   /** Zwei kleine Badges im Hero (mit Symbol, (VdS) bei beiden) */
   heroBadge1: "Zertifizierter Brandschutzbeauftragter (VdS)",
   heroBadge2: "Zertifizierter Brandschutzmanager (VdS)",

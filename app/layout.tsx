@@ -14,15 +14,15 @@ const geistSans = Geist({
   preload: true,
 });
 
-const HOME_TITLE = "Brandschutz Köln | Sachverständiger H&S+";
+const HOME_TITLE = "Brandschutzkonzept & Brandschutzordnung Köln | H&S+";
 
 const defaultMetadata = createPageMetadata({
   title: HOME_TITLE,
   absoluteTitle: true,
   description:
-    "Brandschutz Köln: Konzepte, Ordnungen, Pläne & Brandschutzhelfer-Schulung. Sachverständige von H&S+ – Erstberatung unverbindlich.",
+    "Brandschutzkonzept, Stellungnahme und Brandschutzordnung in Köln und NRW. H&S+ – Erstberatung unverbindlich.",
   ogDescription:
-    "Brandschutzsachverständiger Köln: BauO NRW, Gewerbe & Immobilien. Jetzt Erstberatung anfragen.",
+    "Konzepte und Stellungnahmen nach BauO NRW, Brandschutzordnungen nach DIN 14096 – in Köln und NRW.",
   keywords: [
     "Brandschutz Köln",
     "Brandschutzsachverständiger Köln",
