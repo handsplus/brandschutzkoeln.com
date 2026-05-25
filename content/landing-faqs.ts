@@ -60,46 +60,76 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Wann ist ein Brandschutzkonzept in Köln Pflicht?",
       answer:
-        "Typisch bei Neubau, Umbau, Nutzungsänderung, Sonderbauten oder behördlichen Auflagen. Wir prüfen Ihr Vorhaben und nennen den passenden Nachweis.",
+        "Typisch bei genehmigungspflichtigem Neubau, Umbau, Nutzungsänderung und Sonderbauten nach § 50 BauO NRW. Die Bauaufsicht legt fest, ob Vollkonzept, Stellungnahme oder Fortschreibung nach § 9 BauPrüfVO NRW reicht – wir ordnen Ihr Vorhaben ein.",
     },
     {
-      question: "Was unterscheidet Konzept und Stellungnahme?",
+      question: "Was unterscheidet Konzept und brandschutztechnische Stellungnahme?",
       answer:
-        "Je nach Vorhaben reicht eine Stellungnahme oder es wird ein vollständiges Konzept gefordert. Beides dokumentiert die Erfüllung brandschutzrechtlicher Anforderungen.",
+        "Das Konzept ist der vollständige Nachweis mit Plänen, Nutzung, baulichem und anlagentechnischem Brandschutz. Die STN deckt überschaubare, klar abgegrenzte Änderungen ab, wenn die Behörde keinen Vollnachweis verlangt.",
+    },
+    {
+      question: "Was ist eine Fortschreibung nach § 9 BauPrüfVO NRW?",
+      answer:
+        "Wenn sich Nutzung, Technik oder Schutzniveau am genehmigten Stand ändert, wird der bestehende Nachweis angepasst – z. B. nach Umbau, Abschaltung von Anlagen oder Teilumnutzung.",
+    },
+    {
+      question: "Arbeiten Sie nur in Köln?",
+      answer:
+        "Standort und Schwerpunkt: Köln und Umgebung. Größere oder genehmigungsrelevante Projekte in NRW (z. B. Bonn, Rhein-Sieg) übernehmen wir nach Absprache – einheitlicher Planstand mit Ihrer Architektur.",
     },
     {
       question: "Unterstützen Sie bei Rückfragen der Bauaufsicht?",
       answer:
-        "Ja, wir begleiten fachlich bei Rückfragen und ergänzen Unterlagen nachvollziehbar für Prüfer.",
+        "Ja, fachlich bei Zwischenbescheiden, Nachforderungen und Abstimmung mit Feuerwehr – keine anwaltliche Vertretung, aber nachvollziehbare Ergänzungen zum Konzept.",
+    },
+    {
+      question: "Ersetzt das Konzept Flucht- und Feuerwehrpläne?",
+      answer:
+        "Nein. Bauordnungsrechtlicher Nachweis (Konzept/STN) und betriebliche Pläne (ASR A2.3, DIN 14095) sind getrennt – wir können beides, klar abgegrenzt.",
     },
   ],
   "/brandschutzordnung-koeln": [
     {
       question: "Was sind Teil A, B und C der Brandschutzordnung?",
       answer:
-        "Teil A (Aushang) für alle, Teil B mit Verhaltensregeln für Nutzer, Teil C mit Aufgaben für Führungskräfte – nach DIN 14096, angepasst an Ihr Objekt.",
+        "Nach DIN 14096: Teil A als Aushang für alle Personen, Teil B mit Pflichten für Beschäftigte und Nutzer, Teil C mit Aufgaben für Personen mit besonderen Brandschutzaufgaben – angepasst an Ihren Betrieb.",
+    },
+    {
+      question: "Brauche ich eine BSO ohne Bauantrag?",
+      answer:
+        "Oft ja: im laufenden Betrieb, nach Umbau, wegen Versicherer oder interner Vorgaben – unabhängig vom genehmigungsrechtlichen Konzept.",
     },
     {
       question: "Wie oft muss die Ordnung fortgeschrieben werden?",
       answer:
-        "Bei baulichen, organisatorischen oder nutzungsbezogenen Änderungen. Wir aktualisieren Inhalte und Aushänge.",
+        "Bei baulichen, organisatorischen oder nutzungsbezogenen Änderungen, neuen Fluchtwegen oder geänderten Zuständigkeiten. Teil A muss dann sichtbar aktualisiert werden.",
     },
     {
-      question: "Können Sie Flucht- und Rettungspläne mit erstellen?",
+      question: "Was ist der Unterschied zur Flucht- und Rettungsplan?",
       answer:
-        "Ja, Pläne und Ordnung greifen ineinander – wir erstellen beides aus einer Objektbegehung.",
+        "Die BSO regelt Verhalten und Zuständigkeiten (DIN 14096). Der Fluchtplan nach ASR A2.3 zeigt Orientierung und Wege für Beschäftigte – beides wird oft gemeinsam fortgeschrieben, ist aber nicht dasselbe Dokument.",
+    },
+    {
+      question: "Können Sie Flucht- und Feuerwehrpläne mit erstellen?",
+      answer:
+        "Ja, aus einer Begehung – getrennt nach ASR A2.3 und DIN 14095. Die BSO verweist darauf, ersetzt sie aber nicht.",
+    },
+    {
+      question: "Arbeiten Sie nur in Köln?",
+      answer:
+        "Schwerpunkt Köln und Umgebung; BSO und Schulungen für weitere Standorte in NRW nach Projektumfang und Absprache.",
     },
   ],
   "/leistungen": [
     {
       question: "Welche Brandschutz-Leistungen bieten Sie in Köln an?",
       answer:
-        "Konzepte und Stellungnahmen, Brandschutzordnungen, Evakuierungskonzepte, Feuerwehr- und Fluchtpläne, Brandschutzhelfer-Ausbildung sowie Beratung und externe Brandschutzbeauftragten-Unterstützung.",
+        "Schwerpunkt: brandschutztechnische Konzepte und Stellungnahmen sowie Brandschutzordnungen nach DIN 14096. Ergänzend: Pläne, Evakuierung, Brandschutzhelfer, Beratung und Begleitung bei behördlichen Anordnungen.",
     },
     {
       question: "Arbeiten Sie nur in Köln?",
       answer:
-        "Schwerpunkt Köln und Umgebung; für größere Projekte auch darüber hinaus nach Absprache.",
+        "Standort und Schwerpunkt: Köln und Umgebung. Genehmigungsrelevante Konzepte und größere Vorhaben in NRW (z. B. Bonn, Rhein-Sieg) nach Absprache.",
     },
     {
       question: "Wie erhalte ich ein Angebot?",

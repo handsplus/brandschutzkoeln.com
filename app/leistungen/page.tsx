@@ -51,8 +51,9 @@ export default function LeistungenPage() {
             Leistungen
           </h1>
           <p className="mt-4 text-lg text-stone-600">
-            Unser Leistungsspektrum im Brandschutz – von der Konzepterstellung bis zur
-            Schulung und Begleitung vor Ort. Mehr zu den Anforderungen in der Region finden Sie unter{" "}
+            Schwerpunkt: brandschutztechnische Konzepte und Stellungnahmen sowie Brandschutzordnungen nach DIN 14096.
+            Standort Köln und Umgebung; genehmigungsrelevante Projekte in NRW (z. B. Bonn) nach Absprache. Darüber hinaus
+            Pläne, Schulungen und Begleitung – von der Konzepterstellung bis vor Ort. Mehr zu den Anforderungen in der Region finden Sie unter{" "}
             <Link href="/brandschutz-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
               Brandschutz in Köln
             </Link>
@@ -77,7 +78,51 @@ export default function LeistungenPage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 bg-stone-50" aria-labelledby="leistungen-ueberblick">
+      <section className="py-16 sm:py-20 bg-stone-50" aria-labelledby="schwerpunkte">
+        <div className="container-narrow">
+          <SectionHeader
+            id="schwerpunkte"
+            title="Schwerpunkte"
+            subtitle="Hier liegt der Großteil unserer Projekte – mit eigener Vertiefungsseite."
+          />
+          <div className="mt-8 grid gap-6 sm:grid-cols-2">
+            <article className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm">
+              <h2 className="text-xl font-bold text-stone-900">
+                Brandschutzkonzept und Stellungnahme
+              </h2>
+              <p className="mt-3 text-stone-600">
+                Vollnachweis, STN oder Fortschreibung nach § 9 BauPrüfVO NRW – für Neubau, Umbau, Nutzungsänderung
+                und Sonderbau. Einreichfähige Unterlagen, Abstimmung mit Bauaufsicht und Feuerwehr.
+              </p>
+              <p className="mt-4">
+                <Link
+                  href="/brandschutzkonzept-koeln"
+                  className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red"
+                >
+                  Brandschutzkonzept Köln →
+                </Link>
+              </p>
+            </article>
+            <article className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm">
+              <h2 className="text-xl font-bold text-stone-900">Brandschutzordnung</h2>
+              <p className="mt-3 text-stone-600">
+                Teil A, B und C nach DIN 14096 – Erstellung, Einführung und Fortschreibung. Klar getrennt von
+                Flucht- und Feuerwehrplänen.
+              </p>
+              <p className="mt-4">
+                <Link
+                  href="/brandschutzordnung-koeln"
+                  className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red"
+                >
+                  Brandschutzordnung Köln →
+                </Link>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 sm:py-20 bg-white" aria-labelledby="leistungen-ueberblick">
         <div className="container-wide">
           <SectionHeader
             id="leistungen-ueberblick"

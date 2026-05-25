@@ -9,6 +9,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
+import { RatgeberDeepenSection } from "@/components/sections/RatgeberDeepenSection";
 import { SITE } from "@/lib/constants";
 
 export default function HomePage() {
@@ -66,6 +67,16 @@ export default function HomePage() {
       />
 
       <PraxisFaelleSection />
+
+      <RatgeberDeepenSection
+        className="py-16 sm:py-20 bg-white"
+        links={[
+          { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Wann Konzept, wann Stellungnahme?" },
+          { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Unterlagen für Bauaufsicht und Genehmigung" },
+          { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Fluchtplan, Feuerwehrplan, BSO – drei Ebenen" },
+          { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau nach § 50 BauO NRW" },
+        ]}
+      />
 
       <section className="py-12 bg-stone-50" aria-labelledby="haeufig-gesucht">
         <div className="container-narrow">

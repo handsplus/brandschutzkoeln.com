@@ -24,3 +24,6 @@ npm-debug.log*
 
 # Vercel
 .vercel
+
+# Interne Handlungsvorlagen-Extrakte (sensibel, nicht ins Repo)
+docs/handlungsvorlagen-brandschutz/

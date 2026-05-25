@@ -21,15 +21,21 @@ export const LEISTUNGEN: Leistung[] = [
   {
     id: "stellungnahmen-konzepte",
     title: "Erstellung von brandschutztechnischen Stellungnahmen und Konzepten",
-    shortDescription: "Fachlich fundierte Stellungnahmen und Konzepte für Bauvorhaben und Nutzungsänderungen.",
+    shortDescription:
+      "Brandschutzkonzept, brandschutztechnische Stellungnahme und Fortschreibung nach BauO NRW und BauPrüfVO NRW.",
     description:
-      "Wir erstellen brandschutztechnische Stellungnahmen und Konzepte, die alle relevanten Anforderungen der Bauordnung und der Sachversicherer berücksichtigen. Damit schaffen Sie Planungssicherheit und erfüllen behördliche und versicherungstechnische Vorgaben.",
+      "Wir erstellen brandschutztechnische Stellungnahmen und Brandschutzkonzepte nach BauO NRW und BauPrüfVO NRW – für Genehmigung, Umbau, Nutzungsänderung und Sonderbauten (§ 50 BauO NRW, SBauVO NRW). Einreichfähige Unterlagen, Abstimmung mit Bauaufsicht, Feuerwehr und Versicherer.",
     nutzen: [
       "Planungssicherheit für Bauherren und Architekten",
-      "Schnellere Genehmigungsverfahren",
-      "Erfüllung bauaufsichtlicher und versicherertechnischer Anforderungen",
+      "Nachvollziehbare Unterlagen für Genehmigung und Abnahme",
+      "Klare Abgrenzung: Stellungnahme, Vollkonzept oder Fortschreibung nach § 9 BauPrüfVO NRW",
     ],
-    rechtsgrundlagen: ["BauO NRW", "Musterbauordnung (MBAO)", "Vorgaben der Feuerversicherer"],
+    rechtsgrundlagen: [
+      "BauO NRW",
+      "BauPrüfVO NRW (§ 9 Nachweis, § 7 Entwurfsverfasser)",
+      "Sonderbauverordnung NRW (SBauVO) bei geregeltem Sonderbau",
+      "Vorgaben der Feuerversicherer",
+    ],
     ablauf: [
       "Auftragsklärung und Bereitstellung der Planunterlagen",
       "Analyse der Nutzung und der baulichen Gegebenheiten",
@@ -37,22 +43,27 @@ export const LEISTUNGEN: Leistung[] = [
       "Abstimmung mit Bauherr und Planern, ggf. Behördenvortrag",
     ],
     ergebnis:
-      "Vollständige, anerkannte brandschutztechnische Stellungnahme oder ein Brandschutzkonzept als Grundlage für Genehmigung und Umsetzung.",
+      "Einreichungsfähige Stellungnahme, Brandschutzkonzept oder Fortschreibung nach § 9 BauPrüfVO NRW inkl. Pläne und Anlagen.",
     seoHref: "/brandschutzkonzept-koeln",
     seoLabel: "Brandschutzkonzept Köln",
   },
   {
     id: "brandschutzordnung",
     title: "Erstellung und Fortschreibung von Brandschutzordnungen",
-    shortDescription: "Rechtskonforme Brandschutzordnungen Teil A, B und C für Ihr Objekt.",
+    shortDescription: "Brandschutzordnung nach DIN 14096: Teil A, B und C – Erstellung und Fortschreibung.",
     description:
-      "Die Brandschutzordnung regelt das Verhalten im Brandfall und die vorbeugenden Maßnahmen. Wir erstellen und fortschreiben Brandschutzordnungen nach DIN 14096 (Teil A, B, C) und passen sie an Ihre Nutzung und Ihr Gebäude an.",
+      "Nach DIN 14096 erstellen und fortschreiben wir Ihre Brandschutzordnung (Teil A, B, C) – Verhalten im Brandfall, Zuständigkeiten und betriebliche Organisation. Abgestimmt auf Nutzung, Fluchtwege und Sammelplätze. ASR A2.2 (Feuerlöscher, Brandschutzhelfer) binden wir ergänzend ein, sofern erforderlich.",
     nutzen: [
       "Rechtssichere Dokumentation der Brandschutzorganisation",
       "Klare Verhaltensregeln für alle Beschäftigten und Nutzer",
       "Grundlage für Unterweisungen und Evakuierungsübungen",
     ],
-    rechtsgrundlagen: ["ArbSchG", "ASR A2.2", "DIN 14096", "DGUV Vorschriften"],
+    rechtsgrundlagen: [
+      "DIN 14096 (Brandschutzordnung Teil A, B, C)",
+      "ArbSchG",
+      "ASR A2.2 (Feuerlöscher, Brandschutzhelfer – ergänzend)",
+      "DGUV Vorschriften",
+    ],
     ablauf: [
       "Begehung und Erfassung der Objektgegebenheiten",
       "Festlegung der Brandschutzorganisation (Fluchtwege, Sammelplätze, Meldewege)",
@@ -90,13 +101,18 @@ export const LEISTUNGEN: Leistung[] = [
     title: "Erstellung, Überprüfung und Fortschreibung von Feuerwehrplänen sowie Flucht- und Rettungsplänen",
     shortDescription: "Feuerwehrpläne und Flucht- und Rettungspläne nach Norm für Einsatzkräfte und Nutzer.",
     description:
-      "Feuerwehrpläne unterstützen die Feuerwehr bei der Orientierung; Flucht- und Rettungspläne weisen Nutzern den Weg ins Freie. Wir erstellen, prüfen und fortschreiben diese Pläne normgerecht und aktuell.",
+      "Drei Ebenen werden getrennt: bauordnungsrechtlicher Rettungswegnachweis in Konzept und Plänen; Feuerwehrpläne nach DIN 14095 für die Einsatzleitung; Flucht- und Rettungspläne nach ASR A2.3 für Beschäftigte und Besucher. Wir erstellen, prüfen und fortschreiben die betroffenen Planarten.",
     nutzen: [
-      "Schnellere Orientierung der Feuerwehr im Objekt",
-      "Klare Wegeführung für Flucht und Rettung",
-      "Erfüllung von Auflagen aus Bauordnung und Versicherung",
+      "Feuerwehrplan und FSD für die Einsatzleitung",
+      "Flucht- und Rettungspläne für den Betrieb (Arbeitsschutz)",
+      "Abgleich mit genehmigtem Brandschutzkonzept – keine widersprüchlichen Pläne",
     ],
-    rechtsgrundlagen: ["DIN 14095", "DIN ISO 23601", "BauO NRW", "ArbStättV"],
+    rechtsgrundlagen: [
+      "BauO NRW (Rettungswege im Nachweis)",
+      "DIN 14095 (Feuerwehrplan)",
+      "ASR A2.3 (Flucht- und Rettungsplan)",
+      "ArbStättV",
+    ],
     ablauf: [
       "Grundrisse und Nutzungsdaten erfassen",
       "Fluchtwege, Rettungswege und brandschutzrelevante Einrichtungen einzeichnen",
@@ -151,9 +167,9 @@ export const LEISTUNGEN: Leistung[] = [
   {
     id: "behoerdliche-anordnungen",
     title: "Unterstützung bei der Umsetzung behördlicher Anordnungen",
-    shortDescription: "Fachliche Begleitung bei der Erfüllung von Auflagen der Bauaufsicht und Feuerwehr.",
+    shortDescription: "Umsetzung behördlicher Brandschutz-Auflagen – fachlich bis zur Abnahme.",
     description:
-      "Behördliche Anordnungen im Brandschutz müssen fristgerecht und fachgerecht umgesetzt werden. Wir beraten Sie bei der Interpretation der Auflagen und begleiten die Umsetzung bis zur Abnahme.",
+      "Behördliche Anordnungen und Nachforderungen der Bauaufsicht oder Feuerwehr setzen wir fachlich um: Auslegung der Auflagen, Maßnahmenplan, Dokumentation – bis zur Abnahme. Bezug zu BauO NRW und bestehendem Nachweis (Konzept, BSO, Pläne).",
     nutzen: [
       "Sichere und rechtssichere Erfüllung der Auflagen",
       "Schnellere Abnahme durch klare Umsetzungsplanung",
@@ -216,9 +232,9 @@ export const LEISTUNGEN: Leistung[] = [
   {
     id: "neubau-umbau-nutzungsaenderung",
     title: "Einhaltung von Brandschutzbestimmungen bei Neu-, Um- und Erweiterungsbauten, Nutzungsänderungen, Anmietungen und Beschaffungen",
-    shortDescription: "Brandschutz von der Planung bis zur Nutzung – für alle Projektarten.",
+    shortDescription: "Brandschutz bei Neubau, Umbau und Nutzungsänderung – Konzept, Abnahme, Betrieb.",
     description:
-      "Bei Neubau, Umbau, Nutzungsänderung, Anmietung oder Beschaffung sind brandschutztechnische Anforderungen zu beachten. Wir begleiten Sie von der Konzeptphase bis zur Abnahme und Nutzung.",
+      "Bei Neubau, Umbau, Nutzungsänderung, Anmietung oder Beschaffung erstellen wir den passenden brandschutztechnischen Nachweis (Konzept, STN, Fortschreibung) nach BauO NRW und begleiten bis Abnahme – inkl. Übergabe in den Betrieb (Brandschutzordnung, Pläne).",
     nutzen: [
       "Rechtssichere Planung und Umsetzung",
       "Keine bösen Überraschungen bei Abnahme oder Betriebsprüfung",
@@ -385,18 +401,35 @@ export const LEISTUNGEN: Leistung[] = [
   },
 ];
 
-/** Teaser für Startseite: Auswahl der wichtigsten Leistungen mit Link zur Leistungsseite (Anker). */
+/** Teaser für Startseite: Schwerpunkte Konzept/STN, BSO, Umbau, behördliche Auflagen, Beratung. */
+const LEISTUNGEN_TEASER_IDS = [
+  "stellungnahmen-konzepte",
+  "brandschutzordnung",
+  "neubau-umbau-nutzungsaenderung",
+  "behoerdliche-anordnungen",
+  "beratung-baulich-anlagentechnisch-organisatorisch",
+] as const;
+
+/** Kürzere Teaser-Texte für die Startseite (Fokus Umsatz-Leistungen). */
+const LEISTUNGEN_TEASER_COPY: Partial<Record<(typeof LEISTUNGEN_TEASER_IDS)[number], string>> = {
+  "stellungnahmen-konzepte":
+    "Brandschutzkonzept, STN und Fortschreibung § 9 BauPrüfVO NRW – für Genehmigung und Umbau.",
+  brandschutzordnung: "Brandschutzordnung nach DIN 14096 (Teil A, B, C) – Erstellung und Fortschreibung.",
+  "neubau-umbau-nutzungsaenderung":
+    "Neubau, Umbau, Nutzungsänderung: Nachweis und Begleitung bis Abnahme und Betrieb.",
+  "behoerdliche-anordnungen":
+    "Behördliche Auflagen und Nachforderungen – fachliche Umsetzung bis zur Abnahme.",
+  "beratung-baulich-anlagentechnisch-organisatorisch":
+    "Beratung baulich, anlagentechnisch und organisatorisch – ein Ansprechpartner.",
+};
+
 export function getLeistungenTeaser(): { title: string; description: string; href: string }[] {
-  const ids = [
-    "stellungnahmen-konzepte",
-    "brandschutzordnung",
-    "feuerwehr-fluchtplaene",
-    "brandschutzhelfer-ausbildung",
-    "beratung-baulich-anlagentechnisch-organisatorisch",
-  ];
-  return LEISTUNGEN.filter((l) => ids.includes(l.id)).map((l) => ({
+  return LEISTUNGEN.filter((l) =>
+    (LEISTUNGEN_TEASER_IDS as readonly string[]).includes(l.id)
+  ).map((l) => ({
     title: l.title,
-    description: l.shortDescription,
-    href: `/leistungen#${l.id}`,
+    description:
+      LEISTUNGEN_TEASER_COPY[l.id as (typeof LEISTUNGEN_TEASER_IDS)[number]] ?? l.shortDescription,
+    href: l.seoHref ?? `/leistungen#${l.id}`,
   }));
 }

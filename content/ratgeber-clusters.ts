@@ -81,6 +81,7 @@ export const RATGEBER_CLUSTERS: RatgeberCluster[] = [
     slugs: [
       "gebaeudeklassen-brandschutz-bauo-nrw",
       "sonderbauten-brandschutz",
+      "sonderbauten-geregelt-ungeregelt-bauo-nrw",
       "brandschutzkonzept-wann-noetig",
       "flucht-und-rettungswege-bauo-nrw",
     ],
