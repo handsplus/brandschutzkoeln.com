@@ -91,7 +91,7 @@ export default function LeistungenPage() {
                 Brandschutzkonzept und Stellungnahme
               </h2>
               <p className="mt-3 text-stone-600">
-                Vollnachweis, STN oder Fortschreibung nach § 9 BauPrüfVO NRW – für Neubau, Umbau, Nutzungsänderung
+                Vollnachweis, Stellungnahme oder Fortschreibung nach § 9 BauPrüfVO NRW – für Neubau, Umbau, Nutzungsänderung
                 und Sonderbau. Einreichfähige Unterlagen, Abstimmung mit Bauaufsicht und Feuerwehr.
               </p>
               <p className="mt-4">

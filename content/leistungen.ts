@@ -234,7 +234,7 @@ export const LEISTUNGEN: Leistung[] = [
     title: "Einhaltung von Brandschutzbestimmungen bei Neu-, Um- und Erweiterungsbauten, Nutzungsänderungen, Anmietungen und Beschaffungen",
     shortDescription: "Brandschutz bei Neubau, Umbau und Nutzungsänderung – Konzept, Abnahme, Betrieb.",
     description:
-      "Bei Neubau, Umbau, Nutzungsänderung, Anmietung oder Beschaffung erstellen wir den passenden brandschutztechnischen Nachweis (Konzept, STN, Fortschreibung) nach BauO NRW und begleiten bis Abnahme – inkl. Übergabe in den Betrieb (Brandschutzordnung, Pläne).",
+      "Bei Neubau, Umbau, Nutzungsänderung, Anmietung oder Beschaffung erstellen wir den passenden brandschutztechnischen Nachweis (Konzept, Stellungnahme, Fortschreibung) nach BauO NRW und begleiten bis Abnahme – inkl. Übergabe in den Betrieb (Brandschutzordnung, Pläne).",
     nutzen: [
       "Rechtssichere Planung und Umsetzung",
       "Keine bösen Überraschungen bei Abnahme oder Betriebsprüfung",
@@ -401,7 +401,7 @@ export const LEISTUNGEN: Leistung[] = [
   },
 ];
 
-/** Teaser für Startseite: Schwerpunkte Konzept/STN, BSO, Umbau, behördliche Auflagen, Beratung. */
+/** Teaser für Startseite: Schwerpunkte Konzept oder Stellungnahme, BSO, Umbau, behördliche Auflagen, Beratung. */
 const LEISTUNGEN_TEASER_IDS = [
   "stellungnahmen-konzepte",
   "brandschutzordnung",
@@ -413,7 +413,7 @@ const LEISTUNGEN_TEASER_IDS = [
 /** Kürzere Teaser-Texte für die Startseite (Fokus Umsatz-Leistungen). */
 const LEISTUNGEN_TEASER_COPY: Partial<Record<(typeof LEISTUNGEN_TEASER_IDS)[number], string>> = {
   "stellungnahmen-konzepte":
-    "Brandschutzkonzept, STN und Fortschreibung § 9 BauPrüfVO NRW – für Genehmigung und Umbau.",
+    "Brandschutzkonzept, Stellungnahme und Fortschreibung § 9 BauPrüfVO NRW – für Genehmigung und Umbau.",
   brandschutzordnung: "Brandschutzordnung nach DIN 14096 (Teil A, B, C) – Erstellung und Fortschreibung.",
   "neubau-umbau-nutzungsaenderung":
     "Neubau, Umbau, Nutzungsänderung: Nachweis und Begleitung bis Abnahme und Betrieb.",

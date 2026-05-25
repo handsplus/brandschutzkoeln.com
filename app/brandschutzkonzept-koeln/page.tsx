@@ -72,7 +72,7 @@ export default function BrandschutzkonzeptKoelnPage() {
               Löschwasser, ggf. Abweichungen § 69), Abstimmung mit Plänen und Anhängen für Feuerwehr und Bauaufsicht.
             </p>
             <p>
-              <strong className="text-stone-900">Brandschutztechnische Stellungnahme (STN):</strong> bei klar
+              <strong className="text-stone-900">Brandschutztechnische Stellungnahme:</strong> bei klar
               abgegrenzten, überschaubaren Änderungen am Bestand – wenn die Behörde kein vollständiges Konzept verlangt.
               Beispiele: begrenzte Nutzungsanpassung, Einordnung einzelner Maßnahmen, interne Freigaben.
             </p>
@@ -111,7 +111,7 @@ export default function BrandschutzkonzeptKoelnPage() {
             subtitle="Nachvollziehbare Unterlagen – einheitlicher Planstand."
           />
           <ul className="space-y-3 text-stone-600" role="list">
-            <li>Brandschutzkonzept oder STN mit Kap. Nutzung, baulicher und anlagentechnischer Brandschutz</li>
+            <li>Brandschutzkonzept oder Stellungnahme mit Kap. Nutzung, baulicher und anlagentechnischer Brandschutz</li>
             <li>Abgestimmte Brandschutzpläne / Visualisierung (Geschosse, Schnitte, Brandabschnitte)</li>
             <li>Betriebsbeschreibung, Nutzerzahlen, Löschwassernachweis soweit erforderlich</li>
             <li>Dokumentation der Feuerwehrabstimmung und ggf. Versorger (Löschwasser)</li>
@@ -134,7 +134,7 @@ export default function BrandschutzkonzeptKoelnPage() {
           <ol className="list-decimal space-y-3 pl-5 text-stone-600">
             <li>Kurzbesprechung: Vorhaben, Pläne, Fristen, behördlicher Stand</li>
             <li>Bestandsaufnahme und Einordnung (GK, Sonderbau, erforderlicher Nachweis)</li>
-            <li>Erstellung Konzept/STN/Fortschreibung inkl. Pläne und Text</li>
+            <li>Erstellung Konzept, Stellungnahme oder Fortschreibung inkl. Pläne und Text</li>
             <li>Abstimmung mit Ihnen, Architektur, ggf. Feuerwehr und Bauaufsicht</li>
             <li>Übergabe einreichungsfähiges Paket; bei Bedarf Nachträge nach Zwischenbescheid</li>
           </ol>

@@ -856,7 +856,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         ],
         list: [
           "Monat 0: Nutzung und Personenzahl schriftlich; Ist-Begehung; GK und § 50 prüfen",
-          "Planung: Architektur und TGA mit brandschutztechnischer Leitplanung (Konzept oder STN)",
+          "Planung: Architektur und TGA mit brandschutztechnischer Leitplanung (Konzept oder Stellungnahme)",
           "Bauantrag: Pläne, Nachweis, ggf. Löschwasser und Feuerwehr-Anhang",
           "Zwischenbescheid: Mängelliste Punkt für Punkt (Türen, Abschottungen, Wege, Anlagen)",
           "Umsetzung und Abnahme: BMA, Pläne, BSO, Dokumentation der Ausführung",
@@ -971,7 +971,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Betriebsunterlagen wie Brandschutzordnung DIN 14096 oder Fluchtpläne nach DIN 14095 sind für den laufenden Betrieb wichtig, ersetzen aber den Genehmigungsnachweis zum Bauantrag nicht.",
         ],
         list: [
-          "Genehmigung: Brandschutznachweis (Konzept oder STN) + passende Bauzeichnungen",
+          "Genehmigung: Brandschutznachweis (Konzept oder Stellungnahme) + passende Bauzeichnungen",
           "Betrieb: BSO, Flucht- und Rettungspläne, Prüfprotokolle BMA/Sprinkler",
           "Bestand: frühere Baugenehmigungen und ggf. altes BSK mit einbeziehen",
         ],
@@ -1045,7 +1045,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Was wir in der Vorbereitung tun – und was nicht",
         paragraphs: [
           "Wir strukturieren brandschutztechnische Inhalte für Bauaufsicht und Feuerwehr: Nachweis, Pläne, Abstimmungsprotokolle, Antworten auf Zwischenbescheide – nachvollziehbar und widerspruchsfrei. Wir ersetzen keine Behörde und stellen keine Genehmigung aus.",
-          "Sinnvolle Reihenfolge: Nutzung und Sonderbau klären → Bestandsunterlagen beschaffen → Feuerwehr-Vorab wenn nötig → Konzept/STN finalisieren → mit Entwurfsverfasser und Bauantrag einreichen.",
+          "Sinnvolle Reihenfolge: Nutzung und Sonderbau klären → Bestandsunterlagen beschaffen → Feuerwehr-Vorab wenn nötig → Konzept oder Stellungnahme finalisieren → mit Entwurfsverfasser und Bauantrag einreichen.",
         ],
       },
       {
@@ -1193,7 +1193,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Variante A/B/C fachlich wählen und schriftlich bestätigen lassen",
           "Flucht- und Rettungswege, Brandabschnitt, Erschließung zum Gesamtgebäude",
           "Entrauchung/Lüftung mit Brandschutz abstimmen",
-          "Brandschutznachweis (Konzept/STN) inkl. Sprinkler-Nachweis",
+          "Brandschutznachweis (Konzept oder Stellungnahme) inkl. Sprinkler-Nachweis",
           "Eigentümer/Mieter: Genehmigungsverantwortung und Bestands-BSK klären",
         ],
         paragraphs: [
@@ -1669,7 +1669,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklasse 5" },
       { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht & Unterlagen" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau im Bestand" },
-      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept / STN" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept und Stellungnahme" },
       { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
@@ -1925,11 +1925,11 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Stellungnahme, Konzept oder Fortschreibung?",
         paragraphs: [
           "Nachweis-Logik in drei Stufen – die Bauaufsicht entscheidet im Einzelfall:",
-          "Im Praxisfall reichte eine STN, weil ein Gesamtkonzept des Gebäudes existierte und nur die Zusammenlegung neue Fragen zu Rettungswegen und Trennwand aufwarf. Ohne Konzeptakte hätte die Behörde ein vollständiges BSK nachgefordert – wie im Zwischenbescheid zunächst angedeutet.",
+          "Im Praxisfall reichte eine brandschutztechnische Stellungnahme, weil ein Gesamtkonzept des Gebäudes existierte und nur die Zusammenlegung neue Fragen zu Rettungswegen und Trennwand aufwarf. Ohne Konzeptakte hätte die Behörde ein vollständiges BSK nachgefordert – wie im Zwischenbescheid zunächst angedeutet.",
         ],
         list: [
           "Vollständiges Brandschutzkonzept: bei fehlendem Bestandsnachweis, Sonderbau, grundlegend neuer Nutzung oder wenn die Behörde es ausdrücklich verlangt",
-          "Brandschutztechnische Stellungnahme (STN): bei klar abgegrenztem Umbau und vorhandenem, genehmigtem Gesamtkonzept – nur die Änderung wird nachgewiesen",
+          "Brandschutztechnische Stellungnahme: bei klar abgegrenztem Umbau und vorhandenem, genehmigtem Gesamtkonzept – nur die Änderung wird nachgewiesen",
           "Fortschreibung nach § 9 BauPrüfVO NRW: wenn ein altes Konzept formal fortgeführt und an den Ist-Zustand angepasst wird",
         ],
       },
@@ -1945,7 +1945,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Optional: Einordnung Barrierefreiheit (§ 49 BauO NRW) oder Unverhältnismäßigkeit im Bestand",
         ],
         paragraphs: [
-          "Typischer Ablauf bei Mängeln: Zwischenbescheid mit Frist – Nachreichung STN und Pläne – Genehmigung mit Auflagen (brandschutztechnische Umsetzung, Bauzustandsbesichtigung). Details zum Bescheid siehe den verlinkten Ratgeber; Fristen werden in vielen Verfahren digital über Vorgangsauskunft+ gesetzt.",
+          "Typischer Ablauf bei Mängeln: Zwischenbescheid mit Frist – Nachreichung Stellungnahme und Pläne – Genehmigung mit Auflagen (brandschutztechnische Umsetzung, Bauzustandsbesichtigung). Details zum Bescheid siehe den verlinkten Ratgeber; Fristen werden in vielen Verfahren digital über Vorgangsauskunft+ gesetzt.",
         ],
       },
       {
@@ -2108,7 +2108,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         paragraphs: [
           "Struktur, die in der Praxis funktioniert: Mängelliste nummeriert übernehmen → je Punkt Antwort mit Verweis (Planblatt, Konzept-Kapitel, Foto, Altgenehmigung) → klare Trennung Antragsgegenstand / nicht betroffen.",
           "Bei Bestand: frühere Genehmigungen und Brandschutzkonzept sichten. Was wurde für Entrauchung, Flure, Rettungswege damals festgelegt? Verändert das aktuelle Vorhaben diese Anlagen nicht, kann Bestandsschutz nach § 83 BauO NRW relevant sein – die Bewertung trifft die Behörde.",
-          "Nachreichung nur mit Übereinstimmungserklärung des Entwurfsverfassers nach § 7 BauPrüfVO NRW – sonst wird das Paket nicht bearbeitet. Pläne, STN und Konzept müssen denselben Stand zeigen.",
+          "Nachreichung nur mit Übereinstimmungserklärung des Entwurfsverfassers nach § 7 BauPrüfVO NRW – sonst wird das Paket nicht bearbeitet. Pläne, Stellungnahme und Konzept müssen denselben Stand zeigen.",
         ],
       },
       {
@@ -2135,7 +2135,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Mängelliste nach Gewerken trennen (Brandschutz, Architektur, Statik, TGA)",
           "Historisches BSK und Altgenehmigungen beschaffen",
           "Begehung: Treppenraum, Flur, Türen, Rettungswege fotografieren",
-          "STN/Konzept und Pläne auf einen Stand bringen",
+          "Stellungnahme oder Konzept und Pläne auf einen Stand bringen",
           "Fristgerechte Nachreichung inkl. § 7 BauPrüfVO-Erklärung",
         ],
       },
@@ -2148,7 +2148,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         list: [
           "Monat 0: Bauantrag",
           "Zwischenbescheid + Frist",
-          "Nachreichung STN/Pläne/Bestand",
+          "Nachreichung Stellungnahme und Pläne/Bestand",
           "Fachprüfung, ggf. Rückfragen",
           "Baugenehmigung mit Auflagen",
         ],
@@ -2158,7 +2158,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Typische Fehler bei der Antwort",
         list: [
           "Nur eine E-Mail statt strukturierter Nachreichung in Vorgangsauskunft+",
-          "STN beantwortet Punkt 3, Pläne widersprechen in Punkt 5",
+          "Stellungnahme beantwortet Punkt 3, Pläne widersprechen in Punkt 5",
           "Frist verstreichen lassen",
           "Bestand behaupten ohne Altgenehmigung oder Foto",
           "Feuerwehr-Themen im Bescheid ignorieren, obwohl BMA betroffen",
@@ -2225,10 +2225,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
     slug: "imbiss-ladenlokal-nutzungsaenderung-koeln",
     title: "Vom Ladenlokal zum Imbiss: Nutzungsänderung und Brandschutz",
     excerpt:
-      "Ca. 65 m², Fritteuse und Holzkohlegrill: Was bei Nutzungsänderung, § 29 Trennwänden, § 64 Verfahren und STN in der Praxis zählt.",
+      "Ca. 65 m², Fritteuse und Holzkohlegrill: Was bei Nutzungsänderung, § 29 Trennwänden, § 64 Verfahren und Stellungnahme in der Praxis zählt.",
     metaTitle: "Ladenlokal zum Imbiss | Nutzungsänderung Köln",
     metaDescription:
-      "Ladenlokal zu Imbiss: § 64 BauO NRW, Trennwände § 29, Küche/Grill, STN. Sonderbau-Grenze – Ratgeber H&S+ NRW.",
+      "Ladenlokal zu Imbiss: § 64 BauO NRW, Trennwände § 29, Küche/Grill, Stellungnahme. Sonderbau-Grenze – Ratgeber H&S+ NRW.",
     keywords: [
       "Nutzungsänderung Imbiss",
       "Ladenlokal Imbiss Genehmigung",
@@ -2258,7 +2258,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "§ 64 vereinfachtes Verfahren vs. Vollverfahren",
         paragraphs: [
           "Nach § 64 BauO NRW kann die Bauaufsicht ein vereinfachtes Baugenehmigungsverfahren zulassen, wenn das Vorhaben in Anlage 1 Abschnitt II Nr. 1.2.1 der BauPrüfVO NRW (Anlage I/2) eingereiht werden kann – typisch kleine Gewerbenutzungen ohne Sonderbau-Komplexität.",
-          "Die Entscheidung trifft die Behörde: Lage im Gebäude, bauliche Eingriffe (Trennwände, Abluft, Elektro), Bestand und Nachbarschaft können das Vollverfahren erforderlich machen. Im dokumentierten Fall: Bauantrag mit STN, einheitlichen Plänen und Betriebsbeschreibung.",
+          "Die Entscheidung trifft die Behörde: Lage im Gebäude, bauliche Eingriffe (Trennwände, Abluft, Elektro), Bestand und Nachbarschaft können das Vollverfahren erforderlich machen. Im dokumentierten Fall: Bauantrag mit Stellungnahme, einheitlichen Plänen und Betriebsbeschreibung.",
           "Abgrenzung: Nur „Gewerbeanmeldung“ ohne bauliche/Nutzungsänderung ersetzt keine Baugenehmigung, wenn Küche, Wände oder Abluft neu sind.",
         ],
       },
@@ -2282,7 +2282,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Brandschutz- und Evakuierungshelfer schulen (organisatorisch, DIN 14096 BSO)",
         ],
         paragraphs: [
-          "Holzkohlegrill im Verkaufsraum erhöht Brandlast und Rauchrisiko – in STN und Betriebsbeschreibung klar benennen, Abluft und Reinigungsintervalle mitdenken.",
+          "Holzkohlegrill im Verkaufsraum erhöht Brandlast und Rauchrisiko – in der Stellungnahme und Betriebsbeschreibung klar benennen, Abluft und Reinigungsintervalle mitdenken.",
         ],
       },
       {
@@ -2290,7 +2290,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Fluchtwege und Gastbereich",
         paragraphs: [
           "Ebenerdige Ladenlokale haben oft einen Hauptfluchtweg direkt zum Ausgang ins Freie – der Eingang ist zugleich Notausgang, Türen während Öffnungszeiten von innen ohne Hilfsmittel öffnen.",
-          "Kleiner Gastbereich (< 20 m², Stehtische): trotzdem in Plänen und STN Rettungsweg und Hindernisse darstellen – keine Einengung durch Kühltheken, Lager oder Bestuhlung.",
+          "Kleiner Gastbereich (< 20 m², Stehtische): trotzdem in Plänen und Stellungnahme Rettungsweg und Hindernisse darstellen – keine Einengung durch Kühltheken, Lager oder Bestuhlung.",
           "Bauordnung (Rettungswege in Genehmigung) und Arbeitsschutz (ASR A2.3 Flucht- und Rettungspläne im Betrieb) sind getrennte Ebenen – beide nach Eröffnung aktuell halten.",
         ],
       },
@@ -2298,7 +2298,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "stellungnahme",
         title: "Inhalt einer brandschutztechnischen Stellungnahme",
         paragraphs: [
-          "Für kleine Nutzungsänderungen reicht oft eine STN statt Voll-Brandschutzkonzept – wenn kein Sonderbau und der Bestand nachvollziehbar ist. Gliederung aus der Praxis:",
+          "Für kleine Nutzungsänderungen reicht oft eine brandschutztechnische Stellungnahme statt Voll-Brandschutzkonzept – wenn kein Sonderbau und der Bestand nachvollziehbar ist. Gliederung aus der Praxis:",
         ],
         list: [
           "Schutzziele § 14 BauO NRW (Vorbeugung, Brandausbreitung, Rettung, Löschangriff)",
@@ -2335,7 +2335,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Abgrenzung: Imbiss vs. Restaurant vs. nur Löscher",
         paragraphs: [
           "Imbiss mit < 20 m² Gast und Mitnahme-Fokus ≠ Restaurant mit 120 Sitzplätzen (Sonderbau-Prüfung ab 200 Gastplätze im Gebäude).",
-          "Nutzungsänderung mit STN ≠ nachträglich nur Feuerlöscher kaufen ohne Genehmigung der Wand-/Abluft-Eingriffe.",
+          "Nutzungsänderung mit Stellungnahme ≠ nachträglich nur Feuerlöscher kaufen ohne Genehmigung der Wand-/Abluft-Eingriffe.",
           "Baugenehmigung ≠ Feuerwehr-Brandschau ohne separate Voraussetzungen (BMA, FSD) – bei größeren Objekten relevant.",
         ],
       },
@@ -2350,7 +2350,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Fettbrandlöscher fehlt trotz Fritteuse",
           "Brennbare Bekleidung über Grill",
           "Gastbereich blockiert Fluchtweg",
-          "STN sagt eine Raumaufteilung, Plan eine andere",
+          "Stellungnahme sagt eine Raumaufteilung, Plan eine andere",
         ],
       },
       {
@@ -2387,14 +2387,14 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "§ 29 BauO NRW: Trennung von Nutzungseinheiten und anders genutzten Räumen. Küche mit Fett/Flamme erhöht das Risiko – die Trennwand begrenzt Brandübertragung (F30, dichte Türen).",
       },
       {
-        question: "Reicht eine STN statt Brandschutzkonzept?",
+        question: "Reicht eine brandschutztechnische Stellungnahme statt Brandschutzkonzept?",
         answer:
           "Bei kleinen, klar abgegrenzten Nutzungsänderungen oft ja. Fehlt Bestandsnachweis oder liegt Sonderbau vor, fordert die Behörde ein vollständiges Konzept.",
       },
       {
         question: "Ist ein Holzkohlegrill im Laden zulässig?",
         answer:
-          "Nicht pauschal verboten, aber brandschutzintensiv: nichtbrennbare Bekleidungen, Abluft, Fettbrandlöscher, Reinigung und Darstellung in STN/Betriebsbeschreibung sind üblich.",
+          "Nicht pauschal verboten, aber brandschutzintensiv: nichtbrennbare Bekleidungen, Abluft, Fettbrandlöscher, Reinigung und Darstellung in Stellungnahme/Betriebsbeschreibung sind üblich.",
       },
       {
         question: "Welche Feuerlöscher brauche ich?",
@@ -2404,7 +2404,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       {
         question: "Brauche ich Fluchtpläne?",
         answer:
-          "Für die Genehmigung: Rettungswegnachweis in Plänen/STN. Im Betrieb: Flucht- und Rettungspläne nach ASR A2.3, wo Lage oder Publikumsverkehr es erfordern – plus BSO.",
+          "Für die Genehmigung: Rettungswegnachweis in Plänen/Stellungnahme. Im Betrieb: Flucht- und Rettungspläne nach ASR A2.3, wo Lage oder Publikumsverkehr es erfordern – plus BSO.",
       },
     ],
   },
@@ -2436,10 +2436,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Was eine Eilbegehung nicht ist",
         paragraphs: [
           "Drei Ebenen nicht verwechseln – ergänzt den Ratgeber zu Flucht-/Feuerwehrplänen und Nutzungsänderungen:",
-          "Die Eilbegehung kann Lücken aufdecken, die später ein Genehmigungsverfahren oder eine STN brauchen – sie ersetzt diese Nachweise aber nicht.",
+          "Die Eilbegehung kann Lücken aufdecken, die später ein Genehmigungsverfahren oder eine brandschutztechnische Stellungnahme brauchen – sie ersetzt diese Nachweise aber nicht.",
         ],
         list: [
-          "Bauaufsicht / Genehmigung: Brandschutzkonzept, STN, Pläne § 33 – für Umbau und Nutzungsänderung, nicht für „Betrieb läuft weiter“",
+          "Bauaufsicht / Genehmigung: Brandschutzkonzept, Stellungnahme, Pläne § 33 – für Umbau und Nutzungsänderung, nicht für „Betrieb läuft weiter“",
           "Feuerwehr-Brandschau: Einsatzvoraussetzungen, Feuerwehrpläne DIN 14095, BMA – behördlich/feuerwehrlich, nicht identisch mit Arbeitgeber-Begehung",
           "Eilbegehung: Arbeitsschutz und organisatorischer Brandschutz (ASR A2.2, A2.3, BSO, DGUV V3) – Ist-Zustand, Prioritäten, Dokumentation",
         ],
@@ -2451,7 +2451,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Betriebsübernahme ohne vollständige Brandschutz-Dokumentation",
           "Küche/Fritteuse neu oder unsicher, ob Löscher und Wege passen",
           "Flure voller Lager, Türen blockiert – vor Inspektion aufräumen wollen",
-          "Geplanter Umbau: Bestand klären, bevor Architekt und STN starten",
+          "Geplanter Umbau: Bestand klären, bevor Architekt und Stellungnahme starten",
           "Nach Mahnung BG/SiFa – strukturierte Antwort vorbereiten",
         ],
         paragraphs: [
@@ -2516,7 +2516,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Feuerlöscher-Konzept und Wartungsnachweis (ASR A2.2)",
           "Flucht- und Rettungspläne und BSO fortschreiben",
           "Brandschutzhelfer-Ausbildung",
-          "Bei Umbau: STN/Konzept und Baugenehmigung (Ratgeber Imbiss/Umbau)",
+          "Bei Umbau: Stellungnahme oder Konzept und Baugenehmigung (Ratgeber Imbiss/Umbau)",
           "Bei Behördenauflage: formale Stellungnahme statt Kurzbericht",
         ],
       },
@@ -2573,7 +2573,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       {
         question: "Reicht eine Eilbegehung für die Bauaufsicht?",
         answer:
-          "Nein als alleiniger Nachweis. Für Genehmigungen sind STN, Konzept und einheitliche Pläne nötig. Die Begehung hilft bei Bestandsklärung und Priorisierung vor dem Antrag.",
+          "Nein als alleiniger Nachweis. Für Genehmigungen sind Stellungnahme, Konzept und einheitliche Pläne nötig. Die Begehung hilft bei Bestandsklärung und Priorisierung vor dem Antrag.",
       },
       {
         question: "Ist das dasselbe wie eine Feuerwehr-Brandschau?",
@@ -2622,7 +2622,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Arbeitsschutz – nicht Bauordnung",
         paragraphs: [
           "Feuerlöscher in Gastronomie und Imbiss sind Pflicht des Arbeitgebers nach ArbStättV und ASR A2.2 „Maßnahmen gegen Brände“ – unabhängig davon, ob gerade ein Umbau genehmigt wird.",
-          "Die Bauaufsicht fordert Löscher nicht als „Feuerlöscher-Genehmigung“, sondern indirekt über STN/Konzept (organisatorische Maßnahmen, Standorte in Plänen). Im laufenden Betrieb prüfen BG und SiFa die ASR-A2.2-Umsetzung.",
+          "Die Bauaufsicht fordert Löscher nicht als „Feuerlöscher-Genehmigung“, sondern indirekt über Stellungnahme oder Konzept (organisatorische Maßnahmen, Standorte in Plänen). Im laufenden Betrieb prüfen BG und SiFa die ASR-A2.2-Umsetzung.",
           "Flucht- und Rettungspläne nach ASR A2.3 zeigen Löscherstandorte – A2.2 regelt Anzahl und Prüfung.",
         ],
       },
@@ -2706,7 +2706,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Orientierungswerte ersetzen keine Gefährdungsbeurteilung. Bei Umbau oder Nutzungsänderung kommen bauordnungsrechtliche Anforderungen (STN, Abluft, Trennwände) hinzu – siehe Ratgeber Imbiss und Eilbegehung.",
+          "Orientierungswerte ersetzen keine Gefährdungsbeurteilung. Bei Umbau oder Nutzungsänderung kommen bauordnungsrechtliche Anforderungen (Stellungnahme, Abluft, Trennwände) hinzu – siehe Ratgeber Imbiss und Eilbegehung.",
         ],
       },
     ],
@@ -2741,7 +2741,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       {
         question: "Brauche ich Löscher für die Baugenehmigung?",
         answer:
-          "Im Betrieb ja (Arbeitsschutz). In der Genehmigung werden Standorte und organisatorische Maßnahmen in STN/Konzept beschrieben – nicht separat „Löscher-Genehmigung“.",
+          "Im Betrieb ja (Arbeitsschutz). In der Genehmigung werden Standorte und organisatorische Maßnahmen in Stellungnahme oder Konzept beschrieben – nicht separat „Löscher-Genehmigung“.",
       },
       {
         question: "1 LE pro 10 m² – stimmt das?",
@@ -2759,7 +2759,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
     slug: "teilsanierung-buero-brandschutz-koeln",
     title: "Teilsanierung Büro: Brandschutz-Checkliste (GK 5, BMA)",
     excerpt:
-      "Ca. 50 % BGF sanieren ohne Nutzungsänderung: STN vs. Konzept, BMA-Neuplanung, ASR A2.3, Abschottungen – aus einem Verwaltungsgebäude-Fall (1978).",
+      "Ca. 50 % BGF sanieren ohne Nutzungsänderung: Stellungnahme oder Konzept, BMA-Neuplanung, ASR A2.3, Abschottungen – aus einem Verwaltungsgebäude-Fall (1978).",
     metaTitle: "Teilsanierung Büro Brandschutz | Köln",
     metaDescription:
       "Teilsanierung Büro NRW: BMA, Trockenbau, Fluchtwege ASR A2.3, Feuerwehrpläne. Ohne Nutzungsänderung – Ratgeber H&S+.",
@@ -2787,13 +2787,13 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         ],
         list: [
           "Teilsanierung mit baulichen Eingriffen (Wände, BMA, Flure): brandschutztechnische Begleitung Pflicht im Umbau-Bereich – nicht automatisch vollständiges BSK für die Behörde",
-          "Nutzungsänderung (z. B. Büro → Gastronomie): Genehmigung und meist STN/Konzept – siehe Ratgeber Umbau",
+          "Nutzungsänderung (z. B. Büro → Gastronomie): Genehmigung und meist Stellungnahme oder Konzept – siehe Ratgeber Umbau",
           "Nur technische Sanierung ohne bauliche/Nutzungsänderung: Bestandsschutz § 59 BauO NRW kann greifen – siehe verlinkter Ratgeber (z. B. Leitungstausch ohne Decke)",
         ],
       },
       {
         id: "nachweise",
-        title: "Brandschutzkonzept, STN oder interner Leitfaden?",
+        title: "Brandschutzkonzept, Stellungnahme oder interner Leitfaden?",
         paragraphs: [
           "Ob die Bauaufsicht ein vollständiges Brandschutzkonzept verlangt, hängt von Genehmigungspflicht, Umfang und Sonderbau ab. Teilsanierung ohne wesentliche Nutzungsänderung löst nicht automatisch ein umfangreiches Genehmigungs-BSK aus.",
           "Praxis: brandschutztechnische Stellungnahme als Leitfaden für Architektur, TGA und Ausführung – mit Raumbuch, Wandklassen, BMA-Konzept, Fluchtwegnachweis in den betroffenen Geschossen. Bei behördlichem Verfahren oder Versicherer-Vorgaben kann ein formelles BSK trotzdem nötig werden.",
@@ -2803,7 +2803,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "sonderbau",
         title: "Gebäudeklasse 5 und Sonderbau Büro",
         paragraphs: [
-          "Große Bürogebäude sind oft GK 5 (hohe OKF oder große Nutzungseinheiten). Ab ca. 3.000 m² Geschossfläche im Gebäude ist das Bürogebäude regelmäßig Sonderbau nach § 50 Abs. 2 BauO NRW – „ungeregelt“ ohne eigenen SBauVO-Teil, aber mit vollem Konzept- oder STN-Anspruch bei wesentlichen Änderungen.",
+          "Große Bürogebäude sind oft GK 5 (hohe OKF oder große Nutzungseinheiten). Ab ca. 3.000 m² Geschossfläche im Gebäude ist das Bürogebäude regelmäßig Sonderbau nach § 50 Abs. 2 BauO NRW – „ungeregelt“ ohne eigenen SBauVO-Teil, aber mit vollem Konzept- oder Stellungnahme-Anspruch bei wesentlichen Änderungen.",
           "Teilsanierung in einem Sonderbau: Feuerwehrpläne, BMA-Aufschaltung und Rettungswege müssen zum Gesamtobjekt passen – punktuelle Sanierung ohne Abgleich führt zu Abnahme- und Brandschau-Mängeln.",
         ],
       },
@@ -2864,7 +2864,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         ],
         list: [
           "Genehmigungspflicht und Behördenumfang geklärt?",
-          "STN/BSK mit Architektur und TGA abgestimmt?",
+          "Stellungnahme oder Brandschutzkonzept mit Architektur und TGA abgestimmt?",
           "BMA-Abnahme Termin mit Sachverständigem?",
           "Raumbuch/Wandliste und Abschottungsnachweise vollständig?",
           "Fluchtwege und Einzugsgebiete neu gerechnet?",
@@ -2882,7 +2882,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "BMA erneuert, Feuerwehrplan veraltet",
           "Trockenbau ohne Abschottungsnachweise an Kabeltrassen",
           "Fluchtwegbreite nach Umbau nicht nachgerechnet",
-          "„Kein Konzept nötig“ – aber keine interne STN für Ausführung",
+          "„Kein Konzept nötig“ – aber keine interne Stellungnahme für Ausführung",
           "Nur ein Geschoss saniert, BMA-Zonierung Gesamtgebäude vergessen",
         ],
       },
@@ -2908,7 +2908,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       {
         question: "Brauche ich bei Teilsanierung immer ein Brandschutzkonzept für die Behörde?",
         answer:
-          "Nicht immer. Entscheidend: Genehmigungspflicht, Sonderbau, Nutzungsänderung. Oft reicht eine STN als Umsetzungsleitfaden – bei behördlichem Verfahren oder Versicherer kann ein vollständiges BSK verlangt werden.",
+          "Nicht immer. Entscheidend: Genehmigungspflicht, Sonderbau, Nutzungsänderung. Oft reicht eine brandschutztechnische Stellungnahme als Umsetzungsleitfaden – bei behördlichem Verfahren oder Versicherer kann ein vollständiges BSK verlangt werden.",
       },
       {
         question: "Muss die BMA bei jedem Büroumbau erneuert werden?",
@@ -2936,9 +2936,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Bei wesentlicher Änderung von Fluchtwegen, Brandabschnitten oder BMA: ja – Fortschreibung nach DIN 14095 und Abstimmung mit der Feuerwehr, wo vorgesehen.",
       },
       {
-        question: "Reicht die interne STN für die BG?",
+        question: "Reicht die interne Stellungnahme für die BG?",
         answer:
-          "Die BG prüft Arbeitsschutz (ASR). Eine STN unterstützt die Dokumentation, ersetzt aber Gefährdungsbeurteilung und Umsetzung der Maßnahmen vor Ort.",
+          "Die BG prüft Arbeitsschutz (ASR). Eine Stellungnahme unterstützt die Dokumentation, ersetzt aber Gefährdungsbeurteilung und Umsetzung der Maßnahmen vor Ort.",
       },
     ],
   },
@@ -2978,7 +2978,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "ausloeser",
         title: "Was Bestandsschutz beendet",
         paragraphs: [
-          "Sobald einer dieser Tatbestände greift, ist brandschutztechnische Neubewertung nötig – oft mit STN oder Konzept:",
+          "Sobald einer dieser Tatbestände greift, ist brandschutztechnische Neubewertung nötig – oft mit Stellungnahme oder Konzept:",
         ],
         list: [
           "Wesentliche bauliche Änderung (Öffnungen, Trennwände, Decken)",
@@ -3002,7 +3002,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         paragraphs: [
           "§ 59 BauO NRW: formeller Bestandsschutz bei fehlendem auslösenden Umbau.",
           "§ 83 BauO NRW: Erhaltungsgebot im Genehmigungsverfahren – „Bestand wurde damals so genehmigt, Vorhaben ändert Erschließung/Entrauchung nicht“ (häufig bei Praxiszusammenlegung, siehe andere Ratgeber).",
-          "Teilsanierung mit Wänden/BMA: aktiver Umbau – § 59 hilft nicht für fehlende Abschottungen; eigene STN/BSK-Logik.",
+          "Teilsanierung mit Wänden/BMA: aktiver Umbau – § 59 hilft nicht für fehlende Abschottungen; eigene Stellungnahme- oder Konzept-Logik.",
         ],
       },
       {
@@ -3053,7 +3053,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
       { href: "/ratgeber/arztpraxen-zusammenlegen-brandschutz-koeln", label: "§ 83 im Genehmigungsfall" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder STN?" },
+      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
       { href: "/ratgeber/technische-betriebsgebaeude-brandschutz-nrw", label: "Technische Betriebsgebäude" },
     ],
     faq: [

@@ -65,7 +65,7 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Was unterscheidet Konzept und brandschutztechnische Stellungnahme?",
       answer:
-        "Das Konzept ist der vollständige Nachweis mit Plänen, Nutzung, baulichem und anlagentechnischem Brandschutz. Die STN deckt überschaubare, klar abgegrenzte Änderungen ab, wenn die Behörde keinen Vollnachweis verlangt.",
+        "Das Konzept ist der vollständige Nachweis mit Plänen, Nutzung, baulichem und anlagentechnischem Brandschutz. Die brandschutztechnische Stellungnahme deckt überschaubare, klar abgegrenzte Änderungen ab, wenn die Behörde keinen Vollnachweis verlangt.",
     },
     {
       question: "Was ist eine Fortschreibung nach § 9 BauPrüfVO NRW?",
@@ -85,7 +85,7 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Ersetzt das Konzept Flucht- und Feuerwehrpläne?",
       answer:
-        "Nein. Bauordnungsrechtlicher Nachweis (Konzept/STN) und betriebliche Pläne (ASR A2.3, DIN 14095) sind getrennt – wir können beides, klar abgegrenzt.",
+        "Nein. Bauordnungsrechtlicher Nachweis (Konzept oder Stellungnahme) und betriebliche Pläne (ASR A2.3, DIN 14095) sind getrennt – wir können beides, klar abgegrenzt.",
     },
   ],
   "/brandschutzordnung-koeln": [

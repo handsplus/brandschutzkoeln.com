@@ -573,7 +573,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Konzept vs. Stellungnahme vs. § 64",
         paragraphs: [
           "Halle-zu-Büro mit Sonderbau-Tatbestand: in der Regel vollständiges Brandschutzkonzept nach § 9 BauPrüfVO NRW – keine kurze Stellungnahme allein. § 64 vereinfachtes Verfahren nur, wenn die Behörde Anlage 1 BauPrüfVO so einordnet (selten bei großen Hallen).",
-          "Teilsanierung nur eines Bürotrakts im Bestand: ggf. Fortschreibung oder STN – abhängig vom Umfang der baulichen Änderung.",
+          "Teilsanierung nur eines Bürotrakts im Bestand: ggf. Fortschreibung oder Stellungnahme – abhängig vom Umfang der baulichen Änderung.",
         ],
       },
       {
@@ -599,7 +599,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     ],
     relatedLinks: [
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder STN?" },
+      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
       { href: "/ratgeber/loeschwasser-hydranten-gewerbe-koeln", label: "Löschwasser" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr-Abstimmung" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50" },
@@ -787,7 +787,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Belüftung, dichter Boden, Kennzeichnung, Rauchverbot",
           "Feuerlöscher passend zur Brandklasse B",
           "Keine Verwechslung mit Fettbrand-Küchentechnik",
-          "Dokumentation in STN für Betrieb und Behörde",
+          "Dokumentation in der Stellungnahme für Betrieb und Behörde",
         ],
         paragraphs: [
           "Ergebnis im Fall: Abstellung Tankfahrzeug bis 1.000 l unter genannten Voraussetzungen zulässig – nicht pauschal auf andere Objekte übertragbar.",
@@ -797,15 +797,15 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "bauo",
         title: "Bauordnung und Sonderbau",
         paragraphs: [
-          "Zusätzlich: Lagerung gefährlicher Stoffe kann Sonderbau- oder Genehmigungspflichten auslösen. Technikgebäude: oft GK 1, dennoch brandschutztechnische STN sinnvoll.",
+          "Zusätzlich: Lagerung gefährlicher Stoffe kann Sonderbau- oder Genehmigungspflichten auslösen. Technikgebäude: oft GK 1, dennoch brandschutztechnische Stellungnahme sinnvoll.",
         ],
       },
       {
         id: "nachweise",
-        title: "STN vs. Konzept – was reicht?",
+        title: "Stellungnahme oder Konzept – was reicht?",
         paragraphs: [
           "Interne Freigabe (Werkstatt, Garage): oft brandschutztechnische Stellungnahme mit TRGS-Maßnahmen und Löschermatrix. Genehmigungspflichtige Lagerung oder Sonderbau: Brandschutzkonzept oder Fortschreibung mit Anhang Gefahrstoffe.",
-          "Tankfahrzeug-Fall: Ergebnis in STN dokumentieren – nicht pauschal auf andere Standorte übertragen.",
+          "Tankfahrzeug-Fall: Ergebnis in der Stellungnahme dokumentieren – nicht pauschal auf andere Standorte übertragen.",
         ],
       },
       {
@@ -820,7 +820,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       { href: "/ratgeber/technische-betriebsgebaeude-brandschutz-nrw", label: "Technische Betriebsgebäude" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau" },
       { href: "/ratgeber/feuerloescher-gastronomie-koeln", label: "Feuerlöscher" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder STN?" },
+      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
     ],
     faq: [
       {
@@ -831,12 +831,12 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Darf Diesel in der Werkstatt stehen?",
         answer:
-          "Nur mit Gefährdungsbeurteilung, Belüftung, Löscher, ggf. STN und behördlicher Einordnung.",
+          "Nur mit Gefährdungsbeurteilung, Belüftung, Löscher, ggf. Stellungnahme und behördlicher Einordnung.",
       },
       {
         question: "Brauche ich ein Brandschutzkonzept?",
         answer:
-          "Bei genehmigungspflichtigen Anlagen oder Sonderbau oft ja – kurze STN für interne Freigabe mindestens.",
+          "Bei genehmigungspflichtigen Anlagen oder Sonderbau oft ja – kurze Stellungnahme für interne Freigabe mindestens.",
       },
       {
         question: "Gilt SBauVO für Diesel in der Garage?",
@@ -1241,7 +1241,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Umbau vs. Zusammenlegung",
         paragraphs: [
-          "Zusammenlegung zwei Praxen ohne neue Technik: oft STN zum Bestand. Umbau mit MR/CT: meist vollständiges BSK. Nicht verwechseln.",
+          "Zusammenlegung zwei Praxen ohne neue Technik: oft Stellungnahme zum Bestand. Umbau mit MR/CT: meist vollständiges BSK. Nicht verwechseln.",
         ],
       },
       {
@@ -1293,7 +1293,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Aufenthaltsräume zählen für Rettungswege und Nutzerzahl – Wartebereich im Umbau mit einplanen.",
       },
       {
-        question: "Wann reicht eine STN statt BSK?",
+        question: "Wann reicht eine brandschutztechnische Stellungnahme statt BSK?",
         answer:
           "Bei klar abgegrenzten kleinen Umbauten ohne neue Großtechnik – Bildgebung mit MR/CT meist vollständiges Konzept.",
       },
@@ -1392,7 +1392,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Braucht ein NEA-Container Genehmigung?",
         answer:
-          "Aufstellbare Technikgebäude sind oft genehmigungspflichtig – vollständiges BSK und Bauantrag, nicht nur interne STN.",
+          "Aufstellbare Technikgebäude sind oft genehmigungspflichtig – vollständiges BSK und Bauantrag, nicht nur interne Stellungnahme.",
       },
       {
         question: "Wann ist BMA in Technikgebäuden nötig?",
@@ -1440,7 +1440,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Konzept vs. Stellungnahme vs. § 64",
         paragraphs: [
-          "Sonderbau und große Gewerbe: fast immer vollständiges BSK. Kleine, klar abgegrenzte Umbauten: ggf. STN. § 64 vereinfachtes Verfahren nur bei passender Einordnung in Anlage 1 BauPrüfVO – Behörde entscheidet.",
+          "Sonderbau und große Gewerbe: fast immer vollständiges BSK. Kleine, klar abgegrenzte Umbauten: ggf. Stellungnahme. § 64 vereinfachtes Verfahren nur bei passender Einordnung in Anlage 1 BauPrüfVO – Behörde entscheidet.",
           "Vollständigkeit und einheitlicher Planstand vermeiden Zwischenbescheid – siehe ausführlicher Ratgeber Bauaufsicht Unterlagen.",
         ],
       },
@@ -1483,7 +1483,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     relatedLinks: [
       { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht ausführlich" },
       { href: "/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln", label: "Zwischenbescheid" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder STN?" },
+      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
       { href: "/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln", label: "§ 64 Imbiss" },
     ],
     faq: [

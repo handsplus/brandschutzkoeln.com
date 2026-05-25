@@ -28,7 +28,7 @@ Jeder Ratgeber-Artikel auf **brandschutzkoeln.com** soll Fachratgeber-Niveau hab
 
 ## Arbeitsablauf pro Artikel (Reihenfolge)
 
-1. **Thema & Quellen** – `_KI_WISSEN.html` im passenden Ordner + `Vorschr., TR & Infos\_KI_WISSEN.html` + ggf. 1–2 BSK/STN-HTML aus Katalog.
+1. **Thema & Quellen** – `_KI_WISSEN.html` im passenden Ordner + `Vorschr., TR & Infos\_KI_WISSEN.html` + ggf. 1–2 BSK/Stellungnahme-HTML aus Katalog.
 2. **Bestand lesen** – `content/ratgeber.ts` oder `ratgeber-articles-batch2.ts`.
 3. **Lücke notieren** – was fehlt in Vorlagen? → beschaffen oder in `docs/handlungsvorlagen-brandschutz/` nachziehen.
 4. **Text schreiben/überarbeiten** – Checkliste 1–10 abhaken.
@@ -40,7 +40,7 @@ Jeder Ratgeber-Artikel auf **brandschutzkoeln.com** soll Fachratgeber-Niveau hab
 
 1. `BauO NRW 2024.html`, `SBauV NRW vollständig.html`, Handlungsempfehlung 2018  
 2. `1. Brandschutzkonzepte (BSK)\_KI_WISSEN*.html` / Fallbibliothek  
-3. `2. Stellungnahmen\_KI_WISSEN.html` + passende STN-HTML  
+3. `2. Stellungnahmen\_KI_WISSEN.html` + passende Stellungnahme-HTML  
 4. Themenordner (VStätt, Rettungswege, BSO, …)  
 5. `Landesbauordnung_NRW_im_Bild` (Kommentar), IndBauR, tab_koeln (nur wenn lokal relevant)
 
@@ -55,7 +55,7 @@ Diese Artikel sind die **Latte** für alle anderen:
 | `gebaeudeklassen-brandschutz-bauo-nrw` | GK, Bauteile, Sonderbau-Schnittstelle |
 | `sonderbauten-brandschutz` | § 50, Schwellen, baulicher BS |
 | `sonderbauten-geregelt-ungeregelt-bauo-nrw` | SBauVO ja/nein, Gastronomie-Dreiteilung |
-| `brandschutzkonzept-wann-noetig` | Konzept / STN / § 9 |
+| `brandschutzkonzept-wann-noetig` | Konzept / Stellungnahme / § 9 |
 | `flucht-und-rettungswege-bauo-nrw` | § 33, Brand-/Rauchabschnitt |
 
 Neue Spezialthemen: **verlinken** auf diese fünf, nicht wieder alles erklären.
@@ -90,9 +90,9 @@ Stand manuell pflegen. Skala: **—** offen | **~6** Basis | **~8** überarbeite
 | `escape-room-brandschutzordnung-fluchtplan` | ~10 | BSO/Pläne, Verriegelungen, § 50 |
 | `zweiter-rettungsweg-dachfenster-bauo-nrw` | ~10 | § 33/34, FW-Begehung, Legalisierung |
 | `fluchtplan-feuerwehrplan-aktualisieren-gewerbe` | ~10 | BauO vs ASR A2.3 vs DIN 14095 |
-| `arztpraxen-zusammenlegen-brandschutz-koeln` | ~10 | GK 5, § 33, STN vs BSK, Praxisfall 2. OG |
+| `arztpraxen-zusammenlegen-brandschutz-koeln` | ~10 | GK 5, § 33, Stellungnahme oder BSK, Praxisfall 2. OG |
 | `zwischenbescheid-brandschutz-bauamt-koeln` | ~10 | Praxis+Lager, § 7 BauPrüfVO, 2 Fälle |
-| `imbiss-ladenlokal-nutzungsaenderung-koeln` | ~10 | STN-Fall 65 m², § 29/64, Küche/Grill |
+| `imbiss-ladenlokal-nutzungsaenderung-koeln` | ~10 | Stellungnahme-Fall 65 m², § 29/64, Küche/Grill |
 | `eilbegehung-brandschutz-restaurant-gewerbe-koeln` | ~10 | Betrieb vs BA/FW, Fall 90 m² |
 | `feuerloescher-gastronomie-koeln` | ~10 | ASR A2.2 LE/F, Abgrenzung BauO |
 | `teilsanierung-buero-brandschutz-koeln` | ~10 | GK5/Sonderbau Büro, BMA, ASR A2.3 |
@@ -106,9 +106,9 @@ Stand manuell pflegen. Skala: **—** offen | **~6** Basis | **~8** überarbeite
 | `brandschutz-abnahme-nach-umbau-koeln` | ~9 | SV-Abnahme, Unterlagenpaket (Mai 2026) |
 | `brandschau-koeln-feuerwehr` | ~9 | Abgrenzung, Praxis-Mängel (Mai 2026) |
 | `fachbauleitung-brandschutz-baustelle-koeln` | ~9 | § 56, Bescheinigung (Mai 2026) |
-| `lagerhalle-buero-umnutzung-koeln` | ~9 | Halle→Büro, STN vs Konzept (Mai 2026) |
+| `lagerhalle-buero-umnutzung-koeln` | ~9 | Halle→Büro, Stellungnahme oder Konzept (Mai 2026) |
 | `sprinkler-rueckbau-bma-nutzungsaenderung-koeln` | ~9 | Fortschreibung, Teilstilllegung (Mai 2026) |
-| `kraftstoff-lagerung-halle-garage-brandschutz` | ~9 | TRGS 510, STN vs Konzept (Mai 2026) |
+| `kraftstoff-lagerung-halle-garage-brandschutz` | ~9 | TRGS 510, Stellungnahme oder Konzept (Mai 2026) |
 | `abschottungen-durchbrueche-baustelle-koeln` | ~9 | Ü-Zulassung, MLAR (Mai 2026) |
 | `loeschwasser-hydranten-gewerbe-koeln` | ~9 | Grund-/Objektschutz (Mai 2026) |
 | `feuerwehrplan-fluchtplaene-pflicht-koeln` | ~9 | Drei Planarten (Mai 2026) |
