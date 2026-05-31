@@ -8,7 +8,7 @@ import { FaqJsonLdFromItems } from "@/components/seo/FaqJsonLdFromItems";
 import { getAllRatgeberSlugs, getRatgeberArticle } from "@/content/ratgeber";
 import { RatgeberArticleView } from "@/components/ratgeber/RatgeberArticleView";
 
-const PUBLISHED = "2026-05-07";
+const DEFAULT_PUBLISHED = "2026-05-07";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -56,7 +56,7 @@ export default async function RatgeberArticlePage({ params }: PageProps) {
         title={article.title}
         description={article.metaDescription}
         path={path}
-        datePublished={PUBLISHED}
+        datePublished={article.publishedAt ?? DEFAULT_PUBLISHED}
       />
       <FaqJsonLdFromItems items={article.faq} />
       <RatgeberArticleView article={article} />

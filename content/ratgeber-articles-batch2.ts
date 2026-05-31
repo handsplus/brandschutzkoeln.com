@@ -9,7 +9,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "feuerschutztueren-bestand-ertuechtigung-koeln",
     title: "Feuerschutztüren im Bestand: prüfen, ertüchtigen oder tauschen",
     excerpt:
-      "T30/T30-RS aus den 1970ern: Selbstschließung, DIBt-Zulassung, Ertüchtigung vs. Austausch – aus einem Gutachten im Technikgebäude.",
+      "Feuerschutztüren aus den 1970er-Jahren mit 30-minütigem Feuerwiderstand (T30) und optionaler Rauchdichtheit (T30-RS) müssen im Betrieb funktionierende Selbstschließung und eine passende Zulassung des Deutschen Instituts für Bautechnik (DIBt) erfüllen. Der Ratgeber zeigt anhand eines Gutachtens in einem Technikgebäude, wann Ertüchtigung reicht und wann ein Austausch sinnvoller ist.",
     metaTitle: "Feuerschutztüren Bestand | T30 Köln",
     metaDescription:
       "Feuerschutztüren Bestand NRW: Ertüchtigung, Selbstschließung, DIBt. Rauchschutztüren T30-RS – Ratgeber H&S+.",
@@ -24,8 +24,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "fall",
         title: "Typischer Fall: Bestandstüren (GK 5, ca. 1973)",
         paragraphs: [
-          "In einem abgeschlossenen Gutachten wurden feuerhemmende Brandschutzabschlüsse (T30, Bauzeit ca. 1973) in einem Technikgebäude der Gebäudeklasse 5 bewertet. Frage: Gleichwertiger Erhalt der Schutzwirkung – oder Austausch?",
-          "Feststellungen: Kennzeichnung vorhanden, aber fehlende oder defekte Selbstschließung, aufgekeilte Flügel, beschädigte Schließfolgen, Bohrungen im Türblatt, Feststellanlagen außer Betrieb.",
+          "In einem abgeschlossenen Gutachten wurden feuerhemmende Brandschutzabschlüsse (T30, Bauzeit ca. 1973) in einem Technikgebäude der Gebäudeklasse 5 bewertet. Die zentrale Frage lautete: Kann die Schutzwirkung gleichwertig erhalten bleiben – oder ist ein Austausch nötig?",
+          "Die Feststellungen im Gutachten: Kennzeichnung war vorhanden, aber die Selbstschließung fehlte oder war defekt, Flügel waren aufgekeilt, Schließfolgen beschädigt, Bohrungen im Türblatt vorhanden und Feststellanlagen außer Betrieb.",
         ],
       },
       {
@@ -40,11 +40,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "pruefung",
         title: "Was Gutachter und Betrieb prüfen",
         list: [
-          "Feuerwiderstand und Rauchdichtheit: Blatt, Zarge, Einbau in klassifizierter Wand",
-          "Selbstschließung und Schließfolge (ohne Fremdenergie bis Einrasten, EN 16034)",
-          "Feststellanlagen: nur zulässig nach Hersteller/DIBt, nicht dauerhaft offen",
-          "Leibung, Beschläge, Verglasung: Änderungen nur mit Zulassungsnachweis",
-          "Kennzeichnung und Zulassungsplakette, Betriebskontrolle dokumentiert",
+          "Feuerwiderstand und Rauchdichtheit am Türblatt, an der Zarge und beim Einbau in die klassifizierte Wand prüfen",
+          "Selbstschließung und Schließfolge kontrollieren – die Tür muss ohne Fremdenergie bis zum Einrasten schließen (EN 16034)",
+          "Feststellanlagen nur nach Hersteller- und DIBt-Vorgaben zulassen und nicht dauerhaft offen halten",
+          "Änderungen an Leibung, Beschlägen oder Verglasung nur mit passendem Zulassungsnachweis vornehmen",
+          "Kennzeichnung und Zulassungsplakette prüfen sowie die Betriebskontrolle lückenlos dokumentieren",
         ],
         paragraphs: [
           "Betriebsmängel (Tür keilt, Automatik aus) sind sofort zu beseitigen – unabhängig von Bestandsschutz § 59 BauO NRW.",
@@ -54,22 +54,22 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "ertuechtigung",
         title: "Ertüchtigung vs. Austausch",
         paragraphs: [
-          "Ertüchtigung: Obertürschließer, Schließfolge, Reparatur, zugelassene Füllungen nach Herstellerunterlage – wenn Blatt und Zarge den Nachweis tragen. Zulässige Änderungen am Produkt nur mit DIBt/Hersteller-Freigabe (ab 2010 strenger Katalog).",
-          "Austausch: bei nicht mehr nachweisbarem Blatt, falscher Wandanschluss, oder wenn Ertüchtigung wirtschaftlich nicht sinnvoll. Neubau-Türen mit CE-Kennzeichnung und dokumentiertem Einbau.",
+          "Bei einer **Ertüchtigung** werden Obertürschließer, Schließfolge, Reparaturen oder zugelassene Füllungen nach Herstellerunterlage eingesetzt – vorausgesetzt, Türblatt und Zarge tragen den ursprünglichen Nachweis. Änderungen am Produkt sind nur mit Freigabe des DIBt oder des Herstellers zulässig; seit 2010 gilt ein strengerer Katalog.",
+          "Ein **Austausch** ist nötig, wenn das Türblatt nicht mehr nachweisbar ist, der Wandanschluss falsch ausgeführt wurde oder eine Ertüchtigung wirtschaftlich nicht sinnvoll ist. Neubau-Türen tragen CE-Kennzeichnung und werden mit dokumentiertem Einbau übergeben.",
         ],
       },
       {
         id: "betrieb",
         title: "Betrieb und Kontrolle",
         paragraphs: [
-          "Monatliche Sichtkontrolle (Tore/Klappen analog): schließt die Tür, keine Beschädigung, keine Haltekräfte im Offen-Zustand. Jährliche fachliche Prüfung nach DIN 18095 für bestimmte Anlagen. Bestandsliste mit Standort, Klasse, Prüffristen für Versicherer und Abnahme.",
+          "Monatlich sollten Sie eine Sichtkontrolle durchführen – bei Toren und Klappen analog zur Tür: Schließt die Tür zuverlässig, gibt es Beschädigungen, wirken Haltekräfte im Offen-Zustand? Jährlich folgt für bestimmte Anlagen die fachliche Prüfung nach DIN 18095. Eine Bestandsliste mit Standort, Klasse und Prüffristen erleichtert Versicherer und Abnahme.",
         ],
       },
       {
         id: "abgrenzung",
         title: "Abgrenzung zu Genehmigung und Umbau",
         paragraphs: [
-          "Nur Türertüchtigung ohne Nutzungsänderung: oft internes Gutachten, kein neues BSK. Neue Öffnungen in Brandwänden oder geänderte Fluchtwege: Genehmigung und brandschutztechnischer Nachweis – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
+          "Reine Türertüchtigung ohne Nutzungsänderung reicht oft mit internem Gutachten aus – ein neues Brandschutzkonzept (BSK) ist dann nicht nötig. Neue Öffnungen in Brandwänden oder geänderte Fluchtwege erfordern dagegen Genehmigung und brandschutztechnischen Nachweis – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
         ],
       },
       {
@@ -79,18 +79,18 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "In der Praxis scheitern Ertüchtigungen oft an Betrieb und Nachrüstung – nicht am Blatt allein:",
         ],
         list: [
-          "Tür dauerhaft offen oder aufgekeilt",
-          "Nachgerüsteter Türschließer ohne Zulassung",
-          "Bohrungen für Kabel ohne Herstellerfreigabe",
-          "Feststellanlage deaktiviert",
-          "Keine Dokumentation der Kontrollen",
+          "Die Tür wird dauerhaft offen gehalten oder mit Keilen blockiert",
+          "Ein nachgerüsteter Türschließer ohne passende Zulassung ersetzt die fehlende Selbstschließung",
+          "Bohrungen für Kabel oder Leitungen wurden ohne Herstellerfreigabe ausgeführt",
+          "Die Feststellanlage ist dauerhaft deaktiviert oder blockiert",
+          "Kontrollen und Instandsetzungen sind nicht dokumentiert",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Einzelfallbewertung – dieser Ratgeber ersetzt kein Gutachten und keine behördliche Festlegung. Bei Sonderbauten und Versammlungsstätten können strengere Anforderungen gelten.",
+          "Jede Feuerschutztür braucht eine Einzelfallbewertung – dieser Ratgeber ersetzt kein Gutachten und keine behördliche Festlegung. Bei Sonderbauten und Versammlungsstätten können strengere Anforderungen gelten.",
         ],
       },
     ],
@@ -109,27 +109,27 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Darf ich eine Feuerschutztür offen halten?",
         answer:
-          "Nein im Betrieb – Selbstschließung muss funktionieren. Feststellanlagen nur nach Zulassung und nicht dauerhaft blockiert.",
+          "Nein – im Betrieb muss die Selbstschließung jederzeit funktionieren. Feststellanlagen sind nur nach Zulassung zulässig und dürfen nicht dauerhaft blockiert werden.",
       },
       {
         question: "Wer darf Feuerschutztüren bewerten?",
         answer:
-          "Brandschutz-Sachverständige, Prüfingenieure oder qualifizierte Brandschutzplaner – je nach Auftrag und Verfahren.",
+          "Die Bewertung obliegt Brandschutz-Sachverständigen, Prüfingenieuren oder qualifizierten Brandschutzplanern – je nach Auftrag und Verfahren.",
       },
       {
         question: "Was ist der Unterschied T30 und T30-RS?",
         answer:
-          "T30-RS ist rauchdicht im Brandfall – Pflicht an vielen Fluchtwegen. Reines T30 reicht dort nicht.",
+          "T30-RS ist im Brandfall zusätzlich rauchdicht und an vielen Fluchtwegen vorgeschrieben. Eine reine T30-Tür ohne Rauchschutz reicht dort nicht aus.",
       },
       {
         question: "Brauche ich eine Baugenehmigung für Ertüchtigung?",
         answer:
-          "Bei reinem Instandsetzen ohne baulische Änderung oft nein – bei neuen Durchbrüchen oder Nutzungsänderung ja.",
+          "Bei reinem Instandsetzen ohne bauliche Änderung ist oft keine Genehmigung nötig. Neue Durchbrüche oder eine Nutzungsänderung lösen dagegen in der Regel ein Genehmigungsverfahren aus.",
       },
       {
         question: "Was ist mit Feststellanlagen (Haltemagneten)?",
         answer:
-          "Nur zulässig, wenn Hersteller und DIBt/Zulassung es für genau diese Tür erlauben – nicht dauerhaft deaktiviert. Im Brandfall muss schließen.",
+          "Feststellanlagen sind nur zulässig, wenn Hersteller und DIBt-Zulassung es für genau diese Tür erlauben. Sie dürfen nicht dauerhaft deaktiviert sein – im Brandfall muss die Tür zuverlässig schließen.",
       },
     ],
   },
@@ -137,7 +137,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "brandschutz-abnahme-nach-umbau-koeln",
     title: "Brandschutz-Abnahme nach Umbau: typische Mängel",
     excerpt:
-      "SV-Begehung nach Sanierung: Türen, Wände, FSD, Pläne – was blockiert Betrieb und Versicherung trotz Genehmigung.",
+      "Nach einem genehmigten Umbau prüft ein Sachverständiger oder die Fachbauleitung, ob Türen, Wände, Feuerwehr-Schlüsseldepot (FSD) und Pläne dem Konzept entsprechen. Der Ratgeber zeigt, welche Mängel trotz Baugenehmigung Betrieb und Versicherung blockieren.",
     metaTitle: "Brandschutz Abnahme Umbau | Köln",
     metaDescription:
       "Brandschutz-Abnahme nach Umbau: typische Mängel, Fachbauleitung, Pläne. Ratgeber H&S+ NRW.",
@@ -163,24 +163,24 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Diese Mängel wiederholen sich in Abnahme-Begehungen – sie blockieren oft Betrieb und Versicherung, auch wenn die Baugenehmigung existiert:",
         ],
         list: [
-          "Feuerschutzabschluss T30/T30-RS: nicht selbstschließend, beschädigt, verriegelt",
-          "Wand feuerhemmend (F 30) statt geforderter feuerbeständiger Ausführung (F 90) – Nachweis oder Konzeptanpassung fehlt",
-          "Planabweichung ohne dokumentierte brandschutztechnische Bewertung",
-          "Feuerwehr-Schlüsseldepot (FSD) fehlt trotz Konzept",
-          "Flucht- und Rettungspläne ASR A2.3 fehlen oder veraltet",
-          "Feuerwehrplan DIN 14095 nicht fortgeschrieben",
-          "Abschottungen ohne Ü-Kennzeichnung oder Dokumentation",
+          "Feuerschutzabschlüsse (T30/T30-RS) schließen nicht selbstständig, sind beschädigt oder verriegelt",
+          "Eine Wand ist nur feuerhemmend (F 30) ausgeführt, obwohl feuerbeständig (F 90) gefordert ist – Nachweis oder Konzeptanpassung fehlt",
+          "Die Baustelle weicht vom Plan ab, ohne dass die Abweichung brandschutztechnisch bewertet wurde",
+          "Das Feuerwehr-Schlüsseldepot (FSD) fehlt, obwohl es im Konzept vorgesehen ist",
+          "Flucht- und Rettungspläne nach ASR A2.3 fehlen oder sind veraltet",
+          "Der Feuerwehrplan nach DIN 14095 wurde nach dem Umbau nicht fortgeschrieben",
+          "Abschottungen sind ohne Ü-Kennzeichnung oder ohne Dokumentation ausgeführt",
         ],
       },
       {
         id: "vorgehen",
         title: "Vor der Abnahme vorbereiten",
         list: [
-          "Abnahme-Termin früh mit Fachbauleitung/SV und Konzeptautor",
-          "Mängelliste aus Baustelle vor Einzug schließen",
-          "Pläne, BMA-Abnahme, FSD, BSO aktualisieren",
-          "Türen: Funktionsprüfung Selbstschließung",
-          "Unterweisung und Gefährdungsbeurteilung dokumentieren",
+          "Den Abnahme-Termin frühzeitig mit Fachbauleitung, Sachverständigem und Konzeptautor abstimmen",
+          "Die Mängelliste der Baustelle vor dem Einzug vollständig abarbeiten",
+          "Pläne, Brandmeldeanlage (BMA)-Abnahme, FSD und Brandschutzordnung (BSO) auf den aktuellen Stand bringen",
+          "An allen Türen die Selbstschließung funktionsprüfen",
+          "Unterweisung und Gefährdungsbeurteilung schriftlich dokumentieren",
         ],
         paragraphs: [
           "Eine Eilbegehung vor großen Investitionen reduziert Überraschungen – siehe [Eilbegehung Restaurant/Gewerbe](/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln).",
@@ -190,7 +190,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "rollen",
         title: "Wer ist wofür zuständig?",
         paragraphs: [
-          "Fachbauleitung Brandschutz (§ 56 BauO NRW): stichprobenartige Kontrolle während der Ausführung, Bescheinigung. Sachverständiger: Abnahme gegenüber Konzept/Genehmigung. Bauaufsicht: formale Bauzustandsbesichtigung. Feuerwehr: Brandschau im Betrieb – separater Termin.",
+          "Die **Fachbauleitung Brandschutz** nach § 56 BauO NRW kontrolliert stichprobenartig die Ausführung während der Bauphase und stellt eine Bescheinigung aus. Der **Sachverständige** prüft bei der Abnahme, ob Ist und Konzept übereinstimmen. Die **Bauaufsicht** führt die formale Bauzustandsbesichtigung durch. Die **Feuerwehr** kontrolliert im laufenden Betrieb bei der Brandschau – das ist ein separater Termin.",
         ],
       },
       {
@@ -200,17 +200,17 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Diese Punkte verzögern die Nutzungsaufnahme oder führen zu Nachforderungen der Bauaufsicht:",
         ],
         list: [
-          "Abnahme erst nach Einzug geplant",
-          "Konzept liegt, Baustelle weicht ab – keine Nachträge",
-          "Nur bauordnungsrechtliche Pläne, keine ASR-Fluchtpläne",
-          "FSD „kommt später“",
+          "Die Abnahme wird erst nach dem Einzug geplant, obwohl Mängel dann teuer nachzubessern sind",
+          "Das Konzept liegt vor, die Baustelle weicht ab – ohne dokumentierte Nachträge",
+          "Es gibt nur bauordnungsrechtliche Pläne, aber keine ASR-Fluchtpläne für den Betrieb",
+          "Das FSD wird mit dem Hinweis „kommt später“ aufgeschoben",
         ],
       },
       {
         id: "nachweise",
         title: "Welche Unterlagen zur Abnahme mitbringen",
         paragraphs: [
-          "Der Sachverständige vergleicht Ist mit Genehmigung und Konzept – nicht mit dem Bauantrag allein. Üblich sind: genehmigte Pläne und Konzept (einheitlicher Stand), BMA-Abnahmeprotokoll, Übersicht Abschottungen mit Plaketten, Protokolle Fachbauleitung, aktualisierte Feuerwehrpläne DIN 14095, ASR A2.3-Fluchtpläne, FSD-Montage, BSO Teil A/B.",
+          "Der Sachverständige vergleicht den Ist-Zustand mit Genehmigung und Konzept – nicht mit dem Bauantrag allein. Üblich sind genehmigte Pläne und Konzept in einheitlichem Stand, das BMA-Abnahmeprotokoll, eine Übersicht aller Abschottungen mit Plaketten, Protokolle der Fachbauleitung, aktualisierte Feuerwehrpläne nach DIN 14095, Flucht- und Rettungspläne nach ASR A2.3, der Nachweis zur FSD-Montage sowie die Brandschutzordnung (BSO) Teil A und B.",
           "Fehlt ein Dokument, wird die Abnahme verschoben – auch wenn die Baugenehmigung schon erteilt ist.",
         ],
       },
@@ -233,27 +233,27 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Ist eine Abnahme gesetzlich immer Pflicht?",
         answer:
-          "Nicht für jeden Umbau formell. Bei Sonderbauten, BMA, Fachbauleitung-Anordnung oder Versicherer oft verbindlich erwartet.",
+          "Eine formelle Abnahme ist nicht für jeden Umbau gesetzlich vorgeschrieben. Bei Sonderbauten, Brandmeldeanlagen (BMA), behördlicher Fachbauleitung-Anordnung oder Versicherervorgaben wird sie jedoch fast immer erwartet.",
       },
       {
         question: "Was ist der Unterschied zur Brandschau?",
         answer:
-          "Abnahme: Umsetzung des genehmigten Konzepts nach Bau. Brandschau: laufender Betrieb durch Feuerwehr.",
+          "Die Abnahme prüft nach dem Bau, ob das genehmigte Konzept umgesetzt wurde. Die Brandschau kontrolliert im laufenden Betrieb, ob Fluchtwege, Anlagen und Pläne funktionieren.",
       },
       {
         question: "Reicht die Baugenehmigung für die Abnahme?",
         answer:
-          "Nein. Die Genehmigung ist Soll – die Abnahme prüft Ist-Umsetzung inkl. Pläne und Türen.",
+          "Nein – die Genehmigung beschreibt den Soll-Zustand. Die Abnahme vergleicht den Ist-Zustand inklusive Pläne, Türen und Abschottungen mit diesem Soll.",
       },
       {
         question: "Wer behebt festgestellte Mängel?",
         answer:
-          "Bauherr/Betreiber mit Handwerkern und Brandschutzplaner – Mängelliste mit Fristen abarbeiten.",
+          "Bauherr oder Betreiber arbeiten die Mängelliste mit Handwerkern und Brandschutzplaner ab – mit dokumentierten Fristen und Nachweisen.",
       },
       {
         question: "Brauche ich ASR-Fluchtpläne zur SV-Abnahme?",
         answer:
-          "Zur bauordnungsrechtlichen Abnahme: Konzept und genehmigte Pläne. Für den Betrieb und Versicherer zusätzlich oft ASR A2.3-Pläne – beide Ebenen vor Nutzungsaufnahme abstimmen.",
+          "Zur bauordnungsrechtlichen Abnahme reichen Konzept und genehmigte Pläne. Für den Betrieb und die Versicherung werden zusätzlich oft ASR A2.3-Pläne verlangt – beide Ebenen sollten vor der Nutzungsaufnahme abgestimmt sein.",
       },
       {
         question: "Was, wenn die Wand nur feuerhemmend (F 30) statt feuerbeständig (F 90) ist?",
@@ -266,7 +266,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "brandschau-koeln-feuerwehr",
     title: "Brandschau: Ablauf und Abgrenzung (Feuerwehr)",
     excerpt:
-      "Was die Berufsfeuerwehr bei der Brandschau prüft – Unterschied zu Bauaufsicht, Eilbegehung und Abnahme.",
+      "Die Brandschau der Feuerwehr prüft im laufenden Betrieb, ob Fluchtwege, Löscher und Pläne funktionieren – anders als Bauaufsicht, Eilbegehung oder Sachverständigen-Abnahme. Der Ratgeber erklärt Ablauf und Abgrenzung.",
     metaTitle: "Brandschau Köln | Feuerwehr",
     metaDescription:
       "Brandschau: Prüfpunkte, Fristen, FSD, Feuerwehrplan. Unterschied Bauaufsicht – Ratgeber H&S+.",
@@ -282,7 +282,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Was ist eine Brandschau?",
         paragraphs: [
           "Die Brandschau ist eine betriebliche Kontrolle durch die zuständige Feuerwehr (in Köln die Berufsfeuerwehr). Sie prüft, ob Fluchtwege, Löscher, Türen, BMA, Pläne und Zufahrten im Alltag funktionieren – nicht ob der Bauantrag vollständig war.",
-          "Anlässe: Anzeige neuer Nutzung, Sonderbau, Wiederholung nach Mängeln, nach Vorfällen oder im Rahmen von Auflagen.",
+          "Anlässe sind etwa die Anzeige einer neuen Nutzung, ein Sonderbau-Tatbestand, eine Wiederholung nach Mängeln, ein Vorfall im Objekt oder die Umsetzung behördlicher Auflagen.",
         ],
       },
       {
@@ -292,26 +292,26 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Orientierung an Betrieb, Nutzung und vorliegenden Auflagen (Konzept, Genehmigung, frühere Mängel):",
         ],
         list: [
-          "Flucht- und Rettungswege frei, gekennzeichnet, beleuchtet",
-          "Feuerlöscher: Anzahl, Standort, Prüfplakette ASR A2.2",
-          "Türen in Fluchtwegen: T30-RS, selbstschließend, nicht verriegelt",
-          "BMA: Betrieb, Alarmierung, Unterweisung",
-          "Feuerwehrplan DIN 14095, FSD, Zufahrt, Hydranten",
-          "Heißarbeiten, brennbare Lager, Elektro",
+          "Flucht- und Rettungswege müssen frei, gekennzeichnet und ausreichend beleuchtet sein",
+          "Feuerlöscher in ausreichender Anzahl, am richtigen Standort und mit gültiger Prüfplakette nach ASR A2.2",
+          "Türen in Fluchtwegen als Rauchschutzabschlüsse (T30-RS) ausgeführt, selbstschließend und nicht verriegelt",
+          "Brandmeldeanlage (BMA) in Betrieb, Alarmierung funktionsfähig, Unterweisung nachweisbar",
+          "Feuerwehrplan nach DIN 14095, Feuerwehr-Schlüsseldepot (FSD), Zufahrt und Hydranten zugänglich",
+          "Heißarbeiten, brennbare Lager und Elektroinstallationen ordnungsgemäß geführt",
         ],
       },
       {
         id: "abgrenzung",
         title: "Brandschau vs. andere Prüfungen",
         list: [
-          "Bauaufsicht: Genehmigung, baulicher Nachweis § 33 – nicht Brandschau",
-          "Zwischenbescheid: fehlende Genehmigungsunterlagen",
-          "Eilbegehung: Arbeitgeber-Ist-Check vor Investition – kein Behördenakt",
-          "Abnahme SV: Konzept-Umsetzung nach Umbau",
-          "BG/SiFa: Arbeitsschutz ASR – parallel, nicht identisch",
+          "Die **Bauaufsicht** prüft Genehmigung und baulichen Nachweis nach § 33 BauO NRW – das ist keine Brandschau",
+          "Ein **Zwischenbescheid** weist auf fehlende Genehmigungsunterlagen hin, noch bevor gebaut werden darf",
+          "Eine **Eilbegehung** ist ein freiwilliger Ist-Check des Arbeitgebers vor Investitionen – kein Behördenakt",
+          "Die **Abnahme durch den Sachverständigen** prüft die Umsetzung des Konzepts nach dem Umbau",
+          "**BG und SiFa** kontrollieren den Arbeitsschutz nach ASR – parallel, aber nicht identisch mit der Brandschau",
         ],
         paragraphs: [
-          "Drei Ebenen aus Ratgeber Pläne: BauO-Nachweis, Feuerwehrplan DIN 14095, ASR A2.3-Fluchtpläne – Brandschau prüft vor allem Betrieb und Einsatzvoraussetzungen.",
+          "Drei Ebenen von Plänen sollten nicht verwechselt werden: der bauordnungsrechtliche Nachweis, der Feuerwehrplan nach DIN 14095 und die Flucht- und Rettungspläne nach ASR A2.3. Die Brandschau prüft vor allem Betrieb und Einsatzvoraussetzungen für die Feuerwehr.",
         ],
       },
       {
@@ -321,11 +321,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Die Brandschau prüft den laufenden Betrieb – nicht die Baustelle. Vor dem Termin sollten Sie diese Punkte abarbeiten:",
         ],
         list: [
-          "Feuerwehrplan und FSD aktuell und zugänglich",
-          "Mängel aus letzter Schau dokumentiert und erledigt",
-          "Fluchtwege freiräumen, Löscher prüfen lassen",
-          "BSO Teil A, Unterweisungsnachweise bereithalten",
-          "Ansprechpartner Brandschutz benennen",
+          "Feuerwehrplan und FSD auf aktuellem Stand halten und für die Feuerwehr zugänglich bereitstellen",
+          "Mängel aus der letzten Schau dokumentieren und vollständig beseitigen",
+          "Fluchtwege freiräumen und Feuerlöscher fachgerecht prüfen lassen",
+          "BSO Teil A und Unterweisungsnachweise bereithalten",
+          "Einen Ansprechpartner für Brandschutzfragen benennen",
         ],
       },
       {
@@ -339,8 +339,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "praxis",
         title: "Praxis: typische Brandschau-Mängel",
         paragraphs: [
-          "In wiederkehrenden Schauen (Gastronomie, Gewerbe, Verwaltung) tauchen dieselben Punkte auf: Fluchtwege als Lager, Löscher abgelaufen oder verdeckt, BMA-Störung nicht dokumentiert, Feuerwehrplan veraltet nach Umbau, FSD nicht erreichbar, T30-RS aufgekeilt.",
-          "Nach einem Restaurant-Umbau ohne Planfortschreibung wurde die Schau verschoben – obwohl die Nutzungsänderung genehmigt war. Vor Investition hilft eine Eilbegehung (Arbeitgeber), nicht die Brandschau.",
+          "In wiederkehrenden Schauen bei Gastronomie, Gewerbe und Verwaltung tauchen dieselben Mängel auf: Fluchtwege dienen als Lager, Feuerlöscher sind abgelaufen oder verdeckt, BMA-Störungen sind nicht dokumentiert, der Feuerwehrplan ist nach einem Umbau veraltet, das FSD ist nicht erreichbar oder Rauchschutzabschlüsse (T30-RS) werden aufgekeilt.",
+          "In einem Fall wurde die Schau nach einem Restaurant-Umbau verschoben, weil der Feuerwehrplan nicht fortgeschrieben war – obwohl die Nutzungsänderung genehmigt war. Vor Investitionen hilft eine Eilbegehung durch den Arbeitgeber, nicht die Brandschau selbst.",
         ],
       },
       {
@@ -362,32 +362,32 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Muss ich Mängel sofort beheben?",
         answer:
-          "Sicherheitsrelevante Mängel sofort; andere innerhalb der gesetzten Frist. Dokumentation der Maßnahmen.",
+          "Sicherheitsrelevante Mängel sind sofort zu beseitigen; andere innerhalb der gesetzten Frist. Alle Maßnahmen sollten schriftlich dokumentiert werden.",
       },
       {
         question: "Erstellt die Feuerwehr unsere Pläne?",
         answer:
-          "Nein. Feuerwehrpläne erstellt/stimmt der Betrieb mit Fachplaner ab. Fluchtpläne nach ASR A2.3 sind Arbeitsschutz.",
+          "Nein – Feuerwehrpläne erstellt und stimmt der Betrieb mit einem Fachplaner ab. Flucht- und Rettungspläne nach ASR A2.3 gehören zum Arbeitsschutz.",
       },
       {
         question: "Ist Brandschau dasselbe wie Genehmigung?",
         answer:
-          "Nein. Genehmigung ist Bauaufsicht vor dem Betrieb. Brandschau ist Kontrolle im laufenden Betrieb.",
+          "Nein – die Genehmigung erteilt die Bauaufsicht vor dem Betrieb. Die Brandschau kontrolliert den laufenden Betrieb durch die Feuerwehr.",
       },
       {
         question: "Was, wenn wir kein Sonderbau sind?",
         answer:
-          "Brandschau kann trotzdem stattfinden – z. B. bei Anzeige, Beschwerden oder großen Besucherzahlen.",
+          "Eine Brandschau kann trotzdem stattfinden – etwa bei Anzeige, Beschwerden oder hohen Besucherzahlen.",
       },
       {
         question: "Muss die Feuerwehr unsere BMA abnehmen?",
         answer:
-          "Die BMA wird durch Prüfsachverständigen nach VDE 0833 abgenommen. Die Brandschau prüft Betrieb, Störmeldungen, Unterweisung und ob Anlagen zum Konzept passen.",
+          "Die Brandmeldeanlage (BMA) wird durch einen Prüfsachverständigen nach VDE 0833 abgenommen. Die Brandschau prüft Betrieb, Störmeldungen, Unterweisung und ob die Anlage zum Konzept passt.",
       },
       {
         question: "Was ist der Unterschied zu einer Eilbegehung?",
         answer:
-          "Eilbegehung: freiwilliger Ist-Check des Betreibers vor Umbau/Investition. Brandschau: behördliche/feuerwehrliche Kontrolle im laufenden Betrieb mit Fristen.",
+          "Die Eilbegehung ist ein freiwilliger Ist-Check des Betreibers vor Umbau oder Investition. Die Brandschau ist eine behördliche Kontrolle im laufenden Betrieb mit verbindlichen Fristen.",
       },
     ],
   },
@@ -395,7 +395,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "fachbauleitung-brandschutz-baustelle-koeln",
     title: "Fachbauleitung Brandschutz auf der Baustelle (§ 56 BauO NRW)",
     excerpt:
-      "Anordnung, Bescheinigung, typische Mängel (Wände bis Decke, Abschottungen) – aus Neubau technischer Anlage.",
+      "Die Fachbauleitung Brandschutz nach § 56 BauO NRW kontrolliert auf der Baustelle, ob Trennwände, Abschottungen und Türen dem genehmigten Konzept entsprechen. Der Ratgeber zeigt typische Mängel aus einem Neubau technischer Anlagen.",
     metaTitle: "Fachbauleitung Brandschutz | § 56",
     metaDescription:
       "Fachbauleitung Brandschutz § 56 BauO NRW: Pflicht, Bescheinigung, Abschottungen. Ratgeber H&S+ NRW.",
@@ -421,11 +421,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Die Fachbauleitung dokumentiert stichprobenartig, ob die genehmigte brandschutztechnische Lösung auf der Baustelle umgesetzt wird:",
         ],
         list: [
-          "Abgleich Ausführung mit genehmigtem Konzept und Plänen",
-          "Kontrolle Trennwände, Decken, Türen, Abschottungen",
-          "Baustellenbegehungen zu kritischen Phasen (Rohbau, TGA-Einbau)",
-          "Mängelliste an Bauherr und ausführende Firmen",
-          "Bescheinigung über stichprobenartige Kontrolle für die Bauaufsicht",
+          "Die Ausführung mit genehmigtem Konzept und Plänen abgleichen",
+          "Trennwände, Decken, Türen und Abschottungen stichprobenartig kontrollieren",
+          "Baustellenbegehungen in kritischen Phasen durchführen – etwa beim Rohbau und TGA-Einbau",
+          "Eine Mängelliste an Bauherr und ausführende Firmen weitergeben",
+          "Eine Bescheinigung über die stichprobenartige Kontrolle für die Bauaufsicht ausstellen",
         ],
       },
       {
@@ -435,21 +435,21 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "In einem Neubau einer technischen Anlage (NRW) wurden in der Bescheinigungsanlage u. a. festgehalten:",
         ],
         list: [
-          "Trennwände zu Technikräumen nicht vollständig bis Rohdecke geführt",
-          "Durchführungen ohne wirksame Abschottung (Ü-Plakette fehlt)",
-          "Leitungen in klassifizierten Wänden nicht nach MLAR/LAR",
-          "Brandschutztüren falsch montiert oder durch Folgegewerke beschädigt",
+          "Trennwände zu Technikräumen wurden nicht vollständig bis zur Rohdecke geführt",
+          "Durchführungen ohne wirksame Abschottung – die Ü-Plakette fehlte",
+          "Leitungen in klassifizierten Wänden wurden nicht nach MLAR/LAR (Leitungsanlagen-Richtlinie) ausgeführt",
+          "Brandschutztüren waren falsch montiert oder durch Folgegewerke beschädigt",
         ],
       },
       {
         id: "ablauf",
         title: "Ablauf für Bauherr und Planer",
         list: [
-          "Genehmigung und Konzept als verbindliche Grundlage",
-          "Fachbauleitung früh beauftragen, Termine mit Rohbau/TGA fixieren",
-          "Abschottungen vor Verkleidung dokumentieren",
-          "Mängelliste vor SV-Abnahme schließen",
-          "Bescheinigung an Bauaufsicht übergeben",
+          "Genehmigung und Konzept als verbindliche Grundlage für alle Gewerke festlegen",
+          "Die Fachbauleitung früh beauftragen und Termine mit Rohbau und TGA fixieren",
+          "Abschottungen vor der Verkleidung fotografisch und schriftlich dokumentieren",
+          "Die Mängelliste vor der SV-Abnahme vollständig schließen",
+          "Die Bescheinigung rechtzeitig an die Bauaufsicht übergeben",
         ],
         paragraphs: [
           "Ohne frühe Fachbauleitung werden Abschottungsmängel oft erst bei Abnahme sichtbar – teure Nachbohrungen.",
@@ -459,14 +459,14 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Fachbauleitung vs. Konzeptautor",
         paragraphs: [
-          "Konzeptautor plant und nachweist. Fachbauleitung prüft Umsetzung. Doppelrolle ist möglich, muss aber transparent sein. Architekt/Bauleitung ersetzt keine brandschutztechnische Fachbauleitung.",
+          "Der Konzeptautor plant und erbringt den Nachweis. Die Fachbauleitung prüft die Umsetzung auf der Baustelle. Eine Doppelrolle ist möglich, muss aber transparent sein. Architekt oder Bauleitung ersetzen keine brandschutztechnische Fachbauleitung.",
         ],
       },
       {
         id: "nachweise",
         title: "Ergebnis: Bescheinigung und Dokumentation",
         paragraphs: [
-          "Die Bescheinigung nach § 56 BauO NRW bestätigt stichprobenartige Kontrolle – keine Vollabnahme aller Gewerke. Dazu gehören Begehungsprotokolle, Fotos vor Verkleidung, Mängellisten, Freigaben der Abschottungen.",
+          "Die Bescheinigung nach § 56 BauO NRW bestätigt eine stichprobenartige Kontrolle – keine Vollabnahme aller Gewerke. Dazu gehören Begehungsprotokolle, Fotos vor der Verkleidung, Mängellisten und Freigaben der Abschottungen.",
           "Ohne Bescheinigung kann die Bauaufsicht die formale Abnahme verzögern; der Sachverständige stellt bei der Abnahme oft dieselben Mängel fest, wenn die Fachbauleitung zu spät kam.",
         ],
       },
@@ -493,27 +493,27 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Ist Fachbauleitung immer Pflicht?",
         answer:
-          "Nur wenn angeordnet oder vertraglich (z. B. Sonderbau, Versicherer). Freiwillige Begleitung ist empfehlenswert.",
+          "Nur wenn die Bauaufsicht sie anordnet oder ein Vertrag es vorschreibt – etwa bei Sonderbauten oder Versicherervorgaben. Eine freiwillige Begleitung ist dennoch empfehlenswert.",
       },
       {
         question: "Was passiert ohne Bescheinigung?",
         answer:
-          "Bauaufsicht kann Abnahme verweigern oder Nachweise nachfordern – Verzögerung der Fertigstellung.",
+          "Die Bauaufsicht kann die Abnahme verweigern oder zusätzliche Nachweise nachfordern – mit Verzögerung der Fertigstellung.",
       },
       {
         question: "Prüft die Fachbauleitung auch BMA?",
         answer:
-          "Koordination ja – formale BMA-Abnahme erfolgt durch Prüfsachverständigen nach VDE 0833, nicht durch Fachbauleitung allein.",
+          "Sie koordiniert die Schnittstellen – die formale BMA-Abnahme erfolgt durch einen Prüfsachverständigen nach VDE 0833, nicht durch die Fachbauleitung allein.",
       },
       {
         question: "Wann sind Begehungen vor Verkleidung Pflicht?",
         answer:
-          "Vor Beplankung von feuerbeständigen Wänden und Decken (F 90) – Abschottungen und Türen sind danach nicht mehr prüfbar ohne Aufbruch.",
+          "Vor der Beplankung feuerbeständiger Wände und Decken (F 90) – Abschottungen und Türen sind danach ohne Aufbruch nicht mehr prüfbar.",
       },
       {
         question: "Kann der Konzeptautor die Fachbauleitung übernehmen?",
         answer:
-          "Möglich, wenn Qualifikation und Unabhängigkeit geklärt sind. Getrennte Firmen erhöhen die Nachvollziehbarkeit gegenüber der Behörde.",
+          "Das ist möglich, wenn Qualifikation und Unabhängigkeit geklärt sind. Getrennte Firmen erhöhen die Nachvollziehbarkeit gegenüber der Behörde.",
       },
     ],
   },
@@ -521,7 +521,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "lagerhalle-buero-umnutzung-koeln",
     title: "Lagerhalle zu Büro: Brandschutz bei Umnutzung",
     excerpt:
-      "Gewerbehalle → Büro: Sonderbau, § 33 Rettungswege, Löschwasser – Praxisfall Gewerbegebiet NRW.",
+      "Die Umnutzung einer Gewerbehalle zu Büroflächen löst in NRW oft Sonderbau-Anforderungen, neue Rettungswege nach § 33 BauO NRW und einen Löschwassernachweis aus. Der Ratgeber orientiert an einem Praxisfall im Gewerbegebiet.",
     metaTitle: "Lagerhalle Büro Umnutzung | Brandschutz",
     metaDescription:
       "Halle zu Büro: Brandschutzkonzept, Rettungswege, Löschwasser NRW. Ratgeber H&S+.",
@@ -544,18 +544,18 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "sonderbau",
         title: "Sonderbau und Gebäudeklasse",
         paragraphs: [
-          "Große Hallen: oft GK 4/5 und Sonderbau (Lagerfläche, Industrie, ggf. Büro >3.000 m² Geschossfläche). Die Umnutzung ändert Personenströme, Brandlast (Trockenbau, Möbel) und Rettungsweglängen – neuer Nachweis nötig.",
+          "Große Hallen fallen oft in die Gebäudeklassen 4 oder 5 und können zugleich Sonderbau sein – etwa als Lagerfläche, Industrie oder Büro mit mehr als 3.000 m² Geschossfläche. Die Umnutzung ändert Personenströme, Brandlast durch Trockenbau und Möbel sowie Rettungsweglängen – deshalb ist ein neuer brandschutztechnischer Nachweis nötig.",
         ],
       },
       {
         id: "schwerpunkte",
         title: "Konzept-Schwerpunkte",
         list: [
-          "Zwei Rettungswege § 33 – Weglängen in der Halle kritisch",
-          "Löschwasser Grund-/Objektschutz, Hydranten",
-          "Brandabschnitte, feuerbeständige Trennwände (F 90), Rauchabschnitte",
-          "Entrauchung/RWA, Lüftung mit Brandschutzklappen",
-          "BMA, Feuerlöscher ASR A2.2, Flucht- und Feuerwehrpläne",
+          "Zwei Rettungswege nach § 33 BauO NRW – die Weglängen in der offenen Halle sind oft der kritische Punkt",
+          "Löschwasser für Grund- und Objektschutz sowie erreichbare Hydranten nachweisen",
+          "Brandabschnitte, feuerbeständige Trennwände (F 90) und Rauchabschnitte planen",
+          "Entrauchung oder Rauch- und Wärmeabzugsanlage (RWA) sowie Lüftung mit Brandschutzklappen",
+          "Brandmeldeanlage (BMA), Feuerlöscher nach ASR A2.2 sowie Flucht- und Feuerwehrpläne",
         ],
         paragraphs: [
           "Feuerwehrabstimmung vor oder parallel zum Bauantrag – siehe [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
@@ -565,7 +565,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "genehmigung",
         title: "Genehmigung und Betrieb",
         paragraphs: [
-          "Bauantrag mit Konzept, einheitlichen Plänen, Betriebsbeschreibung. Nach Fertigstellung: BMA-Abnahme, Pläne, BSO, ggf. Brandschau. Trockenbau in der Halle: Abstimmung mit bestehender Sprinkleranlage falls vorhanden.",
+          "Der Bauantrag umfasst Konzept, einheitliche Pläne und Betriebsbeschreibung. Nach Fertigstellung folgen BMA-Abnahme, Planfortschreibung, Brandschutzordnung (BSO) und gegebenenfalls die Brandschau. Trockenbau in der Halle muss mit einer bestehenden Sprinkleranlage abgestimmt werden, falls vorhanden.",
         ],
       },
       {
@@ -583,10 +583,10 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Bei Halle-zu-Büro-Umnutzungen wiederholen sich dieselben Planungslücken:",
         ],
         list: [
-          "Nur Architekturplan ohne brandschutztechnische Eintragungen",
-          "Ein Rettungsweg über lange Halle",
-          "Löschwasser nicht nachgewiesen",
-          "Sprinkler im Bestand ignoriert",
+          "Es liegt nur ein Architekturplan ohne brandschutztechnische Eintragungen vor",
+          "Ein einziger Rettungsweg führt über eine zu lange Halle",
+          "Der Löschwassernachweis fehlt oder ist nicht belastbar",
+          "Eine bestehende Sprinkleranlage wird bei der Planung ignoriert",
         ],
       },
       {
@@ -608,17 +608,17 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Reicht eine Stellungnahme statt Konzept?",
         answer:
-          "Bei Halle-zu-Büro und Sonderbau in der Regel nein – vollständiges Brandschutzkonzept.",
+          "Bei Halle-zu-Büro und Sonderbau-Tatbestand ist in der Regel ein vollständiges Brandschutzkonzept nötig – eine kurze Stellungnahme reicht selten.",
       },
       {
         question: "Braucht die Halle Sprinkler?",
         answer:
-          "Abhängig von Konzept, Versicherer und Nutzung – oft BMA plus Löscher, manchmal Sprinkler als Kompensation.",
+          "Das hängt vom Konzept, Versicherer und Nutzung ab – oft genügen BMA und Feuerlöscher, manchmal dient Sprinkler als Kompensation für lange Fluchtwege.",
       },
       {
         question: "Wie lang dürfen Fluchtwege sein?",
         answer:
-          "Nach § 33 und Nutzung – in Hallen oft der kritische Punkt, ggf. zweiter Rettungsweg oder RWA.",
+          "Die zulässigen Weglängen ergeben sich aus § 33 BauO NRW und der Nutzung. In Hallen sind sie oft der kritische Punkt – dann braucht es einen zweiten Rettungsweg oder Entrauchung.",
       },
       {
         question: "Was, wenn Sprinkler im Bestand der Halle liegt?",
@@ -641,7 +641,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "sprinkler-rueckbau-bma-nutzungsaenderung-koeln",
     title: "Sprinkler stilllegen: BMA und Konzept-Fortschreibung",
     excerpt:
-      "Produktion → IT: Sprinkler-Rückbau nur mit Fortschreibung, BMA Kat. 1 und Ersatzmaßnahmen im Konzept.",
+      "Wird eine Produktionsfläche zu IT-Nutzung umgebaut, darf eine Sprinkleranlage nur mit Fortschreibung des Brandschutzkonzepts stillgelegt werden – meist mit Brandmeldeanlage (BMA) Kategorie 1 und Ersatzmaßnahmen.",
     metaTitle: "Sprinkler Rückbau BMA | Umnutzung",
     metaDescription:
       "Sprinkler stilllegen bei Umnutzung: Fortschreibung § 9, BMA, Feuerwehr. Ratgeber H&S+ NRW.",
@@ -675,19 +675,19 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Ohne Sprinkler müssen Ersatzmaßnahmen im fortgeschriebenen Konzept nachvollziehbar sein. Ergänzt den Ratgeber Sprinkler & Trockenbau – dort Fokus Trockenbau bis Decke bei bestehendem Sprinkler.",
         ],
         list: [
-          "BMA Kategorie 1 (Vollschutz), Handfeuermelder an Fluchtwegen",
-          "Lüftung: Brandschutzklappen, BMA-Ansteuerung",
-          "Feuerlöscher ASR A2.2 (LE für neue Nutzung/Fläche)",
-          "Zwei Rettungswege, Weglängen im Abschnitt nachweisen",
-          "Feuerwehrpläne und Laufkarten fortschreiben",
+          "Brandmeldeanlage (BMA) Kategorie 1 mit Vollschutz und Handfeuermelder an den Fluchtwegen",
+          "Lüftung mit Brandschutzklappen und Ansteuerung durch die BMA",
+          "Feuerlöscher nach ASR A2.2 in ausreichender Anzahl für die neue Nutzung und Fläche",
+          "Zwei Rettungswege mit nachweisbaren Weglängen im betroffenen Brandabschnitt",
+          "Feuerwehrpläne und Laufkarten auf den neuen Stand bringen",
         ],
       },
       {
         id: "abgrenzung",
         title: "Teilstilllegung vs. Gesamtrückbau",
         paragraphs: [
-          "Nur ein Brandabschnitt (z. B. ehemalige Produktion → IT): Fortschreibung mit Ersatzmaßnahmen in diesem Abschnitt; übrige Sprinklerbereiche unverändert dokumentieren.",
-          "Kompletter Rückbau im Gebäude: neues Konzept-Niveau, BMA, Löschwasser und Rettungswege neu bewerten – nicht nur BMA „nachrüsten“.",
+          "Wird nur ein Brandabschnitt umgenutzt – etwa von Produktion zu IT – genügt eine Fortschreibung mit Ersatzmaßnahmen in diesem Abschnitt; die übrigen Sprinklerbereiche bleiben unverändert dokumentiert.",
+          "Bei komplettem Rückbau im Gebäude muss das Konzept-Niveau neu bewertet werden – BMA, Löschwasser und Rettungswege – nicht nur eine BMA nachrüsten.",
         ],
       },
       {
@@ -697,10 +697,10 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Stilllegung oder Umbau ohne Konzeptfortschreibung führt häufig zu Beanstandungen:",
         ],
         list: [
-          "Sprinklerköpfe abgedeckt oder Leitung leer ohne Genehmigung",
-          "Nur BMA eingebaut, Konzept nicht fortgeschrieben",
-          "Feuerwehr nicht informiert",
-          "Trockenbau verdeckt Sprinkler ohne Prüfung",
+          "Sprinklerköpfe wurden abgedeckt oder Leitungen leer gelegt, ohne Genehmigung",
+          "Nur eine BMA wurde eingebaut, das Konzept aber nicht fortgeschrieben",
+          "Die Feuerwehr wurde über die geänderte Aufschaltung nicht informiert",
+          "Trockenbau verdeckt Sprinklerköpfe, ohne dass dies geprüft wurde",
         ],
       },
       {
@@ -708,7 +708,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Genehmigung und Ablauf bis Abnahme",
         paragraphs: [
           "Sprinkler-Rückbau oder Teilstilllegung ist kein reines TGA-Thema: zuerst Fortschreibung oder neues Konzept, dann Genehmigung oder Anzeige nach Einordnung. BMA Kat. 1, Ersatzmaßnahmen und ggf. Feuerwehr-Stellungnahme gehören in **denselben** Planstand wie die Architekturpläne.",
-          "Typische Reihenfolge: Ist-Aufnahme Sprinkler → hydraulische Bewertung → Konzept-Fortschreibung → Bauaufsicht/Feuerwehr → Ausführung → Abnahme BMA/Sprinkler → Übergabe an Betrieb. Wer nur Leitungen leer legt, riskiert Versicherungs- und behördliche Mängel – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
+          "Typische Reihenfolge: Ist-Aufnahme der Sprinkleranlage, hydraulische Bewertung, Konzept-Fortschreibung, Abstimmung mit Bauaufsicht und Feuerwehr, Ausführung, Abnahme von BMA und Sprinkler, Übergabe an den Betrieb. Wer nur Leitungen leer legt, riskiert Versicherungs- und behördliche Mängel – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
         ],
       },
       {
@@ -729,27 +729,27 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Darf ich Sprinkler einfach abschalten?",
         answer:
-          "Nein. Nur mit Fortschreibung/Konzept und fachlicher Stilllegung.",
+          "Nein – eine Stilllegung ist nur mit Fortschreibung oder neuem Konzept und fachgerechter Demontage durch eine Fachfirma zulässig.",
       },
       {
         question: "Brauche ich eine neue Baugenehmigung?",
         answer:
-          "Stilllegung Sprinkler und BMA-Änderung sind bauliche/technische Änderungen – Fortschreibung und oft Genehmigung oder Anzeige.",
+          "Stilllegung von Sprinkler und BMA-Änderungen sind bauliche und technische Änderungen – sie erfordern eine Fortschreibung und oft Genehmigung oder Anzeige.",
       },
       {
         question: "Reicht BMA ohne Sprinkler?",
         answer:
-          "Nur wenn im fortgeschriebenen Konzept nachgewiesen und von Behörde/Feuerwehr akzeptiert.",
+          "Nur wenn das im fortgeschriebenen Konzept nachgewiesen und von Behörde sowie Feuerwehr akzeptiert wurde.",
       },
       {
         question: "Was ist BMA Kategorie 1?",
         answer:
-          "Vollautomatische Brandmeldeanlage mit Aufschaltung – typische Ersatzkomponente bei entfallendem Sprinkler in Teilbereichen.",
+          "Eine vollautomatische Brandmeldeanlage mit Aufschaltung zur Berufsfeuerwehr – sie ist eine typische Ersatzkomponente, wenn Sprinkler in Teilbereichen entfallen.",
       },
       {
         question: "Muss die Feuerwehr die Stilllegung kennen?",
         answer:
-          "Ja – Aufschaltung, Pläne und Konzept müssen zum neuen Schutzniveau passen. Sonst Konflikt bei Brandschau und Einsatz.",
+          "Ja – Aufschaltung, Pläne und Konzept müssen zum neuen Schutzniveau passen. Andernfalls entstehen Konflikte bei Brandschau und im Einsatzfall.",
       },
       {
         question: "Darf Trockenbau bis unter die Decke gebaut werden?",
@@ -762,7 +762,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "kraftstoff-lagerung-halle-garage-brandschutz",
     title: "Diesel und Kraftstoff in Halle oder Garage",
     excerpt:
-      "Tankfahrzeug, Kanister, TRGS 510 – Abgrenzung Fahrzeugtank vs. lose Lagerung, SBauVO.",
+      "Diesel in Halle, Garage oder Technikraum unterliegt TRGS 510 und der Sonderbauverordnung (SBauVO) – mit klarer Abgrenzung zwischen Fahrzeugtank und loser Lagerung. Der Ratgeber erläutert die Bewertungslogik anhand eines Praxisfalls.",
     metaTitle: "Diesel Lagerung Halle | TRGS 510",
     metaDescription:
       "Kraftstoff Halle/Garage: Diesel TRGS 510, Tankfahrzeug. Einzelfall – Ratgeber H&S+ NRW.",
@@ -784,18 +784,18 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Fahrzeugtank vs. lose Lagerung",
         paragraphs: [
-          "Kraftstoff im Fahrzeugtank: andere Bewertung als lose Lagerung in Kanistern oder Techniktanks. TRGS 510: ab 200 l Diesel lose gelagert zusätzliche organisatorische Maßnahmen – gilt nicht für den Tankinhalt eines zugelassenen Fahrzeugs in der Kleingarage.",
-          "Brennbare Flüssigkeiten in Technikräumen: Brandlast, Lüftung, Feuerlöscher, Abstand zu Zündquellen.",
+          "Kraftstoff im zugelassenen Fahrzeugtank wird anders bewertet als lose Lagerung in Kanistern oder Techniktanks. Nach TRGS 510 gelten ab 200 Litern Diesel in loser Lagerung zusätzliche organisatorische Maßnahmen – nicht jedoch für den Tankinhalt eines zugelassenen Fahrzeugs in einer Kleingarage.",
+          "Brennbare Flüssigkeiten in Technikräumen erfordern eine Bewertung von Brandlast, Lüftung, Feuerlöschern und Abstand zu Zündquellen.",
         ],
       },
       {
         id: "bewertung",
         title: "Bewertungslogik (Praxisfall)",
         list: [
-          "Belüftung, dichter Boden, Kennzeichnung, Rauchverbot",
-          "Feuerlöscher passend zur Brandklasse B",
-          "Keine Verwechslung mit Fettbrand-Küchentechnik",
-          "Dokumentation in der Stellungnahme für Betrieb und Behörde",
+          "Ausreichende Belüftung, dichter Boden, Kennzeichnung und Rauchverbot sicherstellen",
+          "Feuerlöscher passend zur Brandklasse B bereitstellen",
+          "Keine Verwechslung mit Fettbrand-Löschern aus der Küchentechnik",
+          "Alle Maßnahmen in der Stellungnahme für Betrieb und Behörde dokumentieren",
         ],
         paragraphs: [
           "Ergebnis im Fall: Abstellung Tankfahrzeug bis 1.000 l unter genannten Voraussetzungen zulässig – nicht pauschal auf andere Objekte übertragbar.",
@@ -805,15 +805,15 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "bauo",
         title: "Bauordnung und Sonderbau",
         paragraphs: [
-          "Zusätzlich: Lagerung gefährlicher Stoffe kann Sonderbau- oder Genehmigungspflichten auslösen. Technikgebäude: oft GK 1, dennoch brandschutztechnische Stellungnahme sinnvoll.",
+          "Zusätzlich kann die Lagerung gefährlicher Stoffe Sonderbau- oder Genehmigungspflichten auslösen. Technikgebäude fallen oft in Gebäudeklasse 1 (GK 1) – dennoch ist eine brandschutztechnische Stellungnahme sinnvoll.",
         ],
       },
       {
         id: "nachweise",
         title: "Stellungnahme oder Konzept – was reicht?",
         paragraphs: [
-          "Interne Freigabe (Werkstatt, Garage): oft brandschutztechnische Stellungnahme mit TRGS-Maßnahmen und Löschermatrix. Genehmigungspflichtige Lagerung oder Sonderbau: Brandschutzkonzept oder Fortschreibung mit Anhang Gefahrstoffe.",
-          "Tankfahrzeug-Fall: Ergebnis in der Stellungnahme dokumentieren – nicht pauschal auf andere Standorte übertragen.",
+          "Für interne Freigaben in Werkstatt oder Garage reicht oft eine brandschutztechnische Stellungnahme mit TRGS-Maßnahmen und Löschermatrix. Bei genehmigungspflichtiger Lagerung oder Sonderbau braucht es ein Brandschutzkonzept oder eine Fortschreibung mit Anhang Gefahrstoffe.",
+          "Im Tankfahrzeug-Fall wurde das Ergebnis in der Stellungnahme dokumentiert – das ist nicht pauschal auf andere Standorte übertragbar.",
         ],
       },
       {
@@ -848,17 +848,17 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Gilt 200 l auch für Fahrzeugtank?",
         answer:
-          "TRGS 510-Regel für lose Lagerung – nicht für Kraftstoff im zugelassenen Fahrzeugtank. Einzelfall prüfen.",
+          "Die 200-Liter-Regel in TRGS 510 gilt für lose Lagerung – nicht für Kraftstoff im zugelassenen Fahrzeugtank. Dennoch ist jeder Standort einzeln zu prüfen.",
       },
       {
         question: "Darf Diesel in der Werkstatt stehen?",
         answer:
-          "Nur mit Gefährdungsbeurteilung, Belüftung, Löscher, ggf. Stellungnahme und behördlicher Einordnung.",
+          "Nur mit Gefährdungsbeurteilung, ausreichender Belüftung, passenden Löschern und gegebenenfalls einer Stellungnahme sowie behördlicher Einordnung.",
       },
       {
         question: "Brauche ich ein Brandschutzkonzept?",
         answer:
-          "Bei genehmigungspflichtigen Anlagen oder Sonderbau oft ja – kurze Stellungnahme für interne Freigabe mindestens.",
+          "Bei genehmigungspflichtigen Anlagen oder Sonderbau ist oft ein vollständiges Konzept nötig – für interne Freigaben reicht mindestens eine brandschutztechnische Stellungnahme.",
       },
       {
         question: "Gilt SBauVO für Diesel in der Garage?",
@@ -881,7 +881,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "abschottungen-durchbrueche-baustelle-koeln",
     title: "Abschottungen bei Durchbrüchen: Brandschutz auf der Baustelle",
     excerpt:
-      "Ü-Zulassung, MLAR/LAR, Ü-Plakette – warum TGA-Durchbrüche die Brandwand zerstören und wie Fachbauleitung hilft.",
+      "TGA-Durchbrüche in feuerhemmenden oder feuerbeständigen Wänden zerstören den Brandschutz, wenn Abschottungen ohne Ü-Zulassung fehlen. Der Ratgeber erklärt Anforderungen, MLAR/LAR und die Rolle der Fachbauleitung.",
     metaTitle: "Abschottung Brandschutz | Durchbruch",
     metaDescription:
       "Abschottungen Durchbruch NRW: Zulassung, Dokumentation, Fachbauleitung. Ratgeber H&S+.",
@@ -903,11 +903,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "anforderungen",
         title: "Was je Durchführung erfüllt sein muss",
         list: [
-          "Abschottungssystem passend zu Wand-/Deckenklasse und Medium (Kabel, Rohr, Kombi)",
-          "Ü-Zulassung oder Einzelfallnachweis",
-          "Ü-Plakette am Abschottungspunkt, Aufnahme in Dokumentation",
-          "Leitungsführung nur im erforderlichen Mindestmaß (MLAR/LAR)",
-          "Koordination mit Fachbauleitung vor Verkleidung",
+          "Ein Abschottungssystem, das zur Wand- oder Deckenklasse und zum Medium (Kabel, Rohr, Kombination) passt",
+          "Eine gültige Ü-Zulassung (allgemeine bauaufsichtliche Zulassung) oder ein Einzelfallnachweis",
+          "Eine Ü-Plakette am Abschottungspunkt und Aufnahme in die Dokumentation",
+          "Leitungsführung nur im erforderlichen Mindestmaß nach MLAR/LAR (Leitungsanlagen-Richtlinie)",
+          "Abstimmung mit der Fachbauleitung vor dem Schließen der Verkleidung",
         ],
         paragraphs: [
           "PU-Schaum oder „Montageschaum“ ohne Ü ist unzulässig – auch nicht provisorisch.",
@@ -920,25 +920,25 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Abschottungen sind unsichtbar, sobald die Beplankung geschlossen ist – deshalb vorher prüfen:",
         ],
         list: [
-          "Kabelbündel ohne Systemabschottung",
-          "Rohrdurchführung größer als zugelassen",
-          "Abschottung beschädigt nach Folgegewerk",
-          "Keine Fotodokumentation vor Beplankung",
+          "Kabelbündel wurden ohne Systemabschottung durch die Wand geführt",
+          "Die Rohrdurchführung ist größer als in der Zulassung erlaubt",
+          "Die Abschottung wurde durch ein Folgegewerk beschädigt",
+          "Es fehlt an Fotodokumentation vor dem Schließen der Beplankung",
         ],
       },
       {
         id: "ablauf",
         title: "Empfohlener Ablauf",
         paragraphs: [
-          "Raumbuch mit allen Durchführungen planen → Abschottungssystem je Typ festlegen → Ausführung mit Fachfirma → Kontrolle Fachbauleitung → Ü-Plaketten und Übersichtsplan für Abnahme.",
+          "Planen Sie zuerst ein Raumbuch mit allen Durchführungen und legen Sie je Typ das passende Abschottungssystem fest. Die Ausführung erfolgt durch eine Fachfirma, die Fachbauleitung kontrolliert stichprobenartig, und am Ende werden Ü-Plaketten sowie ein Übersichtsplan für die Abnahme übergeben.",
         ],
       },
       {
         id: "abgrenzung",
         title: "Provisorium vs. Ü-Abschottung",
         paragraphs: [
-          "Bau-PU-Schaum oder Brandschutzklebeband ohne Ü ist auch vorübergehend unzulässig in klassifizierten Wänden. Provisorische Leitungsführung nur mit behördlich akzeptiertem Einzelfall – nicht als Dauerlösung bis „später“.",
-          "MLAR/LAR: Leitungen nur dort führen, wo baulich erforderlich – jede zusätzliche Durchführung schwächt die Wand.",
+          "Bau-PU-Schaum oder Brandschutzklebeband ohne Ü-Zulassung ist auch vorübergehend in klassifizierten Wänden unzulässig. Provisorische Leitungsführung ist nur mit behördlich akzeptiertem Einzelfall erlaubt – nicht als Dauerlösung bis „später“.",
+          "Nach MLAR/LAR dürfen Leitungen nur dort geführt werden, wo es baulich erforderlich ist – jede zusätzliche Durchführung schwächt die Wand.",
         ],
       },
       {
@@ -967,32 +967,32 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Reicht PU-Schaum für Kabel?",
         answer:
-          "Nur mit passender Ü für genau diese Konstruktion und Feuerwiderstandsklasse – niemals pauschal.",
+          "Nur mit einer passenden Ü-Zulassung für genau diese Konstruktion und Feuerwiderstandsklasse – niemals pauschal mit Montageschaum.",
       },
       {
         question: "Wer dokumentiert Abschottungen?",
         answer:
-          "Ausführende Firma und Fachbauleitung – Übersichtsplan mit Plaketten-Nummern für Abnahme.",
+          "Die ausführende Firma und die Fachbauleitung erstellen einen Übersichtsplan mit Plaketten-Nummern für die Abnahme.",
       },
       {
         question: "Gilt MLAR auch im Bestand?",
         answer:
-          "Ja – Leitungsführung nur im erforderlichen Umfang; jede nachträgliche Durchführung braucht Ü-Abschottung.",
+          "Ja – Leitungen dürfen nur im erforderlichen Umfang geführt werden. Jede nachträgliche Durchführung braucht eine Ü-Abschottung.",
       },
       {
         question: "Gilt das auch im Bestand?",
         answer:
-          "Ja – nachträgliche Durchbrüche in klassifizierten Wänden brauchen denselben Nachweis.",
+          "Ja – nachträgliche Durchbrüche in klassifizierten Wänden brauchen denselben Nachweis wie im Neubau.",
       },
       {
         question: "Was ist eine Ü-Plakette?",
         answer:
-          "Kennzeichnung am Abschottungspunkt mit Zulassungsnummer – Pflicht für Nachweis bei Abnahme und Versicherung.",
+          "Eine Kennzeichnung am Abschottungspunkt mit Zulassungsnummer – sie ist für Abnahme und Versicherung Pflicht.",
       },
       {
         question: "Wer haftet bei falscher Abschottung?",
         answer:
-          "Bauherr und ausführende Firmen – deshalb Fachbauleitung und Fotodokumentation vor Verkleidung.",
+          "Bauherr und ausführende Firmen – deshalb Fachbauleitung und Fotodokumentation vor der Verkleidung einplanen.",
       },
     ],
   },
@@ -1000,7 +1000,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "loeschwasser-hydranten-gewerbe-koeln",
     title: "Löschwasser und Hydranten für Gewerbe",
     excerpt:
-      "§ 14 BauO NRW, Grundschutz DVGW W 405, Objektschutz – Orientierung aus Campus- und Industrieprojekten.",
+      "Nach § 14 BauO NRW brauchen Gewerbegebäude eine ausreichende Löschwasserversorgung – vom öffentlichen Grundschutz nach DVGW W 405 bis zum Objektschutz auf großen Campus-Flächen. Der Ratgeber erläutert Nachweis und Abgrenzung.",
     metaTitle: "Löschwasser Hydranten Gewerbe",
     metaDescription:
       "Löschwasser Gewerbe NRW: 96 m³/h, Hydranten, Konzept. Ratgeber H&S+.",
@@ -1016,15 +1016,15 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Anforderungen nach BauO NRW",
         paragraphs: [
           "§ 14 Abs. 2 BauO NRW: ausreichende Löschwasserversorgung für wirksame Löscharbeiten. Für viele Gewerbe- und Verwaltungsgebäude reicht der öffentliche Grundschutz (orientierend DVGW W 405: z. B. mindestens 96 m³/h über 2 Stunden in erreichbarer Entfernung).",
-          "Große Industrie, Papier, Chemie oder weitläufige Campus: Objektschutz, eigene Flächenhydranten oder erhöhte Schüttungen – im Brandschutzkonzept nachweisen.",
+          "Große Industrieanlagen, Papier- oder Chemiebetriebe sowie weitläufige Campus-Flächen erfordern Objektschutz mit eigenen Flächenhydranten oder erhöhten Schüttungen – das ist im Brandschutzkonzept nachzuweisen.",
         ],
       },
       {
         id: "abgrenzung",
         title: "Grundschutz vs. Objektschutz vs. Sprinkler",
         paragraphs: [
-          "Grundschutz: öffentliches Netz für Feuerwehr-Löscharbeiten außerhalb des Gebäudes. Objektschutz: zusätzliche Versorgung auf dem Grundstück (Hydranten, Behälter, Pumpen) bei Mangel oder Risiko.",
-          "Sprinkler ersetzt den externen Löschwassernachweis nicht pauschal – im Konzept beide Ebenen klären (interne Löschwasseranlage vs. Feuerwehrversorgung).",
+          "Der **Grundschutz** nutzt das öffentliche Netz für Feuerwehr-Löscharbeiten außerhalb des Gebäudes. Der **Objektschutz** ergänzt dies auf dem Grundstück durch Hydranten, Behälter oder Pumpen, wenn die öffentliche Versorgung nicht ausreicht oder das Risiko es erfordert.",
+          "Eine Sprinkleranlage ersetzt den externen Löschwassernachweis nicht pauschal – im Konzept sind interne Löschwasseranlage und Feuerwehrversorgung getrennt zu klären.",
         ],
       },
       {
@@ -1034,10 +1034,10 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Der Löschwassernachweis gehört in das Konzept – nicht nur in die Feuerwehrkorrespondenz:",
         ],
         list: [
-          "Karte mit Hydranten, Rohrnetz, Druck/Schüttung",
-          "Abstand Gebäude zu Hydranten (oft max. ca. 150 m Wegstrecke – einzelfallabhängig)",
-          "Feuerwehrzufahrt und Aufstellflächen",
-          "Bei Mangel: technische Lösung (Löschwasserbehälter, Pumpen) oder Objektschutz",
+          "Eine Karte mit Hydranten, Rohrnetz sowie Druck und Schüttung",
+          "Den Abstand vom Gebäude zu erreichbaren Hydranten (oft maximal etwa 150 Meter Wegstrecke – einzelfallabhängig)",
+          "Feuerwehrzufahrt und ausreichende Aufstellflächen für Einsatzfahrzeuge",
+          "Bei Versorgungsmangel eine technische Lösung durch Löschwasserbehälter, Pumpen oder Objektschutz",
         ],
       },
       {
@@ -1047,9 +1047,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Orientierungswerte aus Projekten – immer einzelfallbezogen nachrechnen:",
         ],
         list: [
-          "Campus/Industrie: mehrere Hydranten im Umfeld, 96 m³/h bestätigt",
-          "Papier/Industrie: 192 m³/h über 2 h für große Brandabschnitte",
-          "Abstimmung mit Versorger und Feuerwehr dokumentieren",
+          "Auf einem Campus oder in der Industrie wurden mehrere Hydranten im Umfeld nachgewiesen – 96 m³/h bestätigt",
+          "Bei Papier- oder Industrieanlagen wurden 192 m³/h über zwei Stunden für große Brandabschnitte gefordert",
+          "Die Abstimmung mit Versorger und Feuerwehr wurde schriftlich dokumentiert",
         ],
       },
       {
@@ -1059,9 +1059,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Ohne belastbaren Nachweis stockt die Genehmigung oder die Brandschau:",
         ],
         list: [
-          "Konzept ohne Löschwassernachweis",
-          "Hydrant auf Plan, in Wirklichkeit nicht erreichbar",
-          "Nur Sprinkler, kein externer Löschwassernachweis",
+          "Das Konzept enthält keinen Löschwassernachweis",
+          "Ein Hydrant ist im Plan eingezeichnet, in Wirklichkeit aber nicht erreichbar",
+          "Es gibt nur Sprinkler, aber keinen externen Löschwassernachweis für die Feuerwehr",
         ],
       },
       {
@@ -1069,7 +1069,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Abstimmung mit Versorger und Feuerwehr",
         paragraphs: [
           "Löschwasser ist selten nur eine Berechnung im Konzept – in der Praxis braucht es Abstimmung: Versorgungsunternehmen (Druck, Durchfluss, Hydrantenlage), Feuerwehr (Erreichbarkeit, Zufahrt) und ggf. interne Sprinklerhydraulik als Ergänzung, nicht als Ersatz.",
-          "Bewährter Ablauf: Lageplan mit Hydranten → Anfrage Versorger → Ergebnis in Anhang D des Konzepts → Feuerwehr-Stellungnahme vor Einreichung. Details zur Feuerwehr-Reihenfolge: [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw). Unterlagenpaket: [Bauantrag Checkliste](/ratgeber/bauantrag-brandschutz-unterlagen-koeln).",
+          "Bewährter Ablauf: Lageplan mit Hydranten erstellen, Versorger anfragen, Ergebnis in Anhang D des Konzepts aufnehmen und Feuerwehr-Stellungnahme vor Einreichung einholen. Details zur Feuerwehr-Reihenfolge: [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw). Unterlagenpaket: [Bauantrag Checkliste](/ratgeber/bauantrag-brandschutz-unterlagen-koeln).",
         ],
       },
       {
@@ -1090,32 +1090,32 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Muss jede Halle eigene Hydranten haben?",
         answer:
-          "Nicht immer – Abhängigkeit von öffentlicher Versorgung und Risiko. Im Konzept nachweisen.",
+          "Nicht immer – es hängt von der öffentlichen Versorgung und dem Risiko ab. Im Konzept muss der Nachweis in jedem Fall erbracht werden.",
       },
       {
         question: "Was ist Grundschutz?",
         answer:
-          "Öffentliche Wasserversorgung für Feuerwehr – typisch 96 m³/h/2 h nach W 405 als Orientierung.",
+          "Der Grundschutz nutzt die öffentliche Wasserversorgung für die Feuerwehr – orientierend sind 96 m³/h über zwei Stunden nach DVGW W 405.",
       },
       {
         question: "Wer bestätigt die Versorgung?",
         answer:
-          "Wasserversorger, ggf. Feuerwehr – Aufnahme ins Brandschutzkonzept.",
+          "Der Wasserversorger und gegebenenfalls die Feuerwehr – das Ergebnis gehört ins Brandschutzkonzept.",
       },
       {
         question: "Was bedeutet 96 m³/h über 2 Stunden?",
         answer:
-          "Orientierungswert DVGW W 405 für Grundschutz – kein Ersatz für die Einzelfallprüfung bei Sonderbauten oder großen Brandabschnitten.",
+          "Das ist ein Orientierungswert aus DVGW W 405 für den Grundschutz – er ersetzt nicht die Einzelfallprüfung bei Sonderbauten oder großen Brandabschnitten.",
       },
       {
         question: "Braucht ein Büro in der Innenstadt Hydranten-Nachweis?",
         answer:
-          "Ja, wenn im Konzept oder von der Behörde gefordert – auch bei guter städtischer Infrastruktur schriftlich belegen (Karte, Versorgerbescheid).",
+          "Ja, wenn Konzept oder Behörde es verlangen – auch bei guter städtischer Infrastruktur sollte die Versorgung schriftlich belegt werden (Karte, Versorgerbescheid).",
       },
       {
         question: "Reicht ein Sprinkler für Löschwasser?",
         answer:
-          "Nein pauschal – interne Anlage und Feuerwehr-Grundschutz sind getrennt im Konzept nachzuweisen.",
+          "Nein pauschal – interne Sprinkleranlage und Feuerwehr-Grundschutz sind im Konzept getrennt nachzuweisen.",
       },
     ],
   },
@@ -1123,7 +1123,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "feuerwehrplan-fluchtplaene-pflicht-koeln",
     title: "Feuerwehrplan, FSD und Fluchtpläne: Pflicht und Abgrenzung",
     excerpt:
-      "DIN 14095 vs. ASR A2.3 vs. BauO – wann welcher Plan Pflicht ist und warum Abnahme ohne FSD scheitert.",
+      "Feuerwehrplan nach DIN 14095, Flucht- und Rettungspläne nach ASR A2.3 und das Feuerwehr-Schlüsseldepot (FSD) erfüllen unterschiedliche Zwecke – und werden bei der Abnahme oft verwechselt. Der Ratgeber ordnet Pflichten und Aktualisierung ein.",
     metaTitle: "Feuerwehrplan Fluchtplan Pflicht",
     metaDescription:
       "Feuerwehrplan DIN 14095, Fluchtplan ASR A2.3, FSD. Pflicht und Aktualisierung – H&S+.",
@@ -1138,37 +1138,37 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "drei-ebenen",
         title: "Drei Planarten – nicht verwechseln",
         paragraphs: [
-          "Ergänzt den ausführlichen Ratgeber „Pläne aktualisieren“ – Kurzüberblick:",
+          "Dieser Artikel ergänzt den ausführlichen Ratgeber [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe) – hier der Kurzüberblick über die drei Ebenen:",
         ],
         list: [
-          "BauO/Genehmigung: Rettungswege in Konzept und Grundrissen – kein ASR-Aushangplan",
-          "DIN 14095 Feuerwehrplan: für Einsatzkräfte (Zufahrt, Hydranten, BMA, Brandabschnitte)",
-          "ASR A2.3 Flucht- und Rettungsplan: für Beschäftigte/Besucher, aushängen, lagerichtig",
-          "FSD: Schlüsseldepot für Feuerwehrzugang",
-          "BSO DIN 14096: Verhalten, nicht Ersatz für Pläne",
+          "**BauO und Genehmigung:** Rettungswege im Konzept und in den Grundrissen – kein ASR-Aushangplan",
+          "**DIN 14095 Feuerwehrplan:** für Einsatzkräfte mit Zufahrt, Hydranten, BMA und Brandabschnitten",
+          "**ASR A2.3 Flucht- und Rettungsplan:** für Beschäftigte und Besucher, aushängen und lagerichtig ausrichten",
+          "**FSD (Feuerwehr-Schlüsseldepot):** Schlüsseldepot für Feuerwehrzugang im Einsatzfall",
+          "**BSO nach DIN 14096:** Regeln zum Verhalten – kein Ersatz für die Planarten oben",
         ],
       },
       {
         id: "pflicht",
         title: "Wann Pflicht?",
         paragraphs: [
-          "Feuerwehrplan/FSD: bei Sonderbauten, BMA-Aufschaltung, behördlichen Auflagen und in vielen Konzepten vorgesehen. Flucht- und Rettungspläne: ASR A2.3 wenn Lage, Größe oder Publikumsverkehr es erfordern – nicht in jedem Ein-Zimmer-Büro.",
-          "Genehmigung kann Feuerwehrpläne im BSK-Anhang verlangen; Arbeitsschutz verlangt ASR-Pläne unabhängig davon.",
+          "Feuerwehrplan und FSD sind bei Sonderbauten, BMA-Aufschaltung, behördlichen Auflagen und in vielen Konzepten vorgesehen. Flucht- und Rettungspläne nach ASR A2.3 sind nötig, wenn Lage, Größe oder Publikumsverkehr es erfordern – nicht in jedem Ein-Personen-Büro.",
+          "Die Genehmigung kann Feuerwehrpläne im BSK-Anhang verlangen; der Arbeitsschutz verlangt ASR-Pläne unabhängig davon.",
         ],
       },
       {
         id: "wann-update",
         title: "Wann aktualisieren?",
         paragraphs: [
-          "Nach Umbau, geänderter Raumaufteilung, neuer BMA, geänderten Fluchtwegen: alle betroffenen Planarten fort schreiben. In einem Abnahmefall fehlten Feuerwehrplan und FSD trotz genehmigtem Konzept – häufiger Mangel bei Teilsanierungen.",
+          "Nach Umbau, geänderter Raumaufteilung, neuer BMA oder geänderten Fluchtwegen müssen alle betroffenen Planarten fortgeschrieben werden. In einem Abnahmefall fehlten Feuerwehrplan und FSD trotz genehmigtem Konzept – ein häufiger Mangel bei Teilsanierungen.",
         ],
       },
       {
         id: "nachweise",
         title: "Was wohin gehört (Kurz)",
         paragraphs: [
-          "Genehmigung/BSK: Rettungswege, Brandabschnitte in Grundrissen. DIN 14095: Feuerwehrplan + Laufkarten + FSD-Montage. ASR A2.3: Flucht- und Rettungspläne aushängen, lagerichtig. BSO DIN 14096: Verhalten und Betrieb – ersetzt keine der Planarten.",
-          "ASR A2.2 betrifft Feuerlöscher – nicht Fluchtpläne (häufige Verwechslung).",
+          "Für **Genehmigung und BSK** gehören Rettungswege und Brandabschnitte in die Grundrisse. Nach **DIN 14095** umfassen Feuerwehrplan, Laufkarten und FSD-Montage die Einsatzunterlagen. Nach **ASR A2.3** werden Flucht- und Rettungspläne ausgehängt und lagerichtig ausgerichtet. Die **BSO nach DIN 14096** regelt Verhalten und Betrieb – sie ersetzt keine der Planarten.",
+          "ASR A2.2 betrifft Feuerlöscher – nicht Fluchtpläne, was in der Praxis häufig verwechselt wird.",
         ],
       },
       {
@@ -1178,18 +1178,18 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Die drei Planarten werden oft vermischt – typische Mängel in der Praxis:",
         ],
         list: [
-          "Nur ASR-Fluchtplan, kein Feuerwehrplan",
-          "FSD nicht montiert",
-          "Pläne widersprechen dem Konzept",
-          "Keine lagerichtige Aufhängung ASR A2.3",
+          "Es gibt nur einen ASR-Fluchtplan, aber keinen Feuerwehrplan nach DIN 14095",
+          "Das FSD ist nicht montiert, obwohl es im Konzept vorgesehen ist",
+          "Die Pläne widersprechen dem genehmigten Konzept",
+          "Flucht- und Rettungspläne hängen nicht lagerichtig nach ASR A2.3",
         ],
       },
       {
         id: "verantwortung",
         title: "Wer erstellt und aktualisiert welchen Plan?",
         paragraphs: [
-          "**Genehmigung:** Entwurfsverfasser und Brandschutzplaner – Rettungswege und Brandabschnitte in Konzept und Bauzeichnungen. **Feuerwehrplan DIN 14095:** Fachplaner/Fachfirma mit Abstimmung Feuerwehr – nicht die Behörde. **Fluchtplan ASR A2.3:** Betrieb/Arbeitsschutz, lagerichtig aushängen. **BSO DIN 14096:** Betrieb – ersetzt keine der Planarten.",
-          "Nach Umbau ist der **Betreiber** für Aktualisierung von ASR-Plänen und BSO verantwortlich; Feuerwehrplan und Konzept müssen zum genehmigten Stand passen. Vertiefung: [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe).",
+          "Für die **Genehmigung** sind Entwurfsverfasser und Brandschutzplaner zuständig – Rettungswege und Brandabschnitte gehören in Konzept und Bauzeichnungen. Den **Feuerwehrplan nach DIN 14095** erstellt eine Fachkraft oder Fachfirma in Abstimmung mit der Feuerwehr – nicht die Behörde. **Fluchtpläne nach ASR A2.3** obliegen dem Betrieb beziehungsweise Arbeitsschutz und müssen lagerichtig ausgehängt werden. Die **BSO nach DIN 14096** regelt den Betrieb – sie ersetzt keine der Planarten.",
+          "Nach einem Umbau ist der **Betreiber** für die Aktualisierung von ASR-Plänen und BSO verantwortlich; Feuerwehrplan und Konzept müssen zum genehmigten Stand passen. Vertiefung: [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe).",
         ],
       },
       {
@@ -1210,32 +1210,32 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Erstellt die Feuerwehr unsere Pläne?",
         answer:
-          "Nein. Flucht- und Rettungspläne: Betrieb/Planer. Feuerwehrpläne: Fachkraft mit Abstimmung.",
+          "Nein – Flucht- und Rettungspläne erstellt der Betrieb oder Planer. Feuerwehrpläne erstellt eine Fachkraft in Abstimmung mit der Feuerwehr.",
       },
       {
         question: "Reicht ein Fluchtplan für die Genehmigung?",
         answer:
-          "Nein. Genehmigung braucht bauordnungsrechtlichen Rettungswegnachweis – oft in Konzept/Grundrissen.",
+          "Nein – die Genehmigung braucht einen bauordnungsrechtlichen Rettungswegnachweis, der meist im Konzept und in den Grundrissen liegt.",
       },
       {
         question: "Was ist ein FSD?",
         answer:
-          "Feuerwehr-Schlüsseldepot – ermöglicht Zugang im Einsatz. Oft Konzept-Pflicht.",
+          "Das Feuerwehr-Schlüsseldepot ermöglicht der Feuerwehr Zugang im Einsatzfall – es ist in vielen Konzepten vorgesehen.",
       },
       {
         question: "Braucht ein Ein-Personen-Büro ASR-Fluchtpläne?",
         answer:
-          "ASR A2.3 abhängig von Gefährdungsbeurteilung und Besucherstrom – nicht pauschal nein. Feuerwehrplan/FSD oft trotzdem aus Konzept oder Auflage.",
+          "ASR A2.3 hängt von Gefährdungsbeurteilung und Besucherstrom ab – pauschal nein. Feuerwehrplan und FSD können dennoch aus Konzept oder Auflage verlangt sein.",
       },
       {
         question: "Was ist der Unterschied ASR A2.2 und A2.3?",
         answer:
-          "A2.2: Feuerlöscher. A2.3: Flucht- und Rettungspläne. Beide ergänzen bauordnungsrechtliche Pläne – ersetzen sie nicht.",
+          "ASR A2.2 regelt Feuerlöscher, ASR A2.3 Flucht- und Rettungspläne. Beide ergänzen bauordnungsrechtliche Pläne – sie ersetzen sie nicht.",
       },
       {
         question: "Muss ASR A2.3 zum genehmigten Konzept passen?",
         answer:
-          "Ja – Aushangpläne und genehmigte Rettungswege dürfen nicht widersprechen; Abweichungen sind Mängel bei Schau und Abnahme.",
+          "Ja – Aushangpläne und genehmigte Rettungswege dürfen nicht widersprechen. Abweichungen sind Mängel bei Schau und Abnahme.",
       },
     ],
   },
@@ -1243,7 +1243,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "praxis-umbau-brandschutz-koeln",
     title: "Bildgebungspraxis umbauen: Brandschutz",
     excerpt:
-      "MR/Kernspin, Wartezonen, Nähe Krankenhaus – Sonderbau, Konzept, § 69 Abweichungen.",
+      "Der Umbau einer Bildgebungspraxis mit MR oder CT und Wartezonen löst in der Nähe eines Krankenhauses Sonderbau-Fragen, Rettungswege und ggf. Abweichungen nach § 69 BauO NRW aus. Der Ratgeber ergänzt den Artikel zur Praxiszusammenlegung.",
     metaTitle: "Praxis Umbau Brandschutz",
     metaDescription:
       "Röntgen/MRT Praxis Umbau: Sonderbau, Konzept, Rettungswege. Ratgeber H&S+ NRW.",
@@ -1266,7 +1266,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "sonderbau",
         title: "Sonderbau und Nutzung",
         paragraphs: [
-          "Krankenhäuser sind Sonderbau. Nicht jede kleine Praxis – aber Bildgebung mit Patientenaufenthalt, Wartebereichen und Technik kann erhöhte Anforderungen und Konzeptpflicht auslösen. Nähe zum Klinikum: Abstimmung mit Krankenhausträger (Erschließung, Brandabschnitte).",
+          "Krankenhäuser sind Sonderbau. Nicht jede kleine Praxis – aber Bildgebung mit Patientenaufenthalt, Wartebereichen und Technik kann erhöhte Anforderungen und Konzeptpflicht auslösen. Liegt die Praxis in räumlicher Nähe zum Klinikum, sind Erschließung und Brandabschnitte mit dem Krankenhausträger abzustimmen.",
         ],
       },
       {
@@ -1276,26 +1276,26 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Ein Praxis-Konzept für Bildgebung oder erweiterte Nutzung umfasst typischerweise:",
         ],
         list: [
-          "Brandrisikoanalyse, Brandlasten Medizintechnik",
-          "Rettungswege, Nutzerzahl, zweiter Rettungsweg",
-          "Abweichungen § 69 BauO NRW bei Bedarf",
-          "BMA, Löschwasser, Feuerwehrpläne",
-          "Abstimmung Krankenhaus, Bauaufsicht, Feuerwehr",
+          "Brandrisikoanalyse und Brandlasten der Medizintechnik",
+          "Rettungswege, Nutzerzahl und zweiter Rettungsweg nach § 33 BauO NRW",
+          "Abweichungen nach § 69 BauO NRW, wenn bauliche Lösungen von der Norm abweichen",
+          "Brandmeldeanlage (BMA), Löschwasser und Feuerwehrpläne",
+          "Abstimmung mit Krankenhausträger, Bauaufsicht und Feuerwehr",
         ],
       },
       {
         id: "abgrenzung",
         title: "Umbau vs. Zusammenlegung",
         paragraphs: [
-          "Zusammenlegung zwei Praxen ohne neue Technik: oft Stellungnahme zum Bestand. Umbau mit MR/CT: meist vollständiges BSK. Nicht verwechseln.",
+          "Die Zusammenlegung zweier Praxen ohne neue Technik erfordert oft nur eine Stellungnahme zum Bestand. Ein Umbau mit MR oder CT braucht in der Regel ein vollständiges Brandschutzkonzept (BSK) – beides darf nicht verwechselt werden.",
         ],
       },
       {
         id: "nachweise",
         title: "Unterlagen für Genehmigung und Betrieb",
         paragraphs: [
-          "Typisches Paket: Brandschutzkonzept mit Brandlasten Medizintechnik, Rettungswege, ggf. § 69-Abweichungen, BMA/Löschwasser, Feuerwehrplan, Abstimmung mit Krankenhausträger bei gemeinsamer Erschließung.",
-          "Nach Eröffnung: ASR A2.3-Pläne, BSO, Unterweisung – getrennt vom bauordnungsrechtlichen Nachweis.",
+          "Typisches Paket für Genehmigung und Betrieb: Brandschutzkonzept mit Brandlasten der Medizintechnik, Rettungswegen und ggf. § 69-Abweichungen, BMA und Löschwasser, Feuerwehrplan sowie Abstimmung mit dem Krankenhausträger bei gemeinsamer Erschließung.",
+          "Nach Eröffnung kommen ASR A2.3-Pläne, BSO und Unterweisung hinzu – getrennt vom bauordnungsrechtlichen Nachweis.",
         ],
       },
       {
@@ -1330,32 +1330,32 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Ist jede Praxis ein Sonderbau?",
         answer:
-          "Nicht jede – Krankenhäuser ja. Bildgebungspraxis: Einzelfall nach Größe, Patienten, Technik.",
+          "Nicht jede Praxis ist Sonderbau – Krankenhäuser schon. Eine Bildgebungspraxis wird einzelfallbezogen nach Größe, Patientenzahl und Technik eingeordnet.",
       },
       {
         question: "Brauche ich Abweichungen?",
         answer:
-          "§ 69 BauO NRW wenn bauliche Lösung von Norm abweicht – im Konzept begründen.",
+          "§ 69 BauO NRW greift, wenn die bauliche Lösung von der Norm abweicht – die Begründung gehört ins Konzept.",
       },
       {
         question: "Muss das Krankenhaus mit einbinden?",
         answer:
-          "Bei räumlicher Nähe und gemeinsamer Erschließung fachlich und organisatorisch sinnvoll.",
+          "Bei räumlicher Nähe und gemeinsamer Erschließung ist fachliche und organisatorische Abstimmung mit dem Krankenhausträger sinnvoll.",
       },
       {
         question: "Braucht Bildgebung immer BMA?",
         answer:
-          "Nicht pauschal – abhängig von Konzept, Nutzerzahl und Versicherer. Oft BMA oder strengere Überwachung bei erhöhtem Risiko.",
+          "Nicht pauschal – es hängt von Konzept, Nutzerzahl und Versicherer ab. Bei erhöhtem Risiko sind BMA oder strengere Überwachung oft vorgesehen.",
       },
       {
         question: "Was ist mit Wartezonen?",
         answer:
-          "Aufenthaltsräume zählen für Rettungswege und Nutzerzahl – Wartebereich im Umbau mit einplanen.",
+          "Aufenthaltsräume zählen für Rettungswege und Nutzerzahl – der Wartebereich muss im Umbau-Konzept mit eingeplant werden.",
       },
       {
         question: "Wann reicht eine brandschutztechnische Stellungnahme statt BSK?",
         answer:
-          "Bei klar abgegrenzten kleinen Umbauten ohne neue Großtechnik – Bildgebung mit MR/CT meist vollständiges Konzept.",
+          "Bei klar abgegrenzten kleinen Umbauten ohne neue Großtechnik kann eine Stellungnahme reichen. Bildgebung mit MR oder CT erfordert in der Regel ein vollständiges Konzept.",
       },
     ],
   },
@@ -1363,7 +1363,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "technische-betriebsgebaeude-brandschutz-nrw",
     title: "Technische Betriebsgebäude: Brandschutz",
     excerpt:
-      "Netzersatzanlage, Trafostation, Diesel: Gebäudeklasse, Sonderbau, feuerbeständige Trennung und Löschwasser in NRW – mit Praxisfall.",
+      "Netzersatzanlagen, Trafostationen und Diesel-Vorratsbehälter in technischen Betriebsgebäuden lösen in NRW oft Sonderbau-Anforderungen aus – trotz niedriger Gebäudeklasse. Der Ratgeber erläutert Konzept, feuerbeständige Trennung und Löschwasser anhand eines Praxisfalls.",
     metaTitle: "Technische Betriebsgebäude Brandschutz | NRW | H&S+",
     metaDescription:
       "Brandschutz für NEA, Trafostation und Technikgebäude in NRW: Konzept, Löschwasser, Diesel. Ratgeber H&S+.",
@@ -1552,13 +1552,13 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Typische Reihenfolge in der Praxis – nicht Gesetz, aber bewährt, um Widersprüche zu vermeiden:",
         ],
         list: [
-          "Vorab: Feuerwehr-Abstimmung bei zweitem Rettungsweg, Löschwasser oder Sonderbau – siehe [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw)",
-          "Erstellung des brandschutztechnischen Nachweises (Konzept oder Stellungnahme) auf Basis der Architekturpläne",
-          "Interner Abgleich: Konzept, Pläne, Betriebsbeschreibung, Löschwasser – ein Planstand, ein Datum",
-          "Einreichung Bauantrag inkl. § 7-Erklärung und Fachbeteiligungen (elektronisch über das Portal der zuständigen Bauaufsicht)",
-          "Prüfung Bauaufsicht, ggf. Beteiligung Feuerwehr und weiterer Stellen",
-          "Zwischenbescheid bei Lücken – Frist zur Nachreichung, Verfahren ruht bis zur Vollständigkeit",
-          "Genehmigung mit Auflagen oder Versagung bei nicht behebbaren Mängeln",
+          "Vorab die Feuerwehr abstimmen, wenn zweiter Rettungsweg, Löschwasser oder Sonderbau relevant sind – siehe [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw)",
+          "Den brandschutztechnischen Nachweis (Konzept oder Stellungnahme) auf Basis der Architekturpläne erstellen",
+          "Konzept, Pläne, Betriebsbeschreibung und Löschwasser intern auf einen einheitlichen Planstand und ein Datum abstimmen",
+          "Den Bauantrag inklusive § 7-Erklärung und Fachbeteiligungen elektronisch über das Portal der zuständigen Bauaufsicht einreichen",
+          "Die Bauaufsicht prüft den Antrag und beteiligt gegebenenfalls Feuerwehr und weitere Stellen",
+          "Bei Lücken erfolgt ein Zwischenbescheid mit Frist zur Nachreichung – das Verfahren ruht bis zur Vollständigkeit",
+          "Abschluss durch Genehmigung mit Auflagen oder Versagung bei nicht behebbaren Mängeln",
         ],
       },
       {
@@ -1566,7 +1566,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         title: "Praxis: Zwischenbescheid vermeiden",
         paragraphs: [
           "Anonymisierter Musterfall aus Genehmigungspraxis: Umbau eines Gewerberaums im 2. OG (ca. 180 m²) zu Lagernutzung mit getrenntem Büro. Das Konzept beschrieb Rettungswege über das Treppenhaus; in den Architekturplänen fehlte jedoch die T30-RS-Kennzeichnung zur notwendigen Treppe, und der Löschwassernachweis bezog sich auf ein benachbartes Grundstück ohne Hydrantenplan im Paket. Ergebnis: Zwischenbescheid mit vier Wochen Frist – Planstand musste angeglichen, Hydrantenlage nachgewiesen und die Feuerwehr-Stellungnahme als Anhang A nachgereicht werden.",
-          "Typische Nachforderungen unabhängig vom Objekt: fehlender Löschwassernachweis, widersprüchliche Rettungswegführung zwischen Konzept und Plan, Betriebsbeschreibung ohne Personenzahlen, fehlende Geschosse oder Schnitte in den Brandschutzplänen, Feuerwehr erst nach Einreichung konsultiert. Mehr zu Fristen und Nachreichung: [Zwischenbescheid Brandschutz](/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln).",
+          "Unabhängig vom Objekt führen häufig fehlender Löschwassernachweis, widersprüchliche Rettungswegführung zwischen Konzept und Plan, Betriebsbeschreibungen ohne Personenzahlen, fehlende Geschosse oder Schnitte in den Brandschutzplänen sowie eine Feuerwehr-Konsultation erst nach Einreichung zu Nachforderungen. Mehr zu Fristen und Nachreichung: [Zwischenbescheid Brandschutz](/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln).",
         ],
       },
       {
@@ -1631,6 +1631,199 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         question: "Was muss in der Betriebsbeschreibung stehen?",
         answer:
           "Nutzungsart, Personenzahlen (maximal und typisch), Öffnungszeiten, Gefahrstoffe, betriebliche Abläufe – Grundlage für Sonderbau-Einordnung und Brandschutzkonzept. Fehlende Personenzahlen führen regelmäßig zu Nachforderungen, weil Rettungswege und Brandabschnitte davon abhängen.",
+      },
+    ],
+  },
+  {
+    slug: "bestellung-brandschutzbeauftragter-nrw",
+    title: "Brandschutzbeauftragten bestellen: Pflicht, Schreiben und Rahmenbedingungen",
+    excerpt:
+      "Wann ein Brandschutzbeauftragter (BSB) nötig ist, wie die schriftliche Bestellung aussehen muss und welche Rechte Arbeitgeber und Beauftragter regeln – nach DGUV Information 205-003, ASR A2.2 und baurechtlichen Auflagen in NRW.",
+    metaTitle: "Brandschutzbeauftragter bestellen | NRW | H&S+",
+    metaDescription:
+      "Brandschutzbeauftragten schriftlich bestellen: Pflicht bei Sonderbau & ASR A2.2, Rahmenbedingungen, externe BSB, Mitteilung Behörde. Ratgeber H&S+ NRW.",
+    keywords: [
+      "Brandschutzbeauftragter bestellen",
+      "Bestellung Brandschutzbeauftragter",
+      "Brandschutzbeauftragter Pflicht",
+      "DGUV 205-003",
+      "ASR A2.2 Brandschutzbeauftragter",
+      "externer Brandschutzbeauftragter",
+    ],
+    sections: [
+      {
+        id: "wann-noetig",
+        title: "Wann ist ein Brandschutzbeauftragter nötig?",
+        paragraphs: [
+          "Ein **Brandschutzbeauftragter (BSB)** berät den Unternehmer bei der betrieblichen Brandschutzorganisation – er ersetzt weder den Arbeitgeber noch die brandschutztechnische Genehmigung. Ob Sie einen BSB brauchen, ergibt sich aus mehreren Ebenen, die Sie getrennt prüfen sollten.",
+          "**Baurecht in NRW:** Bei **Sonderbauten** nach § 50 BauO NRW (z. B. Versammlungsstätten, große Gastronomie, Verkaufsstätten, Hochhäuser, Industrie mit Stoffgefahr) kann ein BSB im **Brandschutzkonzept** oder in der **Baugenehmigung** als Auflage stehen. Dann ist die Bestellung verbindlich – unabhängig von der Gebäudeklasse.",
+          "**Arbeitsschutz:** Nach **Arbeitsstättenverordnung (ArbStättV)** und **ASR A2.2 „Maßnahmen gegen Brände“** ermitteln Sie in der **Gefährdungsbeurteilung**, ob die Brandgefährdung im Betrieb die Benennung eines BSB erfordert. Die DGUV Information 205-003 beschreibt die Vorgehensweise (Kapitel 1.2). Zwingend nur baurechtlich – arbeitsschutzrechtlich kann bei erhöhter Gefährdung die Bestellung trotzdem geboten sein.",
+          "**Vertraglich:** Versicherer, Kunden oder Lieferanten können einen BSB vertraglich verlangen – auch ohne behördliche Auflage. Das ist unabhängig von Sonderbau und ASR, aber in der Praxis häufig der Auslöser in kleineren Gewerbebetrieben.",
+        ],
+      },
+      {
+        id: "abgrenzung-rollen",
+        title: "BSB, Brandschutzhelfer, extern – wer macht was?",
+        paragraphs: [
+          "Im Betrieb werden Rollen oft vermischt – für Nachweise und Kontrollen ist die Trennung wichtig:",
+        ],
+        list: [
+          "**Brandschutzbeauftragter (BSB):** beratend und organisatorisch – Begehungen, Gefährdungsbeurteilung Brandschutz, Fortschreibung BSO und Pläne, Schnittstelle Behörde/Versicherer, Unterweisungskonzept. Keine Weisungsbefugnis gegenüber der Geschäftsführung, aber fachliche Weisungsfreiheit bei der brandschutztechnischen Beratung.",
+          "**Brandschutzhelfer (BSH):** nach ASR A2.2 ausgebildete Beschäftigte für Erstbekämpfung und Evakuierung – ergänzen den BSB, ersetzen ihn nicht.",
+          "**Externer BSB:** wird vertraglich beauftragt, wenn keine qualifizierten eigenen Kräfte verfügbar sind (siehe Abschnitt extern). Qualifikation nach DGUV 205-003 Kapitel 4 und 5.",
+          "**Brandschutzplaner / Sachverständiger:** erstellt Konzept, Stellungnahme oder Abnahme – andere Aufgabe als laufende Betriebsorganisation durch den BSB.",
+        ],
+      },
+      {
+        id: "schriftliche-bestellung",
+        title: "Schriftliche Bestellung und Aufgabenübertragung",
+        paragraphs: [
+          "Die Bestellung muss **schriftlich** durch den Unternehmer oder die Unternehmerin erfolgen – mündliche Absprachen reichen für Nachweise bei Behörde, Versicherer und Betriebsprüfung nicht. Dabei sind **Betriebsverfassungsgesetz (BetrVG)** bzw. **Personalvertretungsgesetz** zu beachten: Betriebs- oder Personalrat früh einbinden, wenn die Bestellung betriebliche Regelungen berührt.",
+          "Das Bestellungsschreiben muss mindestens festlegen:",
+        ],
+        list: [
+          "**Zuständigkeitsbereich** – welche Standorte, Gebäude, Bereiche oder Nutzungen der BSB betreut",
+          "**Aufgaben** – konkret übertragene Tätigkeiten (Begehungen, Unterweisungen, BSO, Pläne, Mängelverfolgung) – Orientierung an DGUV 205-003 Kapitel 3",
+          "**Rahmenbedingungen** – Arbeitszeit/Freistellung, Zugang zu Informationen, Zutrittsrechte, Fortbildung, Ansprechpartner in der Leitung",
+          "**Datum und Unterschriften** – Arbeitgeber und Beauftragter; Änderungen der Aufgaben ebenfalls schriftlich bestätigen",
+        ],
+      },
+      {
+        id: "muster-einweisung",
+        title: "Muster, Einweisung und Änderungen",
+        paragraphs: [
+          "Die DGUV Information 205-003 enthält in **Anlage 1** ein Musterbestellungsschreiben. Nutzen Sie es als Vorlage, passen Sie Aufgaben und Zuständigkeiten aber an Ihren Betrieb an – pauschale Formulierungen ohne Bezug zum Objekt halten Behördenprüfungen nicht stand.",
+          "Zur Bestellung gehört die **Einweisung in die betrieblichen Gegebenheiten**: Gebäudestruktur, Genehmigungen, Konzept, Brandmeldeanlage (BMA), Fluchtwege, Besonderheiten der Nutzung. Ohne Einweisung kann der BSB seine Aufgaben nicht wirksam erfüllen. Jede spätere Änderung der Aufgaben ist ebenfalls schriftlich festzuhalten und von beiden Seiten zu bestätigen.",
+        ],
+      },
+      {
+        id: "rahmenbedingungen",
+        title: "Rechte, Freistellung und Fortbildung",
+        paragraphs: [
+          "Damit der BSB wirksam arbeiten kann, muss der Arbeitgeber mehr als den Namen auf dem Schreiben liefern:",
+        ],
+        list: [
+          "**Zutritt und Information:** uneingeschränkter Zugang zu allen brandschutzrelevanten Gebäuden, Räumen und Unterlagen (Konzept, Genehmigungen, Prüfprotokolle, BSO, Pläne)",
+          "**Arbeitszeit:** ausreichende Freistellung für die übertragenen Aufgaben – keine „Nebenbeschäftigung ohne Stunden“; Umfang hängt von Betriebsgröße, Sonderbau und Auflagen ab",
+          "**Arbeitsmittel:** Zugang zu Dokumentation, Checklisten, ggf. Mess- oder Prüfhilfen; bei externen BSB vertraglich festgehaltene Erreichbarkeit",
+          "**Fortbildung:** der Arbeitgeber ermöglicht regelmäßige Fortbildung nach DGUV 205-003 Kapitel 8 – Brandschutzrecht, Technik und Betrieb entwickeln sich weiter",
+          "**Weisungsfreiheit:** bei fachlicher Beratung weisungsfrei; keine Benachteiligung wegen BSB-Tätigkeit",
+        ],
+      },
+      {
+        id: "jahresbericht",
+        title: "Jahresbericht und Dokumentation",
+        paragraphs: [
+          "Der BSB erstellt mindestens **jährlich einen Bericht** über den Bearbeitungsstand der übertragenen Aufgaben (DGUV 205-003). Der Arbeitgeber fordert diesen Bericht ein und prüft offene Maßnahmen – die Dokumentation ist bei Versicherung, Brandschau und Arbeitsschutzprüfung oft die erste Anlaufstelle.",
+        ],
+      },
+      {
+        id: "extern",
+        title: "Externe Brandschutzbeauftragte beauftragen",
+        paragraphs: [
+          "Stehen im Betrieb keine eigenen, qualifizierten Kräfte zur Verfügung oder ist eine Aus- und Fortbildung zum BSB nicht wirtschaftlich, wird ein **externer Brandschutzbeauftragter** vertraglich beauftragt. Das ist in NRW bei KMU, Gastronomie, Praxen und Sonderbauten die Regel – nicht die Ausnahme.",
+          "Voraussetzungen nach DGUV 205-003:",
+        ],
+        list: [
+          "Nachweis der **Qualifikation** nach Kapitel 4 (Person) und Ausbildung nach Kapitel 5 (Einrichtung) der DGUV Information 205-003",
+          "**Integration** in die betriebliche Brandschutzorganisation: Ansprechpartner, Eskalation, Beteiligung an Investitionen, Umbauten und Prozessänderungen",
+          "**Vertragliche Festlegung** von Zuständigkeiten, Schnittstellen (Arbeitsschutz, Facility, TGA), Reaktionszeiten und Berichtswesen",
+          "**Kurzfristige Erreichbarkeit** bei behördlichen Fristen, Mängeln aus Brandschau oder Versicherungsanforderungen",
+        ],
+      },
+      {
+        id: "extern-abgrenzung",
+        title: "Was der externe BSB nicht ersetzt",
+        paragraphs: [
+          "Der externe BSB ersetzt nicht die Pflichten des Arbeitgebers – er unterstützt und berät. Genehmigungsverfahren, Konzepterstellung oder BMA-Abnahme bleiben bei Planern und Sachverständigen; der BSB sorgt dafür, dass der **Betrieb** zum genehmigten Stand passt. Mehr zur Leistung: [Brandschutzbeauftragter Köln](/brandschutzbeauftragter-koeln).",
+        ],
+      },
+      {
+        id: "behoerde",
+        title: "Mitteilung an die Genehmigungsbehörde",
+        paragraphs: [
+          "Ist die Bestellung eines BSB **gesetzlich oder behördlich vorgeschrieben** – typisch als Auflage im Brandschutzkonzept oder in der Baugenehmigung – müssen **Name und personelle Änderungen** der zuständigen **Genehmigungsbehörde** (in Köln: untere Bauaufsichtsbehörde bzw. Brandschutzdienststelle) auf Verlangen mitgeteilt werden.",
+          "Das betrifft nicht jeden Betrieb mit freiwilligem BSB aus der Gefährdungsbeurteilung. Es gilt, wenn die Bestellung **Auflage aus dem Genehmigungsverfahren** ist. Dokumentieren Sie: Bestellungsschreiben, Qualifikationsnachweis, Einweisungsprotokoll und Jahresbericht – dann ist die Mitteilung auf Anfrage schnell möglich.",
+          "Bei Sonderbauten und nach Umbau ohne aktualisierte BSO oder Pläne scheitert die Nachweisführung oft trotz bestelltem BSB – siehe [Brandschutzordnung und Pläne](/ratgeber/escape-room-brandschutzordnung-fluchtplan) und [Brandschau](/ratgeber/brandschau-koeln-feuerwehr).",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Sonderbau mit BSB-Auflage nach Eröffnung",
+        paragraphs: [
+          "Typischer Ablauf in NRW: Ein besucherintensiver Betrieb (Gastronomie, Escape Room, Studio) erhält die Baugenehmigung mit Brandschutzkonzept. Im Konzept oder in den Auflagen steht: Bestellung eines Brandschutzbeauftragten, Erstellung der **Brandschutzordnung (BSO)** nach DIN 14096, Flucht- und Feuerwehrpläne, Unterweisungen.",
+          "Nach Eröffnung reicht es nicht, „irgendjemand aus dem Team“ zu benennen. Vorgehen, das in der Praxis funktioniert: schriftliche Bestellung (intern oder extern) mit Zuständigkeit für alle Standorte, Einweisung mit Konzept und Plänen, BSO Teil A bis C und ASR-Fluchtpläne auf Ist-Stand bringen, Brandschutzhelfer nach ASR A2.2 benennen und schulen, ersten Jahresbericht terminieren.",
+          "Häufiger Fehler: BSB bestellt, aber ohne Freistellung und ohne Zugang zu Genehmigungsunterlagen – dann scheitert die Betreuung bei der ersten Brandschau. Zweiter Fehler: externer BSB ohne Vertrag zu Umbauten – nach Trockenbau oder Nutzungsänderung sind BSO und Pläne veraltet, obwohl der Name auf der Behördenliste stimmt.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor der Bestellung",
+        paragraphs: [
+          "Bevor Sie das Bestellungsschreiben unterschreiben, sollten Sie diese Fragen mit Ja beantworten können:",
+        ],
+        list: [
+          "Ist geklärt, **ob** ein BSB Pflicht ist (Konzept-Auflage, § 50, ASR A2.2-Gefährdungsbeurteilung, Vertrag)?",
+          "Sind **Zuständigkeitsbereich, Aufgaben und Rahmenbedingungen** schriftlich definiert – nicht nur der Titel „Brandschutzbeauftragter“?",
+          "Ist **Qualifikation** nachgewiesen (intern: Fortbildung; extern: DGUV 205-003-konforme Ausbildung)?",
+          "Sind **Einweisung**, Zutrittsrechte und **Freistellung** terminiert?",
+          "Gibt es eine Regelung zu **BSO, Plänen, BSH** und Schnittstelle zur [Brandschau](/ratgeber/brandschau-koeln-feuerwehr)?",
+          "Bei behördlicher Auflage: **Mitteilung** an Genehmigungsbehörde vorbereitet?",
+        ],
+      },
+      {
+        id: "hinweis",
+        title: "Grenzen",
+        paragraphs: [
+          "Dieser Ratgeber orientiert sich an DGUV Information 205-003, ASR A2.2 und baurechtlicher Praxis in NRW. Er ersetzt keine Rechtsberatung, keine behördliche Einzelfestlegung und kein Bestellungsschreiben im Einzelfall. Verbindlich sind Ihre Gefährdungsbeurteilung, Genehmigungsauflagen und der Wortlaut der DGUV Information.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/brandschutzbeauftragter-koeln", label: "Externer Brandschutzbeauftragter" },
+      { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung erstellen" },
+      { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer Ausbildung" },
+      { href: "/ratgeber/escape-room-brandschutzordnung-fluchtplan", label: "BSO & Pläne im Betrieb" },
+      { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50 BauO NRW" },
+      { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
+      { href: "/ratgeber/feuerloescher-gastronomie-koeln", label: "Feuerlöscher ASR A2.2" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
+    ],
+    faq: [
+      {
+        question: "Muss jedes Unternehmen einen Brandschutzbeauftragten bestellen?",
+        answer:
+          "Nein pauschal. Zwingend, wenn es baurechtlich in Konzept oder Baugenehmigung steht oder vertraglich verlangt wird. Arbeitsschutzrechtlich hängt es von der Gefährdungsbeurteilung nach ASR A2.2 ab – bei erhöhter Brandgefährdung ist die Bestellung in der Regel geboten.",
+      },
+      {
+        question: "Reicht eine E-Mail-Bestellung?",
+        answer:
+          "Nein. DGUV Information 205-003 verlangt eine schriftliche Bestellung mit definiertem Zuständigkeitsbereich, Aufgaben und Rahmenbedingungen. E-Mail kann Ergänzungen dokumentieren, ersetzt aber nicht das Bestellungsschreiben mit Unterschrift.",
+      },
+      {
+        question: "Was ist der Unterschied zwischen BSB und Brandschutzhelfer?",
+        answer:
+          "Der BSB organisiert und berät den betrieblichen Brandschutz (Begehungen, BSO, Pläne, Unterweisungskonzept). Brandschutzhelfer sind ausgebildete Beschäftigte für Erstbekämpfung und Evakuierung nach ASR A2.2 – sie arbeiten unter der Brandschutzorganisation, meist koordiniert durch den BSB.",
+      },
+      {
+        question: "Kann der Brandschutzplaner gleichzeitig BSB sein?",
+        answer:
+          "Möglich, wenn Qualifikation und Unabhängigkeit geklärt sind. Konzeptautor und BSB in einer Person kann bei Behördenprüfungen Nachfragen auslösen; getrennte Rollen oder transparente Vereinbarung im Bestellungsschreiben erhöhen die Nachvollziehbarkeit.",
+      },
+      {
+        question: "Wann muss die Behörde den BSB-Namen kennen?",
+        answer:
+          "Wenn die Bestellung gesetzliche oder behördliche Pflicht aus dem Genehmigungsverfahren ist – dann Name und Wechsel auf Verlangen mitteilen. Bei freiwilliger Bestellung aus der Gefährdungsbeurteilung ohne Auflage reicht interne Dokumentation, sofern nichts anderes verlangt wird.",
+      },
+      {
+        question: "Welche Qualifikation braucht ein externer BSB?",
+        answer:
+          "Ausbildung und Personenauswahl nach DGUV Information 205-003 Kapitel 4 und 5 – kompetenzorientiert, nicht nur ein Tagesseminar. H&S+ weist Qualifikation im Vertrag und auf Anfrage gegenüber Behörde und Versicherer nach.",
+      },
+      {
+        question: "Ersetzt der BSB ein Brandschutzkonzept?",
+        answer:
+          "Nein. Das Konzept belegt die bauliche und anlagentechnische Genehmigungsfähigkeit (BauO NRW, § 9 BauPrüfVO NRW). Der BSB sorgt im laufenden Betrieb dafür, dass BSO, Pläne, Unterweisungen und Ist-Zustand zum genehmigten Stand passen. Einordnung: [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig).",
       },
     ],
   },

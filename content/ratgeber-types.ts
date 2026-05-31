@@ -12,6 +12,8 @@ export type RatgeberArticle = {
   metaTitle: string;
   metaDescription: string;
   keywords: string[];
+  /** ISO-Datum (YYYY-MM-DD) für Artikel-Stand und Schema.org datePublished. */
+  publishedAt?: string;
   sections: RatgeberSection[];
   relatedLinks: { href: string; label: string }[];
   faq: { question: string; answer: string }[];

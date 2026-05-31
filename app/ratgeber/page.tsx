@@ -4,6 +4,7 @@ import { createPageMetadata } from "@/lib/seo";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { PageGeoJsonLd } from "@/components/seo/PageGeoJsonLd";
 import { RATGEBER_ARTICLES } from "@/content/ratgeber";
+import { formatRatgeberStandLabel } from "@/lib/ratgeber-article-meta";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { siteUrl } from "@/lib/seo";
@@ -28,6 +29,10 @@ const linkClass =
   "text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red";
 
 export default function RatgeberPage() {
+  const articlesByDate = [...RATGEBER_ARTICLES].sort((a, b) =>
+    (b.publishedAt ?? "").localeCompare(a.publishedAt ?? ""),
+  );
+
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -81,10 +86,11 @@ export default function RatgeberPage() {
             subtitle={`${RATGEBER_ARTICLES.length} Artikel zu BauO NRW und Praxisfällen – regelmäßig erweitert.`}
           />
           <ul className="mt-8 space-y-4" role="list">
-            {RATGEBER_ARTICLES.map((article) => (
+            {articlesByDate.map((article) => (
               <li key={article.slug}>
                 <article className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                  <h2 className="text-lg font-semibold text-stone-900">
+                  <p className="text-sm text-stone-500">{formatRatgeberStandLabel(article.publishedAt)}</p>
+                  <h2 className="mt-1 text-lg font-semibold text-stone-900">
                     <Link href={`/ratgeber/${article.slug}`} className={linkClass}>
                       {article.title}
                     </Link>

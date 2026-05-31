@@ -70,7 +70,11 @@ export default function BrandschutzbeauftragterKoelnPage() {
             <Link href="/brandschutzhelfer-ausbildung-koeln" className="text-brand-red font-medium hover:underline">
               Brandschutzhelfer-Schulungen
             </Link>
-            . Ratgeber:{" "}
+            .             Ratgeber:{" "}
+            <Link href="/ratgeber/bestellung-brandschutzbeauftragter-nrw" className="text-brand-red font-medium hover:underline">
+              BSB bestellen
+            </Link>
+            ,{" "}
             <Link href="/ratgeber/umbau-nutzungsaenderung-brandschutz" className="text-brand-red font-medium hover:underline">
               Brandschutz bei Umbau
             </Link>

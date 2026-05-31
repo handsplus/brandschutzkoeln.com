@@ -5,7 +5,7 @@ import { getClusterLabel, getClusterPeerSlugs } from "@/content/ratgeber-cluster
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { SeoLandingLinks } from "@/components/sections/SeoLandingLinks";
-import { RATGEBER_EDITORIAL } from "@/lib/ratgeber-article-meta";
+import { formatRatgeberStandLabel, RATGEBER_EDITORIAL } from "@/lib/ratgeber-article-meta";
 import { renderRatgeberText } from "@/lib/ratgeber-text";
 import { cn } from "@/lib/utils";
 
@@ -33,7 +33,7 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
             <span className="mx-2 text-stone-300" aria-hidden>
               ·
             </span>
-            {RATGEBER_EDITORIAL.standLabel}
+            {formatRatgeberStandLabel(article.publishedAt)}
           </p>
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
             {article.title}
