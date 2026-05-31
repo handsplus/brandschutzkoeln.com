@@ -12,10 +12,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
     slug: "gebaeudeklassen-brandschutz-bauo-nrw",
     title: "Gebäudeklassen und Brandschutz nach BauO NRW",
     excerpt:
-      "GK 1 bis 5: Nutzungseinheiten, OKF, Feuerwiderstand F30–F90 nach Anlage 1, Brandabschnitte und Rettungswege – mit Praxisbezug für Genehmigungsverfahren.",
+      "GK 1 bis 5: Nutzungseinheiten, OKF, feuerhemmend bis feuerbeständig (F 30–F 90 nach § 27 BauO NRW), Brandabschnitte und Rettungswege – mit Praxisbezug für Genehmigungsverfahren.",
     metaTitle: "Gebäudeklassen NRW | Brandschutz BauO | H&S+",
     metaDescription:
-      "Gebäudeklassen 1–5 BauO NRW: NE, OKF, §§ 27–33, F30–F90, GK vs. Sonderbau. Praxisratgeber H&S+.",
+      "Gebäudeklassen 1–5 BauO NRW: NE, OKF, §§ 27–33, feuerhemmend/feuerbeständig, GK vs. Sonderbau. Praxisratgeber H&S+.",
     keywords: [
       "Gebäudeklassen NRW",
       "Gebäudeklasse Brandschutz",
@@ -73,16 +73,16 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Feuerwiderstand nach Gebäudeklasse (§ 27 BauO NRW)",
         paragraphs: [
           "Die Mindest-Feuerwiderstandsklassen für tragende und aussteifende Bauteile ergeben sich aus der GK über Anlage 1 BauO NRW. Üblich in der Praxis:",
-          "F 30 (feuerhemmend, 30 Minuten): innere Trennwände, viele nichttragende Bauteile, Brandschutztüren T30-RS in GK 1–3.",
-          "F 60 (hochfeuerhemmend): häufig tragende Bauteile in GK 4.",
-          "F 90 (feuerbeständig): tragende Wände, Stützen, Decken und Brandwände in GK 5; auch Brandwände unter mechanischer Beanspruchung.",
+          "**Feuerhemmend** (Feuerwiderstandsklasse F 30): innere Trennwände, viele nichttragende Bauteile, Brandschutztüren und Rauchschutztüren T30-RS in GK 1–3.",
+          "**Hochfeuerhemmend** (F 60): häufig tragende Bauteile in GK 4.",
+          "**Feuerbeständig** (F 90): tragende Wände, Stützen, Decken und Brandwände in GK 5; auch Brandwände unter mechanischer Beanspruchung.",
           "Die genaue Zuordnung hängt vom Bauteil ab (Innenwand, Außenwand, Decke, Dach, Brandwand) – die Tabelle in Anlage 1 ist maßgeblich, nicht pauschale Merksätze.",
         ],
         list: [
           "GK 1 / 2: überwiegend feuerhemmende Innenbauteile; bei GK 2 stärkere Trennung zwischen den beiden NE (Nachbar-Schutz)",
-          "GK 3: feuerhemmend im Inneren, an Brandwänden und tragenden Stellen oft F 90",
-          "GK 4: tragendes Skelett oft F 60, Brandwände und kritische Außenbauteile F 90",
-          "GK 5: tragend und aussteifend in der Regel durchgängig F 90; Brandabschnittswände und -decken entsprechend hoch",
+          "GK 3: feuerhemmend im Inneren, an Brandwänden und tragenden Stellen oft feuerbeständig (F 90)",
+          "GK 4: tragendes Skelett oft hochfeuerhemmend (F 60), Brandwände und kritische Außenbauteile feuerbeständig (F 90)",
+          "GK 5: tragend und aussteifend in der Regel durchgängig feuerbeständig (F 90); Brandabschnittswände und -decken entsprechend hoch",
         ],
       },
       {
@@ -91,7 +91,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         paragraphs: [
           "Brandabschnitte (§ 30 BauO NRW) teilen Gebäude so, dass Feuer in einem Abschnitt begrenzt bleibt – mit Brandwänden, feuerhemmenden oder feuerbeständigen Trennwänden und abschließenden Bauteilen. Die Gebäudeklasse legt die Mindestanforderungen fest; die Abschnittsbildung ist die konkrete Planung im Grundriss.",
           "Rauchübertragung wird gesondert begrenzt: über Rauchabschnitte bzw. rauchabschnittsbildende Bauteile – in der Praxis vor allem Rauchschutztüren und -abschlüsse (z. B. T30-RS) in notwendigen Fluren und Treppenräumen. Ein baurechtlicher Begriff „Rauchwand“ existiert nicht; gemeint sind Brandabschnitte, Rauchabschnitte oder rauchdichte Türen.",
-          "Brandschutzabschlüsse müssen selbstschließend sein, die Feuerwiderstandsklasse (T30, T90) und den Rauchschutz (RS) ausweisen. Offenstehende oder aufgekeilte Türen sind der häufigste Begehungsmangel.",
+          "Brandschutzabschlüsse müssen selbstschließend sein und Feuerwiderstand sowie Rauchschutz ausweisen – feuerhemmend (T30) oder feuerbeständig (T90) je nach Lage, mit Rauchschutz (RS) z. B. T30-RS. Offenstehende oder aufgekeilte Türen sind der häufigste Begehungsmangel.",
           "Durchführungen für Kabel, Rohre und Lüftungskanäle durch feuerhemmende oder feuerbeständige Bauteile sind nach § 32 BauO NRW mit zugelassenen Abschottungen (System mit allgemeiner bauaufsichtlicher Zulassung) zu verschließen – jede nachträgliche Bohrung ist eine dokumentierte brandschutztechnische Änderung.",
         ],
       },
@@ -118,7 +118,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         paragraphs: [
           "Geschäftshäuser mit Wohnungen und Gewerbe im EG sind fast immer GK 5 (Höhe, große NE im EG oder OG). Hier sind Rettungswege, BMA-Aufschaltung, Feuerwehrpläne und oft ein umfangreicher brandschutztechnischer Nachweis Standard – nicht nur eine kurze Stellungnahme.",
           "Kleinere Gewerbe- und Gastronomieobjekte bis 7 m OKF landen häufig in GK 3; mit Sondernutzung kommen § 50, erhöhte Personenzahlen und Fluchtpläne hinzu, ohne dass sich die GK ändert.",
-          "Teilsanierungen in Bürogebäuden (GK 5): GK bleibt, aber jede Änderung an Trennwänden, Fluren oder Technikräumen kann F 90-Wände, Rauchschutztüren und Abschottungen berühren – Bestandsschutz (§ 59 BauO NRW) gilt nur, wenn keine Verschlechterung entsteht.",
+          "Teilsanierungen in Bürogebäuden (GK 5): GK bleibt, aber jede Änderung an Trennwänden, Fluren oder Technikräumen kann feuerbeständige Wände (F 90), Rauchschutztüren und Abschottungen berühren – Bestandsschutz (§ 59 BauO NRW) gilt nur, wenn keine Verschlechterung entsteht.",
           "Bei Nutzungsänderungen prüfen wir zuerst GK und Sonderbau, dann die betroffenen Bauteile nach §§ 27–33 – und bereiten die passende Stellungnahme oder das Konzept für die Bauaufsicht vor.",
         ],
       },
@@ -730,7 +730,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       {
         question: "Was bedeutet T30-RS an einer Tür?",
         answer:
-          "Feuerwiderstandsklasse T30 (ca. 30 Minuten) mit Rauchschutzfunktion (RS). Solche Türen sichern Rauchabschnitte. Sie müssen schließen – Feststellanlagen nur mit Genehmigung.",
+          "Feuerwiderstandsklasse T30 (feuerhemmend, ca. 30 Minuten) mit Rauchschutzfunktion (RS). Solche Türen sichern Rauchabschnitte. Sie müssen schließen – Feststellanlagen nur mit Genehmigung.",
       },
       {
         question: "Wer darf Flucht- und Rettungspläne erstellen?",
@@ -826,7 +826,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "baulich",
         title: "Baulicher Brandschutz im Umbau (§§ 27–33 BauO NRW)",
         paragraphs: [
-          "Jede neue oder geänderte innere Trennwand, jeder Durchbruch und jede Tür in notwendigen Fluren ist dokumentationspflichtig. Feuerwiderstand (F 30, F 60, F 90) und Rauchschutz (RS) müssen zum Raumbuch passen – Brandschutz- und Rauchschutzabschlüsse (z. B. T30-RS) sind selbstschließend und dürfen nicht aufgekeilt werden.",
+          "Jede neue oder geänderte innere Trennwand, jeder Durchbruch und jede Tür in notwendigen Fluren ist dokumentationspflichtig. Feuerwiderstand nach § 27 BauO NRW – feuerhemmend (F 30), hochfeuerhemmend (F 60) oder feuerbeständig (F 90) – und Rauchschutz (RS) müssen zum Raumbuch passen. Brandschutz- und Rauchschutzabschlüsse (z. B. feuerhemmende T30-RS) sind selbstschließend und dürfen nicht aufgekeilt werden.",
           "Brandabschnitte und Rauchabschnitte sind getrennt zu planen; ein baurechtlicher Begriff „Rauchwand“ existiert nicht. Durchführungen für Kabel, Rohre und Lüftung durch klassifizierte Bauteile brauchen zugelassene Abschottungen nach § 32 BauO NRW – nachträgliche Bohrungen ohne Nachweis sind der häufigste Abnahme-Mangel.",
           "Rettungswege: zwei voneinander unabhängige Wege pro Nutzungseinheit mit Aufenthaltsräumen (§ 33). Umbauten dürfen Weglängen, lichte Breiten (ASR A2.3 bei Arbeitsstätten) und den zweiten Rettungsweg nicht verschlechtern. Trockenbau bis Decke ohne Abstimmung kann Sprinklerwirkung und Entrauchung zerstören.",
         ],
@@ -980,7 +980,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "kohaerenz",
         title: "Was die Bauaufsicht an den Unterlagen prüft",
         paragraphs: [
-          "Entscheidend ist Nachvollziehbarkeit: Pläne, Konzept und Antragsgegenstand müssen dieselbe Ist- und Soll-Situation beschreiben. In einem realen Zwischenbescheid der Bauaufsicht Köln zur Nutzungsänderung (Umspannwerk-Teilfläche zu Lager) wurden u. a. Abweichungen zwischen Rettungswegplänen und Konzept, unklare Nutzungsfläche und fehlende Altgenehmigungen beanstandet – plus baurechtliche Mängel wie fehlende T30-RS-Türen zum notwendigen Treppenraum (§ 37 Abs. 10 BauO NRW) und fehlende Absturzsicherung (§ 41 Abs. 1 BauO NRW).",
+          "Entscheidend ist Nachvollziehbarkeit: Pläne, Konzept und Antragsgegenstand müssen dieselbe Ist- und Soll-Situation beschreiben. In einem realen Zwischenbescheid der Bauaufsicht Köln zur Nutzungsänderung (Umspannwerk-Teilfläche zu Lager) wurden u. a. Abweichungen zwischen Rettungswegplänen und Konzept, unklare Nutzungsfläche und fehlende Altgenehmigungen beanstandet – plus baurechtliche Mängel wie fehlende feuerhemmende Rauchschutztüren (T30-RS) zum notwendigen Treppenraum (§ 37 Abs. 10 BauO NRW) und fehlende Absturzsicherung (§ 41 Abs. 1 BauO NRW).",
           "Solche Punkte sind keine „Formalia“ – ohne Bereinigung ist der Antrag nicht genehmigungsfähig und das Verfahren ruht bis zur Nachreichung.",
         ],
         list: [
@@ -1743,7 +1743,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "bauordnung",
         title: "Was die Bauaufsicht bei der Genehmigung sieht",
         paragraphs: [
-          "Die untere Bauaufsichtsbehörde prüft, ob das Gebäude die baulichen Anforderungen der BauO NRW erfüllt – insbesondere zwei voneinander unabhängige Rettungswege pro Nutzungseinheit mit Aufenthaltsräumen (§ 33), Weglängen, lichte Breiten, Brandabschnitte, Türen (T30-RS), Entrauchung, ggf. Löschwasser.",
+          "Die untere Bauaufsichtsbehörde prüft, ob das Gebäude die baulichen Anforderungen der BauO NRW erfüllt – insbesondere zwei voneinander unabhängige Rettungswege pro Nutzungseinheit mit Aufenthaltsräumen (§ 33), Weglängen, lichte Breiten, Brandabschnitte, feuerhemmende Rauchschutztüren (T30-RS), Entrauchung, ggf. Löschwasser.",
           "Dafür reichen Grundrisse, Schnitte und ein brandschutztechnischer Nachweis (Brandschutzkonzept oder Stellungnahme nach § 9 BauPrüfVO NRW) – mit farbigen Rettungswegführungen, Nutzerzahlen und ggf. zweitem Rettungsweg über Feuerwehr. Die grün/gelb ausgehängten Flucht- und Rettungspläne nach ASR A2.3 sind dafür in der Regel nicht das Einreichungsdokument zur Baugenehmigung.",
           "Nach Umbau oder Nutzungsänderung: Wenn sich Wege, Türen oder Personenzahlen ändern, kann ein neuer bauordnungsrechtlicher Nachweis nötig sein – unabhängig davon, ob der Betrieb schon neue ASR-Pläne hängt.",
         ],
@@ -2098,7 +2098,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Abweichungen zwischen Rettungswegdarstellung in Plänen und Brandschutzkonzept",
           "Unklare oder widersprüchliche Nutzungsflächenangaben",
           "Fehlende oder nicht nachvollziehbare Altgenehmigungen zum Bestand",
-          "Baurechtliche Mängel am Bestand: fehlende T30-RS-Türen zum notwendigen Treppenraum (§ 37 Abs. 10 BauO NRW)",
+          "Baurechtliche Mängel am Bestand: fehlende feuerhemmende Rauchschutztüren (T30-RS) zum notwendigen Treppenraum (§ 37 Abs. 10 BauO NRW)",
           "Weitere baurechtliche Punkte (z. B. Absturzsicherung § 41 Abs. 1 BauO NRW) – oft im selben Bescheid wie Brandschutz",
         ],
       },
@@ -2120,7 +2120,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         list: [
           "Vollständiges Brandschutzkonzept oder brandschutztechnische Stellungnahme (wenn im Bescheid gefordert)",
           "Fortschreibung nach § 9 BauPrüfVO NRW bei vorhandenem Alt-Konzept",
-          "Pläne mit einheitlichen Brandschutzeintragungen (Rettungswege, Brandabschnitte, Türen T30-RS)",
+          "Pläne mit einheitlichen Brandschutzeintragungen (Rettungswege, Brandabschnitte, feuerhemmende Rauchschutztüren T30-RS)",
           "Bestandsnachweise § 35/36 (Fotos, Protokolle Druckbelüftung, Wandaufbau Flur)",
           "Abstimmungsprotokolle Feuerwehr, wenn BMA oder Sonderbau im Verfahren",
         ],
@@ -2267,7 +2267,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Trennwände zum Nachbarn – § 29 BauO NRW",
         paragraphs: [
           "§ 29 Abs. 2 BauO NRW verlangt Trennwände zwischen Nutzungseinheiten und zu anders genutzten Räumen (ausgenommen notwendige Flure). Beim Umbau Laden → Imbiss ist die Wand zum angrenzenden Mieter/Nachbarn oft der kritische Punkt – im Plan als Trennung zum „anderen Nutzungsbereich“ dargestellt.",
-          "Im Praxisfall: Die Wand von Küche 2 bis zum Bürobereich war feuerhemmend (F30) nachzurüsten oder zu ertüchtigen; Tür in Küche 2 feuerhemmend, dicht und selbstschließend. Eingangs- und WC-Bereich: Trennwände ebenfalls feuerhemmend auszuführen.",
+          "Im Praxisfall: Die Wand von Küche 2 bis zum Bürobereich war feuerhemmend (F 30) nachzurüsten oder zu ertüchtigen; Tür in Küche 2 feuerhemmend, dicht und selbstschließend. Eingangs- und WC-Bereich: Trennwände ebenfalls feuerhemmend auszuführen.",
           "Öffnungen in Trennwänden nur in erforderlicher Zahl und Größe – mit feuerhemmenden, dichten und selbstschließenden Abschlüssen. Das ist klassischer Brandabschnitts-Gedanke, nicht „Rauchwand“.",
         ],
       },
@@ -2303,7 +2303,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         list: [
           "Schutzziele § 14 BauO NRW (Vorbeugung, Brandausbreitung, Rettung, Löschangriff)",
           "Raumprogramm: Küche 1/2, Grill, Gast, Büro/Personal – Flächen und Öffnungszeiten",
-          "Baulicher Brandschutz: Trennwände F30, Türen, Notausgang",
+          "Baulicher Brandschutz: feuerhemmende Trennwände (F 30), Türen, Notausgang",
           "Technisch/organisatorisch: Löscher LE, Abluft, Bekleidungen, Brandschutzhelfer",
           "Anlage: Übersichtsplan mit farbigen Eintragungen (feuerhemmende Wände)",
         ],
@@ -2346,7 +2346,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Die häufigsten Verzögerungen beim Laden-zu-Imbiss-Umbau:",
         ],
         list: [
-          "Küche einbauen, Nachbarwand nicht auf F30 prüfen",
+          "Küche einbauen, Nachbarwand nicht auf feuerhemmende Ausführung (F 30) prüfen",
           "Fettbrandlöscher fehlt trotz Fritteuse",
           "Brennbare Bekleidung über Grill",
           "Gastbereich blockiert Fluchtweg",
@@ -2384,7 +2384,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
       {
         question: "Warum muss die Wand zum Nachbarn feuerhemmend sein?",
         answer:
-          "§ 29 BauO NRW: Trennung von Nutzungseinheiten und anders genutzten Räumen. Küche mit Fett/Flamme erhöht das Risiko – die Trennwand begrenzt Brandübertragung (F30, dichte Türen).",
+          "§ 29 BauO NRW: Trennung von Nutzungseinheiten und anders genutzten Räumen. Küche mit Fett/Flamme erhöht das Risiko – die Trennwand begrenzt Brandübertragung (feuerhemmend, F 30; dichte, selbstschließende Türen).",
       },
       {
         question: "Reicht eine brandschutztechnische Stellungnahme statt Brandschutzkonzept?",
@@ -2826,7 +2826,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "bau",
         title: "Trockenbau, Türen, Abschottungen",
         paragraphs: [
-          "Neue und geänderte Trennwände/Decken: Feuerwiderstand und Rauchdichtheit im Raumbuch dokumentieren (F30–F90 je nach Lage). Durchbrüche nur mit zugelassenen Systemen abschotten – Übergang Bestand/Neu bei KMF-Decken ist ein häufiger Streitpunkt in der Abnahme.",
+          "Neue und geänderte Trennwände/Decken: Feuerwiderstand nach § 27 BauO NRW (feuerhemmend F 30 bis feuerbeständig F 90 je nach Lage) und Rauchdichtheit im Raumbuch dokumentieren. Durchbrüche nur mit zugelassenen Systemen abschotten – Übergang Bestand/Neu bei KMF-Decken ist ein häufiger Streitpunkt in der Abnahme.",
         ],
         list: [
           "Brandschutztüren (z. B. T30-RS) und Rauchschutzabschlüsse zum notwendigen Flur prüfen",
@@ -3068,9 +3068,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Nicht immer gesetzlich, aber sinnvoll für interne Freigabe, Versicherer und TGA – besonders bei älteren Beständen und wenn Beteiligte Nachrüstung verlangen.",
       },
       {
-        question: "Muss jede Sanierung die Decke auf F90 bringen?",
+        question: "Muss jede Sanierung die Decke feuerbeständig (F 90) machen?",
         answer:
-          "Nein, wenn § 59 greift und die Decke unverändert bleibt. Bei Eingriff in die Decke oder wesentlichem Umbau: neue Bewertung.",
+          "Nein, wenn § 59 BauO NRW greift und die Decke unverändert bleibt. Bei Eingriff in die Decke oder wesentlichem Umbau: neue Bewertung nach § 27 BauO NRW – ob feuerhemmend, hochfeuerhemmend oder feuerbeständig.",
       },
       {
         question: "Was ist der Unterschied zu § 83 BauO NRW?",
