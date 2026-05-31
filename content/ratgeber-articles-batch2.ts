@@ -32,7 +32,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "begriffe",
         title: "T30, T30-RS und Rauchschutzabschluss",
         paragraphs: [
-          "Feuerhemmend (F30/T30): begrenzt Brandübertragung über die Tür. Rauchschutztür (T30-RS): zusätzlich Rauchdichtheit im Brandfall – typisch in notwendigen Fluren und Treppenräumen (§ 36 BauO NRW).",
+          "Feuerhemmend (F 30 / T30): begrenzt Brandübertragung über die Tür. Rauchschutztür (T30-RS): zusätzlich Rauchdichtheit im Brandfall – typisch in notwendigen Fluren und Treppenräumen (§ 36 BauO NRW). Feuerbeständig (F 90) verlangt die BauO NRW für tragende Bauteile in höheren Gebäudeklassen und Brandwände.",
           "Im Bestand sind oft ältere DIN-Nachweise maßgeblich; Ertüchtigung muss zur ursprünglichen Zulassung (abZ/aBG) und zum Wandtyp passen – „ähnlicher“ Einbau ohne Nachweis hebt die Zulassung auf (DIBt-Hinweise).",
         ],
       },
@@ -164,7 +164,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
         list: [
           "Feuerschutzabschluss T30/T30-RS: nicht selbstschließend, beschädigt, verriegelt",
-          "Wand F30 statt geforderter F90 – Nachweis oder Konzeptanpassung fehlt",
+          "Wand feuerhemmend (F 30) statt geforderter feuerbeständiger Ausführung (F 90) – Nachweis oder Konzeptanpassung fehlt",
           "Planabweichung ohne dokumentierte brandschutztechnische Bewertung",
           "Feuerwehr-Schlüsseldepot (FSD) fehlt trotz Konzept",
           "Flucht- und Rettungspläne ASR A2.3 fehlen oder veraltet",
@@ -256,9 +256,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Zur bauordnungsrechtlichen Abnahme: Konzept und genehmigte Pläne. Für den Betrieb und Versicherer zusätzlich oft ASR A2.3-Pläne – beide Ebenen vor Nutzungsaufnahme abstimmen.",
       },
       {
-        question: "Was, wenn die Wand nur F30 statt F90 ist?",
+        question: "Was, wenn die Wand nur feuerhemmend (F 30) statt feuerbeständig (F 90) ist?",
         answer:
-          "Entweder bauliche Nachbesserung oder brandschutztechnische Bewertung/Konzeptanpassung mit Begründung – ohne Dokument kein Abschluss der Abnahme.",
+          "Entweder bauliche Nachbesserung auf feuerbeständige Ausführung oder brandschutztechnische Bewertung mit Begründung im Konzept – ohne Nachweis kein Abschluss der Abnahme. Maßgeblich sind § 27 BauO NRW und Anlage 1.",
       },
     ],
   },
@@ -508,7 +508,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Wann sind Begehungen vor Verkleidung Pflicht?",
         answer:
-          "Vor Beplankung von F90-Wänden und Decken – Abschottungen und Türen sind danach nicht mehr prüfbar ohne Aufbruch.",
+          "Vor Beplankung von feuerbeständigen Wänden und Decken (F 90) – Abschottungen und Türen sind danach nicht mehr prüfbar ohne Aufbruch.",
       },
       {
         question: "Kann der Konzeptautor die Fachbauleitung übernehmen?",
@@ -553,7 +553,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         list: [
           "Zwei Rettungswege § 33 – Weglängen in der Halle kritisch",
           "Löschwasser Grund-/Objektschutz, Hydranten",
-          "Brandabschnitte, Trennwände F90, Rauchabschnitte",
+          "Brandabschnitte, feuerbeständige Trennwände (F 90), Rauchabschnitte",
           "Entrauchung/RWA, Lüftung mit Brandschutzklappen",
           "BMA, Feuerlöscher ASR A2.2, Flucht- und Feuerwehrpläne",
         ],
@@ -887,7 +887,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       "Abschottungen Durchbruch NRW: Zulassung, Dokumentation, Fachbauleitung. Ratgeber H&S+.",
     keywords: [
       "Abschottung Brandschutz",
-      "Durchbruch F90 Abschottung",
+      "Durchbruch feuerbeständige Abschottung",
       "Ü Plakette Abschottung",
       "MLAR Leitungsanlage",
     ],
@@ -896,7 +896,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "warum",
         title: "Warum Abschottungen scheitern",
         paragraphs: [
-          "Trockenbau und TGA erzeugen viele Durchbrüche in F30/F90-Wänden und Decken. Ohne zugelassene Abschottung (allgemeine bauaufsichtliche Zulassung – Ü) verliert das Bauteil seine Funktion – klassischer Abnahme- und Versicherungsmangel.",
+          "Trockenbau und TGA erzeugen viele Durchbrüche in feuerhemmenden (F 30) oder feuerbeständigen (F 90) Wänden und Decken nach § 27 BauO NRW. Ohne zugelassene Abschottung (allgemeine bauaufsichtliche Zulassung – Ü) verliert das Bauteil seine Funktion – klassischer Abnahme- und Versicherungsmangel.",
         ],
       },
       {
@@ -1363,7 +1363,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "technische-betriebsgebaeude-brandschutz-nrw",
     title: "Technische Betriebsgebäude: Brandschutz",
     excerpt:
-      "Netzersatzanlage, Trafostation, Diesel: Was bei Technikgebäuden in NRW zu Gebäudeklasse, Sonderbau und Brandschutzkonzept gehört – mit Praxisfall.",
+      "Netzersatzanlage, Trafostation, Diesel: Gebäudeklasse, Sonderbau, feuerbeständige Trennung und Löschwasser in NRW – mit Praxisfall.",
     metaTitle: "Technische Betriebsgebäude Brandschutz | NRW | H&S+",
     metaDescription:
       "Brandschutz für NEA, Trafostation und Technikgebäude in NRW: Konzept, Löschwasser, Diesel. Ratgeber H&S+.",
@@ -1387,11 +1387,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "konzept",
         title: "Typische Konzept-Inhalte",
         paragraphs: [
-          "Auch kleine Technikgebäude brauchen oft ein schlankes, aber **vollständiges Brandschutzkonzept (BSK)** – nicht nur eine interne Notiz. Übliche Bausteine:",
+          "Auch kleine Technikgebäude brauchen oft ein schlankes, aber **vollständiges Brandschutzkonzept (BSK)** – nicht nur eine interne Notiz. Nach § 27 BauO NRW gelten für Bauteile die Stufen **feuerhemmend** (F 30), **hochfeuerhemmend** (F 60) und **feuerbeständig** (F 90) – im Technikgebäude sind innere Trennungen oft feuerbeständig auszuführen. Übliche Bausteine:",
         ],
         list: [
           "Feuerwehrzufahrt und Nachweis zur Löschwasserversorgung (Campus, Hydranten im Umfeld)",
-          "Innere feuerbeständige Trennung (F90) zwischen Aggregat- und Schaltraum",
+          "Innere **feuerbeständige** Trennwand zwischen Aggregat- und Schaltraum (Feuerwiderstandsklasse F 90 nach § 27 BauO NRW)",
           "Natürliche Lüftung; Brandmeldeanlage (BMA) nur, wenn Konzept oder Behörde sie verlangt",
           "Feuerlöscher nach ASR A2.2, Blitzschutz soweit erforderlich",
           "Diesel-Lagerung nach TRGS 510 und Sonderbauverordnung (SBauVO) – siehe [Kraftstoff-Ratgeber](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz)",
@@ -1410,7 +1410,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "praxis",
         title: "Praxis: Campus mit NEA und Trafostation",
         paragraphs: [
-          "Anonymisierter Fall aus NRW: eingeschossiges Technikgebäude in **GK 1**, zugleich Sonderbau wegen NEA und Diesel-Vorratsbehältern. Im Brandschutzkonzept wurden unter anderem Feuerwehrzufahrt, Hydranten-Nachweis im Campus-Umfeld, innere F90-Trennung zwischen Aggregat und Schaltraum, natürliche Lüftung, Feuerlöscher nach ASR A2.2 sowie ein Feuerwehrplan für Wartungspersonal geregelt.",
+          "Anonymisierter Fall aus NRW: eingeschossiges Technikgebäude in **GK 1**, zugleich Sonderbau wegen NEA und Diesel-Vorratsbehältern. Im Brandschutzkonzept wurden unter anderem Feuerwehrzufahrt, Hydranten-Nachweis im Campus-Umfeld, eine innere **feuerbeständige** Trennung (F 90) zwischen Aggregat und Schaltraum, natürliche Lüftung, Feuerlöscher nach ASR A2.2 sowie ein Feuerwehrplan für Wartungspersonal geregelt.",
           "Die Diesel-Lagerung wurde über TRGS 510 und den [Kraftstoff-Ratgeber](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz) abgestimmt. Der Fall dient der Orientierung – andere Standorte brauchen eine eigene Einordnung.",
         ],
       },
@@ -1418,7 +1418,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung-gk",
         title: "GK 1 vs. Sonderbau",
         paragraphs: [
-          "**Gebäudeklasse 1** steuert die Mindestanforderungen an Bauteile – sie bedeutet nicht „wenig Brandschutz“. Der **Sonderbau**-Tatbestand für technische Betriebsgebäude oder Anlagen mit Stoffen und Energie kann zusätzlich Trennung (z. B. F90), Löschwasser und umfangreiche Dokumentation verlangen.",
+          "**Gebäudeklasse 1** steuert die Mindestanforderungen an Bauteile nach § 27 BauO NRW – sie bedeutet nicht „wenig Brandschutz“. Der **Sonderbau**-Tatbestand für technische Betriebsgebäude oder Anlagen mit Stoffen und Energie kann zusätzlich **feuerhemmende**, **hochfeuerhemmende** oder **feuerbeständige** Trennungen, Löschwasser und umfangreiche Dokumentation verlangen.",
           "Kurz: GK 1 und Sonderbau schließen sich nicht aus – beides kann gleichzeitig gelten und muss im Konzept adressiert werden.",
         ],
       },
@@ -1429,7 +1429,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Auch bei GK 1 und kleinen Gebäuden scheitern Projekte an wiederkehrenden Punkten:",
         ],
         list: [
-          "Netzersatzanlage (NEA) und Trafostation ohne innere F90-Trennung geplant",
+          "Netzersatzanlage (NEA) und Trafostation ohne innere feuerbeständige Trennwand (F 90) geplant",
           "Diesel-Vorratsbehälter ohne Abstimmung von TRGS 510 und Brandschutznachweis",
           "Löschwasser nur mit dem Hinweis „Hydrant in der Nähe“ – ohne belastbaren Nachweis",
           "Kein Feuerwehrplan für Wartungspersonal, obwohl regelmäßig Aufenthaltsflächen betreten werden",
