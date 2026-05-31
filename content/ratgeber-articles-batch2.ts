@@ -69,7 +69,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Abgrenzung zu Genehmigung und Umbau",
         paragraphs: [
-          "Nur Türertüchtigung ohne Nutzungsänderung: oft internes Gutachten, kein neues BSK. Neue Öffnungen in Brandwänden oder geänderte Fluchtwege: Genehmigung und brandschutztechnischer Nachweis – siehe Umbau-Ratgeber.",
+          "Nur Türertüchtigung ohne Nutzungsänderung: oft internes Gutachten, kein neues BSK. Neue Öffnungen in Brandwänden oder geänderte Fluchtwege: Genehmigung und brandschutztechnischer Nachweis – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
         ],
       },
       {
@@ -183,7 +183,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Unterweisung und Gefährdungsbeurteilung dokumentieren",
         ],
         paragraphs: [
-          "Eine Eilbegehung vor großen Investitionen reduziert Überraschungen – siehe verlinkter Ratgeber.",
+          "Eine Eilbegehung vor großen Investitionen reduziert Überraschungen – siehe [Eilbegehung Restaurant/Gewerbe](/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln).",
         ],
       },
       {
@@ -558,7 +558,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "BMA, Feuerlöscher ASR A2.2, Flucht- und Feuerwehrpläne",
         ],
         paragraphs: [
-          "Feuerwehrabstimmung vor oder parallel zum Bauantrag – siehe Ratgeber Feuerwehr vor dem Bauamt.",
+          "Feuerwehrabstimmung vor oder parallel zum Bauantrag – siehe [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
         ],
       },
       {
@@ -623,7 +623,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Was, wenn Sprinkler im Bestand der Halle liegt?",
         answer:
-          "Bestehende Sprinkler im Konzept berücksichtigen: Trockenbau nicht blind bis Decke, Köpfe freihalten oder Fortschreibung bei Teilstilllegung – siehe Ratgeber Sprinkler & Trockenbau.",
+          "Bestehende Sprinkler im Konzept berücksichtigen: Trockenbau nicht blind bis Decke, Köpfe freihalten oder Fortschreibung bei Teilstilllegung – siehe [Sprinkler & Trockenbau](/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw).",
       },
       {
         question: "Wann ist die Halle Sonderbau?",
@@ -754,7 +754,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Darf Trockenbau bis unter die Decke gebaut werden?",
         answer:
-          "Nur wenn Sprinkler im Bereich stillgelegt oder Decke frei bleibt – siehe Ratgeber Sprinkler & Trockenbau; sonst Brandlast und verdeckte Köpfe.",
+          "Nur wenn Sprinkler im Bereich stillgelegt oder Decke frei bleibt – siehe [Sprinkler & Trockenbau](/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw); sonst Brandlast und verdeckte Köpfe.",
       },
     ],
   },
@@ -1363,10 +1363,10 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "technische-betriebsgebaeude-brandschutz-nrw",
     title: "Technische Betriebsgebäude: Brandschutz",
     excerpt:
-      "NEA, Trafostation, Diesel – GK 1, Sonderbau, F90-Trennung, Löschwasser Campus.",
-    metaTitle: "Technische Betriebsgebäude Brandschutz",
+      "Netzersatzanlage, Trafostation, Diesel: Was bei Technikgebäuden in NRW zu Gebäudeklasse, Sonderbau und Brandschutzkonzept gehört – mit Praxisfall.",
+    metaTitle: "Technische Betriebsgebäude Brandschutz | NRW | H&S+",
     metaDescription:
-      "NEA Trafostation Brandschutz NRW: Konzept, Diesel, Feuerwehrzufahrt. H&S+.",
+      "Brandschutz für NEA, Trafostation und Technikgebäude in NRW: Konzept, Löschwasser, Diesel. Ratgeber H&S+.",
     keywords: [
       "Technisches Betriebsgebäude",
       "Netzersatzanlage Brandschutz",
@@ -1378,45 +1378,48 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "einordnung",
         title: "Baurechtliche Einordnung",
         paragraphs: [
-          "Eingeschossige Technikgebäude mit nur gelegentlichem Aufenthalt (Wartung) oft Gebäudeklasse 1 – zugleich häufig Sonderbau (technische Betriebsgebäude, Anlagen mit Stoffen/Energie).",
-          "Typisch: NEA mit Diesel-Tanks (doppelwandig, Lecküberwachung), Trafostation, Schalträume.",
+          "Technische Betriebsgebäude dienen z. B. Netzersatzanlagen (NEA), Umspannstationen oder Schalträumen. Sind sie eingeschossig und werden nur gelegentlich betreten – typisch bei Wartung – ordnet die BauO NRW sie oft der **Gebäudeklasse 1 (GK 1)** zu.",
+          "Das bedeutet nicht automatisch wenig Aufwand: Gleichzeitig kann ein **Sonderbau** nach § 50 BauO NRW vorliegen, wenn technische Betriebsgebäude oder Anlagen mit Stoffen und Energieträgern betroffen sind. Gebäudeklasse und Sonderbau werden getrennt geprüft.",
+          "Häufige Bestandteile: Diesel-Vorratsbehälter (doppelwandig mit Lecküberwachung), Trafostationen, Schalträume. Vertiefung: [Gebäudeklassen](/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw) und [Sonderbau](/ratgeber/sonderbauten-brandschutz).",
         ],
       },
       {
         id: "konzept",
         title: "Typische Konzept-Inhalte",
         paragraphs: [
-          "Technische Betriebsgebäude brauchen oft ein schlankes, aber vollständiges Konzept:",
+          "Auch kleine Technikgebäude brauchen oft ein schlankes, aber **vollständiges Brandschutzkonzept (BSK)** – nicht nur eine interne Notiz. Übliche Bausteine:",
         ],
         list: [
-          "Feuerwehrzufahrt, Löschwasser (Campus/Hydranten)",
-          "Innere F90-Trennung Aggregat-/Schaltraum",
-          "Natürliche Lüftung, BMA nur wenn erforderlich",
-          "Feuerlöscher ASR A2.2, Blitzschutz",
-          "Diesel-Lagerung: TRGS/SBauVO – siehe Kraftstoff-Ratgeber",
-          "Feuerwehrplan, BSO für Wartungspersonal",
+          "Feuerwehrzufahrt und Nachweis zur Löschwasserversorgung (Campus, Hydranten im Umfeld)",
+          "Innere feuerbeständige Trennung (F90) zwischen Aggregat- und Schaltraum",
+          "Natürliche Lüftung; Brandmeldeanlage (BMA) nur, wenn Konzept oder Behörde sie verlangt",
+          "Feuerlöscher nach ASR A2.2, Blitzschutz soweit erforderlich",
+          "Diesel-Lagerung nach TRGS 510 und Sonderbauverordnung (SBauVO) – siehe [Kraftstoff-Ratgeber](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz)",
+          "Feuerwehrplan nach DIN 14095 und Brandschutzordnung (BSO) für Wartungspersonal im Betrieb",
         ],
       },
       {
         id: "bestand",
         title: "Bestand und technische Sanierung",
         paragraphs: [
-          "Reine Leitungserneuerung ohne baulische Änderung: ggf. § 59 Bestandsschutz – Holzdecke etc. Neubau NEA-Container: vollständiges BSK und Genehmigung.",
+          "Wird im Bestand nur die Leitungsführung erneuert, ohne bauliche Änderung oder Nutzungsänderung, kann **Bestandsschutz** nach § 59 BauO NRW greifen – bestehende Bauteile (z. B. Holzdecke) müssen dann nicht sofort auf den heutigen Neubau-Standard gebracht werden.",
+          "Steht dagegen ein **Neubau** – etwa ein NEA-Container oder ein neues Technikgebäude – ist in der Regel ein vollständiges Brandschutzkonzept und ein genehmigungspflichtiges Verfahren nötig. Mehr dazu: [Bestand § 59](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw).",
         ],
       },
       {
         id: "praxis",
         title: "Praxis: Campus mit NEA und Trafostation",
         paragraphs: [
-          "In einem Campus-Projekt (NRW): eingeschossiges Technikgebäude GK 1, Sonderbau wegen NEA und Diesel-Vorratsbehältern. Konzept: Feuerwehrzufahrt, Hydranten-Nachweis im Umfeld, innere F90-Trennung Aggregat/Schaltraum, natürliche Lüftung, Feuerlöscher ASR A2.2, Feuerwehrplan für Wartungspersonal.",
-          "Diesel-Lagerung über TRGS und Kraftstoff-Ratgeber abgestimmt – nicht pauschal auf andere Standorte übertragbar.",
+          "Anonymisierter Fall aus NRW: eingeschossiges Technikgebäude in **GK 1**, zugleich Sonderbau wegen NEA und Diesel-Vorratsbehältern. Im Brandschutzkonzept wurden unter anderem Feuerwehrzufahrt, Hydranten-Nachweis im Campus-Umfeld, innere F90-Trennung zwischen Aggregat und Schaltraum, natürliche Lüftung, Feuerlöscher nach ASR A2.2 sowie ein Feuerwehrplan für Wartungspersonal geregelt.",
+          "Die Diesel-Lagerung wurde über TRGS 510 und den [Kraftstoff-Ratgeber](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz) abgestimmt. Der Fall dient der Orientierung – andere Standorte brauchen eine eigene Einordnung.",
         ],
       },
       {
         id: "abgrenzung-gk",
         title: "GK 1 vs. Sonderbau",
         paragraphs: [
-          "Gebäudeklasse 1 bedeutet nicht wenig Brandschutz. Sonderbau-Tatbestand (technische Betriebsgebäude, Stoffe/Energie) kann hohe Anforderungen an Trennung, Löschwasser und Dokumentation auslösen.",
+          "**Gebäudeklasse 1** steuert die Mindestanforderungen an Bauteile – sie bedeutet nicht „wenig Brandschutz“. Der **Sonderbau**-Tatbestand für technische Betriebsgebäude oder Anlagen mit Stoffen und Energie kann zusätzlich Trennung (z. B. F90), Löschwasser und umfangreiche Dokumentation verlangen.",
+          "Kurz: GK 1 und Sonderbau schließen sich nicht aus – beides kann gleichzeitig gelten und muss im Konzept adressiert werden.",
         ],
       },
       {
@@ -1426,18 +1429,18 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Auch bei GK 1 und kleinen Gebäuden scheitern Projekte an wiederkehrenden Punkten:",
         ],
         list: [
-          "NEA und Trafostation ohne innere F90-Trennung geplant",
-          "Diesel-Vorratsbehälter ohne TRGS-/Brandschutz-Abstimmung",
-          "Löschwasser nur „Hydrant in der Nähe“ ohne Nachweis",
-          "Kein Feuerwehrplan für Wartungspersonal trotz Aufenthaltsflächen",
-          "GK 1 angenommen → Sonderbau-Anforderungen übersehen",
+          "Netzersatzanlage (NEA) und Trafostation ohne innere F90-Trennung geplant",
+          "Diesel-Vorratsbehälter ohne Abstimmung von TRGS 510 und Brandschutznachweis",
+          "Löschwasser nur mit dem Hinweis „Hydrant in der Nähe“ – ohne belastbaren Nachweis",
+          "Kein Feuerwehrplan für Wartungspersonal, obwohl regelmäßig Aufenthaltsflächen betreten werden",
+          "Aus GK 1 geschlossen, dass keine Sonderbau-Anforderungen gelten",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "IndBauR kann zusätzliche Anforderungen stellen – bei Industrieanlagen früh klären.",
+          "Dieser Ratgeber ersetzt keine behördliche Einordnung Ihres Vorhabens. Bei Industrieanlagen kann die **Industriebau-Richtlinie (IndBauR)** zusätzliche Anforderungen stellen – früh mit Planung und Bauaufsicht klären.",
         ],
       },
     ],
@@ -1451,32 +1454,32 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Brauchen NEA-Gebäude immer ein BSK?",
         answer:
-          "Bei genehmigungspflichtigem Neubau in der Regel ja.",
+          "Bei genehmigungspflichtigem Neubau in der Regel ja – dann ist ein vollständiges Brandschutzkonzept (BSK) nach § 9 BauPrüfVO NRW üblich, nicht nur eine kurze interne Stellungnahme.",
       },
       {
         question: "Ist BMA immer nötig?",
         answer:
-          "Nicht in jedem Technikgebäude ohne Aufenthaltsräume – Konzept/Behörde entscheidet.",
+          "Nein. In Technikgebäuden ohne regelmäßige Aufenthaltsräume verlangt die Behörde oft keine Brandmeldeanlage (BMA). Entscheidend sind Konzept, Nutzung und ggf. Versicherer – Feuerlöscher und Feuerwehrplan bleiben häufig Pflicht.",
       },
       {
         question: "GK 1 – heißt das wenig Brandschutz?",
         answer:
-          "Nein – GK steuert Bauteilanforderungen; Sonderbau und Technik können hohe Anforderungen bringen.",
+          "Nein. Die Gebäudeklasse steuert Mindestanforderungen an Bauteile. Sonderbau und Technik (NEA, Diesel, Trafostation) können trotzdem hohe Anforderungen an Trennung, Löschwasser und Nachweise auslösen.",
       },
       {
         question: "Braucht ein NEA-Container Genehmigung?",
         answer:
-          "Aufstellbare Technikgebäude sind oft genehmigungspflichtig – vollständiges BSK und Bauantrag, nicht nur interne Stellungnahme.",
+          "Aufstellbare Technikgebäude sind oft genehmigungspflichtig. Dann braucht es ein vollständiges BSK und einen Bauantrag – nicht nur eine interne brandschutztechnische Stellungnahme.",
       },
       {
         question: "Wann ist BMA in Technikgebäuden nötig?",
         answer:
-          "Wenn Aufenthaltsräume, Versicherer oder Konzept es verlangen – reine Wartungsflächen ohne Personen oft ohne BMA, aber mit Löschern und Feuerwehrplan.",
+          "Wenn Aufenthaltsräume, Versicherer oder das Konzept eine Brandmeldeanlage verlangen. Reine Wartungsflächen ohne Personen sind oft ohne BMA planbar – dann mit Löschern, Feuerwehrplan und ggf. BSO für Wartungspersonal.",
       },
       {
         question: "Wie wird Diesel im NEA nachgewiesen?",
         answer:
-          "Über TRGS 510, brandschutztechnische Stellungnahme oder Konzept – siehe Kraftstoff-Ratgeber; Löschwasser separat im Campus-Nachweis.",
+          "Über TRGS 510 in Verbindung mit einer brandschutztechnischen Stellungnahme oder einem Konzept – Details im [Kraftstoff-Ratgeber](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz). Löschwasser wird separat im Campus-Nachweis geführt.",
       },
     ],
   },

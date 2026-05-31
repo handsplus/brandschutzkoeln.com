@@ -694,7 +694,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "BauO-Nachweis vs. Fluchtplan vs. Feuerwehrplan",
         paragraphs: [
           "Drei getrennte Ebenen – häufig vermischt: (1) Genehmigung/Konzept: bauliche Rettungswege, Brand- und Rauchabschnitte in Grundrissen und Text. (2) DIN 14095 Feuerwehrplan: Einsatz, Hydranten, BMA, Brandabschnitte für die Feuerwehr. (3) ASR A2.3 Flucht- und Rettungspläne: Orientierung für Beschäftigte und Besucher im Betrieb – kein Ersatz für den bauordnungsrechtlichen Nachweis.",
-          "ASR A1.3 Kennzeichnung und BSO DIN 14096 ergänzen den Betrieb. Nach Umbau alle betroffenen Dokumente fortschreiben – siehe Ratgeber Pläne aktualisieren.",
+          "ASR A1.3 Kennzeichnung und BSO DIN 14096 ergänzen den Betrieb. Nach Umbau alle betroffenen Dokumente fortschreiben – siehe [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe).",
         ],
       },
       {
@@ -1005,7 +1005,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         paragraphs: [
           "Vor Einreichung lohnt sich bei vielen Vorhaben die Abstimmung mit der Berufsfeuerwehr Köln (Planungsgespräch, Vorab-Paket zu Rettungswegen und Zufahrt) – besonders wenn der zweite Rettungsweg über Feuerwehrgeräte begründet wird. Das Konzept sollte die schriftliche Feuerwehr-Stellungnahme referenzieren, bevor der Bauantrag vollständig wird.",
           "Brandmeldeanlagen mit Aufschaltung unterliegen in Köln zusätzlich den Technischen Anschlussbedingungen (TAB) der Feuerwehr – Planungsgespräch, Abnahme und Aufschaltung sind ein eigenes Verfahren neben der Baugenehmigung.",
-          "Wer zuerst beim Bauamt einreicht und die Feuerwehr-Antwort nachreicht, riskiert Widersprüche und längere Verfahren – siehe Ratgeber Feuerwehr-Abstimmung vor dem Bauamt.",
+          "Wer zuerst beim Bauamt einreicht und die Feuerwehr-Antwort nachreicht, riskiert Widersprüche und längere Verfahren – siehe [Feuerwehr-Abstimmung vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
         ],
       },
       {
@@ -1179,7 +1179,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Abgrenzung: Sprinkler ergänzen vs. Sprinkler zurückbauen",
         paragraphs: [
-          "Dieser Artikel behandelt den Konflikt „Sprinkler bleibt, Trockenbau kommt dazu“. Das Gegenteil – Sprinkler soll bei Umnutzung entfallen (z. B. Lager zu Büro mit geringerer Gefährdung) – braucht einen nachgewiesenen Ausgleich im Konzept (BMA, Löschwasser, ggf. höhere Bauklassen) und ist ein eigenes Thema; siehe Ratgeber Sprinkler-Rückbau und BMA.",
+          "Dieser Artikel behandelt den Konflikt „Sprinkler bleibt, Trockenbau kommt dazu“. Das Gegenteil – Sprinkler soll bei Umnutzung entfallen (z. B. Lager zu Büro mit geringerer Gefährdung) – braucht einen nachgewiesenen Ausgleich im Konzept (BMA, Löschwasser, ggf. höhere Bauklassen) und ist ein eigenes Thema; siehe [Sprinkler-Rückbau und BMA](/ratgeber/sprinkler-rueckbau-bma-nutzungsaenderung-koeln).",
           "Beides erfordert Konzept-Fortschreibung oder neues BSK – nicht nur eine interne Abschaltung der Anlage.",
         ],
       },
@@ -2164,7 +2164,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
           "Feuerwehr-Themen im Bescheid ignorieren, obwohl BMA betroffen",
         ],
         paragraphs: [
-          "Wer früh vor Antrag Konzept, Pläne und Betriebsbeschreibung abstimmt, reduziert Zwischenbescheide auf das technisch Unvermeidbare – siehe Ratgeber Bauaufsicht Unterlagen.",
+          "Wer früh vor Antrag Konzept, Pläne und Betriebsbeschreibung abstimmt, reduziert Zwischenbescheide auf das technisch Unvermeidbare – siehe [Bauaufsicht Unterlagen](/ratgeber/bauaufsicht-unterlagen-koeln).",
         ],
       },
       {
@@ -2706,7 +2706,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Orientierungswerte ersetzen keine Gefährdungsbeurteilung. Bei Umbau oder Nutzungsänderung kommen bauordnungsrechtliche Anforderungen (Stellungnahme, Abluft, Trennwände) hinzu – siehe Ratgeber Imbiss und Eilbegehung.",
+          "Orientierungswerte ersetzen keine Gefährdungsbeurteilung. Bei Umbau oder Nutzungsänderung kommen bauordnungsrechtliche Anforderungen (Stellungnahme, Abluft, Trennwände) hinzu – siehe [Imbiss](/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln) und [Eilbegehung](/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln).",
         ],
       },
     ],
@@ -2787,8 +2787,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         ],
         list: [
           "Teilsanierung mit baulichen Eingriffen (Wände, BMA, Flure): brandschutztechnische Begleitung Pflicht im Umbau-Bereich – nicht automatisch vollständiges BSK für die Behörde",
-          "Nutzungsänderung (z. B. Büro → Gastronomie): Genehmigung und meist Stellungnahme oder Konzept – siehe Ratgeber Umbau",
-          "Nur technische Sanierung ohne bauliche/Nutzungsänderung: Bestandsschutz § 59 BauO NRW kann greifen – siehe verlinkter Ratgeber (z. B. Leitungstausch ohne Decke)",
+          "Nutzungsänderung (z. B. Büro → Gastronomie): Genehmigung und meist Stellungnahme oder Konzept – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz)",
+          "Nur technische Sanierung ohne bauliche/Nutzungsänderung: Bestandsschutz § 59 BauO NRW kann greifen – siehe [Bestandsschutz § 59](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw) (z. B. Leitungstausch ohne Decke)",
         ],
       },
       {
@@ -2847,7 +2847,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = [
         title: "Löscher, Pläne, BSO – drei Ebenen",
         paragraphs: [
           "Nach wesentlicher Teilsanierung parallel aktualisieren:",
-          "Bauordnungsrechtlicher Nachweis in der Genehmigung ≠ ASR-Pläne für Beschäftigte – beide müssen zum neuen Grundriss passen (siehe Ratgeber Pläne aktualisieren).",
+          "Bauordnungsrechtlicher Nachweis in der Genehmigung ≠ ASR-Pläne für Beschäftigte – beide müssen zum neuen Grundriss passen (siehe [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe)).",
         ],
         list: [
           "ASR A2.2: Feuerlöscher-Standorte und LE neu bewerten (Laufweg max. ca. 20 m, Teeküchen ggf. Fettbrandlöscher)",
