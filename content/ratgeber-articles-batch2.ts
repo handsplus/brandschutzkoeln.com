@@ -704,6 +704,14 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
       },
       {
+        id: "ablauf",
+        title: "Genehmigung und Ablauf bis Abnahme",
+        paragraphs: [
+          "Sprinkler-Rückbau oder Teilstilllegung ist kein reines TGA-Thema: zuerst Fortschreibung oder neues Konzept, dann Genehmigung oder Anzeige nach Einordnung. BMA Kat. 1, Ersatzmaßnahmen und ggf. Feuerwehr-Stellungnahme gehören in **denselben** Planstand wie die Architekturpläne.",
+          "Typische Reihenfolge: Ist-Aufnahme Sprinkler → hydraulische Bewertung → Konzept-Fortschreibung → Bauaufsicht/Feuerwehr → Ausführung → Abnahme BMA/Sprinkler → Übergabe an Betrieb. Wer nur Leitungen leer legt, riskiert Versicherungs- und behördliche Mängel – siehe [Umbau & Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -806,6 +814,20 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         paragraphs: [
           "Interne Freigabe (Werkstatt, Garage): oft brandschutztechnische Stellungnahme mit TRGS-Maßnahmen und Löschermatrix. Genehmigungspflichtige Lagerung oder Sonderbau: Brandschutzkonzept oder Fortschreibung mit Anhang Gefahrstoffe.",
           "Tankfahrzeug-Fall: Ergebnis in der Stellungnahme dokumentieren – nicht pauschal auf andere Standorte übertragen.",
+        ],
+      },
+      {
+        id: "fehler",
+        title: "Typische Fehler",
+        paragraphs: [
+          "In Werkstätten, Garagen und Technikgebäuden wiederholen sich dieselben Fehleinschätzungen:",
+        ],
+        list: [
+          "Fahrzeugtank und lose Kanister verwechseln (TRGS 510 vs. Betriebsmittel im Fahrzeug)",
+          "Diesel in Technikraum ohne Belüftung und Löschermatrix",
+          "Keine schriftliche Stellungnahme trotz Sonderbau-Verdacht",
+          "Tankfahrzeug dauerhaft in Halle ohne Einzelfallnachweis",
+          "Brandschutz und Gefahrstoffrecht getrennt betrachtet – ohne gemeinsamen Planstand",
         ],
       },
       {
@@ -917,6 +939,14 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         paragraphs: [
           "Bau-PU-Schaum oder Brandschutzklebeband ohne Ü ist auch vorübergehend unzulässig in klassifizierten Wänden. Provisorische Leitungsführung nur mit behördlich akzeptiertem Einzelfall – nicht als Dauerlösung bis „später“.",
           "MLAR/LAR: Leitungen nur dort führen, wo baulich erforderlich – jede zusätzliche Durchführung schwächt die Wand.",
+        ],
+      },
+      {
+        id: "dokumentation",
+        title: "Nachweise für Abnahme und Betrieb",
+        paragraphs: [
+          "Für Bauaufsicht, Sachverständigen-Abnahme und Versicherung braucht es mehr als die sichtbare Beplankung: Übersichtsplan aller Abschottungen mit Plaketten-Nummern, Fotos **vor** dem Schließen der Wand, Herstellerzulassungen und Freigaben der Fachbauleitung nach § 56 BauO NRW.",
+          "Ohne Dokumentation werden Abschottungen bei der [Abnahme nach Umbau](/ratgeber/brandschutz-abnahme-nach-umbau-koeln) nachgebessert – oft mit Aufstemmen der Beplankung. Fachbauleitung früh einbinden, nicht erst kurz vor Schlüsselübergabe.",
         ],
       },
       {
@@ -1035,6 +1065,14 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
       },
       {
+        id: "ablauf",
+        title: "Abstimmung mit Versorger und Feuerwehr",
+        paragraphs: [
+          "Löschwasser ist selten nur eine Berechnung im Konzept – in der Praxis braucht es Abstimmung: Versorgungsunternehmen (Druck, Durchfluss, Hydrantenlage), Feuerwehr (Erreichbarkeit, Zufahrt) und ggf. interne Sprinklerhydraulik als Ergänzung, nicht als Ersatz.",
+          "Bewährter Ablauf: Lageplan mit Hydranten → Anfrage Versorger → Ergebnis in Anhang D des Konzepts → Feuerwehr-Stellungnahme vor Einreichung. Details zur Feuerwehr-Reihenfolge: [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw). Unterlagenpaket: [Bauantrag Checkliste](/ratgeber/bauantrag-brandschutz-unterlagen-koeln).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -1147,6 +1185,14 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
       },
       {
+        id: "verantwortung",
+        title: "Wer erstellt und aktualisiert welchen Plan?",
+        paragraphs: [
+          "**Genehmigung:** Entwurfsverfasser und Brandschutzplaner – Rettungswege und Brandabschnitte in Konzept und Bauzeichnungen. **Feuerwehrplan DIN 14095:** Fachplaner/Fachfirma mit Abstimmung Feuerwehr – nicht die Behörde. **Fluchtplan ASR A2.3:** Betrieb/Arbeitsschutz, lagerichtig aushängen. **BSO DIN 14096:** Betrieb – ersetzt keine der Planarten.",
+          "Nach Umbau ist der **Betreiber** für Aktualisierung von ASR-Plänen und BSO verantwortlich; Feuerwehrplan und Konzept müssen zum genehmigten Stand passen. Vertiefung: [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -1250,6 +1296,20 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         paragraphs: [
           "Typisches Paket: Brandschutzkonzept mit Brandlasten Medizintechnik, Rettungswege, ggf. § 69-Abweichungen, BMA/Löschwasser, Feuerwehrplan, Abstimmung mit Krankenhausträger bei gemeinsamer Erschließung.",
           "Nach Eröffnung: ASR A2.3-Pläne, BSO, Unterweisung – getrennt vom bauordnungsrechtlichen Nachweis.",
+        ],
+      },
+      {
+        id: "fehler",
+        title: "Typische Fehler beim Bildgebungs-Umbau",
+        paragraphs: [
+          "Bei MR/CT-Umbauten und Praxiszusammenlegungen wiederholen sich dieselben Planungsfehler:",
+        ],
+        list: [
+          "Wartezonen und Patientenzahlen im Konzept unterschätzt",
+          "Strahlenschutzwände mit Rettungswegen verwechselt – T30-RS und Brandabschnitt getrennt prüfen",
+          "Krankenhaus-Erschließung nicht dokumentiert bei gemeinsam genutzten Fluren",
+          "Nur Medizintechnik-Freigabe, kein brandschutztechnischer Nachweis für Bauaufsicht",
+          "BSO und Fluchtplan vor Genehmigung verwechselt – Betriebsunterlagen ersetzen kein BSK",
         ],
       },
       {
@@ -1360,6 +1420,20 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
       },
       {
+        id: "fehler",
+        title: "Typische Fehler bei Technikgebäuden",
+        paragraphs: [
+          "Auch bei GK 1 und kleinen Gebäuden scheitern Projekte an wiederkehrenden Punkten:",
+        ],
+        list: [
+          "NEA und Trafostation ohne innere F90-Trennung geplant",
+          "Diesel-Vorratsbehälter ohne TRGS-/Brandschutz-Abstimmung",
+          "Löschwasser nur „Hydrant in der Nähe“ ohne Nachweis",
+          "Kein Feuerwehrplan für Wartungspersonal trotz Aufenthaltsflächen",
+          "GK 1 angenommen → Sonderbau-Anforderungen übersehen",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -1410,73 +1484,110 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     slug: "bauantrag-brandschutz-unterlagen-koeln",
     title: "Bauantrag: Brandschutz-Unterlagen-Checkliste",
     excerpt:
-      "Konzept § 9, Pläne, Löschwasser, Betriebsbeschreibung – Vollständigkeit vor Zwischenbescheid.",
-    metaTitle: "Bauantrag Brandschutz Unterlagen",
+      "Was ins Genehmigungspaket gehört, wann Konzept oder Stellungnahme reicht und wie Sie Zwischenbescheide durch Vollständigkeit vermeiden – Checkliste für NRW.",
+    metaTitle: "Bauantrag Brandschutz Unterlagen | Checkliste NRW | H&S+",
     metaDescription:
-      "Brandschutz Bauantrag: Konzept, Pläne, Löschwasser. Checkliste NRW – H&S+.",
+      "Brandschutz Bauantrag NRW: Konzept § 9 BauPrüfVO, Pläne, Löschwasser, Betriebsbeschreibung. Checkliste vor Einreichung – H&S+.",
     keywords: [
       "Bauantrag Brandschutz Unterlagen",
       "Brandschutzkonzept einreichen",
       "Brandschutzpläne Genehmigung",
       "BauPrüfVO Konzept",
+      "Brandschutznachweis Bauantrag",
     ],
     sections: [
+      {
+        id: "einordnung",
+        title: "Wofür diese Checkliste gilt",
+        paragraphs: [
+          "Dieser Artikel ist die **Kurz-Checkliste** vor der Einreichung: Welche brandschutztechnischen Unterlagen ins Bauantrag-Paket gehören und welche Fragen Sie intern klären sollten. Er ersetzt nicht die behördliche Einordnung Ihres Vorhabens.",
+          "Rollen, Zuständigkeiten und typische Prüfpunkte der Bauaufsicht erklären wir ausführlich im Ratgeber [Bauaufsicht und Brandschutzunterlagen](/ratgeber/bauaufsicht-unterlagen-koeln). Hier geht es um **Vollständigkeit und einheitlichen Planstand** – die häufigsten Ursachen für Zwischenbescheide.",
+        ],
+      },
       {
         id: "paket",
         title: "Typisches Unterlagenpaket",
         paragraphs: [
-          "Für genehmigungspflichtige Vorhaben in NRW gehören regelmäßig dazu:",
+          "Für genehmigungspflichtige Vorhaben in NRW gehört zum brandschutztechnischen Nachweis nach § 9 BauPrüfVO NRW in der Regel Folgendes dazu – ergänzt um die Bauzeichnungen des Entwurfsverfassers:",
         ],
         list: [
-          "Brandschutzkonzept nach § 9 BauPrüfVO NRW (Kap. 1–4, Anhänge)",
-          "Brandschutzpläne / Visualisierung aller Geschosse",
-          "Baubeschreibung, Betriebsbeschreibung (Nutzung, Personen, Gefahrstoffe)",
-          "Nachweis Löschwasserversorgung",
-          "Nachweise BMA, Sprinkler, Abschottungen soweit relevant",
-          "Protokolle Planungsgespräche Feuerwehr/Bauamt",
+          "Brandschutzkonzept (Kap. 1–4, Maßnahmenkatalog, Anhänge A–D) oder brandschutztechnische Stellungnahme bei klar abgegrenztem Umbau",
+          "Brandschutzpläne / Visualisierung aller Geschosse mit Brandabschnitten, Rettungswegen, T30-RS-Abschlüssen und Technik",
+          "Baubeschreibung und Betriebsbeschreibung: Nutzung, Personenzahlen, Öffnungszeiten, Gefahrstoffe, Sonderbau-Einordnung",
+          "Nachweis Löschwasserversorgung (§§ 4–6, § 14 BauO NRW) – Hydranten, Versorgungsstärke oder technische Ersatzlösung",
+          "Nachweise zu BMA, Sprinkler, RWA, Abschottungen und Sonderbauten, soweit im Konzept vorgesehen",
+          "Protokolle oder schriftliche Stellungnahmen aus Planungsgesprächen mit Feuerwehr und Bauaufsicht (Anhang A im Konzept)",
+          "Bei Bestand: gültige Baugenehmigungen und frühere brandschutztechnische Nachweise zum Grundstück",
         ],
       },
       {
         id: "abgrenzung",
         title: "Konzept vs. Stellungnahme vs. § 64",
         paragraphs: [
-          "Sonderbau und große Gewerbe: fast immer vollständiges BSK. Kleine, klar abgegrenzte Umbauten: ggf. Stellungnahme. § 64 vereinfachtes Verfahren nur bei passender Einordnung in Anlage 1 BauPrüfVO – Behörde entscheidet.",
-          "Vollständigkeit und einheitlicher Planstand vermeiden Zwischenbescheid – siehe ausführlicher Ratgeber Bauaufsicht Unterlagen.",
+          "Die Behörde prüft, ob der Nachweis zum Umfang des Vorhabens passt – nicht ob „irgendein Papier“ beigelegt ist.",
+        ],
+        list: [
+          "Vollständiges Brandschutzkonzept: Sonderbau nach § 50 BauO NRW, wesentliche Nutzungsänderung, große Gewerbe- oder Versammlungsnutzungen, komplexe Rettungswege oder Technik",
+          "Brandschutztechnische Stellungnahme: kleiner, klar abgegrenzter Umbau (z. B. ein Brandabschnitt, begrenzte Fläche), wenn Bauaufsicht und Umfang das zulassen – Details im Artikel [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig)",
+          "§ 64 BauPrüfVO NRW (vereinfachtes Verfahren): nur bei passender Einordnung in Anlage 1 – z. B. bestimmte Ladenlokale; kein Ersatz für fehlenden Nachweis bei Sonderbau",
+          "Nicht zum Bauantrag: Brandschutzordnung DIN 14096, Fluchtpläne DIN 14095, BMA-Wartungsverträge – wichtig für den Betrieb, aber nicht der Genehmigungsnachweis",
+        ],
+      },
+      {
+        id: "nachweis",
+        title: "Was wofür – Nachweis-Logik",
+        paragraphs: [
+          "Im Verfahren verwechselt werden oft Genehmigungsunterlagen und Betriebsunterlagen. Für den Bauantrag zählt der brandschutztechnische Nachweis nach § 9 BauPrüfVO NRW; methodisch orientiert sich die Praxis an VdS 3547.",
+          "Das Konzept beschreibt baulichen und anlagentechnischen Brandschutz, Rettungswege, Brandabschnitte und ggf. Entrauchung. Pläne und Konzept müssen denselben Stand zeigen – Abweichungen zwischen Grundriss und Konzepttext sind eine der häufigsten Beanstandungen.",
+          "Die Übereinstimmungserklärung des Entwurfsverfassers nach § 7 BauPrüfVO NRW bestätigt, dass Antrag, Pläne und Fachnachweise zusammenpassen. Ohne sie bearbeitet die Behörde Nachreichungen oft nicht.",
         ],
       },
       {
         id: "ablauf",
-        title: "Ablauf",
+        title: "Ablauf bis zur Genehmigung",
         paragraphs: [
-          "Einreichung mit § 7 BauPrüfVO-Erklärung des Entwurfsverfassers, Fachbeteiligungen online, ggf. Zwischenbescheid, Nachreichung, Genehmigung mit Auflagen.",
+          "Typische Reihenfolge in der Praxis – nicht Gesetz, aber bewährt, um Widersprüche zu vermeiden:",
+        ],
+        list: [
+          "Vorab: Feuerwehr-Abstimmung bei zweitem Rettungsweg, Löschwasser oder Sonderbau – siehe [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw)",
+          "Erstellung des brandschutztechnischen Nachweises (Konzept oder Stellungnahme) auf Basis der Architekturpläne",
+          "Interner Abgleich: Konzept, Pläne, Betriebsbeschreibung, Löschwasser – ein Planstand, ein Datum",
+          "Einreichung Bauantrag inkl. § 7-Erklärung und Fachbeteiligungen (elektronisch über das Portal der zuständigen Bauaufsicht)",
+          "Prüfung Bauaufsicht, ggf. Beteiligung Feuerwehr und weiterer Stellen",
+          "Zwischenbescheid bei Lücken – Frist zur Nachreichung, Verfahren ruht bis zur Vollständigkeit",
+          "Genehmigung mit Auflagen oder Versagung bei nicht behebbaren Mängeln",
         ],
       },
       {
         id: "praxis",
         title: "Praxis: Zwischenbescheid vermeiden",
         paragraphs: [
-          "Typische Nachforderungen: Löschwassernachweis fehlt, Konzept und Pläne widersprechen sich, Betriebsbeschreibung ohne Personenzahlen, Feuerwehr nicht dokumentiert. Einheitlicher Planstand vor Einreichung spart Wochen – siehe Ratgeber Zwischenbescheid und Bauaufsicht Unterlagen.",
+          "Anonymisierter Musterfall aus Genehmigungspraxis: Umbau eines Gewerberaums im 2. OG (ca. 180 m²) zu Lagernutzung mit getrenntem Büro. Das Konzept beschrieb Rettungswege über das Treppenhaus; in den Architekturplänen fehlte jedoch die T30-RS-Kennzeichnung zur notwendigen Treppe, und der Löschwassernachweis bezog sich auf ein benachbartes Grundstück ohne Hydrantenplan im Paket. Ergebnis: Zwischenbescheid mit vier Wochen Frist – Planstand musste angeglichen, Hydrantenlage nachgewiesen und die Feuerwehr-Stellungnahme als Anhang A nachgereicht werden.",
+          "Typische Nachforderungen unabhängig vom Objekt: fehlender Löschwassernachweis, widersprüchliche Rettungswegführung zwischen Konzept und Plan, Betriebsbeschreibung ohne Personenzahlen, fehlende Geschosse oder Schnitte in den Brandschutzplänen, Feuerwehr erst nach Einreichung konsultiert. Mehr zu Fristen und Nachreichung: [Zwischenbescheid Brandschutz](/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln).",
         ],
       },
       {
         id: "checkliste",
         title: "Kurz-Checkliste vor Einreichung",
         paragraphs: [
-          "Vor dem Bauantrag sollten Sie diese Fragen intern beantworten können:",
+          "Vor dem Absenden sollten Planer, Bauherr oder Sachverständiger diese Punkte mit Ja beantworten können:",
         ],
         list: [
-          "Konzept und Pläne zeigen denselben Stand?",
-          "Löschwasser nachgewiesen?",
-          "Feuerwehr informiert/abgestimmt?",
-          "Betriebsbeschreibung vollständig?",
-          "Alle Geschosse und Schnitte beigefügt?",
+          "Brandschutznachweis (Konzept oder Stellungnahme) deckt den **gesamten** Antragsgegenstand ab?",
+          "Konzept, Bauzeichnungen und Betriebsbeschreibung zeigen **denselben Planstand** (Datum, Nutzung, Flächen)?",
+          "Alle Geschosse, Schnitte und Brandabschnitte sind in Plänen oder Konzeptanhang dargestellt?",
+          "Löschwasser ist nachgewiesen oder eine technische Ersatzlösung im Konzept begründet?",
+          "Feuerwehr-Stellungnahme oder Planungsgespräch ist dokumentiert, wenn Rettungswege oder Zufahrt davon abhängen?",
+          "§ 7 BauPrüfVO-Erklärung des Entwurfsverfassers liegt für das Gesamtpaket vor?",
+          "Bestandsgenehmigungen und frühere BSK/Stellungnahmen sind beigefügt, wenn Bestand betroffen ist?",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Kommunale Verfahren (z. B. Vorgangsauskunft+) ändern nicht die inhaltlichen Pflichten – nur die Übermittlung.",
+          "Diese Checkliste ersetzt keine behördliche Einordnung (Sonderbau ja/nein, § 64, Auflagen). Kommunale Online-Portale ändern nur die **Übermittlung**, nicht die inhaltlichen Pflichten nach BauO NRW und BauPrüfVO NRW.",
+          "Ob Ihr Vorhaben ein vollständiges Konzept braucht, hängt von Nutzung, Personenzahlen, Gebäudeklasse und Sonderbau ab – im Zweifel vor Einreichung fachlich klären, nicht erst nach Zwischenbescheid.",
         ],
       },
     ],
@@ -1484,38 +1595,39 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht ausführlich" },
       { href: "/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln", label: "Zwischenbescheid" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
-      { href: "/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln", label: "§ 64 Imbiss" },
+      { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor dem Bauamt" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept erstellen" },
     ],
     faq: [
       {
-        question: "Reicht nur eine Stellungnahme?",
+        question: "Reicht beim Bauantrag nur eine Stellungnahme?",
         answer:
-          "Bei genehmigungspflichtigen Sonderbauten meist nein – vollständiges Konzept.",
+          "Bei genehmigungspflichtigen Sonderbauten und wesentlichen Nutzungsänderungen in der Regel nein – dann ist ein vollständiges Brandschutzkonzept mit Anhängen üblich. Eine Stellungnahme passt nur bei kleinem, klar abgegrenztem Umbau, wenn die Bauaufsicht den Umfang akzeptiert. Einordnung: [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig).",
       },
       {
-        question: "Wer erstellt das Konzept?",
+        question: "Wer erstellt und unterschreibt den Nachweis?",
         answer:
-          "Brandschutz-Ingenieur/Sachverständiger – nicht die Feuerwehr.",
+          "Erstellt wird der brandschutztechnische Nachweis durch einen qualifizierten Brandschutz-Ingenieur oder Sachverständigen – nicht durch die Feuerwehr. Unterschrieben wird mit der Übereinstimmungserklärung nach § 7 BauPrüfVO NRW durch den Entwurfsverfasser (Architekt/Ingenieur), der Antrag, Pläne und Fachnachweise für zusammenpassend erklärt.",
       },
       {
-        question: "Was bei fehlendem Löschwasser?",
+        question: "Was passiert bei fehlendem Löschwasser?",
         answer:
-          "Technische Ersatzlösung oder Objektschutz im Konzept nachweisen – sonst Zwischenbescheid.",
+          "Ohne Nachweis zur Löschwasserversorgung (§§ 4–6, § 14 BauO NRW) ist das Paket meist unvollständig. Dann technische Ersatzlösung, Objektschutz oder Versorgungsnachweis im Konzept – sonst fast sicher Zwischenbescheid. Details: [Löschwasser Gewerbe](/ratgeber/loeschwasser-hydranten-gewerbe-koeln).",
       },
       {
-        question: "Müssen alle Geschosse im Brandschutzplan sein?",
+        question: "Müssen alle Geschosse in den Brandschutzplänen sein?",
         answer:
-          "Ja – jeder Aufenthalts- und Nutzungsbereich, Schnitte und Brandabschnitte. Fehlende Geschosse sind häufige Zwischenbescheid-Ursache.",
+          "Ja – jeder Aufenthalts- und Nutzungsbereich im Antragsgegenstand, dazu Schnitte, Brandabschnitte und Rettungswege. Fehlende Geschosse (häufig Keller oder DG) sind eine der top Zwischenbescheid-Ursachen, auch wenn nur ein Obergeschoss umgebaut wird, aber die Erschließung darunter liegt.",
       },
       {
-        question: "Wer unterschreibt das Konzept?",
+        question: "Brauche ich schon eine Brandschutzordnung zum Bauantrag?",
         answer:
-          "Entwurfsverfasser nach § 7 BauPrüfVO NRW – Brandschutz-Ingenieur/Sachverständiger, nicht die Feuerwehr.",
+          "Nein. Die BSO nach DIN 14096 und Fluchtpläne nach DIN 14095 gehören zum **Betrieb**, nicht zum Genehmigungsnachweis. Zum Bauantrag zählt der Nachweis nach § 9 BauPrüfVO NRW (Konzept/Stellungnahme) plus passende Bauzeichnungen.",
       },
       {
-        question: "Was ist eine Betriebsbeschreibung?",
+        question: "Was muss in der Betriebsbeschreibung stehen?",
         answer:
-          "Nutzung, Personen, Gefahrstoffe, Öffnungszeiten – Grundlage für Sonderbau-Einordnung und Konzept.",
+          "Nutzungsart, Personenzahlen (maximal und typisch), Öffnungszeiten, Gefahrstoffe, betriebliche Abläufe – Grundlage für Sonderbau-Einordnung und Brandschutzkonzept. Fehlende Personenzahlen führen regelmäßig zu Nachforderungen, weil Rettungswege und Brandabschnitte davon abhängen.",
       },
     ],
   },

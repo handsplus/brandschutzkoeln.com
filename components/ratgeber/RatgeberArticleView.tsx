@@ -6,6 +6,8 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { SeoLandingLinks } from "@/components/sections/SeoLandingLinks";
 import { RATGEBER_EDITORIAL } from "@/lib/ratgeber-article-meta";
+import { renderRatgeberText } from "@/lib/ratgeber-text";
+import { cn } from "@/lib/utils";
 
 const linkClass =
   "text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red";
@@ -42,23 +44,50 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
 
       <section className="bg-stone-50 py-16 sm:py-20">
         <div className="container-narrow space-y-14">
-          {article.sections.map((section) => (
-            <article key={section.id} id={section.id} className="scroll-mt-24">
+          {article.sections.map((section) => {
+            const isChecklist = section.id === "checkliste";
+
+            return (
+            <article
+              key={section.id}
+              id={section.id}
+              className={cn(
+                "scroll-mt-24",
+                isChecklist && "rounded-xl border border-brand-red/20 bg-white p-6 shadow-sm sm:p-8"
+              )}
+            >
               <h2 className="text-xl font-bold text-stone-900 sm:text-2xl">{section.title}</h2>
               {section.paragraphs.map((p) => (
                 <p key={p.slice(0, 48)} className="mt-4 text-stone-600">
-                  {p}
+                  {renderRatgeberText(p)}
                 </p>
               ))}
               {section.list && section.list.length > 0 ? (
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-stone-600" role="list">
+                <ul
+                  className={cn(
+                    "mt-4 space-y-2 pl-5 text-stone-600",
+                    isChecklist ? "list-none pl-0" : "list-disc"
+                  )}
+                  role="list"
+                >
                   {section.list.map((item) => (
-                    <li key={item}>{item}</li>
+                    <li
+                      key={item}
+                      className={cn(isChecklist && "flex gap-3 rounded-lg border border-stone-200 bg-stone-50 px-4 py-3")}
+                    >
+                      {isChecklist ? (
+                        <span className="mt-0.5 shrink-0 text-brand-red" aria-hidden>
+                          ✓
+                        </span>
+                      ) : null}
+                      <span>{renderRatgeberText(item)}</span>
+                    </li>
                   ))}
                 </ul>
               ) : null}
             </article>
-          ))}
+            );
+          })}
 
           {article.faq.length > 0 ? (
             <section aria-labelledby="ratgeber-faq">
@@ -67,7 +96,7 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
                 {article.faq.map(({ question, answer }) => (
                   <div key={question}>
                     <dt className="font-semibold text-stone-900">{question}</dt>
-                    <dd className="mt-2 text-stone-600">{answer}</dd>
+                    <dd className="mt-2 text-stone-600">{renderRatgeberText(answer)}</dd>
                   </div>
                 ))}
               </dl>

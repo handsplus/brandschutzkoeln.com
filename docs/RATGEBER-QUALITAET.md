@@ -78,45 +78,45 @@ Stand manuell pflegen. Skala: **—** offen | **~6** Basis | **~8** überarbeite
 
 | Slug | Status | Notiz |
 |------|--------|-------|
-| `gebaeudeklassen-brandschutz-bauo-nrw` | ~10 | Referenz GK |
-| `sonderbauten-brandschutz` | ~10 | Referenz § 50 |
-| `sonderbauten-geregelt-ungeregelt-bauo-nrw` | ~10 | Referenz SBauVO ja/nein |
-| `brandschutzkonzept-wann-noetig` | ~10 | Referenz Nachweise |
-| `flucht-und-rettungswege-bauo-nrw` | ~10 | Referenz § 33, Pläne-Abgrenzung (Mai 2026) |
-| `umbau-nutzungsaenderung-brandschutz` | ~10 | Referenz-Umbau/Nutzungsänderung |
-| `bauaufsicht-unterlagen-koeln` | ~10 | Rollen, Nachweis, Praxis Zwischenbescheid |
-| `sprinkler-trockenbau-nutzungsaenderung-bauo-nrw` | ~10 | Studio UG, Varianten A–C |
-| `feuerwehr-abstimmung-vor-bauamt-bauo-nrw` | ~10 | FW vor BA, §§ 33/4–6, BMA-TAB-Abgrenzung |
-| `escape-room-brandschutzordnung-fluchtplan` | ~10 | BSO/Pläne, Verriegelungen, § 50 |
-| `zweiter-rettungsweg-dachfenster-bauo-nrw` | ~10 | § 33/34, FW-Begehung, Legalisierung |
-| `fluchtplan-feuerwehrplan-aktualisieren-gewerbe` | ~10 | BauO vs ASR A2.3 vs DIN 14095 |
-| `arztpraxen-zusammenlegen-brandschutz-koeln` | ~10 | GK 5, § 33, Stellungnahme oder BSK, Praxisfall 2. OG |
-| `zwischenbescheid-brandschutz-bauamt-koeln` | ~10 | Praxis+Lager, § 7 BauPrüfVO, 2 Fälle |
-| `imbiss-ladenlokal-nutzungsaenderung-koeln` | ~10 | Stellungnahme-Fall 65 m², § 29/64, Küche/Grill |
-| `eilbegehung-brandschutz-restaurant-gewerbe-koeln` | ~10 | Betrieb vs BA/FW, Fall 90 m² |
-| `feuerloescher-gastronomie-koeln` | ~10 | ASR A2.2 LE/F, Abgrenzung BauO |
-| `teilsanierung-buero-brandschutz-koeln` | ~10 | GK5/Sonderbau Büro, BMA, ASR A2.3 |
-| `bestandsschutz-technische-sanierung-bauo-nrw` | ~10 | § 59 vs § 83 vs Teilsanierung |
+| `gebaeudeklassen-brandschutz-bauo-nrw` | 10 | Referenz GK |
+| `sonderbauten-brandschutz` | 10 | Referenz § 50 |
+| `sonderbauten-geregelt-ungeregelt-bauo-nrw` | 10 | Referenz SBauVO ja/nein |
+| `brandschutzkonzept-wann-noetig` | 10 | Referenz Nachweise |
+| `flucht-und-rettungswege-bauo-nrw` | 10 | Referenz § 33, Pläne-Abgrenzung (Mai 2026) |
+| `umbau-nutzungsaenderung-brandschutz` | 10 | Referenz-Umbau/Nutzungsänderung |
+| `bauaufsicht-unterlagen-koeln` | 10 | Rollen, Nachweis, Praxis Zwischenbescheid |
+| `sprinkler-trockenbau-nutzungsaenderung-bauo-nrw` | 10 | Studio UG, Varianten A–C |
+| `feuerwehr-abstimmung-vor-bauamt-bauo-nrw` | 10 | FW vor BA, §§ 33/4–6, BMA-TAB-Abgrenzung |
+| `escape-room-brandschutzordnung-fluchtplan` | 10 | BSO/Pläne, Verriegelungen, § 50 |
+| `zweiter-rettungsweg-dachfenster-bauo-nrw` | 10 | § 33/34, FW-Begehung, Legalisierung |
+| `fluchtplan-feuerwehrplan-aktualisieren-gewerbe` | 10 | BauO vs ASR A2.3 vs DIN 14095 |
+| `arztpraxen-zusammenlegen-brandschutz-koeln` | 10 | GK 5, § 33, Stellungnahme oder BSK, Praxisfall 2. OG |
+| `zwischenbescheid-brandschutz-bauamt-koeln` | 10 | Praxis+Lager, § 7 BauPrüfVO, 2 Fälle |
+| `imbiss-ladenlokal-nutzungsaenderung-koeln` | 10 | Stellungnahme-Fall 65 m², § 29/64, Küche/Grill |
+| `eilbegehung-brandschutz-restaurant-gewerbe-koeln` | 10 | Betrieb vs BA/FW, Fall 90 m² |
+| `feuerloescher-gastronomie-koeln` | 10 | ASR A2.2 LE/F, Abgrenzung BauO |
+| `teilsanierung-buero-brandschutz-koeln` | 10 | GK5/Sonderbau Büro, BMA, ASR A2.3 |
+| `bestandsschutz-technische-sanierung-bauo-nrw` | 10 | § 59 vs § 83 vs Teilsanierung |
 
 ### `content/ratgeber-articles-batch2.ts` (13 Artikel)
 
 | Slug | Status | Notiz |
 |------|--------|-------|
-| `feuerschutztueren-bestand-ertuechtigung-koeln` | ~9 | T30-RS, DIBt, Gutachten GK5 (Mai 2026) |
-| `brandschutz-abnahme-nach-umbau-koeln` | ~9 | SV-Abnahme, Unterlagenpaket (Mai 2026) |
-| `brandschau-koeln-feuerwehr` | ~9 | Abgrenzung, Praxis-Mängel (Mai 2026) |
-| `fachbauleitung-brandschutz-baustelle-koeln` | ~9 | § 56, Bescheinigung (Mai 2026) |
-| `lagerhalle-buero-umnutzung-koeln` | ~9 | Halle→Büro, Stellungnahme oder Konzept (Mai 2026) |
-| `sprinkler-rueckbau-bma-nutzungsaenderung-koeln` | ~9 | Fortschreibung, Teilstilllegung (Mai 2026) |
-| `kraftstoff-lagerung-halle-garage-brandschutz` | ~9 | TRGS 510, Stellungnahme oder Konzept (Mai 2026) |
-| `abschottungen-durchbrueche-baustelle-koeln` | ~9 | Ü-Zulassung, MLAR (Mai 2026) |
-| `loeschwasser-hydranten-gewerbe-koeln` | ~9 | Grund-/Objektschutz (Mai 2026) |
-| `feuerwehrplan-fluchtplaene-pflicht-koeln` | ~9 | Drei Planarten (Mai 2026) |
-| `praxis-umbau-brandschutz-koeln` | ~9 | Bildgebung, Nachweise (Mai 2026) |
-| `technische-betriebsgebaeude-brandschutz-nrw` | ~10 | NEA-Campus-Praxis, GK1 (Mai 2026) |
-| `bauantrag-brandschutz-unterlagen-koeln` | ~9 | Checkliste, Zwischenbescheid (Mai 2026) |
+| `feuerschutztueren-bestand-ertuechtigung-koeln` | 10 | T30-RS, DIBt, Gutachten GK5 (Mai 2026) |
+| `brandschutz-abnahme-nach-umbau-koeln` | 10 | SV-Abnahme, Unterlagenpaket (Mai 2026) |
+| `brandschau-koeln-feuerwehr` | 10 | Abgrenzung, Praxis-Mängel (Mai 2026) |
+| `fachbauleitung-brandschutz-baustelle-koeln` | 10 | § 56, Bescheinigung (Mai 2026) |
+| `lagerhalle-buero-umnutzung-koeln` | 10 | Halle→Büro, Stellungnahme oder Konzept (Mai 2026) |
+| `sprinkler-rueckbau-bma-nutzungsaenderung-koeln` | 10 | Fortschreibung, Ablauf Abnahme (Mai 2026) |
+| `kraftstoff-lagerung-halle-garage-brandschutz` | 10 | TRGS 510, Typische Fehler (Mai 2026) |
+| `abschottungen-durchbrueche-baustelle-koeln` | 10 | Ü-Zulassung, Nachweise Abnahme (Mai 2026) |
+| `loeschwasser-hydranten-gewerbe-koeln` | 10 | Versorger/FW-Ablauf (Mai 2026) |
+| `feuerwehrplan-fluchtplaene-pflicht-koeln` | 10 | Verantwortlichkeiten Planarten (Mai 2026) |
+| `praxis-umbau-brandschutz-koeln` | 10 | Bildgebung, Typische Fehler (Mai 2026) |
+| `technische-betriebsgebaeude-brandschutz-nrw` | 10 | NEA-Campus, Typische Fehler (Mai 2026) |
+| `bauantrag-brandschutz-unterlagen-koeln` | 10 | Checkliste, Musterfall, Inline-Links (Mai 2026) |
 
-**Gesamt: 32 Artikel** · **19× ~10** (Referenz + Hauptblock) · **13× ~9** (Batch 2, Mai 2026)
+**Gesamt: 32 Artikel · 32× 10/10** (Mai 2026)
 
 ---
 
