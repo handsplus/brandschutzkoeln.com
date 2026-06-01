@@ -79,6 +79,10 @@ export default function BrandschutzbeauftragterKoelnPage() {
               Aufgaben des BSB
             </Link>
             ,{" "}
+            <Link href="/ratgeber/externer-brandschutzbeauftragter-koeln" className="text-brand-red font-medium hover:underline">
+              Externer BSB
+            </Link>
+            ,{" "}
             <Link href="/ratgeber/umbau-nutzungsaenderung-brandschutz" className="text-brand-red font-medium hover:underline">
               Brandschutz bei Umbau
             </Link>

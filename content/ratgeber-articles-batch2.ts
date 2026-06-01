@@ -1788,6 +1788,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
       { href: "/ratgeber/feuerloescher-gastronomie-koeln", label: "Feuerlöscher ASR A2.2" },
       { href: "/ratgeber/aufgaben-brandschutzbeauftragter-koeln", label: "Aufgaben des BSB" },
+      { href: "/ratgeber/externer-brandschutzbeauftragter-koeln", label: "Externer BSB" },
       { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
@@ -2023,7 +2024,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     ],
     relatedLinks: [
       { href: "/ratgeber/bestellung-brandschutzbeauftragter-nrw", label: "BSB bestellen" },
-      { href: "/brandschutzbeauftragter-koeln", label: "Externer Brandschutzbeauftragter" },
+      { href: "/ratgeber/externer-brandschutzbeauftragter-koeln", label: "Externer BSB Köln" },
+      { href: "/brandschutzbeauftragter-koeln", label: "Leistung Brandschutzbeauftragter" },
       { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung" },
       { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer" },
       { href: "/ratgeber/escape-room-brandschutzordnung-fluchtplan", label: "BSO & Pläne" },
@@ -2067,6 +2069,211 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         question: "Was ist der Unterschied zwischen Aufgabe 13 und einer Eilbegehung?",
         answer:
           "Aufgabe 13 umfasst behördliche Brandschauen und planmäßige interne Begehungen im Rahmen der BSB-Tätigkeit. Eine Eilbegehung ist ein freiwilliger Ist-Check vor Investitionen durch den Arbeitgeber – organisatorisch verwandt, aber kein Ersatz für die BSB-Aufgaben im Bestellungsschreiben.",
+      },
+    ],
+  },
+  {
+    slug: "externer-brandschutzbeauftragter-koeln",
+    title: "Externer Brandschutzbeauftragter in Köln: wann, wie und was er leistet",
+    excerpt:
+      "Intern oder extern? Wann ein externer Brandschutzbeauftragter in Köln und NRW sinnvoll ist, was im Vertrag stehen muss, wie er mit Planer, Brandschutzhelfer und Behörde zusammenarbeitet – nach DGUV 205-003, ohne die Pflichten des Arbeitgebers zu ersetzen.",
+    metaTitle: "Externer Brandschutzbeauftragter Köln | H&S+",
+    metaDescription:
+      "Externer Brandschutzbeauftragter Köln: intern vs. extern, Vertrag, Qualifikation DGUV 205-003, Sonderbau. Abgrenzung Planer & BSH. Ratgeber H&S+ NRW.",
+    keywords: [
+      "externer Brandschutzbeauftragter Köln",
+      "Brandschutzbeauftragter Köln extern",
+      "Brandschutzbeauftragter extern beauftragen",
+      "DGUV 205-003 extern",
+      "Brandschutzbeauftragter KMU",
+      "Brandschutzbeauftragter Gastronomie",
+    ],
+    sections: [
+      {
+        id: "einordnung",
+        title: "Was ein externer Brandschutzbeauftragter ist",
+        paragraphs: [
+          "Ein **externer Brandschutzbeauftragter (BSB)** übernimmt die betriebliche Brandschutzorganisation **nicht als Beschäftigter**, sondern auf Vertragsbasis – beratend und organisatorisch für den Unternehmer. Er ersetzt weder die **Arbeitgeberpflicht** noch Genehmigung, Konzept oder Abnahme durch Planer und Sachverständige.",
+          "Rechtlich ist er derselbe BSB wie intern: schriftliche **Bestellung** nach DGUV Information 205-003, definierte Aufgaben, Rahmenbedingungen und Qualifikation. Der Unterschied liegt in **Vertrag, Erreichbarkeit und Einbindung** in Ihren Betrieb – nicht in einer „leichteren“ Pflicht.",
+          "Vertiefung: [BSB bestellen](/ratgeber/bestellung-brandschutzbeauftragter-nrw) · [Aufgaben nach DGUV](/ratgeber/aufgaben-brandschutzbeauftragter-koeln) · Leistung [Brandschutzbeauftragter Köln](/brandschutzbeauftragter-koeln).",
+        ],
+      },
+      {
+        id: "intern-extern",
+        title: "Intern oder extern – wann was sinnvoll ist",
+        paragraphs: [
+          "Die DGUV Information 205-003 sieht vor: Stehen **keine qualifizierten eigenen Kräfte** zur Verfügung oder ist Aus- und Fortbildung zum BSB **nicht wirtschaftlich**, wird extern beauftragt. In der Praxis in NRW ist das bei KMU, Gastronomie, Praxen, Studios und vielen Sonderbauten die Regel.",
+        ],
+        list: [
+          "**Extern sinnvoll:** wenig Personal, hohe Besucherzahl, Sonderbau-Auflage mit BSO und Plänen, mehrere Standorte, fehlende Fortbildungskapazität, behördliche oder versicherungsseitige Erwartung an professionelle Betreuung",
+          "**Intern möglich:** größerer Betrieb mit Facility/Arbeitsschutz, regelmäßiger Fortbildung nach DGUV Kapitel 8 und ausreichender Freistellung – oft in Industrie mit eigener Technikorganisation",
+          "**Hybrid:** interner Ansprechpartner plus externer BSB für Begehungen, BSO-Fortschreibung oder Übungen – im Bestellungsschreiben klar trennen",
+        ],
+      },
+      {
+        id: "pflicht-sonderbau",
+        title: "Pflicht durch Sonderbau, Konzept oder Arbeitsschutz",
+        paragraphs: [
+          "Ein externer BSB ist **keine eigene Rechtsfigur** – entscheidend ist, **ob** überhaupt ein BSB gebraucht wird:",
+          "**Baurecht (NRW):** Bei **Sonderbauten** nach § 50 BauO NRW kann die Bestellung im **Brandschutzkonzept** oder in der Baugenehmigung stehen – dann ist sie verbindlich, intern oder extern.",
+          "**Arbeitsschutz:** Nach **ASR A2.2** und Gefährdungsbeurteilung kann bei erhöhter Brandgefährdung die Benennung geboten sein – unabhängig vom Sonderbau.",
+          "**Vertraglich:** Versicherer oder Vermieter können einen BSB verlangen; extern ist dann oft der schnellste Weg zur Nachweisführung.",
+          "Mehr zur Sonderbau-Einordnung: [Sonderbauten § 50](/ratgeber/sonderbauten-brandschutz). Ob ein Konzept nötig ist: [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig).",
+        ],
+      },
+      {
+        id: "abgrenzung-rollen",
+        title: "Abgrenzung: Planer, Sachverständiger, BSH, Manager",
+        paragraphs: [
+          "Bei externer Beauftragung werden Rollen besonders oft vermischt – für Prüfungen und Haftungsthemen sollten Sie trennen:",
+        ],
+        list: [
+          "**Externer BSB:** laufende Betriebsorganisation – BSO, Pläne aktuell, Begehungen, Übungen, Mängel, Unterweisungskonzept, Jahresbericht",
+          "**Brandschutzplaner / Sachverständiger:** Konzept, Stellungnahme, Abnahme nach Umbau – **Bauphase und Genehmigung**, nicht Dauerbetreuung",
+          "**Brandschutzhelfer (ASR A2.2):** Erstbekämpfung im Brandfall – der BSB organisiert Ausbildung und Einsatz, ersetzt keine BSH",
+          "**Brandschutzmanager (VdS o. Ä.):** andere Qualifikationslinie – kann komplementär sein, ist nicht automatisch BSB nach DGUV 205-003; im Bestellungsschreiben klar benennen",
+          "**Arbeitgeber:** bleibt verantwortlich – der externe BSB berät, weist nicht disziplinarisch an",
+        ],
+      },
+      {
+        id: "vertrag",
+        title: "Vertrag, Bestellung und Schnittstellen",
+        paragraphs: [
+          "Zwei Ebenen gehören zusammen: der **Dienstleistungsvertrag** (Umfang, Honorar, Laufzeit, Kündigung) und das **Bestellungsschreiben** nach DGUV Anlage 1 (Aufgaben, Zuständigkeit, Weisungsfreiheit). Ohne Bestellungsschreiben fehlt der Nachweis gegenüber Behörde und Versicherer – der Vertrag allein reicht nicht.",
+          "Im Vertrag und in der Bestellung sollten festliegen:",
+        ],
+        list: [
+          "**Zuständigkeitsbereich** – Standorte, Gebäude, Nutzungen",
+          "**Übertragene Aufgaben** – nicht pauschal „alle 26“, sondern passend zum Betrieb (Orientierung: [Aufgabenliste](/ratgeber/aufgaben-brandschutzbeauftragter-koeln))",
+          "**Schnittstellen** – Geschäftsführung, Arbeitsschutz, Facility, TGA, ggf. Hausverwaltung",
+          "**Reaktionszeiten** – bei Mängeln aus [Brandschau](/ratgeber/brandschau-koeln-feuerwehr), behördlichen Fristen, Störungen an BMA oder Sprinkler",
+          "**Umbauten und Nutzungsänderungen** – wann der BSB einbindet und wann ein Konzept/Stellungnahme nötig ist: [Umbau Brandschutz](/ratgeber/umbau-nutzungsaenderung-brandschutz)",
+          "**Dokumentation** – Begehungsprotokolle, Jahresbericht, Herausgabe bei Wechsel des Dienstleisters",
+        ],
+      },
+      {
+        id: "qualifikation",
+        title: "Qualifikation und Auswahl",
+        paragraphs: [
+          "Extern heißt nicht „jeder mit Brandschutz-Erfahrung“. Die DGUV Information 205-003 verlangt **Person** (Kapitel 4) und **Ausbildung** (Kapitel 5) – kompetenzorientiert, nicht nur ein Kurzseminar.",
+          "Bei der Auswahl prüfen Sie:",
+        ],
+        list: [
+          "Nachweis der Ausbildung und regelmäßige **Fortbildung** (Kapitel 8)",
+          "Erfahrung mit Ihrer **Branche** (Gastronomie, Praxis, Lager, Versammlungsstätte)",
+          "Kenntnis von **BSO nach DIN 14096**, ASR-Fluchtplänen und **DIN 14095** Feuerwehrplan – siehe [Planarten](/ratgeber/feuerwehrplan-fluchtplaene-pflicht-koeln)",
+          "Transparente **Abgrenzung**, wenn derselbe Anbieter auch Konzeptautor ist",
+          "Referenzen oder beschreibbare Praxisfälle – ohne erfundene Aktenzeichen",
+        ],
+      },
+      {
+        id: "leistungsumfang",
+        title: "Typischer Leistungsumfang in Köln und NRW",
+        paragraphs: [
+          "Der konkrete Umfang folgt aus Bestellungsschreiben und Gefährdung – typisch für einen externen BSB in besucherintensiven Gewerbebetrieben. Das ist **Betriebsorganisation**, nicht die Erstellung des genehmigungsrelevanten Brandschutzkonzepts; nach Umbau oder Nutzungsänderung bleibt der Planer oder Sachverständige für den Nachweis zuständig:",
+        ],
+        list: [
+          "Regelmäßige **Begehungen** und Mängelverfolgung mit Priorisierung für die Geschäftsführung",
+          "**Fortschreibung** der Brandschutzordnung und Abstimmung der **Flucht- und Feuerwehrpläne** zum Ist-Stand",
+          "Vorbereitung und Nachbereitung der **Brandschau**; interne Übungen planen",
+          "Konzept zur **Brandschutzhelfer**-Ausbildung; Abstimmung mit [Feuerlöscher-Vorgaben](/ratgeber/feuerloescher-gastronomie-koeln)",
+          "**Jahresbericht** und Einbindung in Investitionsentscheidungen (Umbau, Anmietung, Trockenbau)",
+        ],
+      },
+      {
+        id: "kosten",
+        title: "Kosten und Wirtschaftlichkeit",
+        paragraphs: [
+          "Honorare hängen von Betriebsgröße, Gefährdung, Besucherzahl, Anzahl Standorte und übertragenen Aufgaben ab – pauschale Preislisten sind selten seriös. Wirtschaftlich verglichen wird extern oft mit **Freistellung einer Fachkraft**, Fortbildungskosten und Haftungsrisiko bei unqualifizierter interner Lösung.",
+          "Sinnvoll ist ein **schlankes Aufgabenpaket** mit klarer Erweiterung bei Umbau oder Sonderbau-Auflage – statt „Vollprogramm“ ohne Freistellung. Die Erstberatung klärt Umfang; dieser Ratgeber nennt keine Preise, weil jedes Objekt andere Anforderungen hat.",
+        ],
+      },
+      {
+        id: "behoerde",
+        title: "Behörde, Versicherer und Wechsel des BSB",
+        paragraphs: [
+          "Ist die BSB-Bestellung **Auflage aus dem Genehmigungsverfahren**, sind **Name und Wechsel** der Genehmigungsbehörde auf Verlangen mitzuteilen – unabhängig davon, ob intern oder extern. Bereithalten: Bestellungsschreiben, Qualifikationsnachweis, Einweisungsprotokoll, Jahresbericht.",
+          "Bei Wechsel des externen Dienstleisters brauchen Sie eine **neue Bestellung** und aktualisierte Unterlagen; BSO und Pläne müssen nahtlos fortgeschrieben werden. Die Feuerversicherung und die Berufsgenossenschaft können parallel Nachweise verlangen – der externe BSB ist hier oft die zentrale Schnittstelle.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Gastronomie mit BSB-Auflage und externem Dienstleister",
+        paragraphs: [
+          "Typischer Ablauf in NRW: Restaurant oder Imbiss mit Sonderbau-Einordnung erhält Baugenehmigung mit Auflage „Bestellung Brandschutzbeauftragter“. Statt eines Servicekraft-Titels wird ein **externer BSB** vertraglich gebunden: Bestellungsschreiben mit Schwerpunkten BSO, Pläne, Begehungen, BSH, Jahresbericht; monatliche oder quartalsweise Begehung; Einweisung mit Konzept und Genehmigungsunterlagen.",
+          "Vor der ersten **Brandschau** werden häufige Mängel bereinigt: blockierte Rettungswege, fehlende Kennzeichnung, veraltete Fluchtpläne nach Umbau der Theke. Der externe BSB dokumentiert Maßnahmen – die Geschäftsführung setzt sie um.",
+          "Typische Fehler: nur Vertrag ohne Bestellungsschreiben; kein Budget für Pläne nach Trockenbau; BSB ohne Zugang zur Küche und zum Technikraum; gleicher Anbieter schreibt Konzept und kontrolliert sich selbst ohne transparente Rollentrennung.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Checkliste: externen BSB beauftragen",
+        paragraphs: [
+          "Vor Unterschrift von Vertrag und Bestellung:",
+        ],
+        list: [
+          "Ist geklärt, **ob** ein BSB Pflicht ist ([Bestellung](/ratgeber/bestellung-brandschutzbeauftragter-nrw))?",
+          "Sind **Aufgaben** schlank aber vollständig für Ihren Betrieb definiert?",
+          "Liegen **Qualifikation** und Fortbildung nach DGUV 205-003 vor?",
+          "Sind **Zutritt, Unterlagen, Freistellung** und Erreichbarkeit geregelt?",
+          "Ist die **Abgrenzung** zu Konzeptautor, Abnahme und Brandschutzhelfer schriftlich?",
+          "Gibt es eine Regelung zu **Umbau, Brandschau und Jahresbericht**?",
+        ],
+      },
+      {
+        id: "hinweis",
+        title: "Grenzen",
+        paragraphs: [
+          "Dieser Ratgeber beschreibt die Beauftragung eines externen Brandschutzbeauftragten nach DGUV Information 205-003 und Praxis in NRW. Er ersetzt keine Rechtsberatung, kein individuelles Honorarangebot und keine behördliche Einzelfestlegung. Verbindlich sind Ihre Genehmigungsauflagen, die Gefährdungsbeurteilung und das Bestellungsschreiben.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
+      { href: "/ratgeber/bestellung-brandschutzbeauftragter-nrw", label: "BSB bestellen" },
+      { href: "/ratgeber/aufgaben-brandschutzbeauftragter-koeln", label: "Aufgaben des BSB" },
+      { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung" },
+      { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer" },
+      { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50" },
+      { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
+      { href: "/ratgeber/escape-room-brandschutzordnung-fluchtplan", label: "BSO & Pläne" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
+    ],
+    faq: [
+      {
+        question: "Muss der Brandschutzbeauftragter in Köln extern sein?",
+        answer:
+          "Nein. Entscheidend ist Qualifikation und wirksame Wahrnehmung der übertragenen Aufgaben – intern oder extern. In kleineren und besucherintensiven Betrieben ist extern in der Regel wirtschaftlicher und fachlich sicherer.",
+      },
+      {
+        question: "Reicht der Dienstleistungsvertrag ohne Bestellungsschreiben?",
+        answer:
+          "Nein. Die DGUV Information 205-003 verlangt die schriftliche Bestellung mit Aufgaben und Rahmenbedingungen. Der Vertrag regelt Honorar und Leistungsbeziehung – beides gehört zusammen.",
+      },
+      {
+        question: "Kann der externe BSB auch das Brandschutzkonzept erstellen?",
+        answer:
+          "Möglich, wenn Qualifikation für beide Rollen vorliegt. Bei Genehmigungsverfahren sollten Rollen und Unabhängigkeit transparent sein. Betriebsorganisation (BSB) und Genehmigungsnachweis (Konzept) sind unterschiedliche Aufgaben.",
+      },
+      {
+        question: "Wie oft sollte ein externer BSB vor Ort sein?",
+        answer:
+          "Die DGUV nennt keine feste Frequenz – sie hängt von Gefährdung, Sonderbau und Auflagen ab. Üblich sind regelmäßige Begehungen plus Anwesenheit bei Übungen, Brandschau und wesentlichen Umbauten – im Vertrag und Bestellungsschreiben festhalten.",
+      },
+      {
+        question: "Was kostet ein externer Brandschutzbeauftragter in Köln?",
+        answer:
+          "Abhängig von Objekt, Nutzung und Aufgabenpaket – seriöse Anbieter kalkulieren nach Umfang, nicht pauschal pro Quadratmeter. In der Erstberatung lässt sich ein passender Rahmen klären, ohne alle 26 DGUV-Aufgaben vollumfänglich zu übertragen.",
+      },
+      {
+        question: "Wer haftet – der externe BSB oder der Arbeitgeber?",
+        answer:
+          "Die Verantwortung für Arbeitsschutz und Brandschutzorganisation bleibt beim Arbeitgeber. Der externe BSB berät und dokumentiert; Umsetzung von Maßnahmen und Finanzierung obliegen der Leitung.",
+      },
+      {
+        question: "Wann muss die Behörde den Namen des externen BSB kennen?",
+        answer:
+          "Wenn die Bestellung Auflage aus Konzept oder Baugenehmigung ist – dann Mitteilung auf Verlangen. Bei freiwilliger Bestellung aus der Gefährdungsbeurteilung reicht in der Regel die interne Dokumentation, sofern nichts anderes verlangt wird.",
       },
     ],
   },

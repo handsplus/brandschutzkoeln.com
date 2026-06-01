@@ -49,6 +49,7 @@ export const RATGEBER_CLUSTERS: RatgeberCluster[] = [
     slugs: [
       "bestellung-brandschutzbeauftragter-nrw",
       "aufgaben-brandschutzbeauftragter-koeln",
+      "externer-brandschutzbeauftragter-koeln",
       "escape-room-brandschutzordnung-fluchtplan",
       "feuerwehrplan-fluchtplaene-pflicht-koeln",
       "feuerloescher-gastronomie-koeln",

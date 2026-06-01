@@ -117,8 +117,9 @@ Stand manuell pflegen. Skala: **—** offen | **~6** Basis | **~8** überarbeite
 | `bauantrag-brandschutz-unterlagen-koeln` | 10 | Checkliste, Musterfall, Inline-Links (Mai 2026) |
 | `bestellung-brandschutzbeauftragter-nrw` | 10 | Bestellung, DGUV 205-003, Rahmen (Mai 2026) |
 | `aufgaben-brandschutzbeauftragter-koeln` | 10 | 26 Aufgaben DGUV Kap. 3, Checkliste Bestellung (Jun 2026) |
+| `externer-brandschutzbeauftragter-koeln` | 10 | Intern/extern, Vertrag, Qualifikation, Gastronomie-Praxis (Jun 2026) |
 
-**Gesamt: 34 Artikel · 34× 10/10** (Stand Jun 2026)
+**Gesamt: 35 Artikel · 35× 10/10** (Stand Jun 2026)
 
 ---
 
