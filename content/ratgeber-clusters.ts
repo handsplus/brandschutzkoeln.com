@@ -48,6 +48,7 @@ export const RATGEBER_CLUSTERS: RatgeberCluster[] = [
     label: "Betrieb & Organisation",
     slugs: [
       "bestellung-brandschutzbeauftragter-nrw",
+      "aufgaben-brandschutzbeauftragter-koeln",
       "escape-room-brandschutzordnung-fluchtplan",
       "feuerwehrplan-fluchtplaene-pflicht-koeln",
       "feuerloescher-gastronomie-koeln",
@@ -63,6 +64,7 @@ export const RATGEBER_CLUSTERS: RatgeberCluster[] = [
       "feuerwehrplan-fluchtplaene-pflicht-koeln",
       "fluchtplan-feuerwehrplan-aktualisieren-gewerbe",
       "flucht-und-rettungswege-bauo-nrw",
+      "aufgaben-brandschutzbeauftragter-koeln",
     ],
   },
   {

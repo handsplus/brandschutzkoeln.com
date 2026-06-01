@@ -1,5 +1,5 @@
 /**
- * Batch 2 – 13 Ratgeber-Artikel (Handlungsvorlagen, anonymisiert).
+ * Batch 2 – Ratgeber-Artikel (Handlungsvorlagen, anonymisiert).
  * Wird in ratgeber.ts eingefügt.
  */
 import type { RatgeberArticle } from "./ratgeber-types";
@@ -1657,7 +1657,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         paragraphs: [
           "Ein **Brandschutzbeauftragter (BSB)** berät den Unternehmer bei der betrieblichen Brandschutzorganisation – er ersetzt weder den Arbeitgeber noch die brandschutztechnische Genehmigung. Ob Sie einen BSB brauchen, ergibt sich aus mehreren Ebenen, die Sie getrennt prüfen sollten.",
           "**Baurecht in NRW:** Bei **Sonderbauten** nach § 50 BauO NRW (z. B. Versammlungsstätten, große Gastronomie, Verkaufsstätten, Hochhäuser, Industrie mit Stoffgefahr) kann ein BSB im **Brandschutzkonzept** oder in der **Baugenehmigung** als Auflage stehen. Dann ist die Bestellung verbindlich – unabhängig von der Gebäudeklasse.",
-          "**Arbeitsschutz:** Nach **Arbeitsstättenverordnung (ArbStättV)** und **ASR A2.2 „Maßnahmen gegen Brände“** ermitteln Sie in der **Gefährdungsbeurteilung**, ob die Brandgefährdung im Betrieb die Benennung eines BSB erfordert. Die DGUV Information 205-003 beschreibt die Vorgehensweise (Kapitel 1.2). Zwingend nur baurechtlich – arbeitsschutzrechtlich kann bei erhöhter Gefährdung die Bestellung trotzdem geboten sein.",
+          "**Arbeitsschutz:** Nach **Arbeitsstättenverordnung (ArbStättV)** und **ASR A2.2 „Maßnahmen gegen Brände“** ermitteln Sie in der **Gefährdungsbeurteilung**, ob die Brandgefährdung im Betrieb die Benennung eines BSB erfordert. Die DGUV Information 205-003 beschreibt die Vorgehensweise (Kapitel 1.2). Baurechtlich ist ein BSB nicht in jedem Betrieb Pflicht – arbeitsschutzrechtlich kann bei erhöhter Gefährdung die Bestellung trotzdem geboten sein.",
           "**Vertraglich:** Versicherer, Kunden oder Lieferanten können einen BSB vertraglich verlangen – auch ohne behördliche Auflage. Das ist unabhängig von Sonderbau und ASR, aber in der Praxis häufig der Auslöser in kleineren Gewerbebetrieben.",
         ],
       },
@@ -1683,7 +1683,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
         list: [
           "**Zuständigkeitsbereich** – welche Standorte, Gebäude, Bereiche oder Nutzungen der BSB betreut",
-          "**Aufgaben** – konkret übertragene Tätigkeiten (Begehungen, Unterweisungen, BSO, Pläne, Mängelverfolgung) – Orientierung an DGUV 205-003 Kapitel 3",
+          "**Aufgaben** – konkret übertragene Tätigkeiten (Begehungen, Unterweisungen, BSO, Pläne, Mängelverfolgung) – Orientierung an DGUV 205-003 Kapitel 3; Übersicht: [Aufgaben des BSB](/ratgeber/aufgaben-brandschutzbeauftragter-koeln)",
           "**Rahmenbedingungen** – Arbeitszeit/Freistellung, Zugang zu Informationen, Zutrittsrechte, Fortbildung, Ansprechpartner in der Leitung",
           "**Datum und Unterschriften** – Arbeitgeber und Beauftragter; Änderungen der Aufgaben ebenfalls schriftlich bestätigen",
         ],
@@ -1787,6 +1787,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50 BauO NRW" },
       { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
       { href: "/ratgeber/feuerloescher-gastronomie-koeln", label: "Feuerlöscher ASR A2.2" },
+      { href: "/ratgeber/aufgaben-brandschutzbeauftragter-koeln", label: "Aufgaben des BSB" },
       { href: "/kontakt", label: "Erstberatung anfragen" },
     ],
     faq: [
@@ -1824,6 +1825,248 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         question: "Ersetzt der BSB ein Brandschutzkonzept?",
         answer:
           "Nein. Das Konzept belegt die bauliche und anlagentechnische Genehmigungsfähigkeit (BauO NRW, § 9 BauPrüfVO NRW). Der BSB sorgt im laufenden Betrieb dafür, dass BSO, Pläne, Unterweisungen und Ist-Zustand zum genehmigten Stand passen. Einordnung: [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig).",
+      },
+    ],
+  },
+  {
+    slug: "aufgaben-brandschutzbeauftragter-koeln",
+    title: "Aufgaben des Brandschutzbeauftragten: Pflichten nach DGUV 205-003",
+    excerpt:
+      "Die 26 Aufgaben des Brandschutzbeauftragten nach DGUV Information 205-003 – von Brandschutzordnung und Gefährdungsbeurteilung über Pläne, Übungen und Brandschau bis Dokumentation und Notfallmanagement. Was im Bestellungsschreiben stehen muss und was der Arbeitgeber bereitstellen muss.",
+    metaTitle: "Aufgaben Brandschutzbeauftragter | Köln | H&S+",
+    metaDescription:
+      "Aufgaben Brandschutzbeauftragter Köln & NRW: DGUV 205-003 Kapitel 3, BSO, Pläne, Begehungen, BSH. Checkliste Bestellungsschreiben. Ratgeber H&S+.",
+    keywords: [
+      "Aufgaben Brandschutzbeauftragter",
+      "Brandschutzbeauftragter Pflichten",
+      "DGUV 205-003 Aufgaben",
+      "Brandschutzbeauftragter Aufgabenliste",
+      "betrieblicher Brandschutz Organisation",
+      "Brandschutzordnung Brandschutzbeauftragter",
+    ],
+    sections: [
+      {
+        id: "rolle",
+        title: "Rolle des Brandschutzbeauftragten",
+        paragraphs: [
+          "Brandschutzbeauftragte (BSB) sind die **zentrale Ansprechperson** für alle Brandschutzfragen im Betrieb. Sie beraten und unterstützen die Unternehmerin oder den Unternehmer in vorbeugendem, abwehrendem und organisatorischem Brandschutz sowie im **betrieblichen Notfallmanagement** – nicht in eigener Verantwortung, sondern in der dem Arbeitgeber obliegenden Schutzpflicht.",
+          "Rechtsgrundlage für Aufbau und Inhalt der Aufgaben ist die **DGUV Information 205-003** (betrieblicher Brandschutz). Ergänzend gelten **ArbStättV**, **ASR A2.2** und – bei genehmigungspflichtigen Gebäuden – **BauO NRW** mit Konzept, Baugenehmigung und Auflagen. Wie Sie einen BSB bestellen, erklären wir im Ratgeber [Brandschutzbeauftragten bestellen](/ratgeber/bestellung-brandschutzbeauftragter-nrw).",
+        ],
+      },
+      {
+        id: "bestellung-festlegen",
+        title: "Nicht alle 26 Aufgaben sind immer Pflicht",
+        paragraphs: [
+          "Die DGUV Information 205-003 nennt in **Kapitel 3** eine **Aufgabenliste mit 26 Punkten** als Orientierung – nicht als starres Pflichtprogramm für jeden Betrieb. Der Unternehmer legt gemeinsam mit dem BSB die **tatsächlich übertragenen Aufgaben** entsprechend den betrieblichen Anforderungen fest – unter Zuhilfenahme der **Gefährdungsbeurteilung** – und schreibt sie im **Bestellungsschreiben** nach Anlage 1 der DGUV Information nieder.",
+          "Ein Gastronomiebetrieb mit Sonderbau-Auflage braucht andere Schwerpunkte als ein kleines Büro ohne Besucherverkehr. Fehlen im Bestellungsschreiben konkrete Aufgaben, entsteht bei Behörde, Versicherer oder Betriebsprüfung schnell der Vorwurf: „Der BSB ist nur auf dem Papier da.“",
+        ],
+      },
+      {
+        id: "organisation-dokumentation",
+        title: "Organisation, BSO und Dokumentation",
+        paragraphs: [
+          "Diese Aufgaben bilden das Rückgrat der betrieblichen Brandschutzorganisation:",
+        ],
+        list: [
+          "**(1) Brandschutzordnung (BSO):** Erstellen und Fortschreiben nach DIN 14096 – Teil A (Verhalten), B (Verantwortlichkeiten), C (technische Einrichtungen). Abgrenzung zu Plänen: [BSO und Fluchtpläne](/ratgeber/escape-room-brandschutzordnung-fluchtplan).",
+          "**(2) Gefährdungsbeurteilung:** Mitwirken bei der Beurteilung der Brandgefährdung an Arbeitsplätzen – Schnittstelle Arbeitsschutz und Brandschutz.",
+          "**(5) Betriebsanweisungen:** Mitwirken, soweit sie den Brandschutz betreffen (Lager, Heißarbeiten, Maschinen).",
+          "**(26) Dokumentation:** Alle brandschutzrelevanten Tätigkeiten dokumentieren – Begehungsprotokolle, Prüfberichte, Mängelmeldungen, **Jahresbericht** (mindestens jährlich).",
+        ],
+      },
+      {
+        id: "gefaehrdung-arbeitsplaetze",
+        title: "Gefährdungen erkennen und beraten",
+        paragraphs: [
+          "Der BSB wirkt dort mit, wo Brand- und Explosionsgefahren im Arbeitsalltag entstehen:",
+        ],
+        list: [
+          "**(3) Feuergefährliche Arbeiten:** Beraten bei feuergefährlichen Arbeitsverfahren und beim Einsatz brennbarer Arbeitsstoffe.",
+          "**(4) Brand- und Explosionsgefahren:** Mitwirken bei der Ermittlung – Grundlage für Maßnahmen und Unterweisungen.",
+          "**(17) Lagerung:** Prüfen der Lagerung und Einrichtungen für brennbare Flüssigkeiten, Gase usw. – oft TRGS 510 und Betriebsanweisungen; bei Hallen: [Kraftstofflagerung](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz).",
+          "**(21) Heißarbeiten:** Kontrollieren, dass festgelegte Brandschutzmaßnahmen eingehalten werden – insbesondere bei Schweißen, Schneiden und vergleichbaren Arbeiten.",
+        ],
+      },
+      {
+        id: "konzept-plaene",
+        title: "Brandschutzkonzept und Pläne im Betrieb",
+        paragraphs: [
+          "Genehmigungsnachweise und Betriebsdokumente müssen zusammenpassen – der BSB überwacht die **Umsetzung**, nicht die Erstellung des Konzepts:",
+        ],
+        list: [
+          "**(10) Brandschutzkonzept:** Mitwirken bei der Umsetzung des genehmigten Konzepts im laufenden Betrieb. Das Konzept selbst erstellt der Planer oder Sachverständige – Einordnung: [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig).",
+          "**(11) Pläne aktuell halten:** Flucht- und Rettungspläne (ASR A2.3), Feuerwehrpläne (DIN 14095), Alarmpläne usw. auf Aktualität prüfen, Aktualisierung veranlassen und mitwirken. Details: [Feuerwehrplan und Fluchtpläne](/ratgeber/feuerwehrplan-fluchtplaene-pflicht-koeln).",
+          "**(18) Kennzeichnung:** Sicherheitskennzeichnungen für Brandschutzeinrichtungen und Flucht- und Rettungswege kontrollieren.",
+          "**(19) Rettungswege:** Benutzbarkeit von Flucht- und Rettungswegen überwachen – keine Belegung, funktionierende T30-RS-Abschlüsse, keine „Rauchwände“ statt Rauchschutzabschlüsse. Grundlagen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
+        ],
+      },
+      {
+        id: "baulich-technisch",
+        title: "Bauliche, technische und organisatorische Maßnahmen",
+        paragraphs: [
+          "Bei Änderungen am Gebäude oder an Anlagen ist der BSB früh einzubinden – nicht erst nach Fertigstellung:",
+        ],
+        list: [
+          "**(6) Maßnahmen mitwirken:** Bei baulichen, technischen und organisatorischen Maßnahmen, soweit sie den Brandschutz betreffen.",
+          "**(8) Neu-, Um- und Erweiterungsbauten:** Mitwirken bei Einhaltung der Brandschutzbestimmungen bei Neubau, Umbau, Nutzungsänderung, Anmietung und Beschaffung – Schnittstelle zu [Umbau und Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz) und [Fachbauleitung](/ratgeber/fachbauleitung-brandschutz-baustelle-koeln).",
+          "**(20) Prüfung und Wartung:** Organisation und Sicherstellung der Prüfung und Wartung brandschutztechnischer Einrichtungen (BMA, Sprinkler, Rauch- und Wärmeabzugsanlagen, Feuerlöscher).",
+          "**(22) Ersatzmaßnahmen:** Mitwirken bei Festlegung von Ersatzmaßnahmen bei Ausfall oder Außerbetriebsetzung brandschutztechnischer Einrichtungen – z. B. nach Sprinkler-Störung: [Sprinkler-Rückbau und BMA](/ratgeber/sprinkler-rueckbau-bma-nutzungsaenderung-koeln).",
+        ],
+      },
+      {
+        id: "loescher-bsh",
+        title: "Feuerlöscher und Brandschutzhelfer",
+        paragraphs: [
+          "Erstbekämpfung und Evakuierung sind getrennte Rollen – der BSB koordiniert, die Brandschutzhelfer (BSH) handeln im Brandfall:",
+        ],
+        list: [
+          "**(9) Feuerlöscher:** Beraten bei Ausstattung der Arbeitsstätten mit Feuerlöscheinrichtungen und bei der Auswahl der Löschmittel nach ASR A2.2. Vertiefung: [Feuerlöscher in der Gastronomie](/ratgeber/feuerloescher-gastronomie-koeln).",
+          "**(16) Brandschutzhelfer:** Aus- und Fortbildung von Beschäftigten mit besonderen Aufgaben im Brandfall, z. B. Handhabung von Feuerlöscheinrichtungen – **Brandschutzhelfer gemäß ASR A2.2**. Der BSB plant das Konzept, die BSH führen Erstbekämpfung durch.",
+        ],
+      },
+      {
+        id: "uebungen-begehungen",
+        title: "Übungen, Begehungen und Mängelbeseitigung",
+        paragraphs: [
+          "Organisatorischer Brandschutz lebt von Wiederholung und Nachverfolgung:",
+        ],
+        list: [
+          "**(12) Evakuierungsübungen:** Planen, organisieren und durchführen – Abstimmung mit Alarmierung, Rettungswegen und BSO Teil A.",
+          "**(13) Brandschau und interne Begehungen:** Teilnahme an behördlichen Brandschauen und Durchführung interner Brandschutzbegehungen. Abgrenzung: [Brandschau](/ratgeber/brandschau-koeln-feuerwehr).",
+          "**(14) Mängel:** Melden von Mängeln, Vorschlagen von Beseitigungsmaßnahmen und Überwachen der Mängelbeseitigung – mit Fristen und Eskalation an die Leitung.",
+          "**(15) Unterweisungen:** Unterstützen der Führungskräfte bei regelmäßigen Unterweisungen der Beschäftigten im Brandschutz.",
+        ],
+      },
+      {
+        id: "behoerde-versicherer",
+        title: "Behörden, Versicherer und Investitionen",
+        paragraphs: [
+          "Der BSB ist Schnittstelle nach außen – ersetzt aber nicht die Verantwortung des Unternehmers:",
+        ],
+        list: [
+          "**(7) Anordnungen umsetzen:** Mitwirken bei Umsetzung behördlicher Anordnungen und Anforderungen des Feuerversicherers, soweit sie den Brandschutz betreffen.",
+          "**(23) Kommunikation:** Unterstützen des Unternehmers bei Kommunikation mit Brandschutzbehörden, Feuerwehren, Feuerversicherern, gesetzlichen Unfallversicherungsträgern und staatlichen Arbeitsschutzbehörden.",
+          "**(24) Investitionen:** Stellungnahme zu Investitionsentscheidungen, die Belange des Brandschutzes am Standort betreffen – Umbauten, Anmietungen, neue Linien.",
+        ],
+      },
+      {
+        id: "notfallmanagement",
+        title: "Notfallmanagement und Resilienz",
+        paragraphs: [
+          "**(25) Notfallmanagement:** Mitwirken bei Umsetzung vorbeugender und abwehrender Maßnahmen des Notfallmanagements – z. B. bei Ausfall kritischer Infrastruktur (Strom, Wasser, IT) oder bei lokalen Wetterereignissen mit Schadenspotenzial (extreme Hitze oder Kälte, Starkregen, Sturm, Hagel, Schneelast).",
+          "Das ergänzt den klassischen Brandfall: Evakuierung und Brandschutzorganisation müssen auch bei Stromausfall oder Wassereintritt funktionieren. Der Umfang hängt von Betriebsgröße und Risiko ab und gehört ins Bestellungsschreiben, wenn er übertragen wird.",
+        ],
+      },
+      {
+        id: "arbeitgeber-pflichten",
+        title: "Was der Arbeitgeber bereitstellen muss",
+        paragraphs: [
+          "Ohne Rahmenbedingungen bleiben die 26 Aufgaben Theorie. Die DGUV Information 205-003 verlangt: Dem BSB sind die zur Erfüllung der **übertragenen** Aufgaben erforderliche **Arbeitszeit**, die **benötigten Informationen**, **Arbeitsmittel** und **Fortbildungen** (Kapitel 8) zur Verfügung zu stellen.",
+          "Typische Mindestausstattung: Zutritt zu allen relevanten Bereichen, Genehmigungsunterlagen und Konzept, Checklisten und Dokumentationsvorlagen, Freistellung für Begehungen und Übungen, Budget für Fortbildung. Bei externen BSB zusätzlich vertraglich: Erreichbarkeit, Reaktionszeiten, Beteiligung an Umbauten.",
+        ],
+      },
+      {
+        id: "abgrenzung",
+        title: "Was der BSB nicht leistet",
+        paragraphs: [
+          "Klare Abgrenzungen vermeiden Haftungs- und Zuständigkeitskonflikte:",
+        ],
+        list: [
+          "**Arbeitgeberpflichten** bleiben beim Unternehmer – der BSB berät, weist nicht disziplinarisch an.",
+          "**Brandschutzkonzept, Stellungnahme, Baugenehmigung** erstellt und verantwortet der Planer oder Sachverständige (§ 9 BauPrüfVO NRW), nicht der BSB.",
+          "**Brandschutzhelfer** führen Erstbekämpfung durch – der BSB organisiert Ausbildung und Einsatzkonzept, springt nicht pauschal als Ersatz-BSH ein.",
+          "**Fachbauleitung § 56 BauO NRW** und **Abnahme durch Sachverständige** sind Bauphasen-Aufgaben – der BSB kann Schnittstelle sein, ersetzt aber keine Bescheinigung.",
+          "**Behördliche Einordnung** (Sonderbau ja/nein, Genehmigungsbedürftigkeit) trifft die Bauaufsicht – der BSB bereitet Unterlagen vor und setzt Auflagen im Betrieb um.",
+        ],
+      },
+      {
+        id: "aufgabenliste-kompakt",
+        title: "Die 26 Aufgaben der DGUV 205-003 im Überblick",
+        paragraphs: [
+          "Zur Orientierung für Bestellungsschreiben und Jahresbericht – die Nummerierung entspricht Kapitel 3 der DGUV Information 205-003:",
+        ],
+        list: [
+          "1 – BSO erstellen und fortschreiben · 2 – Gefährdungsbeurteilung Arbeitsplätze · 3 – Beratung feuergefährliche Verfahren und brennbare Stoffe · 4 – Brand- und Explosionsgefahren · 5 – Betriebsanweisungen Brandschutz · 6 – bauliche, technische, organisatorische Maßnahmen · 7 – behördliche Anordnungen und Versicherer · 8 – Neu-/Umbau, Nutzungsänderung, Anmietung, Beschaffung",
+          "9 – Feuerlöscher und Löschmittel · 10 – Umsetzung Brandschutzkonzept · 11 – Pläne aktuell (Flucht, Feuerwehr, Alarm) · 12 – Evakuierungsübungen · 13 – Brandschau und interne Begehungen · 14 – Mängel melden und überwachen · 15 – Unterweisungen unterstützen · 16 – Brandschutzhelfer ASR A2.2",
+          "17 – Lagerung brennbarer Stoffe · 18 – Sicherheitskennzeichnung · 19 – Flucht- und Rettungswege · 20 – Prüfung und Wartung bst. Einrichtungen · 21 – Maßnahmen bei feuergefährlichen Arbeiten · 22 – Ersatzmaßnahmen bei Ausfall bst. Einrichtungen · 23 – Kommunikation Behörden, FW, Versicherer · 24 – Investitionsentscheidungen · 25 – Notfallmanagement · 26 – Dokumentation",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Aufgabenpaket nach Sonderbau-Eröffnung",
+        paragraphs: [
+          "Typischer Start in NRW nach Baugenehmigung mit BSB-Auflage: Im Bestellungsschreiben werden Schwerpunkte 1, 10, 11, 12, 13, 14, 15, 16 und 26 übertragen – plus Zuständigkeit für alle Standorte. In den ersten 90 Tagen: Einweisung mit Konzept und Plänen, BSO auf Ist-Stand, Flucht- und Feuerwehrpläne prüfen, BSH benennen und schulen, erste interne Begehung mit Mängelliste, Termin für Evakuierungsübung und Jahresbericht-Vorlage.",
+          "Häufiger Fehler: Alle 26 Punkte pauschal übernehmen, aber nur zwei Stunden Freistellung pro Monat – dann bleiben Übungen, Pläne und Wartungsnachweise liegen. Zweiter Fehler: Aufgabe 10 („Konzept umsetzen“) ohne Zugang zum genehmigten Konzept – der BSB kann Abweichungen nicht erkennen. Dritter Fehler: Aufgabe 11 ohne Regelung, wer Pläne zeichnerisch aktualisiert – der BSB prüft und veranlasst, ersetzt aber nicht den Planer.",
+        ],
+      },
+      {
+        id: "checkliste-bestellung",
+        title: "Checkliste: Aufgaben ins Bestellungsschreiben",
+        paragraphs: [
+          "Nutzen Sie die DGUV-Anlage 1 und markieren Sie übertragene Punkte aus der 26er-Liste:",
+        ],
+        list: [
+          "Sind **Schwerpunkte** zum Betrieb passend gewählt (nicht pauschal alle 26 ohne Freistellung)?",
+          "Sind **BSO, Pläne, Konzept-Umsetzung, Begehungen, BSH, Übungen** und **Dokumentation** klar zugeordnet?",
+          "Ist geregelt, wer **zeichnerische Planaktualisierung** und wer **Prüfung durch Sachverständige** verantwortet?",
+          "Sind **Arbeitszeit, Zutritt, Unterlagen und Fortbildung** (Kapitel 8) im selben Schreiben festgehalten?",
+          "Verweist das Schreiben auf den [Ratgeber zur Bestellung](/ratgeber/bestellung-brandschutzbeauftragter-nrw) bzw. ist mit Behördenauflagen abgeglichen?",
+        ],
+      },
+      {
+        id: "hinweis",
+        title: "Grenzen",
+        paragraphs: [
+          "Dieser Ratgeber fasst die Aufgaben nach **DGUV Information 205-003** (Kapitel 3) für die betriebliche Praxis in NRW zusammen. Maßgeblich ist der Wortlaut der DGUV Information sowie Ihr Bestellungsschreiben. Er ersetzt keine Rechtsberatung, keine behördliche Einzelfestlegung und keine vollständige Ausbildungsunterlage für Brandschutzbeauftragte.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/ratgeber/bestellung-brandschutzbeauftragter-nrw", label: "BSB bestellen" },
+      { href: "/brandschutzbeauftragter-koeln", label: "Externer Brandschutzbeauftragter" },
+      { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung" },
+      { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer" },
+      { href: "/ratgeber/escape-room-brandschutzordnung-fluchtplan", label: "BSO & Pläne" },
+      { href: "/ratgeber/feuerwehrplan-fluchtplaene-pflicht-koeln", label: "Planarten" },
+      { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
+      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept vs. Betrieb" },
+      { href: "/kontakt", label: "Erstberatung anfragen" },
+    ],
+    faq: [
+      {
+        question: "Muss der Brandschutzbeauftragter alle 26 Aufgaben erfüllen?",
+        answer:
+          "Nein. Die DGUV Information 205-003 listet 26 mögliche Aufgaben. Übertragen werden nur die im Bestellungsschreiben festgelegten Tätigkeiten – passend zur Gefährdungsbeurteilung und zum Betrieb. Fehlt die schriftliche Festlegung, ist die Nachweisführung bei Prüfungen schwierig.",
+      },
+      {
+        question: "Wer erstellt die Brandschutzordnung – Arbeitgeber oder BSB?",
+        answer:
+          "Verantwortlich bleibt der Arbeitgeber. Aufgabe (1) der DGUV Information: Der BSB erstellt und fortschreibt die BSO fachlich – in der Regel in Abstimmung mit Leitung, Arbeitsschutz und ggf. externen Dienstleistern.",
+      },
+      {
+        question: "Darf der BSB das Brandschutzkonzept schreiben?",
+        answer:
+          "Das Konzept für die Genehmigung erstellt der Brandschutzplaner oder Sachverständige. Der BSB wirkt bei Aufgabe (10) bei der Umsetzung im Betrieb mit. Dieselbe Person in beiden Rollen ist möglich, sollte aber transparent geregelt und qualifiziert sein.",
+      },
+      {
+        question: "Wie oft muss der BSB Begehungen durchführen?",
+        answer:
+          "Die DGUV Information nennt keine feste Zahl – der Rhythmus hängt von Gefährdung, Sonderbau und Auflagen ab. Interne Begehungen (Aufgabe 13) sind neben der behördlichen Brandschau üblich; dokumentieren Sie Ergebnis und Maßnahmen (Aufgabe 26).",
+      },
+      {
+        question: "Was gehört in den Jahresbericht?",
+        answer:
+          "Bearbeitungsstand der übertragenen Aufgaben, offene Mängel, durchgeführte Übungen und Unterweisungen, Fortschreibung von BSO und Plänen, Prüfstatus brandschutztechnischer Einrichtungen. Der Arbeitgeber fordert den Bericht ein und leitet Maßnahmen ein.",
+      },
+      {
+        question: "Braucht ein kleiner Betrieb einen BSB mit vollem Aufgabenpaket?",
+        answer:
+          "Oft nein. Bei geringer Gefährdung können weniger Punkte übertragen werden – oder ein externer BSB mit schlankem Paket. Bei Sonderbau-Auflage in Konzept oder Baugenehmigung sind BSO, Pläne und Nachweisführung meist nicht wegzudenken.",
+      },
+      {
+        question: "Was ist der Unterschied zwischen Aufgabe 13 und einer Eilbegehung?",
+        answer:
+          "Aufgabe 13 umfasst behördliche Brandschauen und planmäßige interne Begehungen im Rahmen der BSB-Tätigkeit. Eine Eilbegehung ist ein freiwilliger Ist-Check vor Investitionen durch den Arbeitgeber – organisatorisch verwandt, aber kein Ersatz für die BSB-Aufgaben im Bestellungsschreiben.",
       },
     ],
   },
