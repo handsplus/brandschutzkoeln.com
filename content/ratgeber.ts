@@ -14,9 +14,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     title: "Gebäudeklassen und Brandschutz nach BauO NRW",
     excerpt:
       "Gebäudeklassen GK 1 bis GK 5 nach BauO NRW: Schnelltabelle zur Einordnung, Nutzungseinheit, Feuerwiderstand fh bis fb und Rettungswege – mit NRW-Auslegung nach MHKBG BFM-02 für Genehmigungspraxis.",
-    metaTitle: "Gebäudeklassen NRW | Brandschutz BauO | H&S+",
+    metaTitle: "Gebäudeklassen 1–5 NRW: Tabelle & Einordnung | H&S+",
     metaDescription:
-      "Gebäudeklassen 1–5 BauO NRW: NE, OKF, §§ 27–33, feuerhemmend/feuerbeständig, GK vs. Sonderbau. Praxisratgeber H&S+.",
+      "Welche Gebäudeklasse gilt für Ihr Gebäude? Schnelltabelle nach BauO NRW mit Höhe, Nutzungseinheiten und Brandschutz-Anforderungen je Klasse – verständlich erklärt.",
     keywords: [
       "Gebäudeklassen NRW",
       "Gebäudeklasse Brandschutz",
@@ -338,9 +338,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     title: "Sonderbauten: geregelt und ungeregelt nach BauO NRW",
     excerpt:
       "Ob ein Sonderbau einen eigenen Teil in der Sonderbauverordnung (SBauVO) NRW hat, entscheidet über die Nachweislogik. Der Ratgeber erklärt geregelt versus ungeregelt und wie sich Versammlungsstätte, Gaststätte und Beherbergung unterscheiden.",
-    metaTitle: "Sonderbau geregelt & ungeregelt | BauO NRW",
+    metaTitle: "Sonderbau NRW: geregelt oder ungeregelt? | H&S+",
     metaDescription:
-      "Sonderbau mit SBauVO-Teil (VStätt, Hotel, Verkauf, Hochhaus, Garage) vs. ohne (Schule, Krankenhaus, Gaststätte >200). Praxisratgeber NRW – H&S+.",
+      "Ist Ihr Gebäude ein Sonderbau – und gilt ein SBauVO-Teil? Übersicht für Versammlungsstätten, Hotels, Gaststätten & Co. mit klarer Nachweislogik nach BauO NRW.",
     keywords: [
       "Sonderbau geregelt ungeregelt",
       "SBauVO NRW Sonderbau",
@@ -1591,9 +1591,9 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     title: "Zweiter Rettungsweg über Dachfenster und Feuerwehr",
     excerpt:
       "Der zweite Rettungsweg über Dachflächenfenster und Feuerwehr-Rettung von außen ist nach § 33 BauO NRW nur mit Nachweis möglich. Der Ratgeber erklärt Anleiterbarkeit, Spitzboden, Gebäudeklasse 5 und die Legalisierung im Bestand.",
-    metaTitle: "2. Rettungsweg Dachfenster | § 33 BauO NRW | H&S+",
+    metaTitle: "Dachfenster als 2. Rettungsweg? § 33 BauO NRW | H&S+",
     metaDescription:
-      "Zweiter Rettungsweg per Dachfenster & Feuerwehr: § 33 BauO NRW, Begehung, FW-Stellungnahme, Spitzboden § 34. Praxisratgeber NRW.",
+      "Wann ein Dachfenster als zweiter Rettungsweg zulässig ist: Anleiterbarkeit, Feuerwehr-Stellungnahme und Lösungen für Dachgeschoss & Spitzboden nach BauO NRW.",
     keywords: [
       "Zweiter Rettungsweg BauO NRW",
       "Rettungsweg Dachfenster Feuerwehr",

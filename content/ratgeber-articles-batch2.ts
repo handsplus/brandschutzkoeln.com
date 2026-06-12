@@ -1639,9 +1639,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     title: "Brandschutzbeauftragten bestellen: Pflicht, Schreiben und Rahmenbedingungen",
     excerpt:
       "Wann ein Brandschutzbeauftragter (BSB) nötig ist, wie die schriftliche Bestellung aussehen muss und welche Rechte Arbeitgeber und Beauftragter regeln – nach DGUV Information 205-003, ASR A2.2 und baurechtlichen Auflagen in NRW.",
-    metaTitle: "Brandschutzbeauftragter bestellen | NRW | H&S+",
+    metaTitle: "Brandschutzbeauftragten bestellen: Pflicht & Muster | H&S+",
     metaDescription:
-      "Brandschutzbeauftragten schriftlich bestellen: Pflicht bei Sonderbau & ASR A2.2, Rahmenbedingungen, externe BSB, Mitteilung Behörde. Ratgeber H&S+ NRW.",
+      "Wann ein Brandschutzbeauftragter Pflicht ist und was ins Bestellungsschreiben gehört: Pflicht-Check, Muster nach DGUV 205-003 und typische Fehler aus der NRW-Praxis.",
     keywords: [
       "Brandschutzbeauftragter bestellen",
       "Bestellung Brandschutzbeauftragter",
@@ -1834,9 +1834,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     title: "Aufgaben des Brandschutzbeauftragten: Pflichten nach DGUV 205-003",
     excerpt:
       "Die 26 Aufgaben des Brandschutzbeauftragten nach DGUV Information 205-003 – von Brandschutzordnung und Gefährdungsbeurteilung über Pläne, Übungen und Brandschau bis Dokumentation und Notfallmanagement. Was im Bestellungsschreiben stehen muss und was der Arbeitgeber bereitstellen muss.",
-    metaTitle: "Aufgaben Brandschutzbeauftragter | Köln | H&S+",
+    metaTitle: "Die 26 Aufgaben des Brandschutzbeauftragten | H&S+",
     metaDescription:
-      "Aufgaben Brandschutzbeauftragter Köln & NRW: DGUV 205-003 Kapitel 3, BSO, Pläne, Begehungen, BSH. Checkliste Bestellungsschreiben. Ratgeber H&S+.",
+      "Alle 26 Aufgaben des Brandschutzbeauftragten nach DGUV 205-003 im Überblick – von Brandschutzordnung bis Jahresbericht. Und welche davon wirklich ins Bestellungsschreiben gehören.",
     keywords: [
       "Aufgaben Brandschutzbeauftragter",
       "Brandschutzbeauftragter Pflichten",
@@ -2077,9 +2077,9 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
     title: "Externer Brandschutzbeauftragter in Köln: wann, wie und was er leistet",
     excerpt:
       "Intern oder extern? Wann ein externer Brandschutzbeauftragter in Köln und NRW sinnvoll ist, was im Vertrag stehen muss, wie er mit Planer, Brandschutzhelfer und Behörde zusammenarbeitet – nach DGUV 205-003, ohne die Pflichten des Arbeitgebers zu ersetzen.",
-    metaTitle: "Externer Brandschutzbeauftragter Köln | H&S+",
+    metaTitle: "Externer Brandschutzbeauftragter Köln: Kosten & Ablauf | H&S+",
     metaDescription:
-      "Externer Brandschutzbeauftragter Köln: intern vs. extern, Vertrag, Qualifikation DGUV 205-003, Sonderbau. Abgrenzung Planer & BSH. Ratgeber H&S+ NRW.",
+      "Wann sich ein externer Brandschutzbeauftragter lohnt, was er kostet (Stundensätze ab ca. 80 €) und was in Vertrag und Bestellung stehen muss – praxisnah für Köln und NRW.",
     keywords: [
       "externer Brandschutzbeauftragter Köln",
       "Brandschutzbeauftragter Köln extern",
@@ -2184,8 +2184,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "kosten",
         title: "Kosten und Wirtschaftlichkeit",
         paragraphs: [
-          "Honorare hängen von Betriebsgröße, Gefährdung, Besucherzahl, Anzahl Standorte und übertragenen Aufgaben ab – pauschale Preislisten sind selten seriös. Wirtschaftlich verglichen wird extern oft mit **Freistellung einer Fachkraft**, Fortbildungskosten und Haftungsrisiko bei unqualifizierter interner Lösung.",
-          "Sinnvoll ist ein **schlankes Aufgabenpaket** mit klarer Erweiterung bei Umbau oder Sonderbau-Auflage – statt „Vollprogramm“ ohne Freistellung. Die Erstberatung klärt Umfang; dieser Ratgeber nennt keine Preise, weil jedes Objekt andere Anforderungen hat.",
+          "Honorare hängen von Betriebsgröße, Gefährdung, Besucherzahl, Anzahl Standorte und übertragenen Aufgaben ab. Als Orientierung: **Stundensätze beginnen meist bei rund 80 €** – bei sachverständiger Qualifikation und komplexen Objekten sind **140 € und mehr** üblich. Entscheidend für die Gesamtkosten ist weniger der Stundensatz als das Aufgabenpaket: wie viele Begehungen, welche Dokumentation und welche Erreichbarkeit vereinbart sind.",
+          "Wirtschaftlich verglichen wird extern oft mit **Freistellung einer Fachkraft**, Fortbildungskosten und Haftungsrisiko bei unqualifizierter interner Lösung. Sinnvoll ist ein **schlankes Aufgabenpaket** mit klarer Erweiterung bei Umbau oder Sonderbau-Auflage – statt „Vollprogramm“ ohne Freistellung. Den konkreten Umfang für Ihr Objekt klärt die Erstberatung.",
         ],
       },
       {
@@ -2263,7 +2263,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Was kostet ein externer Brandschutzbeauftragter in Köln?",
         answer:
-          "Abhängig von Objekt, Nutzung und Aufgabenpaket – seriöse Anbieter kalkulieren nach Umfang, nicht pauschal pro Quadratmeter. In der Erstberatung lässt sich ein passender Rahmen klären, ohne alle 26 DGUV-Aufgaben vollumfänglich zu übertragen.",
+          "Stundensätze beginnen meist bei rund 80 €; bei sachverständiger Qualifikation und komplexen Objekten sind 140 € und mehr üblich. Die Gesamtkosten hängen vom Aufgabenpaket ab – seriöse Anbieter kalkulieren nach Umfang, nicht pauschal pro Quadratmeter. In der Erstberatung lässt sich ein passender Rahmen klären, ohne alle 26 DGUV-Aufgaben vollumfänglich zu übertragen.",
       },
       {
         question: "Wer haftet – der externe BSB oder der Arbeitgeber?",
