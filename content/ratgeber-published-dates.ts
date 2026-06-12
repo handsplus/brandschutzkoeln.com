@@ -1,12 +1,12 @@
 /**
- * Veröffentlichungsdaten Ratgeber: 11.03.2026 – 02.06.2026.
+ * Veröffentlichungsdaten Ratgeber: 11.03.2026 – 08.06.2026.
  * Artikel gleichmäßig über den Zeitraum verteilt; neue Beiträge am Ende der Reihenfolge.
  * Reihenfolge = redaktionelle Veröffentlichungsfolge (Grundlagen → Spezial → Batch 2).
  */
 import type { RatgeberArticle } from "./ratgeber-types";
 
 const START = new Date(2026, 2, 11);
-const END = new Date(2026, 5, 2);
+const END = new Date(2026, 5, 8);
 
 const PUBLICATION_ORDER: string[] = [
   "gebaeudeklassen-brandschutz-bauo-nrw",
@@ -44,6 +44,7 @@ const PUBLICATION_ORDER: string[] = [
   "bestellung-brandschutzbeauftragter-nrw",
   "aufgaben-brandschutzbeauftragter-koeln",
   "externer-brandschutzbeauftragter-koeln",
+  "brandschutzberatung-koeln-auflagen-risiken",
 ];
 
 function toIso(d: Date): string {
@@ -83,7 +84,7 @@ function buildPublicationDates(count: number): string[] {
 
 const PUBLICATION_DATES = buildPublicationDates(PUBLICATION_ORDER.length);
 
-/** Index i → Datum zwischen 11.03.2026 und 02.06.2026. */
+/** Index i → Datum zwischen 11.03.2026 und 08.06.2026. */
 export function ratgeberPublishedAtByIndex(index: number): string {
   return PUBLICATION_DATES[index] ?? PUBLICATION_DATES[PUBLICATION_DATES.length - 1]!;
 }

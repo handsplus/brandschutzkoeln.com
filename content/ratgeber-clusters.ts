@@ -79,6 +79,7 @@ export const RATGEBER_CLUSTERS: RatgeberCluster[] = [
       "zwischenbescheid-brandschutz-bauamt-koeln",
       "zweiter-rettungsweg-dachfenster-bauo-nrw",
       "loeschwasser-hydranten-gewerbe-koeln",
+      "brandschutzberatung-koeln-auflagen-risiken",
     ],
   },
   {

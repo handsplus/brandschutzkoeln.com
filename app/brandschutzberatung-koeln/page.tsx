@@ -77,7 +77,11 @@ export default function BrandschutzberatungKoelnPage() {
             </Link>
             . Hintergründe zur BauO NRW im{" "}
             <Link href="/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw" className="text-brand-red font-medium hover:underline">
-              Ratgeber Gebäudeklassen
+              Gebäudeklassen
+            </Link>
+            ,{" "}
+            <Link href="/ratgeber/brandschutzberatung-koeln-auflagen-risiken" className="text-brand-red font-medium hover:underline">
+              Auflagen vermeiden
             </Link>
             .
           </p>
