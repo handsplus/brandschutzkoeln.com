@@ -7,14 +7,19 @@ export type LandingFaqItem = { question: string; answer: string };
 export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
   "/brandschutzberatung-koeln": [
     {
-      question: "Was umfasst eine Brandschutzberatung in Köln?",
+      question: "Ist die Erstberatung wirklich kostenlos?",
       answer:
-        "Wir analysieren Ihre Situation (Objekt, Nutzung, Dokumentation), priorisieren Maßnahmen und geben umsetzbare Empfehlungen zu baulichem, technischem und organisatorischem Brandschutz – abgestimmt auf BauO NRW und Arbeitsschutz.",
+        "Ja. Die Erstberatung bei H&S+ ist kostenlos und unverbindlich. Sie erhalten eine fachliche Einschätzung und die nächsten Schritte. Tiefergehende Beratung oder Begehungen vor Ort besprechen wir separat, bevor ein Auftrag entsteht.",
     },
     {
-      question: "Brauche ich eine Beratung oder gleich ein Brandschutzkonzept?",
+      question: "Was umfasst eine Brandschutzberatung in Köln?",
       answer:
-        "Bei kleineren Fragen reicht oft eine Beratung. Bei Genehmigung, Nutzungsänderung oder Sonderbau ist häufig ein Konzept nötig. In der Erstberatung klären wir, welcher Nachweis sinnvoll ist.",
+        "Ist-Analyse von Objekt, Nutzung und Dokumentation, priorisierte Maßnahmen und umsetzbare Empfehlungen zu baulichem, technischem und organisatorischem Brandschutz – abgestimmt auf BauO NRW und Arbeitsschutz.",
+    },
+    {
+      question: "Für wen ist die Beratung gedacht?",
+      answer:
+        "Für Gewerbetreibende, Immobilienverwalter, Bauherren und Planer in Köln und NRW – bei Umbau, Nutzungsänderung, Behördenpost, Versichereranforderungen oder wenn unklar ist, was zuerst zu tun ist.",
     },
     {
       question: "Wie schnell erhalte ich eine Rückmeldung?",
