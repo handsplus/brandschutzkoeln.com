@@ -78,7 +78,7 @@ Stand manuell pflegen. Skala: **—** offen | **~6** Basis | **~8** überarbeite
 
 | Slug | Status | Notiz |
 |------|--------|-------|
-| `gebaeudeklassen-brandschutz-bauo-nrw` | 10 | Referenz GK |
+| `gebaeudeklassen-brandschutz-bauo-nrw` | 10 | Referenz GK, MHKBG BFM-02 Schnelltabelle (Jun 2026) |
 | `sonderbauten-brandschutz` | 10 | Referenz § 50 |
 | `sonderbauten-geregelt-ungeregelt-bauo-nrw` | 10 | Referenz SBauVO ja/nein |
 | `brandschutzkonzept-wann-noetig` | 10 | Referenz Nachweise |

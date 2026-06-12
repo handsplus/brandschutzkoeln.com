@@ -93,8 +93,13 @@ const SLUG_TO_DATE = new Map<string, string>(
   PUBLICATION_ORDER.map((slug, i) => [slug, ratgeberPublishedAtByIndex(i)]),
 );
 
+/** Redaktionelle Aktualisierung – überschreibt die Verteilungsliste. */
+const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
+  "gebaeudeklassen-brandschutz-bauo-nrw": "2026-06-12",
+};
+
 export function getRatgeberPublishedAt(slug: string): string | undefined {
-  return SLUG_TO_DATE.get(slug);
+  return PUBLICATION_DATE_OVERRIDES[slug] ?? SLUG_TO_DATE.get(slug);
 }
 
 export function applyRatgeberPublishedDates(articles: RatgeberArticle[]): RatgeberArticle[] {

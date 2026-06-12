@@ -13,7 +13,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     slug: "gebaeudeklassen-brandschutz-bauo-nrw",
     title: "Gebäudeklassen und Brandschutz nach BauO NRW",
     excerpt:
-      "Die Gebäudeklassen von GK 1 bis GK 5 steuern nach der BauO NRW den baulichen Brandschutz – von Nutzungseinheiten und Oberkante Fußboden über feuerhemmende und feuerbeständige Bauteile (F 30 bis F 90 nach § 27) bis zu Brandabschnitten und Rettungswegen. Dieser Ratgeber ordnet die Einstufung ein und zeigt, was das in Genehmigungsverfahren praktisch bedeutet.",
+      "Gebäudeklassen GK 1 bis GK 5 nach BauO NRW: Schnelltabelle zur Einordnung, Nutzungseinheit, Feuerwiderstand fh bis fb und Rettungswege – mit NRW-Auslegung nach MHKBG BFM-02 für Genehmigungspraxis.",
     metaTitle: "Gebäudeklassen NRW | Brandschutz BauO | H&S+",
     metaDescription:
       "Gebäudeklassen 1–5 BauO NRW: NE, OKF, §§ 27–33, feuerhemmend/feuerbeständig, GK vs. Sonderbau. Praxisratgeber H&S+.",
@@ -43,6 +43,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
           "Eine Nutzungseinheit (NE) ist ein in sich abgeschlossener Bereich mit eigenem Zugang – typisch eine Wohnung, ein Bürogeschoss für einen Mieter, eine Praxis oder ein Laden. Maßzahl ist die Brutto-Grundfläche (BGF); Kellergeschosse bleiben bei der GK-Zuordnung außer Betracht.",
           "Praxisrelevant: Zwei Wohnungen im Zweifamilienhaus = zwei NE (GK 1a/2). Ein Geschäftshaus mit vielen Mietern kann trotzdem GK 5 sein, wenn eine einzelne NE in einem Geschoss größer als 400 m² ist oder die OKF über 13 m liegt – nicht wegen der Mieterzahl allein.",
           "Umbauten, die NE zusammenlegen oder teilen (z. B. zwei Praxen zu einer Einheit), ändern die GK nur, wenn sich Höhe oder die 400-m²-Grenze pro Geschoss verschieben. Trotzdem müssen Brandabschnitte, Türen und Rettungswege neu bewertet werden.",
+          "Nach der in NRW üblichen Auslegung (MHKBG, Baufachliche Mitteilung 02) trennen **Schiebeelemente** allein keine selbständigen Nutzungseinheiten – relevant bei Laden plus Büro, Wettbüro und Gastraum oder flexibel getrennten Gewerbeflächen.",
         ],
       },
       {
@@ -70,20 +71,35 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         ],
       },
       {
+        id: "gk-tabelle-mhkbg",
+        title: "Schnelltabelle: GK-Kriterien nach BauO NRW",
+        paragraphs: [
+          "Die folgende Übersicht folgt der **Baufachlichen Mitteilung 02** des MHKBG NRW (Baulicher Brandschutz, Januar 2021) zur **BauO NRW 2018** – die in Genehmigungsverfahren in NRW häufig als Auslegungshilfe herangezogen wird. Maßgeblich bleibt der Gesetzestext; die Tabelle dient der schnellen Ersteinschätzung vor Antrag oder Beratung.",
+        ],
+        list: [
+          "**GK 1a:** freistehend, OKF ≤ 7 m, höchstens 2 NE, insgesamt ≤ 400 m² BGF (ohne Keller)",
+          "**GK 1b:** freistehend, land- oder forstwirtschaftliche Nutzung (eigene Zuordnung innerhalb GK 1)",
+          "**GK 2:** nicht freistehend, sonst wie GK 1a (z. B. Doppelhaus)",
+          "**GK 3:** OKF ≤ 7 m, wenn weder GK 1 noch GK 2 gilt",
+          "**GK 4:** OKF ≤ 13 m, jede NE in einem Geschoss ≤ 400 m²",
+          "**GK 5:** alles Übrige – u. a. OKF > 13 m, eine NE > 400 m² je Geschoss, unterirdische Gebäude",
+        ],
+      },
+      {
         id: "feuerwiderstand",
         title: "Feuerwiderstand nach Gebäudeklasse (§ 27 BauO NRW)",
         paragraphs: [
-          "Die Mindest-Feuerwiderstandsklassen für tragende und aussteifende Bauteile ergeben sich aus der GK über Anlage 1 BauO NRW. Üblich in der Praxis:",
-          "**Feuerhemmend** (Feuerwiderstandsklasse F 30): innere Trennwände, viele nichttragende Bauteile, Brandschutztüren und Rauchschutztüren T30-RS in GK 1–3.",
-          "**Hochfeuerhemmend** (F 60): häufig tragende Bauteile in GK 4.",
-          "**Feuerbeständig** (F 90): tragende Wände, Stützen, Decken und Brandwände in GK 5; auch Brandwände unter mechanischer Beanspruchung.",
-          "Die genaue Zuordnung hängt vom Bauteil ab (Innenwand, Außenwand, Decke, Dach, Brandwand) – die Tabelle in Anlage 1 ist maßgeblich, nicht pauschale Merksätze.",
+          "Die Mindest-Feuerwiderstandsklassen ergeben sich aus der GK über **Anlage 1 BauO NRW**. In der NRW-Praxis werden sie in der MHKBG-Mitteilung 02 mit den Kürzeln **fh** (feuerhemmend, F 30), **hfh** (hochfeuerhemmend, F 60) und **fb** (feuerbeständig, F 90) je Bauteilart und GK tabellarisch zusammengefasst.",
+          "**fh (F 30):** feuerhemmend – innere Trennwände, viele nichttragende Bauteile, Brandschutz- und Rauchschutzabschlüsse T30-RS in niedrigeren GK.",
+          "**hfh (F 60):** hochfeuerhemmend – häufig tragende Bauteile in **GK 4**.",
+          "**fb (F 90):** feuerbeständig – tragende Wände, Stützen, Decken und Brandwände in **GK 5**; in Kellergeschossen oft schon ab GK 3.",
+          "Die genaue Zuordnung hängt vom **Bauteil** ab (§§ 27–32: tragende Wand, Außenwand, Decke, Dach, Trennwand, Brandwand) – nicht nur von der GK allein.",
         ],
         list: [
-          "In GK 1 und GK 2 sind Innenbauteile überwiegend feuerhemmend auszuführen; bei GK 2 kommt eine stärkere Trennung zwischen den beiden Nutzungseinheiten zum Schutz der Nachbarn hinzu.",
-          "GK 3 verlangt feuerhemmende Innenbauteile, während Brandwände und tragende Stellen oft feuerbeständig (F 90) sein müssen.",
-          "In GK 4 ist das tragende Skelett häufig hochfeuerhemmend (F 60), Brandwände und kritische Außenbauteile dagegen feuerbeständig (F 90).",
-          "GK 5 erfordert tragende und aussteifende Bauteile in der Regel durchgängig feuerbeständig (F 90), ebenso Brandabschnittswände und -decken in entsprechend hoher Klasse.",
+          "**GK 1–2:** wenig bis keine Anforderungen an tragende Bauteile; ab GK 2 stärkere Trennung zwischen den beiden NE",
+          "**GK 3:** tragende Bauteile fh; Kellergeschoss Decken und Trennwände oft fb",
+          "**GK 4:** tragende Bauteile hfh; Brandwände und kritische Stellen fb",
+          "**GK 5:** tragende und aussteifende Bauteile in der Regel durchgängig fb",
         ],
       },
       {
@@ -100,8 +116,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "rettungswege",
         title: "Rettungswege und Feuerwehr (§ 33, §§ 4–6 BauO NRW)",
         paragraphs: [
-          "Jede Nutzungseinheit mit Aufenthaltsräumen braucht zwei voneinander unabhängige Rettungswege (§ 33 BauO NRW). Der erste führt in der Regel über die notwendige Treppe; der zweite über eine weitere Treppe, einen Sicherheitstreppenraum oder – nur mit Nachweis und Abstimmung Berufsfeuerwehr – über Rettung von außen.",
-          "Feuerwehr-Rettung von außen über Leitern ist bei Brüstungshöhen über 8 m nur zulässig, wenn die Feuerwehr entsprechende Hubrettungsfahrzeuge einsetzen kann – deshalb die Praxisregel: bis OKF 7 m eher Steckleiter/Innenangriff (GK 1–3), ab mittlerer Höhe und bei GK 4/5 Drehleiter und Anleitbarkeit planen.",
+          "Jede Nutzungseinheit mit Aufenthaltsräumen braucht **zwei voneinander unabhängige Rettungswege** je Geschoss (§ 33 BauO NRW). Beide dürfen im Geschoss über **denselben notwendigen Flur** führen. Der erste Weg führt in der Regel über die **notwendige Treppe**; der zweite über eine weitere Treppe, einen **Sicherheitstreppenraum** oder – nur mit Nachweis und Abstimmung mit der Feuerwehr – über Rettung von außen.",
+          "Ein zweiter Weg entfällt, wenn ein **Sicherheitstreppenraum** vorliegt oder ein ebenerdiger Ausgang von jeder Stelle des Raums in höchstens **15 m** erreichbar ist (MHKBG BFM-02 zu § 33). Feuerwehr-Rettung von außen ist bei Brüstungen über **8 m** nur zulässig, wenn die örtliche Feuerwehr die nötigen **Hubrettungsfahrzeuge** einsetzen kann.",
           "Zusätzlich: Zufahrt, Aufstellflächen und Löschwasser (§§ 4–6, § 14 BauO NRW) – früh mit tab und Berufsfeuerwehr klären, nicht erst nach der Planungsfertigstellung.",
         ],
       },
@@ -127,7 +143,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "hinweis",
         title: "Grenzen dieser Übersicht",
         paragraphs: [
-          "Abweichungen mit Kompensation, Bestandsschutz, Denkmalschutz und Versammlungsstätten-Verordnung können strengere Lösungen verlangen. Verbindlich sind Anlage 1 BauO NRW, der konkrete Grundriss und die Festlegung der Bauaufsicht Köln – diese Seite ist eine fachliche Orientierung aus der Praxis, kein Nachweis.",
+          "Abweichungen mit Kompensation, Bestandsschutz, Denkmalschutz und Versammlungsstätten-Verordnung können strengere Lösungen verlangen. Verbindlich sind Anlage 1 BauO NRW, der konkrete Grundriss und die Festlegung der Bauaufsicht – diese Seite ist eine fachliche Orientierung aus der Praxis, kein Nachweis. Zur NRW-Systematik vgl. MHKBG, Baufachliche Mitteilung 02 (Baulicher Brandschutz, Januar 2021).",
         ],
       },
     ],
