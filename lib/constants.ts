@@ -24,7 +24,6 @@ export const EXTERNAL_LINKS = [
   { url: "https://www.handsplus.de", label: "H&S+ – handsplus.de", description: "Dachmarke Arbeitsschutz & Brandschutz" },
   { url: "https://www.sigeko.koeln", label: "SIGEKO Köln", description: "Sicherheit & Gesundheit Köln" },
   { url: "https://www.arbeitssicherheit.nrw", label: "Arbeitssicherheit NRW", description: "Landesportal Arbeitssicherheit" },
-  { url: "https://www.arbeitssicherheitkoeln.de", label: "Arbeitssicherheit Köln", description: "Arbeitssicherheit in Köln" },
 ] as const;
 
 /** Reihenfolge der Websites in der Fußzeile (Überschrift „Websites“). */
@@ -33,7 +32,6 @@ export const FOOTER_WEBSITES = [
   { href: "https://handsplus.de", label: "handsplus.de", external: true },
   { href: "https://arbeitssicherheit.nrw", label: "arbeitssicherheit.nrw", external: true },
   { href: "/", label: "brandschutzkoeln.com", external: false },
-  { href: "https://arbeitssicherheitkoeln.de", label: "arbeitssicherheitkoeln.de", external: true },
 ] as const;
 
 export const NAV_LINKS = [

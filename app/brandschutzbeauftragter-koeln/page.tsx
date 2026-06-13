@@ -9,16 +9,19 @@ import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
 import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzbeauftragter Köln | Extern H&S+",
+  title: "Brandschutzbeauftragter Köln – extern | H&S+",
   absoluteTitle: true,
   description:
-    "Brandschutzbeauftragter Köln: Begehungen, Unterweisung, Dokumentation & Maßnahmen – extern und praxisnah. Jetzt Erstberatung anfragen.",
+    "Brandschutzbeauftragter Köln: externer BSB für Begehungen, Unterweisung, Dokumentation und Maßnahmen. Praxisnah für Unternehmen in Köln und NRW.",
   ogDescription:
-    "Externer Brandschutzbeauftragter in Köln: Organisation und Umsetzung im Betrieb – passend zu Ihrer Branche.",
+    "Externer Brandschutzbeauftragter in Köln – Organisation, Unterweisung und Umsetzung im Betrieb, passend zu Ihrer Branche.",
   keywords: [
     "Brandschutzbeauftragter Köln",
     "externer Brandschutzbeauftragter Köln",
+    "Brandschutzbeauftragter extern",
+    "BSB Köln",
     "Brandschutzbeauftragter Unternehmen",
+    "Bestellung Brandschutzbeauftragter",
   ],
   path: "/brandschutzbeauftragter-koeln",
 });

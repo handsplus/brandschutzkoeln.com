@@ -3,6 +3,10 @@
  */
 
 import { RATGEBER_ARTICLES_BATCH2 } from "./ratgeber-articles-batch2";
+import { RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026 } from "./ratgeber-articles-brandschadensanierung-jan2026";
+import { RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026 } from "./ratgeber-articles-feuerloescher-feb2026";
+import { RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026 } from "./ratgeber-articles-prueffristen-mar-apr2026";
+import { RATGEBER_ARTICLES_2025 } from "./ratgeber-articles-2025";
 import { applyRatgeberPublishedDates } from "./ratgeber-published-dates";
 
 export type { RatgeberArticle, RatgeberSection } from "./ratgeber-types";
@@ -2862,6 +2866,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     ],
   },
   ...RATGEBER_ARTICLES_BATCH2,
+  ...RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026,
+  ...RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026,
+  ...RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026,
+  ...RATGEBER_ARTICLES_2025,
 ]);
 
 export function getRatgeberArticle(slug: string): RatgeberArticle | undefined {

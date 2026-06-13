@@ -12,16 +12,19 @@ const linkClass =
   "text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzberatung Köln | H&S+ Erstberatung",
+  title: "Brandschutzberatung Köln – kostenlose Erstberatung | H&S+",
   absoluteTitle: true,
   description:
-    "Brandschutzberatung Köln: kostenlose Erstberatung, Ist-Analyse und priorisierte Maßnahmen nach BauO NRW. Für Gewerbe, Immobilien und Umbau in Köln und NRW.",
+    "Brandschutzberatung und Brandschutz-Beratung in Köln: kostenlose Erstberatung, Ist-Analyse und Maßnahmen nach BauO NRW. Gewerbe, Umbau, NRW.",
   ogDescription:
-    "Kostenlose Erstberatung Brandschutz in Köln – fachliche Einschätzung und nächste Schritte für Ihr Objekt.",
+    "Brandschutzberatung Köln mit kostenloser Erstberatung – fachliche Einschätzung und klare nächste Schritte für Ihr Objekt.",
   keywords: [
     "Brandschutzberatung",
     "Brandschutzberatung Köln",
-    "Brandschutz Berater Köln",
+    "Brandschutz Beratung",
+    "Brandschutz Beratung Köln",
+    "Beratung Brandschutz",
+    "baulicher Brandschutz Köln",
     "vorbeugender Brandschutz Köln",
     "Brandschutz Erstberatung Köln",
   ],

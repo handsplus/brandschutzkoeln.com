@@ -9,17 +9,20 @@ import { LandingFaqSection } from "@/components/sections/LandingFaqSection";
 import { LANDING_FAQS } from "@/content/landing-faqs";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Brandschutzhelfer Köln | Inhouse ASR A2.2",
+  title: "Brandschutzhelfer Ausbildung Köln – Inhouse | H&S+",
   absoluteTitle: true,
   description:
-    "Brandschutzhelfer Köln: Inhouse-Ausbildung nach ASR A2.2 mit Theorie, Löschübung & Nachweis. Termine flexibel – Schulung jetzt anfragen.",
+    "Brandschutzhelfer-Ausbildung und Brandschutzschulung in Köln nach ASR A2.2: Theorie, Löschübung und Teilnahmenachweis. Flexibel vor Ort in Köln.",
   ogDescription:
-    "Brandschutzhelfer-Ausbildung in Köln vor Ort: rechtskonform, praxisnah, mit Teilnahmenachweis für Ihren Betrieb.",
+    "Brandschutzhelfer Köln: Inhouse-Ausbildung nach ASR A2.2 – rechtskonform, praxisnah, mit Nachweis für Ihren Betrieb.",
   keywords: [
     "Brandschutzhelfer Köln",
     "Brandschutzhelfer Ausbildung Köln",
     "Brandschutzschulung Köln",
+    "Brandschutzhelfer Kurs Köln",
+    "Brandschutzhelfer Lehrgang Köln",
     "ASR A2.2 Schulung",
+    "Brandschutzhelfer Schulung Köln",
   ],
   path: "/brandschutzhelfer-ausbildung-koeln",
 });
