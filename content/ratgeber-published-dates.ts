@@ -132,6 +132,11 @@ const APRIL_2026_PUBLICATIONS: Record<string, string> = {
   "sprinkler-loeschanlagen-prueffristen": "2026-04-21",
 };
 
+/** Juni 2026 – Löschwasserversorgung Hydranten (AGBF/DFV/DVGW W 405). */
+const JUNE_2026_PUBLICATIONS: Record<string, string> = {
+  "loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405": "2026-06-17",
+};
+
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */
 const ARTICLES_PER_MONTH_2025 = 8;
 
@@ -248,6 +253,7 @@ const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
   ...FEBRUARY_2026_PUBLICATIONS,
   ...MARCH_2026_PUBLICATIONS,
   ...APRIL_2026_PUBLICATIONS,
+  ...JUNE_2026_PUBLICATIONS,
 };
 
 export function getRatgeberPublishedAt(slug: string): string | undefined {
