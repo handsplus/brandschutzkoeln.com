@@ -251,6 +251,7 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "§ 69 Erlass & Entscheidungskette" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
       { href: "/ratgeber/teilsanierung-buero-brandschutz-koeln", label: "Teilsanierung (baulicher Umbau)" },
       { href: "/ratgeber/tuerarten-brandschutz-bauo-nrw", label: "Brandschutztüren Bestand" },

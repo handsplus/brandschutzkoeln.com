@@ -201,6 +201,8 @@ export const RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE: RatgeberArticle[
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandschutzordnung-pflicht-sbauvo-nrw", label: "BSO Pflicht SBauVO" },
+      { href: "/ratgeber/brandschutzbeauftragter-pflicht-sbauvo-nrw", label: "BSB Pflicht SBauVO" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
       { href: "/ratgeber/sonderbauten-geregelt-ungeregelt-bauo-nrw", label: "Geregelt/ungeregelt" },

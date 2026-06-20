@@ -76,6 +76,7 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/entrauchung-rauchableitung-bauo-sbauvo-nrw", label: "Entrauchung Hub" },
       { href: "/ratgeber/hochhaus-brandschutz-sbauvo-nrw", label: "Hochhaus baulich" },
       { href: "/ratgeber/hochhaus-betriebsvorschriften-sbauvo-nrw", label: "Betrieb" },
       { href: "/ratgeber/bma-brandfallsteuerung-aufzug-sbauvo-nrw", label: "BMA" },

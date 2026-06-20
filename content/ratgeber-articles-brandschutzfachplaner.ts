@@ -389,6 +389,7 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept wann nötig?" },
       { href: "/ratgeber/bauantrag-brandschutz-unterlagen-koeln", label: "Bauantrag Unterlagen" },
       { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "§ 69 Abweichungen" },
+      { href: "/ratgeber/brandschutzbeauftragter-pflicht-sbauvo-nrw", label: "BSB Pflicht SBauVO" },
       { href: "/ratgeber/aufgaben-brandschutzbeauftragter-koeln", label: "BSB vs. Planer" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr-Abstimmung" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten § 50" },

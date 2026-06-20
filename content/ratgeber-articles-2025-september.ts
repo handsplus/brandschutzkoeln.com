@@ -300,6 +300,7 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
       { href: "/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw", label: "BMA-Pflicht" },
       { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO" },
       { href: "/ratgeber/hochhaus-brandschutz-sbauvo-nrw", label: "Hochhaus" },
+      { href: "/ratgeber/aufzuege-brandschutz-bauo-sbauvo-nrw", label: "Aufzüge gesetzlich" },
       { href: "/ratgeber/hochhaus-betriebsvorschriften-sbauvo-nrw", label: "Hochhaus Betrieb" },
       { href: "/ratgeber/versammlungsstaetten-baulich-sbauvo-nrw", label: "VStätte baulich" },
       { href: "/ratgeber/feuerschutzabschluesse-bestand-nrw", label: "Feststellanlagen" },

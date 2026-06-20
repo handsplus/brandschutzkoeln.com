@@ -132,8 +132,17 @@ const APRIL_2026_PUBLICATIONS: Record<string, string> = {
   "sprinkler-loeschanlagen-prueffristen": "2026-04-21",
 };
 
+/** August 2024 – Aufzüge, Elektrische Betriebsräume, Garagen SBauVO. */
+const AUGUST_2024_PUBLICATIONS: Record<string, string> = {
+  "aufzuege-brandschutz-bauo-sbauvo-nrw": "2024-08-20",
+  "elektrische-betriebsraeume-sbauvo-nrw": "2024-08-25",
+  "mittelgrossgaragen-brandschutz-sbauvo-nrw": "2024-08-30",
+};
+
 /** September 2024 – Leitungen / Treppen / Einstufung / Sicherheitsstromversorgung. */
 const SEPTEMBER_2024_PUBLICATIONS: Record<string, string> = {
+  "brandschutzordnung-pflicht-sbauvo-nrw": "2024-09-05",
+  "brandschutzbeauftragter-pflicht-sbauvo-nrw": "2024-09-10",
   "leitungsanlagen-bauo-sbauvo-nrw": "2024-09-15",
   "notwendige-treppen-treppenraeume-bauo-sbauvo-nrw": "2024-09-20",
   "gesetzliche-einstufung-gebaeude-bauo-nrw": "2024-09-22",
@@ -175,6 +184,11 @@ const JUNE_2026_PUBLICATIONS: Record<string, string> = {
   "gebaeudeklasse-4-brandschutz-bauo-nrw": "2026-06-23",
   "gebaeudeklasse-5-brandschutz-bauo-nrw": "2026-06-26",
   "tuerarten-brandschutz-bauo-nrw": "2026-06-29",
+};
+
+/** Juli 2026 – Hub Entrauchung / Rauchableitung (BauO / SBauVO). */
+const JULY_2026_PUBLICATIONS: Record<string, string> = {
+  "entrauchung-rauchableitung-bauo-sbauvo-nrw": "2026-07-02",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */
@@ -223,7 +237,6 @@ const APRIL_2025_PUBLICATIONS: Record<string, string> = {
   "pflegeeinrichtung-sonderbau-nrw": "2025-04-29",
 };
 const MAY_2025_PUBLICATIONS: Record<string, string> = {
-  "mittelgrossgaragen-brandschutz-sbauvo-nrw": "2025-05-04",
   "hochhaus-brandschutz-sbauvo-nrw": "2025-05-11",
   "brandschutzkonzept-baupruefvo-nrw": "2025-05-18",
   "verkaufsstaetten-rettungswege-sbauvo-nrw": "2025-05-25",
@@ -235,7 +248,6 @@ const JUNE_2025_PUBLICATIONS: Record<string, string> = {
   "feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw": "2025-06-25",
 };
 const JULY_2025_PUBLICATIONS: Record<string, string> = {
-  "elektrische-betriebsraeume-sbauvo-nrw": "2025-07-04",
   "dguv-205-001-gefaehrdungsbeurteilung-brandschutz": "2025-07-11",
   "baupavo-nrw-bauarten-verwendbarkeitsnachweis": "2025-07-18",
   "kita-krankenhaus-sonderbau-ungeregelt-nrw": "2025-07-25",
@@ -289,6 +301,7 @@ const PUBLICATION_2025: Record<string, string> = {
 const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
   "gebaeudeklassen-brandschutz-bauo-nrw": "2026-06-12",
   ...PUBLICATION_2025,
+  ...AUGUST_2024_PUBLICATIONS,
   ...SEPTEMBER_2024_PUBLICATIONS,
   ...OCTOBER_2024_PUBLICATIONS,
   ...NOVEMBER_2024_PUBLICATIONS,
@@ -298,6 +311,7 @@ const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
   ...MARCH_2026_PUBLICATIONS,
   ...APRIL_2026_PUBLICATIONS,
   ...JUNE_2026_PUBLICATIONS,
+  ...JULY_2026_PUBLICATIONS,
 };
 
 export function getRatgeberPublishedAt(slug: string): string | undefined {

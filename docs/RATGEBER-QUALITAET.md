@@ -57,6 +57,7 @@ Diese Artikel sind die **Latte** für alle anderen:
 | `sonderbauten-geregelt-ungeregelt-bauo-nrw` | SBauVO ja/nein, Gastronomie-Dreiteilung |
 | `brandschutzkonzept-wann-noetig` | Konzept / Stellungnahme / § 9 |
 | `flucht-und-rettungswege-bauo-nrw` | § 33, Brand-/Rauchabschnitt |
+| `entrauchung-rauchableitung-bauo-sbauvo-nrw` | Hub Entrauchung/RWA, §§ 35/39/46, SBauVO 16/75/110/138, § 105 |
 
 Neue Spezialthemen: **verlinken** auf diese fünf, nicht wieder alles erklären.
 

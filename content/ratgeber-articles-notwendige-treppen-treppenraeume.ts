@@ -111,7 +111,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
         title: "Rauchableitung, Belüftung, Beleuchtung",
         paragraphs: [
           "Notwendige Treppenräume müssen belüftet und entrauchbar sein: je oberirdisches Geschoss Fenster mindestens 0,50 m² freier Querschnitt ins Freie – oder Rauchöffnung oben mindestens 1 m², bedienbar vom EG und oberstem Treppenabsatz.",
-          "Zu beleuchten; fensterlose TR in Gebäuden > 13 m Höhe (§ 2 Abs. 3 Satz 2): Sicherheitsbeleuchtung (§ 35 Abs. 7). SBauVO-Zusätze: [Sicherheitsbeleuchtung Pflicht](/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw).",
+          "Gesamtübersicht Entrauchung (SBauVO §§ 16/75/110, § 105-Abgrenzung): [Entrauchung Hub](/ratgeber/entrauchung-rauchableitung-bauo-sbauvo-nrw). Zu beleuchten; fensterlose TR in Gebäuden > 13 m Höhe (§ 2 Abs. 3 Satz 2): Sicherheitsbeleuchtung (§ 35 Abs. 7). SBauVO-Zusätze: [Sicherheitsbeleuchtung Pflicht](/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw).",
           "Bekleidungen, Putze, Dämmstoffe, Einbauten in TR aus nichtbrennbaren Baustoffen; Bodenbeläge mindestens schwerentflammbar (§ 35 Abs. 5).",
         ],
       },
@@ -216,6 +216,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
       { href: "/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw", label: "Sicherheitsbeleuchtung" },
       { href: "/ratgeber/hochhaus-brandschutz-sbauvo-nrw", label: "Hochhaus § 99" },
+      { href: "/ratgeber/aufzuege-brandschutz-bauo-sbauvo-nrw", label: "Aufzüge § 39" },
       { href: "/ratgeber/brandlasten-notwendige-flure-bauo-nrw", label: "Brandlasten Flur" },
     ],
     faq: [

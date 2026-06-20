@@ -130,7 +130,7 @@ export const RATGEBER_ARTICLES_FEUERWEHRPLAENE: RatgeberArticle[] = [
         title: "§ 117 SBauVO – Hochhäuser",
         paragraphs: [
           "Alle Hochhäuser (Gebäudehöhe > 22 m). § 117 Abs. 1: Brandschutzordnung im Einvernehmen mit der Brandschutzdienststelle aufstellen und durch Aushang bekannt machen. § 117 Abs. 2: Feuerwehrpläne im Einvernehmen anfertigen und der örtlichen Feuerwehr zur Verfügung stellen.",
-          "Verantwortlich für die Einhaltung: Eigentümerin/Eigentümer (§ 118 Abs. 1); Pflichten können schriftlich auf Betreiberin/Betreiber übertragen werden (§ 118 Abs. 3). Brandschutzbeauftragte ab bestimmter Größe/Nutzung (§ 118 Abs. 2) – gesonderte Pflicht, nicht identisch mit Feuerwehrplan.",
+          "Verantwortlich für die Einhaltung: Eigentümerin/Eigentümer (§ 118 Abs. 1); Pflichten können schriftlich auf Betreiberin/Betreiber übertragen werden (§ 118 Abs. 3). Brandschutzbeauftragte ab bestimmter Größe/Nutzung (§ 118 Abs. 2) – gesonderte Pflicht, nicht identisch mit Feuerwehrplan. Gesetzliche Bestellpflicht: [Brandschutzbeauftragter SBauVO](/ratgeber/brandschutzbeauftragter-pflicht-sbauvo-nrw).",
           "Vertiefung: [Hochhaus SBauVO](/ratgeber/hochhaus-brandschutz-sbauvo-nrw).",
         ],
       },
@@ -174,7 +174,7 @@ export const RATGEBER_ARTICLES_FEUERWEHRPLAENE: RatgeberArticle[] = [
           ],
         },
         paragraphs: [
-          "Abgrenzung der Planarten im Betrieb: [Flucht- vs. Feuerwehrplan](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe). Gesetzliche Sicherheitsbeleuchtung – separates Thema: [Sicherheitsbeleuchtung](/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw).",
+          "Abgrenzung der Planarten im Betrieb: [Flucht- vs. Feuerwehrplan](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe). Gesetzliche Brandschutzordnung: [BSO Pflicht SBauVO](/ratgeber/brandschutzordnung-pflicht-sbauvo-nrw). Sicherheitsbeleuchtung – separates Thema: [Sicherheitsbeleuchtung](/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw).",
         ],
       },
       {
@@ -279,6 +279,8 @@ export const RATGEBER_ARTICLES_FEUERWEHRPLAENE: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandschutzordnung-pflicht-sbauvo-nrw", label: "BSO Pflicht SBauVO" },
+      { href: "/ratgeber/brandschutzbeauftragter-pflicht-sbauvo-nrw", label: "BSB Pflicht SBauVO" },
       { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
       { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Flucht- vs. Feuerwehrplan" },
       { href: "/ratgeber/feuerwehrplan-fluchtplaene-pflicht-koeln", label: "FSD & Fluchtpläne" },

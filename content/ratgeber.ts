@@ -18,8 +18,14 @@ import { RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69 } from "./ratgeber-articles
 import { RATGEBER_ARTICLES_RAEUME_BRAND_EXPLOSIONSGEFAHR } from "./ratgeber-articles-raeume-brand-explosionsgefahr";
 import { RATGEBER_ARTICLES_RETTUNGSWEGFENSTER_RUNDERLASS } from "./ratgeber-articles-rettungswegfenster-runderlass";
 import { RATGEBER_ARTICLES_MODULBAU_RAEUMZELLEN } from "./ratgeber-articles-modulbau-raumzellen";
+import { RATGEBER_ARTICLES_AUFZUEGE } from "./ratgeber-articles-aufzuege";
+import { RATGEBER_ARTICLES_ELEKTRISCHE_BETRIEBSRAEUME } from "./ratgeber-articles-elektrische-betriebsraeume";
+import { RATGEBER_ARTICLES_GARAGEN } from "./ratgeber-articles-garagen";
+import { RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG } from "./ratgeber-articles-brandschutzordnung";
+import { RATGEBER_ARTICLES_BRANDSCHUTZBEAUFTRAGTER } from "./ratgeber-articles-brandschutzbeauftragter";
 import { RATGEBER_ARTICLES_LEITUNGSANLAGEN } from "./ratgeber-articles-leitungsanlagen";
 import { RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME } from "./ratgeber-articles-notwendige-treppen-treppenraeume";
+import { RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG } from "./ratgeber-articles-entrauchung-rauchableitung";
 import { RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE } from "./ratgeber-articles-gesetzliche-einstufung-gebaeude";
 import { RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG } from "./ratgeber-articles-sicherheitsstromversorgung";
 import { RATGEBER_ARTICLES_BRANDMELDEANLAGE } from "./ratgeber-articles-brandmeldeanlage";
@@ -2643,8 +2649,14 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_TUERARTEN_JUN2026,
   ...RATGEBER_ARTICLES_2024_DECEMBER,
   ...RATGEBER_ARTICLES_WAENDE_NOTWENDIGE_FLURE,
+  ...RATGEBER_ARTICLES_AUFZUEGE,
+  ...RATGEBER_ARTICLES_ELEKTRISCHE_BETRIEBSRAEUME,
+  ...RATGEBER_ARTICLES_GARAGEN,
+  ...RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG,
+  ...RATGEBER_ARTICLES_BRANDSCHUTZBEAUFTRAGTER,
   ...RATGEBER_ARTICLES_LEITUNGSANLAGEN,
   ...RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME,
+  ...RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG,
   ...RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE,
   ...RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG,
   ...RATGEBER_ARTICLES_BRANDMELDEANLAGE,

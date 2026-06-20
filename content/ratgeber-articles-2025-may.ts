@@ -6,120 +6,6 @@ import type { RatgeberArticle } from "./ratgeber-types";
 
 export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
   {
-    slug: "mittelgrossgaragen-brandschutz-sbauvo-nrw",
-    title: "Mittel- und Großgaragen: Brandschutz nach SBauVO NRW",
-    excerpt:
-      "Ab 100 m² Nutzfläche gelten Sonderbau-Regeln für Garagen – mit Rauchabschnitten, Verbindungen zum Wohnbau und Betriebsvorschriften. Was Planer und Betreiber bei Mittel- und Großgaragen beachten müssen.",
-    metaTitle: "Mittel- und Großgaragen: SBauVO NRW | H&S+",
-    metaDescription:
-      "Garagen Brandschutz NRW: Mittelgarage ab 100 m², Großgarage, Rauchabschnitt §132 SBauVO, offene vs. geschlossene Garage, PrüfVO – Planung und Betrieb.",
-    keywords: [
-      "Mittelgarage Brandschutz",
-      "Großgarage SBauVO",
-      "Garage Sonderbau NRW",
-      "Rauchabschnitt Garage",
-      "Tiefgarage Brandschutz",
-      "SBauVO Teil 5 Garagen",
-    ],
-    sections: [
-      {
-        id: "einordnung",
-        title: "Ab wann eine Garage Sonderbau wird",
-        paragraphs: [
-          "Stellplätze und Garagen fallen unter Teil 5 der Sonderbauverordnung NRW (SBauVO), soweit sie nicht nur der privaten Nutzung einer Wohnung dienen. Entscheidend ist die Nutzfläche – nicht allein die Zahl der Stellplätze.",
-          "Mittelgaragen: Nutzfläche über 100 m² bis 1.000 m². Großgaragen: über 1.000 m². Darunter gelten andere bauordnungsrechtliche Regeln – ab diesen Schwellen greifen Rauchabschnitte, Brandabschnitte, Verbindungsregeln zu anderen Nutzungen und Betriebsvorschriften nach SBauVO.",
-          "Grenzfall ja: Geschlossene Tiefgarage 850 m² unter Wohnhaus, Rauchabschnitte nach § 132 SBauVO, getrennte Verbindung Wohn↔Garage, BMA und später [PrüfVO](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau). Grenzfall nein: Einzelgarage 28 m² am EFH – keine Mittelgarage, aber [Kraftstoff](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz) und FeuVO bei Heizung/Nebenraum trotzdem prüfen.",
-        ],
-      },
-      {
-        id: "begriffe",
-        title: "Offen, geschlossen, oberirdisch, automatisch",
-        paragraphs: [
-          "Die SBauVO unterscheidet Garagentypen mit unterschiedlichen Anforderungen:",
-        ],
-        list: [
-          "Offene Mittel- und Großgaragen – in jedem Geschoss unverschließbare Öffnungen ≥ 1/3 der Umfassungswandfläche, mindestens eine Öffnung je 50 m Wandlänge",
-          "Geschlossene Garagen – erfüllen die Offenheitskriterien nicht; strengere Anforderungen an Entrauchung und Abschnitte",
-          "Oberirdische Garagen – Fußböden im Mittel nicht mehr als 1,50 m unter Geländeoberfläche",
-          "Automatische Garagen – ohne Personen- und Fahrverkehr, mechanische Förderung; eigene Regelungen",
-        ],
-      },
-      {
-        id: "abschnitte",
-        title: "Rauchabschnitte und Brandabschnitte (§ 132)",
-        paragraphs: [
-          "§ 132 SBauVO regelt die Unterteilung in Rauchabschnitte und Brandabschnitte – analog zur BauO-Logik, aber garagenspezifisch. Ziel: Rauchausbreitung in Fluren und Verbindungen begrenzen, Brandübertragung in angrenzende Nutzungen verhindern.",
-          "Verbindungen zwischen Garagen und Wohnnutzungen (§ 133) sind kritisch: Sicherheitsschleusen, feuerbeständige oder feuerhemmende Trennungen, keine unkontrollierten Öffnungen in Rettungswege des Wohnbaus.",
-          "Mehrgeschossige Garagen: Verbindungen zwischen Garagengeschossen und zu Aufzügen/Treppen müssen im Brandschutzkonzept dargestellt sein – typischer Planungsfehler bei Wohn-Tiefgaragen-Komplexen.",
-        ],
-      },
-      {
-        id: "betrieb",
-        title: "Betriebsvorschriften und E-Fahrzeuge",
-        paragraphs: [
-          "§ 139 SBauVO: Betriebsvorschriften für Garagen – u. a. Kennzeichnung, Nutzung, technische Anlagen im Betrieb. § 140: Kraftfahrzeuge in anderen Räumen als Garagen – Werkstatt, Lager, Flur: grundsätzlich unzulässig oder nur mit Sonderregeln.",
-          "E-Ladeinfrastruktur und LIB-Risiken ergänzen den baulichen Nachweis – [E-Fahrzeuge Tiefgarage](/ratgeber/e-fahrzeuge-tiefgarage-brandgefahren-fbfhb-024) betrieblich; SBauVO liefert die baulische Basis (Abschnitte, Lüftung, BMA).",
-          "Bestand: § 142 regelt Anwendung auf bestehende Garagen – Umrüstung und Nutzungsänderung können Nachrüstung auslösen, auch ohne Neubau.",
-        ],
-      },
-      {
-        id: "pruefung",
-        title: "Genehmigung, Konzept, PrüfVO",
-        paragraphs: [
-          "Mittel- und Großgaragen sind Sonderbauten – [Brandschutzkonzept](/ratgeber/brandschutzkonzept-wann-noetig) nach § 9 BauPrüfVO NRW bei genehmigungspflichtigen Vorhaben. Inhalt: Abschottungen, Rettungswege, BMA, Löschanlagen, Löschwasser.",
-          "Nach Inbetriebnahme: PrüfVO NRW für BMA, Sprinkler, RWA in Mittel- und Großgaragen – Prüfsachverständiger alle 3 Jahre, Bericht an Bauaufsicht.",
-          "Verknüpfung [Sonderbauten](/ratgeber/sonderbauten-brandschutz) und [Fluchtwege](/ratgeber/flucht-und-rettungswege-bauo-nrw) für Erschließung aus der Garage ins Freie.",
-        ],
-      },
-      {
-        id: "hinweis",
-        title: "Grenzen",
-        paragraphs: [
-          "Dieser Ratgeber fasst SBauVO NRW Teil 5 (Garagen) für Planer und Betreiber zusammen. Einzelgaragen, Stellplätze unter 100 m² und reine PKW-Stellplätze am EFH folgen anderen Tatbeständen. Er ersetzt kein genehmigungsfähiges Brandschutzkonzept.",
-        ],
-      },
-    ],
-    relatedLinks: [
-      { href: "/ratgeber/e-fahrzeuge-tiefgarage-brandgefahren-fbfhb-024", label: "E-Fahrzeuge Tiefgarage" },
-      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
-      { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Brandschutzkonzept" },
-      { href: "/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz", label: "Kraftstofflagerung" },
-    ],
-    faq: [
-      {
-        question: "Ab welcher Fläche ist eine Mittelgarage?",
-        answer:
-          "Nutzfläche über 100 m² bis 1.000 m² – SBauVO Teil 5. Darüber Großgarage. Maßgeblich ist die Garagen-Nutzfläche, nicht die gesamte Gebäude-BGF.",
-      },
-      {
-        question: "Was ist eine offene Garage?",
-        answer:
-          "Garage mit unmittelbar ins Freie führenden, unverschließbaren Öffnungen von mindestens einem Drittel der Umfassungswandfläche – mit Mindestöffnungen je Wandlänge nach SBauVO.",
-      },
-      {
-        question: "Braucht jede Tiefgarage ein Brandschutzkonzept?",
-        answer:
-          "Bei genehmigungspflichtiger Errichtung oder wesentlicher Änderung von Mittel-/Großgaragen in der Regel ja – als Teil des Sonderbau-Verfahrens nach BauPrüfVO § 9.",
-      },
-      {
-        question: "Gilt PrüfVO in Garagen?",
-        answer:
-          "Ja für Mittel- und Großgaragen – u. a. BMA, Sprinkler, maschinelle RWA mit Prüfsachverständigen und Behördenberichtspflicht.",
-      },
-      {
-        question: "Darf ich in der Werkstatt parken?",
-        answer:
-          "§ 140 SBauVO regelt Abstellen außerhalb von Garagen – grundsätzlich eingeschränkt. Werkstatt mit Fahrzeug ≠ Garage-Nachweis.",
-      },
-      {
-        question: "Was bei Umbau Wohnhaus mit Bestandsgarage?",
-        answer:
-          "§ 142 und Nutzungsänderung prüfen – Verbindung Wohn/Garage, Abschnitte und BMA können nachgerüstet werden müssen.",
-      },
-    ],
-  },
-  {
     slug: "hochhaus-brandschutz-sbauvo-nrw",
     title: "Hochhäuser in NRW: Sonderbau ab 22 m mit Druckbelüftung",
     excerpt:
@@ -193,6 +79,7 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
       { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Brandschutzkonzept" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege" },
+      { href: "/ratgeber/aufzuege-brandschutz-bauo-sbauvo-nrw", label: "Aufzüge Hochhaus" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
     ],
