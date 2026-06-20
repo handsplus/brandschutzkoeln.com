@@ -132,9 +132,21 @@ const APRIL_2026_PUBLICATIONS: Record<string, string> = {
   "sprinkler-loeschanlagen-prueffristen": "2026-04-21",
 };
 
+/** Dezember 2024 – MHKBD-Runderlasse BauO NRW. */
+const DECEMBER_2024_PUBLICATIONS: Record<string, string> = {
+  "aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw": "2024-12-08",
+  "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw": "2024-12-18",
+  "veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw": "2024-12-28",
+};
+
 /** Juni 2026 – Löschwasserversorgung Hydranten (AGBF/DFV/DVGW W 405). */
 const JUNE_2026_PUBLICATIONS: Record<string, string> = {
   "loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405": "2026-06-17",
+  "gebaeudeklasse-1-2-brandschutz-bauo-nrw": "2026-06-14",
+  "gebaeudeklasse-3-brandschutz-bauo-nrw": "2026-06-20",
+  "gebaeudeklasse-4-brandschutz-bauo-nrw": "2026-06-23",
+  "gebaeudeklasse-5-brandschutz-bauo-nrw": "2026-06-26",
+  "tuerarten-brandschutz-bauo-nrw": "2026-06-29",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */
@@ -158,6 +170,7 @@ const FEBRUARY_2025_PUBLICATIONS: Record<string, string> = {
   "heissarbeiten-brandwache-erlaubnisschein": "2025-02-15",
   "brandgase-rauch-brandfall": "2025-02-18",
   "brandursachen-betrieb-praevention": "2025-02-22",
+  "zweiter-rettungsweg-innenhof-bauo-nrw": "2025-02-25",
   "batteriespeicher-lithium-ionen-brandgefahren": "2025-02-25",
   "sonderbau-anlagen-pruefung-maengel-nrw": "2025-02-28",
 };
@@ -249,6 +262,7 @@ const PUBLICATION_2025: Record<string, string> = {
 const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
   "gebaeudeklassen-brandschutz-bauo-nrw": "2026-06-12",
   ...PUBLICATION_2025,
+  ...DECEMBER_2024_PUBLICATIONS,
   ...JANUARY_2026_PUBLICATIONS,
   ...FEBRUARY_2026_PUBLICATIONS,
   ...MARCH_2026_PUBLICATIONS,

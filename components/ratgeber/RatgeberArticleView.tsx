@@ -85,6 +85,40 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
                   ))}
                 </ul>
               ) : null}
+              {section.table ? (
+                <div className="mt-6">
+                  {section.table.caption ? (
+                    <p className="mb-2 text-sm font-medium text-stone-700">{section.table.caption}</p>
+                  ) : null}
+                  <div className="overflow-x-auto rounded-lg border border-stone-200 bg-white shadow-sm">
+                  <table className="min-w-full text-left text-sm text-stone-600">
+                    <caption className="sr-only">
+                      {section.table.caption ?? section.title}
+                    </caption>
+                    <thead className="border-b border-stone-200 bg-stone-100 text-stone-900">
+                      <tr>
+                        {section.table.headers.map((header) => (
+                          <th key={header} scope="col" className="px-4 py-3 font-semibold">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-stone-200">
+                      {section.table.rows.map((row, rowIndex) => (
+                        <tr key={rowIndex} className="align-top">
+                          {row.map((cell, cellIndex) => (
+                            <td key={cellIndex} className="px-4 py-3">
+                              {renderRatgeberText(cell)}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                  </div>
+                </div>
+              ) : null}
             </article>
             );
           })}

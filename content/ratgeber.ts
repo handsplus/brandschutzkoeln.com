@@ -7,6 +7,10 @@ import { RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026 } from "./ratgeber-arti
 import { RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026 } from "./ratgeber-articles-feuerloescher-feb2026";
 import { RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026 } from "./ratgeber-articles-prueffristen-mar-apr2026";
 import { RATGEBER_ARTICLES_HYDRANTEN_JUN2026 } from "./ratgeber-articles-hydranten-jun2026";
+import { RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE } from "./ratgeber-articles-gebaeudeklassen-serie";
+import { RATGEBER_ARTICLES_TUERARTEN_JUN2026 } from "./ratgeber-articles-tuerarten-jun2026";
+import { RATGEBER_ARTICLES_2024_DECEMBER } from "./ratgeber-articles-2024-december";
+import { RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG } from "./ratgeber-articles-2025-february-rettungsweg";
 import { RATGEBER_ARTICLES_2025 } from "./ratgeber-articles-2025";
 import { applyRatgeberPublishedDates } from "./ratgeber-published-dates";
 
@@ -153,6 +157,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/gebaeudeklasse-1-2-brandschutz-bauo-nrw", label: "GK 1 und 2" },
+      { href: "/ratgeber/gebaeudeklasse-3-brandschutz-bauo-nrw", label: "GK 3" },
+      { href: "/ratgeber/gebaeudeklasse-4-brandschutz-bauo-nrw", label: "GK 4" },
+      { href: "/ratgeber/gebaeudeklasse-5-brandschutz-bauo-nrw", label: "GK 5" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten und Brandschutz" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege" },
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
@@ -728,6 +736,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/tuerarten-brandschutz-bauo-nrw", label: "Brandschutztüren" },
+      { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "Rettungsweg Innenhof" },
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Zweiter Rettungsweg über Dachfenster" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen (GK 1–5)" },
       { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Fluchtpläne aktualisieren" },
@@ -1680,6 +1690,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "Rettungsweg Innenhof" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege (Grundlagen)" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor dem Bauamt" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklasse 5" },
@@ -2871,6 +2882,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026,
   ...RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026,
   ...RATGEBER_ARTICLES_HYDRANTEN_JUN2026,
+  ...RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE,
+  ...RATGEBER_ARTICLES_TUERARTEN_JUN2026,
+  ...RATGEBER_ARTICLES_2024_DECEMBER,
+  ...RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG,
   ...RATGEBER_ARTICLES_2025,
 ]);
 

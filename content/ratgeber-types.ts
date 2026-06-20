@@ -1,8 +1,15 @@
+export type RatgeberTable = {
+  caption?: string;
+  headers: string[];
+  rows: string[][];
+};
+
 export type RatgeberSection = {
   id: string;
   title: string;
   paragraphs: string[];
   list?: string[];
+  table?: RatgeberTable;
 };
 
 export type RatgeberArticle = {
