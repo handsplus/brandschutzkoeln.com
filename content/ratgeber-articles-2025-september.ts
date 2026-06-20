@@ -181,11 +181,12 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber erläutert Abschnittslogik in der Praxis. Konkrete Anforderungen je Gebäudeklasse und Nutzung sind konzept- und behördenabhängig.",
+          "Dieser Ratgeber erläutert Abschnittslogik in der Praxis. Gesetzliche Systematik § 30/§ 36 und SBauVO-Größen: [Brandabschnitte](/ratgeber/brandabschnitte-bauo-sbauvo-nrw). Konkrete Anforderungen je Gebäudeklasse und Nutzung sind konzept- und behördenabhängig.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandabschnitte-bauo-sbauvo-nrw", label: "Brandabschnitte § 30" },
       { href: "/ratgeber/feuerschutzabschluesse-bestand-nrw", label: "Feuerschutzabschlüsse" },
       { href: "/ratgeber/verkaufsstaetten-rettungswege-sbauvo-nrw", label: "Verkaufsstätte" },
       { href: "/ratgeber/baupavo-nrw-bauarten-verwendbarkeitsnachweis", label: "BauPAVO" },
@@ -291,11 +292,12 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber fasst BMA-Brandfallsteuerung in Sonderbauten zusammen. DIN 14675 und Herstellerunterlagen ergänzen. Er ersetzt keine Prüfung durch Sachkundige.",
+          "Dieser Ratgeber fasst BMA-Brandfallsteuerung in Sonderbauten zusammen. Gesetzliche Pflichtmatrix: [BMA wann Pflicht](/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw). DIN 14675 und Herstellerunterlagen ergänzen. Er ersetzt keine Prüfung durch Sachkundige.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw", label: "BMA-Pflicht" },
       { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO" },
       { href: "/ratgeber/hochhaus-brandschutz-sbauvo-nrw", label: "Hochhaus" },
       { href: "/ratgeber/hochhaus-betriebsvorschriften-sbauvo-nrw", label: "Hochhaus Betrieb" },

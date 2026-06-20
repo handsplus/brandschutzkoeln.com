@@ -31,7 +31,7 @@ export interface HeroProps {
   tertiaryCtaHref?: string;
   /** Einzelner Badge-Text (falls nur einer) */
   badge?: string;
-  /** Zwei kleine Badges (Brandschutzbeauftragter, Brandschutzmanager) – kompakt wie Referenz */
+  /** Zwei kleine Badges (Brandschutzbeauftragter, Brandschutzfachplaner) – kompakt wie Referenz */
   badges?: [string, string];
   /** Kontaktzeile unter dem Hero (Telefon, E-Mail, WhatsApp) */
   showContactStrip?: boolean;

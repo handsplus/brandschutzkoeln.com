@@ -13,6 +13,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/ratgeber/sicherheitsbeleuchtung-rettungswege-bauo-nrw",
+        destination: "/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw",
+        permanent: true,
+      },
+
       // Nur alternative / alte Domains → kanonische www-URL.
       // NICHT brandschutzkoeln.com / www / Punycode / .vercel.app hier umleiten – sonst Schleife mit Vercel.
 

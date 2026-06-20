@@ -26,9 +26,9 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         id: "einordnung",
         title: "Schwelle zwölf Gastbetten",
         paragraphs: [
-          "SBauVO NRW Teil 2 gilt für Beherbergungsstätten mit mehr als zwölf Gastbetten. § 55 Abs. 2 (Alarmierung, BMA, Aufzugs-Brandfallsteuerung) gilt bereits für alle Beherbergungsstätten – auch darunter.",
+          "SBauVO NRW Teil 2 gilt für Beherbergungsstätten mit mehr als zwölf Gastbetten. § 55 SBauVO gilt für alle Beherbergungsstätten: Alarmierungseinrichtungen immer; BMA erst ab mehr als 60 Gastbetten – darunter Rauchwarnmelder je Beherbergungsraum.",
           "Beherbergungsstätte: Gebäude oder Gebäudeteil für Gästebeherbergung – ausgenommen Ferienwohnungen. Hotel, Pension, Gästehaus, Boardinghouse mit dauerhafter Beherbergung fallen typischerweise herein; reine Ferienwohnvermietung nicht.",
-          "Grenzfall ja: Hotel 45 Zimmer, 90 Gastbetten, zwei Rettungswege je Beherbergungsraum, feuerbeständige Tragwerke, BMA nach § 55, Konzept mit Feuerwehrzufahrt. Grenzfall nein: 12 Gastbetten – Teil 2-Vollumfang nicht, aber § 55 Abs. 2 und ggf. GK/Sonderbau anderweitig prüfen.",
+          "Grenzfall ja: Hotel 90 Gastbetten (> 60), zwei Rettungswege je Beherbergungsraum, BMA und selbsttätige Alarmierung nach § 55, Konzept mit Feuerwehrzufahrt. Grenzfall nein: 40 Gastbetten – keine BMA, aber Rauchwarnmelder je Zimmer und Alarmierungseinrichtungen; Teil 2-Vollumfang erst ab 13 Betten.",
         ],
       },
       {
@@ -53,7 +53,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         id: "technik",
         title: "BMA, Aufzug, Funk",
         paragraphs: [
-          "§ 55 SBauVO: Alarmierung, BMA, Brandfallsteuerung Aufzüge – abgestimmt mit [Brandschutzkonzept](/ratgeber/brandschutzkonzept-baupruefvo-nrw). Nach Inbetriebnahme [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
+          "§ 55 SBauVO: Alarmierung immer; BMA und Brandfallsteuerung Aufzüge ab mehr als 60 Gastbetten – Gesamtübersicht [BMA-Pflicht](/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw). Abgestimmt mit [Brandschutzkonzept](/ratgeber/brandschutzkonzept-baupruefvo-nrw). Nach Inbetriebnahme [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
           "Ab 60 Gastbetten: Funkverstärkung, wenn bauliche Anlage Feuerwehr-Funk stört.",
           "Barrierefreie Beherbergung: § 56 SBauVO – Schnittstelle Barrierefrei-Konzept BauPrüfVO § 9a.",
         ],
@@ -76,6 +76,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw", label: "BMA-Pflicht § 55" },
       { href: "/ratgeber/pflegeeinrichtung-sonderbau-nrw", label: "Pflegeeinrichtung" },
       { href: "/ratgeber/brandschutzkonzept-baupruefvo-nrw", label: "Konzept §9" },
       { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
@@ -91,7 +92,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
       {
         question: "Braucht jedes Hotel eine BMA?",
         answer:
-          "§ 55 Abs. 2 gilt für alle Beherbergungsstätten; BMA und Alarmierung nach SBauVO und Konzept – nicht erst ab 13 Betten.",
+          "Nein. Bis 60 Gastbetten: Rauchwarnmelder je Beherbergungsraum und Alarmierungseinrichtungen – keine BMA. Ab mehr als 60 Gastbetten: BMA mit selbsttätigen Meldern und Leitstelle (§ 55 SBauVO).",
       },
       {
         question: "Zwei Rettungswege pro Zimmer – wirklich?",
@@ -356,7 +357,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         id: "einordnung",
         title: "Grundstück und Gebäude zusammen",
         paragraphs: [
-          "§ 33 BauO NRW regelt Rettungswege im Gebäude – § 31 BauO und SBauVO § 93 ergänzen: Rettungswege auf dem Grundstück, Zufahrten, Durchfahrten, Aufstell- und Bewegungsflächen für die Feuerwehr.",
+          "§ 33 BauO NRW regelt Rettungswege im Gebäude – § 5 BauO NRW und SBauVO § 93 ergänzen: Zufahrten, Durchfahrten, Aufstell- und Bewegungsflächen für die Feuerwehr auf dem Grundstück. Gesetzliche Übersicht: [Feuerwehrzufahrten § 5](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw).",
           "Im Brandschutzkonzept nach [BauPrüfVO §9](/ratgeber/brandschutzkonzept-baupruefvo-nrw) sind Feuerwehrzufahrten Pflichtinhalt – mit Löschwassermenge, Hydranten, Rückhalteanlagen.",
           "Grenzfall ja: Neues Gewerbegebäude, Zufahrt 4 m breit, Wendemöglichkeit, Hydrant im Konzept, dauerhafte Kennzeichnung, keine Parkplatz-Überbauung. Grenzfall nein: Sonderbau genehmigt, Zufahrt zugeparkt und mit Müllcontainern – Betrieb verletzt § 93 und Betreiberpflichten.",
         ],
@@ -406,6 +407,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
       { href: "/ratgeber/brandschutzkonzept-baupruefvo-nrw", label: "Konzept §9" },
       { href: "/ratgeber/loeschwasser-hydranten-gewerbe-koeln", label: "Löschwasser" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr-Abstimmung" },
@@ -416,7 +418,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
       {
         question: "Wo steht die Feuerwehrzufahrt im Gesetz?",
         answer:
-          "BauO NRW § 31, SBauVO § 93; im Konzept BauPrüfVO § 9 als Pflichtangabe.",
+          "§ 5 BauO NRW für alle Gebäude; SBauVO § 93 für Hochhäuser; im Konzept BauPrüfVO § 9 als Pflichtangabe.",
       },
       {
         question: "Wie breit muss eine Zufahrt sein?",

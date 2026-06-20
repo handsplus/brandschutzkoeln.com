@@ -135,7 +135,7 @@ export const RATGEBER_ARTICLES_TUERARTEN_JUN2026: RatgeberArticle[] = [
         id: "treppenraum",
         title: "Treppenraum: die wichtigste Staffelung",
         paragraphs: [
-          "§ 35 Abs. 6 BauO NRW ist die zentrale Vorschrift für Brandschutztüren im notwendigen Treppenraum. Im Gesetzestext heißt es dort ausdrücklich „Feuerschutz- und Rauchschutzabschlüsse“ – die Staffelung nach Verbindungspartner steht in Nr. 1 bis 4.",
+          "§ 35 Abs. 6 BauO NRW ist die zentrale Vorschrift für Brandschutztüren im notwendigen Treppenraum. Gesetzliche TR-Systematik: [Notwendige Treppe und Treppenraum](/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw). Im Gesetzestext heißt es dort ausdrücklich „Feuerschutz- und Rauchschutzabschlüsse“ – die Staffelung nach Verbindungspartner steht in Nr. 1 bis 4.",
           "Zum Kellergeschoss, nicht ausgebauten Dachraum, Werkstätten, Läden, Lagern und Nutzungseinheiten über 200 Quadratmeter (ohne Wohnungen): mindestens feuerhemmende, rauchdichte und selbstschließende Abschlüsse (Nr. 1). Zum notwendigen Flur (Nr. 2): rauchdichte und selbstschließende Abschlüsse – ohne ausdrückliches Feuerhemmend im Gesetzestext.",
           "Zu sonstigen Räumen und Nutzungseinheiten ohne Wohnungscharakter (Nr. 3): dicht und selbstschließend. Zur Wohnung (Nr. 4): mindestens dichtschließend – ohne ausdrückliche Rauch- oder Feuerhemmungsanforderung im Gesetzestext.",
           "Führt der Treppenraumausgang nicht unmittelbar ins Freie, gilt für den Vorraum § 35 Abs. 3 Satz 2 BauO NRW: mindestens so breit wie die Treppenläufe, Wände mit den Anforderungen an Treppenraumwände, rauchdichte und selbstschließende Abschlüsse zum notwendigen Flur, ohne Öffnungen zu anderen Räumen (außer zum notwendigen Flur).",
@@ -216,6 +216,7 @@ export const RATGEBER_ARTICLES_TUERARTEN_JUN2026: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw", label: "Treppenraum § 35" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
       { href: "/ratgeber/gebaeudeklasse-3-brandschutz-bauo-nrw", label: "GK 3 Flure" },

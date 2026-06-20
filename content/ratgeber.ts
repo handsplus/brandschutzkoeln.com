@@ -11,6 +11,24 @@ import { RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE } from "./ratgeber-articles-geb
 import { RATGEBER_ARTICLES_TUERARTEN_JUN2026 } from "./ratgeber-articles-tuerarten-jun2026";
 import { RATGEBER_ARTICLES_2024_DECEMBER } from "./ratgeber-articles-2024-december";
 import { RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG } from "./ratgeber-articles-2025-february-rettungsweg";
+import { RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER } from "./ratgeber-articles-zweiter-rettungsweg-dachfenster";
+import { RATGEBER_ARTICLES_BESTANDSSCHUTZ } from "./ratgeber-articles-bestandsschutz";
+import { RATGEBER_ARTICLES_WAENDE_NOTWENDIGE_FLURE } from "./ratgeber-articles-waende-notwendige-flure";
+import { RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69 } from "./ratgeber-articles-abweichungen-paragraph-69";
+import { RATGEBER_ARTICLES_RAEUME_BRAND_EXPLOSIONSGEFAHR } from "./ratgeber-articles-raeume-brand-explosionsgefahr";
+import { RATGEBER_ARTICLES_RETTUNGSWEGFENSTER_RUNDERLASS } from "./ratgeber-articles-rettungswegfenster-runderlass";
+import { RATGEBER_ARTICLES_MODULBAU_RAEUMZELLEN } from "./ratgeber-articles-modulbau-raumzellen";
+import { RATGEBER_ARTICLES_LEITUNGSANLAGEN } from "./ratgeber-articles-leitungsanlagen";
+import { RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME } from "./ratgeber-articles-notwendige-treppen-treppenraeume";
+import { RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE } from "./ratgeber-articles-gesetzliche-einstufung-gebaeude";
+import { RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG } from "./ratgeber-articles-sicherheitsstromversorgung";
+import { RATGEBER_ARTICLES_BRANDMELDEANLAGE } from "./ratgeber-articles-brandmeldeanlage";
+import { RATGEBER_ARTICLES_BRANDABSCHNITTE } from "./ratgeber-articles-brandabschnitte";
+import { RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER } from "./ratgeber-articles-brandschutzfachplaner";
+import { RATGEBER_ARTICLES_FEUERWEHRZUFARTEN } from "./ratgeber-articles-feuerwehrzufahrten";
+import { RATGEBER_ARTICLES_BRANDLASTEN_NOTWENDIGE_FLURE } from "./ratgeber-articles-brandlasten-notwendige-flure";
+import { RATGEBER_ARTICLES_FEUERWEHRPLAENE } from "./ratgeber-articles-feuerwehrplaene";
+import { RATGEBER_ARTICLES_SICHERHEITSBELEUCHTUNG } from "./ratgeber-articles-sicherheitsbeleuchtung";
 import { RATGEBER_ARTICLES_2025 } from "./ratgeber-articles-2025";
 import { applyRatgeberPublishedDates } from "./ratgeber-published-dates";
 
@@ -43,6 +61,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
           "Die BauO NRW ordnet jedes Gebäude einer von fünf Gebäudeklassen (GK 1 bis GK 5) zu. Maßgeblich sind Gebäudehöhe, Zahl und Größe der Nutzungseinheiten sowie die Freistehendheit – nicht die Branche. Ein Restaurant und ein Büro können dieselbe GK haben, wenn Höhe und Flächen gleich sind.",
           "Die GK steuert den baulichen Brandschutz nach §§ 26 bis 38 BauO NRW: Feuerwiderstand von Wänden und Decken (§ 27), Brandabschnitte und Brandwände (§§ 29–30), abschließende Bauteile wie Brandschutz- und Rauchschutzabschlüsse (§ 31), Abschottungen (§ 32) und Flucht- und Rettungswege (§ 33). Je höher die GK, desto höher die Mindestanforderungen und oft der Nachweisaufwand im Genehmigungsverfahren.",
           "Gebäudeklasse und Sonderbau sind getrennte Prüfungen: GK 3 allein macht noch keinen Imbiss genehmigungsfähig – eine Versammlungsstätte oder besucherintensive Nutzung kann zusätzlich Sonderbau-Regeln (§ 50 BauO NRW) und ein Brandschutzkonzept auslösen.",
+          "Einstiegsübersicht vier Ebenen (GK, § 50 Abs. 1/2, SBauVO): [Gesetzliche Einstufung](/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw).",
         ],
       },
       {
@@ -236,6 +255,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
           "Die Gebäudeklasse (GK 1–5, § 2 BauO NRW) beschreibt Größe und Höhe des Gebäudes und steuert die Mindest-Feuerwiderstände. Die Sonderbau-Eigenschaft (§ 50) beschreibt die Nutzungsgefährdung. Beides wird parallel geprüft.",
           "Beispiel: Ein dreigeschossiges Geschäftshaus mit Mischnutzung ist oft GK 5 und gleichzeitig Sonderbau, wenn Verkaufsflächen oder Versammlungsräume die Schwellen von § 50 erreichen. Umgekehrt kann ein kleines Gewerbe in GK 3 liegen und trotzdem Sonderbau sein – etwa eine Lagerhalle mit erhöhter Brandgefahr.",
           "Konsequenz: Auch wenn die GK unverändert bleibt, kann eine Nutzungsänderung (Laden → Restaurant, Büro → Escape Room, Praxis → Pflege) den Sonderbau-Tatbestand neu auslösen und ein Brandschutzkonzept oder erweiterte Nachweise erforderlich machen.",
+          "Gesetzliche Prüfkette und vier Ebenen: [Gebäudeeinstufung](/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw).",
         ],
       },
       {
@@ -307,6 +327,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw", label: "Einstufung GK & § 50" },
       { href: "/ratgeber/sonderbauten-geregelt-ungeregelt-bauo-nrw", label: "Sonderbau geregelt vs. ungeregelt" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen (GK 1–5)" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
@@ -381,10 +402,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         ],
         list: [
           "Teil 1 der SBauVO NRW regelt Versammlungsstätten mit Anforderungen an Versammlungsräume, Rettungswegbreiten, Bestuhlung und Brandmeldeanlage (BMA).",
-          "Teil 2 gilt für Beherbergungsstätten ab mehr als 30 Betten nach § 50 BauO NRW.",
+          "Teil 2 gilt für Beherbergungsstätten mit mehr als 12 Gastbetten (§ 47 SBauVO); großer Sonderbau nach § 50 Abs. 2 Nr. 11 ab mehr als 30 Betten.",
           "Teil 3 betrifft Verkaufsstätten mit Verkaufsräumen über 2.000 m².",
           "Teil 4 enthält die Bauvorschriften für Hochhäuser mit OKF über 22 m.",
-          "Teil 5 regelt Garagen mit mehr als 1.000 m² Nutzfläche.",
+          "Teil 5 gilt für alle Garagen (§ 121 SBauVO); großer Sonderbau ab mehr als 1.000 m² Nutzfläche.",
           "Teil 6 betrifft Betriebsräume für elektrische Anlagen.",
         ],
       },
@@ -454,12 +475,12 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "hinweis",
         title: "Grenzen dieses Ratgebers",
         paragraphs: [
-          "Dieser Beitrag erklärt die Systematik geregelt/ungeregelt in NRW. Er ersetzt keine behördliche Festlegung und keinen brandschutztechnischen Nachweis. Für die vollständige §-50-Liste und bauliche Details siehe den Ratgeber Sonderbauten und Brandschutz.",
-          "Wir ordnen Vorhaben ein: Sonderbau ja/nein, SBauVO-Teil, erforderlicher Nachweis (Konzept, Stellungnahme, Fortschreibung) – und bereiten die Unterlagen für Genehmigung und Feuerwehr vor.",
+          "Dieser Beitrag erklärt die Systematik geregelt/ungeregelt in NRW. Gesetzliche Einstufungsreihenfolge (GK, § 50, SBauVO): [Gebäudeeinstufung](/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw). Er ersetzt keine behördliche Festlegung.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw", label: "Einstufung GK & § 50" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten: Grundlagen § 50" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen (GK 1–5)" },
@@ -485,7 +506,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       {
         question: "Was ist der Unterschied zwischen Beherbergung und Gaststätte?",
         answer:
-          "Beherbergungsstätte: mehr als 30 Betten, SBauVO Teil 2. Gaststätte: mehr als 200 Gastplätze im Gebäude, kein eigener SBauVO-Teil. Ein Hotelrestaurant mit weniger als 200 Plätzen fällt unter die Beherbergungsstätte, nicht unter den Gaststätten-Tatbestand.",
+          "Beherbergungsstätte: SBauVO Teil 2 ab mehr als 12 Gastbetten (§ 47 SBauVO); großer Sonderbau ab mehr als 30 Betten (§ 50 Abs. 2 Nr. 11). Gaststätte: mehr als 200 Gastplätze im Gebäude, kein eigener SBauVO-Teil. Ein Hotelrestaurant mit weniger als 200 Plätzen fällt unter die Beherbergungsstätte, nicht unter den Gaststätten-Tatbestand.",
       },
       {
         question: "Braucht ein SBauVO-geregelter Sonderbau weniger Nachweis?",
@@ -601,6 +622,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandschutzfachplaner-rollen-bauo-nrw", label: "Wer darf was im Brandschutz?" },
       { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept erstellen lassen" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50 BauO NRW" },
       { href: "/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln", label: "Zwischenbescheid Bauaufsicht" },
@@ -660,7 +682,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "begriffe",
         title: "Fluchtweg, Rettungsweg, § 33 BauO NRW",
         paragraphs: [
-          "Fluchtwege führen Personen aus Aufenthaltsräumen in sichere Bereiche. Rettungswege umfassen Fluchtwege und zusätzlich Wege, die der Feuerwehr den Zugang zu Brandabschnitten und Einsatzstellen ermöglichen (§ 33 BauO NRW).",
+          "Fluchtwege führen Personen aus Aufenthaltsräumen in sichere Bereiche. Rettungswege umfassen Fluchtwege und zusätzlich Wege, die der Feuerwehr den Zugang zu Brandabschnitten und Einsatzstellen ermöglichen (§ 33 BauO NRW). Vertikale Achse Treppe/Treppenraum: [Notwendige Treppe und Treppenraum](/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw).",
           "Für Nutzungseinheiten mit Aufenthaltsräumen sind in der Regel zwei voneinander unabhängige Rettungswege ins Freie erforderlich. Der erste Weg führt typischerweise über eine notwendige Treppe oder einen notwendigen Flur. Der zweite kann eine weitere Treppe oder – unter Voraussetzungen – eine mit Rettungsgeräten der Feuerwehr erreichbare Stelle sein.",
           "Fluchtwege und Rettungswege müssen jederzeit nutzbar, erkennbar und ausreichend dimensioniert sein. Blockierte Wege, fehlende Kennzeichnung, verriegelte Türen ohne Freigabe oder dauerhaft zugestellte Brandschutzabschlüsse sind häufige Mängel bei Begehungen und Genehmigungsverfahren.",
         ],
@@ -736,6 +758,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw", label: "Treppenraum § 34/35" },
       { href: "/ratgeber/tuerarten-brandschutz-bauo-nrw", label: "Brandschutztüren" },
       { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "Rettungsweg Innenhof" },
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Zweiter Rettungsweg über Dachfenster" },
@@ -1602,142 +1625,6 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     ],
   },
   {
-    slug: "zweiter-rettungsweg-dachfenster-bauo-nrw",
-    title: "Zweiter Rettungsweg über Dachfenster und Feuerwehr",
-    excerpt:
-      "Der zweite Rettungsweg über Dachflächenfenster und Feuerwehr-Rettung von außen ist nach § 33 BauO NRW nur mit Nachweis möglich. Der Ratgeber erklärt Anleiterbarkeit, Spitzboden, Gebäudeklasse 5 und die Legalisierung im Bestand.",
-    metaTitle: "Dachfenster als 2. Rettungsweg? § 33 BauO NRW | H&S+",
-    metaDescription:
-      "Wann ein Dachfenster als zweiter Rettungsweg zulässig ist: Anleiterbarkeit, Feuerwehr-Stellungnahme und Lösungen für Dachgeschoss & Spitzboden nach BauO NRW.",
-    keywords: [
-      "Zweiter Rettungsweg BauO NRW",
-      "Rettungsweg Dachfenster Feuerwehr",
-      "§ 33 BauO NRW Rettungsweg",
-      "Spitzboden Brandschutz Genehmigung",
-      "Anleiterbarkeit Feuerwehr",
-    ],
-    sections: [
-      {
-        id: "grundlage",
-        title: "§ 33 BauO NRW: zwei Wege, zwei Funktionen",
-        paragraphs: [
-          "Nutzungseinheiten mit Aufenthaltsräumen brauchen in der Regel zwei voneinander unabhängige Rettungswege ins Freie (§ 33 Bauordnung NRW, BauO NRW). Der erste Weg führt typischerweise über eine notwendige Treppe oder einen notwendigen Flur. Der zweite Weg ist entweder eine weitere notwendige Treppe in anderer Richtung – oder eine Stelle, die mit Rettungsgeräten der Feuerwehr erreichbar ist, wenn die Personenrettung fachlich vertretbar ist.",
-          "Unabhängig bedeutet: Fällt ein Weg durch Brand oder Rauch aus, bleibt der andere nutzbar. Beide Wege dürfen sich nicht ungeschützt in einem gemeinsamen Endstück vereinen. Grundlagen zu Fluren, Türen und Nutzerzahl finden Sie im [Referenzartikel Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
-        ],
-      },
-      {
-        id: "feuerwehr-weg",
-        title: "Wann der zweite Weg über die Feuerwehr geht",
-        paragraphs: [
-          "Typisch bei Wohnungen im Dachgeschoss oder ausgebautem Spitzboden in Geschäftshäusern der Gebäudeklasse 5: Eine zweite notwendige Treppe im Bestand fehlt oder ist baulich nicht darstellbar. Dann kann ein straßenseitiges Dachflächenfenster den zweiten Rettungsweg bilden – nicht automatisch, sondern nach Einzelfallprüfung.",
-          "Voraussetzungen in der Praxis: ausreichende Lichtöffnung und Erreichbarkeit vom Innenraum, Anleiterbarkeit von der öffentlichen Verkehrsfläche ohne dauerhafte Hindernisse (Bäume, Stromleitungen, enge Höfe), Abstand zur Traufkante, Einsatzfähigkeit der örtlichen Feuerwehr (Hubrettungsfahrzeuge bei größerer Brüstungshöhe).",
-          "Ab Brüstungshöhen, die nur mit Hubrettungsfahrzeugen erreichbar sind, muss die Einsatzplanung der Berufsfeuerwehr das voraussehen – pauschale Annahmen ohne schriftliche Stellungnahme der Feuerwehr scheitern in der Genehmigung.",
-        ],
-      },
-      {
-        id: "dachfenster",
-        title: "Dachflächenfenster: was geprüft wird",
-        paragraphs: [
-          "Das Fenster muss als Rettungsöffnung vom Wohnraum aus nutzbar sein – nicht nur lichttechnisch geplant. In Konzept und Plänen werden Lage, Höhe, Umgebung und Bedienbarkeit im Notfall dargestellt.",
-          "Geprüft werden Erreichbarkeit und Öffnungsmaße vom Innenraum, Anleiterbarkeit von Straße oder Hof (Fotos und Sichtbeziehung), Hindernisse wie Baumkronen, Vordächer oder Nachbarbalkone (gegebenenfalls Baumpflege oder Nachweise), Brüstungshöhe sowie Abstand zur Traufe oder zum Giebel – im Antrag als Schnitt darzustellen. Vor Einreichung beim Bauamt sollte eine schriftliche Feuerwehr-Stellungnahme vorliegen.",
-        ],
-      },
-      {
-        id: "ablauf",
-        title: "Ablauf: Begehung vor dem Bauantrag",
-        paragraphs: [
-          "Reihenfolge: Vorab-Paket an die Feuerwehr, Begehung vor Ort, schriftliche Stellungnahme, brandschutztechnische Stellungnahme oder Konzept mit Verweis, Bauantrag bei der Bauaufsicht.",
-          "Ohne Feuerwehr-Stellungnahme im Konzept riskieren Sie Zwischenbescheid oder Ablehnung. Details finden Sie im [Ratgeber Feuerwehr-Abstimmung vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
-        ],
-      },
-      {
-        id: "spitzboden",
-        title: "Spitzboden, Dachkammern und § 34 BauO NRW",
-        paragraphs: [
-          "Zusammenführung von Dachkammern oder Ausbau eines Spitzbodens innerhalb einer Wohnung betrifft oft § 34 BauO NRW (verkehrssichere und benutzbare Anlagen) – nicht die gleichen Anforderungen wie eine notwendige Gebäudetreppe nach § 33.",
-          "Eine engere Innentreppe im Bestand kann unter § 34 und Gebrauchstauglichkeit bewertet werden, solange zwei Rettungswege für die Wohnung nachweisbar bleiben – erster Weg über die notwendige Haustreppe, zweiter über genehmigtes Dachfenster mit Feuerwehr-Abstimmung.",
-          "Im Antrag den Dachbereich klar abgrenzen und übrige Geschosse unverändert lassen – das ersetzt jedoch nicht den Nachweis der beiden Rettungswege.",
-        ],
-      },
-      {
-        id: "legalisierung",
-        title: "Legalisierung und Bestandsschutz",
-        paragraphs: [
-          "Bereits ausgebauter Spitzboden ohne Genehmigung: Nachweis, dass gegenüber dem früheren Zustand kein Brandschutz verschlechtert wird und zwei Rettungswege fachlich begründet sind. Außerhalb der Wohneinheit Treppenhaus und Flure unverändert lassen.",
-          "Oft reicht eine brandschutztechnische Stellungnahme mit Feuerwehr-Protokoll – kein vollständiges Neubau-Konzept bei klar begrenztem Vorhaben. Denkmalschutz sollte früh mit abgestimmt werden.",
-        ],
-      },
-      {
-        id: "gk5",
-        title: "Gebäudeklasse 5 und Geschäftshäuser",
-        paragraphs: [
-          "Geschäfts- und Wohnhäuser mit Gewerbe im Erdgeschoss und Wohnungen darüber sind häufig der Gebäudeklasse 5 zuzuordnen. Dachmaßnahmen ändern die Gebäudeklasse oft nicht, erhöhen aber die Sorgfalt bei Treppenhaus, Brandabschnitt und dokumentierter Feuerwehr-Abstimmung.",
-        ],
-      },
-      {
-        id: "fehler",
-        title: "Typische Fehler",
-        paragraphs: [
-          "Typische Fehler sind ein Konzept ohne Straßenansicht oder aktuelle Baumlage, die Annahme eines einzigen Wegs über das Treppenhaus, eine Feuerwehr-Stellungnahme erst nach dem Bauantrag oder ein hofseitiges Fenster ohne erreichbare Anleitung.",
-        ],
-      },
-      {
-        id: "hinweis",
-        title: "Grenzen",
-        paragraphs: [
-          "Zulässigkeit entscheiden Feuerwehr (fachlich) und Bauaufsicht (Genehmigung) im Einzelfall. Dieser Ratgeber ersetzt keine Begehung und keinen Nachweis.",
-        ],
-      },
-    ],
-    relatedLinks: [
-      { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "Rettungsweg Innenhof" },
-      { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege (Grundlagen)" },
-      { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor dem Bauamt" },
-      { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklasse 5" },
-      { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht & Unterlagen" },
-      { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau im Bestand" },
-      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept und Stellungnahme" },
-      { href: "/kontakt", label: "Erstberatung anfragen" },
-    ],
-    faq: [
-      {
-        question: "Ersetzt ein Dachfenster immer die zweite Treppe?",
-        answer:
-          "Nein. Ausnahme-Lösung über § 33 mit Feuerwehr-Rettungsgeräten, wenn zwei Treppen nicht möglich sind und Anleiterbarkeit sowie FW-Stellungnahme positiv ausfallen.",
-      },
-      {
-        question: "Reicht ein Fenster zur Hofseite?",
-        answer:
-          "Nur, wenn die Feuerwehr die Erreichbarkeit fachlich bestätigt – oft problematisch bei engen Höfen. Straßenseitige Anleiterbarkeit ist der häufigere Fall.",
-      },
-      {
-        question: "Was ist bei Legalisierung eines Spitzbodens wichtig?",
-        answer:
-          "Zwei Rettungswege nachweisen, kein Verschlechtern des übrigen Brandschutzes, FW-Begehung und Stellungnahme, Antrag auf den Dachbereich begrenzen.",
-      },
-      {
-        question: "Brauche ich eine Feuerwehr-Begehung?",
-        answer:
-          "Praktisch immer, wenn der zweite Weg über Rettungsgeräte begründet wird. Ohne schriftliche Stellungnahme ist die Genehmigung selten belegbar.",
-      },
-      {
-        question: "Was ist der Unterschied zu § 34 BauO NRW?",
-        answer:
-          "§ 33 regelt Rettungswege ins Freie. § 34 betrifft verkehrssichere Nutzbarkeit – z. B. innere Wohnungstreppe zum Spitzboden. Beides muss im Gesamtnachweis passen.",
-      },
-      {
-        question: "Welche Rolle spielt Denkmalschutz?",
-        answer:
-          "Zusätzliche Auflagen zu Fenstern und Dachform. Brandschutz und Denkmalschutz früh gemeinsam klären.",
-      },
-      {
-        question: "Kann ich nur das Fenster tauschen?",
-        answer:
-          "Wenn das Fenster Teil des zweiten Rettungswegs ist, ist jede Änderung an Öffnung oder Erreichbarkeit nachweispflichtig – nicht nur Handwerkerarbeit.",
-      },
-    ],
-  },
-  {
     slug: "fluchtplan-feuerwehrplan-aktualisieren-gewerbe",
     title: "Flucht- und Rettungspläne vs. Feuerwehrpläne – drei getrennte Systeme",
     excerpt:
@@ -1835,6 +1722,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/feuerwehrplaene-wann-pflicht-sbauvo-nrw", label: "Gesetzliche Feuerwehrplan-Pflicht" },
       { href: "/ratgeber/feuerwehrplan-fluchtplaene-pflicht-koeln", label: "Wann welche Planart Pflicht ist" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege § 33 BauO NRW" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor dem Bauamt" },
@@ -2746,137 +2634,6 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
   },
-  {
-    slug: "bestandsschutz-technische-sanierung-bauo-nrw",
-    title: "Bestandsschutz: technische Sanierung ohne baulische Änderung",
-    excerpt:
-      "Bestandsschutz nach § 59 BauO NRW kann bestehende Bauteile schützen – etwa eine Holzdecke oder Leitungstausch ohne Nachrüstung. Der Ratgeber erklärt, wann der Bestand bleibt und wann Teilsanierung oder Nutzungsänderung trotzdem neue Pflichten auslöst.",
-    metaTitle: "Bestandsschutz Brandschutz NRW | § 59",
-    metaDescription:
-      "Bestandsschutz § 59 BauO NRW: TGA ohne Umbau. Holzdecke, keine Verschlechterung – Abgrenzung Teilsanierung. Ratgeber H&S+.",
-    keywords: [
-      "Bestandsschutz BauO NRW",
-      "§ 59 BauO Bestand",
-      "technische Sanierung Brandschutz",
-      "Bestand Holzdecke Nachrüstung",
-    ],
-    sections: [
-      {
-        id: "fall",
-        title: "Typischer Fall: nur Anlagen tauschen",
-        paragraphs: [
-          "In einem abgeschlossenen Projekt (NRW) ging es um ein eingeschossiges Technikgebäude (Baujahr 1971). Geplant war ausschließlich die Erneuerung von Anlagenteilen im Inneren (u. a. Austausch einer Leitung mit geringerer Nennweite) – ohne Änderung der baulichen Struktur, der Nutzung oder der Gebäudeklasse.",
-          "Die Frage: Muss die Holzdecke im Zuge der Maßnahme an heutige Neubauanforderungen (Feuerwiderstand raumabschließender Bauteile) angepasst werden?",
-        ],
-      },
-      {
-        id: "recht",
-        title: "§ 59 BauO NRW – Grundlogik",
-        paragraphs: [
-          "§ 59 BauO NRW: Bestehende bauliche Anlagen bleiben grundsätzlich zulässig, wenn durch Änderungen keine neuen öffentlich-rechtlichen Gefahren entstehen und sich das brandschutztechnische Niveau nicht verschlechtert.",
-          "§ 14 BauO NRW (Schutzziele) gilt weiter – aber die Anforderungen an tragende und raumabschließende Bauteile nach §§ 26 ff. werden im Bestand nicht pauschal auf Neubauniveau nachgezogen, solange kein auslösender Eingriff vorliegt.",
-          "Wichtig: § 59 ist nicht „kein Brandschutz“. Arbeitsschutz (ASR A2.2/A2.3) und betrieblicher Brandschutz bleiben vollständig.",
-        ],
-      },
-      {
-        id: "ausloeser",
-        title: "Was Bestandsschutz beendet",
-        paragraphs: [
-          "Sobald einer dieser Tatbestände greift, ist brandschutztechnische Neubewertung nötig – oft mit Stellungnahme oder Konzept: wesentliche bauliche Änderung (Öffnungen, Trennwände, Decken), Nutzungsänderung oder deutlich mehr Personen, Eingriff in raumabschließende oder tragende Bauteile (Decke, Wand), erhöhte Brandlast oder neue Gefahrstoffe durch die Maßnahme, behördliche Auflage oder Mängelbeseitigung (unabhängig von § 59 BauO NRW).",
-        ],
-      },
-      {
-        id: "holzdecke",
-        title: "Holzdecke im Technikgebäude – Ergebnis des Falls",
-        paragraphs: [
-          "Die Holzdecke war Bestandteil des genehmigten Gebäudezustands. Reiner Leitungstausch ohne Eingriff in die Decke: keine Pflicht zur Ertüchtigung auf heutiges Neubau-Feuerwiderstands-Niveau – vorausgesetzt, die Maßnahme verschlechtert den Brandschutz nicht (z. B. keine neuen Durchbrüche ohne Abschottung).",
-          "Anders: Decke wird geöffnet, Nutzung wechselt, oder die Sanierung ist Teil einer Teilsanierung mit Trockenbau – dann § 59 allein trägt die Argumentation nicht.",
-        ],
-      },
-      {
-        id: "abgrenzung",
-        title: "Abgrenzung: § 59 vs. § 83 vs. Teilsanierung",
-        paragraphs: [
-          "**§ 59 BauO NRW** sichert formellen Bestandsschutz bei fehlendem auslösenden Umbau. **§ 83 BauO NRW** bezeichnet das Erhaltungsgebot im Genehmigungsverfahren – „Bestand wurde damals so genehmigt, Vorhaben ändert Erschließung oder Entrauchung nicht“ (häufig bei Praxiszusammenlegung, siehe andere Ratgeber). **Teilsanierung** mit Wänden und Brandmeldeanlage ist aktiver Umbau – § 59 allein trägt die Argumentation nicht für fehlende Abschottungen; hier gilt eigene Stellungnahme- oder Konzept-Logik.",
-        ],
-      },
-      {
-        id: "stellungnahme",
-        title: "Schriftliche Einordnung – wann sinnvoll",
-        paragraphs: [
-          "Gesetzlich nicht immer vorgeschrieben, in der Praxis aber wertvoll: kurze brandschutztechnische Stellungnahme mit Bezug auf § 59, Beschreibung der Maßnahme, Bestandsnachweise (Altgenehmigung, Konzept), Feststellung „keine Verschlechterung“.",
-          "Nutzen: interne Freigabe, Versicherer, TGA-Planer, Abgrenzung gegenüber Behörde, die pauschal Nachrüstung fordert.",
-        ],
-      },
-      {
-        id: "arbeitsschutz",
-        title: "Arbeitsschutz bleibt außen vor § 59",
-        paragraphs: [
-          "Auch bei bauordnungsrechtlichem Bestandsschutz gelten Feuerlöscher nach ASR A2.2 (aktuell und geprüft), freie Fluchtwege und Kennzeichnung nach ASR A1.3, Flucht- und Rettungspläne nach ASR A2.3 wo erforderlich, Gefährdungsbeurteilung Brandschutz und Unterweisung der Beschäftigten – besonders in Technikgebäuden mit Wartungspersonal.",
-          "„Bestandsschutz bauordnungsrechtlich“ entbindet nicht von der Arbeitsstättenverordnung (ArbStättV).",
-        ],
-      },
-      {
-        id: "fehler",
-        title: "Typische Fehler",
-        paragraphs: [
-          "Typische Missverständnisse: § 59 pauschal für jeden Umbau zitiert, obwohl Trockenbau und Durchbrüche dabei sind; keine Dokumentation, sodass Behörde oder Versicherer Nachweise verlangen; Leitung durch Holzdecke ohne Abschottung (Verschlechterung); Arbeitsschutz vernachlässigt, weil „Bestand“.",
-        ],
-      },
-      {
-        id: "hinweis",
-        title: "Grenzen",
-        paragraphs: [
-          "Dieser Ratgeber erläutert die Logik am Technikgebäude-Fall in NRW. Die endgültige Bewertung trifft die Bauaufsicht im Einzelfall. Denkmalschutz, Sonderbau und IndBauR können zusätzliche Pflichten setzen – unabhängig von § 59.",
-        ],
-      },
-    ],
-    relatedLinks: [
-      { href: "/ratgeber/teilsanierung-buero-brandschutz-koeln", label: "Teilsanierung (baulicher Umbau)" },
-      { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
-      { href: "/ratgeber/arztpraxen-zusammenlegen-brandschutz-koeln", label: "§ 83 im Genehmigungsfall" },
-      { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme?" },
-      { href: "/ratgeber/technische-betriebsgebaeude-brandschutz-nrw", label: "Technische Betriebsgebäude" },
-    ],
-    faq: [
-      {
-        question: "Gilt Bestandsschutz in NRW überall gleich?",
-        answer:
-          "Die BauO NRW 2018 gilt landesweit einheitlich. Die Einzelfallbewertung durch die untere Bauaufsichtsbehörde kann in der Begründungstiefe variieren – bei Grenzfällen früh abstimmen.",
-      },
-      {
-        question: "Brauche ich eine schriftliche Stellungnahme?",
-        answer:
-          "Nicht immer gesetzlich, aber sinnvoll für interne Freigabe, Versicherer und TGA – besonders bei älteren Beständen und wenn Beteiligte Nachrüstung verlangen.",
-      },
-      {
-        question: "Muss jede Sanierung die Decke feuerbeständig (F 90) machen?",
-        answer:
-          "Nein, wenn § 59 BauO NRW greift und die Decke unverändert bleibt. Bei Eingriff in die Decke oder wesentlichem Umbau: neue Bewertung nach § 27 BauO NRW – ob feuerhemmend, hochfeuerhemmend oder feuerbeständig.",
-      },
-      {
-        question: "Was ist der Unterschied zu § 83 BauO NRW?",
-        answer:
-          "§ 59: allgemeiner Bestandsschutz ohne auslösende Änderung. § 83: im Genehmigungsverfahren Erhaltung genehmigten Bestands gegenüber neuen Anforderungen – oft mit Nachweis „keine Verschlechterung“.",
-      },
-      {
-        question: "Gilt § 59 für Büro-Teilsanierung?",
-        answer:
-          "Nur für Teile ohne wesentliche bauliche Änderung. Halbe BGF mit Trockenbau und BMA ist Teilsanierung – nicht reine TGA-Sanierung nach § 59.",
-      },
-      {
-        question: "Entbindet Bestandsschutz von der BMA?",
-        answer:
-          "Nein. Bestehende BMA muss betriebsbereit bleiben; Erneuerung folgt eigenen Regeln (VDE 0833), nicht § 59 als „Befreiung“.",
-      },
-      {
-        question: "Kann die Behörde trotz § 59 Nachrüstung verlangen?",
-        answer:
-          "Bei nachweislicher Verschlechterung, neuen Gefahren oder anderen Rechtsgrundlagen (Auflagen, Mängel) ja. § 59 ist kein Freibrief.",
-      },
-    ],
-  },
   ...RATGEBER_ARTICLES_BATCH2,
   ...RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026,
   ...RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026,
@@ -2885,7 +2642,25 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE,
   ...RATGEBER_ARTICLES_TUERARTEN_JUN2026,
   ...RATGEBER_ARTICLES_2024_DECEMBER,
+  ...RATGEBER_ARTICLES_WAENDE_NOTWENDIGE_FLURE,
+  ...RATGEBER_ARTICLES_LEITUNGSANLAGEN,
+  ...RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME,
+  ...RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE,
+  ...RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG,
+  ...RATGEBER_ARTICLES_BRANDMELDEANLAGE,
+  ...RATGEBER_ARTICLES_BRANDABSCHNITTE,
+  ...RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER,
+  ...RATGEBER_ARTICLES_FEUERWEHRZUFARTEN,
+  ...RATGEBER_ARTICLES_BRANDLASTEN_NOTWENDIGE_FLURE,
+  ...RATGEBER_ARTICLES_FEUERWEHRPLAENE,
+  ...RATGEBER_ARTICLES_SICHERHEITSBELEUCHTUNG,
+  ...RATGEBER_ARTICLES_MODULBAU_RAEUMZELLEN,
+  ...RATGEBER_ARTICLES_RAEUME_BRAND_EXPLOSIONSGEFAHR,
+  ...RATGEBER_ARTICLES_RETTUNGSWEGFENSTER_RUNDERLASS,
+  ...RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69,
   ...RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG,
+  ...RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER,
+  ...RATGEBER_ARTICLES_BESTANDSSCHUTZ,
   ...RATGEBER_ARTICLES_2025,
 ]);
 

@@ -60,7 +60,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
           "Nach der einheitlichen Auslegung der obersten Bauaufsicht NRW (Runderlass Dezember 2021) gilt: Aufstell- und Bewegungsflächen für Hubrettungsfahrzeuge müssen nicht ausschließlich auf dem Baugrundstück liegen. § 5 Abs. 1 Satz 3 und 5 BauO NRW ist nicht so zu verstehen, dass diese Flächen nur innerhalb der Grundstücksgrenze vorgesehen werden dürfen.",
 
-          "Wenn die erforderlichen Flächen nicht vollständig auf dem Grundstück Platz finden, können sie auf der angrenzenden öffentlichen Verkehrsfläche liegen – ohne dass dafür eine öffentlich-rechtliche Sicherung auf der Straße nötig ist. Liegen sie auf fremden Nachbargrundstücken, braucht man hingegen eine öffentlich-rechtliche Sicherung nach Satz 5.",
+          "Wenn die erforderlichen Flächen nicht vollständig auf dem Grundstück Platz finden, können sie auf der angrenzenden öffentlichen Verkehrsfläche liegen – ohne dass dafür eine öffentlich-rechtliche Sicherung auf der Straße nötig ist. Gesetzliche Grundlage § 5 BauO: [Feuerwehrzufahrten und Bewegungsflächen](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw). Liegen sie auf fremden Nachbargrundstücken, braucht man hingegen eine öffentlich-rechtliche Sicherung nach Satz 5.",
 
         ],
 
@@ -194,6 +194,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
     relatedLinks: [
 
+      { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
       { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt § 5" },
 
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Rettungsweg Dachfenster" },
@@ -602,7 +603,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
           "Bei jedem Neubau und vielen Genehmigungsverfahren in NRW stellt sich die Frage: Wie breit muss die Feuerwehrzufahrt sein, brauche ich eine Durchfahrt, wo dürfen Löschfahrzeuge aufstellen? Maßgeblich ist § 5 BauO NRW in Verbindung mit den Muster-Richtlinien über Flächen für die Feuerwehr (MRFlFw) und Anlage A 2.2.1.1/1 der VV TB NRW.",
 
-          "Kernpflichten: Von der öffentlichen Verkehrsfläche ein geradliniger Zu- oder Durchgang zur Feuerwehr – mindestens 1,25 Meter breit (Nr. 14 MRFlFw). Zu rückwärtigen Gebäuden zwingend, zu anderen Gebäuden wenn der zweite Rettungsweg über Feuerwehrgeräte führt. Ab 8 Metern Brüstungshöhe: Zu- oder Durchfahrt statt Durchgang; bei Hubrettungsfahrzeugen Aufstell- und Bewegungsflächen. Alles befestigt, tragfähig, gekennzeichnet und ständig frei.",
+          "Kernpflichten nach § 5 BauO NRW: Von der öffentlichen Verkehrsfläche ein geradliniger Zu- oder Durchgang zur Feuerwehr – zu rückwärtigen Gebäuden zwingend, zu anderen wenn der zweite Rettungsweg über Feuerwehrgeräte führt. Gesetzliche Systematik: [Feuerwehrzufahrten und Bewegungsflächen](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw). Ab 8 Metern Brüstungshöhe: Zu- oder Durchfahrt statt Durchgang; bei Hubrettungsfahrzeugen Aufstell- und Bewegungsflächen. Alles befestigt, tragfähig, gekennzeichnet und ständig frei.",
 
           "Für Sonderbauten kommen ergänzend [SBauVO § 93](/ratgeber/feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw) und das Brandschutzkonzept hinzu. Die [Feuerwehr-Abstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw) sollte früh erfolgen.",
 
@@ -713,6 +714,8 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
     ],
 
     relatedLinks: [
+
+      { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
 
       { href: "/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw", label: "Aufstellfläche Straße" },
 

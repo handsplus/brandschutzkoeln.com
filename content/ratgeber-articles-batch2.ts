@@ -910,7 +910,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Abstimmung mit der Fachbauleitung vor dem Schließen der Verkleidung",
         ],
         paragraphs: [
-          "PU-Schaum oder „Montageschaum“ ohne Ü ist unzulässig – auch nicht provisorisch.",
+          "PU-Schaum oder „Montageschaum“ ohne Ü ist unzulässig – auch nicht provisorisch. Gesetzliche Grundlage Durchbruch: [Leitungsanlagen](/ratgeber/leitungsanlagen-bauo-sbauvo-nrw).",
         ],
       },
       {
@@ -958,6 +958,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/leitungsanlagen-bauo-sbauvo-nrw", label: "Leitungsanlagen Gesetz" },
       { href: "/ratgeber/fachbauleitung-brandschutz-baustelle-koeln", label: "Fachbauleitung" },
       { href: "/ratgeber/brandschutz-abnahme-nach-umbau-koeln", label: "Abnahme" },
       { href: "/ratgeber/teilsanierung-buero-brandschutz-koeln", label: "Teilsanierung" },
@@ -1152,8 +1153,8 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "pflicht",
         title: "Wann Pflicht?",
         paragraphs: [
-          "Feuerwehrplan und FSD sind bei Sonderbauten, BMA-Aufschaltung, behördlichen Auflagen und in vielen Konzepten vorgesehen. Flucht- und Rettungspläne nach ASR A2.3 sind nötig, wenn Lage, Größe oder Publikumsverkehr es erfordern – nicht in jedem Ein-Personen-Büro.",
-          "Die Genehmigung kann Feuerwehrpläne im BSK-Anhang verlangen; der Arbeitsschutz verlangt ASR-Pläne unabhängig davon.",
+          "Baurechtlich in NRW verlangt die SBauVO Feuerwehrpläne nur in vier Fällen – Versammlungsstätte (§ 42), Beherbergung mit mehr als 60 Gastbetten (§ 57 Abs. 3), Verkaufsstätte mit mehr als 2.000 m² (§ 86) und Hochhaus (§ 117). Die BauO NRW enthält keine Feuerwehrplan-Pflicht. Ausführlich: [Feuerwehrpläne – wann Pflicht](/ratgeber/feuerwehrplaene-wann-pflicht-sbauvo-nrw).",
+          "Zusätzlich können Feuerwehrpläne im Brandschutzkonzept oder durch behördliche Auflagen verlangt werden – das ist eine andere Rechtsebene. Flucht- und Rettungspläne nach ASR A2.3 sind nötig, wenn Lage, Größe oder Publikumsverkehr es erfordern – nicht in jedem Ein-Personen-Büro. FSD kann im Konzept vorgesehen sein, ohne dass die SBauVO es pauschal für alle Sonderbauten regelt.",
         ],
       },
       {
@@ -1201,6 +1202,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/feuerwehrplaene-wann-pflicht-sbauvo-nrw", label: "Gesetzliche Pflicht NRW" },
       { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Pläne vertiefen" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege § 33" },
       { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
@@ -1225,7 +1227,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
       {
         question: "Braucht ein Ein-Personen-Büro ASR-Fluchtpläne?",
         answer:
-          "ASR A2.3 hängt von Gefährdungsbeurteilung und Besucherstrom ab – pauschal nein. Feuerwehrplan und FSD können dennoch aus Konzept oder Auflage verlangt sein.",
+          "ASR A2.3 hängt von Gefährdungsbeurteilung und Besucherstrom ab – pauschal nein. Gesetzliche Feuerwehrplan-Pflicht in NRW nur in vier SBauVO-Fällen (siehe [Feuerwehrpläne](/ratgeber/feuerwehrplaene-wann-pflicht-sbauvo-nrw)); FSD kann dennoch aus Konzept oder Auflage verlangt sein.",
       },
       {
         question: "Was ist der Unterschied ASR A2.2 und A2.3?",

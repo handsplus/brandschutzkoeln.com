@@ -8,7 +8,7 @@ export const SITE = {
   region: "Köln und NRW",
   /** Zwei kleine Badges im Hero (mit Symbol, (VdS) bei beiden) */
   heroBadge1: "Zertifizierter Brandschutzbeauftragter (VdS)",
-  heroBadge2: "Zertifizierter Brandschutzmanager (VdS)",
+  heroBadge2: "Zertifizierter Brandschutzfachplaner (TÜV)",
   /** Rollenbezeichnung für Fließtexte & SEO (Singular/Plural) */
   expertRole: "Brandschutzsachverständiger",
   expertRolePlural: "Brandschutzsachverständige",

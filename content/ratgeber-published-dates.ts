@@ -132,8 +132,36 @@ const APRIL_2026_PUBLICATIONS: Record<string, string> = {
   "sprinkler-loeschanlagen-prueffristen": "2026-04-21",
 };
 
+/** September 2024 – Leitungen / Treppen / Einstufung / Sicherheitsstromversorgung. */
+const SEPTEMBER_2024_PUBLICATIONS: Record<string, string> = {
+  "leitungsanlagen-bauo-sbauvo-nrw": "2024-09-15",
+  "notwendige-treppen-treppenraeume-bauo-sbauvo-nrw": "2024-09-20",
+  "gesetzliche-einstufung-gebaeude-bauo-nrw": "2024-09-22",
+  "sicherheitsstromversorgung-wann-pflicht-sbauvo-nrw": "2024-09-29",
+};
+
+/** Oktober 2024 – BMA / Brandabschnitte / Fachplaner / Feuerwehrzufahrten / Brandlasten / Feuerwehrpläne. */
+const OCTOBER_2024_PUBLICATIONS: Record<string, string> = {
+  "brandmeldeanlage-wann-pflicht-sbauvo-nrw": "2024-10-05",
+  "brandabschnitte-bauo-sbauvo-nrw": "2024-10-10",
+  "brandschutzfachplaner-rollen-bauo-nrw": "2024-10-17",
+  "feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw": "2024-10-20",
+  "brandlasten-notwendige-flure-bauo-nrw": "2024-10-24",
+  "feuerwehrplaene-wann-pflicht-sbauvo-nrw": "2024-10-29",
+};
+
+/** November 2024 – MHKBD-Erlass § 69 BauO NRW. */
+const NOVEMBER_2024_PUBLICATIONS: Record<string, string> = {
+  "sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw": "2024-11-05",
+  "modulbau-raumzellen-brandschutz-bauo-nrw": "2024-11-10",
+  "rettungswegfenster-groesse-bestand-bauo-nrw": "2024-11-15",
+  "raeume-brand-explosionsgefahr-bauo-nrw": "2024-11-20",
+  "abweichungen-paragraph-69-erlass-bauo-nrw": "2024-11-25",
+};
+
 /** Dezember 2024 – MHKBD-Runderlasse BauO NRW. */
 const DECEMBER_2024_PUBLICATIONS: Record<string, string> = {
+  "waende-notwendige-flure-bauo-nrw": "2024-12-02",
   "aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw": "2024-12-08",
   "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw": "2024-12-18",
   "veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw": "2024-12-28",
@@ -225,7 +253,6 @@ const SEPTEMBER_2025_PUBLICATIONS: Record<string, string> = {
   "loeschwasser-rueckhalt-konzept-nrw": "2025-09-25",
 };
 const OCTOBER_2025_PUBLICATIONS: Record<string, string> = {
-  "sicherheitsbeleuchtung-rettungswege-bauo-nrw": "2025-10-04",
   "geeg-uvo-anlagentechnik-brandschutz-nrw": "2025-10-11",
   "fluktuationshaus-evakuierung-nrw": "2025-10-18",
   "gebaeudeklassen-grenzfaelle-nrw": "2025-10-25",
@@ -262,6 +289,9 @@ const PUBLICATION_2025: Record<string, string> = {
 const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
   "gebaeudeklassen-brandschutz-bauo-nrw": "2026-06-12",
   ...PUBLICATION_2025,
+  ...SEPTEMBER_2024_PUBLICATIONS,
+  ...OCTOBER_2024_PUBLICATIONS,
+  ...NOVEMBER_2024_PUBLICATIONS,
   ...DECEMBER_2024_PUBLICATIONS,
   ...JANUARY_2026_PUBLICATIONS,
   ...FEBRUARY_2026_PUBLICATIONS,
