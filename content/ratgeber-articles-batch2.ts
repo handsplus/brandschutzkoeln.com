@@ -1142,11 +1142,11 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Dieser Artikel ergänzt den ausführlichen Ratgeber [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe) – hier der Kurzüberblick über die drei Ebenen:",
         ],
         list: [
-          "**BauO und Genehmigung:** Rettungswege im Konzept und in den Grundrissen – kein ASR-Aushangplan",
-          "**DIN 14095 Feuerwehrplan:** für Einsatzkräfte mit Zufahrt, Hydranten, BMA und Brandabschnitten",
-          "**ASR A2.3 Flucht- und Rettungsplan:** für Beschäftigte und Besucher, aushängen und lagerichtig ausrichten",
-          "**FSD (Feuerwehr-Schlüsseldepot):** Schlüsseldepot für Feuerwehrzugang im Einsatzfall",
-          "**BSO nach DIN 14096:** Regeln zum Verhalten – kein Ersatz für die Planarten oben",
+          "BauO und Genehmigung: Rettungswege im Konzept und in den Grundrissen – kein ASR-Aushangplan",
+          "DIN 14095 Feuerwehrplan: für Einsatzkräfte mit Zufahrt, Hydranten, BMA und Brandabschnitten",
+          "ASR A2.3 Flucht- und Rettungsplan: für Beschäftigte und Besucher, aushängen und lagerichtig ausrichten",
+          "FSD (Feuerwehr-Schlüsseldepot): Schlüsseldepot für Feuerwehrzugang im Einsatzfall",
+          "BSO nach DIN 14096: Regeln zum Verhalten – kein Ersatz für die Planarten oben",
         ],
       },
       {
@@ -1168,7 +1168,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "nachweise",
         title: "Was wohin gehört (Kurz)",
         paragraphs: [
-          "Für **Genehmigung und BSK** gehören Rettungswege und Brandabschnitte in die Grundrisse. Nach **DIN 14095** umfassen Feuerwehrplan, Laufkarten und FSD-Montage die Einsatzunterlagen. Nach **ASR A2.3** werden Flucht- und Rettungspläne ausgehängt und lagerichtig ausgerichtet. Die **BSO nach DIN 14096** regelt Verhalten und Betrieb – sie ersetzt keine der Planarten.",
+          "Für Genehmigung und BSK gehören Rettungswege und Brandabschnitte in die Grundrisse. Nach DIN 14095 umfassen Feuerwehrplan, Laufkarten und FSD-Montage die Einsatzunterlagen. Nach ASR A2.3 werden Flucht- und Rettungspläne ausgehängt und lagerichtig ausgerichtet. Die BSO nach DIN 14096 regelt Verhalten und Betrieb – sie ersetzt keine der Planarten.",
           "ASR A2.2 betrifft Feuerlöscher – nicht Fluchtpläne, was in der Praxis häufig verwechselt wird.",
         ],
       },
@@ -1189,8 +1189,17 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "verantwortung",
         title: "Wer erstellt und aktualisiert welchen Plan?",
         paragraphs: [
-          "Für die **Genehmigung** sind Entwurfsverfasser und Brandschutzplaner zuständig – Rettungswege und Brandabschnitte gehören in Konzept und Bauzeichnungen. Den **Feuerwehrplan nach DIN 14095** erstellt eine Fachkraft oder Fachfirma in Abstimmung mit der Feuerwehr – nicht die Behörde. **Fluchtpläne nach ASR A2.3** obliegen dem Betrieb beziehungsweise Arbeitsschutz und müssen lagerichtig ausgehängt werden. Die **BSO nach DIN 14096** regelt den Betrieb – sie ersetzt keine der Planarten.",
-          "Nach einem Umbau ist der **Betreiber** für die Aktualisierung von ASR-Plänen und BSO verantwortlich; Feuerwehrplan und Konzept müssen zum genehmigten Stand passen. Vertiefung: [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe).",
+          "Für die Genehmigung sind Entwurfsverfasser und Brandschutzplaner zuständig – Rettungswege und Brandabschnitte gehören in Konzept und Bauzeichnungen. Den Feuerwehrplan nach DIN 14095 erstellt eine Fachkraft oder Fachfirma in Abstimmung mit der Feuerwehr – nicht die Behörde. Fluchtpläne nach ASR A2.3 obliegen dem Betrieb beziehungsweise Arbeitsschutz und müssen lagerichtig ausgehängt werden. Die BSO nach DIN 14096 regelt den Betrieb – sie ersetzt keine der Planarten.",
+          "Nach einem Umbau ist der Betreiber für die Aktualisierung von ASR-Plänen und BSO verantwortlich; Feuerwehrplan und Konzept müssen zum genehmigten Stand passen. Vertiefung: [Pläne aktualisieren](/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe).",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Abnahme, Konzept und typische Behördenforderungen",
+        paragraphs: [
+          "Bei Sonderbau-Abnahmen in NRW werden Feuerwehrplan nach DIN 14095, FSD-Montage und ASR-A2.3-Pläne regelmäßig gegen das genehmigte Brandschutzkonzept geprüft – Widersprüche führen zu Auflagen oder Nachreichung vor Nutzungsbeginn. Abgrenzung: Der genehmigte Rettungswegnachweis in Grundrissen ist nicht dasselbe wie ein ausgehängter Fluchtplan; die BSO nach DIN 14096 ersetzt keine der Planarten.",
+          "Praxisfall Teilsanierung: Nach Umbau eines Verkaufsbereichs hing nur ein veralteter ASR-Fluchtplan; Feuerwehrplan und FSD fehlten trotz Konzeptvorgabe – die Abnahme wurde verschoben, bis Fortschreibung und Montage nachgewiesen waren. Orientierungswert für Betreiber: Nach jeder nutzungsändernden Maßnahme Prüfliste Konzept → DIN 14095 → ASR A2.3 → BSO Teil B.",
+          "Wer nur einen Planart-Typ pflegt, riskiert Mängel bei Schau und Arbeitsschutzbegehung. Die Nachweislogik gehört in die Betriebsdokumentation mit Verantwortlichen und Aktualisierungsfristen – nicht in einer E-Mail an die Feuerwehr ohne Aushang.",
         ],
       },
       {

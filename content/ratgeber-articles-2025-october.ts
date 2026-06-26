@@ -68,6 +68,24 @@ export const RATGEBER_ARTICLES_2025_OCTOBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: GEG, ÜV O und Schnittstelle Brandschutz",
+        paragraphs: [
+          "Gebäudeenergiegesetz und Anlagenverordnung (ÜV O) regeln technische Anlagen – Wallboxen, Wärmepumpen, PV-Anlagen berühren Brandschutz bei Leitungsführung, Brandabschnitten und Speicherung. Abgrenzung: Elektroinstallationsnormen ersetzen keine brandschutzrechtliche Abschottung; Energieberater-Konzept ersetzt kein BSK.",
+          "Praxisfall Mehrfamilienhaus: PV-Speicher im Kellergang ohne ausreichenden Abstand – Genehmigungspraxis verlangte räumliche Trennung oder brandschutztechnische Einhausung. Typische Behördenforderung: Abstimmung E-Plan und Brandschutzplan bei Kernbohrungen.",
+          "Betreiber dokumentieren Abnahme und wiederkehrende Prüfung elektrischer Anlagen – [Elektrische Betriebsräume](/ratgeber/elektrische-betriebsraeume-sbauvo-nrw) und Brandschutz gemeinsam begehen.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Wallbox, Wärmepumpe und Brandschutzplan",
+        paragraphs: [
+          "Neue Anlagentechnik nach GEG und ÜV O erzeugt in Bestandsgebäuden häufig Brandschutz-Nachfragen bei Kernbohrungen, Leitungsführung und Speicherorten. Abgrenzung: Elektrofachplanung ersetzt keine brandschutztechnische Abschottung; Energieberatung ersetzt kein Brandschutzkonzept bei Sonderbau.",
+          "Praxisfall Mehrfamilienhaus: Wallboxen im Tiefgaragenbereich ohne angepasste Brandabschnitte – Konzeptfortschreibung und Abschottungsnachweise vor Inbetriebnahme. Typische Behördenforderung: Brandlasten durch Technikräume und Kabeltrassen in der BSO abbilden.",
+          "Abnahme und wiederkehrende Prüfung dokumentieren – [Elektrische Betriebsräume](/ratgeber/elektrische-betriebsraeume-sbauvo-nrw) und PV-Speicher gemeinsam bewerten.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -178,6 +196,24 @@ export const RATGEBER_ARTICLES_2025_OCTOBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: Fluktuationshaus und Evakuierungskonzept",
+        paragraphs: [
+          "Fluktuationshäuser (rotierende Belegung, z. B. Asyl- oder Übergangsunterkünfte) stellen besondere Anforderungen an Rettungswege, Unterweisung und mehrsprachige Information. In NRW werden brandschutzliche Konzepte und Betriebskonzepte gemeinsam geprüft. Abgrenzung: Allgemeine Unterkunfts-BauO-Anforderungen ersetzen kein nutzungsspezifisches Evakuierungskonzept mit Personengruppen mit besonderen Bedürfnissen.",
+          "Praxisfall: Fehlende Nachtbeleuchtung und unklare Sammelplätze führten zu Auflage – Nachbesserung mit orientierungsplan und Übungsprotokoll. Behördenforderung: Verantwortliche Personen pro Etage und dokumentierte Sprachmittler in der Alarmkette.",
+          "Nachweis: Aktuelle Belegungspläne, Fluchtpläne und Übungsnachweise gehören zur laufenden Fortschreibung – nicht nur zur Eröffnung.",
+        ],
+      },
+      {
+        id: "praxis-betrieb",
+        title: "Praxis: Fluktuationshaus und Evakuierungskonzept",
+        paragraphs: [
+          "Fluktuationshäuser (rotierende Belegung, z. B. Asyl- oder Übergangsunterkünfte) stellen besondere Anforderungen an Rettungswege, Unterweisung und mehrsprachige Information. In NRW werden brandschutzliche Konzepte und Betriebskonzepte gemeinsam geprüft. Abgrenzung: Allgemeine Unterkunfts-BauO-Anforderungen ersetzen kein nutzungsspezifisches Evakuierungskonzept mit Personengruppen mit besonderen Bedürfnissen.",
+          "Praxisfall: Fehlende Nachtbeleuchtung und unklare Sammelplätze führten zu Auflage – Nachbesserung mit orientierungsplan und Übungsprotokoll. Behördenforderung: Verantwortliche Personen pro Etage und dokumentierte Sprachmittler in der Alarmkette.",
+          "Nachweis: Aktuelle Belegungspläne, Fluchtpläne und Übungsnachweise gehören zur laufenden Fortschreibung – nicht nur zur Eröffnung.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -285,6 +321,15 @@ export const RATGEBER_ARTICLES_2025_OCTOBER: RatgeberArticle[] = [
           "Aufstockung: neue GK und Hochhaus?",
           "Anbau: Gesamtgebäude neu bewerten.",
           "Nutzerzahl VStätte vs. Bürofläche.",
+        ],
+      },
+      {
+        id: "praxis-betrieb",
+        title: "Praxis: Grenzfälle bei der GK-Einordnung",
+        paragraphs: [
+          "Grenzfälle bei Gebäudeklassen entstehen bei Aufstockung, Nutzungsänderung und geteilten Nutzungseinheiten – in NRW orientiert sich die Praxis an MHKBG BFM-02. Abgrenzung: Gebäudeklasse ist nicht dasselbe wie Sonderbau; eine GK-3-Einordnung schließt § 50 Sonderbau nicht aus.",
+          "Praxisfall Dachgeschossausbau: OKF knapp unter 7 m versus darüber – unterschiedliche Anforderungen an Rettungswege und abschließende Bauteile. Behördenforderung: Nachweis der NE-Flächen und Freistehendheit mit aktuellem Bestandsplan.",
+          "Vor Investition Klärung mit Entwurfsverfasser und Brandschutzplaner – nachträgliche Ertüchtigung ist teurer als Konzept vor Umbau. Grundlagen: [Gebäudeklassen-Übersicht](/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw).",
         ],
       },
       {

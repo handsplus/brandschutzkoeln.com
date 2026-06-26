@@ -68,6 +68,15 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: Großraumbüro ohne SBauVO-Typ",
+        paragraphs: [
+          "Großraumbüros können Sonderbau nach § 50 Abs. 2 BauO NRW auslösen, ohne dass ein SBauVO-Typ passt – dann greifen „ungeregelte Sonderbauten“ mit Konzeptpflicht. Abgrenzung: GK allein definiert den Sonderbau nicht; offene Bürolandschaften mit vielen Arbeitsplätzen können anders bewertet werden als klassische Verwaltungsgebäude.",
+          "Praxisfall: Behörde verlangte brandschutztechnische Stellungnahme zu offener Raumstruktur, RWA und Alarmierung – obwohl kein VS-Typ zutraf. Genehmigungspraxis: Frühzeitige Abstimmung mit Brandschutzdienststelle spart Nachforderungen.",
+          "Betreiber nach Umbau: Konzeptfortschreibung und angepasste BSO – nicht nur Möbelplan.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -175,6 +184,15 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
           "Abschnittsbildung im Brandschutzkonzept und Lageplan – nicht nur im Brandschutzkonzept-Anhang versteckt.",
           "Abstimmung mit [BauPAVO](/ratgeber/baupavo-nrw-bauarten-verwendbarkeitsnachweis) für Bauprodukte.",
           "Umbau: [Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz) prüft Abschnitte neu.",
+        ],
+      },
+      {
+        id: "praxis-betrieb",
+        title: "Praxis: Rauchabschnitte und T30-RS im Bestand",
+        paragraphs: [
+          "Rauchabschnitte nach § 35 BauO NRW begrenzen Rauchausbreitung in Fluren und großen Räumen – in der Praxis werden T30-RS-Türen und offene Bereiche häufig bei Begehungen beanstandet. Abgrenzung: Rauchabschnitt ist nicht dasselbe wie Brandabschnitt; eine Rauchschutztür ohne RS-System in der Wand erfüllt den Abschnitt nicht.",
+          "Praxisfall Büroetage: Provisorische Haltevorrichtungen an RS-Türen und fehlende Selbstschließung – Mängel mit kurzer Frist. Behördenforderung nach Umbau: Aktualisierung Fluchtplan und Funktionsprüfung Feststellanlagen.",
+          "Nachweis: Prüfprotokolle Feuerschutzabschlüsse und Dokumentation von Abweichungen im Betrieb – [FstA Prüffristen](/ratgeber/feuerschutzabschluesse-prueffristen-fstA).",
         ],
       },
       {
@@ -289,6 +307,15 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: BMA, Aufzug und Brandfallsteuerung",
+        paragraphs: [
+          "Brandfallsteuerung verknüpft BMA, RWA, Aufzugs-Rückholung und Entrauchung – in Sonderbauten in NRW Standardprüfpunkt bei Abnahme. Abgrenzung: Aufzugs-RWA ersetzt nicht die Brandfallsteuerung; BMA-Alarm allein steuert keine sichere Evakuierung ohne abgestimmtes Konzept.",
+          "Praxisfall Klinik: Falscher Melder löste Aufzugsfahrt ins Brandgeschoss aus – Ursache fehlende Parameterierung; Nachweis der Inbetriebnahme durch Errichter und SK erforderlich. Typische Behördenforderung: Funktionsmatrix und jährliche Probelauf-Dokumentation.",
+          "Schnittstelle Wartung BMA und Aufzug in einem Terminplan – [BMA Prüffristen](/ratgeber/bma-prueffristen-brandmeldeanlage).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -398,6 +425,24 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
           "Garagen, Verkaufsstätten, Produktion: unterschiedliche Löschwasserlogik.",
           "[Mittelgroße Garagen](/ratgeber/mittelgrossgaragen-brandschutz-sbauvo-nrw) eigene Regeln.",
           "Kraftstofflager: zusätzliche Anforderungen.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Rückhaltung, Gewässer und Genehmigung",
+        paragraphs: [
+          "Löschwasserrückhalt verknüpft Brandschutzplanung mit Gewässerschutz – bei Lagerflammenflächen und großen Dachflächen verlangen Behörden in NRW zunehmend Rückhaltevolumen und Reinigungskonzepte. Abgrenzung: Sprinklerwassermenge ist nicht dasselbe wie Löschwasser-Rückhalt nach LAU; Regenwasser auf dem Dach fließt nicht automatisch in die Löschwasserbilanz ein.",
+          "Praxisfall Industriehalle: Genehmigung knüpfte Nutzungsbeginn an nachweislich dimensionierte Rückhaltefläche und Wartungsvertrag – ohne Konzeptfortschreibung nach Hallenerweiterung keine erneute Abnahme. Typische Stellungnahme: Abstimmung Untere Wasserbehörde und Brandschutzdienststelle.",
+          "Betreiber führen Inspektion der Rückhalteeinrichtungen und Entleerungsnachweise – Schnittstelle zu [Gefahrstoff- und Lagerbrandschutz](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Dimensionierung und Verantwortung",
+        paragraphs: [
+          "Löschwasserrückhalt muss in NRW oft zum genehmigten Brandschutzkonzept passen – Behörden vergleichen Rückhaltevolumen mit Sprinkler- und Löschwasserannahmen aus der Planung. Unterschied zur allgemeinen Entwässerung: Regenwasser und Prozesswasser gehören nicht automatisch in dieselbe Bilanz.",
+          "Praxisfall Logistikdach: Erweiterung der Lagerfläche ohne Anpassung der Rückhaltebecken – Stellungnahme der Unteren Wasserbehörde verzögerte Inbetriebnahme. Orientierungswert: Frühzeitig Klärung mit Brandschutzplaner und Wasserrecht, nicht erst nach Baufertigstellung.",
+          "Betreiber dokumentiert Inspektion, Reinigung und Entleerungsnachweise – Fortschreibung bei neuen Gefahrstofflagern oder Löschwasseranlagen Pflicht.",
         ],
       },
       {

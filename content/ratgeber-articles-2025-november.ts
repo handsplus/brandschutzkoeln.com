@@ -68,6 +68,24 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: Versammlungsstätte, Blockbildung und Konzept",
+        paragraphs: [
+          "Sportstadien und große Versammlungsstätten fallen unter SBauVO mit Anforderungen an Blockbildung, Rettungswege und Entfluchtung – das Brandschutzkonzept ist in NRW praktisch immer Pflicht. Abgrenzung: Bestuhlungsplan ist nicht dasselbe wie Blockbildungsnachweis; temporäre Bühnenbauwerke brauchen eigene Stellungnahme.",
+          "Praxisfall Arena-Umbau: Neue VIP-Logen änderten Rettungswegführung – Konzeptfortschreibung und angepasste Feuerwehrpläne vor erstem Event. Typische Behördenforderung: Evakuierungszeiten und Brandsicherheitswachen bei Hochrisiko-Veranstaltungen.",
+          "Veranstalter und Betreiber trennen Rollen schriftlich: Wer führt BSO Teil B, wer dokumentiert Übungen, wer koordiniert mit Feuerwehr?",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Veranstaltungsbetrieb und Blockbildung",
+        paragraphs: [
+          "In Sportstadien entscheidet die Blockbildung über Rettungswegkapazität und Steuerung der Entfluchtung – in NRW wird das im Brandschutzkonzept und bei Hochrisiko-Spielen einzeln bewertet. Unterschied zur normalen Versammlungsstätte: dynamische Szenarien (Stehen, Pyrotechnik-Verbot, Sperrzonen) brauchen eigene Betriebsanweisungen.",
+          "Praxisfall: Umbaumaßnahmen an Tribünen änderten Sichtachsen und Fluchtwegbreiten – Konzept und Feuerwehrplan mussten vor Saisonstart fortgeschrieben werden. Behördenforderung: Abstimmung mit Veranstalter, Ordnerdienst und Feuerwehr in einem gemeinsamen Einsatzplan.",
+          "Dokumentation von Übungen, Personenstrom-Messungen und Mängeln pro Event – Schnittstelle [Brandsicherheitswache](/ratgeber/brandsicherheitswache-veranstaltung-sbauvo-nrw) und BSO Teil B.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -175,6 +193,15 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
           "Veranstalter trägt Organisation und Kosten – früh mit Feuerwehr klären.",
           "[Feuerwehrzufahrt](/ratgeber/feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw) und Einsatzräume.",
           "Konzept im Genehmigungsverfahren der Location.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Brandsicherheitswache und Veranstaltungen",
+        paragraphs: [
+          "Bei Veranstaltungen mit erhöhter Personenzahl verlangt die SBauVO in NRW häufig Brandsicherheitswachen – unabhängig von der BMA. Abgrenzung: Brandsicherheitswache ersetzt weder Feuerwehr noch den betrieblichen Brandschutzbeauftragten; Pyrotechnik braucht zusätzliche Fachaufsicht.",
+          "Praxisfall Open-Air mit temporärer Bühne: Auflage: nachweislich qualifizierte Wachen, Funkgeräte und Abstimmung mit örtlicher Feuerwehr vor Freigabe. Genehmigungspraxis: Anzahl und Qualifikation hängen von Personenzahl, Raumtyp und Nutzungsdauer ab.",
+          "Dokumentation: Einsatzplan, Briefing und Mängelprotokoll pro Veranstaltung – Fortschreibung in Veranstaltungskonzept.",
         ],
       },
       {
@@ -288,6 +315,15 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: DIN 18230 und Nachweisführung",
+        paragraphs: [
+          "DIN 18230 strukturiert brandschutztechnische Nachweise für bestimmte Anlagen und Betriebe – in der Praxis wird sie in NRW oft neben BauO-Nachweis und Sonderbau-Konzept verlangt. Abgrenzung: DIN 18230 ersetzt weder das genehmigte Brandschutzkonzept noch die PrüfVO; sie konkretisiert Dokumentation und Instandhaltung für definierte Anwendungsfälle.",
+          "Praxisfall Industriebetrieb: Auftraggeber verlangte 18230-konforme Nachweisführung für Löschwasserversorgung – Lücke zwischen Genehmigung und Betrieb wurde erst bei SV-Prüfung sichtbar. Orientierungswert: Früh klären, welche Norm der Auftraggeber, Versicherer oder Behörde einfordert.",
+          "Fortschreibung nach Anlagenänderung mit Versionierung – Schnittstelle zu [Prüfpflichten Sonderbau](/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -395,6 +431,15 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
           "Digital archivieren mit Backup – im Brandfall auch physischer Zugriff für Feuerwehr sinnvoll.",
           "Schlüssel Depots für Prüfberichte-Anlagen.",
           "Übergabe bei Eigentümerwechsel.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Welche Unterlagen Behörden und Prüfer sehen wollen",
+        paragraphs: [
+          "Bei Wiederkehrenden Prüfungen und Schauen in NRW reicht „wir haben ein Konzept“ selten – Prüfer erwarten aktuelle BSO, Prüfbücher, Fortschreibungen nach Umbau und Nachweise der befähigten Personen. Abgrenzung: Genehmigungsunterlagen (BSK) sind nicht dasselbe wie Betriebsdokumentation; ASR-Aushänge ersetzen keine Prüfprotokolle.",
+          "Praxisfall Logistikzentrum: Fehlende Zuordnung von Prüfberichten zu Anlagennummern führte zu Auflage – ein Anlagenregister mit Verantwortlichen löste das. Orientierungswert: Ein Ordner „Brandschutz Betrieb“ mit Index Konzept, Pläne, Prüfungen, Übungen, Unterweisungen.",
+          "Nachweislogik für Geschäftsführung: Dokumentation ist Haftungs- und Versicherungsthema – lückenhafte Unterlagen erschweren Schadensregulierung nach Brand.",
         ],
       },
       {

@@ -10,13 +10,18 @@ const FORBIDDEN_TERMS = [
 ];
 
 export function countWords(block) {
-  const body = block
-    .replace(/metaTitle:[\s\S]*?keywords:/, "")
-    .replace(/href:\s*"[^"]+"/g, " ")
-    .replace(/slug:\s*"[^"]+"/g, " ")
-    .replace(/id:\s*"[^"]+"/g, " ");
+  const excerpt =
+    block.match(/excerpt:\s*\n\s*"((?:\\.|[^"\\])*)"/)?.[1]?.replace(/\\"/g, '"') ??
+    "";
+  const sections =
+    block.match(/sections:\s*\[([\s\S]*?)\]\s*,\s*\n\s*relatedLinks:/)?.[1] ?? "";
+  const faq =
+    block.match(/faq:\s*\[([\s\S]*?)\]\s*,\s*\n\s*\},/)?.[1] ??
+    block.match(/faq:\s*\[([\s\S]*?)\]\s*,\s*\n\s*\]/)?.[1] ??
+    "";
 
-  const strings = [...body.matchAll(/"((?:\\.|[^"\\]){12,})"/g)].map((m) =>
+  const combined = [excerpt, sections, faq].join(" ");
+  const strings = [...combined.matchAll(/"((?:\\.|[^"\\])*)"/g)].map((m) =>
     m[1].replace(/\\"/g, '"').replace(/\\n/g, " "),
   );
 

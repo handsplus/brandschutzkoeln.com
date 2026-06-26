@@ -68,6 +68,24 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: Hochhaus, Entrauchung und Abgrenzung",
+        paragraphs: [
+          "Hochhäuser nach SBauVO Teil 4 verbinden Treppenraumentrauchung, RDA und Aufzugs-Brandfallsteuerung – in der Genehmigungspraxis in NRW werden diese Systeme gemeinsam im Brandschutzkonzept nachgewiesen. Abgrenzung: Natürliche RWA auf Fluchtwegen ist nicht dasselbe wie maschinische Treppenraumentrauchung; Aufzugs-RWA ersetzt keinen Feuerwehraufzug.",
+          "Praxisfall Wohnhochhaus: Ausfall der RDA im Probelauf vor Abnahme – Nachbesserung an Differenzdruckregelung und Notstrom. Behördenforderung: Abstimmungsnachweis BMA, RDA und Aufzug in einem Funktionskonzept.",
+          "Wiederkehrende Prüfung nach DGUV 205-040 und SV-Bau im Sonderbau – Protokolle im Anlagenbuch. Vertiefung: [RWA Prüffristen](/ratgeber/rwa-entrauchung-prueffristen).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Instandhaltung und Abnahme",
+        paragraphs: [
+          "Hochhaus-Entrauchung wird in NRW bei wiederkehrenden Prüfungen genauso kritisch gesehen wie BMA und RDA – fehlende Protokolle führen zu Nutzungseinschränkungen im Versammlungs- und Wohnkontext. Abgrenzung: Wartungsvertrag Aufzug ersetzt keine jährliche SK-Prüfung der Entrauchungsklappen im Treppenraum.",
+          "Praxisfall: RDA-Druckstützung fiel im Winterbetrieb aus, weil Türdichtungen und Filter nicht im Wartungsplan standen – Nachweis der Instandhaltung war lückenhaft. Genehmigungspraxis: Funktionsmatrix BMA–RDA–Aufzug bei jeder größeren Anlagenänderung aktualisieren.",
+          "Anlagenbuch mit Prüfberichten, Mängeln und Freigaben führen – [Prüffristen RWA](/ratgeber/rwa-entrauchung-prueffristen) und Hochhaus-Sonderbau gemeinsam planen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -179,6 +197,15 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: Übungen, Nachweis und Abgrenzung",
+        paragraphs: [
+          "Brandschutzübungen sind in Sonderbauten und größeren Betrieben in NRW oft Auflageninhalt im Brandschutzkonzept oder in der BSO – nicht nur freiwillige Best Practice. Abgrenzung: Evakuierungsübung ersetzt keine wiederkehrende Prüfung von BMA, RWA oder Feuerlöscher; Arbeitsschutz-Unterweisung ersetzt keine vollständige Evakuierung mit Feuerwehrkontakt.",
+          "Praxisfall Versammlungsstätte: Jährliche Übung mit dokumentierten Zeiten, Sammelplatz und Rollen (Brandschutzhelfer, Evakuierungshelfer) – ohne Protokoll kein Nachweis bei Schau. Typische Behördenforderung: Abstimmung mit Alarmplan und Aufzugs-Brandfallsteuerung vor Übungstag.",
+          "Protokolle mit Mängelliste und Fristen in die Betriebsdokumentation übernehmen – Fortschreibung der BSO Teil B bei geänderten Rettungswegen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -286,6 +313,24 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
           "Leckage-Management, Wannen, Überfüllschutz.",
           "[DGUV Gefährdungsbeurteilung](/ratgeber/dguv-205-001-gefaehrdungsbeurteilung-brandschutz).",
           "Einsatzkräfte: WGS-Kennzeichnung und Löschmittelwahl.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: LAU, Brandschutz und Abgrenzung",
+        paragraphs: [
+          "Wassergefährdende Stoffe (WGK) verbinden Gewässerschutzrecht mit betrieblichem Brandschutz – Lagerung in Rettungswegen oder ohne Auffangwannen ist in Begehungen ein Standardbefund. Abgrenzung: TRGS 510 und LAU regeln Mengen und Behälter; baulicher Brandschutz und Rauchableitung bleiben über BauO und Betrieb getrennt zu bewerten – ein WGK-Konzept ersetzt kein Brandschutzkonzept.",
+          "Praxisfall Werkstatt: Kleinstmengen in offenen Behältern neben Heißarbeit – Behörde verlangte geschlossene Systeme, LAU-Register und Trennung von Zündquellen. In NRW prüfen Gewerbeaufsicht und Untere Wasserbehörde unterschiedliche Aspekte; ein gemeinsames Begehungsprotokoll spart Doppelarbeit.",
+          "Nachweis: Betriebsanweisungen, Lagerplan mit WGK-Klassen und Wartungsnachweise für Auffangflächen gehören zur Dokumentation – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Checkliste Lager und Behördenkontakt",
+        paragraphs: [
+          "Vor einer Begehung sollten Lagerliste mit WGK-Klassen, Auffangvolumen, Entwässerungsschutz und Abstand zu Zündquellen vorliegen – nicht nur das Sicherheitsdatenblatt in der Mappe. Unterschied zur reinen Gefahrstoffunterweisung: LAU verlangt mengen- und ortsbezogene Nachweise, die in der GBU oft nur pauschal erwähnt werden.",
+          "Typische Behördenforderung bei gemischten Lagern: Trennung entzündbarer WGK-Stoffe von Oxidationsmitteln, Kennzeichnung nach TRGS 201 und Versiegelung von Bodenflächen. Praxisfall Chemielager: Rückhaltewanne undicht, Feuerlöscher direkt daneben – gemeinsame Maßnahmenliste Brandschutz und Gewässerschutz verhindert Widersprüche.",
+          "Fortschreibung nach Umbau oder neuem Lieferantenstrom – Schnittstelle [Gefahrstofflagerung](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz) und Betriebsanweisungen.",
         ],
       },
       {

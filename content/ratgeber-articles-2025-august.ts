@@ -287,6 +287,15 @@ export const RATGEBER_ARTICLES_2025_AUGUST: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis-betrieb",
+        title: "Praxis: Sonderbau im Bestand und Abgrenzung",
+        paragraphs: [
+          "Bestandsgebäude mit neuer Sonderbaunutzung lösen in NRW häufig Konzept- und Ertüchtigungspflichten aus – Bestandsschutz nach § 69 begrenzt, ersetzt aber keine Gefahrenabwehr. Abgrenzung: Bestandserleichterung ist nicht dasselbe wie „nichts tun“; bei Nutzungsänderung neue Bewertung.",
+          "Praxisfall Hotelumbau: Alte Flure erfüllten aktuelle Rauchabschnittslogik nicht – Konzept mit Abweichung und kompensierenden Maßnahmen. Behördenforderung: Nachweis tragfähiger Rettungswege vor Eröffnung.",
+          "Dokumentation aller Abweichungen und Auflagen im Betriebsordner – Fortschreibung bei jeder weiteren Nutzungsänderung.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -394,6 +403,15 @@ export const RATGEBER_ARTICLES_2025_AUGUST: RatgeberArticle[] = [
           "Nur Küche brandschutztechnisch betrachtet – Gastraum und Rettungswege vergessen.",
           "Bestuhlung über Konzept-Nutzerzahl ohne Nachweis.",
           "Feststellanlagen an Küchen-T30-RS dauerhaft aus.",
+        ],
+      },
+      {
+        id: "praxis-betrieb",
+        title: "Praxis: Gastronomie und ungeregelter Sonderbau",
+        paragraphs: [
+          "Gaststätten mit Verzehr vor Ort können Sonderbau sein, auch wenn kein SBauVO-Typ exakt passt – dann Konzept nach § 50 Abs. 2. Abgrenzung: Imbiss ohne Verzehrraum versus Restaurant mit Gastraum; reine Verkaufsfläche fällt unter anderen SBauVO-Typ.",
+          "Praxisfall Umnutzung Laden zu Bistro: Behörde stellte erhöhte Anforderungen an Entrauchung, Flächenbegrenzung und Rettungswege fest – Genehmigung nur mit Stellungnahme. Typische Forderung: Fettabluft, Küchenbrand und Fluchtwege im Konzept.",
+          "Nachweis: Genehmigtes Konzept, aktuelle Pläne und Unterweisung Personal – Schnittstelle [Sonderbauten Übersicht](/ratgeber/sonderbauten-brandschutz).",
         ],
       },
       {

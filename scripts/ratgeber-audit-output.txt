@@ -2,273 +2,252 @@
 Datum: 2026-06-26
 Quelldateien: 45
 Artikel gesamt: 150
-Median Wörter: 570
-OK (≥9/10 Kriterien, Tier≥9): 87
-Grenzbereich (9?): 42
-Nachbessern (UP): 21
-Unter 450 Wörter: 60
-Ohne Praxisbezug: 51
+Median Wörter: 665
+OK (≥9/10 Kriterien, Tier≥9): 113
+Grenzbereich (9?): 37
+Nachbessern (UP): 0
+Unter 450 Wörter: 41
+Ohne Praxisbezug: 38
 Ohne Cluster: 1
 
 --- content\ratgeber-articles-2024-december.ts (3) ---
-OK	~10	1177W	9/9	ok	aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw
-OK	~10	911W	9/9	ok	feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw
-OK	~10	954W	8/9	weak-abgrenzung	veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw
+OK	~10	1105W	9/9	ok	aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw
+OK	~10	846W	9/9	ok	feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw
+OK	~10	887W	8/9	weak-abgrenzung	veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw
 
 --- content\ratgeber-articles-2025-april.ts (8) ---
-OK	~9	429W	9/9	sec<7(6),words<450(429)	bauprodukte-ce-kennzeichnung-nrw
-OK	~9	491W	9/9	sec<7(6)	e-fahrzeuge-tiefgarage-brandgefahren-fbfhb-024
-9?	~9	387W	8/9	sec<7(6),words<450(387),weak-abgrenzung	feuerungsanlagen-feuvo-nrw-betrieb
-OK	~9	508W	9/9	sec<7(6)	industriebau-lagerhalle-indbaur-nrw
-9?	~9	443W	8/9	sec<7(6),words<450(443),no-praxis	pflegeeinrichtung-sonderbau-nrw
-9?	~10	420W	7/9	words<450(420),no-praxis,weak-nachweis	pruefvo-nrw-wiederkehrende-pruefung-sonderbau
-9?	~9	436W	7/9	sec<7(6),words<450(436),no-praxis,weak-abgrenzung	schulen-schulbaurichtlinie-nrw
-9?	~9	390W	8/9	sec<7(6),words<450(390),weak-abgrenzung	trgs-800-brandschutz-gefahrstoffe-betrieb
+OK	~9	500W	9/9	sec<7(6)	bauprodukte-ce-kennzeichnung-nrw
+OK	~9	569W	9/9	sec<7(6)	e-fahrzeuge-tiefgarage-brandgefahren-fbfhb-024
+9?	~9	424W	8/9	sec<7(6),words<450(424),weak-abgrenzung	feuerungsanlagen-feuvo-nrw-betrieb
+OK	~9	611W	9/9	sec<7(6)	industriebau-lagerhalle-indbaur-nrw
+OK	~9	503W	8/9	sec<7(6),no-praxis	pflegeeinrichtung-sonderbau-nrw
+9?	~10	482W	7/9	no-praxis,weak-nachweis	pruefvo-nrw-wiederkehrende-pruefung-sonderbau
+9?	~9	491W	7/9	sec<7(6),no-praxis,weak-abgrenzung	schulen-schulbaurichtlinie-nrw
+9?	~9	441W	8/9	sec<7(6),words<450(441),weak-abgrenzung	trgs-800-brandschutz-gefahrstoffe-betrieb
 
 --- content\ratgeber-articles-2025-august.ts (4) ---
-UP	~7	277W	8/9	sec<7(6),words<450(277)	gaststaette-sonderbau-ungeregelt-nrw
-9?	~9	303W	7/9	sec<7(6),words<450(303),no-praxis,weak-abgrenzung	hochhaus-betriebsvorschriften-sbauvo-nrw
-9?	~9	330W	8/9	sec<7(6),words<450(330),no-praxis	mehrzweckhallen-sportstaetten-sbauvo-nrw
-UP	~7	288W	7/9	sec<7(6),words<450(288),weak-abgrenzung	sonderbau-bestand-gebaeude-sbauvo-nrw
+OK	~10	361W	9/9	words<450(361)	gaststaette-sonderbau-ungeregelt-nrw
+9?	~9	310W	7/9	sec<7(6),words<450(310),no-praxis,weak-abgrenzung	hochhaus-betriebsvorschriften-sbauvo-nrw
+9?	~9	349W	8/9	sec<7(6),words<450(349),no-praxis	mehrzweckhallen-sportstaetten-sbauvo-nrw
+OK	~10	380W	9/9	words<450(380)	sonderbau-bestand-gebaeude-sbauvo-nrw
 
 --- content\ratgeber-articles-2025-december.ts (3) ---
-UP	~7	215W	6/9	sec<7(6),words<450(215),no-praxis,weak-abgrenzung	brandschutzuebung-betrieb-nrw
-UP	~7	224W	6/9	sec<7(6),words<450(224),no-praxis,weak-abgrenzung	hochhaus-entrauchung-sbauvo-nrw
-UP	~7	210W	6/9	sec<7(6),words<450(210),no-praxis,weak-abgrenzung	wassergefaehrdende-stoffe-lager-lau-nrw
+OK	~10	303W	9/9	words<450(303)	brandschutzuebung-betrieb-nrw
+OK	~10	363W	9/9	words<450(363)	hochhaus-entrauchung-sbauvo-nrw
+OK	~10	378W	9/9	words<450(378)	wassergefaehrdende-stoffe-lager-lau-nrw
 
 --- content\ratgeber-articles-2025-february-rettungsweg.ts (1) ---
-OK	~10	1125W	9/9	ok	zweiter-rettungsweg-innenhof-bauo-nrw
+OK	~10	1059W	9/9	ok	zweiter-rettungsweg-innenhof-bauo-nrw
 
 --- content\ratgeber-articles-2025-july.ts (3) ---
-OK	~9	355W	9/9	sec<7(6),words<450(355)	baupavo-nrw-bauarten-verwendbarkeitsnachweis
-9?	~9	366W	8/9	sec<7(6),words<450(366),weak-abgrenzung	dguv-205-001-gefaehrdungsbeurteilung-brandschutz
-9?	~9	379W	8/9	sec<7(6),words<450(379),no-praxis	kita-krankenhaus-sonderbau-ungeregelt-nrw
+OK	~9	372W	9/9	sec<7(6),words<450(372)	baupavo-nrw-bauarten-verwendbarkeitsnachweis
+9?	~9	404W	8/9	sec<7(6),words<450(404),weak-abgrenzung	dguv-205-001-gefaehrdungsbeurteilung-brandschutz
+9?	~9	409W	8/9	sec<7(6),words<450(409),no-praxis	kita-krankenhaus-sonderbau-ungeregelt-nrw
 
 --- content\ratgeber-articles-2025-june.ts (4) ---
-OK	~9	458W	8/9	sec<7(6),no-praxis	beherbergungsstaetten-hotel-sonderbau-nrw
-9?	~9	368W	8/9	sec<7(6),words<450(368),no-praxis	feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw
-9?	~9	445W	8/9	sec<7(6),words<450(445),weak-abgrenzung	genehmigungsfrei-garage-freischank-bauo-nrw
-9?	~9	399W	8/9	sec<7(6),words<450(399),no-praxis	versammlungsstaetten-baulich-sbauvo-nrw
+OK	~9	502W	8/9	sec<7(6),no-praxis	beherbergungsstaetten-hotel-sonderbau-nrw
+9?	~9	414W	8/9	sec<7(6),words<450(414),no-praxis	feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw
+OK	~9	476W	8/9	sec<7(6),weak-abgrenzung	genehmigungsfrei-garage-freischank-bauo-nrw
+9?	~9	430W	8/9	sec<7(6),words<450(430),no-praxis	versammlungsstaetten-baulich-sbauvo-nrw
 
 --- content\ratgeber-articles-2025-march.ts (6) ---
-OK	~10	541W	9/9	ok	explosionsschutz-brandschutz-schnittstelle
-OK	~10	584W	9/9	ok	feuerschutzabschluesse-bestand-nrw
-OK	~10	546W	8/9	weak-abgrenzung	ladestation-stapler-brandgefahren
-OK	~10	576W	8/9	weak-abgrenzung	photovoltaik-brandrisiken-dach-anlage
-OK	~10	654W	9/9	ok	spezial-loeschanlagen-gefaehrdungsbeurteilung
-OK	~10	602W	8/9	no-praxis	versammlungsstaetten-betrieb-sbauvo-nrw
+OK	~10	633W	9/9	ok	explosionsschutz-brandschutz-schnittstelle
+OK	~10	652W	9/9	ok	feuerschutzabschluesse-bestand-nrw
+OK	~10	618W	8/9	weak-abgrenzung	ladestation-stapler-brandgefahren
+OK	~10	648W	8/9	weak-abgrenzung	photovoltaik-brandrisiken-dach-anlage
+OK	~10	739W	9/9	ok	spezial-loeschanlagen-gefaehrdungsbeurteilung
+OK	~10	695W	8/9	no-praxis	versammlungsstaetten-betrieb-sbauvo-nrw
 
 --- content\ratgeber-articles-2025-may.ts (3) ---
-OK	~9	468W	9/9	sec<7(6)	brandschutzkonzept-baupruefvo-nrw
-9?	~9	477W	7/9	sec<7(6),no-praxis,weak-abgrenzung	hochhaus-brandschutz-sbauvo-nrw
-9?	~9	405W	8/9	sec<7(6),words<450(405),no-praxis	verkaufsstaetten-rettungswege-sbauvo-nrw
+OK	~9	510W	9/9	sec<7(6)	brandschutzkonzept-baupruefvo-nrw
+9?	~9	540W	7/9	sec<7(6),no-praxis,weak-abgrenzung	hochhaus-brandschutz-sbauvo-nrw
+OK	~9	463W	8/9	sec<7(6),no-praxis	verkaufsstaetten-rettungswege-sbauvo-nrw
 
 --- content\ratgeber-articles-2025-november.ts (4) ---
-UP	~7	221W	6/9	sec<7(6),words<450(221),no-praxis,weak-abgrenzung	brandschutz-dokumentation-betrieb-nrw
-UP	~7	237W	7/9	sec<7(6),words<450(237),weak-abgrenzung	brandschutznachweis-din-18230-nrw
-UP	~7	248W	6/9	sec<7(6),words<450(248),no-praxis,weak-abgrenzung	brandsicherheitswache-veranstaltung-sbauvo-nrw
-UP	~7	224W	7/9	sec<7(6),words<450(224),no-praxis	sportstadien-blockbildung-sbauvo-nrw
+OK	~10	304W	9/9	words<450(304)	brandschutz-dokumentation-betrieb-nrw
+OK	~10	315W	9/9	words<450(315)	brandschutznachweis-din-18230-nrw
+OK	~10	308W	9/9	words<450(308)	brandsicherheitswache-veranstaltung-sbauvo-nrw
+OK	~10	376W	9/9	words<450(376)	sportstadien-blockbildung-sbauvo-nrw
 
 --- content\ratgeber-articles-2025-october.ts (3) ---
-UP	~7	236W	7/9	sec<7(6),words<450(236),weak-abgrenzung	fluktuationshaus-evakuierung-nrw
-UP	~7	245W	8/9	sec<7(6),words<450(245)	gebaeudeklassen-grenzfaelle-nrw
-UP	~7	238W	6/9	sec<7(6),words<450(238),no-praxis,weak-abgrenzung	geeg-uvo-anlagentechnik-brandschutz-nrw
+OK	~10	389W	9/9	words<450(389)	fluktuationshaus-evakuierung-nrw
+OK	~10	318W	9/9	words<450(318)	gebaeudeklassen-grenzfaelle-nrw
+OK	~10	364W	9/9	words<450(364)	geeg-uvo-anlagentechnik-brandschutz-nrw
 
 --- content\ratgeber-articles-2025-september.ts (4) ---
-UP	~7	274W	6/9	sec<7(6),words<450(274),no-praxis,weak-abgrenzung	bma-brandfallsteuerung-aufzug-sbauvo-nrw
-UP	~7	275W	8/9	sec<7(6),words<450(275)	grossraumbuero-sonderbau-ungeregelt-nrw
-UP	~7	221W	7/9	sec<7(6),words<450(221),no-praxis	loeschwasser-rueckhalt-konzept-nrw
-UP	~7	249W	8/9	sec<7(6),words<450(249)	rauchabschnitt-t30-rs-praxis-bauo-nrw
+OK	~10	341W	9/9	words<450(341)	bma-brandfallsteuerung-aufzug-sbauvo-nrw
+OK	~10	358W	9/9	words<450(358)	grossraumbuero-sonderbau-ungeregelt-nrw
+OK	~10	370W	9/9	words<450(370)	loeschwasser-rueckhalt-konzept-nrw
+OK	~10	332W	9/9	words<450(332)	rauchabschnitt-t30-rs-praxis-bauo-nrw
 
 --- content\ratgeber-articles-2025.ts (19) ---
-UP	~7	188W	6/9	words<450(188),no-praxis,weak-abgrenzung	aerosol-loeschanlagen-personenschutz
-OK	~10	1051W	9/9	ok	alarmierung-evakuierung-betrieb
-UP	~7	201W	7/9	words<450(201),no-praxis	batteriespeicher-lithium-ionen-brandgefahren
-OK	~10	1102W	9/9	ok	betrieblicher-brandschutz-praxis-ueberblick
-OK	~10	964W	9/9	ok	brandbegrenzungsdecken-lithiumbatterie
-OK	~10	625W	9/9	ok	brandgase-rauch-brandfall
-OK	~10	757W	8/9	no-praxis	brandschutz-gemeinschaftsunterkuenfte
-OK	~10	789W	9/9	ok	brandschutzhelfer-ausbildung-anforderungen
-OK	~10	590W	8/9	weak-abgrenzung	brandursachen-betrieb-praevention
-OK	~10	801W	9/9	ok	co2-feuerloescher-raeume-erstickungsgefahr
-OK	~10	812W	9/9	ok	fehlalarme-brandmeldeanlage-mehrfachsensor
-OK	~10	845W	9/9	ok	feuerloescher-entsorgung-pfas-abfall
-OK	~10	727W	8/9	weak-nachweis	heissarbeiten-brandwache-erlaubnisschein
-UP	~7	197W	7/9	words<450(197),no-praxis	leichtschaum-loeschanlagen-personenschutz
-OK	~10	514W	8/9	no-praxis	loeschgas-loeschanlagen-personenschutz
-9?	~9	410W	8/9	sec<7(6),words<450(410),no-praxis	pulver-loeschanlagen-personenschutz
-OK	~10	583W	8/9	weak-abgrenzung	selbstentzuendung-putzlappen-metallspane
-OK	~10	743W	9/9	ok	sonderbau-anlagen-pruefung-maengel-nrw
-OK	~10	1028W	9/9	ok	sprinkler-verzinkung-wasserstoffgefahr
+OK	~10	772W	9/9	ok	aerosol-loeschanlagen-personenschutz
+OK	~10	1237W	9/9	ok	alarmierung-evakuierung-betrieb
+OK	~10	1109W	9/9	ok	batteriespeicher-lithium-ionen-brandgefahren
+OK	~10	1200W	9/9	ok	betrieblicher-brandschutz-praxis-ueberblick
+OK	~10	913W	9/9	ok	brandbegrenzungsdecken-lithiumbatterie
+OK	~10	702W	9/9	ok	brandgase-rauch-brandfall
+OK	~10	852W	8/9	no-praxis	brandschutz-gemeinschaftsunterkuenfte
+OK	~10	919W	9/9	ok	brandschutzhelfer-ausbildung-anforderungen
+OK	~10	661W	8/9	weak-abgrenzung	brandursachen-betrieb-praevention
+OK	~10	925W	9/9	ok	co2-feuerloescher-raeume-erstickungsgefahr
+OK	~10	888W	9/9	ok	fehlalarme-brandmeldeanlage-mehrfachsensor
+OK	~10	961W	9/9	ok	feuerloescher-entsorgung-pfas-abfall
+OK	~10	825W	8/9	weak-nachweis	heissarbeiten-brandwache-erlaubnisschein
+OK	~10	833W	9/9	ok	leichtschaum-loeschanlagen-personenschutz
+OK	~10	600W	8/9	no-praxis	loeschgas-loeschanlagen-personenschutz
+OK	~9	493W	8/9	sec<7(6),no-praxis	pulver-loeschanlagen-personenschutz
+OK	~10	660W	8/9	weak-abgrenzung	selbstentzuendung-putzlappen-metallspane
+OK	~10	828W	9/9	ok	sonderbau-anlagen-pruefung-maengel-nrw
+OK	~10	1155W	9/9	ok	sprinkler-verzinkung-wasserstoffgefahr
 
 --- content\ratgeber-articles-abweichungen-paragraph-69.ts (1) ---
-OK	~10	1780W	8/9	markdown-artifacts	abweichungen-paragraph-69-erlass-bauo-nrw
+OK	~10	2441W	8/9	markdown-artifacts	abweichungen-paragraph-69-erlass-bauo-nrw
 
 --- content\ratgeber-articles-aufzuege.ts (1) ---
-9?	~10	1128W	7/9	no-praxis,weak-abgrenzung	aufzuege-brandschutz-bauo-sbauvo-nrw
+9?	~10	1281W	7/9	no-praxis,weak-abgrenzung	aufzuege-brandschutz-bauo-sbauvo-nrw
 
 --- content\ratgeber-articles-batch2.ts (17) ---
-OK	~10	420W	8/9	words<450(420),markdown-artifacts	abschottungen-durchbrueche-baustelle-koeln
-OK	~10	1525W	8/9	markdown-artifacts	aufgaben-brandschutzbeauftragter-koeln
-OK	~10	781W	8/9	markdown-artifacts	bauantrag-brandschutz-unterlagen-koeln
-9?	~10	1215W	7/9	koeln>1(2),markdown-artifacts	bestellung-brandschutzbeauftragter-nrw
-OK	~10	514W	8/9	markdown-artifacts	brandschau-koeln-feuerwehr
-OK	~10	508W	8/9	markdown-artifacts	brandschutz-abnahme-nach-umbau-koeln
-9?	~10	1077W	7/9	koeln>1(5),markdown-artifacts	brandschutzberatung-koeln-auflagen-risiken
-9?	~10	1159W	7/9	koeln>1(4),markdown-artifacts	externer-brandschutzbeauftragter-koeln
-OK	~10	437W	9/9	words<450(437)	fachbauleitung-brandschutz-baustelle-koeln
-OK	~10	578W	8/9	markdown-artifacts	feuerschutztueren-bestand-ertuechtigung-koeln
-UP	~7	193W	7/9	words<450(193),markdown-artifacts	feuerwehrplan-fluchtplaene-pflicht-koeln
-OK	~10	384W	9/9	words<450(384)	kraftstoff-lagerung-halle-garage-brandschutz
-OK	~10	408W	9/9	words<450(408)	lagerhalle-buero-umnutzung-koeln
-OK	~10	432W	8/9	words<450(432),markdown-artifacts	loeschwasser-hydranten-gewerbe-koeln
-OK	~10	369W	9/9	words<450(369)	praxis-umbau-brandschutz-koeln
-OK	~10	439W	8/9	words<450(439),markdown-artifacts	sprinkler-rueckbau-bma-nutzungsaenderung-koeln
-OK	~10	570W	8/9	markdown-artifacts	technische-betriebsgebaeude-brandschutz-nrw
+OK	~10	446W	8/9	words<450(446),markdown-artifacts	abschottungen-durchbrueche-baustelle-koeln
+OK	~10	1717W	8/9	markdown-artifacts	aufgaben-brandschutzbeauftragter-koeln
+OK	~10	981W	8/9	markdown-artifacts	bauantrag-brandschutz-unterlagen-koeln
+9?	~10	1389W	7/9	koeln>1(2),markdown-artifacts	bestellung-brandschutzbeauftragter-nrw
+OK	~10	580W	8/9	markdown-artifacts	brandschau-koeln-feuerwehr
+OK	~10	604W	8/9	markdown-artifacts	brandschutz-abnahme-nach-umbau-koeln
+9?	~10	1246W	7/9	koeln>1(5),markdown-artifacts	brandschutzberatung-koeln-auflagen-risiken
+9?	~10	1325W	7/9	koeln>1(4),markdown-artifacts	externer-brandschutzbeauftragter-koeln
+OK	~10	495W	9/9	ok	fachbauleitung-brandschutz-baustelle-koeln
+OK	~10	644W	8/9	markdown-artifacts	feuerschutztueren-bestand-ertuechtigung-koeln
+OK	~10	726W	9/9	ok	feuerwehrplan-fluchtplaene-pflicht-koeln
+OK	~10	436W	9/9	words<450(436)	kraftstoff-lagerung-halle-garage-brandschutz
+OK	~10	480W	9/9	ok	lagerhalle-buero-umnutzung-koeln
+OK	~10	486W	8/9	markdown-artifacts	loeschwasser-hydranten-gewerbe-koeln
+OK	~10	423W	9/9	words<450(423)	praxis-umbau-brandschutz-koeln
+OK	~10	500W	8/9	markdown-artifacts	sprinkler-rueckbau-bma-nutzungsaenderung-koeln
+OK	~10	680W	8/9	markdown-artifacts	technische-betriebsgebaeude-brandschutz-nrw
 
 --- content\ratgeber-articles-bestandsschutz.ts (1) ---
-OK	~10	1120W	8/9	no-praxis	bestandsschutz-technische-sanierung-bauo-nrw
+OK	~10	1705W	8/9	no-praxis	bestandsschutz-technische-sanierung-bauo-nrw
 
 --- content\ratgeber-articles-brandabschnitte.ts (1) ---
-OK	~10	1515W	9/9	ok	brandabschnitte-bauo-sbauvo-nrw
+OK	~10	1689W	9/9	ok	brandabschnitte-bauo-sbauvo-nrw
 
 --- content\ratgeber-articles-brandlasten-notwendige-flure.ts (1) ---
-OK	~10	1163W	9/9	ok	brandlasten-notwendige-flure-bauo-nrw
+OK	~10	1684W	9/9	ok	brandlasten-notwendige-flure-bauo-nrw
 
 --- content\ratgeber-articles-brandmeldeanlage.ts (1) ---
-OK	~10	1180W	8/9	no-praxis	brandmeldeanlage-wann-pflicht-sbauvo-nrw
+OK	~10	1668W	8/9	no-praxis	brandmeldeanlage-wann-pflicht-sbauvo-nrw
 
 --- content\ratgeber-articles-brandschadensanierung-jan2026.ts (8) ---
-9?	~9	448W	7/9	faq<6(5),words<450(448),weak-abgrenzung,markdown-artifacts	ablauf-brandschadensanierung-vds-2357
-9?	~9	345W	6/9	faq<6(5),words<450(345),no-praxis,weak-abgrenzung,markdown-artifacts	arbeitssicherheitsplan-brandschadensanierung
-9?	~9	407W	6/9	faq<6(5),words<450(407),no-praxis,weak-abgrenzung,markdown-artifacts	aufgaben-auftraggeber-brandschadensanierung
-9?	~9	320W	7/9	faq<6(5),words<450(320),no-praxis,markdown-artifacts	ausfuehrendes-unternehmen-brandschadensanierung-dguv
-OK	~9	521W	8/9	faq<6(5),markdown-artifacts	brandschadensanierung-ueberblick-vds-2357
-9?	~9	304W	8/9	faq<6(5),words<450(304),markdown-artifacts	entsorgung-schutzmassnahmen-brandschadensanierung
-9?	~9	348W	7/9	faq<6(5),words<450(348),no-praxis,markdown-artifacts	gefaehrdungsbeurteilung-sofortmassnahmen-brandschadensanierung
-OK	~9	481W	8/9	faq<6(5),markdown-artifacts	gefahrenbereiche-brandschadensanierung-vds-2357
+9?	~9	510W	7/9	faq<6(5),weak-abgrenzung,markdown-artifacts	ablauf-brandschadensanierung-vds-2357
+9?	~9	411W	6/9	faq<6(5),words<450(411),no-praxis,weak-abgrenzung,markdown-artifacts	arbeitssicherheitsplan-brandschadensanierung
+9?	~9	472W	6/9	faq<6(5),no-praxis,weak-abgrenzung,markdown-artifacts	aufgaben-auftraggeber-brandschadensanierung
+9?	~9	382W	7/9	faq<6(5),words<450(382),no-praxis,markdown-artifacts	ausfuehrendes-unternehmen-brandschadensanierung-dguv
+OK	~9	619W	8/9	faq<6(5),markdown-artifacts	brandschadensanierung-ueberblick-vds-2357
+9?	~9	341W	8/9	faq<6(5),words<450(341),markdown-artifacts	entsorgung-schutzmassnahmen-brandschadensanierung
+9?	~9	399W	7/9	faq<6(5),words<450(399),no-praxis,markdown-artifacts	gefaehrdungsbeurteilung-sofortmassnahmen-brandschadensanierung
+OK	~9	542W	8/9	faq<6(5),markdown-artifacts	gefahrenbereiche-brandschadensanierung-vds-2357
 
 --- content\ratgeber-articles-brandschutzbeauftragter.ts (1) ---
-OK	~10	621W	8/9	markdown-artifacts	brandschutzbeauftragter-pflicht-sbauvo-nrw
+OK	~10	1399W	8/9	markdown-artifacts	brandschutzbeauftragter-pflicht-sbauvo-nrw
 
 --- content\ratgeber-articles-brandschutzfachplaner.ts (1) ---
-OK	~10	721W	9/9	ok	brandschutzfachplaner-rollen-bauo-nrw
+OK	~10	1823W	9/9	ok	brandschutzfachplaner-rollen-bauo-nrw
 
 --- content\ratgeber-articles-brandschutzordnung.ts (1) ---
-OK	~10	854W	8/9	markdown-artifacts	brandschutzordnung-pflicht-sbauvo-nrw
+OK	~10	1554W	8/9	markdown-artifacts	brandschutzordnung-pflicht-sbauvo-nrw
 
 --- content\ratgeber-articles-elektrische-betriebsraeume.ts (1) ---
-OK	~10	943W	8/9	no-praxis	elektrische-betriebsraeume-sbauvo-nrw
+OK	~10	1242W	8/9	no-praxis	elektrische-betriebsraeume-sbauvo-nrw
 
 --- content\ratgeber-articles-entrauchung-rauchableitung.ts (1) ---
-OK	~10	1513W	8/9	markdown-artifacts	entrauchung-rauchableitung-bauo-sbauvo-nrw
+OK	~10	1490W	8/9	markdown-artifacts	entrauchung-rauchableitung-bauo-sbauvo-nrw
 
 --- content\ratgeber-articles-feuerloescher-feb2026.ts (5) ---
-9?	~9	386W	5/9	sec<7(6),faq<6(5),words<450(386),no-praxis,weak-abgrenzung,weak-nachweis,markdown-artifacts	brandklassen-loeschertypen-feuerloescher-din-en-2
-9?	~9	326W	6/9	faq<6(5),words<450(326),no-praxis,weak-abgrenzung,markdown-artifacts	feuerloescher-baustelle-asr-a22
-9?	~9	364W	6/9	faq<6(5),words<450(364),no-praxis,weak-abgrenzung,markdown-artifacts	feuerloescher-pruefen-wartung-asr-a22
-9?	~10	450W	7/9	no-praxis,weak-abgrenzung	feuerloescher-richtig-loeschen-technik
-9?	~9	526W	7/9	faq<6(5),no-praxis,markdown-artifacts	loeschmitteleinheiten-feuerloescher-arbeitsplatz-asr-a22
+9?	~9	423W	5/9	sec<7(6),faq<6(5),words<450(423),no-praxis,weak-abgrenzung,weak-nachweis,markdown-artifacts	brandklassen-loeschertypen-feuerloescher-din-en-2
+9?	~9	366W	6/9	faq<6(5),words<450(366),no-praxis,weak-abgrenzung,markdown-artifacts	feuerloescher-baustelle-asr-a22
+9?	~9	388W	6/9	faq<6(5),words<450(388),no-praxis,weak-abgrenzung,markdown-artifacts	feuerloescher-pruefen-wartung-asr-a22
+9?	~10	500W	7/9	no-praxis,weak-abgrenzung	feuerloescher-richtig-loeschen-technik
+9?	~9	586W	7/9	faq<6(5),no-praxis,markdown-artifacts	loeschmitteleinheiten-feuerloescher-arbeitsplatz-asr-a22
 
 --- content\ratgeber-articles-feuerwehrplaene.ts (1) ---
-OK	~10	659W	8/9	no-praxis	feuerwehrplaene-wann-pflicht-sbauvo-nrw
+OK	~10	1498W	8/9	no-praxis	feuerwehrplaene-wann-pflicht-sbauvo-nrw
 
 --- content\ratgeber-articles-feuerwehrzufahrten.ts (1) ---
-OK	~10	1565W	9/9	ok	feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw
+OK	~10	1790W	9/9	ok	feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw
 
 --- content\ratgeber-articles-garagen.ts (1) ---
-9?	~10	1130W	7/9	no-praxis,markdown-artifacts	mittelgrossgaragen-brandschutz-sbauvo-nrw
+9?	~10	1313W	7/9	no-praxis,markdown-artifacts	mittelgrossgaragen-brandschutz-sbauvo-nrw
 
 --- content\ratgeber-articles-gebaeudeklassen-serie.ts (4) ---
-OK	~10	1419W	9/9	ok	gebaeudeklasse-1-2-brandschutz-bauo-nrw
-OK	~10	1686W	9/9	ok	gebaeudeklasse-3-brandschutz-bauo-nrw
-OK	~10	1611W	9/9	ok	gebaeudeklasse-4-brandschutz-bauo-nrw
-OK	~10	1522W	9/9	ok	gebaeudeklasse-5-brandschutz-bauo-nrw
+OK	~10	1627W	9/9	ok	gebaeudeklasse-1-2-brandschutz-bauo-nrw
+OK	~10	1901W	9/9	ok	gebaeudeklasse-3-brandschutz-bauo-nrw
+OK	~10	1801W	9/9	ok	gebaeudeklasse-4-brandschutz-bauo-nrw
+OK	~10	1693W	9/9	ok	gebaeudeklasse-5-brandschutz-bauo-nrw
 
 --- content\ratgeber-articles-gesetzliche-einstufung-gebaeude.ts (1) ---
-OK	~10	1331W	9/9	ok	gesetzliche-einstufung-gebaeude-bauo-nrw
+OK	~10	1585W	9/9	ok	gesetzliche-einstufung-gebaeude-bauo-nrw
 
 --- content\ratgeber-articles-hydranten-jun2026.ts (1) ---
-OK	~10	955W	9/9	ok	loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405
+OK	~10	1100W	9/9	ok	loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405
 
 --- content\ratgeber-articles-leitungsanlagen.ts (1) ---
-OK	~10	1033W	9/9	ok	leitungsanlagen-bauo-sbauvo-nrw
+OK	~10	1173W	9/9	ok	leitungsanlagen-bauo-sbauvo-nrw
 
 --- content\ratgeber-articles-modulbau-raumzellen.ts (1) ---
-OK	~10	679W	9/9	ok	modulbau-raumzellen-brandschutz-bauo-nrw
+OK	~10	1212W	9/9	ok	modulbau-raumzellen-brandschutz-bauo-nrw
 
 --- content\ratgeber-articles-notwendige-treppen-treppenraeume.ts (1) ---
-OK	~10	1311W	9/9	ok	notwendige-treppen-treppenraeume-bauo-sbauvo-nrw
+OK	~10	1671W	9/9	ok	notwendige-treppen-treppenraeume-bauo-sbauvo-nrw
 
 --- content\ratgeber-articles-prueffristen-mar-apr2026.ts (8) ---
-9?	~9	327W	6/9	faq<6(5),words<450(327),no-praxis,weak-nachweis,markdown-artifacts	bma-prueffristen-brandmeldeanlage
-9?	~9	334W	7/9	faq<6(5),words<450(334),weak-nachweis,markdown-artifacts,no-cluster	feuerschutzabschluesse-prueffristen-fstA
-9?	~9	437W	8/9	faq<6(5),words<450(437),markdown-artifacts	prueffristen-brandschutz-dguv-205-040-ueberblick
-9?	~9	343W	7/9	faq<6(5),words<450(343),no-praxis,markdown-artifacts	pruefpflichten-sonderbauten-muster-pruefverordnung
-UP	~7	297W	6/9	faq<6(5),words<450(297),no-praxis,markdown-artifacts	rwa-entrauchung-prueffristen
-9?	~9	310W	7/9	faq<6(5),words<450(310),no-praxis,markdown-artifacts	sprinkler-loeschanlagen-prueffristen
-9?	~9	349W	8/9	faq<6(5),words<450(349),markdown-artifacts	wartung-inspektion-pruefung-brandschutz-din-31051
-9?	~9	428W	6/9	faq<6(5),words<450(428),no-praxis,markdown-artifacts,forbidden:ISO 23601	wer-darf-brandschutzanlagen-pruefen
+9?	~9	359W	6/9	faq<6(5),words<450(359),no-praxis,weak-nachweis,markdown-artifacts	bma-prueffristen-brandmeldeanlage
+9?	~9	351W	7/9	faq<6(5),words<450(351),weak-nachweis,markdown-artifacts,no-cluster	feuerschutzabschluesse-prueffristen-fstA
+OK	~9	469W	8/9	faq<6(5),markdown-artifacts	prueffristen-brandschutz-dguv-205-040-ueberblick
+9?	~9	365W	7/9	faq<6(5),words<450(365),no-praxis,markdown-artifacts	pruefpflichten-sonderbauten-muster-pruefverordnung
+OK	~10	433W	9/9	words<450(433)	rwa-entrauchung-prueffristen
+9?	~9	342W	7/9	faq<6(5),words<450(342),no-praxis,markdown-artifacts	sprinkler-loeschanlagen-prueffristen
+9?	~9	372W	8/9	faq<6(5),words<450(372),markdown-artifacts	wartung-inspektion-pruefung-brandschutz-din-31051
+9?	~9	453W	6/9	faq<6(5),no-praxis,markdown-artifacts,forbidden:ISO 23601	wer-darf-brandschutzanlagen-pruefen
 
 --- content\ratgeber-articles-raeume-brand-explosionsgefahr.ts (1) ---
-OK	~10	999W	8/9	weak-nachweis	raeume-brand-explosionsgefahr-bauo-nrw
+OK	~10	1613W	8/9	weak-nachweis	raeume-brand-explosionsgefahr-bauo-nrw
 
 --- content\ratgeber-articles-rettungswegfenster-runderlass.ts (1) ---
-OK	~10	1086W	9/9	ok	rettungswegfenster-groesse-bestand-bauo-nrw
+OK	~10	1038W	9/9	ok	rettungswegfenster-groesse-bestand-bauo-nrw
 
 --- content\ratgeber-articles-sicherheitsbeleuchtung.ts (1) ---
-OK	~10	1170W	8/9	weak-abgrenzung	sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw
+OK	~10	1471W	8/9	weak-abgrenzung	sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw
 
 --- content\ratgeber-articles-sicherheitsstromversorgung.ts (1) ---
-OK	~10	739W	8/9	no-praxis	sicherheitsstromversorgung-wann-pflicht-sbauvo-nrw
+OK	~10	1291W	8/9	no-praxis	sicherheitsstromversorgung-wann-pflicht-sbauvo-nrw
 
 --- content\ratgeber-articles-tuerarten-jun2026.ts (1) ---
-OK	~10	501W	8/9	no-praxis	tuerarten-brandschutz-bauo-nrw
+OK	~10	1920W	8/9	no-praxis	tuerarten-brandschutz-bauo-nrw
 
 --- content\ratgeber-articles-waende-notwendige-flure.ts (1) ---
-9?	~10	979W	7/9	no-praxis,weak-nachweis	waende-notwendige-flure-bauo-nrw
+9?	~10	1792W	7/9	no-praxis,weak-nachweis	waende-notwendige-flure-bauo-nrw
 
 --- content\ratgeber-articles-zweiter-rettungsweg-dachfenster.ts (1) ---
-9?	~10	705W	7/9	no-praxis,weak-abgrenzung	zweiter-rettungsweg-dachfenster-bauo-nrw
+9?	~10	1319W	7/9	no-praxis,weak-abgrenzung	zweiter-rettungsweg-dachfenster-bauo-nrw
 
 --- content\ratgeber.ts (17) ---
-OK	~10	999W	8/9	markdown-artifacts	arztpraxen-zusammenlegen-brandschutz-koeln
-OK	~10	1054W	8/9	koeln>1(13)	bauaufsicht-unterlagen-koeln
-OK	~10	1010W	9/9	ok	brandschutzkonzept-wann-noetig
-OK	~10	782W	8/9	markdown-artifacts	eilbegehung-brandschutz-restaurant-gewerbe-koeln
-OK	~10	757W	9/9	ok	escape-room-brandschutzordnung-fluchtplan
-OK	~10	594W	9/9	ok	feuerloescher-gastronomie-koeln
-OK	~10	750W	9/9	ok	feuerwehr-abstimmung-vor-bauamt-bauo-nrw
-OK	~10	1013W	8/9	forbidden:Rauchwand	flucht-und-rettungswege-bauo-nrw
-OK	~10	888W	8/9	markdown-artifacts	fluchtplan-feuerwehrplan-aktualisieren-gewerbe
-9?	~10	1571W	7/9	markdown-artifacts,forbidden:Rauchwand	gebaeudeklassen-brandschutz-bauo-nrw
-9?	~10	959W	7/9	markdown-artifacts,forbidden:Rauchwand	imbiss-ladenlokal-nutzungsaenderung-koeln
-OK	~10	1099W	8/9	forbidden:Rauchwand	sonderbauten-brandschutz
-OK	~10	1188W	8/9	forbidden:Rauchwand	sonderbauten-geregelt-ungeregelt-bauo-nrw
-OK	~10	941W	9/9	ok	sprinkler-trockenbau-nutzungsaenderung-bauo-nrw
-OK	~10	832W	8/9	markdown-artifacts	teilsanierung-buero-brandschutz-koeln
-OK	~10	1629W	8/9	forbidden:Rauchwand	umbau-nutzungsaenderung-brandschutz
-OK	~10	903W	8/9	markdown-artifacts	zwischenbescheid-brandschutz-bauamt-koeln
+OK	~10	1134W	8/9	markdown-artifacts	arztpraxen-zusammenlegen-brandschutz-koeln
+OK	~10	1194W	8/9	koeln>1(13)	bauaufsicht-unterlagen-koeln
+OK	~10	950W	9/9	ok	brandschutzkonzept-wann-noetig
+OK	~10	869W	8/9	markdown-artifacts	eilbegehung-brandschutz-restaurant-gewerbe-koeln
+OK	~10	848W	9/9	ok	escape-room-brandschutzordnung-fluchtplan
+OK	~10	665W	9/9	ok	feuerloescher-gastronomie-koeln
+OK	~10	861W	9/9	ok	feuerwehr-abstimmung-vor-bauamt-bauo-nrw
+OK	~10	951W	8/9	forbidden:Rauchwand	flucht-und-rettungswege-bauo-nrw
+OK	~10	986W	8/9	markdown-artifacts	fluchtplan-feuerwehrplan-aktualisieren-gewerbe
+9?	~10	1739W	7/9	markdown-artifacts,forbidden:Rauchwand	gebaeudeklassen-brandschutz-bauo-nrw
+9?	~10	1073W	7/9	markdown-artifacts,forbidden:Rauchwand	imbiss-ladenlokal-nutzungsaenderung-koeln
+OK	~10	1032W	8/9	forbidden:Rauchwand	sonderbauten-brandschutz
+OK	~10	1120W	8/9	forbidden:Rauchwand	sonderbauten-geregelt-ungeregelt-bauo-nrw
+OK	~10	1110W	9/9	ok	sprinkler-trockenbau-nutzungsaenderung-bauo-nrw
+OK	~10	930W	8/9	markdown-artifacts	teilsanierung-buero-brandschutz-koeln
+OK	~10	1560W	8/9	forbidden:Rauchwand	umbau-nutzungsaenderung-brandschutz
+OK	~10	1018W	8/9	markdown-artifacts	zwischenbescheid-brandschutz-bauamt-koeln
 
 === Priorität: Nachbessern (UP) ===
-188W	aerosol-loeschanlagen-personenschutz	content\ratgeber-articles-2025.ts	words<450(188), no-praxis, weak-abgrenzung
-193W	feuerwehrplan-fluchtplaene-pflicht-koeln	content\ratgeber-articles-batch2.ts	words<450(193), markdown-artifacts
-197W	leichtschaum-loeschanlagen-personenschutz	content\ratgeber-articles-2025.ts	words<450(197), no-praxis
-201W	batteriespeicher-lithium-ionen-brandgefahren	content\ratgeber-articles-2025.ts	words<450(201), no-praxis
-210W	wassergefaehrdende-stoffe-lager-lau-nrw	content\ratgeber-articles-2025-december.ts	sec<7(6), words<450(210), no-praxis, weak-abgrenzung
-215W	brandschutzuebung-betrieb-nrw	content\ratgeber-articles-2025-december.ts	sec<7(6), words<450(215), no-praxis, weak-abgrenzung
-221W	brandschutz-dokumentation-betrieb-nrw	content\ratgeber-articles-2025-november.ts	sec<7(6), words<450(221), no-praxis, weak-abgrenzung
-221W	loeschwasser-rueckhalt-konzept-nrw	content\ratgeber-articles-2025-september.ts	sec<7(6), words<450(221), no-praxis
-224W	hochhaus-entrauchung-sbauvo-nrw	content\ratgeber-articles-2025-december.ts	sec<7(6), words<450(224), no-praxis, weak-abgrenzung
-224W	sportstadien-blockbildung-sbauvo-nrw	content\ratgeber-articles-2025-november.ts	sec<7(6), words<450(224), no-praxis
-236W	fluktuationshaus-evakuierung-nrw	content\ratgeber-articles-2025-october.ts	sec<7(6), words<450(236), weak-abgrenzung
-237W	brandschutznachweis-din-18230-nrw	content\ratgeber-articles-2025-november.ts	sec<7(6), words<450(237), weak-abgrenzung
-238W	geeg-uvo-anlagentechnik-brandschutz-nrw	content\ratgeber-articles-2025-october.ts	sec<7(6), words<450(238), no-praxis, weak-abgrenzung
-245W	gebaeudeklassen-grenzfaelle-nrw	content\ratgeber-articles-2025-october.ts	sec<7(6), words<450(245)
-248W	brandsicherheitswache-veranstaltung-sbauvo-nrw	content\ratgeber-articles-2025-november.ts	sec<7(6), words<450(248), no-praxis, weak-abgrenzung
-249W	rauchabschnitt-t30-rs-praxis-bauo-nrw	content\ratgeber-articles-2025-september.ts	sec<7(6), words<450(249)
-274W	bma-brandfallsteuerung-aufzug-sbauvo-nrw	content\ratgeber-articles-2025-september.ts	sec<7(6), words<450(274), no-praxis, weak-abgrenzung
-275W	grossraumbuero-sonderbau-ungeregelt-nrw	content\ratgeber-articles-2025-september.ts	sec<7(6), words<450(275)
-277W	gaststaette-sonderbau-ungeregelt-nrw	content\ratgeber-articles-2025-august.ts	sec<7(6), words<450(277)
-288W	sonderbau-bestand-gebaeude-sbauvo-nrw	content\ratgeber-articles-2025-august.ts	sec<7(6), words<450(288), weak-abgrenzung
-297W	rwa-entrauchung-prueffristen	content\ratgeber-articles-prueffristen-mar-apr2026.ts	faq<6(5), words<450(297), no-praxis, markdown-artifacts

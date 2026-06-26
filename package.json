@@ -10,7 +10,8 @@
     "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit",
     "audit:ratgeber": "node scripts/audit-ratgeber.mjs",
     "audit:site": "node scripts/qa-site.mjs",
-    "audit": "node scripts/audit-ratgeber.mjs && node scripts/qa-site.mjs"
+    "audit": "node scripts/audit-ratgeber.mjs && node scripts/qa-site.mjs",
+    "ratgeber:nachbessern": "node scripts/apply-ratgeber-nachbessern.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

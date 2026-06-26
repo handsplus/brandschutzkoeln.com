@@ -717,16 +717,16 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "ueberblick",
         title: "RWA-Familie – nicht alles gleich",
         paragraphs: [
-          "Unter **Rauch- und Wärmeabzugsanlagen** fallen unterschiedliche Systeme: **natürliche RWA** (Dachöffnungen, RWA-Türen), **maschinelle Entrauchung**, **Treppenraumentrauchung**, **Aufzugschachtentrauchung** und **Rauchschutzdruckanlagen (RDA)**. Jede hat eigene Normen und Intervalle in DGUV 205-040.",
+          "Unter Rauch- und Wärmeabzugsanlagen fallen unterschiedliche Systeme: natürliche RWA (Dachöffnungen, RWA-Türen), maschinelle Entrauchung, Treppenraumentrauchung, Aufzugschachtentrauchung und Rauchschutzdruckanlagen (RDA). Jede hat eigene Normen und Intervalle in DGUV 205-040.",
         ],
       },
       {
         id: "nra",
         title: "Natürliche RWA (NRA)",
         list: [
-          "**Halbjährlich:** Sichtkontrolle durch Betriebspersonal (P)",
-          "**Jährlich:** Sichtkontrolle und Funktionsprüfung durch **SK** – VdS 3830, DIN 18232-2, DIN EN 12101-2, LBO",
-          "**3-jährlich:** Wirksamkeit und Betriebssicherheit – **SV-Bau** (Sonderbau)",
+          "Halbjährlich: Sichtkontrolle durch Betriebspersonal (P)",
+          "Jährlich: Sichtkontrolle und Funktionsprüfung durch SK – VdS 3830, DIN 18232-2, DIN EN 12101-2, LBO",
+          "3-jährlich: Wirksamkeit und Betriebssicherheit – SV-Bau (Sonderbau)",
         ],
         paragraphs: [
           "Typisch: RWA-Öffnungen auf Fluchtwegen, in atrien und Hallen – Funktionsprüfung mit Auslösung und Öffnungsnachweis.",
@@ -736,36 +736,45 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "treppen",
         title: "Treppenraumentrauchung",
         paragraphs: [
-          "Öffnungen zur Rauchableitung in **Treppenräumen:** jährliche Sichtkontrolle und Funktionsprüfung durch **SK** nach Landesbauordnungen und VdS 2221 – häufig in Verbindung mit [zweitem Rettungsweg](/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw).",
+          "Öffnungen zur Rauchableitung in Treppenräumen: jährliche Sichtkontrolle und Funktionsprüfung durch SK nach Landesbauordnungen und VdS 2221 – häufig in Verbindung mit [zweitem Rettungsweg](/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw).",
         ],
       },
       {
         id: "maschinell",
         title: "Maschinelle Rauchabzugsanlagen",
         paragraphs: [
-          "Maschinische Anlagen erfordern **messende Prüfungen** – nicht nur „Motor läuft“. Die Intervalle stapeln sich mit der Anlagenalterung:",
+          "Maschinische Anlagen erfordern messende Prüfungen – nicht nur „Motor läuft“. Die Intervalle stapeln sich mit der Anlagenalterung:",
         ],
         list: [
-          "**Halbjährlich:** Sichtkontrolle und Funktionsprüfung (SK) – VDMA 24177, DIN 18232-3, DIN EN 12101-3",
-          "**Jährlich:** Inspektion (SK)",
-          "**3-jährlich:** Volumenstrommessung (P/Fachfirma)",
-          "**3-jährlich:** SV-Bau Wirksamkeit",
-          "**Lagerüberprüfung Ventilatoren:** alle 3 Jahre, dann 8/11/14/17/20 Jahre (E)",
+          "Halbjährlich: Sichtkontrolle und Funktionsprüfung (SK) – VDMA 24177, DIN 18232-3, DIN EN 12101-3",
+          "Jährlich: Inspektion (SK)",
+          "3-jährlich: Volumenstrommessung (P/Fachfirma)",
+          "3-jährlich: SV-Bau Wirksamkeit",
+          "Lagerüberprüfung Ventilatoren: alle 3 Jahre, dann 8/11/14/17/20 Jahre (E)",
         ],
       },
       {
         id: "rda",
         title: "Rauchschutzdruckanlagen (RDA)",
         paragraphs: [
-          "**Funktionsprüfung:** **B/P** (Betreiber). **Notstromversorgung:** monatlich B/P. **Wartung und Instandsetzung:** jährlich **SK oder Errichter** (bei Personenschutz verkürzte Intervalle möglich). **SV-Bau:** 3 Jahre nach Muster-Prüfverordnung.",
-          "RDA in **Sicherheitstreppenräumen** und Krankenhäusern – Ausfall wird schnell zum Personenschutz-Thema.",
+          "Funktionsprüfung: B/P (Betreiber). Notstromversorgung: monatlich B/P. Wartung und Instandsetzung: jährlich SK oder Errichter (bei Personenschutz verkürzte Intervalle möglich). SV-Bau: 3 Jahre nach Muster-Prüfverordnung.",
+          "RDA in Sicherheitstreppenräumen und Krankenhäusern – Ausfall wird schnell zum Personenschutz-Thema.",
         ],
       },
       {
         id: "aufzug",
         title: "Aufzugschachtentrauchung",
         paragraphs: [
-          "Jährliche Sichtkontrolle und Funktionsprüfung durch **SK** nach **VdS 2895** – Abstimmung mit Aufzugswartung und BMA-Brandfallsteuerung.",
+          "Jährliche Sichtkontrolle und Funktionsprüfung durch SK nach VdS 2895 – Abstimmung mit Aufzugswartung und BMA-Brandfallsteuerung.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Prüforganisation und typische Mängel",
+        paragraphs: [
+          "In Betriebsbegehungen in NRW fehlen RWA-Protokolle häufiger als bei BMA – obwohl Entrauchung lebensrettend ist. Abgrenzung: Sichtkontrolle durch Betrieb ersetzt keine jährliche SK-Funktionsprüfung; SV-Bau im Sonderbau ist nicht dasselbe wie Herstellerwartung.",
+          "Praxisfall Versammlungsstätte: RWA-Öffnung klemmte nach Winter – letzte Funktionsprüfung 14 Monate zurück. Behördenforderung: Terminplan mit Verantwortlichen und Ersatzteilliste. Orientierungswert: RWA-Probelauf vor Saisonstart bei VS und Hallenbädern.",
+          "Anlagenbuch mit Prüfberichten, Mängeln und Freigaben führen – Schnittstelle zum genehmigten Entrauchungskonzept.",
         ],
       },
       {
@@ -808,6 +817,11 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         question: "Wie dokumentiere ich Prüfungen?",
         answer:
           "Prüfbuch Sonderbau, Wartungsprotokolle, Mängelliste mit Fristen – gleiche Logik wie bei BMA.",
+      },
+      {
+        question: "Was passiert, wenn die SV-Bau-Prüfung der RWA überfällig ist?",
+        answer:
+          "Im Sonderbau kann die Aufsicht Nutzungseinschränkungen verlangen oder die Prüfung nachholen lassen. Versicherer und Behörden werten überfällige SV-Prüfungen als Organisationsmangel – unabhängig von der täglichen Sichtkontrolle.",
       },
     ],
   },

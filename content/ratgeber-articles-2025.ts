@@ -970,6 +970,15 @@ export const RATGEBER_ARTICLES_2025: RatgeberArticle[] = [
         ],
       },
       {
+        id: "praxis",
+        title: "Praxis: Einsatzgrenzen und Nachweis im Betrieb",
+        paragraphs: [
+          "Leichtschaum-Löschanlagen fluten Räume mit Schaum – Sicht, Rutschgefahr und chemische Belastung machen Personenschutz zum Kernproblem. In der Praxis akzeptieren Aufsichtsbehörden Vollflutung nur in klar abgegrenzten, nicht dauerhaft besetzten Bereichen mit dokumentierter Vorwarnung. Abgrenzung zu Aerosol und CO₂: Leichtschaum ist kein Kettenreaktionslöscher und kein Erstickungsgas – aber ebenfalls ungeeignet für reguläre Arbeitsräume mit Beschäftigten.",
+          "Typische Behördenforderung bei Lagerhallen: Schaumwanne oder Löschanlage nur im abgetrennten Technik- oder Lagersegment; angrenzende Büros brauchen eigene Brandabschnitte und getrennte Alarmierung. Praxisfall: Auslösung während Wartung trotz Trennschalter – Ursache fehlende Unterweisung; Konsequenz erweiterte Betriebsanweisung und Sperrkonzept.",
+          "Errichter muss Wirksamkeits- und Personenschutznachweis liefern; Betreiber hält Freigabe nach Probeauslösung und Lüftungskonzept bereit. Wartung und Prüfung: [Sprinkler und Löschanlagen](/ratgeber/sprinkler-loeschanlagen-prueffristen).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -1093,6 +1102,15 @@ export const RATGEBER_ARTICLES_2025: RatgeberArticle[] = [
         paragraphs: [
           "Je nach Zusammensetzung des Aerosols und Raumbedingungen können für Menschen gefährliche Konzentrationen entstehen. Der Errichter der Anlage muss in jedem Fall eine Toxizitätsprüfung durchführen oder den Nachweis erbringen.",
           "Betreiber sollten den Nachweis in der Anlagendokumentation vorhalten und bei Umbauten (Raumgröße, Lüftung, neue Öffnungen) die Gültigkeit prüfen lassen. Wartung: [Löschanlagen-Prüffristen](/ratgeber/sprinkler-loeschanlagen-prueffristen).",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Genehmigung, Betrieb und Abgrenzung",
+        paragraphs: [
+          "In der Genehmigungspraxis in NRW wird Aerosol-Löschanlagen selten als alleiniger Brandschutz für begehbare Bereiche akzeptiert. Typische Behördenforderung: Nachweis der Toxizitätsprüfung im Brandschutzkonzept oder in der Stellungnahme, Lüftungskonzept nach Auslösung und schriftliche Freigabeprozesse. Abgrenzung zu Sprinkler und Gaslöschanlagen: Aerosol ersetzt weder Vollschutz nach DIN EN 12845 noch die Personenschutzkonzepte nach DGUV 205-026 – es ist kein Ersatz für baulichen Brandschutz.",
+          "Praxisfall Technikcluster: Mehrere Schaltschränke in einem nicht dauerhaft besetzten Technikgang mit gemeinsamer RWA – die Behörde verlangte getrennte Gefährdungsbereiche pro Generator und dokumentierte Trennschalter an jedem Zugang. Musterfall Büroumbau: Umnutzung des angrenzenden Raums zu Arbeitsplätzen machte die bestehende Aerosol-Anlage unzulässig; Konzept und Betriebsanweisung mussten auf Sprinkler/NRA umgestellt werden.",
+          "Betreiber sollten Errichterunterlagen, Toxizitätsnachweis und Unterweisungsnachweise in der Anlagendokumentation führen – nicht nur die Wartungsverträge. Das ist kein behördlicher Einzelnachweis, ersetzt aber bei BG- und Brandschutzbegehungen häufig fehlende Nachweise.",
         ],
       },
       {
@@ -2096,6 +2114,15 @@ export const RATGEBER_ARTICLES_2025: RatgeberArticle[] = [
           "Temperaturprotokoll nach vfdb MB 06-13 empfohlen. Übergabe an Betreiber mit Hinweis auf kontaminiertes Löschwasser, Spannung auf Modulen/Stromschienen, CO in Nachbarbereichen. Umweltbehörde und fachgerechte Entsorgung durch Betreiber.",
           "Unbeschädigte oder beschädigte Module können unter Spannung stehen – Beurteilung durch Elektrofachkraft. Hygienemaßnahmen gegen Kontaminationsverschleppung (vfdb MB 10-13, DGUV 205-035) für alle Beteiligten.",
           "Grenzfall ja: Betreiber mit dokumentierter Kühlung bis < 60 °C, gesonderte Entsorgung Löschwasser, Freimessung CO. Grenzfall nein: „Brand ist aus“ nach erster Wassermenge – Nachglühen und Ausgasen Nachts im Lager.",
+        ],
+      },
+      {
+        id: "praxis",
+        title: "Praxis: Konzept, Abgrenzung und Betriebsführung",
+        paragraphs: [
+          "Photovoltaik-Speicher und große Li-Ion-Batterien lösen in NRW zunehmend Brandschutzkonzepte und Stellungnahmen aus – unabhängig von der reinen Gebäudeklasse. Abgrenzung zu klassischem Technikraum-Brandschutz: Thermisches Durchgehen und Aerosolbildung erfordern Abstände, Lüftung und ggf. Löschkonzepte, die normale Elektroverteilungen nicht brauchen.",
+          "Praxisfall Gewerbehof: Behörde verlangte räumliche Trennung des Speichers, Brandfrüherkennung und dokumentierte Notfallmaßnahmen im Betriebshandbuch – nicht nur CE-Kennzeichnung der Module. Genehmigungspraxis: Bei Sonderbauten und großen Anlagen Abstimmung mit Konzept und ggf. zweiter Meinung der Feuerwehr.",
+          "Betreiber dokumentieren Inspektion, Firmware-Updates und Schadensfälle (Aufblähung, Geruch) in einem Speicher-Log – Schnittstelle zu Gefahrstoff- und Elektrosicherheit. Vertiefung: [Brandbegrenzungsdecken Li-Ion](/ratgeber/brandbegrenzungsdecken-lithiumbatterie).",
         ],
       },
       {
