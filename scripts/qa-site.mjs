@@ -5,6 +5,11 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  listRatgeberContentFiles,
+  loadAllRatgeberArticles,
+  loadClusteredSlugs,
+} from "./lib/ratgeber-sources.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -58,11 +63,10 @@ function extractLandingFaqKeys() {
   return [...text.matchAll(/"(\/[^"]+)":\s*\[/g)].map((m) => m[1]);
 }
 
-const ratgeberFiles = [
-  path.join(root, "content/ratgeber.ts"),
-  path.join(root, "content/ratgeber-articles-batch2.ts"),
-];
-const slugs = ratgeberFiles.flatMap(extractSlugsFromFile);
+const contentDir = path.join(root, "content");
+const { articles, duplicates } = loadAllRatgeberArticles(contentDir);
+const ratgeberFiles = listRatgeberContentFiles(contentDir);
+const slugs = articles.map((a) => a.slug);
 const slugSet = new Set(slugs);
 const dupSlugs = slugs.filter((s, i) => slugs.indexOf(s) !== i);
 
@@ -125,11 +129,7 @@ for (const rel of ["content/leistungen.ts", "content/landing-faqs.ts"]) {
 }
 
 // Cluster coverage
-const clusterText = fs.readFileSync(path.join(root, "content/ratgeber-clusters.ts"), "utf8");
-const clusteredSlugs = new Set();
-for (const m of clusterText.matchAll(/slugs:\s*\[([\s\S]*?)\]/g)) {
-  for (const s of m[1].matchAll(/"([a-z0-9-]+)"/g)) clusteredSlugs.add(s[1]);
-}
+const clusteredSlugs = loadClusteredSlugs(path.join(root, "content/ratgeber-clusters.ts"));
 const unclustered = [...slugSet].filter((s) => !clusteredSlugs.has(s));
 if (unclustered.length) {
   warnings.push(`Ratgeber ohne Cluster: ${unclustered.join(", ")}`);
@@ -147,8 +147,12 @@ for (const file of ratgeberFiles) {
 
 // Article count
 console.log("=== QA brandschutzkoeln.com ===\n");
-console.log(`Ratgeber articles: ${slugSet.size} (expected 32)`);
-if (slugSet.size !== 32) warnings.push(`Ratgeber count is ${slugSet.size}, not 32`);
+console.log(`Ratgeber articles: ${slugSet.size} (${ratgeberFiles.length} Quelldateien)`);
+if (duplicates.length) {
+  warnings.push(
+    `Duplicate slugs: ${duplicates.map((d) => `${d.slug} (${d.fileA}/${d.fileB})`).join(", ")}`,
+  );
+}
 
 if (dupSlugs.length) {
   console.log("DUPLICATE SLUGS:", [...new Set(dupSlugs)]);

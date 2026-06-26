@@ -7,7 +7,10 @@
     "build": "node ./node_modules/next/dist/bin/next build",
     "start": "node ./node_modules/next/dist/bin/next start",
     "lint": "node ./node_modules/next/dist/bin/next lint",
-    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit"
+    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit",
+    "audit:ratgeber": "node scripts/audit-ratgeber.mjs",
+    "audit:site": "node scripts/qa-site.mjs",
+    "audit": "node scripts/audit-ratgeber.mjs && node scripts/qa-site.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
