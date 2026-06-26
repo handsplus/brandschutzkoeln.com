@@ -86,6 +86,23 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "betrieb-nachweis",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Hochhaus-Rauchableitung: Entrauchung nach SBauVO § 110 löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu Hochhaus-Rauchableitung: Entrauchung nach SBauVO § 110: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -203,6 +220,32 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
           "Brandschutzübungen sind in Sonderbauten und größeren Betrieben in NRW oft Auflageninhalt im Brandschutzkonzept oder in der BSO – nicht nur freiwillige Best Practice. Abgrenzung: Evakuierungsübung ersetzt keine wiederkehrende Prüfung von BMA, RWA oder Feuerlöscher; Arbeitsschutz-Unterweisung ersetzt keine vollständige Evakuierung mit Feuerwehrkontakt.",
           "Praxisfall Versammlungsstätte: Jährliche Übung mit dokumentierten Zeiten, Sammelplatz und Rollen (Brandschutzhelfer, Evakuierungshelfer) – ohne Protokoll kein Nachweis bei Schau. Typische Behördenforderung: Abstimmung mit Alarmplan und Aufzugs-Brandfallsteuerung vor Übungstag.",
           "Protokolle mit Mängelliste und Fristen in die Betriebsdokumentation übernehmen – Fortschreibung der BSO Teil B bei geänderten Rettungswegen.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Betriebliche Brandschutzübungen: Pflichten für BSB und Betrieb gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Betriebliche Brandschutzübungen: Pflichten für BSB und Betrieb gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu Betriebliche Brandschutzübungen: Pflichten für BSB und Betrieb: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
         ],
       },
       {
@@ -331,6 +374,23 @@ export const RATGEBER_ARTICLES_2025_DECEMBER: RatgeberArticle[] = [
           "Vor einer Begehung sollten Lagerliste mit WGK-Klassen, Auffangvolumen, Entwässerungsschutz und Abstand zu Zündquellen vorliegen – nicht nur das Sicherheitsdatenblatt in der Mappe. Unterschied zur reinen Gefahrstoffunterweisung: LAU verlangt mengen- und ortsbezogene Nachweise, die in der GBU oft nur pauschal erwähnt werden.",
           "Typische Behördenforderung bei gemischten Lagern: Trennung entzündbarer WGK-Stoffe von Oxidationsmitteln, Kennzeichnung nach TRGS 201 und Versiegelung von Bodenflächen. Praxisfall Chemielager: Rückhaltewanne undicht, Feuerlöscher direkt daneben – gemeinsame Maßnahmenliste Brandschutz und Gewässerschutz verhindert Widersprüche.",
           "Fortschreibung nach Umbau oder neuem Lieferantenstrom – Schnittstelle [Gefahrstofflagerung](/ratgeber/kraftstoff-lagerung-halle-garage-brandschutz) und Betriebsanweisungen.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Wassergefährdende Stoffe: Brandschutz und LAU-Schnittstelle gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu Wassergefährdende Stoffe: Brandschutz und LAU-Schnittstelle: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
         ],
       },
       {

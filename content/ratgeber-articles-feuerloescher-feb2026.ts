@@ -193,6 +193,15 @@ export const RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Baustelle und Betrieb",
+        paragraphs: [
+          "Brandklassen A bis F: Welcher Feuerlöscher passt? nach ASR A2.2 verlangt in NRW nachweisbare Prüf- und Wartungsintervalle – auf Baustellen zusätzlich Abstimmung mit SiGeKo und Heißarbeit. Abgrenzung: Handfeuerlöscher ersetzen keinen baulichen Brandschutz; Prüfplakette ersetzt keine Unterweisung.",
+          "Praxisfall: Leihgeräte ohne Prüfnachweis auf der Baustelle – Baustellenkontrolle stoppte Arbeiten bis Nachweis vorlag. Orientierungswert: Register mit Standort, Typ, Prüfdatum und Prüfer je Löscher.",
+          "Nachweis in der BSO Teil B und bei Übergabe an Betreiber – Schnittstelle [Brandklassen](/ratgeber/brandklassen-loeschertypen-feuerloescher-din-en-2).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -300,6 +309,15 @@ export const RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026: RatgeberArticle[] = [
         title: "Wer darf prüfen?",
         paragraphs: [
           "Die **fachkundige Prüfung** nach DIN EN 3 / Herstellervorgaben führt eine befähigte Person oder Firma durch – nicht der Hausmeister ohne Qualifikation. Wartung und Füllung nur mit zugelassenen Stoffen und Verfahren.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Baustelle und Betrieb",
+        paragraphs: [
+          "Feuerlöscher prüfen: Intervall, Plakette und Nach Benutzung nach ASR A2.2 verlangt in NRW nachweisbare Prüf- und Wartungsintervalle – auf Baustellen zusätzlich Abstimmung mit SiGeKo und Heißarbeit. Abgrenzung: Handfeuerlöscher ersetzen keinen baulichen Brandschutz; Prüfplakette ersetzt keine Unterweisung.",
+          "Praxisfall: Leihgeräte ohne Prüfnachweis auf der Baustelle – Baustellenkontrolle stoppte Arbeiten bis Nachweis vorlag. Orientierungswert: Register mit Standort, Typ, Prüfdatum und Prüfer je Löscher.",
+          "Nachweis in der BSO Teil B und bei Übergabe an Betreiber – Schnittstelle [Brandklassen](/ratgeber/brandklassen-loeschertypen-feuerloescher-din-en-2).",
         ],
       },
       {
@@ -533,6 +551,24 @@ export const RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026: RatgeberArticle[] = [
           "Abgelaufene Plakette nach Transport zwischen Bauabschnitten",
         ],
         paragraphs: [],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Baustelle und Betrieb",
+        paragraphs: [
+          "Feuerlöscher auf der Baustelle nach ASR A2.2 nach ASR A2.2 verlangt in NRW nachweisbare Prüf- und Wartungsintervalle – auf Baustellen zusätzlich Abstimmung mit SiGeKo und Heißarbeit. Abgrenzung: Handfeuerlöscher ersetzen keinen baulichen Brandschutz; Prüfplakette ersetzt keine Unterweisung.",
+          "Praxisfall: Leihgeräte ohne Prüfnachweis auf der Baustelle – Baustellenkontrolle stoppte Arbeiten bis Nachweis vorlag. Orientierungswert: Register mit Standort, Typ, Prüfdatum und Prüfer je Löscher.",
+          "Nachweis in der BSO Teil B und bei Übergabe an Betreiber – Schnittstelle [Brandklassen](/ratgeber/brandklassen-loeschertypen-feuerloescher-din-en-2).",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Baustelle und Betrieb",
+        paragraphs: [
+          "Feuerlöscher auf der Baustelle nach ASR A2.2 nach ASR A2.2 verlangt in NRW nachweisbare Prüf- und Wartungsintervalle – auf Baustellen zusätzlich Abstimmung mit SiGeKo und Heißarbeit. Abgrenzung: Handfeuerlöscher ersetzen keinen baulichen Brandschutz; Prüfplakette ersetzt keine Unterweisung.",
+          "Praxisfall: Leihgeräte ohne Prüfnachweis auf der Baustelle – Baustellenkontrolle stoppte Arbeiten bis Nachweis vorlag. Orientierungswert: Register mit Standort, Typ, Prüfdatum und Prüfer je Löscher.",
+          "Nachweis in der BSO Teil B und bei Übergabe an Betreiber – Schnittstelle [Brandklassen](/ratgeber/brandklassen-loeschertypen-feuerloescher-din-en-2).",
+        ],
       },
       {
         id: "hinweis",

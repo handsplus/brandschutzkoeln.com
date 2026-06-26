@@ -61,7 +61,7 @@ export function loadClusteredSlugs(clustersPath) {
   const text = fs.readFileSync(clustersPath, "utf8");
   const slugs = new Set();
   for (const m of text.matchAll(/slugs:\s*\[([\s\S]*?)\]/g)) {
-    for (const s of m[1].matchAll(/"([a-z0-9-]+)"/g)) slugs.add(s[1]);
+    for (const s of m[1].matchAll(/"([a-zA-Z0-9-]+)"/g)) slugs.add(s[1]);
   }
   return slugs;
 }

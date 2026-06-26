@@ -179,6 +179,15 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Versammlungsstätten baulich: SBauVO Teil 1 jenseits des Betriebs löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -396,6 +405,15 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
           "Frühzeitige [Feuerwehr-Abstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw) – Prüfingenieur Brandschutz prüft unter Beachtung der örtlichen Feuerwehr.",
           "Großbühnen und Stadien: besondere Zufahrten für Einsatz- und Rettungsfahrzeuge, Räume für Einsatzleitung.",
           "Bestand: bei Nutzungsänderung Zufahrt neu bewerten – nicht nur Innenraum-Umbau.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Feuerwehrzufahrt und Bewegungsflächen nach SBauVO § 93 gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {

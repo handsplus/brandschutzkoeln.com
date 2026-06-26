@@ -312,6 +312,15 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "TRGS 800: Brandschutz bei brennbaren Gefahrstoffen im Betrieb gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -416,6 +425,15 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
         paragraphs: [
           "FeuVO-Compliance ist Voraussetzung für sicheren Betrieb – unabhängig von [Heißarbeiten](/ratgeber/heissarbeiten-brandwache-erlaubnisschein) in Nachbarräumen. Bei Defekten: Heizung stilllegen, nicht „weiterheizen bis der Schornsteinfeger kommt“.",
           "Technikgebäude mit Heizung und Lüftung: [Technische Betriebsgebäude](/ratgeber/technische-betriebsgebaeude-brandschutz-nrw) und FeuVO zusammen dokumentieren.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Feuerungsanlagen nach FeuVO NRW: Aufstellung, Verbrennungsluft, Brennstoff gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {

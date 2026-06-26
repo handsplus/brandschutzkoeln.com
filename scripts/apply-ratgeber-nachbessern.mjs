@@ -8,8 +8,13 @@ import { fileURLToPath } from "url";
 import { loadAllRatgeberArticles } from "./lib/ratgeber-sources.mjs";
 import { RATGEBER_NACHBESSERN_UP21 } from "./data/ratgeber-nachbessern-up21.mjs";
 import { RATGEBER_NACHBESSERN_ROUND2 } from "./data/ratgeber-nachbessern-round2.mjs";
+import { RATGEBER_NACHBESSERN_THIN41 } from "./data/ratgeber-nachbessern-thin41.mjs";
 
-const ALL_NACHBESSERN = [...RATGEBER_NACHBESSERN_UP21, ...RATGEBER_NACHBESSERN_ROUND2];
+const ALL_NACHBESSERN = [
+  ...RATGEBER_NACHBESSERN_UP21,
+  ...RATGEBER_NACHBESSERN_ROUND2,
+  ...RATGEBER_NACHBESSERN_THIN41,
+];
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = path.join(root, "content");

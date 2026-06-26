@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-26T13:39:31.516Z",
+  "generatedAt": "2026-06-26T13:44:44.980Z",
   "sourceFiles": 45,
   "articleCount": 150,
   "medianWords": 665,
   "summary": {
-    "ok": 113,
-    "borderline": 37,
+    "ok": 133,
+    "borderline": 17,
     "needsWork": 0,
-    "thin": 41,
-    "noPraxis": 38,
-    "unclustered": 1,
+    "thin": 0,
+    "noPraxis": 24,
+    "unclustered": 0,
     "duplicates": 0
   },
   "duplicates": [],
@@ -53,10 +53,10 @@
       "slug": "abschottungen-durchbrueche-baustelle-koeln",
       "file": "content\\ratgeber-articles-batch2.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 6,
       "links": 5,
-      "words": 446,
+      "words": 517,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -78,7 +78,6 @@
       "criteriaPass": 8,
       "tier": 10,
       "gaps": [
-        "words<450(446)",
         "markdown-artifacts"
       ],
       "status": "OK"
@@ -182,21 +181,21 @@
       "slug": "arbeitssicherheitsplan-brandschadensanierung",
       "file": "content\\ratgeber-articles-brandschadensanierung-jan2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 5,
       "links": 4,
-      "words": 411,
+      "words": 489,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
-      "hasAbgrenzung": false,
+      "hasPraxis": true,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
-        "abgrenzung": false,
+        "praxis": true,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -204,16 +203,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 6,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(411)",
-        "no-praxis",
-        "weak-abgrenzung",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "arztpraxen-zusammenlegen-brandschutz-koeln",
@@ -386,20 +382,20 @@
       "slug": "ausfuehrendes-unternehmen-brandschadensanierung-dguv",
       "file": "content\\ratgeber-articles-brandschadensanierung-jan2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 5,
       "links": 4,
-      "words": 382,
+      "words": 461,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -408,15 +404,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 7,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(382)",
-        "no-praxis",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "batteriespeicher-lithium-ionen-brandgefahren",
@@ -519,10 +513,10 @@
       "slug": "baupavo-nrw-bauarten-verwendbarkeitsnachweis",
       "file": "content\\ratgeber-articles-2025-july.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 8,
       "faq": 6,
       "links": 5,
-      "words": 372,
+      "words": 510,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -542,11 +536,8 @@
         "begriffe": true
       },
       "criteriaPass": 9,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(372)"
-      ],
+      "tier": 10,
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -718,10 +709,10 @@
       "slug": "bma-brandfallsteuerung-aufzug-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-september.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 6,
       "links": 7,
-      "words": 341,
+      "words": 479,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -742,47 +733,42 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(341)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
       "slug": "bma-prueffristen-brandmeldeanlage",
       "file": "content\\ratgeber-articles-prueffristen-mar-apr2026.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 10,
       "faq": 5,
       "links": 5,
-      "words": 359,
+      "words": 531,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
-      "hasNachweis": false,
+      "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
-        "nachweis": false,
+        "nachweis": true,
         "hinweis": true,
         "links": true,
         "koeln": true,
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 6,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(359)",
-        "no-praxis",
-        "weak-nachweis",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "brandabschnitte-bauo-sbauvo-nrw",
@@ -881,40 +867,35 @@
       "slug": "brandklassen-loeschertypen-feuerloescher-din-en-2",
       "file": "content\\ratgeber-articles-feuerloescher-feb2026.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 7,
       "faq": 5,
       "links": 4,
-      "words": 423,
+      "words": 502,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
-      "hasAbgrenzung": false,
-      "hasNachweis": false,
+      "hasPraxis": true,
+      "hasAbgrenzung": true,
+      "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
-        "abgrenzung": false,
-        "nachweis": false,
+        "praxis": true,
+        "abgrenzung": true,
+        "nachweis": true,
         "hinweis": true,
         "links": true,
         "koeln": true,
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 5,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
-        "sec<7(6)",
         "faq<6(5)",
-        "words<450(423)",
-        "no-praxis",
-        "weak-abgrenzung",
-        "weak-nachweis",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "brandlasten-notwendige-flure-bauo-nrw",
@@ -1084,10 +1065,10 @@
       "slug": "brandschutz-dokumentation-betrieb-nrw",
       "file": "content\\ratgeber-articles-2025-november.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 10,
       "faq": 6,
       "links": 5,
-      "words": 304,
+      "words": 504,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -1108,9 +1089,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(304)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -1343,10 +1322,10 @@
       "slug": "brandschutznachweis-din-18230-nrw",
       "file": "content\\ratgeber-articles-2025-november.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 315,
+      "words": 455,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -1367,9 +1346,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(315)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -1409,10 +1386,10 @@
       "slug": "brandschutzuebung-betrieb-nrw",
       "file": "content\\ratgeber-articles-2025-december.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 10,
       "faq": 6,
       "links": 5,
-      "words": 303,
+      "words": 509,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -1433,19 +1410,17 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(303)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
       "slug": "brandsicherheitswache-veranstaltung-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-november.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 10,
       "faq": 6,
       "links": 5,
-      "words": 308,
+      "words": 502,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -1466,9 +1441,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(308)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -1539,21 +1512,21 @@
       "slug": "dguv-205-001-gefaehrdungsbeurteilung-brandschutz",
       "file": "content\\ratgeber-articles-2025-july.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 7,
       "faq": 6,
       "links": 5,
-      "words": 404,
+      "words": 482,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
-      "hasAbgrenzung": false,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
         "praxis": true,
-        "abgrenzung": false,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -1561,14 +1534,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(404)",
-        "weak-abgrenzung"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "e-fahrzeuge-tiefgarage-brandgefahren-fbfhb-024",
@@ -1706,10 +1675,10 @@
       "slug": "entsorgung-schutzmassnahmen-brandschadensanierung",
       "file": "content\\ratgeber-articles-brandschadensanierung-jan2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 5,
       "links": 4,
-      "words": 341,
+      "words": 495,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -1732,10 +1701,9 @@
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(341)",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "escape-room-brandschutzordnung-fluchtplan",
@@ -1899,21 +1867,21 @@
       "slug": "feuerloescher-baustelle-asr-a22",
       "file": "content\\ratgeber-articles-feuerloescher-feb2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 5,
       "links": 4,
-      "words": 366,
+      "words": 524,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
-      "hasAbgrenzung": false,
+      "hasPraxis": true,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
-        "abgrenzung": false,
+        "praxis": true,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -1921,16 +1889,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 6,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(366)",
-        "no-praxis",
-        "weak-abgrenzung",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "feuerloescher-entsorgung-pfas-abfall",
@@ -1998,21 +1963,21 @@
       "slug": "feuerloescher-pruefen-wartung-asr-a22",
       "file": "content\\ratgeber-articles-feuerloescher-feb2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 5,
       "links": 4,
-      "words": 388,
+      "words": 467,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
-      "hasAbgrenzung": false,
+      "hasPraxis": true,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
-        "abgrenzung": false,
+        "praxis": true,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -2020,16 +1985,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 6,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(388)",
-        "no-praxis",
-        "weak-abgrenzung",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "feuerloescher-richtig-loeschen-technik",
@@ -2099,39 +2061,35 @@
     {
       "slug": "feuerschutzabschluesse-prueffristen-fstA",
       "file": "content\\ratgeber-articles-prueffristen-mar-apr2026.ts",
-      "inCluster": false,
-      "sections": 7,
+      "inCluster": true,
+      "sections": 9,
       "faq": 5,
       "links": 5,
-      "words": 351,
+      "words": 489,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
       "hasAbgrenzung": true,
-      "hasNachweis": false,
-      "hasMarkdownArtifacts": true,
+      "hasNachweis": true,
+      "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
         "praxis": true,
         "abgrenzung": true,
-        "nachweis": false,
+        "nachweis": true,
         "hinweis": true,
         "links": true,
         "koeln": true,
-        "technik": false,
+        "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 7,
+      "criteriaPass": 9,
       "tier": 9,
       "gaps": [
-        "faq<6(5)",
-        "words<450(351)",
-        "weak-nachweis",
-        "markdown-artifacts",
-        "no-cluster"
+        "faq<6(5)"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "feuerschutztueren-bestand-ertuechtigung-koeln",
@@ -2170,21 +2128,21 @@
       "slug": "feuerungsanlagen-feuvo-nrw-betrieb",
       "file": "content\\ratgeber-articles-2025-april.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 7,
       "faq": 6,
       "links": 5,
-      "words": 424,
+      "words": 495,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
-      "hasAbgrenzung": false,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
         "praxis": true,
-        "abgrenzung": false,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -2192,14 +2150,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(424)",
-        "weak-abgrenzung"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "feuerwehr-abstimmung-vor-bauamt-bauo-nrw",
@@ -2300,20 +2254,20 @@
       "slug": "feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-june.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 7,
       "faq": 6,
       "links": 6,
-      "words": 414,
+      "words": 485,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -2322,14 +2276,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(414)",
-        "no-praxis"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw",
@@ -2465,10 +2415,10 @@
       "slug": "fluktuationshaus-evakuierung-nrw",
       "file": "content\\ratgeber-articles-2025-october.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 389,
+      "words": 458,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -2489,19 +2439,17 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(389)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
       "slug": "gaststaette-sonderbau-ungeregelt-nrw",
       "file": "content\\ratgeber-articles-2025-august.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 361,
+      "words": 511,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -2522,9 +2470,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(361)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -2691,10 +2637,10 @@
       "slug": "gebaeudeklassen-grenzfaelle-nrw",
       "file": "content\\ratgeber-articles-2025-october.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 318,
+      "words": 456,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -2715,19 +2661,17 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(318)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
       "slug": "geeg-uvo-anlagentechnik-brandschutz-nrw",
       "file": "content\\ratgeber-articles-2025-october.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 10,
       "faq": 6,
       "links": 5,
-      "words": 364,
+      "words": 495,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -2748,29 +2692,27 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(364)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
       "slug": "gefaehrdungsbeurteilung-sofortmassnahmen-brandschadensanierung",
       "file": "content\\ratgeber-articles-brandschadensanierung-jan2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 5,
       "links": 4,
-      "words": 399,
+      "words": 476,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -2779,15 +2721,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 7,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(399)",
-        "no-praxis",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "gefahrenbereiche-brandschadensanierung-vds-2357",
@@ -2892,10 +2832,10 @@
       "slug": "grossraumbuero-sonderbau-ungeregelt-nrw",
       "file": "content\\ratgeber-articles-2025-september.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 358,
+      "words": 508,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -2916,9 +2856,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(358)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -2958,21 +2896,21 @@
       "slug": "hochhaus-betriebsvorschriften-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-august.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 8,
       "faq": 6,
       "links": 5,
-      "words": 310,
+      "words": 460,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
-      "hasAbgrenzung": false,
+      "hasPraxis": true,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
-        "abgrenzung": false,
+        "praxis": true,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -2980,15 +2918,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 7,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(310)",
-        "no-praxis",
-        "weak-abgrenzung"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "hochhaus-brandschutz-sbauvo-nrw",
@@ -3029,10 +2962,10 @@
       "slug": "hochhaus-entrauchung-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-december.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 10,
       "faq": 6,
       "links": 6,
-      "words": 363,
+      "words": 501,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -3053,9 +2986,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(363)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -3131,45 +3062,10 @@
       "slug": "kita-krankenhaus-sonderbau-ungeregelt-nrw",
       "file": "content\\ratgeber-articles-2025-july.ts",
       "inCluster": true,
-      "sections": 6,
-      "faq": 6,
-      "links": 5,
-      "words": 409,
-      "koelnCount": 0,
-      "hasHinweis": true,
-      "hasPraxis": false,
-      "hasAbgrenzung": true,
-      "hasNachweis": true,
-      "hasMarkdownArtifacts": false,
-      "forbiddenHits": [],
-      "criteria": {
-        "tiefe": true,
-        "praxis": false,
-        "abgrenzung": true,
-        "nachweis": true,
-        "hinweis": true,
-        "links": true,
-        "koeln": true,
-        "technik": true,
-        "begriffe": true
-      },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(409)",
-        "no-praxis"
-      ],
-      "status": "9?"
-    },
-    {
-      "slug": "kraftstoff-lagerung-halle-garage-brandschutz",
-      "file": "content\\ratgeber-articles-batch2.ts",
-      "inCluster": true,
       "sections": 7,
       "faq": 6,
-      "links": 4,
-      "words": 436,
+      "links": 5,
+      "words": 485,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -3190,9 +3086,38 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(436)"
-      ],
+      "gaps": [],
+      "status": "OK"
+    },
+    {
+      "slug": "kraftstoff-lagerung-halle-garage-brandschutz",
+      "file": "content\\ratgeber-articles-batch2.ts",
+      "inCluster": true,
+      "sections": 8,
+      "faq": 6,
+      "links": 4,
+      "words": 507,
+      "koelnCount": 0,
+      "hasHinweis": true,
+      "hasPraxis": true,
+      "hasAbgrenzung": true,
+      "hasNachweis": true,
+      "hasMarkdownArtifacts": false,
+      "forbiddenHits": [],
+      "criteria": {
+        "tiefe": true,
+        "praxis": true,
+        "abgrenzung": true,
+        "nachweis": true,
+        "hinweis": true,
+        "links": true,
+        "koeln": true,
+        "technik": true,
+        "begriffe": true
+      },
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -3426,10 +3351,10 @@
       "slug": "loeschwasser-rueckhalt-konzept-nrw",
       "file": "content\\ratgeber-articles-2025-september.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 10,
       "faq": 6,
       "links": 5,
-      "words": 370,
+      "words": 501,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -3450,9 +3375,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(370)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -3490,20 +3413,20 @@
       "slug": "mehrzweckhallen-sportstaetten-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-august.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 8,
       "faq": 6,
       "links": 5,
-      "words": 349,
+      "words": 501,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -3512,14 +3435,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(349)",
-        "no-praxis"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "mittelgrossgaragen-brandschutz-sbauvo-nrw",
@@ -3688,10 +3607,10 @@
       "slug": "praxis-umbau-brandschutz-koeln",
       "file": "content\\ratgeber-articles-batch2.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 6,
       "links": 4,
-      "words": 423,
+      "words": 490,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -3712,9 +3631,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(423)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -3755,20 +3672,20 @@
       "slug": "pruefpflichten-sonderbauten-muster-pruefverordnung",
       "file": "content\\ratgeber-articles-prueffristen-mar-apr2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 5,
       "links": 5,
-      "words": 365,
+      "words": 450,
       "koelnCount": 1,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -3777,15 +3694,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 7,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(365)",
-        "no-praxis",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "pruefvo-nrw-wiederkehrende-pruefung-sonderbau",
@@ -3892,10 +3807,10 @@
       "slug": "rauchabschnitt-t30-rs-praxis-bauo-nrw",
       "file": "content\\ratgeber-articles-2025-september.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 6,
       "links": 6,
-      "words": 332,
+      "words": 472,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -3916,9 +3831,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(332)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -3956,10 +3869,10 @@
       "slug": "rwa-entrauchung-prueffristen",
       "file": "content\\ratgeber-articles-prueffristen-mar-apr2026.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 433,
+      "words": 521,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -3980,9 +3893,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(433)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -4154,10 +4065,10 @@
       "slug": "sonderbau-bestand-gebaeude-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-august.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 6,
       "links": 5,
-      "words": 380,
+      "words": 454,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -4178,9 +4089,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(380)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
@@ -4288,10 +4197,10 @@
       "slug": "sportstadien-blockbildung-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-november.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 9,
       "faq": 6,
       "links": 5,
-      "words": 376,
+      "words": 451,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -4312,29 +4221,27 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(376)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {
       "slug": "sprinkler-loeschanlagen-prueffristen",
       "file": "content\\ratgeber-articles-prueffristen-mar-apr2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 9,
       "faq": 5,
       "links": 5,
-      "words": 342,
+      "words": 518,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": true,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -4343,15 +4250,13 @@
         "technik": false,
         "begriffe": true
       },
-      "criteriaPass": 7,
+      "criteriaPass": 8,
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(342)",
-        "no-praxis",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "sprinkler-rueckbau-bma-nutzungsaenderung-koeln",
@@ -4518,21 +4423,21 @@
       "slug": "trgs-800-brandschutz-gefahrstoffe-betrieb",
       "file": "content\\ratgeber-articles-2025-april.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 7,
       "faq": 6,
       "links": 5,
-      "words": 441,
+      "words": 513,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
-      "hasAbgrenzung": false,
+      "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
         "praxis": true,
-        "abgrenzung": false,
+        "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
         "links": true,
@@ -4540,14 +4445,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(441)",
-        "weak-abgrenzung"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "tuerarten-brandschutz-bauo-nrw",
@@ -4688,20 +4589,20 @@
       "slug": "versammlungsstaetten-baulich-sbauvo-nrw",
       "file": "content\\ratgeber-articles-2025-june.ts",
       "inCluster": true,
-      "sections": 6,
+      "sections": 7,
       "faq": 6,
       "links": 5,
-      "words": 430,
+      "words": 507,
       "koelnCount": 0,
       "hasHinweis": true,
-      "hasPraxis": false,
+      "hasPraxis": true,
       "hasAbgrenzung": true,
       "hasNachweis": true,
       "hasMarkdownArtifacts": false,
       "forbiddenHits": [],
       "criteria": {
         "tiefe": true,
-        "praxis": false,
+        "praxis": true,
         "abgrenzung": true,
         "nachweis": true,
         "hinweis": true,
@@ -4710,14 +4611,10 @@
         "technik": true,
         "begriffe": true
       },
-      "criteriaPass": 8,
-      "tier": 9,
-      "gaps": [
-        "sec<7(6)",
-        "words<450(430)",
-        "no-praxis"
-      ],
-      "status": "9?"
+      "criteriaPass": 9,
+      "tier": 10,
+      "gaps": [],
+      "status": "OK"
     },
     {
       "slug": "versammlungsstaetten-betrieb-sbauvo-nrw",
@@ -4790,10 +4687,10 @@
       "slug": "wartung-inspektion-pruefung-brandschutz-din-31051",
       "file": "content\\ratgeber-articles-prueffristen-mar-apr2026.ts",
       "inCluster": true,
-      "sections": 7,
+      "sections": 8,
       "faq": 5,
       "links": 5,
-      "words": 372,
+      "words": 460,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -4816,19 +4713,18 @@
       "tier": 9,
       "gaps": [
         "faq<6(5)",
-        "words<450(372)",
         "markdown-artifacts"
       ],
-      "status": "9?"
+      "status": "OK"
     },
     {
       "slug": "wassergefaehrdende-stoffe-lager-lau-nrw",
       "file": "content\\ratgeber-articles-2025-december.ts",
       "inCluster": true,
-      "sections": 8,
+      "sections": 10,
       "faq": 6,
       "links": 5,
-      "words": 378,
+      "words": 509,
       "koelnCount": 0,
       "hasHinweis": true,
       "hasPraxis": true,
@@ -4849,9 +4745,7 @@
       },
       "criteriaPass": 9,
       "tier": 10,
-      "gaps": [
-        "words<450(378)"
-      ],
+      "gaps": [],
       "status": "OK"
     },
     {

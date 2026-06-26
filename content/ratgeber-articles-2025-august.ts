@@ -68,6 +68,24 @@ export const RATGEBER_ARTICLES_2025_AUGUST: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Mehrzweckhallen und Sportstätten: SBauVO Teil 1 Spezialregeln löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Mehrzweckhallen und Sportstätten: SBauVO Teil 1 Spezialregeln löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -174,6 +192,24 @@ export const RATGEBER_ARTICLES_2025_AUGUST: RatgeberArticle[] = [
         paragraphs: [
           "Kapitel 4 SBauVO: besondere Regeln für bestehende Hochhäuser – Nachrüstung bei wesentlicher Änderung.",
           "§ 45-Logik Bestand: [Sonderbau Bestand](/ratgeber/sonderbau-bestand-gebaeude-sbauvo-nrw).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Hochhaus-Betrieb: Eigentümerpflichten nach SBauVO Teil 4 löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Hochhaus-Betrieb: Eigentümerpflichten nach SBauVO Teil 4 löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
         ],
       },
       {
@@ -296,6 +332,15 @@ export const RATGEBER_ARTICLES_2025_AUGUST: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Bestehende Sonderbauten: SBauVO-Übergang und Nachrüstung löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -412,6 +457,24 @@ export const RATGEBER_ARTICLES_2025_AUGUST: RatgeberArticle[] = [
           "Gaststätten mit Verzehr vor Ort können Sonderbau sein, auch wenn kein SBauVO-Typ exakt passt – dann Konzept nach § 50 Abs. 2. Abgrenzung: Imbiss ohne Verzehrraum versus Restaurant mit Gastraum; reine Verkaufsfläche fällt unter anderen SBauVO-Typ.",
           "Praxisfall Umnutzung Laden zu Bistro: Behörde stellte erhöhte Anforderungen an Entrauchung, Flächenbegrenzung und Rettungswege fest – Genehmigung nur mit Stellungnahme. Typische Forderung: Fettabluft, Küchenbrand und Fluchtwege im Konzept.",
           "Nachweis: Genehmigtes Konzept, aktuelle Pläne und Unterweisung Personal – Schnittstelle [Sonderbauten Übersicht](/ratgeber/sonderbauten-brandschutz).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Große Gaststätten: Sonderbau ohne eigenen SBauVO-Teil löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Große Gaststätten: Sonderbau ohne eigenen SBauVO-Teil löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
         ],
       },
       {

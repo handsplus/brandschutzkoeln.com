@@ -554,6 +554,15 @@ export const RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026: RatgeberArticle[] 
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Sanierung und Dokumentation",
+        paragraphs: [
+          "Bei Gefährdungsbeurteilung und Sofortmaßnahmen nach Brand in NRW greifen Arbeitsschutz, Gefahrstoffrecht und Brandschutz gleichzeitig – ein gemeinsames Sanierungskonzept verhindert Widersprüche zwischen Gewerbeaufsicht und Bauaufsicht. Abgrenzung: BSO ersetzt keine Gefährdungsbeurteilung nach DGUV; Entsorgungsnachweis ersetzt kein Freigabeprotokoll.",
+          "Praxisfall: Asbesthaltige Reste neben aktiver Produktion – Behörde verlangte Sperrzonen, Unterdruck und dokumentierte Freigabe vor Wiederinbetriebnahme. Typische Behördenforderung: ASP und Brandschutzplaner früh einbinden.",
+          "Nachweis: Arbeitssicherheitsplan, GBU-Abschnitt und Übergabeprotokoll an den Betreiber – nicht nur Rechnung des Entsorgers.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -667,6 +676,15 @@ export const RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026: RatgeberArticle[] 
         paragraphs: [],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Sanierung und Dokumentation",
+        paragraphs: [
+          "Bei Arbeits- und Sicherheitsplan (A+S-Plan) bei Brandschadensanierung in NRW greifen Arbeitsschutz, Gefahrstoffrecht und Brandschutz gleichzeitig – ein gemeinsames Sanierungskonzept verhindert Widersprüche zwischen Gewerbeaufsicht und Bauaufsicht. Abgrenzung: BSO ersetzt keine Gefährdungsbeurteilung nach DGUV; Entsorgungsnachweis ersetzt kein Freigabeprotokoll.",
+          "Praxisfall: Asbesthaltige Reste neben aktiver Produktion – Behörde verlangte Sperrzonen, Unterdruck und dokumentierte Freigabe vor Wiederinbetriebnahme. Typische Behördenforderung: ASP und Brandschutzplaner früh einbinden.",
+          "Nachweis: Arbeitssicherheitsplan, GBU-Abschnitt und Übergabeprotokoll an den Betreiber – nicht nur Rechnung des Entsorgers.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -773,6 +791,15 @@ export const RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026: RatgeberArticle[] 
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Sanierung und Dokumentation",
+        paragraphs: [
+          "Bei Aufgaben des ausführenden Unternehmens nach DGUV 101-004 in NRW greifen Arbeitsschutz, Gefahrstoffrecht und Brandschutz gleichzeitig – ein gemeinsames Sanierungskonzept verhindert Widersprüche zwischen Gewerbeaufsicht und Bauaufsicht. Abgrenzung: BSO ersetzt keine Gefährdungsbeurteilung nach DGUV; Entsorgungsnachweis ersetzt kein Freigabeprotokoll.",
+          "Praxisfall: Asbesthaltige Reste neben aktiver Produktion – Behörde verlangte Sperrzonen, Unterdruck und dokumentierte Freigabe vor Wiederinbetriebnahme. Typische Behördenforderung: ASP und Brandschutzplaner früh einbinden.",
+          "Nachweis: Arbeitssicherheitsplan, GBU-Abschnitt und Übergabeprotokoll an den Betreiber – nicht nur Rechnung des Entsorgers.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -876,6 +903,24 @@ export const RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026: RatgeberArticle[] 
         title: "Praxis: Container und Nachbarn",
         paragraphs: [
           "Container für Sonderabfall nur an Standorten aus dem A+S-Plan; Zufahrt und Nachbarschaft abstimmen. Mischcontainer mit Hausmüll und Ruß aus GB 2 sind ein klassischer Compliance-Verstoß.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Sanierung und Dokumentation",
+        paragraphs: [
+          "Bei Entsorgung und Schutzmaßnahmen bei Brandschadensanierung in NRW greifen Arbeitsschutz, Gefahrstoffrecht und Brandschutz gleichzeitig – ein gemeinsames Sanierungskonzept verhindert Widersprüche zwischen Gewerbeaufsicht und Bauaufsicht. Abgrenzung: BSO ersetzt keine Gefährdungsbeurteilung nach DGUV; Entsorgungsnachweis ersetzt kein Freigabeprotokoll.",
+          "Praxisfall: Asbesthaltige Reste neben aktiver Produktion – Behörde verlangte Sperrzonen, Unterdruck und dokumentierte Freigabe vor Wiederinbetriebnahme. Typische Behördenforderung: ASP und Brandschutzplaner früh einbinden.",
+          "Nachweis: Arbeitssicherheitsplan, GBU-Abschnitt und Übergabeprotokoll an den Betreiber – nicht nur Rechnung des Entsorgers.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Sanierung und Dokumentation",
+        paragraphs: [
+          "Bei Entsorgung und Schutzmaßnahmen bei Brandschadensanierung in NRW greifen Arbeitsschutz, Gefahrstoffrecht und Brandschutz gleichzeitig – ein gemeinsames Sanierungskonzept verhindert Widersprüche zwischen Gewerbeaufsicht und Bauaufsicht. Abgrenzung: BSO ersetzt keine Gefährdungsbeurteilung nach DGUV; Entsorgungsnachweis ersetzt kein Freigabeprotokoll.",
+          "Praxisfall: Asbesthaltige Reste neben aktiver Produktion – Behörde verlangte Sperrzonen, Unterdruck und dokumentierte Freigabe vor Wiederinbetriebnahme. Typische Behördenforderung: ASP und Brandschutzplaner früh einbinden.",
+          "Nachweis: Arbeitssicherheitsplan, GBU-Abschnitt und Übergabeprotokoll an den Betreiber – nicht nur Rechnung des Entsorgers.",
         ],
       },
       {

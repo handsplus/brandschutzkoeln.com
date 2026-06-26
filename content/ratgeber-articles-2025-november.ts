@@ -86,6 +86,15 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "betrieb-nachweis",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Sportstadien: Blockbildung und Abschrankung nach SBauVO löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -202,6 +211,32 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
           "Bei Veranstaltungen mit erhöhter Personenzahl verlangt die SBauVO in NRW häufig Brandsicherheitswachen – unabhängig von der BMA. Abgrenzung: Brandsicherheitswache ersetzt weder Feuerwehr noch den betrieblichen Brandschutzbeauftragten; Pyrotechnik braucht zusätzliche Fachaufsicht.",
           "Praxisfall Open-Air mit temporärer Bühne: Auflage: nachweislich qualifizierte Wachen, Funkgeräte und Abstimmung mit örtlicher Feuerwehr vor Freigabe. Genehmigungspraxis: Anzahl und Qualifikation hängen von Personenzahl, Raumtyp und Nutzungsdauer ab.",
           "Dokumentation: Einsatzplan, Briefing und Mängelprotokoll pro Veranstaltung – Fortschreibung in Veranstaltungskonzept.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Brandsicherheitswache bei Großveranstaltungen gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Brandsicherheitswache bei Großveranstaltungen gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu Brandsicherheitswache bei Großveranstaltungen: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
         ],
       },
       {
@@ -324,6 +359,24 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Ingenieurmethodischer Nachweis: DIN 18230 und Alternativen gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Ingenieurmethodischer Nachweis: DIN 18230 und Alternativen gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -440,6 +493,32 @@ export const RATGEBER_ARTICLES_2025_NOVEMBER: RatgeberArticle[] = [
           "Bei Wiederkehrenden Prüfungen und Schauen in NRW reicht „wir haben ein Konzept“ selten – Prüfer erwarten aktuelle BSO, Prüfbücher, Fortschreibungen nach Umbau und Nachweise der befähigten Personen. Abgrenzung: Genehmigungsunterlagen (BSK) sind nicht dasselbe wie Betriebsdokumentation; ASR-Aushänge ersetzen keine Prüfprotokolle.",
           "Praxisfall Logistikzentrum: Fehlende Zuordnung von Prüfberichten zu Anlagennummern führte zu Auflage – ein Anlagenregister mit Verantwortlichen löste das. Orientierungswert: Ein Ordner „Brandschutz Betrieb“ mit Index Konzept, Pläne, Prüfungen, Übungen, Unterweisungen.",
           "Nachweislogik für Geschäftsführung: Dokumentation ist Haftungs- und Versicherungsthema – lückenhafte Unterlagen erschweren Schadensregulierung nach Brand.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Brandschutz-Dokumentation im Betrieb: Nachweise archivieren gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Brandschutz-Dokumentation im Betrieb: Nachweise archivieren gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu Brandschutz-Dokumentation im Betrieb: Nachweise archivieren: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
         ],
       },
       {

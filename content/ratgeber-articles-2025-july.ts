@@ -70,6 +70,15 @@ export const RATGEBER_ARTICLES_2025_JULY: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Sanierung und Dokumentation",
+        paragraphs: [
+          "Bei DGUV 205-001: Gefährdungsbeurteilung Brandschutz im Betrieb in NRW greifen Arbeitsschutz, Gefahrstoffrecht und Brandschutz gleichzeitig – ein gemeinsames Sanierungskonzept verhindert Widersprüche zwischen Gewerbeaufsicht und Bauaufsicht. Abgrenzung: BSO ersetzt keine Gefährdungsbeurteilung nach DGUV; Entsorgungsnachweis ersetzt kein Freigabeprotokoll.",
+          "Praxisfall: Asbesthaltige Reste neben aktiver Produktion – Behörde verlangte Sperrzonen, Unterdruck und dokumentierte Freigabe vor Wiederinbetriebnahme. Typische Behördenforderung: ASP und Brandschutzplaner früh einbinden.",
+          "Nachweis: Arbeitssicherheitsplan, GBU-Abschnitt und Übergabeprotokoll an den Betreiber – nicht nur Rechnung des Entsorgers.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -176,6 +185,24 @@ export const RATGEBER_ARTICLES_2025_JULY: RatgeberArticle[] = [
           "Innovative Fassaden, modulare Hallen, kombinierte Durchdringungsabschottungen: früh klären ob Bauart oder serienfähiges Produkt.",
           "Umbau Bestand: alte abZ prüfen – noch gültig, noch passend zur Einbausituation?",
           "Dokumentation für Abnahme und [Feuerschutzabschlüsse](/ratgeber/feuerschutzabschluesse-bestand-nrw)-Prüfung.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "BauPAVO NRW: Bauarten und Verwendbarkeitsnachweise gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "BauPAVO NRW: Bauarten und Verwendbarkeitsnachweise gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {
@@ -287,6 +314,15 @@ export const RATGEBER_ARTICLES_2025_JULY: RatgeberArticle[] = [
           "Hotel [Beherbergung](/ratgeber/beherbergungsstaetten-hotel-sonderbau-nrw): SBauVO Teil 2 mit Gastbetten-Schwellen.",
           "Schule: SchulBauR als besondere VwV, nicht SBauVO – ähnlich „ungeregelt“ in SBauVO, aber eigene Richtlinie.",
           "Krankenhaus/Kita: keine vergleichbare NRW-Kurzrichtlinie im lokalen SBauVO-Bestand – höchste Planungsdisziplin im Konzept.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Kitas und Krankenhäuser: ungeregelt Sonderbau in NRW löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
         ],
       },
       {

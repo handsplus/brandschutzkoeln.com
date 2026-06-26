@@ -77,6 +77,24 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Großraumbüros und Campus: Sonderbau ohne SBauVO-Büroteil löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Genehmigung und Betrieb",
+        paragraphs: [
+          "Großraumbüros und Campus: Sonderbau ohne SBauVO-Büroteil löst in NRW häufig ein Brandschutzkonzept oder eine Stellungnahme aus – auch wenn kein SBauVO-Typ exakt passt. Abgrenzung: Gebäudeklasse allein definiert den Sonderbau nicht; Bestandsschutz ersetzt keine Gefahrenabwehr bei Nutzungsänderung.",
+          "Praxisfall: Teilnutzung ohne Fortschreibung von Plänen und BSO – Abnahme verzögert bis Konzept und ASR-Pläne zum genehmigten Stand passten. Behördenforderung: Evakuierung und Anlagentechnik gemeinsam prüfen.",
+          "Nachweis: Genehmigungsunterlagen, Betriebsdokumentation und Übungsprotokolle im Ordner Sonderbau führen.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -193,6 +211,24 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
           "Rauchabschnitte nach § 35 BauO NRW begrenzen Rauchausbreitung in Fluren und großen Räumen – in der Praxis werden T30-RS-Türen und offene Bereiche häufig bei Begehungen beanstandet. Abgrenzung: Rauchabschnitt ist nicht dasselbe wie Brandabschnitt; eine Rauchschutztür ohne RS-System in der Wand erfüllt den Abschnitt nicht.",
           "Praxisfall Büroetage: Provisorische Haltevorrichtungen an RS-Türen und fehlende Selbstschließung – Mängel mit kurzer Frist. Behördenforderung nach Umbau: Aktualisierung Fluchtplan und Funktionsprüfung Feststellanlagen.",
           "Nachweis: Prüfprotokolle Feuerschutzabschlüsse und Dokumentation von Abweichungen im Betrieb – [FstA Prüffristen](/ratgeber/feuerschutzabschluesse-prueffristen-fstA).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Rauchabschnitte und T30-RS: Praxis für Brandabschnitte gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Rauchabschnitte und T30-RS: Praxis für Brandabschnitte gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {
@@ -313,6 +349,24 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
           "Brandfallsteuerung verknüpft BMA, RWA, Aufzugs-Rückholung und Entrauchung – in Sonderbauten in NRW Standardprüfpunkt bei Abnahme. Abgrenzung: Aufzugs-RWA ersetzt nicht die Brandfallsteuerung; BMA-Alarm allein steuert keine sichere Evakuierung ohne abgestimmtes Konzept.",
           "Praxisfall Klinik: Falscher Melder löste Aufzugsfahrt ins Brandgeschoss aus – Ursache fehlende Parameterierung; Nachweis der Inbetriebnahme durch Errichter und SK erforderlich. Typische Behördenforderung: Funktionsmatrix und jährliche Probelauf-Dokumentation.",
           "Schnittstelle Wartung BMA und Aufzug in einem Terminplan – [BMA Prüffristen](/ratgeber/bma-prueffristen-brandmeldeanlage).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "BMA und Aufzugs-Brandfallsteuerung in Sonderbauten gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "BMA und Aufzugs-Brandfallsteuerung in Sonderbauten gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {
@@ -443,6 +497,23 @@ export const RATGEBER_ARTICLES_2025_SEPTEMBER: RatgeberArticle[] = [
           "Löschwasserrückhalt muss in NRW oft zum genehmigten Brandschutzkonzept passen – Behörden vergleichen Rückhaltevolumen mit Sprinkler- und Löschwasserannahmen aus der Planung. Unterschied zur allgemeinen Entwässerung: Regenwasser und Prozesswasser gehören nicht automatisch in dieselbe Bilanz.",
           "Praxisfall Logistikdach: Erweiterung der Lagerfläche ohne Anpassung der Rückhaltebecken – Stellungnahme der Unteren Wasserbehörde verzögerte Inbetriebnahme. Orientierungswert: Frühzeitig Klärung mit Brandschutzplaner und Wasserrecht, nicht erst nach Baufertigstellung.",
           "Betreiber dokumentiert Inspektion, Reinigung und Entleerungsnachweise – Fortschreibung bei neuen Gefahrstofflagern oder Löschwasseranlagen Pflicht.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Löschwasser und Rückhalteanlagen im Brandschutzkonzept gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu Löschwasser und Rückhalteanlagen im Brandschutzkonzept: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
         ],
       },
       {

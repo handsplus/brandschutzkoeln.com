@@ -306,6 +306,15 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "Wartung, Inspektion, Prüfung: Begriffe nach DIN 31051 verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -425,6 +434,15 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "Prüfpflichten in Sonderbauten: Muster-Prüfverordnung verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -539,6 +557,24 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "BMA prüfen: Prüffristen für Brandmeldeanlagen verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "BMA prüfen: Prüffristen für Brandmeldeanlagen verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -601,43 +637,43 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "ueberblick",
         title: "Abschlüsse – bauaufsichtlich und betrieblich",
         paragraphs: [
-          "**Feuer- und Rauchschutzabschlüsse** sichern Brandabschnitte und Rauchabschnitte. Ihre Funktion hängt von **Schließfolge, Dichtung, Beschlägen und Feststellanlagen** ab. DGUV 205-040 fasst Prüffristen für Türen, Feststellanlagen, Vorhänge und Sonderfälle zusammen.",
-          "Ergänzend zu baulicher [Ertüchtigung im Bestand](/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln) gelten **betriebliche Prüfzyklen**.",
+          "Feuer- und Rauchschutzabschlüsse sichern Brandabschnitte und Rauchabschnitte. Ihre Funktion hängt von Schließfolge, Dichtung, Beschlägen und Feststellanlagen ab. DGUV 205-040 fasst Prüffristen für Türen, Feststellanlagen, Vorhänge und Sonderfälle zusammen.",
+          "Ergänzend zu baulicher [Ertüchtigung im Bestand](/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln) gelten betriebliche Prüfzyklen.",
         ],
       },
       {
         id: "tueren",
         title: "Rauch- und Brandschutztüren – jährlich",
         paragraphs: [
-          "**Rauchschutztüren** und **Brandschutztüren:** **Sicht- und Funktionsprüfung** jährlich durch **Sachkundigen** nach Zulassung und Hersteller-Bedienungsanleitung.",
-          "**Feuer- und Rauchschutzabschlüsse nach DIN 18095:** **Wartung** jährlich durch SK gemäß Herstellervorgaben.",
+          "Rauchschutztüren und Brandschutztüren: Sicht- und Funktionsprüfung jährlich durch Sachkundigen nach Zulassung und Hersteller-Bedienungsanleitung.",
+          "Feuer- und Rauchschutzabschlüsse nach DIN 18095: Wartung jährlich durch SK gemäß Herstellervorgaben.",
         ],
       },
       {
         id: "feststellung",
         title: "Feststellanlagen und Freilauftürschließer",
         list: [
-          "**Freilauftürschließer / Offenhaltung:** monatlich **Betreiber (B)**, jährlich **SK** – Sicht und Funktion nach ASR A1.7 / abZ oder aBG",
-          "**DIN 14677 Bauart 1** (ohne BMA): jährliche **Wartung** durch **FK für FstA**",
-          "**DIN 14677 Bauart 2** (mit BMA): jährliche **Wartung** durch **FK für FstA und BMA**",
-          "**Inspektion** (Bauart 1 und 2): **eP** oder FK für FstA – Intervall nach DIN 14677 Instandhaltung",
+          "Freilauftürschließer / Offenhaltung: monatlich Betreiber (B), jährlich SK – Sicht und Funktion nach ASR A1.7 / abZ oder aBG",
+          "DIN 14677 Bauart 1 (ohne BMA): jährliche Wartung durch FK für FstA",
+          "DIN 14677 Bauart 2 (mit BMA): jährliche Wartung durch FK für FstA und BMA",
+          "Inspektion (Bauart 1 und 2): eP oder FK für FstA – Intervall nach DIN 14677 Instandhaltung",
         ],
         paragraphs: [
-          "FK für FstA ist **nicht** beliebig der Hausmeister – Qualifikation nach DIN 14677 und Herstellerschulung.",
+          "FK für FstA ist nicht beliebig der Hausmeister – Qualifikation nach DIN 14677 und Herstellerschulung.",
         ],
       },
       {
         id: "vorhaenge",
         title: "Rauch- und Brandschutzvorhänge",
         paragraphs: [
-          "**Sicht- und Funktionsprüfung:** **Betreiber (B)** nach Herstellervorgaben. **Prüfung und Wartung:** **Hersteller oder Fachfirma** jährlich – insbesondere bei motorischen Vorhängen in Einkaufszentren und Industriehallen.",
+          "Sicht- und Funktionsprüfung: Betreiber (B) nach Herstellervorgaben. Prüfung und Wartung: Hersteller oder Fachfirma jährlich – insbesondere bei motorischen Vorhängen in Einkaufszentren und Industriehallen.",
         ],
       },
       {
         id: "foerder",
         title: "Feuerschutzabschlüsse an Förderanlagen",
         paragraphs: [
-          "Im Zuge **bahngebundener Förderanlagen:** monatlich Betreiber-Sichtkontrolle, jährlich **bP oder Fachfirma** für Prüfung und Wartung – oft in Logistik und Produktion relevant.",
+          "Im Zuge bahngebundener Förderanlagen: monatlich Betreiber-Sichtkontrolle, jährlich bP oder Fachfirma für Prüfung und Wartung – oft in Logistik und Produktion relevant.",
         ],
       },
       {
@@ -652,6 +688,24 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         ],
         paragraphs: [
           "In [Eilbegehungen](/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln) und Brandschauen werden blockierte Rauchschutztüren häufig beanstandet.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "In NRW werden Feststellanlagen und Rauchschutztüren bei Schau und Betriebsbegehung regelmäßig auf gültige Wartungsnachweise geprüft – fehlende FK-Protokolle führen zu Auflagen. Abgrenzung: Monatliche Betreiber-Sichtkontrolle ersetzt keine jährliche SK-Wartung nach DIN 14677.",
+          "Praxisfall Bürogebäude: Dauerhaft geklemmte RS-Türen ohne genehmigte Feststellung – Mängel mit kurzer Frist. Nachweis: Wartungsbuch je Tür mit Standort, Hersteller und Prüfdatum führen.",
+          "Vertiefung Bestand: [Feuerschutzabschlüsse Bestand](/ratgeber/feuerschutzabschluesse-bestand-nrw) – Ertüchtigung und Prüfzyklen getrennt bewerten.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "In NRW werden Feststellanlagen und Rauchschutztüren bei Schau und Betriebsbegehung regelmäßig auf gültige Wartungsnachweise geprüft – fehlende FK-Protokolle führen zu Auflagen. Abgrenzung: Monatliche Betreiber-Sichtkontrolle ersetzt keine jährliche SK-Wartung nach DIN 14677.",
+          "Praxisfall Bürogebäude: Dauerhaft geklemmte RS-Türen ohne genehmigte Feststellung – Mängel mit kurzer Frist. Nachweis: Wartungsbuch je Tür mit Standort, Hersteller und Prüfdatum führen.",
+          "Vertiefung Bestand: [Feuerschutzabschlüsse Bestand](/ratgeber/feuerschutzabschluesse-bestand-nrw) – Ertüchtigung und Prüfzyklen getrennt bewerten.",
         ],
       },
       {
@@ -778,6 +832,15 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "RWA und Entrauchung prüfen: Prüffristen für Rauchabzug verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -890,6 +953,24 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         title: "SV-V – Versicherungsschutz",
         paragraphs: [
           "**Technische Schutzwirkung** durch **SV-V** – bei Sprinkler typisch parallel zu Errichter-Instandhaltung. Versicherer kann **kürzere Fristen** als VdS-Minimum verlangen; Vollschutz setzt erfüllte Klauseln voraus.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "Sprinkler und Löschanlagen prüfen: Prüffristen nach VdS verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Prüfkalender und Nachweise",
+        paragraphs: [
+          "Sprinkler und Löschanlagen prüfen: Prüffristen nach VdS verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
+          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
+          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
         ],
       },
       {

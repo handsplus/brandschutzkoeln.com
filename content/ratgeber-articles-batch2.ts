@@ -831,6 +831,15 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Diesel und Kraftstoff in Halle oder Garage gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -947,6 +956,15 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         paragraphs: [
           "Für Bauaufsicht, Sachverständigen-Abnahme und Versicherung braucht es mehr als die sichtbare Beplankung: Übersichtsplan aller Abschottungen mit Plaketten-Nummern, Fotos **vor** dem Schließen der Wand, Herstellerzulassungen und Freigaben der Fachbauleitung nach § 56 BauO NRW.",
           "Ohne Dokumentation werden Abschottungen bei der [Abnahme nach Umbau](/ratgeber/brandschutz-abnahme-nach-umbau-koeln) nachgebessert – oft mit Aufstemmen der Beplankung. Fachbauleitung früh einbinden, nicht erst kurz vor Schlüsselübergabe.",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Abschottungen bei Durchbrüchen: Brandschutz auf der Baustelle gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {
@@ -1321,6 +1339,15 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
           "Krankenhaus-Erschließung nicht dokumentiert bei gemeinsam genutzten Fluren",
           "Nur Medizintechnik-Freigabe, kein brandschutztechnischer Nachweis für Bauaufsicht",
           "BSO und Fluchtplan vor Genehmigung verwechselt – Betriebsunterlagen ersetzen kein BSK",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Bildgebungspraxis umbauen: Brandschutz gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {

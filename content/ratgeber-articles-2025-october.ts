@@ -86,6 +86,23 @@ export const RATGEBER_ARTICLES_2025_OCTOBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "GEG-UVO NRW: Anlagentechnik und Brandschutz-Schnittstellen gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "checkliste",
+        title: "Kurz-Checkliste vor Begehung",
+        paragraphs: [
+          "Vor Behörden- oder Versicherungsbegehung zu GEG-UVO NRW: Anlagentechnik und Brandschutz-Schnittstellen: aktuelle Pläne, Prüfbücher, BSO Teil B, Übungsprotokolle und Mängelliste mit Fristen bereitlegen. Unterschied zur Erstabnahme: Betrieb muss laufende Instandhaltung belegen – nicht nur das genehmigte Konzept.",
+          "Typische Lücke in NRW: Umbau ist dokumentiert, Fortschreibung von Fluchtplan, Feuerwehrplan und Anlagenbuch fehlt. Verantwortliche schriftlich benennen und Übergaben nach Personalwechsel protokollieren.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -214,6 +231,15 @@ export const RATGEBER_ARTICLES_2025_OCTOBER: RatgeberArticle[] = [
         ],
       },
       {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Fluktuationshaus: Evakuierung bei wechselnder Nutzerzahl gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
@@ -330,6 +356,24 @@ export const RATGEBER_ARTICLES_2025_OCTOBER: RatgeberArticle[] = [
           "Grenzfälle bei Gebäudeklassen entstehen bei Aufstockung, Nutzungsänderung und geteilten Nutzungseinheiten – in NRW orientiert sich die Praxis an MHKBG BFM-02. Abgrenzung: Gebäudeklasse ist nicht dasselbe wie Sonderbau; eine GK-3-Einordnung schließt § 50 Sonderbau nicht aus.",
           "Praxisfall Dachgeschossausbau: OKF knapp unter 7 m versus darüber – unterschiedliche Anforderungen an Rettungswege und abschließende Bauteile. Behördenforderung: Nachweis der NE-Flächen und Freistehendheit mit aktuellem Bestandsplan.",
           "Vor Investition Klärung mit Entwurfsverfasser und Brandschutzplaner – nachträgliche Ertüchtigung ist teurer als Konzept vor Umbau. Grundlagen: [Gebäudeklassen-Übersicht](/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw).",
+        ],
+      },
+      {
+        id: "vertiefung",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Gebäudeklassen-Grenzfälle: Handlungsempfehlung in der Praxis gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
+        ],
+      },
+      {
+        id: "betrieb-nachweis",
+        title: "Praxis: Betrieb und Nachweisführung",
+        paragraphs: [
+          "Gebäudeklassen-Grenzfälle: Handlungsempfehlung in der Praxis gehört in NRW in die laufende Betriebsdokumentation – nicht nur in die Eröffnungsphase. Abgrenzung: Genehmigungskonzept ersetzt keine wiederkehrende Instandhaltung; Unterweisung ersetzt keine Übung.",
+          "Praxisfall: Bei Begehung fehlten Fortschreibungen nach Umbau – Auflage mit Frist bis zur Nachreichung aktualisierter Pläne oder Protokolle. Orientierungswert: Verantwortliche und Prüfintervalle schriftlich benennen.",
+          "Nachweis für Geschäftsführung und Versicherung: Ordner Brandschutz Betrieb mit Index und Versionsdatum.",
         ],
       },
       {
