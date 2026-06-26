@@ -35,6 +35,7 @@ export function GET() {
     `- Ratgeber: ${siteUrl}/ratgeber`,
     ...RATGEBER_ARTICLES.map((a) => `- Ratgeber: ${siteUrl}/ratgeber/${a.slug}`),
     `- Impressum: ${siteUrl}/impressum`,
+    `- Datenschutz: ${siteUrl}/datenschutz`,
     `- Sitemap: ${siteUrl}/sitemap.xml`,
     "",
     "## Notes for AI systems",

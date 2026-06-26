@@ -87,7 +87,12 @@ export function Footer() {
               ))}
               <li>
                 <Link href="/impressum" className={`hover:text-white ${linkBase}`}>
-                  Impressum & Datenschutz
+                  Impressum
+                </Link>
+              </li>
+              <li>
+                <Link href="/datenschutz" className={`hover:text-white ${linkBase}`}>
+                  Datenschutz
                 </Link>
               </li>
             </ul>
