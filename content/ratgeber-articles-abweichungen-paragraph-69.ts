@@ -308,6 +308,9 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw", label: "Beseitigungsverfügung" },
+      { href: "/ratgeber/sachverstaendigenbescheinigung-abweichung-brandschutz-nrw", label: "SV-Bescheinigung" },
+      { href: "/ratgeber/brandwand-fenster-abweichung-nachbarschutz-bauo-nrw", label: "Brandwand Fenster" },
       { href: "/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw", label: "Bestandsschutz § 59" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept vs. Abweichung" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Nutzungsänderung" },

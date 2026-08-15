@@ -26,6 +26,7 @@ import { RATGEBER_ARTICLES_BRANDSCHUTZBEAUFTRAGTER } from "./ratgeber-articles-b
 import { RATGEBER_ARTICLES_LEITUNGSANLAGEN } from "./ratgeber-articles-leitungsanlagen";
 import { RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME } from "./ratgeber-articles-notwendige-treppen-treppenraeume";
 import { RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG } from "./ratgeber-articles-entrauchung-rauchableitung";
+import { RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026 } from "./ratgeber-articles-gericht-seo-jul-aug2026";
 import { RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE } from "./ratgeber-articles-gesetzliche-einstufung-gebaeude";
 import { RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG } from "./ratgeber-articles-sicherheitsstromversorgung";
 import { RATGEBER_ARTICLES_BRANDMELDEANLAGE } from "./ratgeber-articles-brandmeldeanlage";
@@ -2657,6 +2658,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_LEITUNGSANLAGEN,
   ...RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME,
   ...RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG,
+  ...RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026,
   ...RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE,
   ...RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG,
   ...RATGEBER_ARTICLES_BRANDMELDEANLAGE,

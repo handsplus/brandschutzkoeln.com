@@ -58,6 +58,26 @@ Diese Artikel sind die **Latte** für alle anderen:
 | `brandschutzkonzept-wann-noetig` | Konzept / Stellungnahme / § 9 |
 | `flucht-und-rettungswege-bauo-nrw` | § 33, Brand-/Rauchabschnitt |
 | `entrauchung-rauchableitung-bauo-sbauvo-nrw` | Hub Entrauchung/RWA, §§ 35/39/46, SBauVO 16/75/110/138, § 105 |
+| `abweichungen-paragraph-69-erlass-bauo-nrw` | § 69 Hub; Serie Recht & Praxis Jul–Aug 2026 |
+
+### Serie Recht & Praxis (Jul–Aug 2026, Di/Fr)
+
+Quelle: `docs/quellen/Gerichtsbeschluesse-Brandschutz-Triage.md` – Thema zuerst, Urteil nur Rechtskern.
+
+| Slug | Status | Notiz |
+|------|--------|-------|
+| `beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw` | 10 | VG Mainz Kern → NRW § 69 |
+| `brandwand-fenster-abweichung-nachbarschutz-bauo-nrw` | 10 | Brandwand restriktiv |
+| `feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz` | 10 | BVerwG 4 C 6.20 |
+| `kommunaler-brandschutz-bhkg-nrw-planvorhaben` | 10 | BVerwG 7 A 10.20 / BHKG |
+| `brandschutz-planfeststellung-nachtrag-verfahren` | 10 | BVerwG 7 B 8.24 Impuls |
+| `sachverstaendigenbescheinigung-abweichung-brandschutz-nrw` | 10 | § 69 Abs. 1a |
+| `nutzungsaenderung-ohne-brandschutzkonzept-risiken-nrw` | 10 | Risiko NU ohne Nachweis |
+| `treppenraum-entrauchung-nachweis-bauantrag-nrw` | 10 | § 35 Abs. 8 Bauantrag |
+| `nachbarschutz-brandschutz-bauaufsicht-nrw` | 10 | Nachbar vs. öff. Belang |
+| `vertrauensschutz-altgenehmigung-brandschutz-nrw` | 10 | Altgenehmigung / Duldung |
+| `brandschutz-unterlagen-zwischenbescheid-nachreichen-nrw` | 10 | Nachreich-Paket |
+| `feuerwehrstellungnahme-baugenehmigung-schnittstelle-nrw` | 10 | FW ↔ Bauaufsicht |
 
 Neue Spezialthemen: **verlinken** auf diese fünf, nicht wieder alles erklären.
 
