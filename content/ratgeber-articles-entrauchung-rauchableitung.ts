@@ -167,7 +167,6 @@ export const RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
-      { href: "/ratgeber/treppenraum-entrauchung-nachweis-bauantrag-nrw", label: "Nachweis Bauantrag" },
       { href: "/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw", label: "Treppenraum § 35" },
       { href: "/ratgeber/hochhaus-entrauchung-sbauvo-nrw", label: "Hochhaus § 110" },
       { href: "/ratgeber/rwa-entrauchung-prueffristen", label: "RWA-Prüffristen" },

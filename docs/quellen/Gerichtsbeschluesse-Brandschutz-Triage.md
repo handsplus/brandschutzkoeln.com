@@ -9,10 +9,12 @@
 
 | Datei | Gericht / Az. | Kern (1 Satz) | Empfohlener Slug |
 |-------|---------------|---------------|------------------|
-| `3_K_39_23_MZ_Urteil_anonymisiert.pdf` | VG Mainz 3 K 39/23.MZ (06.12.2023) | Bauaufsichtliche Beseitigung von Fenstern in einer Brandwand; Abweichung § 69 LBauO ohne SV-Bescheinigung und gegen Nachbarschutz nicht haltbar | `beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw`, `brandwand-fenster-abweichung-nachbarschutz-bauo-nrw` |
-| `BVerwG 4 C 6.20 …` | BVerwG 4 C 6.20 (29.03.2022) | Feuerwehrgerätehaus ist Anlage für Verwaltungen (BauNVO); gebietsverträglich im WA, wenn es dem Brandschutz der Umgebung dient | `feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz` |
-| `BVerwG 7 A 10.20 …` | BVerwG 7 A 10.20 (23.06.2021) | NRW-Gemeinden haben wehrfähige Position beim Brandschutz (BHKG), soweit weisungsfreie Aufgabenwahrnehmung betroffen | `kommunaler-brandschutz-bhkg-nrw-planvorhaben` |
-| `BVerwG 7 B 8.24 …` | BVerwG 7 B 8.24 (19.11.2024) | Revision zugelassen zum Antrag auf ergänzendes Planfeststellungsverfahren **hinsichtlich Brandschutz** (Eisenbahn) | `brandschutz-planfeststellung-nachtrag-verfahren` |
+| `3_K_39_23_MZ_Urteil_anonymisiert.pdf` | VG Mainz 3 K 39/23.MZ (06.12.2023) | Bauaufsichtliche Beseitigung von Fenstern in einer Brandwand; Abweichung § 69 LBauO ohne SV-Bescheinigung und gegen Nachbarschutz nicht haltbar | **publiziert:** `beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw` |
+| `BVerwG 4 C 6.20 …` | BVerwG 4 C 6.20 (29.03.2022) | Feuerwehrgerätehaus ist Anlage für Verwaltungen (BauNVO); gebietsverträglich im WA, wenn es dem Brandschutz der Umgebung dient | *Impulse – Artikel erst bei ≥450 Wörtern / 10/10* |
+| `BVerwG 7 A 10.20 …` | BVerwG 7 A 10.20 (23.06.2021) | NRW-Gemeinden haben wehrfähige Position beim Brandschutz (BHKG), soweit weisungsfreie Aufgabenwahrnehmung betroffen | *Impulse – noch nicht publiziert* |
+| `BVerwG 7 B 8.24 …` | BVerwG 7 B 8.24 (19.11.2024) | Revision zugelassen zum Antrag auf ergänzendes Planfeststellungsverfahren **hinsichtlich Brandschutz** (Eisenbahn) | *Impulse – noch nicht publiziert* |
+
+**Review Aug 2026:** Elf kurze Catch-up-Stubs (230–408 Wörter) wieder entfernt – Qualität vor Kalenderfüllung.
 
 ---
 

@@ -186,26 +186,14 @@ const JUNE_2026_PUBLICATIONS: Record<string, string> = {
   "tuerarten-brandschutz-bauo-nrw": "2026-06-29",
 };
 
-/** Juli 2026 – Hub Entrauchung + Recht-&-Praxis-Serie (Di/Fr). */
+/** Juli 2026 – Hub Entrauchung + Recht-&-Praxis (nur qualitätsgeprüfte Artikel). */
 const JULY_2026_PUBLICATIONS: Record<string, string> = {
   "entrauchung-rauchableitung-bauo-sbauvo-nrw": "2026-07-02",
   "beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw": "2026-07-07",
-  "brandwand-fenster-abweichung-nachbarschutz-bauo-nrw": "2026-07-10",
-  "feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz": "2026-07-14",
-  "kommunaler-brandschutz-bhkg-nrw-planvorhaben": "2026-07-17",
-  "brandschutz-planfeststellung-nachtrag-verfahren": "2026-07-21",
-  "sachverstaendigenbescheinigung-abweichung-brandschutz-nrw": "2026-07-24",
-  "nutzungsaenderung-ohne-brandschutzkonzept-risiken-nrw": "2026-07-28",
-  "treppenraum-entrauchung-nachweis-bauantrag-nrw": "2026-07-31",
 };
 
-/** August 2026 – Recht-&-Praxis-Serie (Di/Fr Catch-up). */
-const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
-  "nachbarschutz-brandschutz-bauaufsicht-nrw": "2026-08-04",
-  "vertrauensschutz-altgenehmigung-brandschutz-nrw": "2026-08-07",
-  "brandschutz-unterlagen-zwischenbescheid-nachreichen-nrw": "2026-08-11",
-  "feuerwehrstellungnahme-baugenehmigung-schnittstelle-nrw": "2026-08-14",
-};
+/** August 2026 – Platzhalter für künftige Di/Fr-Serie (Qualität vor Kalenderfüllung). */
+const AUGUST_2026_PUBLICATIONS: Record<string, string> = {};
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */
 const ARTICLES_PER_MONTH_2025 = 8;
