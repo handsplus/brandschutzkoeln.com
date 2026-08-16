@@ -1,7 +1,7 @@
 /**
- * Juli 2026 – Rechtsprechung Brandschutz: nur sehr gute SEO-Artikel (≥450 Wörter).
- * Quellen: Ausbarbeitungen Brandwände/Nachbarschutz, Feuerwehrgerätehaus, BHKG;
- * Überblick 00_Rechtsprechung_Brandschutz_Ueberblick.html – Thema zuerst, Urteil Rechtskern.
+ * Juli 2026 – Rechtsprechung Brandschutz: SEO/GEO-Serie (≥450 Wörter).
+ * Quellen: Ausbarbeitungen Brandwände/Nachbarschutz, Feuerwehrgerätehaus, BHKG.
+ * Beseitigung bleibt in ratgeber-articles-gericht-seo-jul-aug2026.ts – keine Slug-Duplikate.
  */
 import type { RatgeberArticle } from "./ratgeber-types";
 
@@ -10,13 +10,13 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     slug: "brandwand-glasbaustein-fenster-bauo-nrw",
     title: "Glasbaustein oder Fenster in der Brandwand: was das Gesetz unterscheidet",
     excerpt:
-      "Lichtdurchlässig heißt nicht öffenbar: Glasbausteine können in Brandwänden privilegiert sein – Kunststofffenster mit Dreh-Kipp-Funktion sind es nicht. Was Eigentümer und Planer vor dem Umbau prüfen müssen.",
-    metaTitle: "Brandwand Glasbaustein vs Fenster NRW | H&S+",
+      "Lichtdurchlässig heißt nicht öffenbar: Glasbausteine können privilegiert sein – Dreh-Kipp-Fenster sind Öffnungen. Was vor dem Umbau zu prüfen ist.",
+    metaTitle: "Glasbaustein Brandwand vs Fenster NRW | H&S+",
     metaDescription:
-      "Glasbaustein Brandwand NRW: Privileg lichtdurchlässiger nichtbrennbarer Teilflächen vs. öffenbares Fenster – § 30 BauO, Abweichung, Beseitigung.",
+      "Glasbaustein Brandwand: lichtdurchlässig und nicht öffenbar ≠ Fenster. Was § 30 BauO NRW erlaubt und was Beseitigung riskiert.",
     keywords: [
       "Glasbaustein Brandwand",
-      "Fenster Brandwand unzulässig",
+      "Fenster Brandwand erlaubt",
       "Brandwand Öffnung Glasbaustein",
       "§ 30 BauO NRW Öffnungen",
       "lichtdurchlässige Brandwand",
@@ -24,31 +24,28 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Belichtung ja – Öffnung nein",
+        title: "Darf ein Fenster in der Brandwand stehen?",
         paragraphs: [
-          "Viele Eigentümer wollen Licht an der Grenzwand und tauschen Glasbausteine gegen moderne Kunststofffenster. Das Ergebnis wirkt wie ein üblicher Fenstertausch – brandschutzrechtlich ist es oft etwas anderes: aus einer privilegierten, nicht öffenbaren Teilfläche wird eine Öffnung.",
-          "Brandwände sollen die Brandausbreitung auf Nachbargebäude verhindern und unter mechanischer Beanspruchung standsicher bleiben. Was geöffnet werden kann, durchbricht genau diese Funktion. Die gesetzliche Privilegierung gilt für lichtdurchlässige, nicht brennbare Baustoffe als Teilfläche – nicht für Dreh-Kipp-Fenster.",
-          "Grenzfall ja: Bestehende Glasbausteinfläche in der Abschlusswand, nicht öffenbar, nichtbrennbar – typisch privilegierte Teilfläche nach Brandwand-Systematik. Grenzfall nein: Austausch gegen öffenbare Kunststofffenster ohne Genehmigung und ohne Abweichung.",
+          "Nein – ein öffenbares Fenster ist eine Öffnung und durchbricht die Brandwandfunktion. Glasbausteine können als lichtdurchlässige, nichtbrennbare, nicht öffenbare Teilfläche privilegiert sein; Kunststofffenster mit Dreh-Kipp-Funktion sind es nicht.",
+          "Viele Eigentümer tauschen Glasbausteine gegen moderne Fenster und meinen einen normalen Fenstertausch. Brandschutzrechtlich entsteht oft erst die unzulässige Öffnung. Ob der Tausch genehmigungsfrei ist: [Fenstertausch Brandwand](/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw).",
         ],
       },
       {
         id: "rechtskern",
         title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "In einem verwaltungsgerichtlichen Brandwand-Fall (VG Mainz 2023, Veröffentlichungsfassung) stand der Austausch von Glasbausteinen durch öffenbare Fenster im Zentrum. Das Gericht stellt klar: Glasbausteine sind nach der Brandwand-Norm privilegierte Teilflächen; zu öffnende Kunststofffenster sind es nicht.",
-          "NRW-Übertragung über § 30 BauO NRW: An Gebäudeabschlusswänden zur Nachbargrenze (typisch bis 2,50 m, sofern kein öffentlich-rechtlich gesicherter 5-m-Abstand zum Nachbargebäude) gelten strenge Regeln zu Öffnungen. Bei Gebäudeklassen 1–3 kann statt einer klassischen Brandwand eine hochfeuerhemmende raumabschließende Wand zulässig sein – das Öffnungsverbot greift trotzdem.",
-          "Vertiefung Einschreiten: [Beseitigungsverfügung Brandschutz](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw). Systematik Abweichung: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
+          "VG Mainz 3 K 39/23.MZ (06.12.2023, Rheinland-Pfalz): Glasbausteine sind nach der Brandwand-Norm privilegierte Teilflächen; zu öffnende Kunststofffenster sind es nicht. Das ist kein NRW-Urteil – die NRW-Übertragung läuft über § 30 BauO NRW (Gebäudeabschlusswände, Öffnungsregime) und bei Ausnahmen über § 69 BauO NRW.",
+          "An Abschlusswänden zur Nachbargrenze (typisch bis 2,50 m, sofern kein öffentlich-rechtlich gesicherter 5-m-Abstand) gelten strenge Regeln. Bei GK 1–3 kann statt Brandwand eine hochfeuerhemmende Wand zulässig sein – das Öffnungsverbot bleibt. Einschreiten: [Beseitigungsverfügung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw).",
         ],
       },
       {
         id: "bauo",
         title: "§ 30 BauO NRW – praktische Prüfung",
         paragraphs: [
-          "Zuerst klären: Ist die Wand Brandwand bzw. gleichgestellte Abschlusswand? Steht sie auf oder nahe der Grenze? Ist 5 m zum Nachbargebäude durch Baulast oder vergleichbar gesichert?",
-          "Dann: Welche Lichtflächen gibt es – Glasbaustein / nichtbrennbar und geschlossen, oder öffenbares Fenster? Spezielle gesetzliche Ausnahmen (z. B. Abschlüsse mit definierter Feuerwiderstandsfähigkeit in ausgedehnten Gebäuden) nur prüfen, wenn der Tatbestand wirklich passt – nicht als Wunschdenken.",
+          "Zuerst: Ist die Wand Brandwand bzw. gleichgestellte Abschlusswand? Grenze / Abstand Nachbargebäude? Dann: Lichtfläche öffenbar oder geschlossen und nichtbrennbar?",
         ],
         table: {
-          caption: "Licht in der Brandwand – Einordnung",
+          caption: "Licht in der Brandwand – Ja/Nein",
           headers: ["Element", "Typisch", "Folge"],
           rows: [
             ["Glasbaustein / nichtbrennbar, nicht öffenbar", "Privilegierte Teilfläche", "Oft zulässig, wenn Norm erfüllt"],
@@ -59,27 +56,18 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         },
       },
       {
-        id: "abgrenzung",
-        title: "Abgrenzung zum normalen Fenstertausch",
-        paragraphs: [
-          "Der genehmigungsfreie Fenstertausch betrifft vergleichbare Fenster in bestehender Öffnung – nicht das Umnutzen einer Brandwand-Teilfläche. Details: [Fenstertausch vs. Nutzungsänderung](/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw).",
-          "Nicht verwechseln: innere Brandschutztüren (T30/T90) im Gebäude vs. Öffnungen in der Gebäudeabschluss-Brandwand zur Grenze.",
-        ],
-      },
-      {
         id: "nachweis",
         title: "Nachweis vor Umbau oder Legalisierung",
         paragraphs: [
-          "Pläne mit Brandwand, Öffnungsmaßen, Baustoff der Lichtfläche, Gebäudeklasse, Abstand Nachbargebäude. Bei gewünschter Ausnahme: zuerst gesetzliche Öffnungstatbestände der Brandwand-Norm, dann erst § 69 mit SV-Bescheinigung.",
+          "Pläne mit Brandwand, Öffnungsmaßen, Baustoff der Lichtfläche, Gebäudeklasse, Abstand Nachbargebäude. Ausnahme zuerst in der Brandwand-Norm suchen, dann erst § 69 – bei Nachbarn keine 1a-Bescheinigung, Bauaufsicht entscheidet; Freistellung § 63 und Abweichung schließen sich aus. Hub: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
           "Nachbarzustimmung allein reicht nicht – [welcher Nachbar zählt](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw).",
         ],
       },
       {
         id: "praxis",
-        title: "Typische Fehler auf der Baustelle",
+        title: "Typische Fehler",
         paragraphs: [
-          "Handwerker bestellt „Fenster wie bisher“, meint aber Glasbausteinfläche. Energetische Sanierung ersetzt Lichtflächen ohne Brandschutzprüfung. Nachträglich wird argumentiert, „Licht muss sein“ – das ersetzt keine Norm.",
-          "Rückbau ist oft zumutbar (wieder Glasbausteine) – deshalb halten Gerichte Beseitigungsverfügungen für verhältnismäßig.",
+          "Handwerker bestellt „Fenster wie bisher“, meint aber Glasbausteinfläche. Energetische Sanierung ersetzt Lichtflächen ohne Brandschutzprüfung. Rückbau auf Glasbausteine ist oft zumutbar – deshalb halten Gerichte Beseitigungen für verhältnismäßig.",
         ],
       },
       {
@@ -102,48 +90,47 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Das Ausgangsurteil wendet rheinland-pfälzisches Landesrecht an; die NRW-Arbeit läuft über Parallelität zu § 30, § 62, § 69 und § 82 BauO NRW. Kein Ersatz für die Prüfung Ihres konkreten Wandaufbaus und der Genehmigungslage.",
+          "VG Mainz 3 K 39/23.MZ wendet rheinland-pfälzisches Recht an – kein NRW-Urteil. Die NRW-Arbeit läuft über Parallelität zu § 30 und § 69 BauO NRW. Kein Ersatz für die Prüfung Ihres Wandaufbaus und keine Rechtsberatung.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw", label: "Fenstertausch vs. NU" },
       { href: "/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw", label: "Beseitigungsverfügung" },
-      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
-      { href: "/ratgeber/brandabschnitte-bauo-sbauvo-nrw", label: "Brandabschnitte" },
       { href: "/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw", label: "Welcher Nachbar?" },
-      { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Darf ich Glasbausteine in der Brandwand haben?",
+        question: "Darf ich ein Fenster in der Brandwand einbauen?",
         answer:
-          "Oft ja, wenn es sich um privilegierte lichtdurchlässige, nichtbrennbare Teilflächen nach der Brandwand-Norm handelt und sie nicht öffenbar sind. Maßgeblich ist der konkrete Normtext und die Einordnung der Wand.",
+          "Grundsätzlich nein – öffenbare Fenster sind Öffnungen. Die Brandwand soll Brandübertragung verhindern; was geöffnet werden kann, durchbricht diese Funktion.",
+      },
+      {
+        question: "Sind Glasbausteine in der Brandwand erlaubt?",
+        answer:
+          "Oft ja, wenn es lichtdurchlässige, nichtbrennbare, nicht öffenbare Teilflächen nach der Brandwand-Norm sind. Maßgeblich sind Normtext und Einordnung der Wand.",
       },
       {
         question: "Warum sind Kunststofffenster problematisch?",
         answer:
-          "Weil sie geöffnet werden können – damit sind sie Öffnungen. Die Privilegierung der Brandwand-Teilflächen zielt nicht auf öffenbare Fenster.",
+          "Weil sie geöffnet werden können. Die Privilegierung zielt auf geschlossene Teilflächen – nicht auf Dreh-Kipp-Fenster.",
       },
       {
-        question: "Reicht eine feuerhemmende Verglasung?",
+        question: "Reicht feuerhemmende Verglasung statt Brandwand-Privileg?",
         answer:
           "Nur wenn ein gesetzlicher Spezialtatbestand oder eine wirksame Abweichung das trägt. Pauschal „Glas mit F-Klasse“ ersetzt nicht das Öffnungsverbot.",
       },
       {
-        question: "Gilt das auch bei GK 2 und 3?",
+        question: "Gilt das auch bei Gebäudeklasse 2 und 3?",
         answer:
-          "Ja. Die Erleichterung hochfeuerhemmend statt Brandwand senkt den Feuerwiderstand – nicht das Öffnungsregime.",
+          "Ja. Hochfeuerhemmend statt Brandwand senkt den Feuerwiderstand – nicht das Öffnungsregime.",
       },
       {
-        question: "Was tun bei bereits eingebauten Fenstern?",
+        question: "Ist VG Mainz ein NRW-Urteil?",
         answer:
-          "Genehmigungslage und Abweichung prüfen; sonst droht Beseitigung. Früh fachlich und behördlich klären.",
-      },
-      {
-        question: "Ist das 1:1 NRW-Rechtsprechung?",
-        answer:
-          "Der Leitfall ist RP; NRW-Praxis arbeitet mit § 30 und verwandten Normen sowie OVG-NRW-Linien zur passiven Duldung. Einzelfall und Behörde bleiben maßgeblich.",
+          "Nein – Rheinland-Pfalz. NRW-Praxis arbeitet mit § 30 und § 69 BauO NRW. Einzelfall und Behörde bleiben maßgeblich.",
       },
     ],
   },
@@ -151,12 +138,12 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     slug: "brandwand-fenstertausch-nutzungsaenderung-bauo-nrw",
     title: "Fenstertausch an der Brandwand: wann daraus eine Nutzungsänderung wird",
     excerpt:
-      "Verfahrensfreier Fenstertausch setzt vergleichbare Fenster voraus – nicht den Austausch privilegierter Brandwand-Teilflächen. Wann Sie einen Bauantrag brauchen und was ohne Genehmigung droht.",
-    metaTitle: "Fenstertausch Brandwand Nutzungsänderung | H&S+",
+      "§ 62 greift nicht, wenn privilegierte Brandwand-Teilflächen durch öffenbare Fenster ersetzt werden. Wann Sie einen Bauantrag brauchen.",
+    metaTitle: "Fenstertausch Brandwand genehmigungsfrei? | H&S+",
     metaDescription:
-      "Fenstertausch Brandwand NRW: § 62 verfahrensfrei vs. genehmigungspflichtige Nutzungsänderung der Abschlusswand – Glasbaustein, Fenster, Bauantrag.",
+      "Fenstertausch Brandwand: § 62 greift nicht bei Glasbaustein zu Fenster. Wann Nutzungsänderung und Bauantrag nötig sind.",
     keywords: [
-      "Fenstertausch Brandwand",
+      "Fenstertausch Brandwand genehmigungsfrei",
       "Nutzungsänderung Brandwand",
       "verfahrensfreier Fenstertausch",
       "§ 62 BauO NRW Fenster",
@@ -165,18 +152,18 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Zwei verschiedene Vorhaben – ein Wort „Fenster“",
+        title: "Ist Fenstertausch an der Brandwand genehmigungsfrei?",
         paragraphs: [
-          "Im Alltag heißt alles „Fenstertausch“. Bauordnungsrechtlich trennt sich der Fall: (A) Austausch eines Fensters in einer bereits zulässigen Fensteröffnung gegen ein vergleichbares Element – oft verfahrensfrei. (B) Austausch einer Glasbaustein- oder anderen Brandwand-Teilfläche gegen ein öffenbares Fenster – das stellt neue Zulässigkeitsfragen und ist typisch genehmigungspflichtige Änderung der Brandwand.",
-          "Ohne Bauantrag entsteht formelle Illegalität parallel zur materiellen (Öffnungsverbot). Gerichte behandeln das nicht als Instandsetzung.",
+          "Nein – nicht, wenn Sie privilegierte Brandwand-Teilflächen (z. B. Glasbausteine) durch öffenbare Fenster ersetzen. § 62 BauO NRW setzt typischerweise vergleichbare Fenster in bestehender Öffnung voraus; neue Zulässigkeitsfragen machen daraus eine genehmigungspflichtige Änderung.",
+          "Im Alltag heißt alles „Fenstertausch“. Bauordnungsrechtlich trennt sich Fall A (Fenster gegen Fenster in zulässiger Öffnung – oft verfahrensfrei) von Fall B (Glasbausteinfläche wird zu Dreh-Kipp – typisch Bauantrag). Was materiell erlaubt ist: [Glasbaustein vs. Fenster](/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw).",
         ],
       },
       {
         id: "rechtskern",
-        title: "Rechtsprechung: keine Vergleichbarkeit",
+        title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "Im Brandwand-Fall VG Mainz 2023: Genehmigungsfreiheit für Fenstertausch greift nicht, wenn Glasbausteine (privilegierte Teilflächen) durch öffenbare Kunststofffenster ersetzt werden. Es stellen sich gänzlich neue Zulässigkeitsfragen; Belichtung allein macht die Bauelemente nicht austauschbar.",
-          "NRW: Verfahrensfreie Vorhaben in § 62 BauO NRW. Der bloße Austausch von Fenstern in bestehender Öffnung ist typischerweise verfahrensfrei – nicht das Aufbrechen oder Umnutzen einer Brandwand bzw. hochfeuerhemmenden Gebäudeabschlusswand.",
+          "VG Mainz 3 K 39/23.MZ (06.12.2023, Rheinland-Pfalz): Genehmigungsfreiheit für Fenstertausch greift nicht, wenn Glasbausteine durch öffenbare Kunststofffenster ersetzt werden – es stellen sich gänzlich neue Zulässigkeitsfragen. Belichtung allein macht die Bauelemente nicht austauschbar. Kein NRW-Urteil – NRW-Übertragung über § 62, § 30 und § 69 BauO NRW.",
+          "Ohne Antrag entstehen formelle und materielle Illegalität parallel. Einschreiten: [Beseitigungsverfügung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw). Abweichung: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw) – Freistellung und Abweichung schließen sich aus; Abs. 1a rettet § 63 nicht.",
         ],
       },
       {
@@ -186,41 +173,19 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
           "Wandtyp klären: Brandwand / Abschlusswand / normale Außenwand?",
           "Bestand: Was war genehmigt – Fensteröffnung oder Glasbaustein?",
           "Geplantes Element: öffenbar? Baustoff? Größe?",
-          "Bei Brandwand-Konflikt: Bauantrag oder Abweichung prüfen – nicht „schwarz“ tauschen",
-          "Genehmigung / Freistellung abwarten, dann ausführen",
+          "Bei Brandwand-Konflikt: Bauantrag oder Abweichung – nicht „schwarz“ tauschen",
+          "Genehmigung abwarten, dann ausführen",
         ],
         paragraphs: [
-          "Wer umgekehrt baut und hofft, die Behörde schweige, riskiert [Beseitigung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw) und [keine Verwirkung](/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw).",
+          "Wer umgekehrt baut und hofft, die Behörde schweige, riskiert Beseitigung und keine Verwirkung – [Duldung](/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw).",
         ],
       },
       {
         id: "abgrenzung",
         title: "Grenzfälle",
         paragraphs: [
-          "Grenzfall ja: Fenster in bestehender, genehmigter Fensteröffnung einer normalen Außenwand (keine Brandwand) – klassischer Fenstertausch. Grenzfall nein: Glasbausteinfläche in der Grenzwand wird zu Dreh-Kipp-Fenstern ohne Antrag.",
-          "Grenzfall ja: Rückbau illegaler Fenster auf Glasbausteine zur Wiederherstellung. Grenzfall nein: „Wir lassen die Fenster und beantragen später irgendwann“.",
+          "Grenzfall ja: Fenster in bestehender, genehmigter Fensteröffnung einer normalen Außenwand – klassischer Fenstertausch. Grenzfall nein: Glasbausteinfläche in der Grenzwand wird zu Dreh-Kipp ohne Antrag.",
         ],
-      },
-      {
-        id: "nachweis",
-        title: "Was in den Bauantrag gehört",
-        paragraphs: [
-          "Bestands- und Neuplan der Wand, Brandschutz-Eintrag, Gebäudeklasse, Abstände, ggf. Abweichungsantrag mit SV-Bescheinigung. Nachbarbeteiligung nicht nur der unmittelbaren Grenze – [Nachbarschutz](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw).",
-          "Schnittstelle: [Umbau Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz), [Bauantrag Unterlagen](/ratgeber/bauantrag-brandschutz-unterlagen-koeln).",
-        ],
-      },
-      {
-        id: "praxis",
-        title: "Praxis aus dem Verfahren",
-        paragraphs: [
-          "Typisch: Energetische Sanierung oder Wohnwertsteigerung, Handwerkerangebot „Fenster erneuern“, kein Architekt mit Brandschutzblick. Die Bauaufsicht wird später über Nachbarbeschwerde oder Begehung aktiv.",
-          "Selbst wenn die Behörde früher eine Verfügung zurücknimmt (z. B. falsche Feuerwiderstandsklasse), bedeutet das nicht, dass Öffnungen erlaubt wären – oft bleibt die Beseitigungspflicht dem Grunde nach bestehen.",
-        ],
-      },
-      {
-        id: "pruefkatalog",
-        title: "Prüfkatalog vor Auftrag",
-        paragraphs: [],
         table: {
           caption: "Fenstertausch oder Nutzungsänderung?",
           headers: ["Nr.", "Frage", "Folge"],
@@ -229,46 +194,48 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
             ["2", "War dort schon ein Fenster oder Glasbaustein?", "Unterschied entscheidet"],
             ["3", "Wird öffenbar eingebaut?", "Oft genehmigungspflichtig"],
             ["4", "Liegt §-62-Privileg wirklich vor?", "Sonst Bauantrag"],
-            ["5", "Abweichung nötig?", "§ 69 + SV, nicht mündlich"],
+            ["5", "Abweichung nötig?", "§ 69 + Behörde/SV, nicht mündlich"],
+            ["6", "Freistellung trotz Abweichung?", "Ausgeschlossen (§ 63 Abs. 2 Nr. 4)"],
           ],
         },
+      },
+      {
+        id: "nachweis",
+        title: "Was in den Bauantrag gehört",
+        paragraphs: [
+          "Bestands- und Neuplan der Wand, Brandschutz-Eintrag, Gebäudeklasse, Abstände, ggf. Abweichungsantrag. Nachbarbeteiligung nicht nur der Grenze – [Nachbarschutz](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw). Unterlagen: [Bauantrag](/ratgeber/bauantrag-brandschutz-unterlagen-koeln).",
+        ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Verfahrensfreiheit ist einzelfallabhängig und landesrechtlich konkret. Dieser Ratgeber ersetzt keine Prüfung Ihres Bauvorhabens durch Planer und Behörde.",
+          "VG Mainz ist RP-Recht. Verfahrensfreiheit ist einzelfallabhängig. Dieser Ratgeber ersetzt keine Prüfung Ihres Bauvorhabens und keine Rechtsberatung.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw", label: "Glasbaustein vs. Fenster" },
       { href: "/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw", label: "Beseitigung" },
-      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "§ 69" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Nutzungsänderung" },
-      { href: "/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw", label: "Duldung / Verwirkung" },
-      { href: "/ratgeber/bauantrag-brandschutz-unterlagen-koeln", label: "Bauantrag" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Ist jeder Fenstertausch genehmigungsfrei?",
+        question: "Ist Fenstertausch an der Brandwand genehmigungsfrei?",
         answer:
-          "Nein. Das Privileg setzt typischerweise den Austausch vergleichbarer Fenster in bestehender Öffnung voraus – nicht die Umnutzung einer Brandwand-Teilfläche.",
+          "Nein, wenn privilegierte Teilflächen (z. B. Glasbausteine) durch öffenbare Fenster ersetzt werden. § 62 setzt typischerweise vergleichbare Fenster in bestehender Öffnung voraus.",
       },
       {
-        question: "Was ist eine Nutzungsänderung der Brandwand?",
+        question: "Wann wird daraus eine Nutzungsänderung?",
         answer:
-          "Eine Änderung, die neue Zulässigkeitsfragen stellt – etwa öffenbare Fenster statt privilegierter Glasbausteine. Dann ist ein Genehmigungsverfahren nötig.",
+          "Wenn neue Zulässigkeitsfragen entstehen – etwa öffenbare Fenster statt privilegierter Glasbausteine. Dann ist ein Genehmigungsverfahren nötig.",
       },
       {
         question: "Reicht eine Bauanzeige?",
         answer:
-          "Nur wenn das Landesrecht das für Ihren Fall vorsieht. Brandwand-Öffnungen sind selten „Anzeige reicht“ – im Zweifel Bauantrag und Brandschutz klären.",
-      },
-      {
-        question: "Haftet der Handwerker mit?",
-        answer:
-          "Bauherr und Eigentümer bleiben bauordnungsrechtlich in der Pflicht. Zivilrechtlich können weitere Ansprüche bestehen – getrennt vom behördlichen Verfahren.",
+          "Nur wenn das Landesrecht das für Ihren Fall vorsieht. Brandwand-Öffnungen sind selten „Anzeige reicht“ – im Zweifel Bauantrag.",
       },
       {
         question: "Kann ich nachträglich genehmigen lassen?",
@@ -278,7 +245,12 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
       {
         question: "Wo steht das in der BauO NRW?",
         answer:
-          "Verfahrensfreiheit § 62, Brandwände § 30, Abweichung § 69, Einschreiten § 82 – jeweils im konkreten Wortlaut und mit den Ausnahmen prüfen.",
+          "Verfahrensfreiheit § 62, Brandwände § 30, Abweichung § 69, Einschreiten § 82 – jeweils im konkreten Wortlaut prüfen.",
+      },
+      {
+        question: "Was ist mit Freistellung und Abweichung?",
+        answer:
+          "Eine Abweichung nach § 69 schließt die Genehmigungsfreistellung aus. Abs. 1a rettet § 63 nicht.",
       },
     ],
   },
@@ -286,32 +258,32 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     slug: "duldung-verwirkung-brandschutz-bauaufsicht-nrw",
     title: "Zehn Jahre geduldet – trotzdem Beseitigung? Verwirkung im Brandschutz",
     excerpt:
-      "Passive Untätigkeit der Bauaufsicht schafft kein Vertrauen. Ordnungsrechtliche Eingriffsbefugnisse verjähren nicht und werden nicht verwirkt – was Eigentümer wissen müssen.",
-    metaTitle: "Duldung Verwirkung Brandschutz Bauaufsicht | H&S+",
+      "Passive Duldung heilt nicht: Ordnungsrechtliche Eingriffsbefugnisse verjähren und verwirken nicht. Was Eigentümer wissen müssen.",
+    metaTitle: "Duldung Verwirkung Brandschutz NRW | H&S+",
     metaDescription:
-      "Verwirkung Brandschutz NRW: passive Duldung, keine Verjährung, mündliche Absprache unwirksam – Bestandsschutz vs. Illegalität, § 82 BauO.",
+      "Seit Jahren geduldet Brandschutz: passive Duldung heilt nicht, keine Verwirkung der Bauaufsicht. OVG-NRW-Linie und § 82 BauO.",
     keywords: [
+      "seit Jahren geduldet Brandschutz",
       "Verwirkung Bauaufsicht Brandschutz",
       "Duldung Brandschutz Beseitigung",
       "mündliche Zusage Bauamt",
-      "Bestandsschutz illegale Öffnung",
       "OVG NRW passive Duldung",
     ],
     sections: [
       {
         id: "einordnung",
-        title: "„Die Behörde hat jahrelang nichts gesagt“",
+        title: "Schützt jahrelange Duldung vor Beseitigung?",
         paragraphs: [
-          "Eigentümer argumentieren oft: Die Öffnung steht seit vielen Jahren, die Bauaufsicht kannte sie, also sei Vertrauen entstanden. Gerichte und die NRW-Linie zur passiven Duldung sehen das anders: Gefahrenabwehr lässt sich nicht aussitzen.",
-          "Das ist die harte Grenze zu [Bestandsschutz](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw): Bestandsschutz schützt rechtmäßig errichtete Anlagen – nicht formell und materiell illegale Zustände. Wer auf Schweigen spekuliert, riskiert trotzdem [Beseitigung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw).",
+          "Nein. Passive Untätigkeit der Bauaufsicht ist nur passive Duldung ohne Gestattungswirkung. Ordnungsrechtliche Eingriffsbefugnisse der Gefahrenabwehr verjähren nicht und werden nicht verwirkt – die Behörde darf einen als rechtswidrig erkannten Zustand später beenden.",
+          "Das ist die harte Grenze zum [Bestandsschutz](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw): Bestandsschutz schützt rechtmäßig errichtete Anlagen – nicht illegale Öffnungen. Wer auf Schweigen spekuliert, riskiert trotzdem [Beseitigung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw).",
         ],
       },
       {
         id: "rechtskern",
-        title: "Was die Rechtsprechung festhält",
+        title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "Im Brandwand-Fall VG Mainz 2023 (mit ausdrücklichem Bezug auf OVG NRW 10 B 617/09): Ordnungsrechtliche Eingriffsbefugnisse der Gefahrenabwehr können nicht verwirkt werden und unterliegen nicht der Verjährung. Lange Untätigkeit ist nur passive Duldung ohne Gestattungswirkung – die Behörde darf eine als rechtswidrig erkannte Praxis beenden.",
-          "Mündliche „Absprache“ mit dem Sachbearbeiter: ohne schriftliche Zusicherung (§ 38 VwVfG) unwirksam. Fehlt ein Aktenvermerk, bleibt der Einwand schwach. Eigenmächtiger Einbau vor der behaupteten Zusage begründet kein schutzwürdiges Vertrauen – auch nicht, wenn später nur ein Teil der Öffnungen „besprochen“ worden sein soll.",
+          "VG Mainz 3 K 39/23.MZ (06.12.2023, Rheinland-Pfalz) mit ausdrücklichem Bezug auf OVG NRW 10 B 617/09: Ordnungsrechtliche Eingriffsbefugnisse der Gefahrenabwehr können nicht verwirkt werden und unterliegen nicht der Verjährung. Lange Untätigkeit ist nur passive Duldung. Das VG-Urteil ist RP-Recht; die Verwirkungs-Linie ist NRW-OVG und überträgt sich auf Einschreiten nach § 82 BauO NRW.",
+          "Mündliche „Absprache“ mit dem Sachbearbeiter: ohne schriftliche Zusicherung (§ 38 VwVfG) unwirksam. Eigenmächtiger Einbau vor der behaupteten Zusage begründet kein schutzwürdiges Vertrauen.",
         ],
       },
       {
@@ -324,9 +296,9 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
           rows: [
             ["Verwirkung nach 9–11 Jahren", "Eingriffsbefugnisse der Gefahrenabwehr nicht verwirkbar"],
             ["Verjährung der Beseitigung", "Bauordnungsrechtliche Eingriffe verjähren nicht"],
-            ["Mündliche Zusage 2009", "Schriftform der Zusicherung; sonst unwirksam"],
+            ["Mündliche Zusage", "Schriftform der Zusicherung; sonst unwirksam"],
             ["Lange Untätigkeit = Erlaubnis", "Nur passive Duldung, keine Gestattung"],
-            ["Hohe Umbaukosten / Vertrauen", "PVC-Fenster oft zumutbar rückbaubar; Disposition prüfen"],
+            ["Hohe Umbaukosten", "Fenster oft zumutbar rückbaubar; Disposition prüfen"],
           ],
         },
       },
@@ -334,48 +306,38 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         id: "abgrenzung",
         title: "Grenzfälle",
         paragraphs: [
-          "Grenzfall ja: Rechtmäßig genehmigte Öffnung nach damaligem Recht, keine Nutzungsänderung – dann Bestandsschutz-/Vertrauensschutz-Prüfung anders. Grenzfall nein: Schwarz eingebaute Brandwandfenster, nur weil niemand eingeschritten ist.",
-          "Aktive Duldung (klare behördliche Gestattung, Vermögensdisposition) ist etwas anderes als Schweigen – und selbst dann eng. Nicht mit mündlichem Flurgespräch verwechseln.",
+          "Grenzfall ja: Rechtmäßig genehmigte Öffnung nach damaligem Recht – dann Bestandsschutz-/Vertrauensschutz anders. Grenzfall nein: Schwarz eingebaute Brandwandfenster, nur weil niemand eingeschritten ist.",
+          "Aktive Duldung (klare schriftliche Gestattung) ist etwas anderes als Schweigen – und selbst dann eng. Materielle Öffnungsfrage: [Glasbaustein](/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw).",
         ],
       },
       {
         id: "praxis",
         title: "Was Sie tun sollten",
         paragraphs: [
-          "Genehmigungsakte beschaffen, Ist-Zustand dokumentieren, Legalität prüfen. Bei Illegalität: Rückbau oder Abweichungs-/Genehmigungsverfahren – nicht auf Verwirkung spekulieren.",
-          "Kauf von Bestand: Due Diligence auf Brandwand und Öffnungen. Verkäuferaussage „nie beanstandet“ ist kein Nachweis.",
-        ],
-      },
-      {
-        id: "nachweis",
-        title: "Nachweis-Logik",
-        list: [
-          "Alte Genehmigungen und Pläne",
-          "Schriftliche Zusicherungen (falls überhaupt)",
-          "Zeitpunkt Einbau vs. Behördenkontakt",
-          "Ob Rückbau zumutbar ist",
-        ],
-        paragraphs: [
-          "Parallel: [Beseitigungsverfügung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw), [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
+          "Genehmigungsakte beschaffen, Ist-Zustand dokumentieren, Legalität prüfen. Bei Illegalität: Rückbau oder Abweichungsverfahren – nicht auf Verwirkung spekulieren. Hub Abweichung: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Vertrauensschutz und Verwirkung sind einzelfallabhängig. Dieser Ratgeber fasst die Linie zu passiver Duldung im Brandschutz zusammen – ohne Prozessgarantie im konkreten Verwaltungsstreit.",
+          "Vertrauensschutz und Verwirkung sind einzelfallabhängig. Urteil und OVG-Linie ersetzen keine Prozessgarantie und keine Rechtsberatung im konkreten Verwaltungsstreit.",
         ],
       },
     ],
     relatedLinks: [
-      { href: "/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw", label: "Bestandsschutz" },
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw", label: "Beseitigung" },
+      { href: "/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw", label: "Bestandsschutz" },
       { href: "/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw", label: "Fenstertausch" },
-      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "§ 69" },
-      { href: "/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw", label: "Glasbaustein" },
-      { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauakte" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
+      {
+        question: "Schützt jahrelange Duldung vor Beseitigung?",
+        answer:
+          "Nein. Passive Untätigkeit ist nur Duldung ohne Gestattungswirkung. Die Behörde darf den rechtswidrigen Zustand später beenden.",
+      },
       {
         question: "Kann die Bauaufsicht nach 10 Jahren noch einschreiten?",
         answer:
@@ -384,12 +346,12 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
       {
         question: "Reicht eine mündliche Zusage des Sachbearbeiters?",
         answer:
-          "In der Regel nein. Zusicherungen bedürfen der Schriftform; ohne Akte und Schriftstück bleibt der Einwand schwach.",
+          "In der Regel nein. Zusicherungen bedürfen der Schriftform; ohne Akte bleibt der Einwand schwach.",
       },
       {
         question: "Was ist passive Duldung?",
         answer:
-          "Schweigen oder Nicht-Einschreiten ohne Gestattungswirkung. Die Behörde darf den rechtswidrigen Zustand später beenden.",
+          "Schweigen oder Nicht-Einschreiten ohne Gestattungswirkung – keine Erlaubnis und kein Bestandsschutz.",
       },
       {
         question: "Hilft Bestandsschutz § 59 BauO NRW?",
@@ -397,12 +359,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
           "Nur bei rechtmäßigem Bestand. Illegale Öffnungen fallen nicht darunter.",
       },
       {
-        question: "Ist Rückbau immer zumutbar?",
-        answer:
-          "Bei Fenstern oft ja (z. B. wieder Glasbausteine). Das stärkt die Verhältnismäßigkeit der Beseitigung.",
-      },
-      {
-        question: "Was bei Immobilienkauf?",
+        question: "Was bei Immobilienkauf beachten?",
         answer:
           "Brandwand und Öffnungen in der Due Diligence prüfen – „nie beanstandet“ ersetzt keine Genehmigung.",
       },
@@ -412,71 +369,39 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     slug: "nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw",
     title: "Nachbarzustimmung Brandwand: warum der Grenznachbar oft nicht reicht",
     excerpt:
-      "§ 69 verlangt die Würdigung aller öffentlich-rechtlich geschützten Nachbarbelange – auch des Gebäudes hinter der Zufahrt. Was das für Abweichungen und Baulasten heißt.",
-    metaTitle: "Nachbarschutz Brandwand Abweichung NRW | H&S+",
+      "Bei § 69 zählen öffentlich-rechtlich geschützte Belange aller Betroffenen – nicht nur die Unterschrift an der Grenze.",
+    metaTitle: "Nachbarzustimmung Brandwand § 69 NRW | H&S+",
     metaDescription:
-      "Nachbarzustimmung Brandwand NRW: welcher Nachbar zählt, 5-m-Abstand, Baulast, § 69 – warum eine Unterschrift an der Grenze oft nicht genügt.",
+      "Nachbarzustimmung Brandwand: nicht nur der Grenznachbar. Welche Belange § 69 verlangt und warum eine Unterschrift oft nicht reicht.",
     keywords: [
       "Nachbarzustimmung Brandwand",
+      "§ 69 Nachbar Brandschutz",
       "Nachbarschutz Abweichung Brandschutz",
       "Baulast Brandwand 5 Meter",
-      "§ 69 nachbarliche Belange",
       "übernächster Nachbar Brandschutz",
     ],
     sections: [
       {
         id: "einordnung",
-        title: "Eine Unterschrift – und trotzdem abgelehnt",
+        title: "Reicht die Zustimmung des Grenznachbarn für § 69?",
         paragraphs: [
-          "Eigentümer holen die Zustimmung des unmittelbaren Grenznachbarn ein, manchmal sogar ein Baulastangebot – und wundern sich, wenn die Abweichung scheitert. Brandschutz schützt nicht nur den direkten Angrenzer, sondern die öffentlich-rechtlich geschützten Belange weiterer potenziell betroffener Gebäude.",
-          "Das ist der Unterschied zwischen Nachbarfrieden und bauordnungsrechtlicher Abweichung.",
+          "Oft nein. § 69 BauO NRW verlangt die Würdigung aller öffentlich-rechtlich geschützten nachbarlichen Belange und der öffentlichen Belange des § 3 – nicht nur die Unterschrift des unmittelbaren Angrenzers.",
+          "Eigentümer holen die Zustimmung des Grenznachbarn ein und wundern sich, wenn die Abweichung scheitert. Brandschutz schützt auch Gebäude, die im Brandfall hinter der Zufahrt oder im Abstand betroffen wären.",
         ],
       },
       {
         id: "rechtskern",
-        title: "Rechtsprechung: nicht nur der Angrenzer",
+        title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "VG Mainz 2023: Der unmittelbare Nachbar hatte zugestimmt und eine Baulast angeboten. Das Gericht lässt das nicht genügen – betroffen sei auch der Eigentümer des nächsten Gebäudes, das im Brandfall primär betroffen wäre und nicht zugestimmt habe. § 69 beziehe sich gerade nicht nur auf die Interessen der unmittelbaren Angrenzer.",
-          "Der Gesetzgeber hält die Brandwand nur für verzichtbar, wenn 5 m Abstand zu bestehenden oder zulässigen Nachbargebäuden öffentlich-rechtlich gesichert ist. Eine Baulast „nur im Bereich der Fenster“ ersetzt das nicht.",
-          "NRW: § 69 Abs. 1 BauO NRW – Würdigung öffentlich-rechtlich geschützter nachbarlicher Belange und der öffentlichen Belange des § 3. Privatrechtliche Einverständniserklärungen binden die Bauaufsicht nicht.",
-        ],
-      },
-      {
-        id: "abgrenzung",
-        title: "Grenzfälle",
-        paragraphs: [
-          "Grenzfall ja: Alle brandbetroffenen Nachbarn haben zugestimmt, 5-m-Abstand ist öffentlich-rechtlich gesichert, SV-Bescheinigung und Zweckerfüllung liegen vor. Grenzfall nein: Nur Grenznachbar unterschreibt, das Gebäude in 4 m hinter der Zufahrt schweigt.",
-          "Nicht verwechseln: zivilrechtliche Nachbarvereinbarung vs. öffentlich-rechtliche Abweichungszulassung.",
+          "VG Mainz 3 K 39/23.MZ (06.12.2023, Rheinland-Pfalz): Der unmittelbare Nachbar hatte zugestimmt und eine Baulast angeboten – das genügte nicht; betroffen war auch der Eigentümer des nächsten Gebäudes ohne Zustimmung. Kein NRW-Urteil – NRW-Übertragung über § 69 Abs. 1 BauO NRW (nachbarliche Belange) und § 30 (5-m-Abstand).",
+          "Privatrechtliche Einverständniserklärungen binden die Bauaufsicht nicht. Bei nachbarlichen Belangen keine SV-Bescheinigung nach Abs. 1a – die Behörde entscheidet. Brandschutzdienststelle hören, wenn Löschen/Retten berührt sind. Hub: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
         ],
       },
       {
         id: "baulast",
-        title: "Baulast richtig denken",
+        title: "Baulast und 5-Meter-Abstand",
         paragraphs: [
-          "Eine Abstands-Baulast kann die Brandwandpflicht nur ersetzen, wenn sie den gesetzlichen Abstand zum Nachbargebäude tatsächlich sichert. Teillösungen „vor den Fenstern“ oder rein privatrechtliche Absprachen ohne Eintragung reichen nicht.",
-          "Parallel: materielle Öffnungsfrage – [Glasbaustein vs. Fenster](/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw).",
-        ],
-      },
-      {
-        id: "nachweis",
-        title: "Nachweis im Abweichungsverfahren",
-        list: [
-          "Lageplan mit allen Gebäuden im relevanten Abstand",
-          "Liste der brandbetroffenen Nachbarn (nicht nur Grenze)",
-          "Schriftliche Zustimmungen / Baulaststand",
-          "SV-Bescheinigung nach § 69 Abs. 1a wo einschlägig",
-          "Öffentliche Belange Brandschutz (§ 3) begründet",
-        ],
-        paragraphs: [
-          "Ohne diese Akte bleibt § 69 restriktiv – siehe [Abweichung § 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
-        ],
-      },
-      {
-        id: "praxis",
-        title: "Praxis in dichter Bebauung",
-        paragraphs: [
-          "In Reihenhaus- und Blockrandlagen sind mehrere Gebäude im Brandfall betroffen. Wer nur den direkten Nachbarn „mitnimmt“, unterschätzt die Prüfung. Dichte Bebauung verstärkt zudem das öffentliche Interesse am Brandschutz.",
-          "Bei Beseitigungsverfahren hilft Nachbarzustimmung allein ebenfalls nicht – [Beseitigung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw).",
+          "Eine Abstands-Baulast ersetzt die Brandwandpflicht nur, wenn sie den gesetzlichen Abstand zum Nachbargebäude tatsächlich sichert. Teillösungen „vor den Fenstern“ reichen nicht. Materielle Öffnungsfrage: [Glasbaustein vs. Fenster](/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw).",
         ],
       },
       {
@@ -490,45 +415,51 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
             ["1", "Alle brandbetroffenen Gebäude identifiziert?", "Unvollständige Zustimmung"],
             ["2", "5 m Abstand öffentlich-rechtlich gesichert?", "Brandwand bleibt Pflicht"],
             ["3", "Baulast deckt den gesetzlichen Abstand?", "Teillast unzureichend"],
-            ["4", "SV-Bescheinigung vorhanden?", "Abweichung formell schwach"],
+            ["4", "Nachbarliche Belange → behördliche Entscheidung?", "Keine 1a-Bescheinigung"],
             ["5", "Öffentliche Belange § 3 gewürdigt?", "Ablehnung trotz Nachbar-OK"],
           ],
         },
       },
       {
+        id: "praxis",
+        title: "Praxis in dichter Bebauung",
+        paragraphs: [
+          "In Reihenhaus- und Blockrandlagen sind mehrere Gebäude im Brandfall betroffen. Wer nur den direkten Nachbarn „mitnimmt“, unterschätzt die Prüfung. Bei Beseitigung hilft Nachbar-OK allein ebenfalls nicht – [Beseitigung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw).",
+        ],
+      },
+      {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Nachbarschutz im Zivilrecht (BGB) und im Bauordnungsrecht laufen parallel. Dieser Ratgeber behandelt die öffentlich-rechtliche Abweichungs- und Brandwandlogik.",
+          "VG Mainz ist RP-Recht. Zivilrechtlicher Nachbarschutz (BGB) und Bauordnungsrecht laufen parallel. Keine Rechtsberatung im Einzelfall.",
         ],
       },
     ],
     relatedLinks: [
       { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "§ 69 Hub" },
-      { href: "/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw", label: "Glasbaustein" },
       { href: "/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw", label: "Beseitigung" },
+      { href: "/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw", label: "Glasbaustein" },
       { href: "/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw", label: "Duldung" },
-      { href: "/ratgeber/brandabschnitte-bauo-sbauvo-nrw", label: "Brandabschnitte" },
-      { href: "/ratgeber/feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz", label: "FW-Gerätehaus WA" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Reicht die Zustimmung des direkten Nachbarn?",
+        question: "Reicht die Zustimmung des direkten Nachbarn für § 69?",
         answer:
           "Oft nicht. Öffentlich-rechtlich geschützte Belange weiterer brandbetroffener Gebäude und öffentliche Belange des Brandschutzes müssen mitgewürdigt werden.",
       },
       {
-        question: "Was bringt eine Baulast?",
+        question: "Was bringt eine Baulast an der Grenze?",
         answer:
           "Nur wenn sie den gesetzlich geforderten Abstand zum Nachbargebäude tatsächlich sichert – nicht als symbolische Teillösung.",
       },
       {
         question: "Kann die Bauaufsicht trotz aller Zustimmungen ablehnen?",
         answer:
-          "Ja, wenn öffentliche Belange oder formelle Voraussetzungen (z. B. SV-Bescheinigung) entgegenstehen.",
+          "Ja, wenn öffentliche Belange oder formelle Voraussetzungen entgegenstehen. Bei Nachbarn entscheidet die Behörde – keine 1a-Bescheinigung.",
       },
       {
-        question: "Wer ist „brandbetroffen“?",
+        question: "Wer ist brandbetroffen?",
         answer:
           "Gebäude, die bei Versagen der Brandwand im Brandfall primär gefährdet wären – Lageplan und Abstände entscheiden, nicht nur die Grundstücksgrenze.",
       },
@@ -538,9 +469,9 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
           "Bindet die Parteien privatrechtlich – nicht die Bauaufsicht bei § 69.",
       },
       {
-        question: "Gilt das nur für Brandwände?",
+        question: "Ist VG Mainz NRW-Recht?",
         answer:
-          "Der Leitfall betrifft Brandwandöffnungen; die Logik „nicht nur der Angrenzer“ ist für nachbarschützende Brandschutzvorschriften allgemein relevant.",
+          "Nein – Rheinland-Pfalz. Die Logik „nicht nur der Angrenzer“ überträgt sich auf § 69 BauO NRW.",
       },
     ],
   },
@@ -548,10 +479,10 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     slug: "feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz",
     title: "Feuerwehrgerätehaus im Wohngebiet: BauNVO, Nachbar und Brandschutz",
     excerpt:
-      "Das BVerwG stellt klar: Ein Feuerwehrgerätehaus ist Anlage für Verwaltungen und im allgemeinen Wohngebiet gebietsverträglich, wenn es dem Brandschutz der Umgebung dient. Was Nachbarn und Kommunen daraus ableiten.",
+      "BVerwG: Feuerwehrgerätehaus ist Anlage für Verwaltungen und im WA gebietsverträglich, wenn es dem Brandschutz der Umgebung dient.",
     metaTitle: "Feuerwehrgerätehaus Wohngebiet BauNVO | H&S+",
     metaDescription:
-      "Feuerwehrgerätehaus im WA: BauNVO Anlage für Verwaltungen, Gebietsverträglichkeit, Nachbarrechte, BHKG – Leitsätze BVerwG und NRW-Praxis.",
+      "Feuerwehrgerätehaus im Wohngebiet: BauNVO Anlage für Verwaltungen, Gebietsverträglichkeit. Leitsätze BVerwG 4 C 6.20 und NRW-Praxis.",
     keywords: [
       "Feuerwehrgerätehaus Wohngebiet",
       "Feuerwehrhaus BauNVO",
@@ -562,62 +493,27 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Hilfsfrist braucht Nähe – Nachbarn fürchten Lärm",
+        title: "Darf ein Feuerwehrgerätehaus im Wohngebiet stehen?",
         paragraphs: [
-          "Freiwillige Feuerwehren brauchen Standorte in der Nähe der zu schützenden Bebauung. Gleichzeitig wehren sich Nachbarn gegen Sirenen, Ausrückverkehr und „Gewerbe im Wohngebiet“. Das ist ein planungsrechtlicher Konflikt mit unmittelbarem Brandschutzbezug.",
-          "Für Kommunen und Planer: Zulässigkeit im Baugebiet klären, bevor der Nachbarprozess die Zeitschiene sprengt.",
+          "Ja – nach dem BVerwG ist ein Feuerwehrgerätehaus eine Anlage für Verwaltungen und im allgemeinen Wohngebiet gebietsverträglich, wenn es nach Größe und Ausstattung maßgeblich dem Brandschutz der näheren Umgebung dient.",
+          "Freiwillige Feuerwehren brauchen Standorte nahe der Bebauung; Nachbarn fürchten Sirenen und Ausrückverkehr. Das ist Planungsrecht mit Brandschutzbezug – getrennt von Brandwand-Fällen.",
         ],
       },
       {
         id: "rechtskern",
-        title: "Leitsätze des BVerwG (4 C 6.20)",
+        title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "Das Bundesverwaltungsgericht (Urteil vom 29.03.2022, NRW-Sachverhalt, Vorinstanz OVG Münster) hält fest: (1) Ein Feuerwehrgerätehaus ist eine Anlage für Verwaltungen im Sinne der BauNVO. (2) Dient es nach Größe und Ausstattung maßgeblich auch dem effektiven Brandschutz in der näheren Umgebung, ist es im allgemeinen Wohngebiet gebietsverträglich. (3) Ein Grundstücksnachbar hat keinen Anspruch auf eine ermessensfehlerfreie Entscheidung über die Erteilung einer Ausnahme in dem entschiedenen Kontext.",
-          "BHKG-Bezug: Leistungsfähige Feuerwehren und örtlicher Brandschutz (§§ 2, 3 BHKG NRW) setzen räumliche Nähe voraus – das stützt die Gebietsverträglichkeit, ersetzt aber nicht Immissionsschutz und Rücksichtnahme.",
+          "BVerwG 4 C 6.20 (Urteil vom 29.03.2022; NRW-Sachverhalt, Vorinstanz OVG Münster): (1) Feuerwehrgerätehaus = Anlage für Verwaltungen (BauNVO). (2) Dient es dem effektiven Brandschutz der Umgebung, ist es im WA gebietsverträglich. (3) Kein Nachbaranspruch auf ermessensfehlerfreie Ausnahme-Entscheidung in dem entschiedenen Kontext.",
+          "NRW-Übertragung: BauNVO + BHKG (§§ 2, 3 – leistungsfähige Feuerwehren, örtlicher Brandschutz). Hilfsfristen und Gemeindeklage: [BHKG Hilfsfristen](/ratgeber/bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw).",
         ],
       },
       {
         id: "abgrenzung",
         title: "Grenzfälle",
         paragraphs: [
-          "Grenzfall ja: Ortsübliches Gerätehaus der Freiwilligen Feuerwehr, Ausrückbereich deckt das Wohngebiet, Dimensionierung passt. Grenzfall nein: Überdimensionierter Standort mit überörtlicher Ausbildung, Werkstatt und Logistik ohne Bezug zum WA – dann andere Gebietskategorie prüfen.",
-          "BauNVO-Zulässigkeit ≠ bauordnungsrechtlicher Brandschutz des Gebäudes selbst (BauO/SBauVO) – beides parallel.",
+          "Grenzfall ja: Ortsübliches Gerätehaus der Freiwilligen Feuerwehr, Ausrückbereich deckt das Wohngebiet. Grenzfall nein: Überdimensionierter Standort mit überörtlicher Logistik ohne WA-Bezug.",
+          "BauNVO-Zulässigkeit ≠ bauordnungsrechtlicher Brandschutz des Gebäudes selbst – beides parallel.",
         ],
-      },
-      {
-        id: "nachbar",
-        title: "Was Nachbarn trotzdem rügen können",
-        paragraphs: [
-          "Kein Anspruch auf fehlerfreie Ausnahme-Ermessensentscheidung heißt nicht: keine Rechte. Gebietscharakter, Rücksichtnahme und Immissionen (Ausrücken, Sondersignal, TA Lärm) bleiben prüfbar – getrennt vom Leitsatz zur Verwaltungsanlage.",
-          "Nachbarschutz bei Brandwänden ist ein anderes Thema: [Nachbarschutz Brandwand](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw).",
-        ],
-      },
-      {
-        id: "nachweis",
-        title: "Nachweise für Kommune und Genehmigung",
-        list: [
-          "Einordnung BauNVO / Bebauungsplan / § 34 BauGB",
-          "Nutzungsbeschreibung: Fahrzeuge, Ausrückbereich, Personal",
-          "Begründung Gebietsverträglichkeit / Brandschutz der Umgebung",
-          "Schallschutz / Betriebszeiten wo gefordert",
-          "Bauordnungsrechtlicher Brandschutznachweis des Gebäudes",
-        ],
-        paragraphs: [
-          "Schnittstelle Zufahrt und Löschwasser: [Feuerwehrzufahrten](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw), [BHKG Gemeinde](/ratgeber/bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw).",
-        ],
-      },
-      {
-        id: "praxis",
-        title: "Praxis",
-        paragraphs: [
-          "Früh Bürgerinformation und schalltechnische Klärung – parallel zur BauNVO-Argumentation. Wer nur „Brandschutz braucht Nähe“ sagt und Immissionen ignoriert, verliert Akzeptanz und Verfahren.",
-          "Abstimmung mit der Brandschutzdienststelle bei eigenen Bauvorhaben bleibt ein anderes Verfahren – [Feuerwehr vor Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
-        ],
-      },
-      {
-        id: "pruefkatalog",
-        title: "Prüfkatalog Standort",
-        paragraphs: [],
         table: {
           caption: "Feuerwehrgerätehaus im WA",
           headers: ["Nr.", "Frage", "Bezug"],
@@ -627,15 +523,35 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
             ["3", "Gebietscharakter WA gewahrt?", "Nachbar / Planung"],
             ["4", "Immissionen / Rücksichtnahme geklärt?", "TA Lärm u. a."],
             ["5", "BauO-Brandschutz des Hauses?", "Konzept / SBauVO"],
-            ["6", "BHKG-Aufgabe der Gemeinde?", "Leistungsfähige Feuerwehr"],
           ],
         },
+      },
+      {
+        id: "nachbar",
+        title: "Was Nachbarn trotzdem rügen können",
+        paragraphs: [
+          "Kein Anspruch auf fehlerfreie Ausnahme heißt nicht: keine Rechte. Gebietscharakter, Rücksichtnahme und Immissionen bleiben prüfbar. Brandwand-Nachbarschutz ist ein anderes Thema: [Nachbarschutz Brandwand](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw).",
+        ],
+      },
+      {
+        id: "nachweis",
+        title: "Nachweise für Kommune und Genehmigung",
+        list: [
+          "Einordnung BauNVO / Bebauungsplan / § 34 BauGB",
+          "Nutzungsbeschreibung: Fahrzeuge, Ausrückbereich, Personal",
+          "Begründung Gebietsverträglichkeit",
+          "Schallschutz wo gefordert",
+          "Bauordnungsrechtlicher Brandschutznachweis des Gebäudes",
+        ],
+        paragraphs: [
+          "Zufahrt und Löschwasser: [Feuerwehrzufahrten](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw).",
+        ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Örtliche Bebauungspläne können Abweichendes regeln. Dieser Ratgeber fasst die bundesgerichtliche Linie zur WA-Zulässigkeit zusammen – ohne Ersatz für die konkrete Genehmigung.",
+          "Örtliche Bebauungspläne können Abweichendes regeln. BVerwG 4 C 6.20 ersetzt keine konkrete Genehmigung und keine Rechtsberatung. Kein Mainz-Brandwand-Fall.",
         ],
       },
     ],
@@ -643,15 +559,14 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
       { href: "/ratgeber/bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw", label: "BHKG / Hilfsfristen" },
       { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Zufahrten" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "FW vor Bauamt" },
-      { href: "/ratgeber/loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405", label: "Löschwasser" },
-      { href: "/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw", label: "Nachbar Brandwand" },
-      { href: "/brandschutzberatung-koeln", label: "Beratung" },
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Ist jedes Feuerwehrhaus im WA zulässig?",
+        question: "Darf ein Feuerwehrgerätehaus im Wohngebiet stehen?",
         answer:
-          "Nein. Es muss als Anlage für Verwaltungen einordenbar und gebietsverträglich sein – insbesondere wenn es dem Brandschutz der Umgebung dient.",
+          "Ja, wenn es als Anlage für Verwaltungen einordenbar und gebietsverträglich ist – insbesondere wenn es dem Brandschutz der Umgebung dient (BVerwG 4 C 6.20).",
       },
       {
         question: "Können Nachbarn den Standort verhindern?",
@@ -659,7 +574,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
           "Nachbarklagen sind möglich. Das BVerwG begrenzt den Anspruch auf ermessensfehlerfreie Ausnahme; Gebietscharakter und Immissionen bleiben prüfbar.",
       },
       {
-        question: "Gilt das für Berufsfeuerwehr-Wachen?",
+        question: "Gilt das für große Berufsfeuerwehr-Wachen?",
         answer:
           "Größere Wachen können andere Gebietstypen brauchen. Größe und Ausstattung entscheiden mit.",
       },
@@ -669,9 +584,9 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
           "Immissionsschutz und Rücksichtnahme – getrennt von der BauNVO-Einordnung als Verwaltungsanlage.",
       },
       {
-        question: "Bezug BHKG?",
+        question: "Welches Urteil ist maßgeblich?",
         answer:
-          "Örtlicher Brandschutz und leistungsfähige Feuerwehren erklären die Standortnähe – siehe BHKG-Ratgeber zu Weisung und Klagebefugnis.",
+          "BVerwG 4 C 6.20 vom 29.03.2022 (NRW-Sachverhalt). Nicht verwechseln mit VG Mainz zu Brandwandöffnungen.",
       },
       {
         question: "Braucht das Gerätehaus ein Brandschutzkonzept?",
@@ -684,68 +599,37 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
     slug: "bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw",
     title: "BHKG NRW: wann Gemeinden Brandschutz rügen dürfen – und wann nicht",
     excerpt:
-      "Hilfsfristen sind in NRW weisungsfähig – die Gemeinde kann sie in der Planfeststellung nicht als Selbstverwaltungsrecht rügen. Was trotzdem wehrfähig bleibt und wie Vorhabenträger damit umgehen.",
-    metaTitle: "BHKG Hilfsfristen Gemeinde Klagebefugnis | H&S+",
+      "Hilfsfristen sind in NRW weisungsfähig – die Gemeinde kann sie nicht als Selbstverwaltungsrecht rügen. Was trotzdem wehrfähig bleibt.",
+    metaTitle: "Gemeinde Klagebefugnis Brandschutz BHKG | H&S+",
     metaDescription:
-      "BHKG NRW Klagebefugnis: weisungsfreie Aufgaben, Hilfsfristen § 54, Löschwasser, Gemeinde vs. Planfeststellung – Leitlinie BVerwG für NRW-Praxis.",
+      "Gemeinde Klagebefugnis Brandschutz: Hilfsfristen weisungsfähig, wehrfähiger Kern weisungsfrei. Leitlinie BVerwG 7 A 10.20 zum BHKG NRW.",
     keywords: [
-      "BHKG NRW Hilfsfristen",
       "Gemeinde Klagebefugnis Brandschutz",
+      "Hilfsfristen BHKG",
+      "BHKG NRW Hilfsfristen",
       "weisungsfreie Aufgabe Feuerwehr",
       "§ 54 BHKG Weisung",
-      "kommunaler Brandschutz Planfeststellung",
     ],
     sections: [
       {
         id: "einordnung",
-        title: "Pflichtaufgabe nach Weisung – mit wehrfähigem Kern",
+        title: "Darf die Gemeinde Hilfsfristen in der Planfeststellung rügen?",
         paragraphs: [
-          "In NRW ist Brandschutz Pflichtaufgabe der Gemeinde zur Erfüllung nach Weisung (§ 2 Abs. 2 BHKG). Das bedeutet nicht, dass die Gemeinde „den Brandschutz“ immer einklagen kann – und nicht, dass sie nie Rechte hat.",
-          "Für Vorhabenträger, Kommunen und Gutachter: die Trennlinie weisungsfrei vs. weisungsgebunden entscheidet über Rügebefugnis in Planfeststellung und Bauleitplanung.",
+          "Nein – nicht als Selbstverwaltungsrecht. Hilfsfristen können in NRW Gegenstand einer Weisung nach § 54 Abs. 3 Satz 1 BHKG sein; der wehrfähige Kern der Gemeinde liegt nur bei weisungsfreier Aufgabenwahrnehmung.",
+          "Brandschutz ist Pflichtaufgabe nach Weisung (§ 2 Abs. 2 BHKG). Das heißt nicht „nie Rechte“ und nicht „immer einklagbar“. Für Vorhabenträger entscheidet die Trennlinie weisungsfrei vs. weisungsgebunden.",
         ],
       },
       {
         id: "rechtskern",
-        title: "BVerwG 7 A 10.20 – die Leitlinie",
+        title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "Das Bundesverwaltungsgericht (23.06.2021): Nordrhein-westfälischen Gemeinden kommt hinsichtlich Brandschutz und Hilfeleistung eine wehrfähige Rechtsposition zu, wenn und soweit ein Bereich weisungsfreier Aufgabenwahrnehmung betroffen ist.",
-          "Hilfsfristen: In NRW nicht schon gesetzlich abschließend geregelt; sie können Gegenstand einer Weisung nach § 54 Abs. 3 Satz 1 BHKG sein. Damit fehlt der Gemeinde die rügefähige Position, Hilfsfrist-Verletzungen als Selbstverwaltungsrecht geltend zu machen. Ähnlich Eintreffzeiten Rettungsdienst (ausdrückliches Weisungsrecht im RettG NRW).",
-          "Löschwasserversorgung (§ 3 Abs. 2 Satz 2 BHKG): wehrfähig zweifelhaft, weil allgemeine Weisung möglich – im Leitfall oft offen gelassen, wenn Unklarheiten im Verfahren ausgeräumt wurden.",
-        ],
-      },
-      {
-        id: "abgrenzung",
-        title: "Grenzfälle",
-        paragraphs: [
-          "Grenzfall ja: Gemeinde rügt eine wesentliche Erschwerung weisungsfreier Aufgabenerfüllung mit Substanz (Standorte, Löschangriff, konkrete Entnahme) – nicht nur „Hilfsfrist wird reißend“. Grenzfall nein: Bloße Hilfsfrist-Behauptung ohne weisungsfreien Kern.",
-          "Nachbargemeinde gegen Bebauungsplan mit besonderen Brandgefahren: eigene Linie (BVerwG 4 BN 18.21) – Antragsbefugnis als Trägerin der Feuerwehr prüfen, nicht mit 7 A 10.20 verwechseln.",
-        ],
-      },
-      {
-        id: "praxis",
-        title: "Praxis für Vorhabenträger und Kommunen",
-        paragraphs: [
-          "Früh Abstimmung mit der örtlichen Feuerwehr zu Löschwasser, Querungen, Rettungszugängen – schriftlich. Unklarheiten in Protokollen und Planunterlagen ausräumen, bevor gestritten wird.",
-          "Bauvorhaben (nicht Planfeststellung): [Feuerwehrabstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw), [Löschwasser](/ratgeber/loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405), Standort Gerätehaus: [Feuerwehrgerätehaus WA](/ratgeber/feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz).",
-        ],
-      },
-      {
-        id: "nachweis",
-        title: "Was in Gutachten und Stellungnahmen stehen muss",
-        list: [
-          "Welcher BHKG-Belang ist betroffen?",
-          "Ist er weisungsfrei oder weisungsgebunden?",
-          "Wesentliche Erschwerung substanziiert (nicht nur Schlagwort Hilfsfrist)",
-          "Löschwasser: eigene Rüge oder einvernehmliche Planlösung?",
-          "Dokumentation der Abstimmung mit der Feuerwehr",
-        ],
-        paragraphs: [
-          "Wer nur „Brandschutz der Gemeinde“ schreibt, ohne die Weisungslinie, verliert in der Zulässigkeitsprüfung.",
+          "BVerwG 7 A 10.20 (Urteil vom 23.06.2021): Nordrhein-westfälischen Gemeinden kommt hinsichtlich Brandschutz und Hilfeleistung eine wehrfähige Rechtsposition zu, soweit ein Bereich weisungsfreier Aufgabenwahrnehmung betroffen ist. Hilfsfristen: nicht abschließend gesetzlich geregelt, Weisung möglich → keine rügefähige Position als Selbstverwaltung. Ähnlich Eintreffzeiten Rettungsdienst (RettG NRW).",
+          "Löschwasserversorgung (§ 3 Abs. 2 Satz 2 BHKG): wehrfähig zweifelhaft, weil allgemeine Weisung möglich – im Leitfall oft offen gelassen, wenn Unklarheiten ausgeräumt wurden. Standort Gerätehaus: [Feuerwehrgerätehaus WA](/ratgeber/feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz).",
         ],
       },
       {
         id: "tabelle",
-        title: "Aufgaben und Wehrfähigkeit (Überblick)",
+        title: "Aufgaben und Wehrfähigkeit",
         paragraphs: [],
         table: {
           caption: "BHKG-Belange nach der Leitlinie",
@@ -755,9 +639,16 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
             ["Eintreffzeiten Rettungsdienst", "RettG NRW Weisung", "Nein"],
             ["Leistungsfähige Feuerwehr / Organisation", "weisungsfreier Kern möglich", "Ja, soweit weisungsfrei"],
             ["Löschwasser örtlich angemessen", "§ 3 Abs. 2 Satz 2; Weisung möglich", "Zweifelhaft / fallbezogen"],
-            ["Konkrete Rettungszugänge / Entnahme", "Planabstimmung", "Oft über Sachaufklärung, nicht Hilfsfrist-Rüge"],
+            ["Konkrete Rettungszugänge / Entnahme", "Planabstimmung", "Über Sachaufklärung, nicht Hilfsfrist-Rüge"],
           ],
         },
+      },
+      {
+        id: "praxis",
+        title: "Praxis für Vorhabenträger und Kommunen",
+        paragraphs: [
+          "Früh Abstimmung mit der Feuerwehr zu Löschwasser, Querungen, Rettungszugängen – schriftlich. Unklarheiten ausräumen, bevor gestritten wird. Bauvorhaben: [Feuerwehrabstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw), [Löschwasser](/ratgeber/loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405).",
+        ],
       },
       {
         id: "pruefkatalog",
@@ -779,7 +670,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "BHKG und Planfeststellungsrecht sind komplex. Dieser Ratgeber ordnet die wehrfähige Gemeindeposition ein – ohne Prozessstrategie im Einzelfall und ohne Aussage zu jedem Belang außerhalb Brandschutz/Hilfeleistung.",
+          "BVerwG 7 A 10.20 betrifft BHKG und Planfeststellung – kein Brandwand-/§-69-Fall. Keine Prozessstrategie und keine Rechtsberatung im Einzelfall. BVerwG 7 B 8.24 (Eisenbahn/Brandschutz) wird hier nicht als eigener Ratgeber geführt.",
         ],
       },
     ],
@@ -787,30 +678,29 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
       { href: "/ratgeber/feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz", label: "FW-Gerätehaus WA" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "FW vor Bauamt" },
       { href: "/ratgeber/loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405", label: "Löschwasser" },
-      { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Zufahrten" },
-      { href: "/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw", label: "Beseitigung (BauO)" },
-      { href: "/brandschutzberatung-koeln", label: "Beratung" },
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
+      {
+        question: "Darf die Gemeinde Hilfsfristen als Selbstverwaltung rügen?",
+        answer:
+          "Nein. Hilfsfristen können in NRW Gegenstand staatlicher Weisung nach § 54 Abs. 3 BHKG sein – dann fehlt die wehrfähige Position (BVerwG 7 A 10.20).",
+      },
+      {
+        question: "Wann hat die Gemeinde eine wehrfähige Position?",
+        answer:
+          "Soweit ein weisungsfreier Aufgabenbereich des Brandschutzes/der Hilfeleistung wesentlich erschwert wird und das substanziiert dargelegt wird.",
+      },
       {
         question: "Was ist das BHKG NRW?",
         answer:
           "Das Gesetz über den Brandschutz, die Hilfeleistung und den Katastrophenschutz – Grundlage kommunaler Feuerwehr- und Gefahrenabwehraufgaben in NRW.",
       },
       {
-        question: "Warum sind Hilfsfristen nicht rügbar?",
-        answer:
-          "Weil sie in NRW Gegenstand möglicher staatlicher Weisung nach § 54 Abs. 3 BHKG sein können – der weisungsfreie Kern der Selbstverwaltung ist dann nicht berührt.",
-      },
-      {
-        question: "Kann die Gemeinde gar nichts rügen?",
-        answer:
-          "Doch – soweit ein weisungsfreier Aufgabenbereich wesentlich erschwert wird und das substanziiert dargelegt wird.",
-      },
-      {
         question: "Gilt das nur für Bahn-Planfeststellung?",
         answer:
-          "Der Leitfall betraf Eisenbahn-Planfeststellung; die BHKG-Dogmatik zur wehrfähigen Position ist darüber hinaus für die kommunale Brandschutzrolle relevant.",
+          "Der Leitfall betraf Eisenbahn-Planfeststellung; die Dogmatik zur wehrfähigen Position ist darüber hinaus für die kommunale Brandschutzrolle relevant.",
       },
       {
         question: "Was sollen Investoren tun?",

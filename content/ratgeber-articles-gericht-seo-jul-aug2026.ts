@@ -1,7 +1,7 @@
 /**
- * Juli 2026 – Recht & Praxis (Gerichtstriage): nur qualitativ ausreichende Artikel (≥450 Wörter).
+ * Juli 2026 – Recht & Praxis: Beseitigungsverfügung (Einstieg der Serie).
  * Quelle: docs/quellen/Gerichtsbeschluesse-Brandschutz-Triage.md
- * Kurze Catch-up-Stubs (Jul/Aug 2026) entfernt – Qualität vor Kalenderfüllung.
+ * Kurze Catch-up-Stubs entfernt – Qualität vor Kalenderfüllung.
  */
 import type { RatgeberArticle } from "./ratgeber-types";
 
@@ -10,34 +10,33 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
     slug: "beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw",
     title: "Beseitigungsverfügung Brandschutz: wann § 69 nicht mehr rettet",
     excerpt:
-      "Fenster in der Brandwand, fehlende Abweichungszulassung, Frist und Zwangsgeld – wie bauaufsichtliches Einschreiten entsteht und was Eigentümer vor dem Bescheid klären müssen.",
-    metaTitle: "Beseitigungsverfügung Brandschutz § 69 | H&S+",
+      "Ohne wirksame Abweichung bleibt ein rechtswidriger Brandwandzustand angreifbar. Anhörung, Frist, Zwangsgeld – was Eigentümer vor dem Bescheid klären müssen.",
+    metaTitle: "Beseitigungsverfügung Brandschutz NRW | H&S+",
     metaDescription:
-      "Beseitigungsverfügung Brandschutz NRW: Brandwand, Abweichung § 69, SV-Bescheinigung, Nachbarschutz – was vor der Verfügung zu prüfen ist.",
+      "Beseitigungsverfügung Brandschutz: ohne Abweichung § 69 angreifbar, Anhörung–Frist–Zwangsgeld. VG Mainz-Logik, NRW-Übertragung BauO.",
     keywords: [
       "Beseitigungsverfügung Brandschutz",
+      "Fenster Brandwand beseitigen",
       "bauaufsichtliche Verfügung Brandschutz",
       "Abweichung § 69 Brandwand",
-      "Fenster Brandwand beseitigen",
-      "SV-Bescheinigung Abweichung",
+      "Zwangsgeld Bauaufsicht",
     ],
     sections: [
       {
         id: "einordnung",
-        title: "Was eine Beseitigungsverfügung im Brandschutz bedeutet",
+        title: "Muss ich Fenster in der Brandwand beseitigen?",
         paragraphs: [
-          "Eine bauaufsichtliche Beseitigungsverfügung verpflichtet Eigentümer, einen rechtswidrigen Zustand zu beenden – typisch: Öffnungen in einer Brandwand verschließen, Anbauten entfernen oder Nachrüstungen herstellen. Im Brandschutz geht es oft um Abstandsflächen und Brandwände, weil diese dem Schutz von Nachbarn und der Feuerwehr dienen.",
-          "Gerichte halten fest: Ohne wirksame Abweichungszulassung bleibt der materiell rechtswidrige Zustand angreifbar – selbst wenn der Nachbar zustimmt. Für NRW gilt parallel [§ 69 BauO NRW](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw): Zweck der Norm muss erreicht bleiben, öffentliche Belange und nachbarliche Interessen zählen.",
-          "Grenzfall ja: Eigentümer beantragt früh Abweichung mit SV-Bescheinigung und ausgleichenden Maßnahmen, bevor die Bauaufsicht einschreitet. Grenzfall nein: Fenster in der Brandwand seit Jahren geduldet, keine Zulassung – Duldung ersetzt keine Abweichung.",
+          "Ja – wenn die Öffnung materiell rechtswidrig ist und keine wirksame Abweichung nach § 69 BauO NRW vorliegt. Bloße Nachbarzustimmung oder jahrelange Untätigkeit der Behörde ersetzen keine Zulassung.",
+          "Eine Beseitigungsverfügung verpflichtet Eigentümer, den rechtswidrigen Zustand zu beenden: typisch Öffnungen in der Brandwand schließen, Anbauten entfernen oder Nachrüstungen herstellen. Der Ablauf ist Anhörung → Verfügung mit Frist → Zwangsgeld bei Versäumnis.",
+          "Grenzfall ja: Früh Abweichung mit SV-Bescheinigung und Zweckerfüllung, bevor die Bauaufsicht einschreitet. Grenzfall nein: Fenster seit Jahren „geduldet“, keine Zulassung – Einschreiten bleibt möglich.",
         ],
       },
       {
         id: "rechtskern",
-        title: "Was die Rechtsprechung betont",
+        title: "Was Gerichte dazu sagen",
         paragraphs: [
-          "In einem verwaltungsgerichtlichen Fall zur Beseitigung von Fenstern in einer Brandwand (VG Mainz 2023, Veröffentlichungsfassung) stand die Frage: Reicht Nachbarzustimmung für eine Abweichung – oder braucht es die Bescheinigung einer sachverständigen Person und die Beachtung öffentlicher Belange?",
-          "Kern: Brandschutz und Brandwandrecht sind restriktiv; fehlende SV-Bescheinigung und entgegenstehende öffentliche bzw. nachbarliche Interessen können eine Abweichung scheitern lassen. Die NRW-Übertragung: § 69 Abs. 1 und Abs. 1a BauO NRW, MHKBD-Erlass zu § 69, Brandwände nach § 30 BauO NRW.",
-          "Brandwände sollen Brandübertragung verhindern. Offene Fenster zur Nachbargrenze sind deshalb der klassische Konflikt – nicht jedes „Lichtloch“ lässt sich mit einer Abweichung retten.",
+          "VG Mainz 3 K 39/23.MZ (Urteil vom 06.12.2023, Rheinland-Pfalz): Ohne wirksame Abweichungszulassung bleibt der rechtswidrige Brandwandzustand angreifbar; Nachbarzustimmung allein rettet nicht. Das ist kein NRW-Urteil – die NRW-Übertragung läuft über § 30, § 69 und § 82 BauO NRW sowie den MHKBD-Erlass zu § 69 (Verwaltungsvorschrift, kein Gesetz).",
+          "Für NRW gilt: Zweck der Brandwandvorschrift, öffentliche Belange (§ 3) und öffentlich-rechtlich geschützte Nachbarbelange müssen gewahrt sein. Bei nachbarlichen Belangen keine SV-Bescheinigung nach § 69 Abs. 1a – die Bauaufsicht entscheidet. Brandschutzdienststelle hören, wenn Löschen oder Retten berührt sind. Eine Abweichung schließt die Genehmigungsfreistellung aus (§ 63 Abs. 2 Nr. 4); Abs. 1a rettet die Freistellung nicht.",
         ],
       },
       {
@@ -45,23 +44,23 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
         title: "Ablauf: Anhörung, Verfügung, Zwang",
         paragraphs: [
           "Typisch: Anhörung zum beabsichtigten Einschreiten, dann Verfügung mit Frist zur Beseitigung und Androhung von Zwangsgeld. Wer erst dann reagiert, hat wenig Verhandlungsspielraum.",
-          "Vor der Verfügung: Bestand und Genehmigungslage klären, Brandschutzlage planen, Abweichung oder Kompensation prüfen – [Bauaufsicht Unterlagen](/ratgeber/bauaufsicht-unterlagen-koeln), [Zwischenbescheid](/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln).",
+          "Vor der Verfügung: Genehmigungslage und Pläne klären, Brandschutzlage planen, Abweichung oder Verschluss prüfen – in Köln und NRW über die untere Bauaufsicht. Orientierung: [Bauaufsicht Unterlagen](/ratgeber/bauaufsicht-unterlagen-koeln).",
         ],
       },
       {
         id: "nachweis",
-        title: "Nachweis-Logik vor dem Einschreiten",
+        title: "Drei Optionen vor dem Einschreiten",
         paragraphs: [
-          "Option A: Materielle Anforderung erfüllen (Brandwand schließen). Option B: Abweichung § 69 mit SV-Bescheinigung und nachgewiesener Zweckerfüllung. Option C: ausgleichende Maßnahmen im Konzept bei Sonderbauten – nicht dasselbe wie § 69.",
-          "Pläne Ist/Soll, Brandschutzstellungnahme oder Konzept, Nachbarbeteiligung dokumentieren – ohne Papier keine belastbare Verteidigung. § 69 Abs. 1a: Die SV-Bescheinigung kann den Zulassungsakt ersetzen, nicht die Schutzpflicht nach § 3 BauO.",
+          "Option A: Materielle Anforderung erfüllen (Brandwand feuerbeständig schließen). Option B: Abweichung § 69 mit Nachweis der Zweckerfüllung – bei Nachbarn behördlich, sonst ggf. SV nach Abs. 1a. Option C: ausgleichende Maßnahmen im Konzept bei großen Sonderbauten – nicht dasselbe wie § 69.",
+          "Was die Öffnung rechtlich ist und ob ein „Fenstertausch“ überhaupt § 62 greift: [Glasbaustein vs. Fenster](/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw), [Fenstertausch / Nutzungsänderung](/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw). Hub: [Abweichung § 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
         ],
       },
       {
         id: "praxis",
         title: "Typische Fälle",
         paragraphs: [
-          "Bestandsgebäude mit nachträglich eingesetzten Öffnungen zur Nachbargrenze: Bauaufsicht fordert feuerbeständigen Verschluss. Wohnungszusammenlegung ohne Brandwand-Nachweis: Verfügung droht parallel zum Bauantrag.",
-          "Umbau mit „seit 20 Jahren so“: Vertrauensschutz greift nur bei rechtmäßiger Genehmigung. Bloße Duldung heilt keinen rechtswidrigen Zustand – siehe auch [Bestandsschutz](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw).",
+          "Bestandsgebäude mit nachträglich eingesetzten Öffnungen zur Nachbargrenze: Bauaufsicht fordert Verschluss. Wohnungszusammenlegung ohne Brandwand-Nachweis: Verfügung droht parallel zum Bauantrag.",
+          "„Seit 20 Jahren so“: Vertrauensschutz greift nur bei rechtmäßiger Genehmigung – Details zu Duldung: [Duldung / Verwirkung](/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw).",
         ],
       },
       {
@@ -72,11 +71,12 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
           caption: "Vor bauaufsichtlichem Einschreiten",
           headers: ["Nr.", "Frage", "Wenn nein"],
           rows: [
-            ["1", "Genehmigung / Bestandsschutz belegt?", "Einschreiten wahrscheinlich"],
+            ["1", "Genehmigung / rechtmäßiger Bestand belegt?", "Einschreiten wahrscheinlich"],
             ["2", "Brandwand / § 30 erfüllt?", "Abweichung oder Beseitigung"],
-            ["3", "§-69-Antrag oder SV-Bescheinigung?", "Keine wirksame Abweichung"],
-            ["4", "Nachbarschutz und öffentliche Belange geprüft?", "Abweichung scheitert oft"],
-            ["5", "Frist und Zwangsgeld im Bescheid?", "Sofort handeln, nicht aussitzen"],
+            ["3", "Wirksame §-69-Zulassung (Behörde oder 1a ohne Nachbarn)?", "Zustand bleibt angreifbar"],
+            ["4", "Brandschutzdienststelle gehört (Löschen/Retten)?", "Abweichung riskant"],
+            ["5", "Freistellung § 63 geplant trotz Abweichung?", "Freistellung ausgeschlossen"],
+            ["6", "Frist / Zwangsgeld im Bescheid?", "Sofort handeln, nicht aussitzen"],
           ],
         },
       },
@@ -84,51 +84,53 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber erklärt die Systematik bauaufsichtlicher Beseitigung und Abweichung – ohne Einzelfallberatung und ohne Wiedergabe vollständiger Urteile. Maßgeblich sind BauO NRW, zuständige Behörde und das konkrete Bescheidswerk.",
+          "VG Mainz 3 K 39/23.MZ ist rheinland-pfälzisches Landesrecht – kein NRW-Urteil. Die Übersicht überträgt die Logik auf BauO NRW; sie ersetzt keine Rechtsberatung und keine Entscheidung der zuständigen Behörde im Einzelfall.",
         ],
       },
     ],
     relatedLinks: [
       { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw", label: "Glasbaustein vs. Fenster" },
-      { href: "/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw", label: "Fenstertausch / NU" },
       { href: "/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw", label: "Duldung / Verwirkung" },
+      { href: "/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw", label: "Fenstertausch / NU" },
       { href: "/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw", label: "Welcher Nachbar?" },
-      { href: "/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw", label: "Bestandsschutz" },
-      { href: "/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln", label: "Zwischenbescheid" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept / Stellungnahme" },
       { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Reicht die Zustimmung des Nachbarn für eine Brandschutz-Abweichung?",
+        question: "Muss ich Fenster in der Brandwand beseitigen?",
         answer:
-          "Oft nicht allein. Öffentliche Belange des Brandschutzes und – je nach Norm – eine SV-Bescheinigung können erforderlich sein. Nachbarzustimmung ersetzt keine materielle Zweckerfüllung der Brandwandvorschrift.",
+          "Ja, wenn sie materiell rechtswidrig sind und keine wirksame Abweichung nach § 69 BauO NRW vorliegt. Ohne Zulassung bleibt der Zustand angreifbar – unabhängig davon, wie lange die Fenster schon da sind.",
+      },
+      {
+        question: "Was ist eine Beseitigungsverfügung im Brandschutz?",
+        answer:
+          "Ein Bescheid der Bauaufsicht, der Eigentümer verpflichtet, einen rechtswidrigen Zustand zu beenden – typisch Öffnungen in der Brandwand zu schließen. Oft mit Frist und Androhung von Zwangsgeld.",
       },
       {
         question: "Was passiert, wenn ich die Beseitigungsfrist versäume?",
         answer:
-          "Typisch Zwangsgeld und erneute Fristen. Parallel kann der Zustand weiter rechtswidrig bleiben – eine verspätete Abweichung ist möglich, aber riskanter und teurer.",
+          "Typisch Zwangsgeld und erneute Fristen. Parallel bleibt der Zustand rechtswidrig – eine verspätete Abweichung ist möglich, aber riskanter und teurer.",
       },
       {
-        question: "Gilt das VG-Mainz-Muster 1:1 in NRW?",
+        question: "Reicht Nachbarzustimmung gegen die Verfügung?",
         answer:
-          "Nicht wortgleich – Landesbauordnungen unterscheiden sich. Die Logik (Brandwand restriktiv, Abweichung mit Voraussetzungen, Einschreiten möglich) überträgt sich auf BauO NRW § 69 und § 30.",
+          "Allein meist nicht. Für die Abweichungslogik und welche Nachbarn zählen: [Nachbarschutz Brandwand](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw). Die Verfügung selbst hängt an der Rechtswidrigkeit des Zustands.",
       },
       {
-        question: "Ist Duldung über Jahre Bestandsschutz?",
+        question: "Ist VG Mainz 3 K 39/23 ein NRW-Urteil?",
         answer:
-          "Nein. Bestandsschutz setzt rechtmäßigen Bestand voraus. Bloße Nicht-Einschreiten der Behörde heiligt keinen rechtswidrigen Zustand.",
+          "Nein – Rheinland-Pfalz. Die Logik (Brandwand restriktiv, Abweichung mit Voraussetzungen, Einschreiten möglich) überträgt sich auf BauO NRW § 30, § 69 und § 82.",
       },
       {
-        question: "Brauche ich ein Brandschutzkonzept oder reicht eine Stellungnahme?",
+        question: "Kann ich parallel Freistellung und Abweichung fahren?",
         answer:
-          "Bei einfachen Abweichungen oft Stellungnahme plus SV-Bescheinigung; bei Sonderbauten und komplexen Kompensationen Konzept. Siehe Ratgeber Brandschutzkonzept wann nötig.",
+          "Nein. Eine Abweichung nach § 69 schließt die Genehmigungsfreistellung aus (§ 63 Abs. 2 Nr. 4). Die SV-Bescheinigung nach Abs. 1a rettet die Freistellung nicht.",
       },
       {
-        question: "Was ist mit Fenstern in der Brandwand konkret zu tun?",
+        question: "Was vor der Anhörung tun?",
         answer:
-          "Entweder feuerbeständig verschließen oder eine wirksame Abweichung mit Nachweisen führen. Ohne Zulassung bleibt der Zustand angreifbar – unabhängig davon, wie lange die Fenster schon da sind.",
+          "Genehmigungslage und Pläne sichern, Option Verschluss oder §-69-Verfahren prüfen, Brandschutzdienststelle einbinden wenn Rettung/Löschen berührt ist – nicht erst nach dem Bescheid reagieren.",
       },
     ],
   },
