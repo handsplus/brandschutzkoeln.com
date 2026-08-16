@@ -90,10 +90,13 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
     ],
     relatedLinks: [
       { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
+      { href: "/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw", label: "Glasbaustein vs. Fenster" },
+      { href: "/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw", label: "Fenstertausch / NU" },
+      { href: "/ratgeber/duldung-verwirkung-brandschutz-bauaufsicht-nrw", label: "Duldung / Verwirkung" },
+      { href: "/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw", label: "Welcher Nachbar?" },
       { href: "/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw", label: "Bestandsschutz" },
       { href: "/ratgeber/zwischenbescheid-brandschutz-bauamt-koeln", label: "Zwischenbescheid" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept / Stellungnahme" },
-      { href: "/ratgeber/brandabschnitte-bauo-sbauvo-nrw", label: "Brandabschnitte" },
       { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [

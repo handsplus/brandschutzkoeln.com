@@ -127,9 +127,10 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
         id: "para69",
         title: "§ 69 BauO NRW – Abweichungen",
         paragraphs: [
-          "§ 69 Abs. 1 Satz 1: Die Bauaufsichtsbehörde kann Abweichungen zulassen, wenn sie mit den öffentlichen Belangen, insbesondere § 3, vereinbar ist; wird der Zweck der Anforderung nachweisbar auch unter Zulassung der Abweichung erreicht, soll die Abweichung zugelassen werden.",
+          "§ 69 Abs. 1 Satz 1: Die Bauaufsichtsbehörde kann Abweichungen zulassen, wenn sie mit den öffentlichen Belangen, insbesondere § 3, vereinbar ist; wird der Zweck der Anforderung nachweisbar auch unter Zulassung der Abweichung erreicht, soll die Abweichung zugelassen werden. Vertiefung: [Abweichungen § 69 Erlass](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
           "§ 69 Abs. 1 Satz 2: Abweichungen von den §§ 4 bis 16 und § 26 bis § 49 sind bei bestehenden Anlagen zuzulassen zur Modernisierung von Wohnungen und Wohngebäuden (Baugenehmigung mindestens fünf Jahre zurück), zur Energie- oder Wassereinsparung, bei Nutzungsänderungen oder zur Erhaltung von Denkmälern.",
           "§§ 26–49 umfassen u. a. Brandverhalten (§ 26), Brandwände (§ 30), Rettungswege (§§ 33, 37), Treppen und Flure (§§ 34–36), Leitungen (§ 40), Lüftung (§ 41) und Sonderbauten-Verweis (§ 50).",
+          "Abgrenzung: § 59 steuert den Weiterbetrieb ohne Vorhaben (Nachrüstung nur bei Einzelfall-Gefahr). § 69 eröffnet bei einem Vorhaben die Zulassung, von Vorschriften abzuweichen. Eine §-69-Abweichung schließt die Genehmigungsfreistellung aus (§ 63 Abs. 2 Nr. 4) – Abs. 1a rettet die Freistellung nicht.",
           "§ 69 Abs. 1a: Der Zulassung einer Abweichung bedarf es nicht, wenn sachverständige Personen nach § 87 Abs. 2 bescheinigen, dass das Vorhaben den Anforderungen an den Brandschutz oder an die Standsicherheit entspricht und das Vorliegen der Voraussetzungen für Abweichungen bescheinigt wird.",
         ],
         table: {

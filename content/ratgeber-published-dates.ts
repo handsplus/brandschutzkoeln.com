@@ -190,10 +190,29 @@ const JUNE_2026_PUBLICATIONS: Record<string, string> = {
 const JULY_2026_PUBLICATIONS: Record<string, string> = {
   "entrauchung-rauchableitung-bauo-sbauvo-nrw": "2026-07-02",
   "beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw": "2026-07-07",
+  "brandwand-glasbaustein-fenster-bauo-nrw": "2026-07-10",
+  "brandwand-fenstertausch-nutzungsaenderung-bauo-nrw": "2026-07-14",
+  "duldung-verwirkung-brandschutz-bauaufsicht-nrw": "2026-07-17",
+  "nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw": "2026-07-21",
+  "feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz": "2026-07-24",
+  "bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw": "2026-07-28",
 };
 
-/** August 2026 – Platzhalter für künftige Di/Fr-Serie (Qualität vor Kalenderfüllung). */
-const AUGUST_2026_PUBLICATIONS: Record<string, string> = {};
+/** August 2026 – Abgleich Runderlasse Feuerwehrflächen / Innenhof / § 69 / Veranstaltung. */
+const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
+  "feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw": "2026-08-16",
+  "aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw": "2026-08-16",
+  "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw": "2026-08-16",
+  "zweiter-rettungsweg-dachfenster-bauo-nrw": "2026-08-16",
+  "feuerwehr-abstimmung-vor-bauamt-bauo-nrw": "2026-08-16",
+  "flucht-und-rettungswege-bauo-nrw": "2026-08-16",
+  "zweiter-rettungsweg-innenhof-bauo-nrw": "2026-08-16",
+  "abweichungen-paragraph-69-erlass-bauo-nrw": "2026-08-16",
+  "bestandsschutz-technische-sanierung-bauo-nrw": "2026-08-16",
+  "veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw": "2026-08-16",
+  "versammlungsstaetten-baulich-sbauvo-nrw": "2026-08-16",
+  "sonderbauten-brandschutz": "2026-08-16",
+};
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */
 const ARTICLES_PER_MONTH_2025 = 8;

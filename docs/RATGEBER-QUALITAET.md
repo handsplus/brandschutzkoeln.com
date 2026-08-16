@@ -60,14 +60,20 @@ Diese Artikel sind die **Latte** für alle anderen:
 | `entrauchung-rauchableitung-bauo-sbauvo-nrw` | Hub Entrauchung/RWA, §§ 35/39/46, SBauVO 16/75/110/138, § 105 |
 | `abweichungen-paragraph-69-erlass-bauo-nrw` | § 69 Hub; Serie Recht & Praxis Jul–Aug 2026 |
 
-### Serie Recht & Praxis (Jul 2026)
+### Serie Recht & Praxis / Rechtsprechung (Jul 2026)
 
-Quelle: `docs/quellen/Gerichtsbeschluesse-Brandschutz-Triage.md` – Thema zuerst, Urteil nur Rechtskern.  
-**Qualität:** Kurze Catch-up-Stubs (<450 Wörter) entfernt (Aug 2026 Review).
+Quellen: `docs/quellen/Gerichtsbeschluesse-Brandschutz-Triage.md`, Ausarbeitungen Brandwände / FW-Gerätehaus / BHKG.  
+Nur Artikel ≥450 Wörter.
 
 | Slug | Status | Notiz |
 |------|--------|-------|
-| `beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw` | 10 | VG Mainz Kern → NRW § 69; ≥450 Wörter |
+| `beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw` | 10 | VG Mainz → § 69/82 |
+| `brandwand-glasbaustein-fenster-bauo-nrw` | 10 | Privileg vs. Öffnung |
+| `brandwand-fenstertausch-nutzungsaenderung-bauo-nrw` | 10 | § 62 vs. NU |
+| `duldung-verwirkung-brandschutz-bauaufsicht-nrw` | 10 | Passive Duldung / OVG NRW |
+| `nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw` | 10 | Nicht nur Grenznachbar |
+| `feuerwehrgeraetehaus-wohngebiet-baunvo-brandschutz` | 10 | BVerwG 4 C 6.20 |
+| `bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw` | 10 | BVerwG 7 A 10.20 |
 
 Neue Spezialthemen: **verlinken** auf diese fünf, nicht wieder alles erklären.
 

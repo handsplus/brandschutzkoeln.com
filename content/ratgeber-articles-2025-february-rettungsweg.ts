@@ -1,5 +1,6 @@
 /**
  * Februar 2025 – zweiter Rettungsweg ins Freie, Innenhof (§ 33 BauO NRW).
+ * Abgleich 16.08.2026: RdErl. MHKBD 21.02.2025, Az. 53.06.04.03-000105.
  */
 import type { RatgeberArticle } from "./ratgeber-types";
 
@@ -27,32 +28,32 @@ export const RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG: RatgeberArticle[] = [
         title: "Zwei Rettungswege – aber nicht beide bis zur Straße",
         paragraphs: [
           "Wer ein Wohnhaus, Geschäftshaus oder Bürogebäude plant, kennt die Grundregel: Jede Nutzungseinheit mit Aufenthaltsräumen braucht in jedem Geschoss mindestens zwei voneinander unabhängige Rettungswege ins Freie (§ 33 Abs. 1 BauO NRW). Die praktische Frage ist oft: Wohin muss „ins Freie“ führen – zur öffentlichen Straße, oder reicht ein Innenhof?",
-          "In NRW gilt seit der einheitlichen Auslegung der obersten Bauaufsicht (Februar 2025): Anders als in der Sonderbauverordnung verlangt die BauO NRW nicht ausdrücklich, dass beide Rettungswege zu öffentlichen Verkehrsflächen führen müssen. Bei Standardgebäuden wie Wohnhäusern reicht es grundsätzlich, wenn einer der beiden Wege zur öffentlichen Verkehrsfläche führt – über Zugang und Erschließung nach § 4 und § 5 BauO NRW.",
-          "Der zweite Rettungsweg muss ins Freie führen, aber nicht zwingend bis zur Straße. Ein Innenhof, ein hofseitiger Ausgang oder ein abgeschlossener Gartenbereich kann ausreichen – wenn die Sicherheitsprüfung besteht. Grundlagen zu Fluren, Treppen und Weglängen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
+          "Der Runderlass des MHKBD vom 21.02.2025 (Az. 53.06.04.03-000105) ist eine Verwaltungsvorschrift zum Vollzug – kein Gesetz. Er stellt klar: § 33 Abs. 1 verlangt „ins Freie“, nicht „ins Freie zu öffentlichen Verkehrsflächen“. Letzteres steht in § 6 Abs. 1 Satz 1 SBauVO und wurde in § 33 BauO bewusst nicht übernommen.",
+          "Bei Standardgebäuden reicht es grundsätzlich, wenn einer der beiden Wege zur öffentlichen Verkehrsfläche führt – über Zugang und Erschließung nach § 4 und § 5 BauO NRW. Der andere Weg muss grundsätzlich nur ins Freie führen, nicht zwingend bis zur Straße. Ein Innenhof, ein hofseitiger Ausgang oder ein abgeschlossener Gartenbereich kann ausreichen – wenn die drei Sicherheitsprüfungen bestehen. Grundlagen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
         ],
       },
       {
         id: "innenhof",
         title: "Wann ein Innenhof als zweiter Rettungsweg reicht",
         paragraphs: [
-          "Ein Rettungsweg in einen Innenhof ist nicht automatisch genehmigungsfähig. Er muss die allgemeinen Anforderungen des § 3 Abs. 1 BauO NRW erfüllen: Leben und Gesundheit dürfen nicht gefährdet werden. Konkret prüft man drei Punkte.",
-          "Erstens Trümmerschatten: Können sich die Personen im Innenhof aus dem Bereich fallen, in den Trümmer eines einstürzenden Gebäudeteils treffen könnten? Zweitens Abstand zu Außenwandöffnungen: Ist genug Platz, damit Feuer und Rauch aus Fenstern und Türen in der Fassade die Flüchtenden im Hof nicht unmittelbar gefährden? Drittens Warten auf Rettungskräfte: Können die Betroffenen im Innenhof sicher ausharren, bis die Feuerwehr sie erreicht?",
-          "Wenn diese Fragen mit Ja beantwortet werden können, bestehen in der Regel keine Bedenken gegen den zweiten Rettungsweg in den Innenhof. Wenn nicht, braucht man einen anderen zweiten Weg – etwa eine zweite Treppe, einen [zweiten Weg über die Feuerwehr](/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw) oder eine Führung bis zur öffentlichen Verkehrsfläche.",
+          "Ein Rettungsweg in einen Innenhof ist nicht automatisch genehmigungsfähig. Er muss die allgemeinen Anforderungen des § 3 Abs. 1 BauO NRW erfüllen: Leben und Gesundheit dürfen nicht gefährdet werden. Der Erlass verlangt drei Prüfungen – kumulativ, alle drei müssen passen.",
+          "Erstens Trümmerschatten: Können sich die Personen im Innenhof aus dem Bereich entfernen, in den Trümmer eines einstürzenden Gebäudeteils fallen könnten? Zweitens Feuer und Rauch aus Öffnungen: Ist genug Abstand zu Fenstern und Türen in der Fassade, damit Flüchtende im Hof nicht unmittelbar gefährdet werden? Drittens Warten auf Rettung: Können die Betroffenen im Innenhof sicher ausharren, bis die Feuerwehr sie erreicht?",
+          "Wenn alle drei Fragen mit Ja beantwortet werden können, bestehen in der Regel keine Bedenken gegen den zweiten Rettungsweg in den Innenhof. Wenn nicht, braucht man einen anderen zweiten Weg – etwa eine zweite Treppe, einen [zweiten Weg über die Feuerwehr](/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw) oder eine Führung bis zur öffentlichen Verkehrsfläche.",
         ],
       },
       {
         id: "nachbar",
         title: "Nachbarmauern und der 2-Meter-Zaun",
         paragraphs: [
-          "Ein häufig übersehener Punkt bei Innenhof-Rettungswegen: Nachbargrundstücke dürfen jederzeit verfahrensfrei mit Mauern oder Einfriedungen bis zwei Meter Höhe gesichert werden (§ 62 Abs. 1 Nr. 7 Buchst. a BauO NRW). Der Innenhof, der heute offen wirkt, kann morgen durch eine Nachbarmauer eingeschränkt sein.",
-          "Die Planung muss deshalb nicht nur den Ist-Zustand, sondern auch diese bauordnungsrechtliche Möglichkeit berücksichtigen. Ein Rettungsweg, der nur funktioniert, solange der Nachbar keinen Zaun baut, ist keine dauerhaft sichere Lösung – es sei denn, die Sicherheitsprüfung nach § 3 BauO NRW bleibt auch mit zwei Meter hoher Einfriedung auf dem Nachbargrundstück erfüllt.",
+          "Ein häufig übersehener Punkt: Nachbargrundstücke dürfen jederzeit verfahrensfrei mit Mauern oder Einfriedungen bis zwei Meter Höhe gesichert werden (§ 62 Abs. 1 Nr. 7 Buchst. a BauO NRW). Der Innenhof, der heute offen wirkt, kann morgen durch eine Nachbarmauer eingeschränkt sein.",
+          "Die Planung muss das mitdenken. Ein Rettungsweg, der nur funktioniert, weil man über das Nachbargrundstück oder durch eine heute offene Einfriedung entkommt, ist unsicher – der Nachbar darf die Mauer ohne Verfahren setzen. Der Hof muss auch dann taugen, wenn die 2-m-Einfriedung steht.",
         ],
       },
       {
         id: "erster-weg",
         title: "Der erste Weg: Treppe und Straße",
         paragraphs: [
-          "Der erste Rettungsweg führt in der Regel über die notwendige Treppe und den Ausgang zur öffentlichen Verkehrsfläche – mit funktionierender Erschließung und Feuerwehrzugang nach § 4 und § 5 BauO NRW. Mehr dazu: [Feuerwehrzufahrt und Zugang](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw).",
+          "Mindestens einer der beiden Wege muss zur öffentlichen Verkehrsfläche führen – mit funktionierender Erschließung und Feuerwehrzugang nach § 4 und § 5 BauO NRW. Mehr dazu: [Feuerwehrzufahrt und Zugang](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw), [Feuerwehr-Flächen § 5](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw).",
           "Beide Rettungswege dürfen innerhalb eines Geschosses über denselben notwendigen Flur führen – sie müssen sich erst unabhängig werden, bevor sie ins Freie münden. Der zweite Weg über den Innenhof ersetzt nicht die Erschließung des ersten Wegs zur Straße.",
         ],
       },
@@ -60,45 +61,48 @@ export const RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG: RatgeberArticle[] = [
         id: "nachweis",
         title: "Wer prüft und wer bescheinigt",
         paragraphs: [
-          "Im vereinfachten Baugenehmigungsverfahren für Anlagen, die keine großen Sonderbauten sind, obliegt die Prüfung der sachverständigen Person nach § 87 Abs. 2 BauO NRW oder einem staatlich anerkannten Sachverständigen für Brandschutz. Diese müssen den erhöhten Anforderungen der Brandschutzdienststelle entsprechen (§ 16 Abs. 2 SV-VO).",
-          "Kommen sowohl die sachverständige Person als auch die Brandschutzdienststelle zu dem Ergebnis, dass der Innenhof als zweiter Rettungsweg sicher ist, kann eine Bescheinigung nach § 68 Abs. 2 BauO NRW ausgestellt werden. Bei Sonderbauten und vollständigen Brandschutzkonzepten läuft die Prüfung über den Prüfingenieur Brandschutz – die [Feuerwehr-Abstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw) bleibt sinnvoll, wenn Rettung von außen mitgedacht wird.",
+          "Im vereinfachten Baugenehmigungsverfahren für Anlagen, die keine großen Sonderbauten sind, prüft die sachverständige Person nach § 87 Abs. 2 BauO NRW oder ein staatlich anerkannter Sachverständiger für Brandschutz. Nach § 16 Abs. 2 SV-VO müssen sie den erhöhten Anforderungen der Brandschutzdienststelle entsprechen – sachverständige Person und Brandschutzdienststelle müssen übereinstimmen.",
+          "Nur dann darf eine Bescheinigung nach § 68 Abs. 2 BauO NRW ausgestellt werden. Widerspricht die Brandschutzdienststelle, darf der Sachverständige die Bescheinigung nicht gegen deren Forderungen ausstellen. Bei Sonderbauten und vollständigen Brandschutzkonzepten läuft die Prüfung über den Prüfingenieur Brandschutz – die [Feuerwehr-Abstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw) bleibt sinnvoll, wenn Rettung von außen mitgedacht wird.",
         ],
       },
       {
         id: "praxis",
         title: "Typische Planungsfälle",
         paragraphs: [
-          "Reihenhaus mit hofseitigem Ausgang: Erster Weg zur Straße über die Haustür, zweiter Weg durch die Wohnung oder den Flur in den hinteren Innenhof – möglich, wenn Trümmerschatten, Abstand zu Fenstern und Warten auf die Feuerwehr nachweisbar sind.",
-          "Mehrfamilienhaus mit geschlossenem Innenhof: Ein WE pro Geschoss mit Ausgang in den Hof als zweiter Weg, parallel zur notwendigen Treppe zur Straße – häufige Lösung in dichten Blockrandlagen, wenn der Hof groß genug und nicht durch Nachbarzäune versperrt wird.",
-          "Gewerbebau mit L-förmigem Grundriss: Zweiter Weg in den Winkelhof statt zweiter Treppe – nur mit dokumentierter Sicherheitsprüfung; bei höheren Gebäuden oder Sonderbau oft strengere Anforderungen als bei einfachen Wohngebäuden.",
-          "Zweiter Weg nur über Dachfenster und Feuerwehr: Eigenes Thema – siehe [Dachfenster als Rettungsweg](/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw), wenn kein Innenhof infrage kommt.",
+          "Reihenhaus mit hofseitigem Ausgang: Erster Weg zur Straße über die Haustür, zweiter Weg durch die Wohnung oder den Flur in den hinteren Innenhof – möglich, wenn alle drei Hof-Prüfungen nachweisbar sind.",
+          "Mehrfamilienhaus mit geschlossenem Innenhof: Ein WE pro Geschoss mit Ausgang in den Hof als zweiter Weg, parallel zur notwendigen Treppe zur Straße – häufige Lösung in dichten Blockrandlagen, wenn der Hof auch mit möglicher Nachbarmauer taugt.",
+          "Gewerbebau mit L-förmigem Grundriss: Zweiter Weg in den Winkelhof statt zweiter Treppe – nur mit dokumentierter Sicherheitsprüfung; bei Sonderbauten oft § 6 SBauVO (Wege zu öffentlichen Verkehrsflächen) – enger als § 33.",
+          "Zweiter Weg nur über Dachfenster und Feuerwehr: Eigenes Thema – siehe [Dachfenster als Rettungsweg](/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw).",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen dieser Übersicht",
         paragraphs: [
-          "Dieser Ratgeber erklärt die NRW-Auslegung zu § 33 BauO NRW und Rettungswegen ins Freie – ohne VV TB NRW, Denkmalschutz oder Sonderbau-Details. Verbindlich sind Pläne, brandschutztechnischer Nachweis und Festlegung der Bauaufsicht. Die Übersicht ersetzt keine behördliche Einordnung.",
+          "Dieser Ratgeber erklärt die NRW-Auslegung zu § 33 BauO NRW und dem Runderlass vom 21.02.2025 (Verwaltungsvorschrift, kein Gesetz, Az. 53.06.04.03-000105) – ohne VV TB NRW, Denkmalschutz oder Sonderbau-Details. Der Erlass beantwortet nur die Frage „ins Freie“ vs. Straße; er ersetzt keine Feuerwehr-Anleiterung und keine SBauVO-Vorschriften. Verbindlich sind Pläne, brandschutztechnischer Nachweis und Festlegung der Bauaufsicht. Die Übersicht ersetzt keine behördliche Einordnung.",
         ],
       },
     ],
     relatedLinks: [
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege" },
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Rettungsweg Dachfenster" },
+      { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
+      { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt Runderlass" },
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr-Abstimmung" },
-      { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt § 5" },
+      { href: "/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw", label: "Veranstaltung gelegentlich" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
     ],
     faq: [
       {
         question: "Muss der zweite Rettungsweg zur Straße führen?",
         answer:
-          "In NRW nicht zwingend. Einer der beiden Wege muss zur öffentlichen Verkehrsfläche führen (mit § 4 und § 5 BauO NRW). Der zweite Weg kann ins Freie führen – etwa in einen Innenhof – wenn die Sicherheitsprüfung nach § 3 BauO NRW besteht.",
+          "In NRW nicht zwingend. § 33 verlangt „ins Freie“, nicht „zu öffentlichen Verkehrsflächen“ (§ 6 SBauVO). Einer der beiden Wege muss zur öffentlichen Verkehrsfläche führen (§§ 4, 5). Der zweite kann ins Freie – etwa in einen Innenhof – wenn die drei Prüfungen nach § 3 BauO NRW bestehen (RdErl. 21.02.2025).",
       },
       {
         question: "Kann ein Innenhof der zweite Rettungsweg sein?",
         answer:
-          "Ja, wenn sich Personen dort aus dem Trümmerschatten entfernen können, ausreichend Abstand zu Fassadenöffnungen haben und sicher auf Rettungskräfte warten können. Das muss nachgewiesen und von sachverständiger Person sowie Brandschutzdienststelle bestätigt werden.",
+          "Ja, wenn kumulativ gilt: Personen können den Trümmerschatten verlassen, haben Abstand zu Feuer und Rauch aus Fassadenöffnungen und können sicher auf Rettungskräfte warten. Sachverständige Person und Brandschutzdienststelle müssen übereinstimmen (§ 68 Abs. 2, § 16 Abs. 2 SV-VO).",
       },
       {
         question: "Brauchen beide Rettungswege eine eigene Treppe?",
@@ -108,27 +112,27 @@ export const RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG: RatgeberArticle[] = [
       {
         question: "Was ist mit dem Nachbar-Zaun?",
         answer:
-          "Nachbarn dürfen bis zwei Meter hohe Mauern oder Einfriedungen genehmigungsfrei errichten (§ 62 Abs. 1 Nr. 7 Buchst. a BauO NRW). Die Planung des Innenhof-Rettungswegs muss das berücksichtigen.",
+          "Nachbarn dürfen bis zwei Meter hohe Mauern oder Einfriedungen genehmigungsfrei errichten (§ 62 Abs. 1 Nr. 7 Buchst. a BauO NRW). Der Hof muss auch dann als Rettungsweg taugen – Flucht über das Nachbargrundstück nicht unterstellen.",
       },
       {
         question: "Wer prüft den Innenhof als Rettungsweg?",
         answer:
-          "Im vereinfachten Verfahren die sachverständige Person nach § 87 Abs. 2 BauO NRW oder ein staatlich anerkannter Sachverständiger – in Abstimmung mit der Brandschutzdienststelle. Bei Sonderbauten der Prüfingenieur Brandschutz im Konzept.",
+          "Im vereinfachten Verfahren die sachverständige Person nach § 87 Abs. 2 BauO NRW oder ein staatlich anerkannter Sachverständiger – in Übereinstimmung mit der Brandschutzdienststelle. Bei Widerspruch der Dienststelle keine Bescheinigung gegen deren Forderungen. Bei Sonderbauten der Prüfingenieur Brandschutz im Konzept.",
       },
       {
         question: "Gilt das auch für Sonderbauten?",
         answer:
-          "Die Grundlogik zu § 33 BauO NRW gilt auch dort – aber Sonderbauten haben oft strengere Nachweise, längere Fluchtwege und zusätzliche Anforderungen aus SBauVO und Brandschutzkonzept.",
+          "Die Grundlogik zu § 33 BauO NRW gilt für Standardgebäude. Sonderbauten haben oft strengere Nachweise; § 6 SBauVO verlangt Wege zu öffentlichen Verkehrsflächen. Der Erlass ersetzt diese Sonderbauvorschriften nicht.",
       },
       {
         question: "Unterschied zu SBauVO?",
         answer:
-          "Die SBauVO verlangt ausdrücklich, dass Rettungswege ins Freie zu öffentlichen Verkehrsflächen führen. Die BauO NRW formuliert das für den zweiten Weg nicht so – deshalb ist die Innenhof-Lösung in NRW bei Wohngebäuden möglich.",
+          "§ 6 Abs. 1 Satz 1 SBauVO verlangt Rettungswege „ins Freie zu öffentlichen Verkehrsflächen“. § 33 BauO formuliert nur „ins Freie“ – deshalb ist die Innenhof-Lösung bei Standardgebäuden in NRW möglich.",
       },
       {
         question: "Was, wenn der Innenhof zu klein ist?",
         answer:
-          "Dann scheitert die Sicherheitsprüfung nach § 3 BauO NRW – und man braucht einen anderen zweiten Weg: zweite Treppe, Durchgang zum Nachbargrundstück mit Rechtssicherung, Feuerwehr-Rettung von außen oder Ausweitung des Hofes.",
+          "Dann scheitern die drei Prüfungen nach § 3 BauO NRW – und man braucht einen anderen zweiten Weg: zweite Treppe, Feuerwehr-Rettung von außen oder Ausweitung des Hofes. Flucht über den Nachbarn ohne gesicherte Rechtslage nicht unterstellen.",
       },
     ],
   },

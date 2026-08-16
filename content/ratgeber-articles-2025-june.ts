@@ -139,6 +139,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         paragraphs: [
           "Versammlungsstätten sind Sonderbauten nach § 50 Abs. 2 Nr. 6 BauO NRW. [Betrieb, BSO, Räumung](/ratgeber/versammlungsstaetten-betrieb-sbauvo-nrw) regelt MVStättVO und SBauVO Kapitel 4 – dieser Artikel: bauliche Anforderungen SBauVO Teil 1 bei Planung und Genehmigung.",
           "Teil 1 gilt u. a. für Versammlungsräume einzeln über 200 Besucher oder mehrere Räume mit gemeinsamen Rettungswegen über 200 gesamt; Freiluft-VStätten mit Szenen/Tribünen ab 1.000 Besuchern.",
+          "Wichtig: Ein Raum, der einmalig oder nur gelegentlich für Veranstaltungen mit mehr als 200 Besuchern genutzt wird, wird dadurch noch nicht zum Versammlungsraum nach § 50 Abs. 2 Nr. 6 a – siehe [gelegentliche Veranstaltung](/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw) (RdErl. 17.06.2024).",
           "Grenzfall ja: Stadthalle 350 Plätze, feuerbeständige Trennwand Bühne/Zuschauerhaus, Rettungswege min. 1,20 m, Besucherplätze nach SBauVO-Bemessung im Konzept. Grenzfall nein: Eventlocation 220 Personen ohne bauliche Zweitwege – nur Betriebskonzept reicht nicht.",
         ],
       },
@@ -196,6 +197,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw", label: "Gelegentliche Veranstaltung" },
       { href: "/ratgeber/versammlungsstaetten-betrieb-sbauvo-nrw", label: "Betrieb & BSO" },
       { href: "/ratgeber/feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw", label: "Feuerwehrzufahrt" },
       { href: "/ratgeber/brandschutzkonzept-baupruefvo-nrw", label: "Konzept §9" },

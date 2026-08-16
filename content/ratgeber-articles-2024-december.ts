@@ -142,15 +142,15 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         id: "strassenbau",
 
-        title: "Straßenbaubehörde, Freischank und Ladesäulen",
+        title: "Straßenbaubehörde – wer informiert?",
 
         paragraphs: [
 
-          "Die oberste Bauaufsicht empfiehlt, die Straßenbaubehörde zu informieren, wenn Aufstell- und Bewegungsflächen auf der öffentlichen Verkehrsfläche liegen. Dann kann sie bei Straßeneinrichtungen, Anträgen auf Sondernutzung oder geplanten Umbauten Rücksicht nehmen.",
+          "Der Runderlass vom 30.12.2021 (Az. 615-100/5) ist eine Verwaltungsvorschrift zum Vollzug von § 5 BauO NRW – kein Gesetz. Er stellt klar: keine Baulast auf der öffentlichen Verkehrsfläche; Eignung der Straße zum Zeitpunkt der Baugenehmigung zählt; Parken Dritter nach StVO-Verstoß blockiert die Genehmigung nicht.",
 
-          "Typische Konflikte: Freischankflächen vor Gastronomie, Verkaufswagen, Ladesäulen, Fahrradbügel oder Begrünung, die die geplante Hubrettungs-Aufstellfläche blockieren. Baurechtlich darf die Feuerwehr die Straße nutzen – straßenrechtlich können spätere Sondernutzungen den Einsatz erschweren, wenn die Straßenbaubehörde nicht informiert war.",
+          "Die spätere Klarstellung im gemeinsamen Runderlass vom 15.11.2024 (Nr. 4.3): Das Informieren der Straßenbaubehörde ist nicht Aufgabe von Bauherrschaft oder Entwurfsverfasser. Abstimmung im Genehmigungsverfahren läuft über die Brandschutzdienststelle – nicht über ein kommunales Extra-Merkblatt.",
 
-          "Für Planer heißt das: frühzeitig mit Straßenbaubehörde und Feuerwehr abstimmen, nicht erst nach der Baugenehmigung.",
+          "Spätere Straßeneinrichtungen (Freischank, Ladesäulen, Fahrradbügel) können den Einsatz erschweren; das ändert die einmal festgestellte bauordnungsrechtliche Eignung zum Genehmigungszeitpunkt nicht automatisch. Mehr zu Merkblatt-Grenzen: [Feuerwehrzufahrt Runderlass 2024](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw).",
 
         ],
 
@@ -170,7 +170,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
           "Neubau mit Tiefgaragenzufahrt an der Straße: Aufstellfläche und Garagenzufahrt dürfen sich nicht gegenseitig blockieren – MRFlFw-Maße und Straßenquerschnitt gemeinsam planen.",
 
-          "Genehmigung erteilt, danach Ladesäulen vor dem Haus: Einsatzfläche kann beeinträchtigt werden – Straßenbaubehörde hätte vorher informiert werden sollen.",
+          "Genehmigung erteilt, danach Ladesäulen vor dem Haus: Die Eignung zum Genehmigungszeitpunkt bleibt der bauordnungsrechtliche Maßstab; spätere Sondernutzungen sind straßenrechtlich zu steuern – nicht nachträglich dem Bauherrn als §-5-Mangel anzulasten.",
 
         ],
 
@@ -184,7 +184,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "Dieser Ratgeber erklärt die NRW-Auslegung zu Aufstell- und Bewegungsflächen auf öffentlichen Verkehrsflächen nach § 5 BauO NRW (Runderlass MHKBD 30.12.2021) – ohne vollständige MRFlFw-Maßtabellen oder kommunale Sonderregeln. Verbindlich sind Lageplan, brandschutztechnischer Nachweis und Festlegung der Bauaufsicht. Die Übersicht ersetzt keine Feuerwehr-Begehung und keine behördliche Einordnung.",
+          "Dieser Ratgeber erklärt die NRW-Auslegung zu Aufstell- und Bewegungsflächen auf öffentlichen Verkehrsflächen nach § 5 BauO NRW und dem Runderlass vom 30.12.2021 (Verwaltungsvorschrift, kein Gesetz) – ergänzt um die Klarstellung 15.11.2024 Nr. 4.3. Ohne vollständige MRFlFw-Maßtabellen. Verbindlich sind Lageplan, brandschutztechnischer Nachweis und Festlegung der Bauaufsicht. Die Übersicht ersetzt keine Feuerwehr-Begehung und keine behördliche Einordnung.",
 
         ],
 
@@ -194,6 +194,8 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
     relatedLinks: [
 
+      { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "2. Rettungsweg Innenhof" },
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
       { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt § 5" },
 
@@ -275,7 +277,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "Ordungswidriges Parken auf der Straße steht der Baugenehmigung grundsätzlich nicht entgegen. Dauerhafte straßenrechtliche Einrichtungen (Ladesäulen, Freischank) können dagegen die Einsatzplanung beeinträchtigen – Straßenbaubehörde früh informieren.",
+          "Ordungswidriges Parken auf der Straße steht der Baugenehmigung grundsätzlich nicht entgegen (RdErl. 15.11.2024 Nr. 4.2). Dauerhafte Straßeneinrichtungen können den Einsatz erschweren – die Information der Straßenbaubehörde obliegt nach Nr. 4.3 nicht Bauherrschaft oder Entwurfsverfasser.",
 
       },
 
@@ -341,9 +343,9 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
           "Wer eine Lagerhalle, Scheune oder ein Gewerbegebäude für ein Fest, Konzert oder Vereinsveranstaltung nutzen will, fragt zuerst: Reicht eine Veranstaltungserlaubnis – oder braucht man eine Baugenehmigung als Nutzungsänderung nach § 60 BauO NRW?",
 
-          "In NRW gilt seit Mitte 2024 eine einheitliche Auslegung der obersten Bauaufsicht: Das Baugenehmigungsverfahren richtet sich auf nachhaltige Errichtung, Änderung oder dauerhafte Nutzungsänderung – nicht auf die Zulassung einzelner Feste. Gelegentliche Veranstaltungen in bestehenden Gebäuden sind deshalb oft verfahrensfrei, sofern keine baulichen Änderungen anstehen und die üblichen Ausnahmen (Sonderbau, 5.000 m² Wohnen, 100 Besucher öffentlich zugänglich) nicht greifen.",
+          "Der Runderlass des MHKBD vom 17.06.2024 (Az. 53.06.04.03-000105) ist eine Verwaltungsvorschrift zum Vollzug – kein Gesetz. Die Baugenehmigung betrifft Errichtung, Änderung oder Nutzungsänderung der baulichen Anlage, nicht die Zulassung der Veranstaltung selbst. Gelegentliche Feste in bestehenden Gebäuden sind deshalb oft keine genehmigungspflichtige Nutzungsänderung – sofern keine baulichen Änderungen anstehen und die Freianlagen-Ausnahme (unten) nicht greift.",
 
-          "Lange galt in NRW eine strengere Praxis: Schon die einmalige Nutzung einer Halle als Festort galt als genehmigungspflichtige Nutzungsänderung. Das hat sich für gelegentliche Nutzungen geändert – die Veranstaltung läuft häufig über das Ordnungsrecht der Gemeinde, nicht über die Bauaufsicht.",
+          "Vollzugswechsel: Bis zum Erlass galt in NRW eine strengere Praxis (Dienstbesprechung 2011): Schon die einmalige Nutzung einer Scheune oder Halle als Festort als genehmigungspflichtige Nutzungsänderung zur Versammlungsstätte. Ab 17.06.2024 gilt eine andere Auslegung – die Veranstaltung läuft häufig über das Ordnungsrecht der Gemeinde, nicht über die Bauaufsicht.",
 
         ],
 
@@ -377,7 +379,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
           "Viele Veranstalter fragen: Ab 200 Personen ist man doch Versammlungsstätte nach § 50 Abs. 2 Nr. 6 Buchst. a BauO NRW – mit Sonderbauverordnung und Brandschutzkonzept? Nicht automatisch.",
 
-          "Versammlungsstätten-Vorschriften (SBauVO Teil 1, MVStättVO) gelten für ortsfeste, auf Dauer angelegte Anlagen. Ein Raum, der einmalig oder nur gelegentlich für Veranstaltungen mit mehr als 200 Besuchern genutzt wird, wird dadurch noch nicht zum Versammlungsraum. Das gilt auch für Schützenfeste und Karneval mit 250 oder 350 Gästen – solange die Nutzung selten bleibt.",
+          "Versammlungsstätten-Vorschriften (SBauVO Teil 1, MVStättVO) gelten für ortsfeste Anlagen mit dauerhaftem Nutzungszweck. Temporäre Festivals auf Freiflächen werden davon nicht erfasst (LT-Vorlage 17/2273, S. 22 – im Erlass aufgegriffen). Ein Raum, der einmalig oder nur gelegentlich für Veranstaltungen mit mehr als 200 Besuchern genutzt wird, wird dadurch noch nicht zum Versammlungsraum nach § 50 Abs. 2 Nr. 6 a. Das gilt auch für Schützenfeste und Karneval mit 250 oder 350 Gästen – solange die Nutzung selten bleibt.",
 
           "Anders bei regelmäßigem Eventbetrieb: Ab 25 Veranstaltungen pro Jahr oder bei dauerhafter Umnutzung zur Location kann die Einordnung als Versammlungsstätte wieder relevant werden. Mehr dazu: [Sonderbauten](/ratgeber/sonderbauten-brandschutz) und [Versammlungsstätten Betrieb](/ratgeber/versammlungsstaetten-betrieb-sbauvo-nrw).",
 
@@ -409,9 +411,9 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "Verfahrensfrei im Baurecht heißt nicht brandschutzfrei. Auch ein gelegentliches Scheunenfest braucht Rettungswege, eine realistische Kapazitätsgrenze, Aufsicht und oft Abstimmung mit der Feuerwehr – über die Veranstaltungserlaubnis der Ordnungsbehörde.",
+          "Verfahrensfrei im Baurecht heißt nicht brandschutzfrei. Rettungswege, Kapazitätsgrenzen und Abstimmung mit der Feuerwehr können über die Veranstaltungserlaubnis der Ordnungsbehörde relevant sein – unabhängig davon, ob eine Baugenehmigung nötig ist. Orientierung: [Feuerwehr vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw), [Versammlungsstätten baulich](/ratgeber/versammlungsstaetten-baulich-sbauvo-nrw).",
 
-          "Bei Großbühnen über 200 Quadratmeter oder Mehrzweckhallen über 5.000 Plätze kann eine Brandsicherheitswache Pflicht sein – siehe [Brandsicherheitswache](/ratgeber/brandsicherheitswache-veranstaltung-sbauvo-nrw). Wer bauliche Änderungen vornimmt – Bühnen, Tribünen, neue Elektrik – bewegt sich wieder im Genehmigungsrecht.",
+          "Der Erlass vom 17.06.2024 ersetzt keine Aussagen zu Versammlungsgesetz, Gaststättenrecht, Arbeitsschutz oder Feuerwehr-Einsatzplanung. Wer bauliche Änderungen vornimmt – feste Bühnen, Tribünen, neue Öffnungen – bewegt sich wieder im Genehmigungsrecht.",
 
           "Dauerhafte Umnutzung zur Eventlocation bleibt der klassische Weg über [Nutzungsänderung und Sonderbau](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
 
@@ -447,7 +449,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "Dieser Ratgeber fasst die baurechtliche Einordnung gelegentlicher Veranstaltungen in NRW zusammen – auf Basis der obersten Bauaufsicht (Auslegung ab Juni 2024). Verbindlich sind die Festlegung der zuständigen Behörde und die konkrete Veranstaltungsgestattung. Die Übersicht ersetzt keine behördliche Einordnung und keinen brandschutztechnischen Nachweis.",
+          "Dieser Ratgeber fasst die baurechtliche Einordnung gelegentlicher Veranstaltungen nach dem MHKBD-Runderlass vom 17.06.2024 zusammen (Verwaltungsvorschrift, kein Gesetz, Az. 53.06.04.03-000105 – gleicher Aktenzeichen-Stamm wie der Rettungsweg-Erlass 2025, anderer Gegenstand). Verbindlich sind die Festlegung der zuständigen Behörde und die konkrete Veranstaltungsgestattung. Die Übersicht ersetzt keine behördliche Einordnung.",
 
         ],
 
@@ -457,15 +459,19 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
     relatedLinks: [
 
-      { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
-
-      { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt NRW" },
+      { href: "/ratgeber/versammlungsstaetten-baulich-sbauvo-nrw", label: "Versammlungsstätten baulich" },
 
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50" },
 
-      { href: "/ratgeber/brandsicherheitswache-veranstaltung-sbauvo-nrw", label: "Brandsicherheitswache" },
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
 
-      { href: "/ratgeber/versammlungsstaetten-betrieb-sbauvo-nrw", label: "VStätte Betrieb" },
+      { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "2. Rettungsweg Innenhof" },
+
+      { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt NRW" },
+
+      { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr vor Bauamt" },
+
+      { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung" },
 
     ],
 
@@ -477,7 +483,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "Oft nicht – wenn die Nutzung gelegentlich ist (wenige Feste pro Jahr, unter 25 Veranstaltungen) und keine baulichen Änderungen anstehen. Stattdessen läuft die Zulassung häufig über die Ordnungsbehörde. Brandschutz und Veranstaltungserlaubnis bleiben dennoch Pflicht.",
+          "Oft nicht – wenn die Nutzung gelegentlich ist (wenige Feste pro Jahr, unter 25 Veranstaltungen) und keine baulichen Änderungen anstehen. Stattdessen läuft die Zulassung häufig über die Ordnungsbehörde. Verfahrensfrei im Baurecht heißt nicht brandschutzfrei.",
 
       },
 
@@ -527,7 +533,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "Nein. Verfahrensfreiheit im Baurecht bedeutet nicht, dass Rettungswege, Kapazitätsgrenzen, Feuerlöscher oder eine Brandsicherheitswache entbehrlich sind.",
+          "Nein. Verfahrensfreiheit im Baurecht bedeutet nicht brandschutzfrei. Rettungswege, Kapazität und Abstimmung mit der Feuerwehr können über Ordnungsrecht und Veranstaltungserlaubnis relevant bleiben – der Erlass erfindet dazu keine neuen baurechtlichen Pflichten.",
 
       },
 
@@ -619,11 +625,11 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "In mehreren NRW-Städten kursieren eigene Merkblätter zu Feuerwehrzugängen – teils mit Anforderungen über Gesetz und MRFlFw hinaus. Die oberste Bauaufsicht hat das seit November 2024 für ganz NRW eingegrenzt: In Baugenehmigungsverfahren dürfen bestimmte Zusatzvorgaben nicht mehr gestellt werden.",
+          "In mehreren NRW-Städten kursieren eigene Merkblätter zu Feuerwehrzugängen – teils mit Anforderungen über Gesetz und MRFlFw hinaus. Der gemeinsame Runderlass Innenministerium / MHKBD vom 15.11.2024 (Az. 53.06.04.03-000105) ist eine Verwaltungsvorschrift zum Vollzug – kein Gesetz. Er grenzt ein: In Baugenehmigungsverfahren sind bestimmte Zusatzvorgaben ab sofort zu unterlassen; Anforderungen ohne Rechtsgrundlage sind aus kommunalen Publikationen zu entfernen oder zurückzuziehen.",
 
-          "Nicht verlangbar: Wege durch Gärten oder über Rasenflächen als Transportwege für tragbare Leitern – mit Kurvenradius, Mindestbreite oder Vorgaben im Lageplan. Der Pflicht-Zugang nach § 5 bezieht sich auf den Weg von der Straße zur Gebäudeaußenwand oder einen Durchgang durch ein Gebäude, nicht auf separate Gartenpfade.",
+          "Nicht verlangbar: Wege durch Gärten oder über Rasenflächen als Transportwege für tragbare Leitern – mit Kurvenradius, Mindestbreite oder Vorgaben im Lageplan. Der Pflicht-Zugang nach § 5 Abs. 1 Satz 1 bezieht sich auf den geradlinigen Zu- oder Durchgang von der Straße zur Gebäudeaußenwand bzw. durch ein Gebäude – nicht auf separate Gartenpfade (Nr. 14 MRFlFw: mindestens 1,25 m).",
 
-          "Ebenfalls nicht verlangbar: Feste Aufstellflächen für tragbare Leitern mit Mindestgrößen, Abständen zur Fassade oder Verboten für Bäume und Sträucher. Gesetzlich zählt nur: Das Gelände unter der Leiter darf höchstens 8 Meter unter der anleiterbaren Brüstung liegen (§ 5 Abs. 1 Satz 2). Die Feuerwehr sichert Leiterfüße bei Bedarf (FwDV 10).",
+          "Ebenfalls nicht verlangbar: Feste Aufstellflächen für tragbare Leitern mit Mindestgrößen, Abständen zur Fassade, ständiger Freihaltung oder Verboten für Bäume und Sträucher. Gesetzlich zählt nur: Das Gelände unter der Leiter darf höchstens 8 Meter unter der anleiterbaren Brüstung liegen (§ 5 Abs. 1 Satz 2). Die Feuerwehr sichert Leiterfüße bei Bedarf (FwDV 10 Nr. 6 Buchst. b).",
 
         ],
 
@@ -705,7 +711,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "Dieser Ratgeber erklärt die Anforderungen an Feuerwehrzugang und Zufahrt nach § 5 BauO NRW in NRW – inklusive der seit November 2024 einheitlichen Abgrenzung zu überzogenen Merkblatt-Vorgaben. Konkrete Maße für Löschfahrzeuge, Löschwasser (§ 14) und Sonderbau-Details sind projektspezifisch. Verbindlich sind Festlegung der Bauaufsicht und Abstimmung mit der örtlichen Feuerwehr.",
+          "Dieser Ratgeber erklärt die Anforderungen an Feuerwehrzugang und Zufahrt nach § 5 BauO NRW und dem gemeinsamen Runderlass vom 15.11.2024 (Verwaltungsvorschrift, kein Gesetz) – Abgrenzung zu überzogenen Merkblatt-Vorgaben. Konkrete Maße für Löschfahrzeuge, Löschwasser (§ 14) und Sonderbau-Details sind projektspezifisch. Verbindlich sind Festlegung der Bauaufsicht und Abstimmung mit der Brandschutzdienststelle. Die Übersicht ersetzt keine behördliche Einordnung.",
 
         ],
 
@@ -719,13 +725,15 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
       { href: "/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw", label: "Aufstellfläche Straße" },
 
+      { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "2. Rettungsweg Innenhof" },
+
+      { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
+
       { href: "/ratgeber/feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw", label: "Feuerwehrzufahrt Sonderbau" },
 
       { href: "/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw", label: "Feuerwehr-Abstimmung" },
 
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege" },
-
-      { href: "/ratgeber/loeschwasserversorgung-hydranten-verkehrsflaeche-dvgw-w405", label: "Löschwasser Hydranten" },
 
       { href: "/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw", label: "Veranstaltung in Halle" },
 

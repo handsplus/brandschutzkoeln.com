@@ -100,7 +100,7 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
         id: "grundstueck",
         title: "Grundstück und Feuerwehrzufahrt (§§ 4, 5 BauO NRW)",
         paragraphs: [
-          "Der zweite Rettungsweg über ein Dachfenster setzt voraus, dass das Grundstück den Feuerwehreinsatz ermöglicht. Gesetzliche Systematik §§ 4–5 BauO: [Feuerwehrzufahrten und Bewegungsflächen](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw). Details zu Aufstellflächen: [Aufstell- und Bewegungsfläche Hubrettung](/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw).",
+          "Der zweite Rettungsweg über ein Dachfenster setzt voraus, dass das Grundstück den Feuerwehreinsatz ermöglicht. Gesetzliche Systematik §§ 4–5 BauO: [Feuerwehrzufahrten und Bewegungsflächen](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw). Aufstellfläche oft auf der öffentlichen Straße: [Aufstellfläche Hubrettung](/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw). Was Merkblätter nicht verlangen dürfen: [Feuerwehrzufahrt Runderlass 15.11.2024](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw).",
         ],
         table: {
           caption: "Grundstückspflichten bei Rettungsweg über Feuerwehr",

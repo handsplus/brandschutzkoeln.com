@@ -27,6 +27,7 @@ import { RATGEBER_ARTICLES_LEITUNGSANLAGEN } from "./ratgeber-articles-leitungsa
 import { RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME } from "./ratgeber-articles-notwendige-treppen-treppenraeume";
 import { RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG } from "./ratgeber-articles-entrauchung-rauchableitung";
 import { RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026 } from "./ratgeber-articles-gericht-seo-jul-aug2026";
+import { RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT } from "./ratgeber-articles-rechtsprechung-sehr-gut";
 import { RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE } from "./ratgeber-articles-gesetzliche-einstufung-gebaeude";
 import { RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG } from "./ratgeber-articles-sicherheitsstromversorgung";
 import { RATGEBER_ARTICLES_BRANDMELDEANLAGE } from "./ratgeber-articles-brandmeldeanlage";
@@ -272,7 +273,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
           "Auszug aus § 50 BauO NRW – maßgeblich ist immer der Wortlaut und die konkrete Planung:",
         ],
         list: [
-          "Versammlungsstätte: Versammlungsraum für mehr als 200 Personen, oder mehrere Räume mit gemeinsamen Rettungswegen über 200 Personen gesamt",
+          "Versammlungsstätte: Versammlungsraum für mehr als 200 Personen, oder mehrere Räume mit gemeinsamen Rettungswegen über 200 Personen gesamt – Ausnahme: einmalige/gelegentliche Nutzung macht den Raum noch nicht zum Versammlungsraum ([Erlass-Ratgeber](/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw))",
           "Gastronomie: Schank- oder Speisegaststätte mit mehr als 200 Gastplätzen im Gebäude (im Freien ab 1.000 Plätze)",
           "Verkauf: Verkaufsstätte mit Verkaufsräumen und Ladenstraßen über 2.000 m² (innen)",
           "Büro: Büro- und Verwaltungsgebäude mit mehr als 3.000 m² Geschossfläche",
@@ -321,7 +322,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
           "Gastronomie und Imbiss: ab 200 Gastplätzen im Gebäude regelmäßig Sonderbau – darunter fallen viele Restaurants und Betriebsgastronomien in größeren Gebäuden; darunter sind Fluchtwege, Küchenbrandlasten, Fettbrand-Risiken und BMA-Anbindung zu klären.",
           "Escape Rooms, Studios, Fitness mit vielen Besuchern: oft Versammlungsstätten-ähnliche Anforderungen, wenn Räume für viele Personen mit gemeinsamen Rettungswegen ausgelegt sind – unabhängig vom Marketing-Begriff.",
           "Verwaltungs- und Geschäftshäuser: große Geschossflächen können Büro-Sonderbau auslösen; Teilsanierungen ändern die Einordnung nicht, aber jede bauliche Maßnahme an Trennwänden, Fluren oder Technikräumen braucht brandschutztechnische Bewertung.",
-          "Veranstaltungen in Bestandsgebäuden: auch mit bestehender Genehmigung sind Checkliste, Gefährdungsbeurteilung, Kapazitätsgrenze und Unterweisung vor dem Event üblich – Überbelegung ist ein häufiger Genehmigungs- und Versicherungsknackpunkt.",
+          "Veranstaltungen in Bestandsgebäuden: gelegentliche Nutzung mit mehr als 200 Besuchern macht den Raum noch nicht zum Versammlungsraum – Details: [gelegentliche Veranstaltung](/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw). Trotzdem können Ordnungsrecht und Feuerwehr-Abstimmung relevant bleiben.",
         ],
       },
       {
@@ -334,6 +335,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw", label: "Gelegentliche Veranstaltung" },
       { href: "/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw", label: "Einstufung GK & § 50" },
       { href: "/ratgeber/sonderbauten-geregelt-ungeregelt-bauo-nrw", label: "Sonderbau geregelt vs. ungeregelt" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen (GK 1–5)" },
@@ -760,7 +762,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "hinweis",
         title: "Grenzen dieses Ratgebers",
         paragraphs: [
-          "Weglängen, Nutzerzahlen und Sonderbau-Tatbestände sind immer einzelfallbezogen. Dieser Beitrag ersetzt keine behördliche Festlegung und keinen ingenieurmethodischen Nachweis (z. B. Entrauchung). Für den zweiten Rettungsweg über Dachfenster siehe den verlinkten Spezialratgeber.",
+          "Weglängen, Nutzerzahlen und Sonderbau-Tatbestände sind immer einzelfallbezogen. Dieser Beitrag ersetzt keine behördliche Festlegung und keinen ingenieurmethodischen Nachweis (z. B. Entrauchung). Für den zweiten Rettungsweg über Dachfenster siehe den verlinkten Spezialratgeber. Feuerwehrflächen und Merkblatt-Grenzen: [Feuerwehrzufahrten § 5](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw), [Runderlass Zufahrten](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw).",
         ],
       },
     ],
@@ -769,6 +771,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       { href: "/ratgeber/tuerarten-brandschutz-bauo-nrw", label: "Brandschutztüren" },
       { href: "/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw", label: "Rettungsweg Innenhof" },
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Zweiter Rettungsweg über Dachfenster" },
+      { href: "/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw", label: "Feuerwehr-Flächen § 5" },
+      { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt Runderlass" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen (GK 1–5)" },
       { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Fluchtpläne aktualisieren" },
       { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung" },
@@ -1426,11 +1430,13 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Zuständige Stelle und Anforderungen unterscheiden sich zwischen Städten und Kreisen in NRW – dieser Ratgeber beschreibt die übliche Logik, nicht das Merkblatt einer einzelnen Behörde. Verbindlich sind die Stellungnahme der örtlichen Feuerwehr und die Entscheidung der Bauaufsicht.",
+          "Zuständige Stelle und Anforderungen unterscheiden sich zwischen Städten und Kreisen in NRW – dieser Ratgeber beschreibt die übliche Logik, nicht das Merkblatt einer einzelnen Behörde. Verbindlich sind die Stellungnahme der örtlichen Feuerwehr und die Entscheidung der Bauaufsicht. Zu Merkblatt-Grenzen und Aufstellflächen: [Feuerwehrzufahrt Runderlass](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw), [Aufstellfläche Straße](/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw).",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw", label: "Feuerwehrzufahrt Runderlass" },
+      { href: "/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw", label: "Aufstellfläche Straße" },
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Zweiter Rettungsweg Dachfenster" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege § 33" },
       { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Bauaufsicht & Unterlagen" },
@@ -2659,6 +2665,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME,
   ...RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG,
   ...RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026,
+  ...RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT,
   ...RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE,
   ...RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG,
   ...RATGEBER_ARTICLES_BRANDMELDEANLAGE,

@@ -29,7 +29,7 @@ export const RATGEBER_ARTICLES_FEUERWEHRZUFARTEN: RatgeberArticle[] = [
         paragraphs: [
           "Planer fragen nach Breite, Wendekreis und Stellplatz – im Gesetz stehen andere Begriffe: Zu- und Durchgang (Zugang zu Fuß), Zu- und Durchfahrt (Befahrung mit Fahrzeugen), Aufstellfläche (Abstellen von Einsatzfahrzeugen) und Bewegungsfläche (Manövrieren).",
           "Die zentrale allgemeine Vorschrift für alle Gebäude ist § 5 BauO NRW (Zugänge und Zufahrten auf den Grundstücken). Sie ergänzt die Errichtungsvoraussetzung in § 4 Abs. 2 und verknüpft sich mit dem Rettungswegkonzept in §§ 33 und 37. SBauVO-Paragraphen verschärfen oder strukturieren – ersetzen § 5 nicht.",
-          "Dieser Ratgeber fasst ausschließlich gesetzlich verbindliches Recht zusammen – ohne DIN 14090, FwDV, Planungsrichtlinien der Feuerwehr oder konkrete Breiten, sofern das Gesetz sie nicht nennt. Konkrete Maße und NRW-Auslegung: [Feuerwehrzufahrt Runderlass](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw), [Aufstellfläche Straße](/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw).",
+          "Dieser Ratgeber fasst ausschließlich gesetzlich verbindliches Recht zusammen – ohne DIN 14090, FwDV oder kommunale Merkblatt-Maße, sofern das Gesetz sie nicht nennt. Konkrete Maße und NRW-Auslegung (Runderlasse = Verwaltungsvorschriften): [Feuerwehrzufahrt Runderlass 15.11.2024](/ratgeber/feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw), [Aufstellfläche Straße 30.12.2021](/ratgeber/aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw). Zum zweiten Rettungsweg im Hof: [Innenhof](/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw).",
         ],
       },
       {
