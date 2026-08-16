@@ -8,16 +8,16 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
     slug: "prueffristen-brandschutz-dguv-205-040-ueberblick",
     title: "Prüffristen im Brandschutz: Überblick nach DGUV 205-040",
     excerpt:
-      "Welches Rechtsgebiet für welche Anlage gilt: ArbStättV und ASR, BetrSichV, Muster-Prüfverordnung, Versicherer und DGUV – und warum dieselbe BMA mehrere Prüfzyklen hat.",
+      "Welches Rechtsgebiet für welche Anlage gilt: ArbStättV und ASR, BetrSichV, PrüfVO NRW, Versicherer und DGUV – und warum dieselbe BMA mehrere Prüfzyklen hat.",
     metaTitle: "Prüffristen Brandschutz: Rechtsgebiete | DGUV 205-040 | H&S+",
     metaDescription:
-      "Prüffristen im Brandschutz erklärt: ArbStättV, BetrSichV, Muster-Prüfverordnung, Versicherer – welches Gesetz für BMA, Löscher, RWA und Sprinkler gilt und warum Fristen parallel laufen.",
+      "Prüffristen im Brandschutz: ArbStättV, BetrSichV, PrüfVO NRW (3/6 Jahre), Versicherer und DGUV 205-040 – welches Regime für BMA, Löscher, RWA und Sprinkler gilt.",
     keywords: [
       "Prüffristen Brandschutz",
       "DGUV 205-040",
       "Brandschutz Prüfung Intervall",
       "ArbStättV Brandschutz",
-      "Muster Prüfverordnung",
+      "PrüfVO NRW",
     ],
     sections: [
       {
@@ -37,9 +37,9 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         list: [
           "**Arbeitsschutz (ArbStättV, ASR):** Feuerlöscher, Sichtkontrollen, organisatorische Maßnahmen – Pflicht des **Arbeitgebers**",
           "**Betriebssicherheit (BetrSichV):** Druckbehälter, fahrbare Löscher, Aufzüge – **befähigte Person** oder ZÜS",
-          "**Bauaufsicht / Muster-Prüfverordnung:** Sonderbauten – **Sachverständiger für baurechtliche Prüfungen (SV-Bau)** alle 3–5 Jahre",
+          "**Bauaufsicht / PrüfVO NRW:** technische Anlagen in erfassten Gebäuden – **Prüfsachverständige**, wiederkehrend max. **3 Jahre** (Nr. 1–8) bzw. **6 Jahre** (Nr. 9–11)",
           "**Versicherer (SV-V):** Technische Schutzwirkung – z. B. Sprinkler, BMA mit erhöhten Anforderungen",
-          "**Errichter / Fachfirmen:** Inspektion und Wartung nach DIN VDE, VdS – **EFK** (Errichter/Fachfirma für Brandmeldeanlagen) oder Errichter",
+          "**Errichter / Fachfirmen:** Inspektion und Wartung nach DIN VDE, VdS – **EFK** oder Errichter (Instandhaltung, nicht PrüfVO-Frist)",
         ],
       },
       {
@@ -64,23 +64,23 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "parallel",
         title: "Warum mehrere Fristen für eine BMA?",
         paragraphs: [
-          "Eine Brandmeldeanlage im Sonderbau hat typischerweise: **tägliche/vierteljährliche Betriebsbereitschaft** (vom Betreiber), **jährliche Begehung** (SK oder EFK nach DIN VDE 0833-1), **Inspektion und Wartung** durch EFK, **alle 3–5 Jahre SV-Bau** nach Muster-Prüfverordnung und ggf. **SV-V** nach Versicherungsklauseln.",
-          "Fehler in der Praxis: Nur die Wartungsrechnung des Errichters liegt vor – die **baurechtliche Prüfung** ist überfällig. Oder umgekehrt: SV-Bau-Protokoll existiert, aber **Betriebskontrollen** fehlen in der Dokumentation.",
+          "Eine Brandmeldeanlage im erfassten Gebäude hat typischerweise: **Betriebsbereitschaft** (Betreiber), **jährliche Begehung/Inspektion und Wartung** (SK oder EFK nach DIN VDE 0833 – Instandhaltung), **wiederkehrend max. 3 Jahre Prüfsachverständiger** nach PrüfVO NRW (Nr. 8) und ggf. **SV-V** nach Versicherungsklauseln.",
+          "Fehler in der Praxis: Nur die Wartungsrechnung des Errichters liegt vor – die **PrüfVO-Prüfung** ist überfällig. Oder umgekehrt: Prüfsachverständigen-Protokoll existiert, aber **Betriebskontrollen** fehlen in der Dokumentation. Leitseite: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
         ],
       },
       {
         id: "dokumentation",
         title: "Prüfbuch und Nachweisführung",
         paragraphs: [
-          "Für Sonderbauten verlangt die Muster-Prüfverordnung ein **Prüfbuch** mit Anlagenverzeichnis, Prüfberichten und Mängelliste. Für Arbeitsschutz: Prüfprotokolle, Plaketten, Gefährdungsbeurteilung. Versicherer erwarten separate Schutzwirkungsnachweise.",
-          "Der [Brandschutzbeauftragte](/ratgeber/aufgaben-brandschutzbeauftragter-koeln) koordiniert die Fristen – ersetzt aber nicht die fachkundige Prüfung durch SK, bP, EFK oder SV-Bau.",
+          "Für Anlagen nach PrüfVO NRW: Prüfunterlagen, Berichte und Mängelnachweise beim Betreiber (§ 2 Abs. 2). Für Arbeitsschutz: Prüfprotokolle, Plaketten, Gefährdungsbeurteilung. Versicherer erwarten separate Schutzwirkungsnachweise.",
+          "Der Brandschutzbeauftragte koordiniert die Fristen – ersetzt aber nicht die fachkundige Prüfung durch SK, bP, EFK oder Prüfsachverständige.",
         ],
       },
       {
         id: "nrw",
-        title: "NRW: BauPrüfVO und Brandschau",
+        title: "NRW: PrüfVO, BauPrüfVO und Brandschau",
         paragraphs: [
-          "In NRW setzt die **BauPrüfverordnung** die Muster-Prüfverordnung (ARGEBAU) um. Die **Feuerwehr-Brandschau** prüft Einsatzvoraussetzungen – sie ersetzt weder EFK-Wartung noch SV-Bau-Prüfung. Details: [Brandschau](/ratgeber/brandschau-koeln-feuerwehr) und [Prüfpflichten Sonderbauten](/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung).",
+          "In NRW ist die betriebliche Prüfsachverständigen-Prüfung die **PrüfVO NRW** (3/6 Jahre nach Anlagentyp) – nicht die BauPrüfVO. Die **BauPrüfVO** regelt Bauvorlagen und Brandschutzkonzept in der Genehmigung. Die Brandschau der Feuerwehr prüft Einsatzvoraussetzungen – sie ersetzt weder EFK-Wartung noch die PrüfVO-Prüfung. Details: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau) und [Sonderbau-Prüfung](/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung).",
         ],
       },
       {
@@ -92,11 +92,12 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
       { href: "/ratgeber/wer-darf-brandschutzanlagen-pruefen", label: "Wer darf prüfen?" },
       { href: "/ratgeber/wartung-inspektion-pruefung-brandschutz-din-31051", label: "Wartung vs. Prüfung" },
       { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "Sonderbau-Prüfung" },
       { href: "/ratgeber/feuerloescher-pruefen-wartung-asr-a22", label: "Feuerlöscher prüfen" },
-      { href: "/ratgeber/aufgaben-brandschutzbeauftragter-koeln", label: "Aufgaben BSB" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
@@ -185,8 +186,8 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "sv",
         title: "SV-Bau und SV-V – Sachverständige",
         paragraphs: [
-          "**SV-Bau** (Sachverständiger für baurechtliche Prüfungen): Wirksamkeit und Betriebssicherheit nach **Muster-Prüfverordnung** – typisch alle **3 Jahre** (RWA, BMA-Zusammenwirkung) oder **5 Jahre** (Sprinkler, Löschwasser). In NRW über **BauPrüfVO**.",
-          "**SV-V** (Versicherungssachverständiger): Technische Schutzwirkung nach **Versicherungsklauseln** – kann kürzere Intervalle verlangen als der Gesetzgeber.",
+          "**Prüfsachverständige** nach PrüfVO NRW: Wirksamkeit und Betriebssicherheit technischer Anlagen – wiederkehrend max. **3 Jahre** für Nr. 1–8 (u. a. BMA Nr. 8, selbsttätige Löschanlagen Nr. 2, maschinelle RWA Nr. 6) und max. **6 Jahre** für Nr. 9–11 (u. a. natürliche RWA Nr. 10, nicht-selbsttätige Löschanlagen Nr. 11). Die BauPrüfVO ist nicht die Umsetzungs-VO der Muster-PrüfVO und regelt keine Betriebsprüfung. Leitseite: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
+          "**SV-V** (Versicherungssachverständiger): Technische Schutzwirkung nach **Versicherungsklauseln** – kann kürzere Intervalle verlangen als der Gesetzgeber. Errichter-Intervalle (z. B. 5-jährige erweiterte Inspektion Sprinkler nach VdS) sind **Instandhaltung**, nicht die PrüfVO-Frist.",
         ],
       },
       {
@@ -205,10 +206,11 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
       { href: "/ratgeber/prueffristen-brandschutz-dguv-205-040-ueberblick", label: "Prüffristen Überblick" },
       { href: "/ratgeber/bma-prueffristen-brandmeldeanlage", label: "BMA-Prüffristen" },
       { href: "/ratgeber/feuerloescher-pruefen-wartung-asr-a22", label: "Feuerlöscher prüfen" },
-      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "SV-Bau Sonderbau" },
+      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "Sonderbau-Prüfung" },
       { href: "/ratgeber/feuerschutzabschluesse-prueffristen-fstA", label: "Feststellanlagen" },
     ],
     faq: [
@@ -279,7 +281,7 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "bma",
         title: "Beispiel BMA nach DIN VDE 0833-1",
         paragraphs: [
-          "Laut DGUV-Tabelle: **Begehungen** (SK oder EFK), **Inspektion** (EFK, jährlich), **Wartung** (EFK, zweijährlich), **Instandsetzung** (EFK nach Bedarf). Parallel: **SV-Bau** alle 3–5 Jahre für Wirksamkeit im Sonderbau.",
+          "Laut DGUV-Tabelle: **Begehungen** (SK oder EFK), **Inspektion** (EFK, jährlich), **Wartung** (EFK, zweijährlich), **Instandsetzung** (EFK nach Bedarf). Parallel – wenn Teil 1 greift: bauordnungsrechtliche Prüfung durch Prüfsachverständige nach [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau); BMA (Nr. 8) wiederkehrend max. **3 Jahre**, nicht 3–5 Jahre und nicht Muster-PrüfVO/BauPrüfVO.",
           "„Wartungsvertrag BMA“ deckt oft Inspektion und Wartung ab – **nicht** automatisch die baurechtliche Sachverständigenprüfung.",
         ],
       },
@@ -333,7 +335,7 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
       {
         question: "Reicht jährliche BMA-Wartung für den Sonderbau?",
         answer:
-          "Nein. Zusätzlich ist die baurechtliche Prüfung durch SV-Bau nach Muster-Prüfverordnung erforderlich – typisch 3–5 Jahre.",
+          "Nein. Instandhaltung nach DIN/DGUV ersetzt nicht die bauordnungsrechtliche Prüfung durch Prüfsachverständige nach PrüfVO NRW. BMA (Nr. 8) wiederkehrend max. 3 Jahre, wenn Teil 1 greift – nicht Muster-PrüfVO und nicht 3–5 Jahre. Siehe [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
       },
       {
         question: "Was ist erweiterte Inspektion bei Sprinkler?",
@@ -359,261 +361,198 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
   },
   {
     slug: "pruefpflichten-sonderbauten-muster-pruefverordnung",
-    title: "Prüfpflichten in Sonderbauten: Muster-Prüfverordnung",
+    title: "Sonderbau-Prüfung NRW: PrüfVO – nicht BauPrüfVO",
     excerpt:
-      "Wann SV-Bau-Prüfungen für BMA, RWA, Sprinkler und Lüftung fällig werden, was Wirkprinzip-Prüfung bedeutet und wie das Prüfbuch in NRW geführt wird.",
-    metaTitle: "Sonderbau Prüfpflicht: Muster-PrüfVO | NRW | H&S+",
+      "Betriebliche Prüfsachverständigen-Prüfung = PrüfVO NRW (3/6 Jahre). BauPrüfVO = Bauvorlagen und Brandschutzkonzept. Muster-PrüfVO anderer Länder ist kein NRW-Recht.",
+    metaTitle: "Sonderbau-Prüfung: PrüfVO NRW 3/6 Jahre | H&S+",
     metaDescription:
-      "Prüfpflicht Sonderbau: Muster-Prüfverordnung für BMA, RWA, Sprinkler – SV-Bau-Intervalle, Prüfbuch, Wirkprinzip-Prüfung und Umsetzung in NRW über BauPrüfVO.",
+      "Sonderbau-Prüfung NRW: PrüfVO 3 Jahre (Nr. 1–8 inkl. BMA/Sprinkler), 6 Jahre (Nr. 9–11). BauPrüfVO ≠ betriebsprüfende Verordnung. Muster-PrüfVO anderer Länder nicht übernehmen.",
     keywords: [
       "Muster Prüfverordnung",
       "Sonderbau Prüfung",
-      "SV-Bau Brandschutz",
+      "PrüfVO NRW",
       "Prüfbuch Sonderbau",
-      "Wirkprinzip Prüfung BMA",
+      "Prüfsachverständiger Brandschutz",
     ],
     sections: [
       {
         id: "grundlage",
-        title: "Baurechtliche Prüfung – eigenes Rechtsgebiet",
+        title: "Welche Verordnung gilt in NRW für die Anlagenprüfung?",
         paragraphs: [
-          "Sonderbauten nach Landesbauordnung unterliegen **wiederkehrenden Prüfungen** durch einen **Sachverständigen für baurechtliche Prüfungen (SV-Bau)**. Grundlage: **Muster-Prüfverordnung** der ARGEBAU-Länderarbeitsgemeinschaft – in NRW als **BauPrüfverordnung (BauPrüfVO)** umgesetzt.",
-          "Diese Prüfung prüft **Wirksamkeit und Betriebssicherheit** – nicht die jährliche EFK-Wartung und nicht die Feuerwehr-Brandschau.",
-        ],
-      },
-      {
-        id: "anlagen",
-        title: "Welche Anlagen sind prüfpflichtig?",
-        paragraphs: [
-          "Typische prüfpflichtige Anlagen in Sonderbauten (Auswahl nach DGUV 205-040):",
-        ],
-        list: [
-          "**Brandmeldeanlagen** – Wirksamkeit, ggf. Wirkprinzip-Prüfung (Zusammenwirkung mit RWA, Aufzug, Feststellanlagen)",
-          "**Rauch- und Wärmeabzugsanlagen** – natürliche und maschinelle RWA, Rauchschutzdruckanlagen",
-          "**Sprinkler- und Löschanlagen** – alle 5 Jahre",
-          "**Löschwasseranlagen** mit Druckerhöhung – alle 3 Jahre",
-          "**Rauchschutzabschlüsse** und **Feststellanlagen** im bauaufsichtlichen Kontext",
-          "**Sicherheitsbeleuchtung, Aufzüge, Lüftung** – je nach Landesverordnung",
+          "Die wiederkehrende Prüfung technischer Anlagen durch Prüfsachverständige richtet sich in NRW nach der PrüfVO NRW – nicht nach der BauPrüfVO. Die BauPrüfVO regelt Bauvorlagen und das Brandschutzkonzept in der Genehmigung. Die Muster-Prüfverordnung der ARGEBAU ist Orientierungsvorlage anderer Länder; sie ist in NRW nicht „als BauPrüfVO umgesetzt“.",
+          "PrüfVO begründet keine Einbaupflicht: Sie prüft vorhandene oder bauordnungsrechtlich geforderte Anlagen. Ob Teil 1 greift, ergibt sich aus dem Gebäudekatalog § 1 und ggf. Anordnung. Leitseite: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
         ],
       },
       {
         id: "intervalle",
-        title: "Typische SV-Bau-Intervalle",
+        title: "Intervalle nach Anlagentyp – 3 und 6 Jahre",
         paragraphs: [
-          "Aus DGUV-Zusatztabelle (Orientierung – Landesrecht kann abweichen):",
+          "Wiederkehrend nicht mehr als drei Jahre für Anlagen Nr. 1–8 (u. a. selbsttätige Feuerlöschanlagen, maschinelle RWA, Brandmelde- und Alarmierungsanlagen). Nicht mehr als sechs Jahre für Nr. 9–11 (elektrische Anlagen soweit erfasst, natürliche Rauchabzugsanlagen, nicht-selbsttätige Feuerlöschanlagen).",
         ],
-        list: [
-          "BMA – Wirksamkeit: **5 Jahre**; Wirkprinzip-Prüfung: **5 Jahre**",
-          "Natürliche RWA – **3 Jahre**",
-          "Maschinelle RWA – **3 Jahre**",
-          "Rauchschutzdruckanlage – **3 Jahre**",
-          "Sprinkler / Schaum / Sprühwasser – **5 Jahre**",
-          "Löschwasseranlage nass – **3 Jahre**",
+        table: {
+          caption: "PrüfVO NRW – wiederkehrende Fristen (Teil 1)",
+          headers: ["Nr.", "Anlage", "Wiederkehrend"],
+          rows: [
+            ["2", "ortsfeste selbsttätige Feuerlöschanlagen (z. B. Sprinkler)", "max. 3 Jahre"],
+            ["8", "Brandmelde- und Alarmierungsanlagen", "max. 3 Jahre"],
+            ["3–7", "u. a. maschinelle RWA, Sicherheitsbeleuchtung (soweit Nr. 1–8)", "max. 3 Jahre"],
+            ["9–10", "elektrische Anlagen / natürliche RWA (soweit erfasst)", "max. 6 Jahre"],
+            ["11", "ortsfeste nicht-selbsttätige Feuerlöschanlagen", "max. 6 Jahre"],
+          ],
+        },
+      },
+      {
+        id: "abgrenzung",
+        title: "BauPrüfVO, DGUV, Muster-PrüfVO",
+        paragraphs: [
+          "BauPrüfVO: Genehmigungsunterlagen und Konzept – keine Ersatzregel für Betriebsprüfungen nach PrüfVO. DGUV 205-040 / DIN / VdS: Instandhaltung und Arbeitsschutz – parallel, aber nicht die bauordnungsrechtliche Prüfsachverständigen-Frist.",
+          "Teil 2 § 10 PrüfVO (Behördenprüfung Gebäude) ist etwas anderes als Teil 1 (Anlagen). Bei Beherbergung greift § 10 erst bei mehr als 60 Betten.",
         ],
       },
       {
         id: "pruefbuch",
-        title: "Prüfbuch und Mängelverfolgung",
+        title: "Unterlagen und Mängel",
         paragraphs: [
-          "Der Betreiber führt ein **Prüfbuch** mit Anlagenverzeichnis, Prüfberichten, Mängeln und Fristen zur Beseitigung. Der SV-Bau dokumentiert festgestellte Mängel – **schwerwiegende Mängel** können zur Nutzungseinschränkung führen.",
-          "Abgrenzung: [Brandschau](/ratgeber/brandschau-koeln-feuerwehr) der Feuerwehr prüft Einsatzbedingungen – Ergebnisse gehören in die Gesamtdokumentation, ersetzen aber nicht SV-Bau-Berichte.",
-        ],
-      },
-      {
-        id: "wirkprinzip",
-        title: "Wirkprinzip-Prüfung bei BMA",
-        paragraphs: [
-          "Prüft das **bestimmungsgemäße Zusammenwirken** von Anlagen: Meldet die BMA, schließt die Feststellanlage, startet RWA, steuert Aufzug und Entrauchung korrekt? Dafür braucht es **abgestimmte Prüfabläufe** mit FK für FstA und EFK – nicht nur Einzelkomponententests.",
-        ],
-      },
-      {
-        id: "nrw",
-        title: "NRW und Köln",
-        paragraphs: [
-          "Einordnung als Sonderbau: [Sonderbauten](/ratgeber/sonderbauten-brandschutz). Genehmigung und Nachweise: [Bauantrag Unterlagen](/ratgeber/bauantrag-brandschutz-unterlagen-koeln). Nach Umbau: [Abnahme](/ratgeber/brandschutz-abnahme-nach-umbau-koeln) – SV-Bau-Termine früh planen.",
-        ],
-      },
-      {
-        id: "vertiefung",
-        title: "Praxis: Prüfkalender und Nachweise",
-        paragraphs: [
-          "Prüfpflichten in Sonderbauten: Muster-Prüfverordnung verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
-          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
-          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+          "Betreiber: Prüfunterlagen, Mängelbeseitigung, Berichte, Aufbewahrung – siehe § 2 Abs. 2 PrüfVO. Schwerwiegende Mängel können zur Nutzungseinschränkung führen. Die Brandschau der Feuerwehr ersetzt die Prüfsachverständigen-Prüfung nicht.",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Konkrete Fristen und Anlagenkatalog folgen der Landes-Prüfverordnung und der Baugenehmigung. Dieser Ratgeber ersetzt keine behördliche Festlegung.",
+          "Landesrecht und Baugenehmigung entscheiden. Kein Ersatz für Prüfbericht oder behördliche Festlegung. Verwechslung BauPrüfVO/PrüfVO ist ein häufiger Planungsfehler.",
         ],
       },
     ],
     relatedLinks: [
-      { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
-      { href: "/ratgeber/brandschau-koeln-feuerwehr", label: "Brandschau" },
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW Leitseite" },
       { href: "/ratgeber/bma-prueffristen-brandmeldeanlage", label: "BMA-Fristen" },
-      { href: "/ratgeber/rwa-entrauchung-prueffristen", label: "RWA-Fristen" },
-      { href: "/ratgeber/prueffristen-brandschutz-dguv-205-040-ueberblick", label: "Überblick DGUV" },
+      { href: "/ratgeber/sprinkler-loeschanlagen-prueffristen", label: "Sprinkler-Fristen" },
+      { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
+      { href: "/ratgeber/brandschutzkonzept-baupruefvo-nrw", label: "BauPrüfVO / Konzept" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Wer beauftragt den SV-Bau?",
+        question: "Ist die BauPrüfVO die PrüfVO für Sonderbauten?",
         answer:
-          "Der Betreiber/Gebäudeeigentümer – oft über den Brandschutzbeauftragten oder Facility Manager.",
+          "Nein. BauPrüfVO = Bauvorlagen und Brandschutzkonzept. Betriebliche Prüfsachverständigen-Prüfung = PrüfVO NRW.",
+      },
+      {
+        question: "Wie oft BMA und Sprinkler nach PrüfVO?",
+        answer:
+          "Beide unter Nr. 1–8: wiederkehrend nicht mehr als 3 Jahre, wenn Teil 1 greift. Nicht-selbsttätige Löschanlagen (Nr. 11): max. 6 Jahre.",
+      },
+      {
+        question: "Darf ich Muster-PrüfVO-Fristen aus anderen Ländern übernehmen?",
+        answer:
+          "Nicht als NRW-Recht. In NRW gelten PrüfVO-Fristen 3/6 Jahre nach Anlagentyp – nicht pauschal „SV-Bau 5 Jahre“.",
+      },
+      {
+        question: "Wer beauftragt den Prüfsachverständigen?",
+        answer:
+          "Der Betreiber auf eigene Kosten (§ 2 Abs. 2 PrüfVO) – oft über Facility oder Brandschutzbeauftragten.",
       },
       {
         question: "Gilt die Prüfpflicht auch im Bestand?",
         answer:
-          "Ja, wenn das Gebäude als Sonderbau eingestuft ist und prüfpflichtige Anlagen hat – unabhängig vom Baujahr.",
+          "Ja, wenn das Gebäude im Katalog § 1 steht oder Prüfung angeordnet ist und prüfpflichtige Anlagen vorhanden sind.",
       },
       {
-        question: "Was passiert bei Mängeln?",
+        question: "Brauchen normale Büros diese Prüfung?",
         answer:
-          "Beseitigungsfrist im Prüfbericht. Bei Gefahr im Verzug können Behörden Maßnahmen anordnen.",
-      },
-      {
-        question: "Ist die Erstabnahme die gleiche Prüfung?",
-        answer:
-          "Nein. Erstabnahme bei Inbetriebnahme; wiederkehrende Prüfung im Betrieb in festen Intervallen.",
-      },
-      {
-        question: "Brauchen normale Büros SV-Bau?",
-        answer:
-          "Nur wenn Sonderbau-Tatbestand und prüfpflichtige Anlagen vorliegen – viele Büros unter 3.000 m² sind kein Sonderbau, können aber BMA haben (ohne Muster-PrüfVO-Pflicht).",
+          "Nur wenn Katalogtatbestand oder Anordnung greift – nicht allein weil eine BMA freiwillig vorhanden ist.",
       },
     ],
   },
   {
     slug: "bma-prueffristen-brandmeldeanlage",
-    title: "BMA prüfen: Prüffristen für Brandmeldeanlagen",
+    title: "BMA-Prüffristen NRW: Wie oft prüfen – 3 Jahre PrüfVO?",
     excerpt:
-      "Betriebsbereitschaft, Begehung, Inspektion, Wartung und SV-Bau für Brandmeldeanlagen – Intervalle nach DIN VDE 0833-1 und DGUV 205-040 mit Melder-Austauschfristen.",
-    metaTitle: "BMA Prüffristen: Inspektion & Wartung | VDE 0833 | H&S+",
+      "In NRW wiederkehrend max. 3 Jahre für Brandmelde- und Alarmierungsanlagen (PrüfVO § 1 Abs. 1 Satz 2 Nr. 8). DIN VDE 0833 / DIN 14675 / DGUV = Instandhaltung – nicht die bauordnungsrechtliche Frist.",
+    metaTitle: "BMA prüfen NRW: PrüfVO 3 Jahre | H&S+",
     metaDescription:
-      "Brandmeldeanlage prüfen: vierteljährliche Betriebsbereitschaft, jährliche Inspektion, 2-jährige Wartung, SV-Bau alle 5 Jahre – Fristen nach DIN VDE 0833-1 und DGUV 205-040.",
+      "BMA-Prüffristen NRW: wiederkehrend max. 3 Jahre nach PrüfVO (Nr. 8). Wartung nach DIN VDE 0833 / DGUV zusätzlich – nicht als bauordnungsrechtliche Frist.",
     keywords: [
       "BMA Prüffrist",
       "Brandmeldeanlage Wartung",
-      "DIN VDE 0833-1 Inspektion",
+      "PrüfVO NRW BMA",
       "BMA Prüfung Intervall",
-      "Brandmelder austauschen",
+      "DIN VDE 0833-1 Inspektion",
     ],
     sections: [
       {
         id: "ueberblick",
-        title: "Mehrere Ebenen parallel",
+        title: "Wie oft muss die BMA in NRW geprüft werden?",
         paragraphs: [
-          "Eine **Brandmeldeanlage (BMA)** hat im Betrieb typischerweise **vier Ebenen**: Betriebskontrolle (Betreiber), Begehung/Inspektion/Wartung (SK oder **EFK**), **SV-Bau** (Sonderbau) und ggf. **SV-V** (Versicherung). Die DGUV-Tabelle „Branderkennungs- und Alarmierungsanlagen“ listet die Intervalle nach DIN VDE 0833-1 und VdS 2095.",
+          "Bauordnungsrechtlich: Brandmelde- und Alarmierungsanlagen = PrüfVO § 1 Abs. 1 Satz 2 Nr. 8 → wiederkehrend nicht mehr als 3 Jahre (§ 2 Abs. 1 Satz 3), wenn Teil 1 greift. Nicht „SV-Bau typisch 5 Jahre“.",
+          "Zusätzlich: Instandhaltung nach DIN VDE 0833 / DIN 14675 und DGUV 205-040 (Betriebskontrolle, Begehung, Inspektion, Wartung) – klar getrennt von der PrüfVO-Frist. Details Katalog und Betreiberpflichten: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
         ],
-      },
-      {
-        id: "betrieb",
-        title: "Betriebsbereitschaft – nach Erfordernis / vierteljährlich",
-        paragraphs: [
-          "**vP (verantwortliche Person):** Bedienung und Betriebsbereitschaft der BMA – Störungsmeldungen, Beschäftigteninformation, Dokumentation im Brandfallbuch. In vielen Betrieben **vierteljährlich** oder häufiger nach Gefährdungsbeurteilung.",
-        ],
-      },
-      {
-        id: "begehung",
-        title: "Begehungen – jährlich",
-        paragraphs: [
-          "**SK oder EFK:** Begehung der Anlage – sichtbare Mängel, Melderzugänglichkeit, Beschriftung, Leitungen. Bei BMA nach **VdS 2095** alternativ **SK oder E (Errichter)**.",
-        ],
+        table: {
+          caption: "BMA – zwei Ebenen",
+          headers: ["Ebene", "Frist / Takt", "Rechtsquelle"],
+          rows: [
+            ["Prüfsachverständiger (wirksam/betriebssicher)", "max. 3 Jahre wiederkehrend", "PrüfVO NRW Nr. 8"],
+            ["Betriebskontrolle / Begehung / Inspektion / Wartung", "nach DIN/DGUV (z. B. jährlich / 2-jährlich)", "DIN VDE 0833, DIN 14675, DGUV 205-040"],
+            ["Versicherung (falls vereinbart)", "nach Klausel (z. B. SV-V)", "nicht PrüfVO"],
+          ],
+        },
       },
       {
         id: "instandhaltung",
-        title: "Inspektion, Wartung, Instandsetzung",
-        list: [
-          "**Inspektion (EFK):** jährlich – systematischer Zustandsabgleich",
-          "**Wartung (EFK):** zweijährlich – Verschleiß, Einstellung, Funktionsprüfungen mit Messmitteln",
-          "**Instandsetzung (EFK):** nach Bedarf – nach Störung oder Mangel",
-        ],
+        title: "Instandhaltung – nicht die PrüfVO-Frist",
         paragraphs: [
-          "Wartungsverträge sollten Inspektion und Wartung **getrennt ausweisen** – wichtig für Prüfbuch und Audits.",
-        ],
-      },
-      {
-        id: "melder",
-        title: "Melder-Austausch nach DIN 14675-1",
-        paragraphs: [
-          "Punktförmige Melder **ohne Verschmutzungskompensation:** Austausch nach **8 Jahren** (EFK). **Mit Verschmutzungskompensation:** nach **12 Jahren**. Das ist unabhängig von der jährlichen Inspektion – Planung im Instandhaltungsbudget.",
+          "Typisch parallel: Betriebskontrolle durch verantwortliche Person; jährliche Begehung/Inspektion durch SK oder EFK; Wartung nach Norm (oft zweijährlich). Melder-Austauschfristen nach DIN 14675-1 gehören zur Instandhaltung – nicht zur PrüfVO-Intervallregel.",
+          "Grenzfall ja: PrüfVO-Bericht alle 3 Jahre plus laufende EFK-Wartung. Grenzfall nein: Nur Wartungsrechnung, obwohl das Objekt im PrüfVO-Katalog steht.",
         ],
       },
       {
         id: "sonderbau",
-        title: "SV-Bau und Wirkprinzip – 5 Jahre",
+        title: "Wann greift Teil 1 überhaupt?",
         paragraphs: [
-          "Im Sonderbau: **Wirksamkeit und Betriebssicherheit** sowie **Wirkprinzip-Prüfung** (Zusammenwirkung mit RWA, Feststellanlagen, Aufzug) – **SV-Bau**, typisch **5 Jahre**. **Funktionale Kette der Brandfallsteuerung** nach DIN 14675-1: **EFK**, 5 Jahre.",
-          "Details: [Prüfpflichten Sonderbauten](/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung).",
-        ],
-      },
-      {
-        id: "verwandt",
-        title: "SAA, BWA, ENS – Kurzüberblick",
-        paragraphs: [
-          "**Sprachalarmierung (SAA):** analog BMA nach DIN VDE 0833-1/0833-4. **Brandwarnanlage (BWA):** Inspektion jährlich, Wartung 2-jährig nach DIN VDE V 0826-2. **ENS:** jährliche Inspektion durch SK nach DIN EN 50849.",
-        ],
-      },
-      {
-        id: "vertiefung",
-        title: "Praxis: Prüfkalender und Nachweise",
-        paragraphs: [
-          "BMA prüfen: Prüffristen für Brandmeldeanlagen verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
-          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
-          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
-        ],
-      },
-      {
-        id: "betrieb-nachweis",
-        title: "Praxis: Prüfkalender und Nachweise",
-        paragraphs: [
-          "BMA prüfen: Prüffristen für Brandmeldeanlagen verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
-          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
-          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+          "Nur in Gebäuden nach § 1 Abs. 1 Satz 1 PrüfVO bzw. bei Anordnung – nicht in jedem Gewerbe mit BMA. Die PrüfVO verlangt keine BMA; sie prüft vorhandene/geforderte Anlagen.",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Konkrete Intervalle können von Abnahme, Versicherer und VdS-Klassifizierung abweichen. BMA nach VdS 2095 mit erhöhten Anforderungen: zusätzlich **SV-V** alle 5 Jahre.",
+          "Versicherung und VdS können zusätzliche Fristen verlangen – das ändert die PrüfVO-3-Jahres-Regel nicht. Kein Ersatz für Prüfbericht.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW Leitseite" },
+      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "Sonderbau-Prüfung" },
+      { href: "/ratgeber/sprinkler-loeschanlagen-prueffristen", label: "Sprinkler-Fristen" },
       { href: "/ratgeber/wartung-inspektion-pruefung-brandschutz-din-31051", label: "Wartung vs. Inspektion" },
-      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "SV-Bau Sonderbau" },
-      { href: "/ratgeber/feuerschutzabschluesse-prueffristen-fstA", label: "Feststellanlagen" },
-      { href: "/ratgeber/rwa-entrauchung-prueffristen", label: "RWA" },
-      { href: "/ratgeber/sprinkler-rueckbau-bma-nutzungsaenderung-koeln", label: "BMA bei Umbau" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Reicht der Wartungsvertrag für die BMA?",
+        question: "Alle 5 Jahre SV-Bau – gilt das in NRW für BMA?",
         answer:
-          "Für EFK-Leistungen ja – wenn Inspektion, Wartung und Protokollierung vertraglich und tatsächlich erbracht werden. SV-Bau ist separat.",
+          "Nein. Nach PrüfVO NRW gilt für Brandmelde- und Alarmierungsanlagen (Nr. 8) wiederkehrend max. 3 Jahre – nicht 5.",
       },
       {
-        question: "Wie oft muss die BMA ausgelöst werden?",
+        question: "Ersetzt DIN VDE 0833 die PrüfVO?",
         answer:
-          "Vollprüfung mit Alarm nur in Abstimmung mit Betrieb und ggf. Feuerwehr – Inspektion nutzt Testmodi nach Norm.",
+          "Nein. DIN/DGUV regeln Instandhaltung. PrüfVO ist die baurechtliche Prüfsachverständigen-Prüfung.",
       },
       {
-        question: "Was kostet die jährliche BMA-Inspektion?",
+        question: "Reicht der Wartungsvertrag?",
         answer:
-          "Abhängig von Melderanzahl, Gebäudestruktur und Vertrag – Richtwerte nur über Angebot des EFK.",
+          "Für EFK-Instandhaltung ggf. ja. Die PrüfVO-Prüfung ist separat, wenn Teil 1 greift.",
+      },
+      {
+        question: "Muss jede BMA nach PrüfVO geprüft werden?",
+        answer:
+          "Nur wenn das Gebäude im Katalog § 1 steht oder Prüfung angeordnet ist. Freiwillige BMA allein begründet keine PrüfVO-Pflicht.",
       },
       {
         question: "Müssen Rauchwarnmelder in Wohnungen zur BMA?",
         answer:
-          "Nein. Stand-alone-Rauchwarnmelder: jährliche Sicht- und Funktionsprüfung durch Betreiber (B) nach DIN 14676.",
-      },
-      {
-        question: "Wann BMA nach Umbau neu abnehmen?",
-        answer:
-          "Bei wesentlicher Änderung der Schutzziel-Erreichung – siehe [Abnahme nach Umbau](/ratgeber/brandschutz-abnahme-nach-umbau-koeln).",
+          "Nein. Stand-alone-Rauchwarnmelder: Sicht- und Funktionsprüfung nach DIN 14676 – keine PrüfVO-BMA.",
       },
     ],
   },
@@ -758,12 +697,12 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
       "Natürliche und maschinelle RWA, Treppenraumentrauchung, Aufzugschacht und Rauchschutzdruckanlagen – Intervalle nach VdS, DIN 18232 und DGUV 205-040.",
     metaTitle: "RWA Prüffrist: Entrauchung & RDA | VdS 3830 | H&S+",
     metaDescription:
-      "RWA prüfen: halbjährliche Sichtkontrolle, jährliche Funktionsprüfung, SV-Bau alle 3 Jahre – Fristen für natürliche und maschinelle Rauchabzugsanlagen nach DGUV 205-040.",
+      "RWA prüfen: Instandhaltung nach VDMA/DIN; PrüfVO NRW maschinelle RWA max. 3 Jahre (Nr. 6), natürliche RWA max. 6 Jahre (Nr. 10).",
     keywords: [
       "RWA Prüffrist",
       "Rauchabzugsanlage Wartung",
       "Entrauchung prüfen",
-      "Rauchschutzdruckanlage Prüfung",
+      "PrüfVO NRW RWA",
       "DIN 18232 Instandhaltung",
     ],
     sections: [
@@ -771,19 +710,19 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "ueberblick",
         title: "RWA-Familie – nicht alles gleich",
         paragraphs: [
-          "Unter Rauch- und Wärmeabzugsanlagen fallen unterschiedliche Systeme: natürliche RWA (Dachöffnungen, RWA-Türen), maschinelle Entrauchung, Treppenraumentrauchung, Aufzugschachtentrauchung und Rauchschutzdruckanlagen (RDA). Jede hat eigene Normen und Intervalle in DGUV 205-040.",
+          "Unter Rauch- und Wärmeabzugsanlagen fallen unterschiedliche Systeme: natürliche RWA (Dachöffnungen, RWA-Türen), maschinelle Entrauchung, Treppenraumentrauchung, Aufzugschachtentrauchung und Rauchschutzdruckanlagen (RDA). DGUV 205-040 und VDMA/DIN regeln die **Instandhaltung**. In NRW gilt die bauordnungsrechtliche Prüfung nach [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau): maschinelle RWA (Nr. 6) max. **3 Jahre**, natürliche RWA (Nr. 10) max. **6 Jahre**.",
         ],
       },
       {
         id: "nra",
         title: "Natürliche RWA (NRA)",
         list: [
-          "Halbjährlich: Sichtkontrolle durch Betriebspersonal (P)",
-          "Jährlich: Sichtkontrolle und Funktionsprüfung durch SK – VdS 3830, DIN 18232-2, DIN EN 12101-2, LBO",
-          "3-jährlich: Wirksamkeit und Betriebssicherheit – SV-Bau (Sonderbau)",
+          "Halbjährlich: Sichtkontrolle durch Betriebspersonal (P) – Instandhaltung",
+          "Jährlich: Sichtkontrolle und Funktionsprüfung durch SK – VdS 3830, DIN 18232-2, DIN EN 12101-2",
+          "PrüfVO NRW Nr. 10: Wirksamkeit/Betriebssicherheit wiederkehrend max. 6 Jahre (wenn Teil 1 greift)",
         ],
         paragraphs: [
-          "Typisch: RWA-Öffnungen auf Fluchtwegen, in atrien und Hallen – Funktionsprüfung mit Auslösung und Öffnungsnachweis.",
+          "Typisch: RWA-Öffnungen auf Fluchtwegen, in Atrien und Hallen – Funktionsprüfung mit Auslösung und Öffnungsnachweis. Die 6-Jahres-Frist ist nicht die jährliche SK-Wartung.",
         ],
       },
       {
@@ -797,21 +736,21 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "maschinell",
         title: "Maschinelle Rauchabzugsanlagen",
         paragraphs: [
-          "Maschinische Anlagen erfordern messende Prüfungen – nicht nur „Motor läuft“. Die Intervalle stapeln sich mit der Anlagenalterung:",
+          "Maschinische Anlagen erfordern messende Prüfungen – nicht nur „Motor läuft“. Instandhaltung (VDMA/DIN) und PrüfVO laufen parallel:",
         ],
         list: [
           "Halbjährlich: Sichtkontrolle und Funktionsprüfung (SK) – VDMA 24177, DIN 18232-3, DIN EN 12101-3",
           "Jährlich: Inspektion (SK)",
-          "3-jährlich: Volumenstrommessung (P/Fachfirma)",
-          "3-jährlich: SV-Bau Wirksamkeit",
-          "Lagerüberprüfung Ventilatoren: alle 3 Jahre, dann 8/11/14/17/20 Jahre (E)",
+          "3-jährlich: Volumenstrommessung (P/Fachfirma) – Instandhaltung",
+          "PrüfVO NRW Nr. 6: wiederkehrend max. 3 Jahre (Prüfsachverständiger)",
+          "Lagerüberprüfung Ventilatoren: alle 3 Jahre, dann 8/11/14/17/20 Jahre (E) – Instandhaltung",
         ],
       },
       {
         id: "rda",
         title: "Rauchschutzdruckanlagen (RDA)",
         paragraphs: [
-          "Funktionsprüfung: B/P (Betreiber). Notstromversorgung: monatlich B/P. Wartung und Instandsetzung: jährlich SK oder Errichter (bei Personenschutz verkürzte Intervalle möglich). SV-Bau: 3 Jahre nach Muster-Prüfverordnung.",
+          "Funktionsprüfung: B/P (Betreiber). Notstromversorgung: monatlich B/P. Wartung und Instandsetzung: jährlich SK oder Errichter (bei Personenschutz verkürzte Intervalle möglich). Bauordnungsrechtlich: Prüfsachverständige nach PrüfVO NRW – typisch unter den 3-Jahres-Anlagen (Nr. 1–8), nicht „Muster-Prüfverordnung“.",
           "RDA in Sicherheitstreppenräumen und Krankenhäusern – Ausfall wird schnell zum Personenschutz-Thema.",
         ],
       },
@@ -826,7 +765,7 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "praxis",
         title: "Praxis: Prüforganisation und typische Mängel",
         paragraphs: [
-          "In Betriebsbegehungen in NRW fehlen RWA-Protokolle häufiger als bei BMA – obwohl Entrauchung lebensrettend ist. Abgrenzung: Sichtkontrolle durch Betrieb ersetzt keine jährliche SK-Funktionsprüfung; SV-Bau im Sonderbau ist nicht dasselbe wie Herstellerwartung.",
+          "In Betriebsbegehungen in NRW fehlen RWA-Protokolle häufiger als bei BMA – obwohl Entrauchung lebensrettend ist. Abgrenzung: Sichtkontrolle durch Betrieb ersetzt keine jährliche SK-Funktionsprüfung; die PrüfVO-Prüfung ist nicht dasselbe wie Herstellerwartung.",
           "Praxisfall Versammlungsstätte: RWA-Öffnung klemmte nach Winter – letzte Funktionsprüfung 14 Monate zurück. Behördenforderung: Terminplan mit Verantwortlichen und Ersatzteilliste. Orientierungswert: RWA-Probelauf vor Saisonstart bei VS und Hallenbädern.",
           "Anlagenbuch mit Prüfberichten, Mängeln und Freigaben führen – Schnittstelle zum genehmigten Entrauchungskonzept.",
         ],
@@ -849,7 +788,8 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
       },
     ],
     relatedLinks: [
-      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "SV-Bau" },
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
+      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "Sonderbau-Prüfung" },
       { href: "/ratgeber/bma-prueffristen-brandmeldeanlage", label: "BMA-Steuerung" },
       { href: "/ratgeber/zweiter-rettungsweg-dachfenster-bauo-nrw", label: "Treppenraum NRW" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
@@ -869,7 +809,7 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
       {
         question: "Gilt RWA nur in Sonderbauten?",
         answer:
-          "Natürliche RWA auch in normalen Gebäuden nach LBO. SV-Bau-Prüfung typisch im Sonderbau-Kontext.",
+          "Natürliche RWA auch in normalen Gebäuden nach BauO. Die PrüfVO-Prüfung greift nur, wenn Katalog § 1 oder Anordnung greift.",
       },
       {
         question: "Was ist der Unterschied RWA und RDA?",
@@ -877,143 +817,107 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
           "RWA führt Rauch ab; RDA (Rauchschutzdruckanlage) hält Treppenräume überdruckig – andere Norm (DIN EN 12101-6).",
       },
       {
-        question: "Wie dokumentiere ich Prüfungen?",
+        question: "Wie oft Prüfsachverständiger für RWA in NRW?",
         answer:
-          "Prüfbuch Sonderbau, Wartungsprotokolle, Mängelliste mit Fristen – gleiche Logik wie bei BMA.",
+          "Maschinelle RWA (Nr. 6): wiederkehrend max. 3 Jahre. Natürliche RWA (Nr. 10): max. 6 Jahre. VDMA/DIN-Wartung ist zusätzlich.",
       },
       {
-        question: "Was passiert, wenn die SV-Bau-Prüfung der RWA überfällig ist?",
+        question: "Was passiert, wenn die PrüfVO-Prüfung der RWA überfällig ist?",
         answer:
-          "Im Sonderbau kann die Aufsicht Nutzungseinschränkungen verlangen oder die Prüfung nachholen lassen. Versicherer und Behörden werten überfällige SV-Prüfungen als Organisationsmangel – unabhängig von der täglichen Sichtkontrolle.",
+          "Die Aufsicht kann Nutzungseinschränkungen verlangen oder die Prüfung nachholen lassen. Überfällige Prüfsachverständigen-Termine sind Organisationsmangel – unabhängig von der täglichen Sichtkontrolle.",
       },
     ],
   },
   {
     slug: "sprinkler-loeschanlagen-prueffristen",
-    title: "Sprinkler und Löschanlagen prüfen: Prüffristen nach VdS",
+    title: "Sprinkler-Prüffristen NRW: 3 Jahre selbsttätig, 6 Jahre nicht-selbsttätig?",
     excerpt:
-      "Sprinkler, Sprühwasser- und Schaum-Löschanlagen: Betriebskontrolle, Instandhaltung, Inspektion, SV-Bau und Druckbehälter – Intervalle aus DGUV 205-040 und VdS CEA 4001.",
-    metaTitle: "Sprinkler Prüffrist: Wartung & Inspektion | VdS | H&S+",
+      "Ortsfeste selbsttätige Feuerlöschanlagen (Nr. 2) wiederkehrend max. 3 Jahre nach PrüfVO; nicht-selbsttätige (Nr. 11) max. 6 Jahre. VdS CEA 4001 / DGUV = Instandhaltung.",
+    metaTitle: "Sprinkler prüfen NRW: PrüfVO 3 Jahre | H&S+",
     metaDescription:
-      "Sprinkleranlage prüfen: tägliche Sichtkontrolle, jährliche Instandhaltung, 5-jährige Inspektion, SV-Bau und Druckbehälter – Prüffristen nach VdS CEA 4001 und DGUV 205-040.",
+      "Sprinkler-Prüffristen NRW: selbsttätige Anlagen max. 3 Jahre (PrüfVO Nr. 2), nicht-selbsttätige max. 6 Jahre (Nr. 11). VdS/DGUV-Wartung zusätzlich, getrennt.",
     keywords: [
       "Sprinkler Prüffrist",
       "Sprinkleranlage Wartung",
-      "VdS CEA 4001 Inspektion",
+      "PrüfVO NRW Sprinkler",
       "Löschanlage prüfen",
-      "Sprinkler SV-Bau",
+      "VdS CEA 4001",
     ],
     sections: [
       {
         id: "ueberblick",
-        title: "Löschanlagen – mehrjährige Taktung",
+        title: "Wie oft müssen Sprinkler in NRW geprüft werden?",
         paragraphs: [
-          "**Sprinkler-, Sprühwasser- und Schaum-Löschanlagen** haben die **längsten Prüfzyklen** im Brandschutz – dafür umfangreiche **5-, 10- und 25-Jahres-Prüfungen**. Grundlage in DGUV 205-040: **VdS CEA 4001** (Sprinkler), **VdS 2109** (Sprühwasser), **VdS 2108** (Schaum). Ergänzend: [Sprinkler und Trockenbau](/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw).",
+          "Bauordnungsrechtlich: ortsfeste selbsttätige Feuerlöschanlagen = PrüfVO § 1 Abs. 1 Satz 2 Nr. 2 → wiederkehrend nicht mehr als 3 Jahre. Ortsfeste nicht-selbsttätige Feuerlöschanlagen = Nr. 11 → nicht mehr als 6 Jahre. Nicht „SV-Bau 5-jährlich“ als NRW-Bauordnungsfrist.",
+          "VdS CEA 4001 und DGUV 205-040 bleiben für Instandhaltung (Betriebskontrolle, jährliche/erweiterte Instandhaltung, Inspektionen) – klar getrennt. Leitseite: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
         ],
+        table: {
+          caption: "Löschanlagen – PrüfVO vs. Instandhaltung",
+          headers: ["Anlage", "PrüfVO wiederkehrend", "Instandhaltung"],
+          rows: [
+            ["selbsttätig (z. B. Sprinkler)", "max. 3 Jahre (Nr. 2)", "VdS CEA 4001 / DGUV – parallel"],
+            ["nicht-selbsttätig (z. B. Wandhydranten)", "max. 6 Jahre (Nr. 11)", "DGUV / Normen – parallel"],
+            ["Druckbehälter", "nicht PrüfVO-Anlagenfrist", "ZÜS / BetrSichV"],
+          ],
+        },
       },
       {
-        id: "sprinkler-betrieb",
-        title: "Sprinkler – Betrieb und Instandhaltung",
+        id: "instandhaltung",
+        title: "VdS / DGUV – parallel, nicht Ersatz",
         paragraphs: [
-          "Die DGUV-Tabelle „Löschanlagen“ für Sprinkler nach **VdS CEA 4001** – Auszug der wichtigsten Intervalle:",
-        ],
-        list: [
-          "**Nach Erfordernis (vP):** Sichtkontrolle und Funktionsprüfung – Pumpen, Ventile, Druck",
-          "**Jährlich (E/Errichter):** Instandhaltung",
-          "**2-jährlich (E):** erweiterte Instandhaltung",
-          "**5-jährlich (E):** Inspektion und erweiterte Inspektion (versetzt)",
-          "**5-jährlich (SV-Bau):** Wirksamkeit und Betriebssicherheit im Sonderbau",
-          "**5-jährlich (ZÜS):** innere Prüfung Druckbehälter – BetrSichV",
-          "**10-jährlich (ZÜS):** Festigkeitsprüfung Druckbehälter",
+          "Typisch nach VdS CEA 4001: Sichtkontrolle nach Erfordernis, jährliche Instandhaltung, erweiterte Instandhaltung, mehrjährige Inspektionen. Das ersetzt die Prüfsachverständigen-Prüfung nach PrüfVO nicht – und umgekehrt.",
+          "Grenzfall ja: 3-Jahres-PrüfVO-Bericht plus laufende Errichter-Instandhaltung. Grenzfall nein: Nur „5-Jahres-SV“ nach Muster anderer Länder ohne PrüfVO-Termin.",
         ],
       },
       {
         id: "altanlagen",
-        title: "Altanlagenprüfungen – 12,5 und 25 Jahre",
+        title: "Altanlagen und Versicherung",
         paragraphs: [
-          "Bei älteren Anlagen kommen **SV-V-Prüfungen** hinzu: Trockenrohrnetz (**12,5 Jahre**), Wasserbehälter (**20 Jahre**), umfangreiche Altanlagenprüfung (**25 Jahre**). Betreiber historischer Fabrikhallen unterschätzen diese Fristen oft.",
-        ],
-      },
-      {
-        id: "spruehwasser-schaum",
-        title: "Sprühwasser und Schaum",
-        paragraphs: [
-          "Ähnliche Struktur wie Sprinkler nach **VdS 2109** bzw. **VdS 2108** – bei Schaum zusätzlich Nachweis der **Schaummittelkonzentration** in der erweiterten Instandhaltung. **SV-Bau:** 5 Jahre. Druckbehälter: ZÜS nach BetrSichV.",
-        ],
-      },
-      {
-        id: "loeschwasser",
-        title: "Löschwasseranlagen und Hydranten",
-        paragraphs: [
-          "Aus Tabelle **Brandbekämpfungseinrichtungen:** Löschwasseranlagen nass/nass-trocken – monatlich **Betreiber-Sichtkontrolle**, jährlich **SK-Instandhaltung**, **3-jährlich SV-Bau**, **5-jährlich** Druckprüfung Löschschlauch, **10/25-jährlich** Leitungsprüfungen nach DIN 14462. Siehe [Löschwasser Hydranten](/ratgeber/loeschwasser-hydranten-gewerbe-koeln).",
-        ],
-      },
-      {
-        id: "versicherung",
-        title: "SV-V – Versicherungsschutz",
-        paragraphs: [
-          "**Technische Schutzwirkung** durch **SV-V** – bei Sprinkler typisch parallel zu Errichter-Instandhaltung. Versicherer kann **kürzere Fristen** als VdS-Minimum verlangen; Vollschutz setzt erfüllte Klauseln voraus.",
-        ],
-      },
-      {
-        id: "vertiefung",
-        title: "Praxis: Prüfkalender und Nachweise",
-        paragraphs: [
-          "Sprinkler und Löschanlagen prüfen: Prüffristen nach VdS verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
-          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
-          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
-        ],
-      },
-      {
-        id: "betrieb-nachweis",
-        title: "Praxis: Prüfkalender und Nachweise",
-        paragraphs: [
-          "Sprinkler und Löschanlagen prüfen: Prüffristen nach VdS verlangen in NRW einen schriftlichen Prüfkalender mit Verantwortlichen (B, SK, FK, SV-Bau) – nicht nur den Wartungsvertrag in der Schublade. Abgrenzung: Inspektion durch Sachkundigen ersetzt nicht die Sachverständigenprüfung im Sonderbau.",
-          "Praxisfall: Protokolle lückenhaft nach Personalwechsel – Behörde verlangte Nachweis der eingewiesenen Personen und Übergabe des Anlagenbuchs. Orientierungswert: Jährliche Terminplanung mit BMA-, RWA- und Türen-Fristen in einem Dokument.",
-          "Nachweis im Betrieb: Mängelliste mit Fristen, Freigabe nach Reparatur und Konzeptverweis bei wesentlichen Änderungen – Fortschreibung nach Umbau Pflicht.",
+          "Versicherung und VdS können Altanlagen- und Schutzwirkungsprüfungen verlangen (längere Zyklen). Das ändert die PrüfVO-3-/6-Jahres-Regel nicht. Druckbehälter: ZÜS nach BetrSichV.",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Hydraulischer Nachweis und Planung ersetzen keine Instandhaltung – umgekehrt deckt Wartung keine baulichen Änderungen (Trockenbau, Umnutzung). Nach Umbau: Fachplaner und SV-Bau einbinden.",
+          "PrüfVO prüft vorhandene/geforderte Anlagen – keine Einbaupflicht. Ob Teil 1 greift: Gebäudekatalog § 1. Nach Umbau Fachplaner und Prüfsachverständigen einbinden.",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW Leitseite" },
+      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "Sonderbau-Prüfung" },
+      { href: "/ratgeber/bma-prueffristen-brandmeldeanlage", label: "BMA-Fristen" },
       { href: "/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw", label: "Sprinkler & Trockenbau" },
-      { href: "/ratgeber/loeschwasser-hydranten-gewerbe-koeln", label: "Löschwasser & Hydranten" },
-      { href: "/ratgeber/wartung-inspektion-pruefung-brandschutz-din-31051", label: "Inspektion vs. Wartung" },
-      { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "SV-Bau" },
-      { href: "/ratgeber/sprinkler-rueckbau-bma-nutzungsaenderung-koeln", label: "Sprinkler bei Umbau" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
+        question: "Alle 5 Jahre SV-Bau für Sprinkler – gilt das in NRW?",
+        answer:
+          "Nein als PrüfVO-Frist. Selbsttätige Löschanlagen (Nr. 2): max. 3 Jahre wiederkehrend. Nicht-selbsttätige (Nr. 11): max. 6 Jahre.",
+      },
+      {
+        question: "Ersetzt VdS CEA 4001 die PrüfVO?",
+        answer:
+          "Nein. VdS/DGUV = Instandhaltung. PrüfVO = baurechtliche Prüfung durch Prüfsachverständige.",
+      },
+      {
         question: "Muss jeder Sprinklerkopf jährlich ausgelöst werden?",
         answer:
-          "Nein. Instandhaltung nach VdS-Programm – stichprobenartige Funktionsprüfungen und Komponententests, nicht vollständige Nasslöschung aller Köpfe.",
-      },
-      {
-        question: "Was passiert bei versetzter 5-Jahres-Inspektion?",
-        answer:
-          "Inspektion und erweiterte Inspektion sind beide 5-jährlich, aber zeitlich versetzt – beide Termine müssen im Prüfbuch nachweisbar sein.",
-      },
-      {
-        question: "Brauche ich Sprinkler-Wartung ohne Versicherung?",
-        answer:
-          "Bei genehmigungspflichtiger Anlage ja – baurechtlich und nach VdS. Versicherung verschärft ggf. Anforderungen.",
+          "Nein. Instandhaltung nach VdS-Programm – stichprobenartige Funktionsprüfungen, nicht vollständige Nasslöschung aller Köpfe.",
       },
       {
         question: "Wer prüft Sprinkler-Druckbehälter?",
         answer:
-          "Zugelassene Überwachungsstelle (ZÜS) nach BetrSichV – nicht der Sprinkler-Errichter allein.",
+          "Zugelassene Überwachungsstelle (ZÜS) nach BetrSichV – getrennt von der PrüfVO-Anlagenprüfung.",
       },
       {
-        question: "Gilt das auch für kleine Sprinkler in einem Lager?",
+        question: "Gilt das auch für kleine Anlagen?",
         answer:
-          "Ja, wenn eine genehmigte Löschanlage vorliegt – Umfang nach Anlagengröße und VdS, nicht nach „klein“ im Betrieb.",
+          "Wenn Teil 1 greift und eine ortsfeste selbsttätige Löschanlage vorliegt: ja – Umfang nach Anlagentyp, nicht nach „klein“ im Betrieb.",
       },
     ],
   },
+
 ];

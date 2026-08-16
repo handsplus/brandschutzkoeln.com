@@ -121,12 +121,12 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
   },
   {
     slug: "pruefvo-nrw-wiederkehrende-pruefung-sonderbau",
-    title: "PrüfVO NRW: Wiederkehrende Prüfungen in Sonderbauten",
+    title: "PrüfVO NRW: Wie oft müssen BMA und Sprinkler geprüft werden?",
     excerpt:
-      "Neben DGUV und BetrSichV verlangt die Prüfverordnung NRW baurechtliche Prüfungen durch Prüfsachverständige – mit 3- und 6-Jahres-Fristen für BMA, Sprinkler, RWA und mehr.",
-    metaTitle: "PrüfVO NRW: Sonderbau-Prüfungen | H&S+",
+      "Wiederkehrend nicht mehr als 3 Jahre für Anlagen Nr. 1–8 (u. a. BMA, selbsttätige Löschanlagen), 6 Jahre für Nr. 9–11. Gebäudekatalog, Betreiberpflichten und Abgrenzung zur Behördenprüfung § 10.",
+    metaTitle: "PrüfVO NRW: 3 und 6 Jahre Fristen | H&S+",
     metaDescription:
-      "PrüfVO NRW: wiederkehrende Prüfung Brandmeldeanlage, Sprinkler, RWA alle 3 Jahre, Prüfsachverständige, Betreiberpflichten – Abgrenzung zu DGUV 205-040.",
+      "PrüfVO NRW: BMA und Sprinkler wiederkehrend max. 3 Jahre (Nr. 1–8), Nr. 9–11 max. 6 Jahre. Gebäudekatalog § 1, Betreiberpflichten, § 10 ≠ Teil 1.",
     keywords: [
       "PrüfVO NRW",
       "Prüfverordnung Sonderbau",
@@ -138,73 +138,53 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Baurecht und Betrieb – zwei Ebenen",
+        title: "Wie oft prüft die PrüfVO NRW technische Anlagen?",
         paragraphs: [
-          "Betriebliche Prüffristen nach DGUV 205-040 und BetrSichV gelten für Arbeitgeber und technische Arbeitsmittel. Parallel verlangt die Prüfverordnung NRW (PrüfVO, zuletzt novelliert 26.11.2024) baurechtliche Prüfungen technischer Anlagen in Sonderbauten und wiederkehrende Prüfungen – durch anerkannte Prüfsachverständige, mit Berichten an die Bauaufsicht.",
-          "Wer beides verwechselt, riskiert Lücken: Eine DGUV-konforme Wartung ersetzt nicht die PrüfVO-Pflicht in einer Versammlungsstätte – und umgekehrt.",
-          "Grenzfall ja: Hotel mit BMA – PrüfVO: Prüfsachverständiger alle 3 Jahre, Bericht archiviert, Mängel beseitigt, Termin der Behörde mitgeteilt; parallel DGUV-Wartung Feuerlöscher. Grenzfall nein: Nur interne Hausmeister-Checkliste ohne anerkannten Prüfsachverständigen in einem PrüfVO-pflichtigen Sonderbau.",
+          "Wiederkehrend nicht mehr als drei Jahre für Anlagen nach § 1 Abs. 1 Satz 2 Nr. 1 bis 8 (u. a. selbsttätige Feuerlöschanlagen, maschinelle RWA, Sicherheitsbeleuchtung, Brandmelde- und Alarmierungsanlagen) und nicht mehr als sechs Jahre für Nr. 9 bis 11 (elektrische Anlagen, natürliche Rauchabzugsanlagen, nicht-selbsttätige Feuerlöschanlagen) – § 2 Abs. 1 Satz 3 PrüfVO NRW (Fassung ab 26.11.2024).",
+          "Die PrüfVO begründet keine Einbaupflicht: Sie regelt die Prüfung vorhandener oder bauordnungsrechtlich geforderter Anlagen durch Prüfsachverständige. DGUV 205-040, DIN und VdS sind Instandhaltung/Arbeitsschutz – nicht die bauordnungsrechtliche Frist.",
+          "Grenzfall ja: Hotel mit BMA im Gebäudekatalog – Prüfsachverständiger alle 3 Jahre, Bericht, Mängelbeseitigung. Grenzfall nein: Nur Wartungsvertrag ohne Prüfsachverständigen in einem PrüfVO-pflichtigen Objekt.",
         ],
       },
       {
-        id: "anlagen",
-        title: "Welche Anlagen betroffen sind",
+        id: "gebaeude",
+        title: "Gebäudekatalog § 1 – wann Teil 1 greift",
         paragraphs: [
-          "Teil 1 PrüfVO gilt u. a. für technische Anlagen in:",
+          "Teil 1 gilt für technische Anlagen in den in § 1 Abs. 1 Satz 1 genannten Gebäuden/Nutzungen – u. a. Verkaufs- und Versammlungsstätten (SBauVO), Krankenhäuser, Beherbergungsstätten im Sinne der SBauVO (> 12 Gastbetten), Hochhäuser, Mittel-/Großgaragen, Pflege/Betreuung > 500 m² BGF, allgemein- und berufsbildende Schulen, Hallen-/Messebauten > 2.000 m² GF, sowie bei Anordnung der Bauaufsicht.",
+          "Liegt das Gebäude nicht in der Liste und fehlt eine Anordnung, begründet Teil 1 keine Prüfsachverständigen-Pflicht – auch wenn eine BMA freiwillig oder versicherungstechnisch existiert.",
         ],
-        list: [
-          "Verkaufsstätten, Versammlungsstätten, Beherbergungsstätten (SBauVO)",
-          "Hochhäusern (§ 50 Abs. 2 Nr. 1 BauO NRW)",
-          "Mittel- und Großgaragen",
-          "sonstigen Sonderbauten, wenn die Bauaufsicht Prüfung angeordnet hat",
-        ],
-      },
-      {
-        id: "anlagen-2",
-        title: "Prüfpflichtige Anlagentypen",
-        paragraphs: [
-          "Durch Prüfsachverständige zu prüfen sind u. a.:",
-        ],
-        list: [
-          "Druckbelüftungsanlagen zur Rauchfreihaltung von Rettungswegen",
-          "Maschinelle und natürliche Rauchabzugsanlagen",
-          "Brandmelde- und Alarmierungsanlagen",
-          "Sprinkleranlagen und andere Löschanlagen",
-          "Rauch- und Wärmeabzugsanlagen (RWA)",
-          "In Hochhäusern: wiederkehrend elektrische Anlagen außerhalb von Wohnungen",
-        ],
-      },
-      {
-        id: "fristen",
-        title: "3 Jahre vs. 6 Jahre",
-        paragraphs: [
-          "Wiederkehrende Prüfungen seit der letzten Prüfung:",
-        ],
-        list: [
-          "Nicht mehr als 3 Jahre – für Anlagen der Nrn. 1 bis 8 (u. a. BMA, Sprinkler, maschinelle RWA, Druckbelüftung)",
-          "Nicht mehr als 6 Jahre – für Anlagen der Nrn. 9 bis 11 (u. a. natürliche Rauchabzugsanlagen)",
-        ],
+        table: {
+          caption: "Anlagenfristen PrüfVO NRW (Teil 1)",
+          headers: ["Nr.", "Anlage (Auszug)", "Wiederkehrend"],
+          rows: [
+            ["1–8", "u. a. selbsttätige Löschanlagen, maschinelle RWA, BMA/Alarmierung, Sicherheitsbeleuchtung", "max. 3 Jahre"],
+            ["2", "ortsfeste selbsttätige Feuerlöschanlagen (z. B. Sprinkler)", "max. 3 Jahre"],
+            ["8", "Brandmelde- und Alarmierungsanlagen", "max. 3 Jahre"],
+            ["9–11", "elektrische Anlagen (soweit erfasst), natürliche RWA, nicht-selbsttätige Löschanlagen", "max. 6 Jahre"],
+            ["11", "ortsfeste nicht-selbsttätige Feuerlöschanlagen (z. B. Wandhydranten)", "max. 6 Jahre"],
+          ],
+        },
       },
       {
         id: "betreiber",
-        title: "Betreiberpflichten",
+        title: "Betreiberpflichten § 2 Abs. 2",
         paragraphs: [
-          "Betreiber müssen u. a.: Prüfunterlagen bereithalten; konkrete Sicherheitsmängel unverzüglich, sonstige in angemessener Frist beseitigen; Beseitigung dem Prüfsachverständigen mitteilen; Berichte vor Erstinbetriebnahme und nach wesentlichen Änderungen an die untere Bauaufsichtsbehörde senden; Prüftermine rechtzeitig mitteilen; wiederkehrende Berichte mindestens 6 Jahre aufbewahren.",
-          "Die Behörde kann Fristen verkürzen, wenn Gefahrenabwehr es erfordert. Verknüpfung mit [Sonderbau-Mängel TÜV](/ratgeber/sonderbau-anlagen-pruefung-maengel-nrw) und [DGUV-205-040-Überblick](/ratgeber/prueffristen-brandschutz-dguv-205-040-ueberblick).",
+          "Wiederkehrende Prüfung auf Veranlassung und Kosten des Betreibers. Typisch: Prüfunterlagen bereithalten; konkrete Sicherheitsmängel unverzüglich, sonstige angemessen beseitigen; Beseitigung dem Prüfsachverständigen mitteilen; Berichte vor Erstinbetriebnahme und nach wesentlichen Änderungen an die Bauaufsicht senden; Prüftermine mitteilen; wiederkehrende Berichte mindestens 6 Jahre aufbewahren.",
+          "Verknüpfung: [BMA-Prüffristen](/ratgeber/bma-prueffristen-brandmeldeanlage), [Sprinkler-Prüffristen](/ratgeber/sprinkler-loeschanlagen-prueffristen), [Sonderbau-Prüfung](/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung).",
         ],
       },
       {
-        id: "abgrenzung",
-        title: "Abgrenzung zu bestehenden Ratgebern",
+        id: "teil2",
+        title: "Teil 2 § 10 – Behördenprüfung ≠ Anlagentechnik",
         paragraphs: [
-          "[BMA-Prüffristen](/ratgeber/bma-prueffristen-brandmeldeanlage) und [Sprinkler-Prüffristen](/ratgeber/sprinkler-loeschanlagen-prueffristen) beschreiben fachliche Intervalle – PrüfVO verpflichtet in Sonderbauten zusätzlich zum Prüfsachverständigen und zur Behördenberichtspflicht.",
-          "[Wer darf prüfen?](/ratgeber/wer-darf-brandschutzanlagen-pruefen) – Prüfsachverständige nach PrüfVO sind eine eigene Qualifikation neben Errichter-Fachkraft und SV-Bau.",
+          "§ 10 ist eine Gebäude-/Betriebsprüfung der Bauaufsicht – nicht die Anlagentechnik-Prüfung nach Teil 1. Dabei wird auch geprüft, ob Anlagenprüfungen fristgerecht liefen. Intervalle höchstens 3 Jahre (u. a. Verkaufs-/Versammlungsstätten) bzw. 6 Jahre (u. a. Beherbergung erst mit mehr als 60 Betten, Schulen, Hochhäuser > 60 m).",
+          "Schwellen nicht vermischen: Teil 1 erfasst Beherbergung ab > 12 Gastbetten für Anlagen; § 10 erst ab > 60 Betten für die behördliche Gebäudeprüfung.",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber fasst PrüfVO NRW (Stand Nov. 2024) zusammen. Ob Ihr Objekt PrüfVO-pflichtig ist, ergibt sich aus Sonderbau-Einordnung, Baugenehmigung und behördlicher Anordnung. Er ersetzt keinen Prüfbericht.",
+          "PrüfVO NRW ist Verordnung zum Bauordnungsrecht – getrennt von BauPrüfVO (Bauvorlagen/Konzept). Ob Ihr Objekt betroffen ist, ergibt sich aus Katalog, Baugenehmigung und Anordnung. Kein Ersatz für Prüfbericht oder Rechtsberatung.",
         ],
       },
     ],
@@ -214,37 +194,38 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
       { href: "/ratgeber/pruefpflichten-sonderbauten-muster-pruefverordnung", label: "Sonderbau-Prüfung" },
       { href: "/ratgeber/wer-darf-brandschutzanlagen-pruefen", label: "Wer darf prüfen?" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Gilt PrüfVO in jedem Gewerbebetrieb?",
+        question: "Wie oft muss die BMA nach PrüfVO geprüft werden?",
         answer:
-          "Nein. Schwerpunkt sind Sonderbauten und die aufgeführten Anlagentypen. Ein kleines Büro ohne Sonderbau-Tatbestand fällt nicht unter Teil 1 PrüfVO.",
+          "Brandmelde- und Alarmierungsanlagen = Nr. 8 → wiederkehrend nicht mehr als 3 Jahre (§ 2 Abs. 1 Satz 3), wenn Teil 1 greift. DIN/DGUV-Wartung ist zusätzlich, nicht die bauordnungsrechtliche Frist.",
       },
       {
-        question: "Alle 3 Jahre – welche Anlagen?",
+        question: "Wie oft Sprinkler nach PrüfVO?",
         answer:
-          "U. a. BMA, Sprinkler, maschinelle RWA, Druckbelüftung von Rettungswegen – siehe § 2 PrüfVO NRW Anlagenliste Nrn. 1–8.",
+          "Ortsfeste selbsttätige Feuerlöschanlagen = Nr. 2 → max. 3 Jahre. Nicht-selbsttätige (Nr. 11) → max. 6 Jahre.",
+      },
+      {
+        question: "Gilt PrüfVO in jedem Gewerbebetrieb?",
+        answer:
+          "Nein. Nur wenn das Gebäude im Katalog § 1 steht oder die Bauaufsicht Prüfung angeordnet hat.",
       },
       {
         question: "Ersetzt DGUV 205-040 die PrüfVO?",
         answer:
-          "Nein. DGUV regelt betriebliche Prüfungen nach Arbeitsschutz. PrüfVO ist baurechtliche Sonderbau-Prüfung mit Prüfsachverständigen und Behördenbericht.",
+          "Nein. DGUV ist Arbeitsschutz/Instandhaltung. PrüfVO ist baurechtliche Prüfung durch Prüfsachverständige mit Betreiberpflichten.",
       },
       {
-        question: "Wer ist Prüfsachverständiger?",
+        question: "Was ist der Unterschied zu § 10?",
         answer:
-          "Staatlich anerkannte oder nach § 4 anerkannte Sachverständige in der jeweiligen Fachrichtung – nicht beliebig jede Wartungsfirma.",
+          "Teil 1 = Anlagentechnik durch Prüfsachverständige. § 10 = wiederkehrende Behördenprüfung des Gebäudes/Betriebs – bei Beherbergung erst > 60 Betten.",
       },
       {
-        question: "Was bei Mängeln?",
+        question: "Ist BauPrüfVO dasselbe?",
         answer:
-          "Konkrete Gefahren unverzüglich beseitigen, sonstige angemessen; Prüfsachverständigen und ggf. Behörde informieren. Bei Gefahr kann Behörde Betrieb einschränken.",
-      },
-      {
-        question: "Neue PrüfVO 2024 – was ist neu?",
-        answer:
-          "Novellierung vom 26.11.2024 – Inhaltsverzeichnis und §§ 1, 2, 9 angepasst. Prüfen Sie die aktuelle Fassung auf recht.nrw.de für Ihr Objekt.",
+          "Nein. BauPrüfVO regelt Bauvorlagen und Brandschutzkonzept. Betriebliche Prüfsachverständigen-Prüfung = PrüfVO NRW.",
       },
     ],
   },
@@ -704,15 +685,15 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
   },
   {
     slug: "schulen-schulbaurichtlinie-nrw",
-    title: "Schulen in NRW: Brandschutz nach SchulBauR",
+    title: "Schulbaurichtlinie NRW: Was gilt für Lernbereiche und Rettungswege?",
     excerpt:
-      "Offene Lernlandschaften, Lernbereiche und Unterrichtsräume folgen eigenen Regeln. Die Schulbaurichtlinie NRW regelt Trennwände, Brandabschnitte und Rettungswege jenseits der Standard-BauO.",
-    metaTitle: "SchulBauR NRW: Brandschutz Schulen | H&S+",
+      "Lernbereich max. 600 m², Summe im Brandabschnitt max. 1.200 m², zwei Rettungswege, Hausalarmierung – SchulBauR als Verwaltungsvorschrift für allgemeine Schulen, Berufskollegs und Förderschulen.",
+    metaTitle: "Schulbaurichtlinie NRW: 600/1200 m² | H&S+",
     metaDescription:
-      "Schulbaurichtlinie NRW Brandschutz: Lernbereich, Rettungswege, Brandwand 60 m, Räume mit gehobener Brandgefahr – Planung für Schulneubau und Umbau.",
+      "Schulbaurichtlinie NRW: Lernbereich max. 600 m², Brandabschnitt 1.200 m², zwei Rettungswege, Hausalarmierung. Gilt für Schulen und Förderschulen – nicht Kita.",
     keywords: [
+      "Schulbaurichtlinie NRW",
       "SchulBauR NRW",
-      "Schulbaurichtlinie Brandschutz",
       "Lernbereich Rettungsweg",
       "Schule Brandabschnitt",
       "Schulneubau Brandschutz NRW",
@@ -721,11 +702,11 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Sonderbau mit eigener Richtlinie",
+        title: "Was verlangt die Schulbaurichtlinie NRW?",
         paragraphs: [
-          "Schulen sind Sonderbauten nach § 50 BauO NRW. Die Schulbaurichtlinie (SchulBauR, MBl. NRW 2020) ist besondere Verwaltungsvorschrift zu § 50 und regelt bauaufsichtliche Anforderungen für allgemein bildende Schulen, Berufskollegs und Förderschulen – über Standard-Gebäudeklassen hinaus.",
-          "Pädagogische Trends (Lerncluster, offene Lernlandschaften) brauchen Sichtbeziehungen – die SchulBauR erlaicht deshalb gegenüber strikter Flur-Logik, ersetzt aber Brandschutz nicht.",
-          "Grenzfall ja: Neuer Lernbereich 500 m², zwei Rettungswege, Hauptgänge, Trennwände feuerhemmend, Chemieraum als Raum mit gehobener Brandgefahr abgeschottet. Grenzfall nein: Offene Fläche ohne Hauptgänge, ein Ausgang, „wir brauchen keine Flure in Lernlandschaften“ ohne SchulBauR-Nachweis.",
+          "Für allgemeine Schulen (allgemein bildende Schulen und Berufskollegs) und Förderschulen: im Geschoss mindestens zwei voneinander unabhängige Rettungswege; Lernbereiche höchstens 600 m² einzeln und höchstens 1.200 m² summiert in einem Brandabschnitt; Alarmierung als Hausalarmierung (Nr. 12) – keine Pflicht-BMA aus der SchulBauR.",
+          "Die SchulBauR (RdErl. 17.11.2020, Az. 615-170, MBl. NRW. 2020 S. 822) ist besondere Verwaltungsvorschrift zu § 50 BauO NRW – kein Gesetz. Sie gilt nicht für Kitas und nicht für Hochschulen. Offene Lernlandschaften werden erleichtert, Brandschutz nicht ersetzt.",
+          "Schulen sind großer Sonderbau. Die SchulBauR 2020 zitiert noch § 50 Abs. 2 Nr. 11; in der geltenden BauO stehen Schulen unter Nr. 16 (Beherbergung = Nr. 11). Der Tatbestand bleibt – die Nummer nicht falsch fortschreiben.",
         ],
       },
       {
@@ -733,17 +714,27 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
         title: "Lernbereich, Unterrichtsraum, Brandgefahr",
         paragraphs: [
           "Unterrichtsraum: baulich abgeschlossen, außerhalb eines Lernbereichs. Lernbereich: abgeschlossener Bereich für Unterricht ohne notwendigen Flur – multifunktionale Zonen möglich.",
-          "Räume mit gehobener Brandgefahr: z. B. Keramikbrennofen, Chemieraum ohne raumabschließende Digestorien – höhere Trennwandanforderungen (feuerbeständig von innen nach außen).",
-          "Hauptgänge: Erschließungswege innerhalb des Lernbereichs zu Ausgängen – Bestandteil der Rettungswege, max. 10 m zu einem Hauptgang von jeder Stelle.",
+          "Räume mit gehobener Brandgefahr: z. B. Keramikbrennofen, Chemieraum ohne raumabschließende Digestorien – höhere Trennwandanforderungen. Hauptgänge erschließen den Lernbereich; von jeder Stelle max. 10 m zum Hauptgang.",
         ],
+        table: {
+          caption: "Kernmaße SchulBauR (Auszug)",
+          headers: ["Thema", "Maß / Regel", "Quelle"],
+          rows: [
+            ["Lernbereich einzeln", "max. 600 m²", "SchulBauR"],
+            ["Lernbereiche im Brandabschnitt", "max. 1.200 m² Summe", "SchulBauR"],
+            ["Rettungswege im Geschoss", "mindestens zwei voneinander unabhängig", "SchulBauR"],
+            ["Stichflur", "grundsätzlich max. 15 m (Ausnahmen mit 2. baulichem Weg)", "SchulBauR"],
+            ["Alarmierung", "Hausalarmierung (Nr. 12) – keine BMA-Pflicht aus SchulBauR", "Nr. 12"],
+            ["Löscheinrichtungen", "drei Optionen inkl. keine Einrichtung im Einvernehmen mit Brandschutzdienststelle", "Nr. 11"],
+          ],
+        },
       },
       {
         id: "abschnitte",
         title: "Brandabschnitte und Trennwände",
         paragraphs: [
-          "Innere Brandwände alle 60 m (§ 30 BauO-Logik, SchulBauR konkretisiert). Lernbereiche innerhalb eines Brandabschnitts: gesamt max. 1.200 m², einzelner Lernbereich max. 600 m².",
-          "Trennwände zum Abschluss von Lernbereichen: mindestens feuerhemmend, FW der tragenden Bauteile des Geschosses. Raumbildende Bauteile innerhalb des Lernbereichs mit Sichtbeziehung – keine vollständige Zellenstruktur wie Bürobrandabschnitt.",
-          "Tragende Bauteile: abhängig von Gebäudehöhe GK 3 bis 5 nach SchulBauR – erdgeschossige Kleinschulen bis 400 m² können Erleichterungen haben.",
+          "Innere Brandwände alle 60 m (SchulBauR konkretisiert). Lernbereiche innerhalb eines Brandabschnitts: gesamt max. 1.200 m², einzelner Lernbereich max. 600 m².",
+          "Trennwände zum Abschluss von Lernbereichen: mindestens feuerhemmend. Tragende Bauteile: abhängig von Gebäudehöhe – erdgeschossige Kleinschulen bis 400 m² können Erleichterungen haben.",
         ],
       },
       {
@@ -751,43 +742,38 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
         title: "Rettungswege – zwei Wege Pflicht",
         paragraphs: [
           "Unterrichtsräume: zwei voneinander unabhängige Rettungswege im Geschoss; einer darf über Halle führen (mit Einschränkungen). Stichflure max. 15 m, wenn kein zweiter baulicher Rettungsweg.",
-          "Lernbereiche: zwei Rettungswege zu angrenzenden Lernbereichen, notwendigen Fluren, Treppen oder ins Freie. Notwendige Flure innerhalb Lernbereichs nicht erforderlich – dafür Hauptgänge.",
-          "Aufenthaltsräume über 100 Personen oder 100 m²: zwei entgegengesetzte Ausgänge. Verknüpfung [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
+          "Lernbereiche: zwei Rettungswege zu angrenzenden Lernbereichen, notwendigen Fluren, Treppen oder ins Freie. Notwendige Flure innerhalb des Lernbereichs nicht erforderlich – dafür Hauptgänge. Grundlagen BauO: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
         ],
       },
       {
         id: "technik",
-        title: "Technische Anlagen und Betrieb",
+        title: "Alarmierung und Löscheinrichtungen – was die SchulBauR sagt",
         paragraphs: [
-          "Genehmigung und Brandschutzkonzept nach § 9 BauPrüfVO NRW – BMA, Sprinkler, RWA je nach Konzept und Schulgröße. Nach Inbetriebnahme in prüfpflichtigen Sonderbauten [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
-          "Betrieb: BSO, Brandschutzübungen mit Schülerschaft und Hausmeister, Heißarbeiten in Ferien mit [Erlaubnisschein](/ratgeber/heissarbeiten-brandwache-erlaubnisschein). Umbau während Betrieb: [Fachbauleitung](/ratgeber/fachbauleitung-brandschutz-baustelle-koeln).",
+          "Nr. 12: Hausalarmierung – nicht gleichzusetzen mit einer Brandmeldeanlage. Eine BMA kann sich aus Konzept oder Abweichung ergeben; sie ist dann Konzeptinhalt, nicht SchulBauR-Standard. Keine Sprinkler-Pflicht aus der SchulBauR.",
+          "Nr. 11: eine von drei Optionen – (a) Wandhydranten Typ F, (b) trockene Löschwasserleitungen im Einvernehmen mit der Brandschutzdienststelle, (c) keine Löscheinrichtung im Einvernehmen mit der Brandschutzdienststelle.",
+          "Vorhandene Anlagen in Schulen können unter [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau) fallen – das ist Prüfung, nicht Einbaupflicht aus der SchulBauR.",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber fasst SchulBauR NRW für Planer und Schulträger zusammen. Kitas und Hochschulen fallen nicht unter SchulBauR. Er ersetzt kein genehmigungsfähiges Brandschutzkonzept und keine Schulbauabstimmung mit der Bauaufsicht.",
+          "SchulBauR = Verwaltungsvorschrift. Nicht für Kitas/Hochschulen. Kein Ersatz für genehmigungsfähiges Brandschutzkonzept und behördliche Einordnung.",
         ],
       },
     ],
     relatedLinks: [
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege BauO" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
-      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Brandschutzkonzept" },
       { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
-      { href: "/ratgeber/versammlungsstaetten-betrieb-sbauvo-nrw", label: "Versammlungsstätten" },
+      { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Brandschutzkonzept" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Gilt SchulBauR für jede Schule?",
+        question: "Für wen gilt die Schulbaurichtlinie NRW?",
         answer:
-          "Für allgemein bildende Schulen, Berufskollegs und Förderschulen in NRW als VV zu § 50 BauO NRW – nicht für Kitas oder Hochschulen.",
-      },
-      {
-        question: "Brauchen Lernbereiche Flure?",
-        answer:
-          "Keine notwendigen Flure innerhalb des Lernbereichs – stattdessen Hauptgänge und zwei Rettungswege nach SchulBauR.",
+          "Für allgemeine Schulen (allgemein bildend und Berufskollegs) und Förderschulen – nicht für Kitas und nicht für Hochschulen. Sie ist Verwaltungsvorschrift zu § 50 BauO NRW.",
       },
       {
         question: "Wie groß darf ein Lernbereich sein?",
@@ -795,19 +781,24 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
           "Max. 600 m² pro Lernbereich, max. 1.200 m² Lernbereiche summiert innerhalb eines Brandabschnitts.",
       },
       {
-        question: "Was ist ein Raum mit gehobener Brandgefahr?",
+        question: "Braucht jede Schule eine BMA nach SchulBauR?",
         answer:
-          "Z. B. Chemieraum, Brennofen – feuerbeständige Trennwand von innen nach außen; Digestorien ohne raumabschließende Trennung lösen Brandgefahr-Höherstufung aus.",
+          "Nein. Die SchulBauR verlangt Hausalarmierung (Nr. 12), keine Pflicht-BMA. Eine BMA kann sich aus Konzept oder Abweichung ergeben.",
+      },
+      {
+        question: "Brauchen Lernbereiche notwendige Flure?",
+        answer:
+          "Nein innerhalb des Lernbereichs – stattdessen Hauptgänge und zwei Rettungswege nach SchulBauR.",
+      },
+      {
+        question: "Welche Löscheinrichtungen sind Pflicht?",
+        answer:
+          "Nr. 11 nennt drei Optionen – darunter auch keine Löscheinrichtung, wenn die Brandschutzdienststelle einverstanden ist. Keine pauschale Sprinklerpflicht aus der SchulBauR.",
       },
       {
         question: "Ist die SchulBauR strenger als die BauO?",
         answer:
-          "Sie konkretisiert und erleichtert schultypisch – z. B. Sichtbeziehungen statt geschlossener Zellen, aber klare Rettungsweg- und Abschnittsregeln.",
-      },
-      {
-        question: "Wer erstellt den Brandschutznachweis?",
-        answer:
-          "Qualifizierter Entwurfsverfasser/Brandschutzingenieur im Genehmigungsverfahren; Schulträger stellt Unterlagen und Betriebskonzept.",
+          "Sie konkretisiert und erleichtert schultypisch (z. B. Sichtbeziehungen), ersetzt aber Rettungsweg- und Abschnittsregeln nicht.",
       },
     ],
   },

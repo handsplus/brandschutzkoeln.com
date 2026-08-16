@@ -7,12 +7,12 @@ import type { RatgeberArticle } from "./ratgeber-types";
 export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
   {
     slug: "beherbergungsstaetten-hotel-sonderbau-nrw",
-    title: "Beherbergungsstätten und Hotels: Sonderbau ab 13 Gastbetten",
+    title: "Hotel und Beherbergung NRW: Was gilt ab 12, 30 und 60 Gastbetten?",
     excerpt:
-      "Hotels, Pensionen und Gästehäuser mit mehr als zwölf Gastbetten folgen SBauVO Teil 2 – mit Rettungswegen pro Zimmer, BMA und besonderen Trennwandanforderungen. Abgrenzung zu Ferienwohnung und Pflege.",
-    metaTitle: "Hotel Brandschutz NRW: Beherbergung | H&S+",
+      "Rauchwarnmelder je Raum für alle; ab > 12 Gastbetten SBauVO Teil 2; ab > 30 Betten großer Sonderbau; ab > 60 Gastbetten BMA, BSO und Feuerwehrpläne.",
+    metaTitle: "Hotel Brandschutz NRW: 12/30/60 Betten | H&S+",
     metaDescription:
-      "Beherbergungsstätte Sonderbau NRW: ab 13 Gastbetten, Rettungswege, BMA §55 SBauVO, Trennwände, Funkverstärkung ab 60 Betten – SBauVO Teil 2.",
+      "Beherbergung NRW: Rauchwarnmelder für alle, SBauVO Teil 2 ab >12 Betten, großer Sonderbau ab >30, BMA ab >60 Gastbetten. Ferienwohnungen ausgenommen.",
     keywords: [
       "Beherbergungsstätte Brandschutz",
       "Hotel Sonderbau NRW",
@@ -24,95 +24,102 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Schwelle zwölf Gastbetten",
+        title: "Welche Schwellen gelten für Hotels in NRW?",
         paragraphs: [
-          "SBauVO NRW Teil 2 gilt für Beherbergungsstätten mit mehr als zwölf Gastbetten. § 55 SBauVO gilt für alle Beherbergungsstätten: Alarmierungseinrichtungen immer; BMA erst ab mehr als 60 Gastbetten – darunter Rauchwarnmelder je Beherbergungsraum.",
-          "Beherbergungsstätte: Gebäude oder Gebäudeteil für Gästebeherbergung – ausgenommen Ferienwohnungen. Hotel, Pension, Gästehaus, Boardinghouse mit dauerhafter Beherbergung fallen typischerweise herein; reine Ferienwohnvermietung nicht.",
-          "Grenzfall ja: Hotel 90 Gastbetten (> 60), zwei Rettungswege je Beherbergungsraum, BMA und selbsttätige Alarmierung nach § 55, Konzept mit Feuerwehrzufahrt. Grenzfall nein: 40 Gastbetten – keine BMA, aber Rauchwarnmelder je Zimmer und Alarmierungseinrichtungen; Teil 2-Vollumfang erst ab 13 Betten.",
+          "§ 55 Abs. 2 SBauVO (Rauchwarnmelder je Beherbergungsraum) gilt für alle Beherbergungsstätten – auch mit höchstens 12 Gastbetten. Mehr als 12 Gastbetten: SBauVO Teil 2 vollständig. Mehr als 30 Betten: großer Sonderbau nach § 50 Abs. 2 Nr. 11 BauO NRW und verschärftes § 56. Mehr als 60 Gastbetten: BMA mit Leitstelle, selbsttätige Alarmierung, Aufzug-Brandfallsteuerung, Brandschutzordnung und Feuerwehrpläne; zweiter Rettungsweg nicht über Feuerwehrleitern.",
+          "Ferienwohnungen sind ausgenommen (§ 48). Erleichterungen der BauO für Gebäudeklassen 1 und 2 sind in Teil 2 unanwendbar. Eine Suite zählt als ein Beherbergungsraum. Stichflur: max. 15 m von der Tür des Beherbergungsraums zum notwendigen Treppenraum oder Ausgang ins Freie.",
         ],
+        table: {
+          caption: "Schwellen Beherbergung SBauVO / BauO",
+          headers: ["Schwelle", "Folge"],
+          rows: [
+            ["alle / auch ≤ 12 Gastbetten", "Rauchwarnmelder je Beherbergungsraum (§ 55 Abs. 2; § 47 Satz 2)"],
+            ["> 12 Gastbetten", "SBauVO Teil 2 vollständig (§ 47 Satz 1)"],
+            ["> 30 Betten", "großer Sonderbau § 50 Abs. 2 Nr. 11 BauO; Konzept; verschärftes § 56"],
+            ["> 60 Gastbetten", "BMA + Leitstelle, selbsttätige Alarmierung, Aufzugsteuerung, BSO, Feuerwehrpläne"],
+            ["Funk", "nur > 60 Gastbetten UND Störung der Feuerwehr-Funkkommunikation – keine Pauschale"],
+          ],
+        },
       },
       {
         id: "rettungswege",
         title: "Rettungswege und Flure",
         paragraphs: [
-          "Jeder Beherbergungsraum (Suite = ein Raum): mindestens zwei voneinander unabhängige Rettungswege. Beide dürfen im Geschoss über denselben notwendigen Flur führen – anders als bei [Raumgruppen in Pflege](/ratgeber/pflegeeinrichtung-sonderbau-nrw).",
-          "Erster Rettungsweg für Beherbergungsräume oberhalb des Erdgeschosses: in der Regel über notwendigen Treppenraum. Stichflure: Entfernung Tür Beherbergungsraum zu Treppenraum oder Ausgang ins Freie max. 15 m.",
-          "Notwendige Treppen durchgehend in einem Zug; Wände notwendiger Treppenräume in Brandwand-Bauart – Erleichterungen bei max. zwei oberirdischen Geschossen bzw. kleinen Häusern mit bis 30 Gastbetten.",
+          "Jeder Beherbergungsraum: mindestens zwei voneinander unabhängige Rettungswege. Beide dürfen im Geschoss über denselben notwendigen Flur führen.",
+          "In Beherbergungsstätten mit insgesamt nicht mehr als 60 Gastbetten kann der zweite Weg über Rettungsgeräte der Feuerwehr genügen – nicht, wenn in einem nicht zu ebener Erde liegenden Geschoss mehr als 30 Gastbetten vorhanden sind (§ 49). Ab > 60 Gastbetten gilt das nicht mehr in dieser Form.",
+          "Grenzfall ja: Pension 20 Betten mit Rauchwarnmeldern und Teil-2-Rettungswegen. Grenzfall nein: „ab 13 Betten braucht man eine BMA“ – falsch; BMA erst > 60 Gastbetten.",
         ],
       },
       {
         id: "bauteile",
         title: "Tragwerk, Trennwände, Brandwände",
         paragraphs: [
-          "Tragende Wände, Stützen, Decken: feuerbeständig – Ausnahmen für oberste Dachgeschosse ohne Beherbergung und Erleichterungen bei kleinen Häusern (bis 3 OG, 30 Gastbetten).",
-          "Trennwände zwischen Beherbergungsräumen und zu fremden Nutzungen: feuerhemmend, wo Tragwerk nur feuerhemmend sein darf. Brandwände feuerbeständig und nichtbrennbar – bei max. zwei OG Erleichterungen möglich.",
-          "Fahrschachtwände feuerbeständig; Türen von notwendigen Fluren zu Beherbergungsräumen und Gasträumen: feuerhemmend und rauchdicht (RS) – bei BMA nach § 55 Abs. 3 genügen teils dichtschließende Türen.",
+          "Tragende Wände, Stützen, Decken: feuerbeständig – mit Erleichterungen bei kleinen Häusern (bis 3 OG / 30 Gastbetten). Trennwände zwischen Beherbergungsräumen und zu fremden Nutzungen: feuerhemmend, wo Tragwerk nur feuerhemmend sein darf.",
+          "Türen von notwendigen Fluren zu Beherbergungsräumen: feuerhemmend und rauchdicht (RS) – bei BMA nach § 55 Abs. 3 genügen teils dichtschließende Türen.",
         ],
       },
       {
         id: "technik",
-        title: "BMA, Aufzug, Funk",
+        title: "Alarmierung, BMA, Funk",
         paragraphs: [
-          "§ 55 SBauVO: Alarmierung immer; BMA und Brandfallsteuerung Aufzüge ab mehr als 60 Gastbetten – Gesamtübersicht [BMA-Pflicht](/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw). Abgestimmt mit [Brandschutzkonzept](/ratgeber/brandschutzkonzept-baupruefvo-nrw). Nach Inbetriebnahme [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau).",
-          "Ab 60 Gastbetten: Funkverstärkung, wenn bauliche Anlage Feuerwehr-Funk stört.",
-          "Barrierefreie Beherbergung: § 56 SBauVO – Schnittstelle Barrierefrei-Konzept BauPrüfVO § 9a.",
+          "Alarmierungseinrichtungen: in Teil 2 vorgesehen. BMA mit Leitstelle und selbsttätiger Alarmierung: erst > 60 Gastbetten. Bis dahin: Rauchwarnmelder je Raum – das ist keine BMA. Gesamtüberblick Einbau: [BMA-Pflicht](/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw). Prüfung vorhandener Anlagen: [PrüfVO NRW](/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau) (BMA max. 3 Jahre; Behördenprüfung § 10 erst > 60 Betten).",
+          "Funkunterstützung: nur bei mehr als 60 Gastbetten, wenn die bauliche Anlage die Funkkommunikation der Feuerwehr stört – keine pauschale Funkpflicht ohne Störung.",
         ],
       },
       {
         id: "abgrenzung",
         title: "Hotel vs. Pflege vs. Ferienwohnung",
         paragraphs: [
-          "[Pflegeeinrichtung](/ratgeber/pflegeeinrichtung-sonderbau-nrw): Pflege und Betreuung, Raumgruppen-Logik – nicht Hotel, auch wenn Zimmer ähnlich wirken.",
-          "Ferienwohnung: ausdrücklich ausgenommen von Beherbergungsstätte – andere Einordnung.",
-          "Betrieb: [BSO und Evakuierung](/ratgeber/alarmierung-evakuierung-betrieb) ergänzen baulichen Nachweis – Nachtbetrieb, Gäste ohne Ortskenntnis.",
+          "[Pflegeeinrichtung](/ratgeber/pflegeeinrichtung-sonderbau-nrw): Pflege und Betreuung – nicht Hotel. Ferienwohnung: ausgenommen (§ 48). Betrieb: [Alarmierung und Evakuierung](/ratgeber/alarmierung-evakuierung-betrieb).",
         ],
       },
       {
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber fasst SBauVO NRW Teil 2 (Beherbergung) zusammen. Bestand: § 58 SBauVO. Er ersetzt kein genehmigungsfähiges Brandschutzkonzept und keine behördliche Einordnung bei Grenzfällen (Boardinghaus, Monteurzimmer).",
+          "Dieser Ratgeber fasst SBauVO NRW Teil 2 zusammen. Bestand: § 58 SBauVO. Kein Ersatz für Brandschutzkonzept und behördliche Einordnung (Boardinghaus, Monteurzimmer).",
         ],
       },
     ],
     relatedLinks: [
       { href: "/ratgeber/brandmeldeanlage-wann-pflicht-sbauvo-nrw", label: "BMA-Pflicht § 55" },
+      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
+      { href: "/ratgeber/bma-prueffristen-brandmeldeanlage", label: "BMA-Prüffristen" },
       { href: "/ratgeber/pflegeeinrichtung-sonderbau-nrw", label: "Pflegeeinrichtung" },
       { href: "/ratgeber/brandschutzkonzept-baupruefvo-nrw", label: "Konzept §9" },
-      { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
-      { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbauten" },
+      { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung" },
     ],
     faq: [
       {
-        question: "Ab wann ist ein Hotel Sonderbau nach SBauVO Teil 2?",
+        question: "Ab wann gilt SBauVO Teil 2 für Hotels?",
         answer:
-          "Beherbergungsstätte mit mehr als zwölf Gastbetten – Ferienwohnungen ausgenommen.",
+          "Bei Beherbergungsstätten mit mehr als zwölf Gastbetten. Ferienwohnungen sind ausgenommen. Rauchwarnmelder je Beherbergungsraum gelten auch darunter.",
       },
       {
         question: "Braucht jedes Hotel eine BMA?",
         answer:
-          "Nein. Bis 60 Gastbetten: Rauchwarnmelder je Beherbergungsraum und Alarmierungseinrichtungen – keine BMA. Ab mehr als 60 Gastbetten: BMA mit selbsttätigen Meldern und Leitstelle (§ 55 SBauVO).",
+          "Nein. BMA mit Leitstelle erst bei mehr als 60 Gastbetten. Bis dahin: Rauchwarnmelder je Beherbergungsraum und Alarmierungseinrichtungen nach Teil 2 – keine BMA.",
       },
       {
-        question: "Zwei Rettungswege pro Zimmer – wirklich?",
+        question: "Was ändert sich ab mehr als 30 Betten?",
         answer:
-          "Zwei bauliche/organisatorische Wege je Beherbergungsraum; im Geschoss darf der notwendige Flur gemeinsam genutzt werden.",
+          "Großer Sonderbau nach § 50 Abs. 2 Nr. 11 BauO NRW, Brandschutzkonzept und verschärfte Barrierefreiheit nach § 56. Feuerwehr-Leiterrettung als zweiter Weg entfällt, wenn in einem OG mehr als 30 Gastbetten liegen.",
       },
       {
-        question: "Was ist der Unterschied zur Pflege-RL?",
+        question: "Ist Funkverstärkung immer Pflicht ab 60 Betten?",
         answer:
-          "Beherbergung = Übernachtung Gäste; Pflege-RL = Pflege und Betreuung Hilfsbedürftiger mit Raumgruppen und anderen Flächenschwellen.",
+          "Nein. Nur wenn die bauliche Anlage die Funkkommunikation der Feuerwehr stört.",
       },
       {
-        question: "Gilt das für Hostels?",
+        question: "Zählt eine Suite als mehrere Räume?",
         answer:
-          "Wenn Beherbergungsstätte mit mehr als zwölf Gastbetten – ja. Schlafräume und Betten zählen.",
+          "Nein. Eine Folge unmittelbar zusammenhängender Beherbergungsräume (Suite) gilt als ein Beherbergungsraum.",
       },
       {
-        question: "Was bei Umbau Pension zu Hotel?",
+        question: "Dürfen GK-1/2-Erleichterungen der BauO genutzt werden?",
         answer:
-          "Gastbettenzahl und SBauVO prüfen – Überschreitung 12 Betten löst vollen Teil-2-Nachweis und ggf. Konzept aus.",
+          "Nein – in SBauVO Teil 2 unanwendbar (§ 48 Abs. 4).",
       },
     ],
   },

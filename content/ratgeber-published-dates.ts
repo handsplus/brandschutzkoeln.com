@@ -198,20 +198,27 @@ const JULY_2026_PUBLICATIONS: Record<string, string> = {
   "bhkg-hilfsfristen-gemeinde-klagebefugnis-nrw": "2026-07-28",
 };
 
-/** August 2026 – Abgleich Runderlasse Feuerwehrflächen / Innenhof / § 69 / Veranstaltung. */
+/**
+ * Runderlass-Abgleich Feuerwehrflächen / Innenhof / § 69 / Veranstaltung.
+ * Stände gestaffelt ab 30.07.2026, 3 Artikel/Woche (nicht alle auf 16.08.).
+ */
 const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
-  "feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw": "2026-08-16",
-  "aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw": "2026-08-16",
-  "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw": "2026-08-16",
-  "zweiter-rettungsweg-dachfenster-bauo-nrw": "2026-08-16",
-  "feuerwehr-abstimmung-vor-bauamt-bauo-nrw": "2026-08-16",
-  "flucht-und-rettungswege-bauo-nrw": "2026-08-16",
-  "zweiter-rettungsweg-innenhof-bauo-nrw": "2026-08-16",
-  "abweichungen-paragraph-69-erlass-bauo-nrw": "2026-08-16",
-  "bestandsschutz-technische-sanierung-bauo-nrw": "2026-08-16",
-  "veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw": "2026-08-16",
+  // Woche 30.07.–01.08.
+  "sonderbauten-brandschutz": "2026-07-30",
+  "flucht-und-rettungswege-bauo-nrw": "2026-07-31",
+  "feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw": "2026-08-01",
+  // Woche 06.–08.08.
+  "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw": "2026-08-06",
+  "aufstell-bewegungsflaeche-strasse-hubrettung-bauo-nrw": "2026-08-07",
+  "zweiter-rettungsweg-innenhof-bauo-nrw": "2026-08-08",
+  // Woche 11.–13.08.
+  "feuerwehr-abstimmung-vor-bauamt-bauo-nrw": "2026-08-11",
+  "zweiter-rettungsweg-dachfenster-bauo-nrw": "2026-08-12",
+  "abweichungen-paragraph-69-erlass-bauo-nrw": "2026-08-13",
+  // Woche 14.–16.08.
+  "bestandsschutz-technische-sanierung-bauo-nrw": "2026-08-14",
+  "veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw": "2026-08-15",
   "versammlungsstaetten-baulich-sbauvo-nrw": "2026-08-16",
-  "sonderbauten-brandschutz": "2026-08-16",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */
