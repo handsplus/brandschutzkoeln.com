@@ -7,12 +7,12 @@ import type { RatgeberArticle } from "./ratgeber-types";
 export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle[] = [
   {
     slug: "notwendige-treppen-treppenraeume-bauo-sbauvo-nrw",
-    title: "Notwendiger Treppenraum NRW: wann § 35 BauO Pflicht ist",
+    title: "Notwendiger Treppenraum: Wann ist er in NRW Pflicht?",
     excerpt:
-      "Notwendige Treppe (§ 34) und notwendiger Treppenraum (§ 35) sind der vertikale Rettungsweg – vor dem Flur (§ 36). Normkette § 33–36, GK-Matrix, Ausnahmen, Sicherheitstreppenraum und SBauVO-Ergänzungen gesetzlich.",
-    metaTitle: "Treppenraum NRW § 35 BauO Pflicht | H&S+",
+      "Notwendige Treppe (§ 34) vs. notwendiger Treppenraum (§ 35): Normkette 33→34→35→36. Sicherheitstreppenraum ersetzt den 2. Weg – nicht die Treppe.",
+    metaTitle: "Notwendiger Treppenraum: wann Pflicht? | H&S+",
     metaDescription:
-      "Notwendige Treppe und Treppenraum NRW: § 34 und § 35 BauO, Sicherheitstreppenraum § 33, GK-Matrix, SBauVO VS/Verkauf/Hochhaus. Prüfkatalog gesetzlich.",
+      "Notwendige Treppe (§ 34) und Treppenraum (§ 35) unterscheiden: Ab GK 3 meist Treppenraum Pflicht. Sicherheitstreppenraum ersetzt den 2. Rettungsweg, nicht die Treppe.",
     keywords: [
       "Notwendiger Treppenraum NRW",
       "Treppenraum BauO NRW",
@@ -25,11 +25,11 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
     sections: [
       {
         id: "frage",
-        title: "Treppe, Treppenraum, Flur – drei Ebenen",
+        title: "Wann brauche ich einen notwendigen Treppenraum?",
         paragraphs: [
-          "Die notwendige Treppe (§ 34 BauO NRW) ist das vertikale Verbindungselement – Zugänglichkeit und erster Rettungsweg. Der notwendige Treppenraum (§ 35) ist der geschützte Raum, in dem die Treppe im Regelfall liegen muss. Der notwendige Flur (§ 36) verbindet horizontal Aufenthaltsräume mit Treppenraum oder Freien.",
-          "Die Normkette lautet § 33 → § 34 → § 35 → § 36. Zuerst Rettungswegplanung, dann Treppe, dann Treppenraum, dann Flur. Der Sicherheitstreppenraum (§ 33 Abs. 4) kann den zweiten Rettungsweg ersetzen – ersetzt aber nicht die notwendige Treppe.",
-          "Dieser Ratgeber fasst ausschließlich gesetzlich verbindliches Recht zusammen – ohne VV TB, DIN oder Planungshandbücher. Tür-Staffelung im Detail: [Brandschutztüren](/ratgeber/tuerarten-brandschutz-bauo-nrw). Flurwände: [Wände notwendiger Flure](/ratgeber/waende-notwendige-flure-bauo-nrw).",
+          "Die notwendige Treppe (§ 34 BauO NRW) ist das vertikale Verbindungselement und oft der erste Rettungsweg. Der notwendige Treppenraum (§ 35) ist der geschützte Raum um diese Treppe – ab GK 3 im Regelfall Pflicht; in GK 1–2 und weiteren Ausnahmen (§ 35 Abs. 1 Satz 3) kann die Treppe ohne eigenen Treppenraum zulässig sein.",
+          "Normkette: § 33 → § 34 → § 35 → § 36 (Rettungsweg → Treppe → Treppenraum → Flur). Ein Sicherheitstreppenraum (§ 33 Abs. 4) kann den zweiten Rettungsweg ersetzen – er ersetzt nicht die notwendige Treppe.",
+          "Tür-Staffelung: [Brandschutztüren](/ratgeber/tuerarten-brandschutz-bauo-nrw). Flurwände: [Wände notwendiger Flure](/ratgeber/waende-notwendige-flure-bauo-nrw).",
         ],
       },
       {
@@ -223,12 +223,12 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
       {
         question: "Braucht jedes Gebäude einen notwendigen Treppenraum?",
         answer:
-          "Ab GK 3 grundsätzlich ja für jede notwendige Treppe. In GK 1–2 und bei weiteren Tatbeständen (≤ 2 OG/200 m², Außentreppe, Wohnung) kann die Treppe ohne eigenen Treppenraum zulässig sein (§ 35 Abs. 1 Satz 3).",
+          "Ab GK 3 grundsätzlich ja für jede notwendige Treppe. In GK 1–2 und bei Ausnahmen (u. a. ≤ 2 OG/200 m², Außentreppe, Wohnung) kann die Treppe ohne eigenen Treppenraum zulässig sein (§ 35 Abs. 1 Satz 3).",
       },
       {
         question: "Was ist der Unterschied zwischen notwendiger Treppe und Treppenraum?",
         answer:
-          "§ 34 regelt die Treppe als Verbindungselement (Tragwerk, Breite, Handlauf). § 35 regelt den geschützten Raum um die Treppe (Wände, Türen, Rauchableitung, Ausgänge).",
+          "§ 34 = Treppe (Verbindung, Tragwerk, Breite). § 35 = geschützter Raum um die Treppe (Wände, Türen, Rauchableitung). Sicherheitstreppenraum ersetzt den 2. Rettungsweg – nicht die notwendige Treppe.",
       },
       {
         question: "Wann ersetzt ein Sicherheitstreppenraum den zweiten Rettungsweg?",

@@ -46,12 +46,12 @@ import type { RatgeberArticle } from "./ratgeber-types";
 export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates([
   {
     slug: "gebaeudeklassen-brandschutz-bauo-nrw",
-    title: "Gebäudeklassen und Brandschutz nach BauO NRW",
+    title: "Gebäudeklassen NRW: Welche GK gilt nach BauO?",
     excerpt:
-      "Gebäudeklassen GK 1 bis GK 5 nach BauO NRW: Schnelltabelle zur Einordnung, Nutzungseinheit, Feuerwiderstand fh bis fb und Rettungswege – mit NRW-Auslegung nach MHKBG BFM-02 für Genehmigungspraxis.",
-    metaTitle: "Gebäudeklassen 1–5 NRW: Tabelle & Einordnung | H&S+",
+      "Gebäudeklassen NRW: fünf Klassen nach Höhe, Nutzungseinheiten und Freistehendheit. Die GK steuert §§ 26–38 – Sonderbau (§ 50) ist eine getrennte Prüfung.",
+    metaTitle: "Gebäudeklassen NRW: 5 Klassen nach BauO | H&S+",
     metaDescription:
-      "Welche Gebäudeklasse gilt für Ihr Gebäude? Schnelltabelle nach BauO NRW mit Höhe, Nutzungseinheiten und Brandschutz-Anforderungen je Klasse – verständlich erklärt.",
+      "Gebäudeklassen NRW: fünf Klassen nach Höhe, NE und Freistehendheit. GK 1a/2 bis 7 m und 400 m², GK 4 bis 13 m, sonst GK 5. Sonderbau getrennt (§ 50).",
     keywords: [
       "Gebäudeklassen NRW",
       "Gebäudeklasse Brandschutz",
@@ -64,11 +64,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     sections: [
       {
         id: "was-sind-gk",
-        title: "Was sind Gebäudeklassen?",
+        title: "Welche Gebäudeklasse gilt in NRW?",
         paragraphs: [
-          "Die BauO NRW ordnet jedes Gebäude einer von fünf Gebäudeklassen (GK 1 bis GK 5) zu. Maßgeblich sind Gebäudehöhe, Zahl und Größe der Nutzungseinheiten sowie die Freistehendheit – nicht die Branche. Ein Restaurant und ein Büro können dieselbe GK haben, wenn Höhe und Flächen gleich sind.",
-          "Die GK steuert den baulichen Brandschutz nach §§ 26 bis 38 BauO NRW: Feuerwiderstand von Wänden und Decken (§ 27), Brandabschnitte und Brandwände (§§ 29–30), abschließende Bauteile wie Brandschutz- und Rauchschutzabschlüsse (§ 31), Abschottungen (§ 32) und Flucht- und Rettungswege (§ 33). Je höher die GK, desto höher die Mindestanforderungen und oft der Nachweisaufwand im Genehmigungsverfahren.",
-          "Gebäudeklasse und Sonderbau sind getrennte Prüfungen: GK 3 allein macht noch keinen Imbiss genehmigungsfähig – eine Versammlungsstätte oder besucherintensive Nutzung kann zusätzlich Sonderbau-Regeln (§ 50 BauO NRW) und ein Brandschutzkonzept auslösen.",
+          "In NRW gibt es fünf Gebäudeklassen (GK 1 bis GK 5) nach Höhe (OKF), Zahl und Größe der Nutzungseinheiten sowie Freistehendheit – nicht nach Branche. Orientierung: GK 1a/2 bis 7 m und insgesamt 400 m² bei höchstens zwei NE; GK 4 bis 13 m (NE je Geschoss ≤ 400 m²); sonst typisch GK 5.",
+          "Die GK steuert den baulichen Brandschutz nach §§ 26 bis 38 BauO NRW (Feuerwiderstand, Brandabschnitte, Abschlüsse, Abschottungen, Rettungswege). Sonderbau nach § 50 ist eine getrennte Prüfung – dieselbe GK kann mit oder ohne Sonderbau vorliegen.",
           "Einstiegsübersicht vier Ebenen (GK, § 50 Abs. 1/2, SBauVO): [Gesetzliche Einstufung](/ratgeber/gesetzliche-einstufung-gebaeude-bauo-nrw).",
         ],
       },
@@ -222,7 +221,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       {
         question: "Ab wann ist ein Gebäude GK 5?",
         answer:
-          "Wenn es nicht in GK 1–4 fällt: typisch OKF über 13 m, mindestens eine NE über 400 m² in einem Geschoss, oder unterirdische Gebäude. Viele Verwaltungs- und Geschäftshäuser in Innenstädten sind GK 5.",
+          "Wenn es nicht in GK 1–4 fällt: typisch OKF über 13 m, mindestens eine NE über 400 m² in einem Geschoss, oder unterirdische Gebäude.",
       },
       {
         question: "Brauche ich bei GK 5 immer ein Brandschutzkonzept?",
@@ -817,12 +816,12 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   },
   {
     slug: "umbau-nutzungsaenderung-brandschutz",
-    title: "Brandschutz bei Umbau und Nutzungsänderung",
+    title: "Umbau und Nutzungsänderung: Wann neuer Brandschutznachweis?",
     excerpt:
-      "Umbau und Nutzungsänderung in NRW brauchen oft Genehmigung, Sonderbau-Einordnung und den passenden brandschutztechnischen Nachweis. Der Ratgeber erklärt Konzept versus Stellungnahme, Brandabschnitte und typische Fehler – bevor ein Zwischenbescheid kommt.",
-    metaTitle: "Umbau & Nutzungsänderung | Brandschutz NRW | H&S+",
+      "Umbau oder Nutzungsänderung kann Genehmigung und neuen Brandschutznachweis auslösen – prüfen Sie GK, Sonderbau § 50, Rettungswege und ob Konzept oder Stellungnahme nötig ist.",
+    metaTitle: "Umbau Nutzungsänderung Brandschutz NRW | H&S+",
     metaDescription:
-      "Brandschutz bei Umbau und Nutzungsänderung BauO NRW: wesentliche Änderung, § 50 Sonderbau, Nachweise, Bestandsschutz. Praxisratgeber H&S+.",
+      "Umbau oder Nutzungsänderung: oft Genehmigung plus neuer Nachweis. Prüfen: Gebäudeklasse, Sonderbau § 50, Rettungswege, Konzept oder Stellungnahme – z. B. Laden→Gastro.",
     keywords: [
       "Nutzungsänderung Brandschutz",
       "Umbau Brandschutz NRW",
@@ -834,10 +833,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     sections: [
       {
         id: "warum",
-        title: "Warum Umbau und Nutzungsänderung brandschutzrechtlich heikel sind",
+        title: "Wann löst Umbau oder Nutzungsänderung neuen Brandschutz aus?",
         paragraphs: [
-          "Ein Umbau verändert nicht nur Optik und Technik – er verändert Brandabschnitte, Rettungswege, Personenströme und oft die Einordnung des Gebäudes. Viele Vorhaben starten mit Architektur und Gewerken; die brandschutztechnische Folge (neuer Sonderbau-Tatbestand, zweiter Rettungsweg, BMA, Sprinkler) wird erst sichtbar, wenn die Bauaufsicht oder die Sachversicherung nachfragt.",
-          "Typischer Ablauf in der Praxis: geplante Nutzung (Laden → Gastronomie, Lager → Büro, zwei Praxen → eine Einheit), Trockenbau bis Decke, neue Küchentechnik – und im Genehmigungsverfahren eine Mängelliste zu Fluchtwegen, fehlenden Abschottungen oder fehlendem Brandschutznachweis. Wer vor Baubeginn GK, Sonderbau und Nachweisart klärt, spart Monate und teure Rückbau-Kosten.",
+          "Umbau oder Nutzungsänderung kann eine Baugenehmigung und einen neuen brandschutztechnischen Nachweis auslösen. Vor Baubeginn prüfen: Gebäudeklasse, Sonderbau nach § 50 BauO NRW, Rettungswege – und ob ein Brandschutzkonzept oder eine Stellungnahme nötig ist. Typfall: Laden → Gastronomie oder Lager → Büro ändert Personenströme und oft die Einordnung, ohne dass die Optik das verrät.",
+          "Wer Architektur und Gewerke startet, bevor GK, Sonderbau und Nachweisart klar sind, riskiert Mängellisten zu Fluchtwegen, Abschottungen und fehlendem Nachweis – und teuren Rückbau.",
         ],
       },
       {
@@ -974,12 +973,12 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       {
         question: "Brauche ich bei jedem Umbau ein Brandschutzkonzept?",
         answer:
-          "Nein. Teilsanierung ohne wesentliche Nutzungsänderung kann mit brandschutztechnischer Stellungnahme und Fachplanung auskommen. Bei Sonderbau, neuen Personenzahlen, UG-Nutzungen mit vielen Besuchern oder fehlendem Bestands-BSK verlangt die Bauaufsicht regelmäßig einen vollständigen Nachweis.",
+          "Nein. Teilsanierung ohne wesentliche Nutzungsänderung kann mit Stellungnahme auskommen. Bei neuem Sonderbau, wesentlichen Nutzungsänderungen oder fehlendem Bestandsnachweis verlangt die Bauaufsicht regelmäßig ein vollständiges Konzept.",
       },
       {
         question: "Was ist der Unterschied zwischen Umbau und Nutzungsänderung?",
         answer:
-          "Umbau bedeutet bauliche Änderung (Wände, Erschließung, Technik in Bauteilen). Nutzungsänderung bedeutet eine andere tatsächliche Nutzung (z. B. von Lager zu Büro oder von Laden zu Gastronomie). Brandschutzrechtlich zählt oft beides zusammen: neue Gefährdung durch Nutzung plus neue Bauteile.",
+          "Umbau = bauliche Änderung. Nutzungsänderung = andere tatsächliche Nutzung (z. B. Lager→Büro, Laden→Gastronomie). Brandschutzrechtlich zählt oft beides: neue Gefährdung plus neue Bauteile.",
       },
       {
         question: "Wann wird aus einem normalen Gewerbe ein Sonderbau?",

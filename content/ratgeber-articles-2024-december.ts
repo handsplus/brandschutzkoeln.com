@@ -301,17 +301,17 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
     title:
 
-      "Veranstaltung in Lagerhalle oder Scheune: braucht man eine Baugenehmigung in NRW?",
+      "Veranstaltung in der Halle: Braucht man eine Baugenehmigung?",
 
     excerpt:
 
-      "Schützenfest in der Halle, Karneval in der Scheune oder Party im Gewerbebau: Wann reicht eine Veranstaltungserlaubnis, wann ist es Sonderbau – und was gilt bei mehr als 200 Gästen oder 25 Events pro Jahr?",
+      "Gelegentlich (Richtwert unter 25/Jahr): Raum über 200 Besuchern wird dadurch noch kein Versammlungsraum. Freianlage über 5.000 Besuchern bleibt genehmigungspflichtig. Erlass 17.06.2024.",
 
-    metaTitle: "Scheunenfest Genehmigung NRW Veranstaltung Halle | H&S+",
+    metaTitle: "Veranstaltung Halle: Baugenehmigung? | H&S+",
 
     metaDescription:
 
-      "Veranstaltung Lagerhalle Scheune NRW: Baugenehmigung ja oder nein, 200 Besucher, 25 Events Jahr, Schützenfest Karneval, Brandschutz und Versammlungsstätte – BauO NRW.",
+      "Gelegentliche Veranstaltung (Richtwert unter 25/Jahr): oft keine Baugenehmigung; über 200 Gäste allein machen keinen Versammlungsraum. Freianlage über 5.000 Besucher: ja.",
 
     keywords: [
 
@@ -341,11 +341,11 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "Wer eine Lagerhalle, Scheune oder ein Gewerbegebäude für ein Fest, Konzert oder Vereinsveranstaltung nutzen will, fragt zuerst: Reicht eine Veranstaltungserlaubnis – oder braucht man eine Baugenehmigung als Nutzungsänderung nach § 60 BauO NRW?",
+          "Gelegentliche Nutzung (Richtwert unter 25 Veranstaltungen/Jahr) in bestehender Halle oder Scheune: oft keine baugenehmigungspflichtige Nutzungsänderung – und ein Raum mit mehr als 200 Besuchern wird dadurch noch kein Versammlungsraum nach § 50 Abs. 2 Nr. 6 a. Freianlagen mit mehr als 5.000 Besuchern bleiben auch einmalig genehmigungspflichtig (§ 50 Abs. 2 Nr. 6 b). Linie: Runderlass 17.06.2024 (Verwaltungsvorschrift).",
 
-          "Der Runderlass des MHKBD vom 17.06.2024 (Az. 53.06.04.03-000105) ist eine Verwaltungsvorschrift zum Vollzug – kein Gesetz. Die Baugenehmigung betrifft Errichtung, Änderung oder Nutzungsänderung der baulichen Anlage, nicht die Zulassung der Veranstaltung selbst. Gelegentliche Feste in bestehenden Gebäuden sind deshalb oft keine genehmigungspflichtige Nutzungsänderung – sofern keine baulichen Änderungen anstehen und die Freianlagen-Ausnahme (unten) nicht greift.",
+          "Der Runderlass des MHKBD vom 17.06.2024 (Az. 53.06.04.03-000105) ist eine Verwaltungsvorschrift zum Vollzug – kein Gesetz. Die Baugenehmigung betrifft Errichtung, Änderung oder Nutzungsänderung der baulichen Anlage, nicht die Zulassung der Veranstaltung selbst.",
 
-          "Vollzugswechsel: Bis zum Erlass galt in NRW eine strengere Praxis (Dienstbesprechung 2011): Schon die einmalige Nutzung einer Scheune oder Halle als Festort als genehmigungspflichtige Nutzungsänderung zur Versammlungsstätte. Ab 17.06.2024 gilt eine andere Auslegung – die Veranstaltung läuft häufig über das Ordnungsrecht der Gemeinde, nicht über die Bauaufsicht.",
+          "Vollzugswechsel: Bis zum Erlass galt in NRW eine strengere Praxis (Dienstbesprechung 2011). Ab 17.06.2024 läuft die Veranstaltung häufig über das Ordnungsrecht der Gemeinde, nicht über die Bauaufsicht – verfahrensfrei im Baurecht heißt nicht brandschutzfrei.",
 
         ],
 
@@ -483,7 +483,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "Oft nicht – wenn die Nutzung gelegentlich ist (wenige Feste pro Jahr, unter 25 Veranstaltungen) und keine baulichen Änderungen anstehen. Stattdessen läuft die Zulassung häufig über die Ordnungsbehörde. Verfahrensfrei im Baurecht heißt nicht brandschutzfrei.",
+          "Oft nicht – bei gelegentlicher Nutzung (Richtwert unter 25/Jahr) ohne bauliche Änderungen. Über 200 Gäste allein machen keinen Versammlungsraum. Freianlage über 5.000 Besucher: Baugenehmigung ja.",
 
       },
 
@@ -493,7 +493,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "In der Regel ab 25 Veranstaltungen pro Jahr in derselben baulichen Anlage. Dann ist von einer dauerhaften Nutzungsänderung mit Baugenehmigungspflicht auszugehen.",
+          "In der Regel ab 25 Veranstaltungen pro Jahr in derselben baulichen Anlage – dann dauerhafte Nutzungsänderung mit Baugenehmigungspflicht.",
 
       },
 
@@ -503,7 +503,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "Nicht bei einmaliger oder gelegentlicher Nutzung. Mehr als 200 Besucher allein machen den Raum noch nicht zum Versammlungsraum nach § 50 BauO NRW, wenn das Fest nur selten stattfindet.",
+          "Nein bei gelegentlicher Nutzung. Mehr als 200 Besucher allein machen den Raum noch nicht zum Versammlungsraum nach § 50 Abs. 2 Nr. 6 a.",
 
       },
 

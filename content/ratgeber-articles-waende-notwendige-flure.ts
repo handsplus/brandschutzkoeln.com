@@ -7,12 +7,12 @@ import type { RatgeberArticle } from "./ratgeber-types";
 export const RATGEBER_ARTICLES_WAENDE_NOTWENDIGE_FLURE: RatgeberArticle[] = [
   {
     slug: "waende-notwendige-flure-bauo-nrw",
-    title: "Wände notwendiger Flure: welche Anforderungen nach § 36 BauO NRW?",
+    title: "Wände notwendiger Flure: Welche Anforderung gilt?",
     excerpt:
-      "Notwendige Flure sind Rettungswege – ihre Wände müssen nach § 36 Abs. 4 BauO NRW feuerhemmend sein, im Keller mit feuerbeständigem Tragwerk feuerbeständig. Übersicht: wann Flurwände Pflicht sind, Rauchabschnitte, Türen und Sonderbauten.",
-    metaTitle: "Wände notwendiger Flure § 36 BauO NRW | H&S+",
+      "Notwendige Flure sind Rettungswege: Wände feuerhemmend (§ 36 Abs. 4), im Keller mit feuerbeständigem Tragwerk feuerbeständig. Kein notwendiger Flur: Wohnungsflur, GK 1–2 kleine NE.",
+    metaTitle: "Wände notwendiger Flure: feuerhemmend? | H&S+",
     metaDescription:
-      "Wände notwendiger Flure BauO NRW: § 36 Abs. 4 feuerhemmend, Keller feuerbeständig, Rauchabschnitte, Türen, Bekleidung § 36 Abs. 6 – wann notwendige Flure Pflicht sind.",
+      "Notwendige Flure: Wände feuerhemmend (§ 36 Abs. 4), Keller bei feuerbeständigem Tragwerk feuerbeständig. Kein notwendiger Flur: Wohnungsflur und kleine NE in GK 1–2.",
     keywords: [
       "Wände notwendiger Flure",
       "notwendiger Flur BauO NRW",
@@ -24,11 +24,10 @@ export const RATGEBER_ARTICLES_WAENDE_NOTWENDIGE_FLURE: RatgeberArticle[] = [
     sections: [
       {
         id: "einordnung",
-        title: "Was ist ein notwendiger Flur?",
+        title: "Welche Wand braucht der notwendige Flur?",
         paragraphs: [
-          "Flure, über die Rettungswege aus Aufenthaltsräumen oder aus Nutzungseinheiten mit Aufenthaltsräumen zu Ausgängen in notwendige Treppenräume oder ins Freie führen, sind notwendige Flure (§ 36 Abs. 1 Satz 1 BauO NRW). Sie müssen so angeordnet und ausgebildet sein, dass die Nutzung im Brandfall ausreichend lang möglich ist.",
-          "Ein normaler Hausflur ist nur dann ein notwendiger Flur, wenn er diese Rettungsweg-Funktion erfüllt. Wohnungsflure innerhalb einer Wohnung, Flure in kleinen Nutzungseinheiten der Gebäudeklassen 1 und 2 oder Flure ohne Rettungsweg-Funktion unterliegen nicht den Wandanforderungen des § 36 Abs. 4.",
-          "Schwerpunkt dieses Ratgebers: die Wände notwendiger Flure – Feuerwiderstandsfähigkeit, Führung, Öffnungen, Bekleidungen und Schnittstellen zu Treppenräumen. Gesetzliche TR-Systematik: [Notwendige Treppe und Treppenraum](/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw). Maßgeblich: § 36 Abs. 3 bis 6 BauO NRW. Brandlasten (gebunden und beweglich): [Brandlasten im notwendigen Flur](/ratgeber/brandlasten-notwendige-flure-bauo-nrw). Grundlagen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw), [Brandschutztüren](/ratgeber/tuerarten-brandschutz-bauo-nrw).",
+          "Notwendige Flure sind Rettungswege zu Treppenraum oder ins Freie (§ 36 Abs. 1). Ihre Wände müssen feuerhemmend sein (§ 36 Abs. 4); in Kellern, deren Tragwerk feuerbeständig sein muss, feuerbeständig. Kein notwendiger Flur – und damit keine §-36-Flurwände – u. a. bei Wohnungsfluren und in kleinen Nutzungseinheiten der Gebäudeklassen 1 und 2.",
+          "Schwerpunkt: Wandanforderungen, Führung, Öffnungen und Schnittstellen zum Treppenraum. Gesetzliche TR-Systematik: [Notwendige Treppe und Treppenraum](/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw). Brandlasten: [Brandlasten im notwendigen Flur](/ratgeber/brandlasten-notwendige-flure-bauo-nrw).",
         ],
         list: [
           "§ 33 Abs. 1 – zwei Rettungswege ins Freie",
@@ -327,12 +326,12 @@ export const RATGEBER_ARTICLES_WAENDE_NOTWENDIGE_FLURE: RatgeberArticle[] = [
       {
         question: "Wann ist ein Flur ein notwendiger Flur?",
         answer:
-          "Wenn Rettungswege aus Aufenthaltsräumen oder NE mit Aufenthaltsräumen über ihn zu notwendigen Treppenräumen oder ins Freie führen (§ 36 Abs. 1 Satz 1 BauO NRW).",
+          "Wenn er Rettungsweg zu Treppenraum oder ins Freie ist (§ 36 Abs. 1). Kein notwendiger Flur: Wohnungsflur und viele Fälle in GK 1–2 (kleine NE) – dann entfallen Flurwände nach Abs. 4.",
       },
       {
         question: "Welche Feuerwiderstandsfähigkeit haben Flurwände?",
         answer:
-          "§ 36 Abs. 4: feuerhemmend als raumabschließende Bauteile; in Kellergeschossen mit feuerbeständigem Tragwerk feuerbeständig. Unabhängig von GK für die Flurwand selbst – GK betrifft vor allem den Treppenraum (§ 35 Abs. 2).",
+          "Feuerhemmend (§ 36 Abs. 4); im Keller mit feuerbeständigem Tragwerk feuerbeständig.",
       },
       {
         question: "Müssen Flurwände bis zur Rohdecke geführt werden?",
