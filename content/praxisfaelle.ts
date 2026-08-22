@@ -1,5 +1,5 @@
 /**
- * Anonymisierte Praxisfälle für Trust-Sektionen (ohne Mandantennamen, Adressen, Aktenzeichen).
+ * Fünf anonymisierte Praxisfälle für Trust-Sektionen (ohne Mandantennamen, Adressen, Aktenzeichen).
  */
 
 export type Praxisfall = {
@@ -13,6 +13,12 @@ export type Praxisfall = {
   ratgeberHref: string;
   ratgeberLabel: string;
 };
+
+export const PRAXISFAELLE_FEATURED_IDS = [
+  "gastronomie-nutzungsaenderung",
+  "arztpraxis-zusammenlegung",
+  "studio-sonderbau-sprinkler",
+] as const;
 
 export const PRAXISFAELLE: Praxisfall[] = [
   {
@@ -53,5 +59,31 @@ export const PRAXISFAELLE: Praxisfall[] = [
       "Nachvollziehbare brandschutztechnische Grundlage für Genehmigung und Umsetzung – ohne pauschale Komplettsanierung der Sprinkleranlage.",
     ratgeberHref: "/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw",
     ratgeberLabel: "Sprinkler & Trockenbau",
+  },
+  {
+    id: "imbiss-ladenlokal-nutzungsaenderung",
+    industry: "Gastronomie / Gewerbe",
+    title: "Ladenlokal in Köln – Umnutzung zum Imbiss",
+    situation:
+      "Ebenerdiges Ladenlokal (ca. 65 m²) sollte Imbiss mit Fritteuse und Holzkohlegrill werden – deutlich höhere Brandlast als im früheren Einzelhandel; Nutzungsänderung mit Eingriffen an Trennwänden und Küchentechnik.",
+    approach:
+      "Brandschutztechnische Stellungnahme zu Küchenbereichen, feuerhemmenden Trennwänden zum Nachbarn (§ 29 BauO NRW), Fluchtweg und technisch-organisatorischen Maßnahmen – ohne Sonderbau-Pflicht unter der Gaststätten-Schwelle.",
+    result:
+      "Genehmigungsfähiges Unterlagenpaket für die Bauaufsicht – Stellungnahme und Pläne auf einem Stand, ohne pauschales Voll-Brandschutzkonzept.",
+    ratgeberHref: "/ratgeber/imbiss-ladenlokal-nutzungsaenderung-koeln",
+    ratgeberLabel: "Ladenlokal zum Imbiss",
+  },
+  {
+    id: "buero-teilsanierung-bma",
+    industry: "Gewerbe / Verwaltung",
+    title: "Verwaltungsgebäude – Teilsanierung mit BMA-Neuplanung",
+    situation:
+      "Großes Bürogebäude (GK 5, Baujahr 1978): Umbau rund die Hälfte der BGF – Trockenbau, neue Türen, Technik und vollständige Erneuerung der Brandmeldeanlage; Nutzung blieb Büro/Verwaltung.",
+    approach:
+      "Brandschutztechnische Stellungnahme als Leitfaden für Architektur und TGA – Fluchtwege (ASR A2.3), Abschottungen, BMA-Konzept und Abgleich mit Sonderbau-Bestand; im Fall kein neues Behörden-Voll-BSK.",
+    result:
+      "Nachvollziehbare Nachweise für Sanierungsabschnitt und BMA-Abnahme – Pläne und Abschottungen auf GK-5-Niveau ohne pauschales Gesamt-Konzept.",
+    ratgeberHref: "/ratgeber/teilsanierung-buero-brandschutz-koeln",
+    ratgeberLabel: "Teilsanierung Büro",
   },
 ];

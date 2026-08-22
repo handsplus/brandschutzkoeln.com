@@ -65,7 +65,7 @@ export default function UeberUnsPage() {
         </div>
       </section>
 
-      <PraxisFaelleSection variant="compact" background="stone" />
+      <PraxisFaelleSection variant="compact" background="stone" showAll />
 
       <section className="py-16 sm:py-20 bg-white" aria-labelledby="mission">
         <div className="container-narrow">

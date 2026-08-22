@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PRAXISFAELLE } from "@/content/praxisfaelle";
+import { PRAXISFAELLE, PRAXISFAELLE_FEATURED_IDS } from "@/content/praxisfaelle";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 const linkClass =
@@ -10,18 +10,26 @@ type PraxisFaelleSectionProps = {
   variant?: "default" | "compact";
   /** Hintergrundfarbe der Sektion */
   background?: "white" | "stone";
+  /** Alle Fälle (Über uns) oder nur Featured (Startseite) */
+  showAll?: boolean;
 };
 
 /**
- * Drei anonymisierte Praxisfälle – Trust ohne Mandatsdetails.
+ * Anonymisierte Praxisfälle – bis zu fünf auf Über uns, drei Featured auf Start.
  */
 export function PraxisFaelleSection({
   variant = "default",
   background = "white",
+  showAll = false,
 }: PraxisFaelleSectionProps) {
   const isCompact = variant === "compact";
   const bgClass = background === "stone" ? "bg-stone-50" : "bg-white";
   const cardSurface = background === "stone" ? "bg-white" : "bg-stone-50";
+  const cases = showAll
+    ? PRAXISFAELLE
+    : PRAXISFAELLE.filter((f) =>
+        (PRAXISFAELLE_FEATURED_IDS as readonly string[]).includes(f.id)
+      );
 
   return (
     <section
@@ -45,7 +53,7 @@ export function PraxisFaelleSection({
           className="mt-10 grid gap-6 lg:grid-cols-3 lg:gap-8"
           role="list"
         >
-          {PRAXISFAELLE.map((fall) => (
+          {cases.map((fall) => (
             <li
               key={fall.id}
               className={`flex flex-col rounded-xl border border-stone-200 ${cardSurface} p-6 shadow-sm sm:p-7`}
