@@ -6,12 +6,12 @@ import type { RatgeberArticle } from "./ratgeber-types";
 export const RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026: RatgeberArticle[] = [
   {
     slug: "brandschadensanierung-ueberblick-vds-2357",
-    title: "Brandschadensanierung: Überblick nach VdS 2357",
+    title: "VdS 2357: Was regelt die Brandschadensanierung?",
     excerpt:
-      "Was Brandschadensanierung an der kalten Brandstelle bedeutet, welche Regelwerke gelten und welche Gefahren durch Ruß, Schadstoffe und biologische Belastung entstehen – der Einstieg vor Ablauf und Pflichten.",
-    metaTitle: "Was ist Brandschadensanierung? | VdS 2357 | H&S+",
+      "VdS 2357 erklärt Brandschadensanierung nach Brand: kalte Brandstelle, Gefahrenbereiche, DGUV 101-004 – Abgrenzung zu Konzept und Betriebs-BSO.",
+    metaTitle: "VdS 2357 Brandschadensanierung | Überblick",
     metaDescription:
-      "Brandschadensanierung erklärt: Was an der kalten Brandstelle passiert, welche Gefahren durch Ruß und Schadstoffe drohen und welche Regelwerke gelten – VdS 2357, DGUV 101-004, TRGS 524.",
+      "VdS 2357: Sanierung an der kalten Brandstelle nach dem Einsatz – Erstbegehung, Gefahrenbereiche GB 0–3, DGUV 101-004 und TRGS 524. Nicht BSK oder BSO.",
     keywords: [
       "Brandschadensanierung",
       "VdS 2357",
@@ -25,7 +25,7 @@ export const RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026: RatgeberArticle[] 
         id: "was-ist",
         title: "Was ist Brandschadensanierung?",
         paragraphs: [
-          "Brandschadensanierung umfasst alle Maßnahmen an der **kalten Brandstelle**, um Schäden an Gebäuden und Anlagen zu beseitigen – nach dem Einsatz der Feuerwehr und der Sicherung des Objekts. Dazu gehören Ursachen- und Schadensfeststellung, Sofortmaßnahmen, Entfernung von Brandgut und kontaminiertem Löschwasser, Reinigung brandschadensbedingter Verunreinigungen sowie der Abbau betroffener Bauteile.",
+          "VdS 2357 ist der Leitfaden für Brandschadensanierung an der kalten Brandstelle – nach Feuerwehr-Einsatz und Objektsicherung. Kernablauf: Erstbegehung und Einstufung in Gefahrenbereiche (GB 0 bis GB 3), dann Beseitigung von Brandgut, kontaminiertem Löschwasser und Schäden unter DGUV 101-004 und TRGS 524. Das ist nicht dasselbe wie ein brandschutztechnisches Konzept zur Baugenehmigung oder eine Brandschutzordnung im laufenden Betrieb.",
           "Anders als der vorbeugende oder abwehrende Brandschutz im laufenden Betrieb geht es hier um **Arbeiten in kontaminierten Bereichen**: Ruß, Kondensate, Brandrückstände aus Lagerbeständen, Baustoffe (z. B. Asbest, Mineralfasern) und biologische Arbeitsstoffe können Gesundheitsschäden verursachen. Deshalb gelten strenge Regeln für Einstufung, Schutz und Entsorgung.",
         ],
       },

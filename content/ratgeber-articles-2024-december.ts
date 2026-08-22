@@ -565,17 +565,17 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
     slug: "feuerwehrzufahrt-zugaenge-runderlass-bauo-nrw",
 
-    title: "Feuerwehrzufahrt und Feuerwehrzugang: Anforderungen nach BauO NRW",
+    title: "Feuerwehrzufahrt Breite NRW: Wie breit muss sie sein?",
 
     excerpt:
 
-      "Was muss bei Neubau und Genehmigung wirklich eingeplant werden – Zufahrt, Zugang, Aufstellfläche, Schotterrasen, Gartenweg für Leitern? Was kommunale Merkblätter oft zu viel verlangen und was § 5 BauO NRW verbindlich vorschreibt.",
+      "Feuerwehrzufahrt Breite NRW: 1,25 m, § 5 BauO, Schotterrasen möglich – und was der Runderlass 2024 von Merkblatt-Überforderung abgrenzt.",
 
-    metaTitle: "Feuerwehrzufahrt NRW Anforderungen § 5 BauO | H&S+",
+    metaTitle: "Feuerwehrzufahrt Breite NRW: 1,25 m | § 5 BauO",
 
     metaDescription:
 
-      "Feuerwehrzufahrt und Feuerwehrzugang NRW: § 5 BauO, Breite 1,25 m, Schotterrasen, Gartenweg Leiter, Aufstellfläche, öffentliche Straße – was Planer wirklich brauchen.",
+      "Feuerwehrzufahrt in NRW: mindestens 1,25 m lichte Breite (MRFlFw), befestigt und tragfähig (§ 5 BauO NRW). Runderlass 2024: keine Pflicht-Leiterwege durch Gärten.",
 
     keywords: [
 
@@ -607,7 +607,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         paragraphs: [
 
-          "Bei jedem Neubau und vielen Genehmigungsverfahren in NRW stellt sich die Frage: Wie breit muss die Feuerwehrzufahrt sein, brauche ich eine Durchfahrt, wo dürfen Löschfahrzeuge aufstellen? Maßgeblich ist § 5 BauO NRW in Verbindung mit den Muster-Richtlinien über Flächen für die Feuerwehr (MRFlFw) und Anlage A 2.2.1.1/1 der VV TB NRW.",
+          "Feuerwehrzufahrt Breite in NRW: mindestens 1,25 m freie lichte Breite nach Muster-Richtlinien über Flächen für die Feuerwehr (MRFlFw, Anlage A 2.2.1.1/1 VV TB NRW) – Zufahrt und Bewegungsflächen zusätzlich befestigt, tragfähig, gekennzeichnet und ständig frei (§ 5 Abs. 2 BauO NRW). Maßgeblich für Genehmigung: § 5 BauO NRW, nicht jedes kommunale Merkblatt.",
 
           "Kernpflichten nach § 5 BauO NRW: Von der öffentlichen Verkehrsfläche ein geradliniger Zu- oder Durchgang zur Feuerwehr – zu rückwärtigen Gebäuden zwingend, zu anderen wenn der zweite Rettungsweg über Feuerwehrgeräte führt. Gesetzliche Systematik: [Feuerwehrzufahrten und Bewegungsflächen](/ratgeber/feuerwehrzufahrten-bewegungsflaechen-bauo-sbauvo-nrw). Ab 8 Metern Brüstungshöhe: Zu- oder Durchfahrt statt Durchgang; bei Hubrettungsfahrzeugen Aufstell- und Bewegungsflächen. Alles befestigt, tragfähig, gekennzeichnet und ständig frei.",
 

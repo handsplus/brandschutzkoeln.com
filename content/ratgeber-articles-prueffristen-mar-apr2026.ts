@@ -558,12 +558,12 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
   },
   {
     slug: "feuerschutzabschluesse-prueffristen-fstA",
-    title: "Feuerschutzabschlüsse prüfen: Türen, Feststellanlagen und Vorhänge",
+    title: "Feststellanlage prüfen: Wie oft und wer darf warten?",
     excerpt:
-      "Jährliche Wartung Rauchschutztüren, monatliche Kontrolle Feststellanlagen, FK für FstA nach DIN 14677 – Prüffristen aus DGUV 205-040 mit Abgrenzung zum Bestands-Artikel.",
-    metaTitle: "Feuerschutztür Prüffrist: Feststellanlage | DIN 14677 | H&S+",
+      "Monatlich Betreiber, jährlich FK für FstA nach DIN 14677 – Feststellanlage und Rauchschutztür: Prüffristen aus DGUV 205-040.",
+    metaTitle: "Feststellanlage prüfen: wie oft? | DIN 14677",
     metaDescription:
-      "Rauchschutztür und Feststellanlage prüfen: jährliche SK-Wartung, monatliche Betreiberkontrolle, FK für FstA – Prüffristen nach DIN 14677 und DGUV 205-040.",
+      "Feststellanlage: monatlich Betreiber-Sichtkontrolle, jährlich Wartung durch FK für FstA nach DIN 14677. Rauchschutztüren jährlich durch Sachkundigen – Keile unzulässig.",
     keywords: [
       "Feuerschutztür Prüfung",
       "Feststellanlage Wartung",
@@ -576,7 +576,7 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         id: "ueberblick",
         title: "Abschlüsse – bauaufsichtlich und betrieblich",
         paragraphs: [
-          "Feuer- und Rauchschutzabschlüsse sichern Brandabschnitte und Rauchabschnitte. Ihre Funktion hängt von Schließfolge, Dichtung, Beschlägen und Feststellanlagen ab. DGUV 205-040 fasst Prüffristen für Türen, Feststellanlagen, Vorhänge und Sonderfälle zusammen.",
+          "Feststellanlage prüfen: monatlich Sicht- und Funktionskontrolle durch den Betreiber, jährlich Wartung durch einen Fachkunden für Feststellanlagen (FK für FstA) nach DIN 14677 – bei Bauart 2 mit Brandmeldeanlage zusätzliche BMA-Qualifikation. Rauch- und Brandschutztüren: jährlich durch Sachkundigen. Dauerhaft offen nur mit wirksamer Feststellung – nicht mit Keil oder Kette.",
           "Ergänzend zu baulicher [Ertüchtigung im Bestand](/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln) gelten betriebliche Prüfzyklen.",
         ],
       },
