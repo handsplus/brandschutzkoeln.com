@@ -227,6 +227,7 @@ const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
   "brandschutzordnung-din-14096-nrw": "2026-09-05",
   "nutzungsaenderung-brandschutz-bauo-nrw": "2026-09-10",
   "sportstaetten-fitnessstudios-brandschutz-nrw": "2026-09-15",
+  "zweiter-rettungsweg-wohnungsbestand-bauo-nrw": "2026-09-18",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */

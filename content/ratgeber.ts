@@ -12,6 +12,7 @@ import { RATGEBER_ARTICLES_BRANDSCHUTZKONZEPT_HUB } from "./ratgeber-articles-br
 import { RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG_HUB } from "./ratgeber-articles-brandschutzordnung-hub";
 import { RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB } from "./ratgeber-articles-nutzungsaenderung-hub";
 import { RATGEBER_ARTICLES_SPORTSTAETTEN_FITNESS_HUB } from "./ratgeber-articles-sportstaetten-fitness-hub";
+import { RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_WOHNUNG_HUB } from "./ratgeber-articles-zweiter-rettungsweg-wohnung-hub";
 import { RATGEBER_ARTICLES_HYDRANTEN_JUN2026 } from "./ratgeber-articles-hydranten-jun2026";
 import { RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE } from "./ratgeber-articles-gebaeudeklassen-serie";
 import { RATGEBER_ARTICLES_TUERARTEN_JUN2026 } from "./ratgeber-articles-tuerarten-jun2026";
@@ -2664,6 +2665,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG_HUB,
   ...RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB,
   ...RATGEBER_ARTICLES_SPORTSTAETTEN_FITNESS_HUB,
+  ...RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_WOHNUNG_HUB,
   ...RATGEBER_ARTICLES_HYDRANTEN_JUN2026,
   ...RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE,
   ...RATGEBER_ARTICLES_TUERARTEN_JUN2026,
