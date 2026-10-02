@@ -33,6 +33,7 @@ import { RATGEBER_ARTICLES_GESETZLICHE_EINSTUFUNG_GEBAEUDE } from "./ratgeber-ar
 import { RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG } from "./ratgeber-articles-sicherheitsstromversorgung";
 import { RATGEBER_ARTICLES_BRANDMELDEANLAGE } from "./ratgeber-articles-brandmeldeanlage";
 import { RATGEBER_ARTICLES_BRANDABSCHNITTE } from "./ratgeber-articles-brandabschnitte";
+import { RATGEBER_ARTICLES_BRANDWAENDE_ARTEN } from "./ratgeber-articles-brandwaende-arten";
 import { RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER } from "./ratgeber-articles-brandschutzfachplaner";
 import { RATGEBER_ARTICLES_FEUERWEHRZUFARTEN } from "./ratgeber-articles-feuerwehrzufahrten";
 import { RATGEBER_ARTICLES_BRANDLASTEN_NOTWENDIGE_FLURE } from "./ratgeber-articles-brandlasten-notwendige-flure";
@@ -2671,6 +2672,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_SICHERHEITSSTROMVERSORGUNG,
   ...RATGEBER_ARTICLES_BRANDMELDEANLAGE,
   ...RATGEBER_ARTICLES_BRANDABSCHNITTE,
+  ...RATGEBER_ARTICLES_BRANDWAENDE_ARTEN,
   ...RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER,
   ...RATGEBER_ARTICLES_FEUERWEHRZUFARTEN,
   ...RATGEBER_ARTICLES_BRANDLASTEN_NOTWENDIGE_FLURE,

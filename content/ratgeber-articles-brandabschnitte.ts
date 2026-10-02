@@ -189,11 +189,12 @@ export const RATGEBER_ARTICLES_BRANDABSCHNITTE: RatgeberArticle[] = [
         title: "Grenzen dieser Übersicht",
         paragraphs: [
           "Dieser Ratgeber fasst nur BauO NRW, SBauVO NRW und BauPrüfVO NRW zusammen – ohne VV TB, DIN-Normen oder IndBauR. Größere Abstände nach § 30 Abs. 2 Satz 3 und Abweichungen nach § 69 BauO NRW sind behördliche Einzelfallentscheidungen.",
-          "Praxis zu T30-RS und Planungsfehlern: [Rauchabschnitt Praxis](/ratgeber/rauchabschnitt-t30-rs-praxis-bauo-nrw) – ergänzend, nicht als gesetzliche Gesamtübersicht. Industriehallen: [IndBauR](/ratgeber/industriebau-lagerhalle-indbaur-nrw).",
+          "Arten der Brandwand (Abschlusswand, innere Brandwand, Ersatzwände, Öffnungen): [Brandwände](/ratgeber/brandwaende-bauo-sbauvo-nrw). Praxis zu T30-RS: [Rauchabschnitt Praxis](/ratgeber/rauchabschnitt-t30-rs-praxis-bauo-nrw). Industriehallen: [IndBauR](/ratgeber/industriebau-lagerhalle-indbaur-nrw).",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/brandwaende-bauo-sbauvo-nrw", label: "Brandwände – Arten" },
       { href: "/ratgeber/waende-notwendige-flure-bauo-nrw", label: "Rauchabschnitte im Flur" },
       { href: "/ratgeber/tuerarten-brandschutz-bauo-nrw", label: "Brandschutztüren" },
       { href: "/ratgeber/verkaufsstaetten-rettungswege-sbauvo-nrw", label: "Verkaufsstätten" },
@@ -207,6 +208,11 @@ export const RATGEBER_ARTICLES_BRANDABSCHNITTE: RatgeberArticle[] = [
         question: "Gibt es eine pauschale Höchstfläche für Brandabschnitte?",
         answer:
           "Nein in § 30 BauO für alle Gebäude. Maßgeblich sind Tatbestände: 40 m bei ausgedehnten Gebäuden, 10.000 m³ bei landwirtschaftlicher Nutzung, plus SBauVO-Sonderregeln (z. B. § 65 Verkauf 1.500–10.000 m² je Geschoss).",
+      },
+      {
+        question: "Was ist der Unterschied zwischen Brandwand und Brandabschnitt?",
+        answer:
+          "Die Brandwand ist das Bauteil (§ 30). Der Brandabschnitt ist das Ergebnis der Unterteilung. Arten und Ausführung: Ratgeber Brandwände.",
       },
       {
         question: "Was ist der Unterschied zwischen Brand- und Rauchabschnitt?",
