@@ -652,10 +652,12 @@ export const RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026: RatgeberArticle[] = [
         title: "Grenzen",
         paragraphs: [
           "Herstellervorgaben und Zulassung (abZ/aBG) können strengere Intervalle verlangen. Sanierung und Einbau: [Feuerschutztüren Bestand](/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln).",
+          "Wann Offenhalten erlaubt ist und was § 65 SBauVO ausdrücklich verlangt: [Feststellanlage Offenhalten](/ratgeber/feststellanlagen-offenhalten-brandschutz-nrw).",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/feststellanlagen-offenhalten-brandschutz-nrw", label: "Feststellanlage Offenhalten" },
       { href: "/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln", label: "Türen im Bestand" },
       { href: "/ratgeber/bma-prueffristen-brandmeldeanlage", label: "BMA & Bauart 2" },
       { href: "/ratgeber/wer-darf-brandschutzanlagen-pruefen", label: "FK für FstA" },

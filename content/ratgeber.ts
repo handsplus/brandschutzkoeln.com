@@ -6,6 +6,7 @@ import { RATGEBER_ARTICLES_BATCH2 } from "./ratgeber-articles-batch2";
 import { RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026 } from "./ratgeber-articles-brandschadensanierung-jan2026";
 import { RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026 } from "./ratgeber-articles-feuerloescher-feb2026";
 import { RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026 } from "./ratgeber-articles-prueffristen-mar-apr2026";
+import { RATGEBER_ARTICLES_FESTSTELLANLAGEN } from "./ratgeber-articles-feststellanlagen";
 import { RATGEBER_ARTICLES_HYDRANTEN_JUN2026 } from "./ratgeber-articles-hydranten-jun2026";
 import { RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE } from "./ratgeber-articles-gebaeudeklassen-serie";
 import { RATGEBER_ARTICLES_TUERARTEN_JUN2026 } from "./ratgeber-articles-tuerarten-jun2026";
@@ -2652,6 +2653,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_BRANDSCHADENSANIERUNG_JAN2026,
   ...RATGEBER_ARTICLES_FEUERLOESCHER_FEB2026,
   ...RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026,
+  ...RATGEBER_ARTICLES_FESTSTELLANLAGEN,
   ...RATGEBER_ARTICLES_HYDRANTEN_JUN2026,
   ...RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE,
   ...RATGEBER_ARTICLES_TUERARTEN_JUN2026,
