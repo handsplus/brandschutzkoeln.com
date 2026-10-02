@@ -224,6 +224,7 @@ const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
   "feststellanlagen-offenhalten-brandschutz-nrw": "2026-08-24",
   "flucht-und-rettungsplan-din-14095-nrw": "2026-08-29",
   "brandschutzkonzept-bauo-sbauvo-nrw": "2026-09-01",
+  "brandschutzordnung-din-14096-nrw": "2026-09-05",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */

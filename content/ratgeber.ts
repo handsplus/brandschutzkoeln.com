@@ -9,6 +9,7 @@ import { RATGEBER_ARTICLES_PRUEFFRISTEN_MAR_APR2026 } from "./ratgeber-articles-
 import { RATGEBER_ARTICLES_FESTSTELLANLAGEN } from "./ratgeber-articles-feststellanlagen";
 import { RATGEBER_ARTICLES_FLUCHT_RETTUNGSPLAN } from "./ratgeber-articles-flucht-rettungsplan";
 import { RATGEBER_ARTICLES_BRANDSCHUTZKONZEPT_HUB } from "./ratgeber-articles-brandschutzkonzept-hub";
+import { RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG_HUB } from "./ratgeber-articles-brandschutzordnung-hub";
 import { RATGEBER_ARTICLES_HYDRANTEN_JUN2026 } from "./ratgeber-articles-hydranten-jun2026";
 import { RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE } from "./ratgeber-articles-gebaeudeklassen-serie";
 import { RATGEBER_ARTICLES_TUERARTEN_JUN2026 } from "./ratgeber-articles-tuerarten-jun2026";
@@ -2658,6 +2659,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_FESTSTELLANLAGEN,
   ...RATGEBER_ARTICLES_FLUCHT_RETTUNGSPLAN,
   ...RATGEBER_ARTICLES_BRANDSCHUTZKONZEPT_HUB,
+  ...RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG_HUB,
   ...RATGEBER_ARTICLES_HYDRANTEN_JUN2026,
   ...RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE,
   ...RATGEBER_ARTICLES_TUERARTEN_JUN2026,
