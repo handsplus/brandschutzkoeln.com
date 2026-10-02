@@ -120,7 +120,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
         title: "Sicherheitstreppenraum",
         paragraphs: [
           "Ein zweiter Rettungsweg entfällt, wenn Rettung über einen sicher erreichbaren Treppenraum möglich ist, in den Feuer und Rauch nicht eindringen können (§ 33 Abs. 4). Notwendige Flure mit nur einer Fluchtrichtung zum STR: maximal 15 m (§ 36 Abs. 3 Satz 5).",
-          "Hochhäuser § 99 SBauVO: bis 60 m Höhe kann ein STR zwei TR ersetzen; über 60 m alle TR als STR; innenliegende oberirdische TR grundsätzlich als STR; Keller-TR getrennt von oberirdischen; Vorräume, offene Gänge, feste Verglasung; Abstand Türen mindestens 3 m. Druckbelüftung § 105 SBauVO. Vertiefung: [Hochhaus](/ratgeber/hochhaus-brandschutz-sbauvo-nrw).",
+          "Hochhäuser § 99 SBauVO: bis 60 m Höhe kann ein STR zwei TR ersetzen; über 60 m alle TR als STR; innenliegende oberirdische TR grundsätzlich als STR; Keller-TR getrennt von oberirdischen; Vorräume, offene Gänge, feste Verglasung; Abstand Türen mindestens 3 m. Druckbelüftung § 105 SBauVO. Ausführlich: [Sicherheitstreppenraum](/ratgeber/sicherheitstreppenraum-bauo-sbauvo-nrw). Ergänzend: [Hochhaus](/ratgeber/hochhaus-brandschutz-sbauvo-nrw).",
         ],
       },
       {
@@ -215,6 +215,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege" },
       { href: "/ratgeber/gebaeudeklassen-brandschutz-bauo-nrw", label: "Gebäudeklassen" },
       { href: "/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw", label: "Sicherheitsbeleuchtung" },
+      { href: "/ratgeber/sicherheitstreppenraum-bauo-sbauvo-nrw", label: "Sicherheitstreppenraum" },
       { href: "/ratgeber/hochhaus-brandschutz-sbauvo-nrw", label: "Hochhaus § 99" },
       { href: "/ratgeber/aufzuege-brandschutz-bauo-sbauvo-nrw", label: "Aufzüge § 39" },
       { href: "/ratgeber/brandlasten-notwendige-flure-bauo-nrw", label: "Brandlasten Flur" },
@@ -233,7 +234,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
       {
         question: "Wann ersetzt ein Sicherheitstreppenraum den zweiten Rettungsweg?",
         answer:
-          "Wenn Feuer und Rauch nicht in den Treppenraum eindringen können (§ 33 Abs. 4). Das ist nicht dasselbe wie ein normaler notwendiger Treppenraum – besonders in Hochhäusern detailliert in § 99 SBauVO.",
+          "Wenn Feuer und Rauch nicht in den Treppenraum eindringen können (§ 33 Abs. 4). Das ist nicht dasselbe wie ein normaler notwendiger Treppenraum – Details und Hochhaus-Regeln: Ratgeber Sicherheitstreppenraum (SBauVO § 99 / § 105).",
       },
       {
         question: "Wie weit darf der Weg zum Treppenraum sein?",

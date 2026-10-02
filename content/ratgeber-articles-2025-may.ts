@@ -71,11 +71,12 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Dieser Ratgeber fasst SBauVO NRW Hochhaus-Teil und Höhendefinition zusammen. Einzelfragen (Ersatzregelungen bis 30 m/60 m) gehören in das projektspezifische Brandschutzkonzept mit Prüfingenieur. Er ersetzt keine behördliche Festlegung.",
+          "Dieser Ratgeber fasst SBauVO NRW Hochhaus-Teil und Höhendefinition zusammen. Einzelfragen (Ersatzregelungen bis 30 m/60 m) gehören in das projektspezifische Brandschutzkonzept mit Prüfingenieur. Ersetzt keine behördliche Festlegung. Vertiefung STR: [Sicherheitstreppenraum](/ratgeber/sicherheitstreppenraum-bauo-sbauvo-nrw).",
         ],
       },
     ],
     relatedLinks: [
+      { href: "/ratgeber/sicherheitstreppenraum-bauo-sbauvo-nrw", label: "Sicherheitstreppenraum" },
       { href: "/ratgeber/pruefvo-nrw-wiederkehrende-pruefung-sonderbau", label: "PrüfVO NRW" },
       { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Brandschutzkonzept" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege" },
@@ -92,7 +93,7 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
       {
         question: "Was ist ein Sicherheitstreppenraum?",
         answer:
-          "Besonders ausgebildeter notwendiger Treppenraum gegen Rauch- und Wärmeeinwirkung – Pflicht für innenliegende Treppen in Hochhäusern, mit Druckbelüftung.",
+          "Treppenraum, in den Feuer und Rauch nicht eindringen können (§ 33 Abs. 4) – in Hochhäusern detailliert in § 99 SBauVO, innenliegend mit Druckbelüftung (§ 105). Ausführlich: Ratgeber Sicherheitstreppenraum.",
       },
       {
         question: "Wer prüft die Druckbelüftung?",

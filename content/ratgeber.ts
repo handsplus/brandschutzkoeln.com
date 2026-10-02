@@ -25,6 +25,7 @@ import { RATGEBER_ARTICLES_BRANDSCHUTZORDNUNG } from "./ratgeber-articles-brands
 import { RATGEBER_ARTICLES_BRANDSCHUTZBEAUFTRAGTER } from "./ratgeber-articles-brandschutzbeauftragter";
 import { RATGEBER_ARTICLES_LEITUNGSANLAGEN } from "./ratgeber-articles-leitungsanlagen";
 import { RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME } from "./ratgeber-articles-notwendige-treppen-treppenraeume";
+import { RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM } from "./ratgeber-articles-sicherheitstreppenraum";
 import { RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG } from "./ratgeber-articles-entrauchung-rauchableitung";
 import { RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026 } from "./ratgeber-articles-gericht-seo-jul-aug2026";
 import { RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT } from "./ratgeber-articles-rechtsprechung-sehr-gut";
@@ -2662,6 +2663,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_BRANDSCHUTZBEAUFTRAGTER,
   ...RATGEBER_ARTICLES_LEITUNGSANLAGEN,
   ...RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME,
+  ...RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM,
   ...RATGEBER_ARTICLES_ENTRAUCHUNG_RAUCHABLEITUNG,
   ...RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026,
   ...RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT,
