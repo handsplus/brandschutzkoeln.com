@@ -215,13 +215,14 @@ const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
   "feuerwehr-abstimmung-vor-bauamt-bauo-nrw": "2026-08-11",
   "zweiter-rettungsweg-dachfenster-bauo-nrw": "2026-08-12",
   "abweichungen-paragraph-69-erlass-bauo-nrw": "2026-08-13",
-  // Woche 14.–24.08.
+  // Woche 14.–29.08.
   "bestandsschutz-technische-sanierung-bauo-nrw": "2026-08-14",
   "veranstaltung-gelegentliche-nutzungsaenderung-bauo-nrw": "2026-08-15",
   "versammlungsstaetten-baulich-sbauvo-nrw": "2026-08-16",
   "sicherheitstreppenraum-bauo-sbauvo-nrw": "2026-08-17",
   "brandwaende-bauo-sbauvo-nrw": "2026-08-20",
   "feststellanlagen-offenhalten-brandschutz-nrw": "2026-08-24",
+  "flucht-und-rettungsplan-din-14095-nrw": "2026-08-29",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */

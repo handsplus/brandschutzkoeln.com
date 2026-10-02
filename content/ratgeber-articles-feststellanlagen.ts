@@ -40,7 +40,7 @@ export const RATGEBER_ARTICLES_FESTSTELLANLAGEN: RatgeberArticle[] = [
         paragraphs: [
           "BauO NRW und SBauVO verlangen an vielen Stellen dicht- und selbstschließende bzw. rauchdichte und selbstschließende Abschlüsse (u. a. §§ 29, 30, 35, 36 BauO).",
           "Die BauO schreibt nicht für jede selbstschließende Tür wörtlich „Feststellanlage Pflicht“. Sie verlangt die Schließfunktion. Wer die Tür dauerhaft offen braucht, muss das Schutzziel trotzdem erfüllen – praxisüblich und oft zulassungsbedingt nur über eine geeignete Feststellanlage.",
-          "Grenzfall ja: RS-Tür im Flur, Betrieb will sie offen – Feststellanlage mit Rauchfreigabe. Grenzfall nein: Tür bleibt im Normalbetrieb zu – keine Feststellanlage nötig.",
+          "Ein typisches Ja-Beispiel: Im notwendigen Flur steht eine rauchdichte, selbstschließende Tür, und der Betrieb will sie aus betrieblichen Gründen offen halten. Dann braucht es eine wirksame Feststellanlage mit Freigabe bei Raucheinwirkung – kein Keil. Ein typisches Nein-Beispiel: Die Tür bleibt im Normalbetrieb geschlossen. Dann ist keine Feststellanlage nötig, weil nichts dauerhaft offengehalten wird.",
         ],
       },
       {
