@@ -16,8 +16,8 @@ export type Praxisfall = {
 
 export const PRAXISFAELLE_FEATURED_IDS = [
   "gastronomie-nutzungsaenderung",
-  "arztpraxis-zusammenlegung",
-  "studio-sonderbau-sprinkler",
+  "maisonette-zweiter-rettungsweg",
+  "autohaus-nutzungsaenderung",
 ] as const;
 
 export const PRAXISFAELLE: Praxisfall[] = [
@@ -26,11 +26,11 @@ export const PRAXISFAELLE: Praxisfall[] = [
     industry: "Gastronomie",
     title: "Restaurant in Köln – Nutzungsänderung nach Planabweichung",
     situation:
-      "Bestehende Baugenehmigung für eine Schank- und Speisegaststätte (GK 5); die bauliche Abnahme war wegen Abweichungen beim Innenausbau in Leichtbauweise ausgesetzt.",
+      "Bestehende Baugenehmigung für eine Schank- und Speisegaststätte mit bis zu 200 Gastplätzen (GK 5). Die bauliche Abnahme war wegen Abweichungen beim Erdgeschoss-Grundriss und Innenausbau in Leichtbauweise ausgesetzt.",
     approach:
-      "Brandschutztechnische Neubewertung nur der geänderten Innenwände – als Ergänzung zum genehmigten Gesamtkonzept, mit Begehung und klarer Einordnung: keine Verschlechterung des Brandschutzes.",
+      "Brandschutztechnische Neubewertung der geänderten Ausführung als Ergänzung zum genehmigten Gesamtkonzept, mit Begehung und klarer Einordnung: keine Verschlechterung des Brandschutzes.",
     result:
-      "Neue Baugenehmigung für die angepasste Ausführung – Stellungnahme Bestandteil der Genehmigung, Abnahme kann fortgeführt werden.",
+      "Baugenehmigung für die geänderte Bauausführung erteilt. Die brandschutztechnische Stellungnahme ist Anlage und damit Bestandteil der Genehmigung; die bauliche Abnahme kann fortgeführt werden.",
     ratgeberHref: "/ratgeber/umbau-nutzungsaenderung-brandschutz",
     ratgeberLabel: "Umbau & Nutzungsänderung",
   },
@@ -59,6 +59,32 @@ export const PRAXISFAELLE: Praxisfall[] = [
       "Nachvollziehbare brandschutztechnische Grundlage für Genehmigung und Umsetzung – ohne pauschale Komplettsanierung der Sprinkleranlage.",
     ratgeberHref: "/ratgeber/sprinkler-trockenbau-nutzungsaenderung-bauo-nrw",
     ratgeberLabel: "Sprinkler & Trockenbau",
+  },
+  {
+    id: "maisonette-zweiter-rettungsweg",
+    industry: "Wohnen / Dachgeschoss",
+    title: "Maisonette Köln: zweiter Rettungsweg oben",
+    situation:
+      "Maisonette-Wohnung im Dachgeschoss in Köln mit zwei Ebenen. Unten Treppenraum und Gauben, oben Dachflächenfenster. Zu klären war, ob der zweite Rettungsweg den Anforderungen der BauO NRW genügt.",
+    approach:
+      "Ortsbegehung mit Aufmaß und brandschutztechnische Stellungnahme zu § 33 und § 37 BauO NRW, einschließlich Erreichbarkeit der Anleiterstelle und Abgleich mit dem Runderlass zur Fenstergröße.",
+    result:
+      "Brandschutztechnische Stellungnahme als Gutachten für den Bauherrn bzw. Eigentümer: Zwei Rettungswege nur unten genügen für die obere Ebene nicht. Hinterhoffenster ohne Aufstellflächen sind ungeeignet; das Badfenster erfüllt § 37 Abs. 5 BauO NRW nicht.",
+    ratgeberHref: "/ratgeber/maisonette-zweiter-rettungsweg-dachgeschoss-koeln",
+    ratgeberLabel: "Maisonette 2. Rettungsweg",
+  },
+  {
+    id: "autohaus-nutzungsaenderung",
+    industry: "Gewerbe / Autohaus",
+    title: "Gewerbehalle: Sporthalle zu Autohaus",
+    situation:
+      "Zweigeschossige Gewerbehalle in NRW: bisher Sport- und Trainingnutzung, beantragt Autohaus mit Ausstellung und Verkauf. Die Bauaufsicht forderte nach Brandschutzbeteiligung Nachbesserungen zu Gebäudeklasse, Betriebsbeschreibung, Trennung der Geschosse und Rettungswegen.",
+    approach:
+      "Brandschutztechnische Stellungnahme zu den Nachforderungspunkten mit Ortsbegehung, klarer Betriebsbeschreibung (Ausstellung ohne Werkstatt) und Bewertung der Außentreppen aus dem Obergeschoss.",
+    result:
+      "Baugenehmigung für die Nutzungsänderung erhalten. Die brandschutztechnische Stellungnahme mit Feststellungen zu Gebäudeklasse, Nutzung, Trennung der Geschosse, Rettungswegen und abwehrendem Brandschutz ist Bestandteil der Genehmigungsunterlagen.",
+    ratgeberHref: "/ratgeber/autohaus-nutzungsaenderung-brandschutz-nrw",
+    ratgeberLabel: "Sporthalle zu Autohaus",
   },
   {
     id: "imbiss-ladenlokal-nutzungsaenderung",

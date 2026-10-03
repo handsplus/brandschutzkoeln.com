@@ -21,11 +21,13 @@ const STATIC_ROUTES = new Set([
   "/ueber-uns",
   "/kontakt",
   "/impressum",
+  "/datenschutz",
   "/brandschutzkonzept-koeln",
   "/brandschutzordnung-koeln",
   "/brandschutzhelfer-ausbildung-koeln",
   "/brandschutzbeauftragter-koeln",
   "/brandschutzberatung-koeln",
+  "/feuerwehrplaene-fluchtplaene-koeln",
 ]);
 
 function extractSlugsFromFile(filePath) {

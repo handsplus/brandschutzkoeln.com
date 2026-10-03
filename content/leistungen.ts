@@ -121,6 +121,8 @@ export const LEISTUNGEN: Leistung[] = [
     ],
     ergebnis:
       "Aktuelle Feuerwehrpläne und Flucht- und Rettungspläne in der erforderlichen Anzahl und Aufhängung.",
+    seoHref: "/feuerwehrplaene-fluchtplaene-koeln",
+    seoLabel: "Feuerwehrpläne und Fluchtpläne Köln",
   },
   {
     id: "beurteilung-brandgefaehrdung",

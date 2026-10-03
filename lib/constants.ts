@@ -50,6 +50,7 @@ export const SEO_LINKS = [
   { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer Ausbildung Köln" },
   { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
   { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+  { href: "/feuerwehrplaene-fluchtplaene-koeln", label: "Feuerwehrpläne und Fluchtpläne Köln" },
 ] as const;
 
 /** Kontaktdaten (wie sigeko.koeln) */

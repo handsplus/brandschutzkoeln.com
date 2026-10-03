@@ -155,7 +155,7 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
       { href: "/ratgeber/waende-notwendige-flure-bauo-nrw", label: "Flure § 36" },
       { href: "/ratgeber/versammlungsstaetten-baulich-sbauvo-nrw", label: "Versammlungsstätten baulich" },
       { href: "/ratgeber/entrauchung-rauchableitung-bauo-sbauvo-nrw", label: "Entrauchung" },
-      { href: "/leistungen/brandschutzkonzept", label: "Brandschutzkonzept" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept" },
     ],
     faq: [
       {

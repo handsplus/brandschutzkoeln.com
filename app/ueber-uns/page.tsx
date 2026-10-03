@@ -50,16 +50,18 @@ export default function UeberUnsPage() {
           <SectionHeader
             id="vorstellung"
             title={`${SITE.name} als Brandschutz-Spezialist`}
-            subtitle="Eine Marke, ein Fokus: Brandschutz in Köln und Umgebung."
+            subtitle="Eine Marke, ein Fokus: Brandschutz in Köln und NRW."
           />
           <div className="prose prose-stone max-w-none text-stone-600">
             <p>
-              {SITE.name} ({SITE.shortName}) ist die Marke für professionellen Brandschutz in Köln.
-              Wir konzentrieren uns ausschließlich auf die Sparte Brandschutz – von der
-              Beratung über Konzepte und Brandschutzordnungen bis zur Ausbildung von
-              Brandschutzhelfern und der Begleitung bei behördlichen Anforderungen. So
-              sind wir Ihr fachlicher Partner für Sicherheit, Rechtskonformität und
-              praxisnahe Lösungen.
+              {SITE.name} ({SITE.shortName}) steht für Brandschutz in Köln und NRW. Zum
+              Angebot gehören Beratung, Brandschutzkonzepte, brandschutztechnische
+              Stellungnahmen bei Umbau und Nutzungsänderung, Brandschutzordnungen,
+              Feuerwehrpläne sowie Flucht- und Rettungspläne, Ausbildung von
+              Brandschutzhelfern sowie die Begleitung im Genehmigungsverfahren und
+              gegenüber der Bauaufsicht. So erhalten Bauherren, Eigentümer und
+              Betreiber belastbare Unterlagen und klare Orientierung für Vorhaben
+              vor Ort.
             </p>
           </div>
         </div>

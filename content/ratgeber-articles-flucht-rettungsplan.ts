@@ -169,7 +169,7 @@ export const RATGEBER_ARTICLES_FLUCHT_RETTUNGSPLAN: RatgeberArticle[] = [
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Flucht- und Rettungswege" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau / Nutzungsänderung" },
       { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Pläne aktualisieren" },
-      { href: "/leistungen/brandschutzordnung", label: "Leistung Brandschutzordnung" },
+      { href: "/brandschutzordnung-koeln", label: "Leistung Brandschutzordnung" },
       { href: "/kontakt", label: "Kontakt / Anfrage" },
     ],
     faq: [

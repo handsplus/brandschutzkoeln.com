@@ -201,7 +201,7 @@ export const RATGEBER_ARTICLES_BRANDWAENDE_ARTEN: RatgeberArticle[] = [
       { href: "/ratgeber/tuerarten-brandschutz-bauo-nrw", label: "Türarten" },
       { href: "/ratgeber/waende-notwendige-flure-bauo-nrw", label: "Flurwände / Rauchabschnitt" },
       { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
-      { href: "/leistungen/brandschutzkonzept", label: "Brandschutzkonzept" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept" },
     ],
     faq: [
       {

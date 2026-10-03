@@ -228,6 +228,8 @@ const AUGUST_2026_PUBLICATIONS: Record<string, string> = {
   "nutzungsaenderung-brandschutz-bauo-nrw": "2026-09-10",
   "sportstaetten-fitnessstudios-brandschutz-nrw": "2026-09-15",
   "zweiter-rettungsweg-wohnungsbestand-bauo-nrw": "2026-09-18",
+  "autohaus-nutzungsaenderung-brandschutz-nrw": "2026-09-25",
+  "maisonette-zweiter-rettungsweg-dachgeschoss-koeln": "2026-10-02",
 };
 
 /** Neue Ratgeber 2025 – ca. 8 Artikel/Monat; nächster Monat erst wenn der aktuelle voll ist (8/8). */

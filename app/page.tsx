@@ -20,6 +20,7 @@ const HAEFIG_GESUCHT_LINKS = [
   { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Konzept oder Stellungnahme? (Ratgeber)" },
   { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau & Nutzungsänderung (Ratgeber)" },
   { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+  { href: "/feuerwehrplaene-fluchtplaene-koeln", label: "Feuerwehrpläne und Fluchtpläne Köln" },
   { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer Köln" },
   { href: "/ratgeber", label: "Alle Ratgeber-Artikel" },
 ] as const;
@@ -60,7 +61,7 @@ export default function HomePage() {
       <RatgeberDeepenSection
         className="py-16 sm:py-20 bg-white"
         links={[
-          { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Wann Konzept, wann Stellungnahme?" },
+          { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Wann Brandschutzkonzept, wann Stellungnahme?" },
           { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Unterlagen für Bauaufsicht und Genehmigung" },
           { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Fluchtplan, Feuerwehrplan, BSO – drei Ebenen" },
           { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau nach § 50 BauO NRW" },

@@ -119,8 +119,8 @@ export default function BrandschutzkonzeptKoelnPage() {
           <p className="mt-6 text-stone-600">
             Flucht- und Rettungspläne nach ASR A2.3 sowie Feuerwehrpläne nach DIN 14095 sind ein eigenes Thema –
             sie ergänzen den bauordnungsrechtlichen Nachweis, ersetzen ihn aber nicht. Siehe{" "}
-            <Link href="/leistungen#feuerwehr-fluchtplaene" className="text-brand-red font-medium hover:underline">
-              Leistung Pläne
+            <Link href="/feuerwehrplaene-fluchtplaene-koeln" className="text-brand-red font-medium hover:underline">
+              Feuerwehrpläne und Fluchtpläne Köln
             </Link>
             .
           </p>
@@ -143,7 +143,7 @@ export default function BrandschutzkonzeptKoelnPage() {
       <RatgeberDeepenSection
         className="bg-stone-50 py-16 sm:py-20"
         links={[
-          { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Wann Konzept, wann Stellungnahme?" },
+          { href: "/ratgeber/brandschutzkonzept-wann-noetig", label: "Wann Brandschutzkonzept, wann Stellungnahme?" },
           { href: "/ratgeber/bauaufsicht-unterlagen-koeln", label: "Unterlagen für Bauaufsicht und Genehmigung" },
           { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau nach § 50 BauO NRW" },
           { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau und Nutzungsänderung" },

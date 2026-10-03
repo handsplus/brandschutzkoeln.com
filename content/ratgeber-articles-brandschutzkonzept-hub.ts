@@ -141,7 +141,7 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZKONZEPT_HUB: RatgeberArticle[] = [
       { href: "/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw", label: "Abweichung § 69" },
       { href: "/ratgeber/brandschutzfachplaner-rollen-bauo-nrw", label: "Brandschutzfachplaner" },
       { href: "/ratgeber/umbau-nutzungsaenderung-brandschutz", label: "Umbau / Nutzungsänderung" },
-      { href: "/leistungen/brandschutzkonzept", label: "Leistung Brandschutzkonzept" },
+      { href: "/brandschutzkonzept-koeln", label: "Leistung Brandschutzkonzept" },
       { href: "/kontakt", label: "Kontakt / Anfrage" },
     ],
     faq: [

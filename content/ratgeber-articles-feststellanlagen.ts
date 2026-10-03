@@ -139,7 +139,7 @@ export const RATGEBER_ARTICLES_FESTSTELLANLAGEN: RatgeberArticle[] = [
       { href: "/ratgeber/wer-darf-brandschutzanlagen-pruefen", label: "FK für FstA" },
       { href: "/ratgeber/eilbegehung-brandschutz-restaurant-gewerbe-koeln", label: "Eilbegehung" },
       { href: "/ratgeber/feuerschutztueren-bestand-ertuechtigung-koeln", label: "Türen im Bestand" },
-      { href: "/leistungen/brandschutzkonzept", label: "Brandschutzkonzept" },
+      { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept" },
     ],
     faq: [
       {

@@ -93,6 +93,33 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
         "Nein. Bauordnungsrechtlicher Nachweis (Konzept oder Stellungnahme) und betriebliche Pläne (ASR A2.3, DIN 14095) sind getrennt – wir können beides, klar abgegrenzt.",
     },
   ],
+  "/feuerwehrplaene-fluchtplaene-koeln": [
+    {
+      question: "Was ist der Unterschied zwischen Feuerwehrplan und Fluchtplan?",
+      answer:
+        "Der Feuerwehrplan nach DIN 14095 dient der Einsatzleitung. Der Flucht- und Rettungsplan nach ASR A2.3 dient Beschäftigten und Besuchern zur Orientierung. Beide Planarten werden getrennt erstellt und fortgeschrieben.",
+    },
+    {
+      question: "Brauche ich immer beide Planarten?",
+      answer:
+        "Nicht pauschal. Oft fordert die Baugenehmigung oder die Feuerwehr Feuerwehrpläne. Fluchtpläne folgen dem Arbeitsschutz und der betrieblichen Notwendigkeit. Wir klären den Bedarf anhand Objekt, Auflage und genehmigtem Stand.",
+    },
+    {
+      question: "Wann müssen Pläne fortgeschrieben werden?",
+      answer:
+        "Bei Umbau, Nutzungsänderung, geänderten Fluchtwegen, neuen Brandschutzeinrichtungen oder wenn Pläne nicht mehr dem genehmigten Stand entsprechen.",
+    },
+    {
+      question: "Ersetzt die Brandschutzordnung die Pläne?",
+      answer:
+        "Nein. Die Brandschutzordnung nach DIN 14096 regelt Verhalten und Zuständigkeiten. Feuerwehr- und Fluchtpläne sind eigene Unterlagen und werden oft gemeinsam mit der BSO fortgeschrieben.",
+    },
+    {
+      question: "Arbeiten Sie nur in Köln?",
+      answer:
+        "Feuerwehrpläne und Fluchtpläne erstellen wir in Köln und NRW.",
+    },
+  ],
   "/brandschutzordnung-koeln": [
     {
       question: "Was sind Teil A, B und C der Brandschutzordnung?",
@@ -117,7 +144,7 @@ export const LANDING_FAQS: Record<string, LandingFaqItem[]> = {
     {
       question: "Können Sie Flucht- und Feuerwehrpläne mit erstellen?",
       answer:
-        "Ja, aus einer Begehung – getrennt nach ASR A2.3 und DIN 14095. Die BSO verweist darauf, ersetzt sie aber nicht.",
+        "Ja, aus einer Begehung – getrennt nach ASR A2.3 und DIN 14095. Die BSO verweist darauf, ersetzt sie aber nicht. Mehr dazu unter Feuerwehrpläne und Fluchtpläne Köln.",
     },
     {
       question: "Arbeiten Sie nur in Köln?",

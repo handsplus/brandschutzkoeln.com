@@ -69,6 +69,10 @@ export default function LeistungenPage() {
             <Link href="/brandschutzhelfer-ausbildung-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
               Brandschutzhelfer-Ausbildung Köln
             </Link>
+            ,{" "}
+            <Link href="/feuerwehrplaene-fluchtplaene-koeln" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
+              Feuerwehrpläne und Fluchtpläne Köln
+            </Link>
             . Hintergründe zur BauO NRW finden Sie im{" "}
             <Link href="/ratgeber" className="text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red">
               Ratgeber
