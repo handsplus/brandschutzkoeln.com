@@ -49,6 +49,7 @@ import { RATGEBER_ARTICLES_BRANDLASTEN_NOTWENDIGE_FLURE } from "./ratgeber-artic
 import { RATGEBER_ARTICLES_FEUERWEHRPLAENE } from "./ratgeber-articles-feuerwehrplaene";
 import { RATGEBER_ARTICLES_SICHERHEITSBELEUCHTUNG } from "./ratgeber-articles-sicherheitsbeleuchtung";
 import { RATGEBER_ARTICLES_2025 } from "./ratgeber-articles-2025";
+import { RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026 } from "./ratgeber-articles-bauo-nrw-novelle-2026";
 import { applyRatgeberPublishedDates } from "./ratgeber-published-dates";
 
 export type { RatgeberArticle, RatgeberSection } from "./ratgeber-types";
@@ -2704,6 +2705,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
   ...RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER,
   ...RATGEBER_ARTICLES_BESTANDSSCHUTZ,
   ...RATGEBER_ARTICLES_2025,
+  ...RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026,
 ]);
 
 export function getRatgeberArticle(slug: string): RatgeberArticle | undefined {

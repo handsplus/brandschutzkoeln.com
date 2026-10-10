@@ -186,6 +186,13 @@ const JUNE_2026_PUBLICATIONS: Record<string, string> = {
   "tuerarten-brandschutz-bauo-nrw": "2026-06-29",
 };
 
+/** Oktober 2026 – BauO-Novelle ab 1.9.2026 (Oldtimer / § 33 / Standardgebäude). */
+const OCTOBER_2026_PUBLICATIONS: Record<string, string> = {
+  "umnutzung-wohnraum-oldtimer-regelung-bauo-nrw-2026": "2026-10-10",
+  "zweiter-rettungsweg-paragraph-33-bauo-nrw-2026": "2026-10-14",
+  "standardgebaeude-sonderbau-bauo-nrw-2026": "2026-10-18",
+};
+
 /** Juli 2026 – Hub Entrauchung + Recht-&-Praxis (nur qualitätsgeprüfte Artikel). */
 const JULY_2026_PUBLICATIONS: Record<string, string> = {
   "entrauchung-rauchableitung-bauo-sbauvo-nrw": "2026-07-02",
@@ -354,6 +361,7 @@ const PUBLICATION_DATE_OVERRIDES: Record<string, string> = {
   ...JUNE_2026_PUBLICATIONS,
   ...JULY_2026_PUBLICATIONS,
   ...AUGUST_2026_PUBLICATIONS,
+  ...OCTOBER_2026_PUBLICATIONS,
 };
 
 export function getRatgeberPublishedAt(slug: string): string | undefined {
