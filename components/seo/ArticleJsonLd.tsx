@@ -19,19 +19,30 @@ export function ArticleJsonLd({ title, description, path, datePublished }: Artic
     datePublished,
     dateModified: datePublished,
     inLanguage: "de-DE",
+    image: `${siteUrl}/opengraph-image`,
     author: {
+      "@id": `${siteUrl}/#organization`,
       "@type": "Organization",
       name: SITE.name,
       url: siteUrl,
     },
     publisher: {
+      "@id": `${siteUrl}/#organization`,
       "@type": "Organization",
       name: SITE.name,
       url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/logo.svg`,
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Brandschutz NRW",
     },
   };
 

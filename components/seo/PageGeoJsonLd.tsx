@@ -48,7 +48,8 @@ export function PageGeoJsonLd({
       "@id": `${url}#service`,
       name: serviceName,
       description,
-      provider: { "@id": `${siteUrl}/#organization` },
+      provider: { "@id": `${siteUrl}/#local-business` },
+      brand: { "@id": `${siteUrl}/#organization` },
       areaServed,
       serviceType,
       availableChannel: {
