@@ -206,7 +206,7 @@ export const RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026: RatgeberArticle[] = [
         paragraphs: [
           "Für Nutzungseinheiten wie Wohnungen, Praxen und selbstständige Betriebsstätten sind in jedem Geschoss mit Aufenthaltsräumen grundsätzlich zwei unabhängige Rettungswege ins Freie nötig. Beide dürfen innerhalb des Geschosses über denselben notwendigen Flur führen. Der erste Rettungsweg führt über eine notwendige Treppe. Der zweite führt über eine weitere notwendige Treppe oder eine mit Rettungsgeräten der Feuerwehr erreichbare Stelle der Nutzungseinheit.",
           "Die Gesetzesbegründung 2026 stellt klar: Die Zwei-Wege-Logik beruht auf dem Einbrandherdszenario. Zwei gleichzeitige zufällige Brände werden statistisch ausgeschlossen. Geschosse ohne Aufenthaltsräume – etwa ein reiner Lagerdachboden – brauchen keine zwei Rettungswege.",
-          "Arbeitsstättenrecht (ASR A2.3) und Sonderbauvorschriften (SBauVO) können unabhängig von § 33 strengere Fluchtweganforderungen verlangen. Die BauO ersetzt das nicht.",
+          "Bei Sonderbauten können die Sonderbauvorschriften (SBauVO) zusätzliche Anforderungen an Rettungswege stellen. Maßgeblich für die bauaufsichtliche Prüfung bleiben BauO NRW, SBauVO und die Entscheidung der Bauaufsicht im Einzelfall.",
         ],
       },
       {
@@ -215,7 +215,7 @@ export const RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026: RatgeberArticle[] = [
         paragraphs: [
           "Abs. 1 Satz 3 neu: Ein zweiter Rettungsweg ist für eingeschossige, zu ebener Erde liegende Nutzungseinheiten nicht erforderlich, wenn im Brandfall die Rettung über einen direkten Ausgang ins Freie möglich ist. Die frühere 15-m-Regel für erdgeschossige Räume entfällt in dieser Form.",
           "Praxisgewinn: Erdgeschossige Läden, Praxen und Büros mit direktem Ausgang werden spürbar erleichtert. Die Abgrenzung steckt im Begriff „zu ebener Erde“: Laut Begründung 2026 liegt ein Geschoss nicht zu ebener Erde, wenn es durch drei oder mehr aufeinanderfolgende Stufen vom außen liegenden Eingangsniveau getrennt ist – Orientierung an DIN 18065, wonach eine Treppe ab mindestens drei Stufen vorliegt. Eine Stufe oder zwei Stufen reichen dafür nicht.",
-          "Typischer Fehler: „Ebenerdig“ annehmen, obwohl drei oder mehr Stufen zum Eingang führen – dann greift die Erleichterung nicht. Zweiter Fehler: Bei großen, tiefen Erdgeschoss-Nutzungseinheiten mit vielen Personen nur auf den Wegfall des zweiten Weges schauen und § 14 sowie ASR A2.3 übersehen.",
+          "Typischer Fehler: „Ebenerdig“ annehmen, obwohl drei oder mehr Stufen zum Eingang führen – dann greift die Erleichterung nicht. Zweiter Fehler: Bei großen, tiefen Erdgeschoss-Nutzungseinheiten mit vielen Personen nur auf den Wegfall des zweiten Weges schauen und die allgemeinen Anforderungen des § 14 BauO NRW sowie ggf. die SBauVO übersehen.",
         ],
       },
       {
@@ -297,7 +297,7 @@ export const RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen dieses Ratgebers",
         paragraphs: [
-          "Dieser Text fasst § 33 BauO NRW ab 1.9.2026 praxisnah zusammen. Er ersetzt weder die Abstimmung mit Bauaufsicht und Feuerwehr noch ASR A2.3, SBauVO oder ein prüffähiges Konzept. Maßgeblich bleiben Gesetzestext, Begründung und der Einzelfall. Für die Einordnung Ihres Objekts helfen [Brandschutzberatung](/brandschutzberatung-koeln) und bei Bedarf eine Stellungnahme.",
+          "Dieser Text fasst § 33 BauO NRW ab 1.9.2026 praxisnah zusammen. Er ersetzt weder die Abstimmung mit Bauaufsicht und Feuerwehr noch die SBauVO oder ein prüffähiges Konzept. Maßgeblich bleiben Gesetzestext, Begründung und der Einzelfall. Für die Einordnung Ihres Objekts helfen [Brandschutzberatung](/brandschutzberatung-koeln) und bei Bedarf eine Stellungnahme.",
         ],
       },
     ],
@@ -313,7 +313,7 @@ export const RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026: RatgeberArticle[] = [
       {
         question: "Brauche ich im Erdgeschoss-Laden mit Ausgang zur Straße noch einen zweiten Rettungsweg?",
         answer:
-          "Oft nicht, wenn die Nutzungseinheit eingeschossig zu ebener Erde liegt und die Rettung über einen direkten Ausgang ins Freie möglich ist. Drei oder mehr Stufen zum Eingangsniveau können „ebenerdig“ ausschließen. ASR A2.3 kann trotzdem gelten.",
+          "Oft nicht, wenn die Nutzungseinheit eingeschossig zu ebener Erde liegt und die Rettung über einen direkten Ausgang ins Freie möglich ist. Drei oder mehr Stufen zum Eingangsniveau können „ebenerdig“ ausschließen. Sonderbau-Schwellen und die SBauVO bleiben gesondert zu prüfen.",
       },
       {
         question: "Ersetzt der Sicherheitstreppenraum jeden zweiten Rettungsweg?",
@@ -341,9 +341,9 @@ export const RATGEBER_ARTICLES_BAUO_NRW_NOVELLE_2026: RatgeberArticle[] = [
           "§ 47 Abs. 7 verlangt ausdrücklich den Nachweis nach § 33 Abs. 2 Satz 2. Zusätzlich Kellerabschlüsse, Rauchableitung und bei Brüstung über 8 m Hubrettung prüfen.",
       },
       {
-        question: "Reicht die BauO als Fluchtwegregel für Arbeitsstätten?",
+        question: "Reicht § 33 allein, wenn das Gebäude ein Sonderbau ist?",
         answer:
-          "Nein. ASR A2.3 und betriebliche Gefährdungsbeurteilung können unabhängig strengere Anforderungen stellen. Sonderbauten können über die SBauVO zusätzliche Vorgaben haben.",
+          "Nein. § 33 gilt grundsätzlich; bei Sonderbauten können die SBauVO und besondere Anforderungen nach § 50 BauO NRW zusätzliche oder abweichende Vorgaben setzen. Die Einstufung und das Verfahren gehören in die Prüfung mit der Bauaufsicht.",
       },
     ],
   },
