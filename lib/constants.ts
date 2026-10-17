@@ -45,12 +45,12 @@ export const NAV_LINKS = [
 
 /** SEO-Landingpages für häufig gesuchte Themen. */
 export const SEO_LINKS = [
+  { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
   { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
+  { href: "/brandschutz-koeln", label: "Brandschutz Köln (Überblick)" },
+  { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
   { href: "/brandschutzordnung-koeln", label: "Brandschutzordnung Köln" },
   { href: "/brandschutzhelfer-ausbildung-koeln", label: "Brandschutzhelfer Ausbildung Köln" },
-  { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
-  { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
-  { href: "/feuerwehrplaene-fluchtplaene-koeln", label: "Feuerwehrpläne und Fluchtpläne Köln" },
 ] as const;
 
 /** Kontaktdaten (wie sigeko.koeln) */

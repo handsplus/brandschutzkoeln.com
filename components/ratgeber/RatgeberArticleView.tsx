@@ -5,12 +5,21 @@ import { getClusterLabel, getClusterPeerSlugs } from "@/content/ratgeber-cluster
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTA } from "@/components/ui/CTA";
 import { SeoLandingLinks } from "@/components/sections/SeoLandingLinks";
+import { RatgeberLeistungsBruecke } from "@/components/ratgeber/RatgeberLeistungsBruecke";
 import { formatRatgeberStandLabel, RATGEBER_EDITORIAL } from "@/lib/ratgeber-article-meta";
 import { renderRatgeberText } from "@/lib/ratgeber-text";
 import { cn } from "@/lib/utils";
 
 const linkClass =
   "text-brand-red font-medium hover:underline focus-visible:rounded focus-visible:outline focus-visible:ring-2 focus-visible:ring-brand-red";
+
+/** Fallback, falls ein Artikel nur Ratgeber-Links in relatedLinks hat. */
+const DEFAULT_SERVICE_LINKS = [
+  { href: "/brandschutzberatung-koeln", label: "Brandschutzberatung Köln" },
+  { href: "/brandschutzkonzept-koeln", label: "Brandschutzkonzept Köln" },
+  { href: "/brandschutzbeauftragter-koeln", label: "Brandschutzbeauftragter Köln" },
+  { href: "/kontakt", label: "Erstberatung anfragen" },
+] as const;
 
 function isServiceOrContactLink(href: string): boolean {
   return !href.startsWith("/ratgeber/");
@@ -22,7 +31,12 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
     .map((slug) => RATGEBER_ARTICLES.find((a) => a.slug === slug))
     .filter((a): a is RatgeberArticle => Boolean(a));
 
-  const serviceLinks = article.relatedLinks.filter(({ href }) => isServiceOrContactLink(href));
+  const fromArticle = article.relatedLinks.filter(({ href }) => isServiceOrContactLink(href));
+  const seen = new Set(fromArticle.map((l) => l.href));
+  const serviceLinks = [
+    ...fromArticle,
+    ...DEFAULT_SERVICE_LINKS.filter((l) => !seen.has(l.href)),
+  ];
 
   return (
     <>
@@ -39,6 +53,20 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
             {article.title}
           </h1>
           <p className="mt-4 text-lg text-stone-600">{article.excerpt}</p>
+          <p className="mt-5 text-sm text-stone-600">
+            Brauchen Sie eine konkrete Leistung?{" "}
+            <Link href="/brandschutzberatung-koeln" className={linkClass}>
+              Brandschutzberatung
+            </Link>
+            {" · "}
+            <Link href="/brandschutzkonzept-koeln" className={linkClass}>
+              Brandschutzkonzept
+            </Link>
+            {" · "}
+            <Link href="/leistungen" className={linkClass}>
+              Alle Leistungen
+            </Link>
+          </p>
         </div>
       </section>
 
@@ -123,6 +151,8 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
             );
           })}
 
+          <RatgeberLeistungsBruecke />
+
           {article.faq.length > 0 ? (
             <section aria-labelledby="ratgeber-faq">
               <SectionHeader id="ratgeber-faq" title="Häufige Fragen" />
@@ -137,20 +167,18 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
             </section>
           ) : null}
 
-          {serviceLinks.length > 0 ? (
-            <section className="rounded-xl border border-stone-200 bg-white p-6">
-              <h2 className="font-semibold text-stone-900">Passende Leistungen</h2>
-              <ul className="mt-4 flex flex-col gap-2" role="list">
-                {serviceLinks.map(({ href, label }) => (
-                  <li key={href}>
-                    <Link href={href} className={linkClass}>
-                      {label} →
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ) : null}
+          <section className="rounded-xl border border-stone-200 bg-white p-6">
+            <h2 className="font-semibold text-stone-900">Passende Leistungen</h2>
+            <ul className="mt-4 flex flex-col gap-2" role="list">
+              {serviceLinks.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className={linkClass}>
+                    {label} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
 
           {clusterPeers.length > 0 ? (
             <section className="rounded-xl border border-stone-200 bg-white p-6">
@@ -188,10 +216,10 @@ export function RatgeberArticleView({ article }: { article: RatgeberArticle }) {
       <SeoLandingLinks />
 
       <CTA
-        title="Brandschutz in Köln – wir beraten Sie"
-        description="Sie haben Fragen zu Ihrem Objekt oder Vorhaben? Wir melden uns mit einer passenden Einschätzung."
-        buttonLabel="Erstberatung anfragen"
-        buttonHref="/kontakt"
+        title="Brandschutz in Köln – Beratung und Konzept"
+        description="Von der Ratgeber-Einordnung zur konkreten Leistung: Brandschutzberatung, Konzept oder betriebliche Organisation – wir melden uns mit einer passenden Einschätzung."
+        buttonLabel="Brandschutzberatung anfragen"
+        buttonHref="/brandschutzberatung-koeln"
         variant="filled"
       />
     </>
