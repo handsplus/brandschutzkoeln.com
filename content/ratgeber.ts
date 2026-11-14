@@ -2616,6 +2616,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       { href: "/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw", label: "Bestandsschutz § 59" },
       { href: "/ratgeber/flucht-und-rettungswege-bauo-nrw", label: "Rettungswege § 33" },
       { href: "/ratgeber/fluchtplan-feuerwehrplan-aktualisieren-gewerbe", label: "Pläne BauO vs. ASR" },
+      { href: "/ratgeber/feuerloescher-gastronomie-koeln", label: "Feuerlöscher & LE (ASR A2.2)" },
       { href: "/ratgeber/sonderbauten-brandschutz", label: "Sonderbau § 50" },
       { href: "/ratgeber/abschottungen-durchbrueche-baustelle-koeln", label: "Abschottungen Baustelle" },
       { href: "/ratgeber/brandschutz-abnahme-nach-umbau-koeln", label: "Abnahme nach Umbau" },
