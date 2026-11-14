@@ -18,6 +18,12 @@ const nextConfig: NextConfig = {
         destination: "/ratgeber/sicherheitsbeleuchtung-wann-pflicht-sbauvo-nrw",
         permanent: true,
       },
+      // P1-5: alte Garagen-URL
+      {
+        source: "/ratgeber/garagen-stellplaetze-brandschutz",
+        destination: "/ratgeber/mittelgrossgaragen-brandschutz-sbauvo-nrw",
+        permanent: true,
+      },
 
       // Nur alternative / alte Domains → kanonische www-URL.
       // NICHT brandschutzkoeln.com / www / Punycode / .vercel.app hier umleiten – sonst Schleife mit Vercel.
