@@ -37,5 +37,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
   ];
-  return routes;
+  // P3-14: doppelte URLs entfernen (z. B. /brandschutz-koeln aus NAV + SEO)
+  const seen = new Set<string>();
+  return routes.filter((entry) => {
+    if (seen.has(entry.url)) return false;
+    seen.add(entry.url);
+    return true;
+  });
 }
