@@ -16,14 +16,14 @@ export const SITE = {
   googleReviewsUrl:
     "https://www.google.com/search?q=Health+and+Safety+%2B+%7C+Arbeitsschutz+%26+Brandschutz+K%C3%B6ln+Rezensionen&tbm=lcl",
   /** Dachmarke / Unternehmenswebsite für Vertrauen und Sichtbarkeit */
-  groupWebsite: "https://www.handsplus.de",
+  groupWebsite: "https://handsplus.de",
 } as const;
 
 /** Externe Links – Partner, Dachmarken und thematisch passende Angebote (sinnvoll verlinkt). */
 export const EXTERNAL_LINKS = [
-  { url: "https://www.handsplus.de", label: "H&S+ – handsplus.de", description: "Dachmarke Arbeitsschutz & Brandschutz" },
-  { url: "https://www.sigeko.koeln", label: "SIGEKO Köln", description: "Sicherheit & Gesundheit Köln" },
-  { url: "https://www.arbeitssicherheit.nrw", label: "Arbeitssicherheit NRW", description: "Landesportal Arbeitssicherheit" },
+  { url: "https://handsplus.de", label: "H&S+ – handsplus.de", description: "Dachmarke Arbeitsschutz & Brandschutz" },
+  { url: "https://sigeko.koeln", label: "SIGEKO Köln", description: "Sicherheit & Gesundheit Köln" },
+  { url: "https://arbeitssicherheit.nrw", label: "Arbeitssicherheit NRW", description: "Landesportal Arbeitssicherheit" },
 ] as const;
 
 /** Reihenfolge der Websites in der Fußzeile (Überschrift „Websites“). */
