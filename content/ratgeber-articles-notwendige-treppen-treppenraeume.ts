@@ -28,7 +28,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
         title: "Wann brauche ich einen notwendigen Treppenraum?",
         paragraphs: [
           "Die notwendige Treppe (§ 34 BauO NRW) ist das vertikale Verbindungselement und oft der erste Rettungsweg. Der notwendige Treppenraum (§ 35) ist der geschützte Raum um diese Treppe – ab GK 3 im Regelfall Pflicht; in GK 1–2 und weiteren Ausnahmen (§ 35 Abs. 1 Satz 3) kann die Treppe ohne eigenen Treppenraum zulässig sein.",
-          "Normkette: § 33 → § 34 → § 35 → § 36 (Rettungsweg → Treppe → Treppenraum → Flur). Ein Sicherheitstreppenraum (§ 33 Abs. 4) kann den zweiten Rettungsweg ersetzen – er ersetzt nicht die notwendige Treppe.",
+          "Normkette: § 33 → § 34 → § 35 → § 36 (Rettungsweg → Treppe → Treppenraum → Flur). Ein Sicherheitstreppenraum (§ 33 Abs. 2 Satz 3) kann den zweiten Rettungsweg ersetzen – er ersetzt nicht die notwendige Treppe.",
           "Tür-Staffelung: [Brandschutztüren](/ratgeber/tuerarten-brandschutz-bauo-nrw). Flurwände: [Wände notwendiger Flure](/ratgeber/waende-notwendige-flure-bauo-nrw).",
         ],
       },
@@ -42,7 +42,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
           rows: [
             ["Notwendige Treppe", "Zugang je Geschoss/Dachraum; erster Rettungsweg über Treppe", "§ 34 BauO"],
             ["Notwendiger Treppenraum", "Geschützter Raum für die notwendige Treppe", "§ 35 Abs. 1"],
-            ["Sicherheitstreppenraum", "Feuer/Rauch dürfen nicht eindringen; Ersatz 2. Rettungsweg", "§ 33 Abs. 4; § 99 SBauVO"],
+            ["Sicherheitstreppenraum", "Feuer/Rauch dürfen nicht eindringen; Ersatz 2. Rettungsweg", "§ 33 Abs. 2 Satz 3; § 99 SBauVO"],
             ["Treppenraumerweiterung", "Erweiterung am TR (Verkaufsstätten)", "§ 71 SBauVO"],
             ["Schachteltreppe", "Zwei Treppen in einem TR (Versammlungsstätten)", "§ 8 SBauVO"],
           ],
@@ -119,7 +119,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
         id: "sicherheitstreppenraum",
         title: "Sicherheitstreppenraum",
         paragraphs: [
-          "Ein zweiter Rettungsweg entfällt, wenn Rettung über einen sicher erreichbaren Treppenraum möglich ist, in den Feuer und Rauch nicht eindringen können (§ 33 Abs. 4). Notwendige Flure mit nur einer Fluchtrichtung zum STR: maximal 15 m (§ 36 Abs. 3 Satz 5).",
+          "Ein zweiter Rettungsweg entfällt, wenn Rettung über einen sicher erreichbaren Treppenraum möglich ist, in den Feuer und Rauch nicht eindringen können (§ 33 Abs. 2 Satz 3). Notwendige Flure mit nur einer Fluchtrichtung zum STR: maximal 15 m (§ 36 Abs. 3 Satz 5).",
           "Hochhäuser § 99 SBauVO: bis 60 m Höhe kann ein STR zwei TR ersetzen; über 60 m alle TR als STR; innenliegende oberirdische TR grundsätzlich als STR; Keller-TR getrennt von oberirdischen; Vorräume, offene Gänge, feste Verglasung; Abstand Türen mindestens 3 m. Druckbelüftung § 105 SBauVO. Ausführlich: [Sicherheitstreppenraum](/ratgeber/sicherheitstreppenraum-bauo-sbauvo-nrw). Ergänzend: [Hochhaus](/ratgeber/hochhaus-brandschutz-sbauvo-nrw).",
         ],
       },
@@ -163,7 +163,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
         paragraphs: [
           "Grenzfall ja: Zweifamilienhaus GK 2, Treppe ohne eigenen Treppenraum nach § 35 Abs. 1 Satz 3 – wenn Ausnahmetatbestand erfüllt (GK 1–2 und/oder ≤ 2 OG, ≤ 200 m², zweiter RW je Geschoss). Grenzfall nein: Mehrfamilienhaus GK 3 – notwendiger Treppenraum Pflicht; feuerhemmende TR-Wände.",
           "Grenzfall ja: Außentreppe GK 4 als notwendige Treppe ohne TR – wenn Nutzung im Brandfall sicher. Grenzfall nein: Außentreppe GK 5 – Rauchableitung an oberster Stelle zusätzlich (§ 35 Abs. 8 Satz 3).",
-          "Grenzfall ja: Büro GK 4 mit STR nach § 33 Abs. 4 – ein TR kann zweiten Rettungsweg ersetzen, wenn STR-Anforderungen erfüllt. Grenzfall nein: Rolltreppe als notwendige Treppe – unzulässig (§ 34 Abs. 1).",
+          "Grenzfall ja: Büro GK 4 mit STR nach § 33 Abs. 2 Satz 3 – ein TR kann zweiten Rettungsweg ersetzen, wenn STR-Anforderungen erfüllt. Grenzfall nein: Rolltreppe als notwendige Treppe – unzulässig (§ 34 Abs. 1).",
         ],
       },
       {
@@ -193,7 +193,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
             ["7", "Entfernung Aufenthaltsraum → TR/Freie?", "§ 35 Abs. 1 Satz 4", "Max. 35 m"],
             ["8", "Rauchableitung / Fenster TR?", "§ 35 Abs. 8", "0,50 m²/OG oder 1 m² oben"],
             ["9", "Fensterloser TR, Höhe > 13 m?", "§ 35 Abs. 7", "Sicherheitsbeleuchtung"],
-            ["10", "STR statt 2. RW?", "§ 33 Abs. 4; § 36 Abs. 3", "Feuer/Rauch dicht; Flur max. 15 m"],
+            ["10", "STR statt 2. RW?", "§ 33 Abs. 2 Satz 3; § 36 Abs. 3", "Feuer/Rauch dicht; Flur max. 15 m"],
             ["11", "Aufzug im TR?", "§ 39 Abs. 1", "Nicht in Hochhaus"],
             ["12", "Sonderbau VS/Verkauf/Hotel/Hochhaus/Garage?", "SBauVO Teil G", "Zusatznormen prüfen"],
           ],
@@ -234,7 +234,7 @@ export const RATGEBER_ARTICLES_NOTWENDIGE_TREPPEN_TREPPENRAEUME: RatgeberArticle
       {
         question: "Wann ersetzt ein Sicherheitstreppenraum den zweiten Rettungsweg?",
         answer:
-          "Wenn Feuer und Rauch nicht in den Treppenraum eindringen können (§ 33 Abs. 4). Das ist nicht dasselbe wie ein normaler notwendiger Treppenraum – Details und Hochhaus-Regeln: Ratgeber Sicherheitstreppenraum (SBauVO § 99 / § 105).",
+          "Wenn Feuer und Rauch nicht in den Treppenraum eindringen können (§ 33 Abs. 2 Satz 3). Das ist nicht dasselbe wie ein normaler notwendiger Treppenraum – Details und Hochhaus-Regeln: Ratgeber Sicherheitstreppenraum (SBauVO § 99 / § 105).",
       },
       {
         question: "Wie weit darf der Weg zum Treppenraum sein?",

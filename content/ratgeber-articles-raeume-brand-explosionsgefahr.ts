@@ -98,7 +98,7 @@ export const RATGEBER_ARTICLES_RAEUME_BRAND_EXPLOSIONSGEFAHR: RatgeberArticle[] 
         id: "rechtsfolgen",
         title: "Was das Gesetz verlangt",
         paragraphs: [
-          "Für Räume mit Explosions- oder erhöhter Brandgefahr nennt § 26 Abs. 2 ausdrücklich die Stufe feuerbeständig – die höchste im Gesetz genannte Kategorie für Trennwände und Decken. Konkrete Minutensklassen stehen nicht im Gesetzestext; sie folgen aus den Technischen Baubestimmungen (§ 3 Abs. 2 BauO NRW).",
+          "Für Räume mit Explosions- oder erhöhter Brandgefahr nennt § 26 Abs. 2 ausdrücklich die Stufe feuerbeständig – die höchste im Gesetz genannte Kategorie für Trennwände und Decken. Konkrete Minutensklassen stehen nicht im Gesetzestext; sie folgen aus den Technischen Baubestimmungen (§ 88 Abs. 1 BauO NRW).",
         ],
         table: {
           caption: "Rechtsfolgen bei Brand- und Explosionsgefahr",
@@ -144,7 +144,7 @@ export const RATGEBER_ARTICLES_RAEUME_BRAND_EXPLOSIONSGEFAHR: RatgeberArticle[] 
           "Vom allgemeinen Brandschutzauftrag bis zur konkreten Kapselung und Sonderbau-Einstufung:",
         ],
         list: [
-          "§ 3 Abs. 1 – Allgemeine Schutzpflicht",
+          "§ 3 Satz 1 – Allgemeine Schutzpflicht",
           "§ 14 – Brandschutz: Vorbeugung, Rettung, Löscharbeiten",
           "§ 26 Abs. 3 – Feuerwiderstandsfähigkeit raumabschließender Bauteile",
           "§ 29 Abs. 2 Nr. 2 – Tatbestand: feuerbeständiger Abschluss",

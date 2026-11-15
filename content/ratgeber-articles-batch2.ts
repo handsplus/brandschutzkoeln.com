@@ -572,7 +572,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "abgrenzung-nachweis",
         title: "Konzept vs. Stellungnahme vs. § 64",
         paragraphs: [
-          "Halle-zu-Büro mit Sonderbau-Tatbestand: in der Regel vollständiges Brandschutzkonzept nach § 9 BauPrüfVO NRW – keine kurze Stellungnahme allein. § 64 vereinfachtes Verfahren nur, wenn die Behörde Anlage 1 BauPrüfVO so einordnet (selten bei großen Hallen).",
+          "Halle-zu-Büro mit Sonderbau-Tatbestand: in der Regel vollständiges Brandschutzkonzept nach § 9 BauPrüfVO NRW – keine kurze Stellungnahme allein. Außer bei großen Sonderbauten läuft der Bauantrag im vereinfachten Baugenehmigungsverfahren (§ 64 Abs. 1 BauO NRW). Ob und welche BauPrüfVO-Anlagen im Einzelfall greifen, klärst du mit der Bauaufsicht.",
           "Teilsanierung nur eines Bürotrakts im Bestand: ggf. Fortschreibung oder Stellungnahme – abhängig vom Umfang der baulichen Änderung.",
         ],
       },
@@ -1570,7 +1570,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         list: [
           "Vollständiges Brandschutzkonzept: Sonderbau nach § 50 BauO NRW, wesentliche Nutzungsänderung, große Gewerbe- oder Versammlungsnutzungen, komplexe Rettungswege oder Technik",
           "Brandschutztechnische Stellungnahme: kleiner, klar abgegrenzter Umbau (z. B. ein Brandabschnitt, begrenzte Fläche), wenn Bauaufsicht und Umfang das zulassen – Details im Artikel [Konzept oder Stellungnahme?](/ratgeber/brandschutzkonzept-wann-noetig)",
-          "§ 64 BauPrüfVO NRW (vereinfachtes Verfahren): nur bei passender Einordnung in Anlage 1 – z. B. bestimmte Ladenlokale; kein Ersatz für fehlenden Nachweis bei Sonderbau",
+          "Vereinfachtes Baugenehmigungsverfahren (§ 64 Abs. 1 BauO NRW): außer bei großen Sonderbauten kraft Gesetzes; BauPrüfVO-Anlagen im Einzelfall mit der Bauaufsicht klären – kein Ersatz für fehlenden Nachweis bei Sonderbau",
           "Nicht zum Bauantrag: Brandschutzordnung DIN 14096, Fluchtpläne DIN 14095, BMA-Wartungsverträge – wichtig für den Betrieb, aber nicht der Genehmigungsnachweis",
         ],
       },
@@ -1627,7 +1627,7 @@ export const RATGEBER_ARTICLES_BATCH2: RatgeberArticle[] = [
         id: "hinweis",
         title: "Grenzen",
         paragraphs: [
-          "Diese Checkliste ersetzt keine behördliche Einordnung (Sonderbau ja/nein, § 64, Auflagen). Kommunale Online-Portale ändern nur die **Übermittlung**, nicht die inhaltlichen Pflichten nach BauO NRW und BauPrüfVO NRW.",
+          "Diese Checkliste ersetzt keine behördliche Einordnung (Sonderbau ja/nein, vereinfachtes Verfahren nach § 64 Abs. 1 BauO NRW, Auflagen). Kommunale Online-Portale ändern nur die **Übermittlung**, nicht die inhaltlichen Pflichten nach BauO NRW und BauPrüfVO NRW.",
           "Ob Ihr Vorhaben ein vollständiges Konzept braucht, hängt von Nutzung, Personenzahlen, Gebäudeklasse und Sonderbau ab – im Zweifel vor Einreichung fachlich klären, nicht erst nach Zwischenbescheid.",
         ],
       },
