@@ -17,7 +17,7 @@ export const metadata: Metadata = createPageMetadata({
   description:
     "Brandschutz Leistungen Köln: Konzepte, Ordnungen, Pläne, Brandschutzhelfer & Beratung. Alle Leistungen von H&S+ – Erstberatung anfragen.",
   ogDescription:
-    "Übersicht Brandschutz-Leistungen in Köln: von Konzept bis Schulung, praxisnah und rechtssicher.",
+    "Übersicht Brandschutz-Leistungen in Köln: von Konzept bis Schulung, praxisnah und regelkonform.",
   keywords: [
     "Brandschutz Leistungen Köln",
     "Brandschutzkonzept Köln",

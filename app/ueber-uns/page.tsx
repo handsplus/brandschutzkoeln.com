@@ -11,9 +11,9 @@ import { PraxisFaelleSection } from "@/components/sections/PraxisFaelleSection";
 export const metadata: Metadata = createPageMetadata({
   title: "Über uns | Brandschutzsachverständiger in Köln",
   description:
-    "H&S+ als Brandschutzsachverständiger in Köln: Praxisfälle, Mission, Werte und fachliche Begleitung für rechtssicheren Brandschutz bei Genehmigung und Betrieb.",
+    "H&S+ als Brandschutzsachverständiger in Köln: Praxisfälle, Mission, Werte und fachliche Begleitung für regelkonformen Brandschutz bei Genehmigung und Betrieb.",
   ogDescription:
-    "Lernen Sie H&S+ kennen: Brandschutzsachverständiger in Köln mit Fokus auf klare, rechtssichere und praxisnahe Lösungen.",
+    "Lernen Sie H&S+ kennen: Brandschutzsachverständiger in Köln mit Fokus auf klare, regelkonforme und praxisnahe Lösungen.",
   keywords: [
     "Brandschutzsachverständiger Köln",
     "Über uns Brandschutz Köln",
@@ -81,7 +81,7 @@ export default function UeberUnsPage() {
               <h3 className="font-semibold text-stone-900">Mission</h3>
               <p className="mt-2 text-stone-600">
                 Wir wollen dazu beitragen, dass Unternehmen und Immobilien in Köln und
-                Umgebung brandschutzrechtlich sicher und rechtssicher betrieben werden.
+                Umgebung brandschutzrechtlich sicher und den geltenden Vorschriften entsprechend betrieben werden.
                 Dafür liefern wir verständliche, umsetzbare Konzepte und Schulungen – ohne
                 unnötige Komplexität, aber mit dem nötigen Expertenniveau.
               </p>
@@ -126,7 +126,7 @@ export default function UeberUnsPage() {
                 Konzepten, Brandschutzordnungen, Feuerwehrplänen oder Brandschutzhelfer-Ausbildung
               </Link>
               . Wenn Sie einen Partner suchen,
-              der Brandschutz verständlich, rechtssicher und praxisnah umsetzt, sind Sie
+              der Brandschutz verständlich, regelkonform und praxisnah umsetzt, sind Sie
               bei uns richtig.
             </p>
           </div>
