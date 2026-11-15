@@ -54,7 +54,7 @@ export const LEISTUNGEN: Leistung[] = [
     description:
       "Nach DIN 14096 erstellen und fortschreiben wir Ihre Brandschutzordnung (Teil A, B, C) – Verhalten im Brandfall, Zuständigkeiten und betriebliche Organisation. Abgestimmt auf Nutzung, Fluchtwege und Sammelplätze. ASR A2.2 (Feuerlöscher, Brandschutzhelfer) binden wir ergänzend ein, sofern erforderlich.",
     nutzen: [
-      "Rechtssichere Dokumentation der Brandschutzorganisation",
+      "Nachvollziehbare Dokumentation der Brandschutzorganisation",
       "Klare Verhaltensregeln für alle Beschäftigten und Nutzer",
       "Grundlage für Unterweisungen und Evakuierungsübungen",
     ],
@@ -131,7 +131,7 @@ export const LEISTUNGEN: Leistung[] = [
     description:
       "Der Arbeitgeber muss Brandgefährdungen an Arbeitsplätzen beurteilen. Wir unterstützen Sie bei der systematischen Beurteilung und leiten daraus erforderliche Maßnahmen ab.",
     nutzen: [
-      "Rechtssichere Erfüllung der Beurteilungspflicht",
+      "Dokumentierte Erfüllung der Beurteilungspflicht",
       "Transparenz über Brandrisiken und Gegenmaßnahmen",
       "Grundlage für Unterweisungen und Brandschutzorganisation",
     ],
@@ -173,7 +173,7 @@ export const LEISTUNGEN: Leistung[] = [
     description:
       "Behördliche Anordnungen und Nachforderungen der Bauaufsicht oder Feuerwehr setzen wir fachlich um: Auslegung der Auflagen, Maßnahmenplan, Dokumentation – bis zur Abnahme. Bezug zu BauO NRW und bestehendem Nachweis (Konzept, BSO, Pläne).",
     nutzen: [
-      "Sichere und rechtssichere Erfüllung der Auflagen",
+      "Fachgerechte und vollständige Erfüllung der Auflagen",
       "Schnellere Abnahme durch klare Umsetzungsplanung",
       "Vermeidung von Nachforderungen und Verzögerungen",
     ],
@@ -238,7 +238,7 @@ export const LEISTUNGEN: Leistung[] = [
     description:
       "Bei Neubau, Umbau, Nutzungsänderung, Anmietung oder Beschaffung erstellen wir den passenden brandschutztechnischen Nachweis (Konzept, Stellungnahme, Fortschreibung) nach BauO NRW und begleiten bis Abnahme – inkl. Übergabe in den Betrieb (Brandschutzordnung, Pläne).",
     nutzen: [
-      "Rechtssichere Planung und Umsetzung",
+      "Vorschriftsorientierte Planung und Umsetzung",
       "Keine bösen Überraschungen bei Abnahme oder Betriebsprüfung",
       "Einheitliche Anforderungen aus Bauordnung und Arbeitsschutz",
     ],
@@ -343,7 +343,7 @@ export const LEISTUNGEN: Leistung[] = [
     description:
       "Beschäftigte müssen regelmäßig im Brandschutz unterwiesen werden. Wir unterstützen Führungskräfte mit Unterweisungsmaterialien, Ablaufplänen und ggf. bei der Durchführung.",
     nutzen: [
-      "Rechtssichere und praxisnahe Unterweisungen",
+      "Regelkonforme und praxisnahe Unterweisungen",
       "Entlastung der Führungskräfte durch vorbereitete Inhalte",
       "Einheitlicher Standard in allen Bereichen",
     ],
@@ -387,7 +387,7 @@ export const LEISTUNGEN: Leistung[] = [
     nutzen: [
       "Ein Ansprechpartner für alle Brandschutzthemen",
       "Abgestimmte Maßnahmen über alle Gewerke hinweg",
-      "Rechtssicherheit und Wirtschaftlichkeit",
+      "Regelkonformität und Wirtschaftlichkeit",
     ],
     rechtsgrundlagen: ["BauO NRW", "ArbSchG", "ASR", "DIN-Normen", "VdS-Richtlinien"],
     ablauf: [

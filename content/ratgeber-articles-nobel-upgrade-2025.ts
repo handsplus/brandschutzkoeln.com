@@ -310,7 +310,7 @@ export const RATGEBER_ARTICLES_NOBEL_UPGRADE_2025: RatgeberArticle[] = [
         paragraphs: [
           "Wer Feuerlöscher austauscht, instandsetzt oder stilllegt, erzeugt Abfall im Sinne des Kreislaufwirtschaftsgesetzes. Das gilt für alle Löschertypen, nicht nur für PFAS-haltige Schaumgeräte. Verklappung in der Umwelt, Einleitung von Löschmittel in die Kanalisation oder mutwilliges Auslösen zum „Entleeren“ ohne genehmigtes Konzept sind keine Kavaliersdelikte. Sie können strafbar sein.",
           "Das bvfa-Merkblatt „Entsorgung von ausgesonderten Feuerlöschern“ der Fachgruppe Feuerlöschgeräte-Industrie beschreibt die fachlich und rechtlich korrekte Vorgehensweise. Der Schwerpunkt liegt auf PFAS-haltigen Schaumlöschern, weil diese „Ewigkeitschemikalien“ besondere Behandlung und steigende Entsorgungskosten mit sich bringen.",
-          "Seit dem 23. Oktober 2025 gilt die EU-Restriktion zu PFAS in Löschschäumen (Verordnung (EU) 2025/1988). Sie begrenzt Inverkehrbringen und Nutzung fluorhaltiger Schäume in tragbaren Feuerlöschern. Spätestens bis zum 31. Dezember 2030 sollen PFAS-haltige Schäume aus dem Markt. Wer heute noch AFFF-Geräte im Bestand hat, sollte inventarisieren, Ersatz planen und Entsorgung rechtssicher organisieren, statt auf den Stichtag zu warten.",
+          "Seit dem 23. Oktober 2025 gilt die EU-Restriktion zu PFAS in Löschschäumen (Verordnung (EU) 2025/1988). Sie begrenzt Inverkehrbringen und Nutzung fluorhaltiger Schäume in tragbaren Feuerlöschern. Spätestens bis zum 31. Dezember 2030 sollen PFAS-haltige Schäume aus dem Markt. Wer heute noch AFFF-Geräte im Bestand hat, sollte inventarisieren, Ersatz planen und Entsorgung vorschriftsgemäß organisieren, statt auf den Stichtag zu warten.",
         ],
       },
       {
