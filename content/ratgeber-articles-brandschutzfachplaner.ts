@@ -65,8 +65,8 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
             [
               "Entwurfsverfasser mit Brandschutz-Kompetenz",
               "Entwurfsverfasser/in (bauvorlageberechtigt)",
-              "§§ 54 Abs. 1, 67, 68 Abs. 4 BauO",
-              "Gesamtentwurf; bei einfachen Vorhaben Erklärung zur Brandschutz-Einhaltung",
+              "§§ 54 Abs. 1, 67, 68 Abs. 2 Satz 2 BauO",
+              "Gesamtentwurf; bei GK 1–3 und Kleingaragen Erklärung zur Brandschutz-Einhaltung",
             ],
           ],
         },
@@ -93,7 +93,7 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
         paragraphs: [
           "Abs. 1: Die Entwurfsverfasserin oder der Entwurfsverfasser muss nach Sachkunde und Erfahrung geeignet sein und trägt die Gesamtverantwortung für Vollständigkeit und Brauchbarkeit des Entwurfs – einschließlich Brandschutz, auch wenn Fachplaner Teilplanungen liefern.",
           "Abs. 2 – systematischer Kern für „Brandschutzfachplaner“: Hat die Entwurfsverfasserin oder der Entwurfsverfasser auf einzelnen Fachgebieten nicht die erforderliche Sachkunde, sind geeignete Fachplanerinnen und Fachplaner heranzuziehen. Diese sind für ihre Unterlagen verantwortlich. Für das ordnungsgemäße Ineinandergreifen aller Fachplanungen bleibt die Entwurfsverfasserin oder der Entwurfsverfasser verantwortlich. Maßstab: Sachkunde und Erfahrung – keine brandspezifische Listung im Gesetz.",
-          "Abs. 3 – Brandschutzkonzepte werden aufgestellt von: staatlich anerkannten Sachverständigen nach § 87 Abs. 2 Satz 1 Nr. 4 für die Prüfung des Brandschutzes; öffentlich bestellten und vereidigten Sachverständigen für vorbeugenden Brandschutz nach § 36 GewO; oder Personen, die im Einzelfall nach Sachkunde und Erfahrung vergleichbar geeignet sind. Für Konzepte nennt das Gesetz einen abschließenden Personenkreis – vergleichbare Eignung ist die Ausnahme.",
+          "Abs. 3 – Brandschutzkonzepte stellen sachverständige Personen nach § 87 Abs. 2 für die Prüfung des Brandschutzes, öffentlich bestellte und vereidigte Sachverständige für vorbeugenden Brandschutz oder Personen auf, die im Einzelfall nach Sachkunde und Erfahrung vergleichbar geeignet sind. Für Konzepte nennt das Gesetz diesen Personenkreis – vergleichbare Eignung ist die Ausnahme und solltest du vorab mit der Bauaufsicht abstimmen.",
           "Abs. 4 (Vergleich): Für Standsicherheit gibt es „qualifizierte Tragwerksplaner“ mit detaillierter Regelung – für Brandschutz existiert keine parallel ausformulierte „qualifizierte Brandschutzplaner“-Norm in § 54, stattdessen Abs. 3 (Konzept) und § 68 (Prüfung/Bescheinigung).",
         ],
       },
@@ -102,42 +102,32 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
         title: "§ 68 BauO NRW – Nachweise und Bescheinigungen",
         paragraphs: [
           "Abs. 1: Die Einhaltung der Anforderungen an Brand-, Wärme- und Schallschutz ist nach Maßgabe der Verordnung nach § 87 Abs. 4 nachzuweisen (bautechnische Nachweise – BauPrüfVO NRW).",
-          "Abs. 2: Vor Erteilung der Baugenehmigung sind Bescheinigungen einer sachverständigen Person nach § 87 Abs. 2 einzureichen, dass das Vorhaben den Anforderungen an den Brandschutz entspricht. Spätestens mit der Anzeige des Baubeginns sind Bescheinigungen zusammen mit den Nachweisen einzureichen; gleichzeitig Erklärungen zur Beauftragung zur stichprobenhaften Kontrolle der Bauausführung.",
-          "§ 68 regelt die unabhängige Prüfung und Bescheinigung – nicht die Beauftragung eines Fachplaners. Planung und Prüfung können bei verschiedenen Personen liegen.",
+          "Abs. 2 Satz 2: Bei Gebäuden der GK 1–3 und bei Kleingaragen reicht die Erklärung der Entwurfsverfassenden, dass dein Vorhaben die Brandschutzanforderungen erfüllt.",
+          "Abs. 2 Satz 3: Bei GK 4 und 5 ohne Sonderbau sowie bei Mittelgaragen stellen Prüfsachverständige für Brandschutz die Bescheinigung aus.",
+          "Abs. 2 Satz 5: Bei Sonderbauten und Großgaragen bedient sich die Bauaufsicht einer Prüfingenieurin oder eines Prüfingenieurs für Brandschutz.",
+          "§ 68 regelt die Prüfung und Bescheinigung – nicht die Beauftragung eines Fachplaners. Planung und Prüfung können bei verschiedenen Personen liegen.",
         ],
         table: {
-          caption: "Wann SV-Bescheinigung Brandschutz – wann Erleichterung?",
-          headers: ["Vorhaben", "SV-Bescheinigung?", "Norm", "Stattdessen"],
+          caption: "Wann Erklärung – wann Prüfsachverständige – wann Prüfingenieur?",
+          headers: ["Vorhaben", "Brandschutz-Nachweis?", "Norm", "Wer?"],
           rows: [
             [
-              "Wohngebäude GK 1–2, Nebengebäude, kleine landw. Gebäude, eingeschossig ≤ 200 m²",
-              "Nein (keine SV-Bescheinigung über bautechnische Nachweise)",
-              "§ 68 Abs. 3",
-              "Nachweise dennoch erforderlich",
-            ],
-            [
-              "Wohngebäude GK 1–3, Kleingaragen bis 100 m² (nicht verfahrensfrei)",
-              "Nein (Brandschutz-Bescheinigung)",
-              "§ 68 Abs. 4 Satz 1",
+              "Gebäude GK 1–3 und Kleingaragen",
               "Erklärung der Entwurfsverfassenden",
+              "§ 68 Abs. 2 Satz 2",
+              "Entwurfsverfassende – gilt für alle GK 1–3, nicht nur Wohngebäude",
             ],
             [
-              "Geschlossene Garagen 100–1.000 m² mit natürlicher Lüftung",
-              "Ja – staatl. anerkannter SV für Unbedenklichkeit",
-              "§ 68 Abs. 4 Satz 2–3",
-              "Messbestätigung nach Inbetriebnahme",
+              "GK 4/5 ohne Sonderbau und Mittelgaragen",
+              "Bescheinigung vor Genehmigung",
+              "§ 68 Abs. 2 Satz 3",
+              "Prüfsachverständige für Brandschutz",
             ],
             [
-              "Sonderbauten (außer Garagen bis 1.000 m²)",
-              "Prüfung durch Bauaufsichtsbehörde",
-              "§ 68 Abs. 5",
-              "Behörde prüft; § 69 Abweichungen unberührt",
-            ],
-            [
-              "Übrige genehmigungspflichtige Vorhaben",
-              "Ja – SV-Bescheinigung vor Genehmigung",
-              "§ 68 Abs. 2 Satz 1",
-              "Bauherrschaft kann Behördenprüfung beantragen (Abs. 5 Satz 3)",
+              "Sonderbauten und Großgaragen",
+              "Prüfung durch Bauaufsicht mit Prüfingenieur",
+              "§ 68 Abs. 2 Satz 5",
+              "Bauaufsicht bedient sich Prüfingenieurin/Prüfingenieur Brandschutz",
             ],
           ],
         },
@@ -165,9 +155,9 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
           rows: [
             [
               "1",
-              "Staatlich anerkannte SV für Prüfung des Brandschutzes",
+              "Sachverständige Personen nach § 87 Abs. 2 für die Prüfung des Brandschutzes",
               "§ 54 Abs. 3; § 87 Abs. 2 BauO",
-              "Anerkennung über eigene VO; Prüfung und Konzept-Erstellung möglich",
+              "Gesetzlicher Wortlaut; Prüfung und Konzept-Erstellung möglich",
             ],
             [
               "2",
@@ -194,8 +184,8 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
             ["Bauherrschaft", "Bestellt Entwurfsverfassende, Bauleitung; reicht Bescheinigungen ein", "§ 53 BauO"],
             [
               "Entwurfsverfassende (bauvorlageberechtigt)",
-              "Gesamtentwurf; bei GK 1–3 Wohngebäuden: Erklärung Brandschutz-Konformität",
-              "§§ 54 Abs. 1, 67, 68 Abs. 4",
+              "Gesamtentwurf; bei GK 1–3 und Kleingaragen: Erklärung Brandschutz-Konformität",
+              "§§ 54 Abs. 1, 67, 68 Abs. 2 Satz 2",
             ],
             [
               "Bauleiter/in",
@@ -208,9 +198,9 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
               "§ 67 BauO",
             ],
             [
-              "§ 71 Abs. 2 BauO",
-              "SV-Bescheinigungen nach § 87 Abs. 2 begründen Vermutung der Anforderungserfüllung",
-              "§ 71 Abs. 2 BauO",
+              "Brandschutz-Bescheinigung",
+              "Prüfsachverständige bzw. Erklärung der Entwurfsverfassenden nach § 68 Abs. 2 – Stufe richtet sich nach Gebäudeklasse und Sonderbau",
+              "§ 68 Abs. 2 BauO",
             ],
           ],
         },
@@ -273,7 +263,7 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
             [
               "2",
               "Brandschutzkonzept erstellen",
-              "SV § 87, ö.b.u.v. SV GewO § 36, vergleichbar Geeignete",
+              "Sachverständige Personen nach § 87 Abs. 2, ö.b.u.v. SV GewO § 36, vergleichbar Geeignete",
               "§ 54 Abs. 3; § 70",
               "Große Sonderbauten",
             ],
@@ -286,23 +276,30 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
             ],
             [
               "4",
-              "Bescheinigung Brandschutz-Konformität",
-              "Sachverständige Person § 87 Abs. 2",
-              "§ 68 Abs. 2",
+              "Bescheinigung Brandschutz GK 4/5 und Mittelgaragen",
+              "Prüfsachverständige für Brandschutz",
+              "§ 68 Abs. 2 Satz 3",
               "Vor Baugenehmigung",
             ],
             [
               "5",
-              "Erklärung Brandschutz (einfache Wohngebäude)",
+              "Erklärung Brandschutz (GK 1–3, Kleingaragen)",
               "Entwurfsverfassende",
-              "§ 68 Abs. 4",
-              "GK 1–3 Wohngebäude, Kleingaragen",
+              "§ 68 Abs. 2 Satz 2",
+              "Alle Gebäude GK 1–3 und Kleingaragen",
             ],
             [
               "6",
+              "Prüfung Sonderbauten und Großgaragen",
+              "Bauaufsicht mit Prüfingenieur Brandschutz",
+              "§ 68 Abs. 2 Satz 5",
+              "Im Genehmigungsverfahren",
+            ],
+            [
+              "7",
               "Stichprobenhafte Bauausführungskontrolle",
-              "Beauftragte Sachverständige § 87 Abs. 2",
-              "§ 68 Abs. 2 Satz 3; § 84",
+              "Beauftragte sachverständige Personen / Prüfsachverständige",
+              "§ 68; § 84",
               "Ab Baubeginn / Fertigstellung",
             ],
           ],
@@ -334,7 +331,7 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
               "3",
               "Wer darf das Brandschutzkonzept aufstellen?",
               "§ 54 Abs. 3",
-              "SV Brandschutz, ö.b.u.v. SV GewO § 36 oder vergleichbar Geeignete",
+              "Sachverständige Personen nach § 87 Abs. 2, ö.b.u.v. SV oder vergleichbar Geeignete",
             ],
             [
               "4",
@@ -344,15 +341,15 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
             ],
             [
               "5",
-              "Ist SV-Bescheinigung Brandschutz vor Genehmigung nötig?",
-              "§ 68 Abs. 2–4",
-              "Abhängig von Gebäudeklasse und Vorhabenart",
+              "Ist Prüfsachverständigen-Bescheinigung Brandschutz vor Genehmigung nötig?",
+              "§ 68 Abs. 2 Satz 2–5",
+              "GK 1–3 / Kleingaragen: Erklärung; GK 4/5 / Mittelgarage: Prüfsachverständige; Sonderbau / Großgarage: Prüfingenieur",
             ],
             [
               "6",
-              "Darf Entwurfsverfasser/in Brandschutz allein bescheinigen?",
-              "§ 68 Abs. 4",
-              "Nur Erklärung für bestimmte Wohngebäude/Garagen – keine SV-Bescheinigung",
+              "Darf Entwurfsverfasser/in Brandschutz allein erklären?",
+              "§ 68 Abs. 2 Satz 2",
+              "Ja – Erklärung für alle Gebäude GK 1–3 und Kleingaragen",
             ],
             [
               "7",
@@ -370,8 +367,8 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
             [
               "10",
               "Sonderbau: wer prüft Brandschutz bei Genehmigung?",
-              "§ 68 Abs. 5",
-              "Bauaufsichtsbehörde (nicht externer SV) – außer Garagen bis 1.000 m²",
+              "§ 68 Abs. 2 Satz 5",
+              "Bauaufsicht bedient sich Prüfingenieurin/Prüfingenieur für Brandschutz",
             ],
           ],
         },
@@ -404,12 +401,12 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
       {
         question: "Muss ich für jedes Vorhaben einen Brandschutzplaner beauftragen?",
         answer:
-          "Nein – keine gesetzliche Pflicht für jedes Bauvorhaben. Bei fehlender Sachkunde des Entwurfsverfassers sind geeignete Fachplaner heranzuziehen (§ 54 Abs. 2). Bei einfachen Wohngebäuden GK 1–3 reicht die Erklärung der Entwurfsverfassenden (§ 68 Abs. 4).",
+          "Nein – keine gesetzliche Pflicht für jedes Bauvorhaben. Bei fehlender Sachkunde des Entwurfsverfassers sind geeignete Fachplaner heranzuziehen (§ 54 Abs. 2). Bei Gebäuden der GK 1–3 und bei Kleingaragen reicht die Erklärung der Entwurfsverfassenden (§ 68 Abs. 2 Satz 2).",
       },
       {
         question: "Wer darf ein Brandschutzkonzept erstellen?",
         answer:
-          "Nur der Personenkreis des § 54 Abs. 3 BauO NRW: staatlich anerkannte SV Brandschutz, ö.b.u.v. SV GewO § 36 oder im Einzelfall vergleichbar geeignete Personen. Konzept-Pflicht bei großen Sonderbauten (§ 70).",
+          "Nur der Personenkreis des § 54 Abs. 3 BauO NRW: sachverständige Personen nach § 87 Abs. 2 für die Prüfung des Brandschutzes, öffentlich bestellte und vereidigte Sachverständige für vorbeugenden Brandschutz oder im Einzelfall vergleichbar geeignete Personen. Konzept-Pflicht bei großen Sonderbauten (§ 70).",
       },
       {
         question: "Was ist der Unterschied zwischen Fachplaner und Sachverständigem?",
@@ -424,7 +421,7 @@ export const RATGEBER_ARTICLES_BRANDSCHUTZFACHPLANER: RatgeberArticle[] = [
       {
         question: "Wer prüft Brandschutz bei Sonderbauten in der Genehmigung?",
         answer:
-          "§ 68 Abs. 5: Die Bauaufsichtsbehörde prüft die Brandschutzvorschriften – nicht ein externer Sachverständiger (Ausnahme: Garagen bis 1.000 m² nach Abs. 4).",
+          "Bei Sonderbauten und Großgaragen prüft die Bauaufsicht den Brandschutz und bedient sich dabei einer Prüfingenieurin oder eines Prüfingenieurs für Brandschutz (§ 68 Abs. 2 Satz 5). Bei GK 4/5 ohne Sonderbau bescheinigen Prüfsachverständige für Brandschutz (§ 68 Abs. 2 Satz 3).",
       },
       {
         question: "Kann der Brandschutzbeauftragte das Konzept erstellen?",

@@ -48,9 +48,9 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
             ],
             [
               "SV-Bescheinigung",
-              "§ 69 Abs. 1a",
-              "SV bescheinigt Brandschutz/Standsicherheit + Abweichungsvoraussetzungen",
-              "Ersetzt Zulassungsakt, nicht Schutzpflicht § 3",
+              "§ 69 Abs. 1 Satz 6",
+              "Sachverständige Person bescheinigt die Abweichungsvoraussetzungen",
+              "Ersetzt Zulassungsakt, nicht Schutzpflicht § 3 Satz 1",
             ],
             [
               "Ausgleichende Maßnahmen",
@@ -60,9 +60,9 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
             ],
             [
               "Alternative technische Lösung",
-              "§ 3 Abs. 3",
+              "§ 88 Abs. 1 Satz 3",
               "Abweichung von Technikregeln (DIN, VV TB), nicht von Gesetzesnorm",
-              "Gleiches Schutzniveau § 3 Abs. 1 – allein nicht für § 30 Brandwand",
+              "Gleiches Schutzniveau – allein nicht für § 30 Brandwand; Schutzpflicht § 3 Satz 1",
             ],
             [
               "Gesetzliche Erleichterung",
@@ -96,7 +96,7 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
           "Gesetzliche Erleichterung? § 50 BauO / SBauVO – anwenden, kein § 69",
           "Einzelnorm-Zulassung? z. B. § 30 Abs. 2 größere Brandabschnitte",
           "Neubau großer Sonderbau? Ausgleichende Maßnahmen im Brandschutzkonzept (§ 70; BauPrüfVO § 9)",
-          "§ 3 Abs. 1 bleibt immer: Leben, Gesundheit, öffentliche Sicherheit",
+          "§ 3 Satz 1 bleibt immer: Leben, Gesundheit, öffentliche Sicherheit",
         ],
         table: {
           caption: "Erlass-Prüfungsreihenfolge vor § 69 (MHKBD 05.12.2022)",
@@ -108,7 +108,7 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
             ["4", "Keiner der Fälle 1–3?", "§ 69 Abs. 1 Satz 1, 2 oder 3 prüfen"],
             ["5", "Technische Baubestimmung? Zuerst § 88; MIndBauRL (VV TB A 2.2.2) nur § 69", "Gleichwertige TB-Lösung grundsätzlich ohne BA; unzulässige TB nicht über § 69 heilbar"],
             ["6", "Brandschutzdienststelle hören, wenn Löschen/Retten berührt (ob BA oder SV)?", "Regelmäßig ja"],
-            ["7", "Antrag Schriftform (§ 69 Abs. 2–3) oder SV-Bescheinigung Abs. 1a?", "1a nur kumulativ und ohne nachbarliche Belange"],
+            ["7", "Antrag gesondert (§ 69 Abs. 2) oder SV-Bescheinigung § 69 Abs. 1 Satz 6?", "Satz 6 entbehrlich, wenn sachverständige Person Voraussetzungen bescheinigt"],
           ],
         },
       },
@@ -125,7 +125,7 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
           headers: ["Merkmal", "§ 69 Abweichung", "Ausgleichende Maßnahmen (BSK)"],
           rows: [
             ["Anwendung", "Bestand, Nutzungsänderung, Modernisierung u. a.", "Große Sonderbauten, Genehmigung"],
-            ["Verfahren", "Antrag oder SV § 69 Abs. 1a", "Konzept als Bauvorlage"],
+            ["Verfahren", "Antrag oder SV § 69 Abs. 1 Satz 6", "Konzept als Bauvorlage"],
             ["Entscheidung", "Behörde/Gemeinde oder SV", "Baugenehmigung inkl. Konzept"],
             ["Logik", "Abweichung von Einzelnorm", "Gesamtbewertung Defizit + Ausgleich"],
           ],
@@ -144,18 +144,18 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
             ["SBauVO-Erleichterung", "GK-Erleichterungen Versammlungsstätte, Verkauf", "Nein"],
             ["Bestandserleichterung im Gesetz", "Keine Aufzugspflicht bei Dachgeschoss-Ausbau Bestand (§ 39 Abs. 1 Satz 2)", "Nein"],
             ["Einzelnorm-Zulassung", "Größere Brandabschnitte § 30 Abs. 2", "Nein"],
-            ["§ 3 Abs. 3", "Alternative Lösung statt DIN-Regel, gleiches §-3-Niveau", "Nein für Gesetzesnorm"],
+            ["§ 88 Abs. 1 Satz 3", "Alternative Lösung statt DIN-Regel, gleiches Schutzniveau", "Nein für Gesetzesnorm"],
             ["§ 88 + VV TB", "TB-Planungsregel, gleiches Schutzniveau", "Nein für TB-Teil"],
             ["Abweichung Einzelfall", "Bestand: notwendiger TR fehlt, Zweck anders erreicht", "Ja"],
           ],
         },
       },
       {
-        id: "para3-abs3",
-        title: "§ 3 Abs. 3 – Technikregel, nicht Gesetzesnorm",
+        id: "para88-gleichwertigkeit",
+        title: "§ 88 Abs. 1 Satz 3 – Technikregel, nicht Gesetzesnorm",
         paragraphs: [
-          "§ 3 Abs. 3 erlaubt Abweichung von **allgemein anerkannten Regeln der Technik** (einschließlich VV TB), wenn eine andere Lösung die Belange des § 3 Abs. 1 **in gleicher Weise** erfüllt. Das betrifft Planungs- und Ausführungsregeln – nicht die materielle Mindestanforderung im Gesetz selbst.",
-          "Steht die BauO eine konkrete Pflicht (z. B. feuerbeständige Brandwand § 30), reicht § 3 Abs. 3 allein nicht – es bedarf § 69, ausgleichender Maßnahmen im Konzept oder einer gesetzlichen Erleichterung/Einzelnorm-Zulassung.",
+          "Gleichwertige Lösungen zu Planungs-, Bemessungs- und Ausführungsregeln der Technischen Baubestimmungen regelt § 88 Abs. 1 Satz 3: Du kannst abweichen, wenn eine andere Lösung die Anforderungen in gleichem Maße erfüllt. Das betrifft Technikregeln – nicht die materielle Mindestanforderung im Gesetz selbst. § 3 Satz 1 bleibt die Schutzpflicht (Leben, Gesundheit, öffentliche Sicherheit).",
+          "Steht die BauO eine konkrete Pflicht (z. B. feuerbeständige Brandwand § 30), reicht § 88 Abs. 1 Satz 3 allein nicht – es bedarf § 69, ausgleichender Maßnahmen im Konzept oder einer gesetzlichen Erleichterung/Einzelnorm-Zulassung.",
         ],
       },
       {
@@ -217,13 +217,12 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
         },
       },
       {
-        id: "abs1a",
+        id: "abs1-satz6",
         title: "Sachverständige statt Behörde – wann das geht",
         paragraphs: [
-          "§ 69 Abs. 1a greift nur **kumulativ** (Erlass Abschnitt V): Die SV-Person bescheinigt den Brandschutz (§ 68 Abs. 2 Nr. 3 bzw. Abs. 4) **und** die Abweichungsvoraussetzungen. Fehlt eines von beiden, bleibt die behördliche Zulassung nötig.",
-          "Anwendungsbereich Brandschutz-SV (Erlass): Wohngebäude GK 4 und 5; Gebäude GK 3–5, die weder Wohngebäude noch Sonderbauten sind; Garagen 100–1.000 m² NF. **Nachbarliche Belange** → keine 1a-Bescheinigung; dann entscheidet die Bauaufsicht (ggf. § 72 Angrenzer).",
-          "Die Bescheinigung ist **spätestens mit der Baubeginnsanzeige** vorzulegen und **nicht Bestandteil der Baugenehmigung**. Wahlrecht: SV oder Behördenantrag. Fehlerhafte Bescheinigung macht eine erteilte Genehmigung nicht rückwirkend rechtswidrig – Eingriff nach § 58 Abs. 2 bleibt möglich.",
-          "Redaktionsversehen des Gesetzgebers (Erlass): Der Verweis, Abs. 1a gelte auch in Verfahren nach „Abs. 2 Satz 3“, erfasst **nicht** das vereinfachte Verfahren § 62 (dort prüft niemand den Brandschutz) und **nicht** die Genehmigungsfreistellung § 63.",
+          "Der Zulassung einer Abweichung bedarf es in den Fällen des § 68 Abs. 6 oder des § 69 Abs. 2 Satz 2 Halbsatz 1 nicht, wenn die sachverständige Person die Voraussetzungen der Abweichung bescheinigt (§ 69 Abs. 1 Satz 6).",
+          "Seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus. Die Abweichung beantragst du gesondert (§ 69 Abs. 2 Satz 2). Bei nachbarlichen Belangen entscheidet die Bauaufsicht – die Bescheinigungslösung ersetzt dort nicht die behördliche Zulassung.",
+          "Die Bescheinigung ist **spätestens mit der Baubeginnsanzeige** vorzulegen und **nicht Bestandteil der Baugenehmigung**. Wahlrecht: SV oder Behördenantrag. Fehlerhafte Bescheinigung macht eine erteilte Genehmigung nicht rückwirkend rechtswidrig.",
         ],
       },
       {
@@ -239,8 +238,8 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
         id: "para63-59",
         title: "§ 63, § 59, § 82 – Freistellung und Weiterbetrieb",
         paragraphs: [
-          "**§ 63 Genehmigungsfreistellung:** Eine Abweichung nach § 69 schließt die Freistellung aus (§ 63 Abs. 2 Nr. 4). Abs. 1a rettet die Freistellung **nicht** – die SV-Bescheinigung ersetzt die baurechtliche Zulassung nur im vorgesehenen Anwendungsbereich, nicht den Ausschlusstatbestand des § 63. Braucht das Vorhaben eine §-69-Abweichung, ist der Weg die Baugenehmigung (oder ein Verfahren, in dem die Abweichung zugelassen wird) – nicht die Freistellung.",
-          "**§ 59 Abs. 1:** Rechtmäßig bestehende Anlage ohne Vorhaben – Nachrüstung nur bei Einzelfall-Gefahr für Leben/Gesundheit. Mit Vorhaben: § 69 für bewusste Abweichung von Neu-Anforderungen. **§ 59 Abs. 2:** Wesentliche Änderung kann Nachrüstung auslösen – § 69 als Ausweg bei unverhältnismäßigem Mehraufwand. Abgrenzung: [Bestandsschutz](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw).",
+          "**§ 63 Genehmigungsfreistellung:** Seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus. Die Abweichung beantragst du gesondert (§ 69 Abs. 2 Satz 2). Eine Zulassung ist in den Fällen des § 69 Abs. 1 Satz 6 entbehrlich, wenn die sachverständige Person die Voraussetzungen bescheinigt. § 63 Abs. 2 Nr. 4 regelt jetzt die Erklärung der Gemeinde – nicht mehr den früheren Ausschluss bei Abweichungen.",
+          "**§ 59 Abs. 1:** Rechtmäßig bestehende Anlage ohne Vorhaben – Nachrüstung nur bei erheblichen Gefahren für Leben und Gesundheit im Einzelfall. Mit Vorhaben: § 69 für bewusste Abweichung von Neu-Anforderungen. **§ 59 Abs. 2:** Bei wesentlicher Änderung Anforderungen an unberührte Teile nur zur Gefahrenabwehr; Brandschutz-Restbestand auf § 33 beschränkt. Abgrenzung: [Bestandsschutz](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw).",
           "**§ 82 Abs. 3:** Nutzungsuntersagung bei Widerspruch zu öffentlich-rechtlichen Vorschriften – zugelassene Abweichung verhindert den Widerspruch; ohne Zulassung Eingriff möglich.",
         ],
       },
@@ -263,7 +262,7 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
             ["MIndBauRL", "Nur § 69", "VV TB A 2.2.2"],
             ["Bestand, Nutzungsänderung", "§ 69 Abs. 1 Satz 2 Nr. 3, gebunden", "§ 69 Abs. 1 Satz 2"],
             ["Bestand, Modernisierung Wohnung ≥ 5 Jahre", "§ 69 Abs. 1 Satz 2 Nr. 1, gebunden", "§ 69 Abs. 1 Satz 2"],
-            ["GK 4/5-Wohngebäude, SV-Verfahren", "§ 69 Abs. 1a Bescheinigung", "§ 69 Abs. 1a"],
+            ["SV-Verfahren mit Bescheinigung", "§ 69 Abs. 1 Satz 6 Bescheinigung", "§ 69 Abs. 1 Satz 6"],
             ["Nachbarliche Belange betroffen", "Behördliche Zulassung, § 72", "§ 69 Abs. 1"],
             ["Generalklausel", "§ 69 Abs. 1 Satz 1, Ermessen", "§ 69 Abs. 1 Satz 1"],
           ],
@@ -298,14 +297,14 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
             ["17", "§ 3 und nachbarliche Belange gewahrt?", "Voraussetzung jeder Abweichung"],
             ["18", "Bestand: Schutzniveau gewahrt, keine konkrete Gefahr?", "Nicht „in gleichem Maße“ wie Neubau"],
             ["19", "Brandschutzdienststelle gehört (Löschen/Retten)?", "Regelmäßig, ob BA oder SV"],
-            ["20", "SV-Bescheinigung 1a: Brandschutz + Voraussetzungen kumulativ?", "Nachbar → keine 1a"],
+            ["20", "SV-Bescheinigung § 69 Abs. 1 Satz 6 möglich?", "Nachbar → behördliche Zulassung"],
             ["21", "Bescheinigung spätestens mit Baubeginnsanzeige?", "Nicht Teil der Baugenehmigung"],
-            ["22", "Antrag Schriftform mit Begründung?", "§ 69 Abs. 3"],
+            ["22", "Antrag Schriftform mit Begründung?", "§ 69 Abs. 2–3"],
             ["23", "Zuständigkeit: Gemeinde oder BA?", "§ 69 Abs. 2"],
             ["24", "6-Wochen-Frist eingehalten?", "Entscheidungsfrist"],
-            ["25", "Genehmigungsfreistellung § 63 geplant?", "Abweichung schließt Freistellung aus; 1a rettet nicht"],
+            ["25", "Genehmigungsfreistellung § 63 geplant?", "Abweichung schließt Freistellung seit 01.09.2026 nicht mehr aus; Antrag gesondert"],
             ["26", "Parallel § 59 (Weiterbetrieb ohne Vorhaben)?", "Kein Abweichungsbedarf bei reinem Bestand"],
-            ["27", "§ 3 Abs. 3 – nur Technikregel betroffen?", "Alternative Lösung; TB siehe Nr. 5–7"],
+            ["27", "§ 88 Abs. 1 Satz 3 – nur Technikregel betroffen?", "Alternative Lösung; TB siehe Nr. 5–7"],
           ],
         },
       },
@@ -355,12 +354,12 @@ export const RATGEBER_ARTICLES_ABWEICHUNGEN_PARAGRAPH_69: RatgeberArticle[] = [
       {
         question: "Kann ein Sachverständiger die Abweichung bescheinigen?",
         answer:
-          "Nach § 69 Abs. 1a nur kumulativ: Brandschutz (§ 68 Abs. 2 Nr. 3 / Abs. 4) und Abweichungsvoraussetzungen. Nicht bei nachbarlichen Belangen. Bescheinigung spätestens mit Baubeginnsanzeige – nicht Teil der Baugenehmigung.",
+          "Der Zulassung einer Abweichung bedarf es in den Fällen des § 68 Abs. 6 oder des § 69 Abs. 2 Satz 2 Halbsatz 1 nicht, wenn die sachverständige Person die Voraussetzungen der Abweichung bescheinigt (§ 69 Abs. 1 Satz 6). Bei nachbarlichen Belangen entscheidet die Behörde. Bescheinigung spätestens mit Baubeginnsanzeige – nicht Teil der Baugenehmigung.",
       },
       {
         question: "Blockiert § 69 die Genehmigungsfreistellung?",
         answer:
-          "Ja. § 63 Abs. 2 Nr. 4: Eine Abweichung nach § 69 schließt die Freistellung aus. Die SV-Bescheinigung nach Abs. 1a rettet die Freistellung nicht. Redaktionsversehen: „Abs. 2 Satz 3“ erfasst weder § 62 noch § 63.",
+          "Nein. Seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus. Die Abweichung beantragst du gesondert (§ 69 Abs. 2 Satz 2). Eine Zulassung ist in den Fällen des § 69 Abs. 1 Satz 6 entbehrlich, wenn die sachverständige Person die Voraussetzungen bescheinigt.",
       },
       {
         question: "Muss die Brandschutzdienststelle gehört werden?",

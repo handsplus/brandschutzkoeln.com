@@ -77,10 +77,10 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
         id: "verfahren",
         title: "Genehmigungsfreistellung und Bauüberwachung",
         paragraphs: [
-          "Viele kleine Gebäude der GK 1 und 2 können nach § 62 BauO NRW genehmigungsfrei gestellt werden – Wohngebäude bis einschließlich GK 4, sonstige Gebäude in GK 1 und 2. Voraussetzung ist, dass Bebauungsplan und Erschließung nichts entgegenstehen, keine Abweichung nach § 69 nötig ist und die Gemeinde nicht das vereinfachte Verfahren wählt.",
-          "Die Gebäudeklasse allein reicht nicht, wenn Sonderbau nach § 50 greift, Wohnflächen 5.000 Quadratmeter überschreiten, mehr als 100 Besucher öffentlich zugänglich sind oder Sicherheitsabstände nach dem Bundes-Immissionsschutzgesetz gelten. Dann bleibt das Vorhaben genehmigungspflichtig – unabhängig von GK 1 oder 2.",
-          "Für GK 1 und 2 – einschließlich zugehöriger Nebengebäude – entfällt nach § 84 Abs. 2 Satz 1 BauO NRW die Bauüberwachung. Stattdessen genügt eine Erklärung der Entwurfsverfassenden zum Brandschutz. Eine Bescheinigung einer sachverständigen Person nach § 87 Abs. 2 braucht man für Wohngebäude der GK 1 und 2 nicht – die technischen Nachweise müssen dennoch eingereicht werden.",
-          "Wer die Pläne erstellt, braucht nicht zwingend einen Architekten oder Ingenieur: Nach § 71 Abs. 4a BauO NRW dürfen für GK 1 und 2 auch eingeschränkt Bauvorlageberechtigte – etwa Maurer-, Betonbauer- oder Zimmerer-Meister bei der Ingenieurkammer-Bau NRW – die Bauvorlagen einreichen.",
+          "Viele Vorhaben der GK 1 und 2 können seit 01.09.2026 über die Genehmigungsfreistellung nach § 63 BauO NRW laufen – für Anlagen, die keine Sonderbauten sind. Voraussetzung: Das Vorhaben liegt im Geltungsbereich eines Bebauungsplans, hält dessen Festsetzungen ein, die Erschließung ist gesichert, und die Gemeinde verlangt nicht das vereinfachte Verfahren. Eine Abweichung nach § 69 schließt die Freistellung nicht mehr aus.",
+          "Die Gebäudeklasse allein reicht nicht, wenn Sonderbau nach § 50 greift. Dann bleibt das Vorhaben im Baugenehmigungsverfahren – unabhängig von GK 1 oder 2. Verfahrensfreie Vorhaben nach § 62 (etwa bestimmte Garagen) sind davon zu trennen.",
+          "Beim Brandschutz reicht für Gebäude der GK 1 bis 3 und für Kleingaragen die Erklärung der Entwurfsverfassenden, dass dein Vorhaben die Anforderungen erfüllt (§ 68 Abs. 2 Satz 2) – seit 01.09.2026 für alle Gebäude dieser Klassen, nicht nur für Wohngebäude. Die technischen Nachweise musst du dennoch einreichen.",
+          "Wer die Pläne erstellt, braucht nicht zwingend einen Architekten oder Ingenieur: Nach § 67 Abs. 4a BauO NRW dürfen für GK 1 und 2 auch eingeschränkt Bauvorlageberechtigte – etwa Maurer-, Betonbauer- oder Zimmerer-Meister bei der Ingenieurkammer-Bau NRW – die Bauvorlagen einreichen.",
         ],
       },
       {
@@ -123,7 +123,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Ist GK 1 genehmigungsfrei?",
         answer:
-          "In vielen Fällen ja – nach § 62 BauO NRW, sofern Bebauungsplan und Erschließung nichts entgegenstehen. Ausnahmen greifen bei Sonderbau, Wohnflächen über 5.000 Quadratmetern oder öffentlich zugänglichen Bereichen mit mehr als 100 Besuchern.",
+          "Oft über die Genehmigungsfreistellung nach § 63 BauO NRW – wenn dein Vorhaben kein Sonderbau ist, im Bebauungsplan liegt, dessen Festsetzungen einhält, erschlossen ist und die Gemeinde kein vereinfachtes Verfahren verlangt. Sonderbauten bleiben im Baugenehmigungsverfahren.",
       },
       {
         question: "Gilt feuerhemmend im Keller bei GK 1?",
@@ -148,7 +148,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Wer darf Pläne für GK 1 und 2 erstellen?",
         answer:
-          "Neben Architekten und Ingenieuren dürfen nach § 71 Abs. 4a BauO NRW auch eingeschränkt Bauvorlageberechtigte die Pläne erstellen – etwa Maurer-, Betonbauer- oder Zimmerer-Meister bei der Ingenieurkammer-Bau NRW.",
+          "Neben Architekten und Ingenieuren dürfen nach § 67 Abs. 4a BauO NRW auch eingeschränkt Bauvorlageberechtigte die Pläne erstellen – etwa Maurer-, Betonbauer- oder Zimmerer-Meister bei der Ingenieurkammer-Bau NRW.",
       },
     ],
   },
@@ -235,10 +235,10 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
         id: "verfahren",
         title: "Genehmigung, Bauüberwachung und Planer",
         paragraphs: [
-          "Bei der Genehmigungspflicht macht GK 3 einen wichtigen Unterschied zwischen Wohn- und Nichtwohngebäuden. Wohngebäude der GK 3 können nach § 62 BauO NRW – wie GK 4 – genehmigungsfrei gestellt sein, wenn Bebauungsplan, Erschließung und die üblichen Ausnahmen (Sonderbau, 5.000 Quadratmeter Wohnen, 100 Besucher, BImSchG) nicht greifen.",
-          "Sonstige Gebäude der GK 3 – etwa kleine Gewerbebauten, Bürohäuser oder Mehrparteienhäuser, die formal keine Wohngebäude sind – unterliegen der Baugenehmigungspflicht. Sie fallen nicht unter die Kategorie „sonstige Gebäude der GK 1 und 2“.",
-          "Für Wohngebäude der GK 3 genügt nach § 84 Abs. 2 Satz 1 BauO NRW eine Erklärung der Entwurfsverfassenden zum Brandschutz – keine vollständige Bauüberwachung. Für nicht verfahrensfreie Nichtwohngebäude der GK 3 gelten die Regeln der Bauüberwachung vollständig. Eine Bescheinigung einer sachverständigen Person nach § 87 Abs. 2 entfällt nur bei Wohngebäuden GK 1 und 2 – in GK 3 kann sie verlangt werden.",
-          "Pläne für GK 3 dürfen nicht von eingeschränkt Bauvorlageberechtigten (Maurer-, Zimmerer-Meister) erstellt werden – das gilt nur für GK 1 und 2 (§ 71 Abs. 4a). Hier braucht man die allgemeine Bauvorlageberechtigung durch Architekten oder eingetragene Ingenieure. Ab drei oberirdischen Geschossen kann zudem ein Aufzug Pflicht werden (§ 39).",
+          "Verfahrensrechtlich zählt seit 01.09.2026 vor allem, ob dein Vorhaben Sonderbau ist. Liegt kein Sonderbau vor, kann die Genehmigungsfreistellung nach § 63 BauO NRW greifen – auch für Nichtwohngebäude der GK 3 –, wenn Bebauungsplan, Festsetzungen, Erschließung und die Erklärung der Gemeinde passen. Eine Abweichung nach § 69 schließt die Freistellung nicht mehr aus.",
+          "Sonderbauten der GK 3 bleiben im Baugenehmigungsverfahren. Verfahrensfreie Vorhaben nach § 62 sind davon zu trennen – sie betreffen den Katalog kleiner Anlagen, nicht die Freistellung ganzer Gebäude.",
+          "Beim Brandschutz reicht bei Gebäuden der GK 3 für alle Nutzungstypen die Erklärung der Entwurfsverfassenden, dass dein Vorhaben die Anforderungen erfüllt (§ 68 Abs. 2 Satz 2) – seit 01.09.2026 nicht mehr nur für Wohngebäude. Eine Bescheinigung von Prüfsachverständigen für Brandschutz ist in GK 3 ohne Sonderbau nicht die Regelstufe.",
+          "Pläne für GK 3 dürfen nicht von eingeschränkt Bauvorlageberechtigten (Maurer-, Zimmerer-Meister) erstellt werden – das gilt nur für GK 1 und 2 (§ 67 Abs. 4a). Hier braucht man die allgemeine Bauvorlageberechtigung durch Architekten oder eingetragene Ingenieure. Ab drei oberirdischen Geschossen kann zudem ein Aufzug Pflicht werden (§ 39).",
         ],
       },
       {
@@ -281,7 +281,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Ist ein Wohngebäude GK 3 genehmigungsfrei?",
         answer:
-          "In vielen Fällen ja – Wohngebäude der GK 3 bis 4 können nach § 62 BauO NRW genehmigungsfrei gestellt sein, wenn Bebauungsplan, Erschließung und Ausnahmen (Sonderbau, 5.000 m², 100 Besucher) nicht greifen. Gewerbegebäude der GK 3 sind dagegen genehmigungspflichtig.",
+          "Oft über die Genehmigungsfreistellung nach § 63 BauO NRW – wenn kein Sonderbau vorliegt, Bebauungsplan und Erschließung passen und die Gemeinde kein vereinfachtes Verfahren verlangt. Das gilt seit 01.09.2026 auch für Nichtwohngebäude der GK 3, sofern sie keine Sonderbauten sind.",
       },
       {
         question: "Warum ist der Keller in GK 3 strenger als in GK 1/2?",
@@ -296,7 +296,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Darf ein Maurermeister Pläne für GK 3 erstellen?",
         answer:
-          "Nein. Die eingeschränkte Bauvorlageberechtigung nach § 71 Abs. 4a gilt nur für GK 1 und 2. Für GK 3 braucht man die allgemeine Bauvorlageberechtigung – Architekt oder eingetragener Ingenieur bei der Ingenieurkammer-Bau NRW.",
+          "Nein. Die eingeschränkte Bauvorlageberechtigung nach § 67 Abs. 4a gilt nur für GK 1 und 2. Für GK 3 braucht man die allgemeine Bauvorlageberechtigung – Architekt oder eingetragener Ingenieur bei der Ingenieurkammer-Bau NRW.",
       },
       {
         question: "Gilt weiche Bedachung in GK 3?",
@@ -394,10 +394,10 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
         id: "verfahren",
         title: "Genehmigung, Bauüberwachung und Planer",
         paragraphs: [
-          "Wohngebäude der GK 4 können nach § 62 BauO NRW genehmigungsfrei gestellt sein – wie GK 3 –, wenn Bebauungsplan, Erschließung und die üblichen Ausnahmen (Sonderbau § 50, 5.000 Quadratmeter Wohnen, 100 Besucher, BImSchG) nicht greifen.",
-          "Sonstige Gebäude der GK 4 – Büro-, Gewerbe- oder Mehrzweckbauten – bedürfen der Baugenehmigung. Sie fallen nicht unter die Kategorie „sonstige Gebäude der GK 1 und 2“. Ein viergeschossiges Geschäftshaus mit Laden und Büros ist damit in der Regel genehmigungspflichtig, ein vergleichbares Wohnhaus oft nicht.",
-          "Für Wohngebäude der GK 4 gilt die vollständige Bauüberwachung nach § 84 Abs. 2 Satz 1 BauO NRW – nicht die vereinfachte Erklärung der Entwurfsverfassenden wie bei Wohngebäuden GK 3. Eine Bescheinigung der sachverständigen Person nach § 87 Abs. 2 entfällt nur bei Wohngebäuden GK 1 und 2 – in GK 4 kann sie verlangt werden.",
-          "Pläne dürfen nicht von eingeschränkt Bauvorlageberechtigten erstellt werden (§ 71 Abs. 4a). Für GK 4 braucht man die allgemeine Bauvorlageberechtigung – Architekt oder eingetragener Ingenieur bei der Ingenieurkammer-Bau NRW.",
+          "Liegt kein Sonderbau vor, kann die Genehmigungsfreistellung nach § 63 BauO NRW auch für Gebäude der GK 4 greifen – Wohn- wie Nichtwohngebäude –, wenn Bebauungsplan, Festsetzungen, Erschließung und die Erklärung der Gemeinde passen. Eine Abweichung nach § 69 schließt die Freistellung seit 01.09.2026 nicht mehr aus.",
+          "Sonderbauten der GK 4 bleiben im Baugenehmigungsverfahren. Ein viergeschossiges Geschäftshaus mit Laden und Büros kann freigestellt sein, wenn es kein Sonderbau ist; sobald § 50 greift, brauchst du die Baugenehmigung.",
+          "Bei GK 4 ohne Sonderbau muss eine Prüfsachverständige oder ein Prüfsachverständiger für Brandschutz die Einhaltung der Brandschutzanforderungen bescheinigen (§ 68 Abs. 2 Satz 3). Die einfache Erklärung der Entwurfsverfassenden reicht nur bei GK 1–3 und Kleingaragen (§ 68 Abs. 2 Satz 2) – nicht mehr die alte Logik „Bescheinigung nach § 87 Abs. 2 kann verlangt werden“.",
+          "Pläne dürfen nicht von eingeschränkt Bauvorlageberechtigten erstellt werden (§ 67 Abs. 4a). Für GK 4 braucht man die allgemeine Bauvorlageberechtigung – Architekt oder eingetragener Ingenieur bei der Ingenieurkammer-Bau NRW.",
         ],
       },
       {
@@ -441,7 +441,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Ist ein Wohngebäude GK 4 genehmigungsfrei?",
         answer:
-          "In vielen Fällen ja – Wohngebäude der GK 4 können nach § 62 BauO NRW genehmigungsfrei gestellt sein, wenn Bebauungsplan, Erschließung und Ausnahmen (Sonderbau, 5.000 m², 100 Besucher) nicht greifen. Gewerbegebäude der GK 4 sind dagegen genehmigungspflichtig.",
+          "Oft über die Genehmigungsfreistellung nach § 63 BauO NRW – wenn kein Sonderbau vorliegt, Bebauungsplan und Erschließung passen und die Gemeinde kein vereinfachtes Verfahren verlangt. Das gilt seit 01.09.2026 auch für Nichtwohngebäude der GK 4 ohne Sonderbau.",
       },
       {
         question: "Braucht GK 4 harte Bedachung?",
@@ -451,12 +451,12 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Gilt volle Bauüberwachung in GK 4?",
         answer:
-          "Für Wohngebäude der GK 4 ja – die vereinfachte Bauüberwachung nach § 84 Abs. 2 Satz 1 gilt nur für GK 1 und 2 sowie Wohngebäude GK 3. In GK 4 kann eine Bescheinigung der sachverständigen Person nach § 87 Abs. 2 verlangt werden.",
+          "Beim Brandschutz brauchst du in GK 4 ohne Sonderbau die Bescheinigung einer oder eines Prüfsachverständigen für Brandschutz (§ 68 Abs. 2 Satz 3) – nicht nur die Erklärung der Entwurfsverfassenden wie bei GK 1–3.",
       },
       {
         question: "Darf ein Maurermeister Pläne für GK 4 erstellen?",
         answer:
-          "Nein. Die eingeschränkte Bauvorlageberechtigung nach § 71 Abs. 4a gilt nur für GK 1 und 2. Für GK 4 braucht man die allgemeine Bauvorlageberechtigung – Architekt oder eingetragener Ingenieur.",
+          "Nein. Die eingeschränkte Bauvorlageberechtigung nach § 67 Abs. 4a gilt nur für GK 1 und 2. Für GK 4 braucht man die allgemeine Bauvorlageberechtigung – Architekt oder eingetragener Ingenieur.",
       },
       {
         question: "Wann wird aus GK 4 schnell GK 5?",
@@ -507,7 +507,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
           "Gebäudeklasse 5 ist die höchste Stufe der Feuerwiderstandskette in der BauO NRW. Oberirdisch verlangen tragende Wände, Stützen, Decken, Treppenraumwände und Fahrschachtwände feuerbeständige (F 90) Bauteile – nicht mehr hochfeuerhemmend (F 60) wie in GK 4 (§§ 27, 31, 35, 39 BauO NRW).",
           "Brandwände müssen feuerbeständig sein und aus nichtbrennbaren Baustoffen bestehen (§ 30 Abs. 2 BauO NRW). Die hochfeuerhemmenden Ersatzwände der GK 1 bis 4 reichen nicht. Brandwände sind 30 Zentimeter über die Bedachung zu führen oder mit feuerbeständiger Platte abzuschließen; Außenwandbekleidungen an Gebäudeabschlusswänden inklusive Dämmstoffe müssen nichtbrennbar sein.",
           "Alle Erleichterungen niedrigerer Gebäudeklassen entfallen: keine weiche Bedachung, keine verkürzten Abstandsflächen, keine Ausnahmen bei Trennwänden, Leitungen oder Lüftung. GK 5 bedeutet in der Praxis: volle BauO-Anwendung ohne Abkürzungen.",
-          "Verfahrensrechtlich fällt GK 5 aus der Genehmigungsfreistellung des § 62 BauO NRW heraus – auch Wohngebäude brauchen eine Baugenehmigung. Dazu kommen vollständige Bauüberwachung und die allgemeine Bauvorlageberechtigung durch Architekt oder Ingenieur.",
+          "Verfahrensrechtlich kann die Genehmigungsfreistellung nach § 63 BauO NRW seit 01.09.2026 auch für Gebäude der GK 5 greifen – sofern sie keine Sonderbauten sind und die Voraussetzungen des § 63 Abs. 2 vorliegen. Dazu kommen die Brandschutz-Bescheinigung nach § 68 Abs. 2 Satz 3 und die allgemeine Bauvorlageberechtigung durch Architekt oder Ingenieur.",
         ],
       },
       {
@@ -553,9 +553,9 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
         id: "verfahren",
         title: "Genehmigung, Bauüberwachung und Planer",
         paragraphs: [
-          "Gebäude der GK 5 fallen nicht unter die Genehmigungsfreistellung des § 62 BauO NRW – weder als Wohn- noch als sonstiges Gebäude. Jede Errichtung, Änderung und Nutzungsänderung bedarf der Baugenehmigung, sofern keine andere Ausnahme greift.",
-          "Vollständige Bauüberwachung nach § 84 Abs. 2 Satz 1 BauO NRW gilt für GK 5. Eine Bescheinigung der sachverständigen Person nach § 87 Abs. 2 über bautechnische Nachweise kann verlangt werden – die Erleichterung für Wohngebäude GK 1 und 2 entfällt.",
-          "Pläne dürfen nur von allgemein Bauvorlageberechtigten erstellt werden – Architekt, Innenarchitekt oder eingetragener Ingenieur (§ 71 BauO NRW). Die eingeschränkte Berechtigung für Handwerksmeister gilt nur für GK 1 und 2.",
+          "Die Genehmigungsfreistellung nach § 63 BauO NRW kann seit 01.09.2026 auch für Gebäude der GK 5 greifen, sofern sie keine Sonderbauten sind und die Voraussetzungen des § 63 Abs. 2 vorliegen (Bebauungsplan, Erschließung, keine Erklärung der Gemeinde zugunsten des vereinfachten Verfahrens).",
+          "Bei GK 5 ohne Sonderbau muss eine Prüfsachverständige oder ein Prüfsachverständiger für Brandschutz vor Erteilung der Baugenehmigung – bzw. im freigestellten Verfahren mit den Unterlagen – bescheinigen, dass dein Vorhaben die Brandschutzanforderungen erfüllt (§ 68 Abs. 2 Satz 3). Das ist Pflicht, nicht nur „kann verlangt werden“.",
+          "Pläne dürfen nur von allgemein Bauvorlageberechtigten erstellt werden – Architekt, Innenarchitekt oder eingetragener Ingenieur (§ 67 BauO NRW). Die eingeschränkte Berechtigung für Handwerksmeister gilt nur für GK 1 und 2 (§ 67 Abs. 4a).",
           "In der Praxis brauchen GK-5-Vorhaben oft ein brandschutztechnisches Konzept oder eine Stellungnahme – besonders wenn zugleich Sonderbau-Tatbestände nach § 50 greifen. Mehr: [Brandschutzkonzept wann nötig](/ratgeber/brandschutzkonzept-wann-noetig) und [Sonderbauten](/ratgeber/sonderbauten-brandschutz).",
         ],
       },
@@ -604,7 +604,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Was ist der wichtigste Unterschied zu GK 4?",
         answer:
-          "Oberirdisch verlangt GK 5 feuerbeständige (F 90) tragende Bauteile, Decken, Treppenraumwände und Fahrschachtwände – statt hochfeuerhemmend (F 60) in GK 4. Brandwände müssen feuerbeständig sein, und jede Baugenehmigung ist Pflicht – auch für Wohngebäude.",
+          "Oberirdisch verlangt GK 5 feuerbeständige (F 90) tragende Bauteile, Decken, Treppenraumwände und Fahrschachtwände – statt hochfeuerhemmend (F 60) in GK 4. Brandwände müssen feuerbeständig sein. Ohne Sonderbau kommt die Prüfsachverständigen-Bescheinigung nach § 68 Abs. 2 Satz 3 hinzu; Freistellung nach § 63 bleibt möglich.",
       },
       {
         question: "Ist GK 5 ein Hochhaus?",
@@ -614,7 +614,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Braucht GK 5 eine Baugenehmigung?",
         answer:
-          "Ja, grundsätzlich immer. Die Genehmigungsfreistellung nach § 62 BauO NRW gilt nur für Wohngebäude GK 1–4 und sonstige Gebäude GK 1–2. GK 5 ist ausdrücklich nicht erfasst.",
+          "Nicht zwingend. Seit 01.09.2026 kann die Genehmigungsfreistellung nach § 63 auch für GK 5 greifen, wenn kein Sonderbau vorliegt und Bebauungsplan, Erschließung sowie die Erklärung der Gemeinde passen. Sonderbauten bleiben im Baugenehmigungsverfahren.",
       },
       {
         question: "Was bedeutet feuerbeständig in GK 5?",
@@ -634,7 +634,7 @@ export const RATGEBER_ARTICLES_GEBAEUDEKLASSEN_SERIE: RatgeberArticle[] = [
       {
         question: "Darf ein Maurermeister Pläne für GK 5 erstellen?",
         answer:
-          "Nein. Die eingeschränkte Bauvorlageberechtigung nach § 71 Abs. 4a gilt nur für GK 1 und 2. Für GK 5 braucht man Architekt oder eingetragenen Ingenieur.",
+          "Nein. Die eingeschränkte Bauvorlageberechtigung nach § 67 Abs. 4a gilt nur für GK 1 und 2. Für GK 5 braucht man Architekt oder eingetragenen Ingenieur.",
       },
     ],
   },

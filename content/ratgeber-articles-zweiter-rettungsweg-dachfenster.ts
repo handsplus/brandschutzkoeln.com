@@ -29,15 +29,17 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
           "Das Gesetz kennt den Begriff „Dachfenster“ nicht. Maßgeblich sind Fenster, die als Rettungswege nach § 33 Abs. 2 Satz 2 BauO NRW dienen (§ 37 BauO NRW). Ein Dachfenster in einem Dachgeschoss-Aufenthaltsraum kann diese Funktion übernehmen, wenn alle gesetzlichen Maße, Lagen und Erreichbarkeitsvoraussetzungen erfüllt sind.",
           "Für Nutzungseinheiten mit Aufenthaltsräumen gelten in jedem Geschoss mindestens zwei voneinander unabhängige Rettungswege ins Freie (§ 33 Abs. 1). Beide dürfen innerhalb des Geschosses über denselben notwendigen Flur führen.",
           "Liegt die Nutzungseinheit nicht zu ebener Erde, muss der erste Rettungsweg über eine notwendige Treppe führen (§ 33 Abs. 2 Satz 1). Der zweite Rettungsweg kann eine weitere notwendige Treppe oder eine mit Rettungsgeräten der Feuerwehr erreichbare Stelle der Nutzungseinheit sein (§ 33 Abs. 2 Satz 2).",
-          "Der zweite Rettungsweg über Rettungsgeräte der Feuerwehr ist nur zulässig, wenn keine Bedenken wegen der Personenrettung bestehen (§ 33 Abs. 3). Grundlagen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw). Alternative ohne Feuerwehr-Anleitung: [Rettungsweg Innenhof](/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw).",
+          "Bei Sonderbauten ist der zweite Rettungsweg über Rettungsgeräte der Feuerwehr nur zulässig, wenn keine Bedenken wegen der Personenrettung bestehen (§ 33 Abs. 3 Satz 2). Bei Brüstung über 8 m bleibt ein Hubrettungsfahrzeug erforderlich (§ 33 Abs. 3 Satz 1). Grundlagen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw). Alternative ohne Feuerwehr-Anleitung: [Rettungsweg Innenhof](/ratgeber/zweiter-rettungsweg-innenhof-bauo-nrw). Vertiefung ab 1.9.2026: [Zweiter Rettungsweg § 33](/ratgeber/zweiter-rettungsweg-paragraph-33-bauo-nrw-2026).",
         ],
         list: [
           "§ 33 Abs. 1 – zwei voneinander unabhängige Rettungswege ins Freie",
+          "§ 33 Abs. 1 Satz 3 – eingeschossige NE zu ebener Erde: oft kein zweiter Weg bei direktem Ausgang",
           "§ 33 Abs. 2 Satz 1 – erster Rettungsweg über notwendige Treppe",
           "§ 33 Abs. 2 Satz 2 – zweiter Rettungsweg: Treppe oder Feuerwehr-erreichbare Stelle",
-          "§ 33 Abs. 3 – Zulässigkeit nur ohne Bedenken wegen der Personenrettung",
+          "§ 33 Abs. 2 Satz 3 – Sicherheitstreppenraum kann den vertikalen zweiten Weg ersetzen",
+          "§ 33 Abs. 3 Satz 1 – ab 8 m Brüstung: Hubrettungsfahrzeug erforderlich",
+          "§ 33 Abs. 3 Satz 2 – bei Sonderbauten: Anleitern nur ohne Bedenken wegen der Personenrettung",
           "§ 37 – Anforderungen an Fenster als Rettungsweg",
-          "§ 33 Abs. 5 – ab 8 m Brüstung: Feuerwehr mit Hubrettungsfahrzeugen erforderlich",
           "§§ 4 Abs. 2, 5 – befahrbare Zufahrt, Feuerwehrzugang, Aufstellflächen",
         ],
       },
@@ -83,15 +85,15 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
             ],
             [
               "6",
-              "Zulässigkeit Feuerwehr-Rettungsweg",
-              "Nur zulässig, wenn keine Bedenken wegen der Personenrettung bestehen",
-              "§ 33 Abs. 3",
+              "Zulässigkeit Feuerwehr-Rettungsweg (Sonderbauten)",
+              "Bei Sonderbauten nur zulässig, wenn keine Bedenken wegen der Personenrettung bestehen",
+              "§ 33 Abs. 3 Satz 2",
             ],
             [
               "7",
               "Brüstung > 8 m",
               "Gebäude nur errichtbar, wenn Feuerwehr über erforderliche Rettungsgeräte wie Hubrettungsfahrzeuge verfügt",
-              "§ 33 Abs. 5",
+              "§ 33 Abs. 3 Satz 1",
             ],
           ],
         },
@@ -155,8 +157,8 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
         id: "ausnahmen",
         title: "Wann kein zweiter Rettungsweg erforderlich ist",
         paragraphs: [
-          "Nach § 33 Abs. 4 BauO NRW entfällt der zweite Rettungsweg – und damit auch die Pflicht eines zweiten Weges über ein Dachfenster – wenn die Rettung über einen Sicherheitstreppenraum möglich ist, in den Feuer und Rauch nicht eindringen können.",
-          "Für zu ebener Erde liegende Räume entfällt der zweite Rettungsweg, wenn ein unmittelbarer Ausgang ins Freie von jeder Stelle des Raumes in höchstens 15 m Entfernung erreichbar ist (§ 33 Abs. 4 Satz 2).",
+          "Nach § 33 Abs. 2 Satz 3 BauO NRW entfällt der zweite Rettungsweg – und damit auch die Pflicht eines zweiten Weges über ein Dachfenster – wenn die Rettung über einen sicher erreichbaren Treppenraum möglich ist, in den Feuer und Rauch nicht eindringen können (Sicherheitstreppenraum).",
+          "Für eingeschossige, zu ebener Erde liegende Nutzungseinheiten ist ein zweiter Rettungsweg nicht erforderlich, wenn im Brandfall die Rettung über einen direkten Ausgang ins Freie möglich ist (§ 33 Abs. 1 Satz 3). Die frühere 15-m-Regel für erdgeschossige Räume entfällt in dieser Form seit dem 1.9.2026.",
         ],
       },
       {
@@ -172,12 +174,12 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
             ["1", "Zweiter Rettungsweg in jedem Geschoss mit Aufenthaltsräumen?", "§ 33 Abs. 1", "Flucht- und Rettungswegplan"],
             ["2", "Erster Rettungsweg über notwendige Treppe (wenn nicht zu ebener Erde)?", "§ 33 Abs. 2 Satz 1", "Grundriss, Treppenraum"],
             ["3", "Dachfenster als mit Rettungsgeräten der Feuerwehr erreichbare Stelle nachgewiesen?", "§ 33 Abs. 2 Satz 2", "Plan, Stellungnahme Brandschutzdienststelle"],
-            ["4", "Keine Bedenken wegen der Personenrettung?", "§ 33 Abs. 3", "Stellungnahme Brandschutzdienststelle"],
+            ["4", "Bei Sonderbauten: keine Bedenken wegen der Personenrettung?", "§ 33 Abs. 3 Satz 2", "Stellungnahme Brandschutzdienststelle"],
             ["5", "Lichtes Fenstermaß mindestens 0,90 m × 1,20 m?", "§ 37", "Fensterdetail"],
             ["6", "Unterkante max. 1,20 m über Fußbodenoberkante?", "§ 37", "Schnitt Aufenthaltsraum"],
             ["7", "Bei Dachschräge: Unterkante/Auftritt max. 1 m von Traufkante (horizontal)?", "§ 37", "Dachschnitt; ggf. Abstimmung Brandschutzdienststelle"],
             ["8", "Bemerkbarmachen zu öffentlicher Verkehrsfläche oder Einsatzkräfte-Fläche?", "§ 37", "Lageplan"],
-            ["9", "Brüstung ≤ 8 m über Gelände – oder Feuerwehr mit Hubrettungsfahrzeugen?", "§ 33 Abs. 5", "Höhenangaben, Stellungnahme"],
+            ["9", "Brüstung ≤ 8 m über Gelände – oder Feuerwehr mit Hubrettungsfahrzeugen?", "§ 33 Abs. 3 Satz 1", "Höhenangaben, Stellungnahme"],
             ["10", "Feuerwehrzugang / -zufahrt auf dem Grundstück vorhanden und gesichert?", "§§ 4 Abs. 2, 5", "Lageplan, Flächenzeichnung"],
             ["11", "Aufstell- und Bewegungsflächen für Hubrettungsfahrzeuge?", "§ 5 Satz 3", "Feuerwehrplan / Stellungnahme"],
             ["12", "Zufahrten befestigt, tragfähig, gekennzeichnet, freigehalten?", "§ 5 Satz 6", "Hafenplan"],
@@ -196,7 +198,7 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
         id: "verfahren",
         title: "Nachweis im Genehmigungsverfahren",
         paragraphs: [
-          "§ 33 Abs. 3 und § 37 BauO NRW setzen eine behördliche Prüfung voraus – insbesondere durch Brandschutzdienststelle und Bauaufsichtsbehörde. Wenn der zweite Weg über Rettungsgeräte begründet wird, gehört die schriftliche Stellungnahme der Brandschutzdienststelle zum Nachweis. Ablauf und Unterlagen: [Feuerwehr-Abstimmung vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
+          "§ 37 BauO NRW und – bei Sonderbauten – § 33 Abs. 3 Satz 2 setzen eine Prüfung voraus, ob Anleitern ohne Bedenken wegen der Personenrettung möglich ist; Brandschutzdienststelle und Bauaufsicht bleiben die Ansprechpartner. Wenn der zweite Weg über Rettungsgeräte begründet wird, gehört die schriftliche Stellungnahme der Brandschutzdienststelle zum Nachweis. Ablauf und Unterlagen: [Feuerwehr-Abstimmung vor dem Bauamt](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw).",
           "Innere Wohnungstreppe zum Spitzboden betrifft zusätzlich § 34 BauO NRW (verkehrssichere und benutzbare Anlagen) – getrennt von den Rettungswegen nach § 33.",
         ],
       },
@@ -221,7 +223,7 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
       {
         question: "Ersetzt ein Dachfenster die zweite Treppe?",
         answer:
-          "Nach § 33 Abs. 2 Satz 2 BauO NRW kann der zweite Rettungsweg eine weitere notwendige Treppe oder eine mit Rettungsgeräten der Feuerwehr erreichbare Stelle sein. § 33 Abs. 3: nur zulässig, wenn keine Bedenken wegen der Personenrettung bestehen.",
+          "Nach § 33 Abs. 2 Satz 2 BauO NRW kann der zweite Rettungsweg eine weitere notwendige Treppe oder eine mit Rettungsgeräten der Feuerwehr erreichbare Stelle sein. Bei Sonderbauten gilt zusätzlich § 33 Abs. 3 Satz 2: Anleitern nur ohne Bedenken wegen der Personenrettung.",
       },
       {
         question: "Welche Maße muss das Fenster haben?",
@@ -231,22 +233,22 @@ export const RATGEBER_ARTICLES_ZWEITER_RETTUNGSWEG_DACHFENSTER: RatgeberArticle[
       {
         question: "Ab welcher Brüstungshöhe gilt Hubrettung?",
         answer:
-          "§ 33 Abs. 5 BauO NRW: Liegt die Oberkante der Brüstung von zum Anleitern bestimmten Fenstern mehr als 8 m über Gelände, darf das Gebäude nur errichtet werden, wenn die Feuerwehr über Hubrettungsfahrzeuge verfügt. § 5 Satz 3: Aufstell- und Bewegungsflächen vorzusehen.",
+          "§ 33 Abs. 3 Satz 1 BauO NRW: Liegt die Oberkante der Brüstung von zum Anleitern bestimmten Fenstern mehr als 8 m über Gelände, darf das Gebäude nur errichtet werden, wenn die Feuerwehr über Hubrettungsfahrzeuge verfügt. § 5 Satz 3: Aufstell- und Bewegungsflächen vorzusehen.",
       },
       {
         question: "Wann entfällt der zweite Rettungsweg?",
         answer:
-          "§ 33 Abs. 4 BauO NRW: bei Sicherheitstreppenraum oder bei zu ebener Erde liegenden Räumen mit unmittelbarem Ausgang ins Freie in höchstens 15 m von jeder Stelle.",
+          "§ 33 Abs. 2 Satz 3: bei sicher erreichbarem Sicherheitstreppenraum. § 33 Abs. 1 Satz 3: bei eingeschossigen Nutzungseinheiten zu ebener Erde mit direktem Ausgang ins Freie. Die frühere 15-m-Regel für erdgeschossige Räume gilt seit 1.9.2026 in dieser Form nicht mehr.",
       },
       {
         question: "Was ist mit Beherbergungsstätten?",
         answer:
-          "§ 49 SBauVO NRW: bis 60 Gastbetten kann eine Feuerwehr-erreichbare Stelle als zweiter Rettungsweg genügen – nicht bei mehr als 30 Gastbetten in einem nicht zu ebener Erde liegenden Geschoss. § 37 bleibt für Fenster maßgeblich.",
+          "§ 49 SBauVO NRW: bis 60 Gastbetten kann eine Feuerwehr-erreichbare Stelle als zweiter Rettungsweg genügen – nicht bei mehr als 30 Gastbetten in einem nicht zu ebener Erde liegenden Geschoss. § 37 bleibt für Fenster maßgeblich. Als Sonderbau greift zusätzlich § 33 Abs. 3 Satz 2 zur Personenrettung.",
       },
       {
         question: "Brauche ich eine Feuerwehr-Stellungnahme?",
         answer:
-          "§ 33 Abs. 3 verlangt die Prüfung, ob Bedenken wegen der Personenrettung bestehen – im Verfahren durch Brandschutzdienststelle/Bauaufsicht. Die Stellungnahme der Brandschutzdienststelle gehört zum Nachweis im Antrag.",
+          "Bei Sonderbauten verlangt § 33 Abs. 3 Satz 2 die Prüfung, ob Bedenken wegen der Personenrettung bestehen – im Verfahren durch Brandschutzdienststelle/Bauaufsicht. Auch sonst gehört die Stellungnahme der Brandschutzdienststelle oft zum Nachweis, wenn der zweite Weg über Rettungsgeräte begründet wird.",
       },
     ],
   },

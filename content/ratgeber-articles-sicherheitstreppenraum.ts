@@ -9,14 +9,14 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
     slug: "sicherheitstreppenraum-bauo-sbauvo-nrw",
     title: "Sicherheitstreppenraum NRW: Wann ersetzt er den 2. Rettungsweg?",
     excerpt:
-      "Sicherheitstreppenraum nach § 33 Abs. 4 BauO NRW: Feuer und Rauch dürfen nicht eindringen. Er ersetzt den zweiten Rettungsweg – nicht die notwendige Treppe. Hochhaus: SBauVO § 99 und Druckbelüftung § 105.",
-    metaTitle: "Sicherheitstreppenraum NRW: § 33 Abs. 4 BauO | H&S+",
+      "Sicherheitstreppenraum nach § 33 Abs. 2 Satz 3 BauO NRW: Feuer und Rauch dürfen nicht eindringen. Er ersetzt den vertikalen zweiten Rettungsweg – nicht die notwendige Treppe. Hochhaus: SBauVO § 99 und Druckbelüftung § 105.",
+    metaTitle: "Sicherheitstreppenraum NRW: § 33 Abs. 2 BauO | H&S+",
     metaDescription:
-      "Sicherheitstreppenraum NRW: Definition, zweiter Rettungsweg, Flur 15 m, Hochhaus § 99/§ 105. Prüfkatalog für Planung und Genehmigung in Köln und NRW.",
+      "Sicherheitstreppenraum NRW ab 1.9.2026: § 33 Abs. 2 Satz 3, zweiter Rettungsweg, Flur 15 m, Hochhaus § 99/§ 105. Prüfkatalog für Planung und Genehmigung in Köln und NRW.",
     keywords: [
       "Sicherheitstreppenraum",
       "Sicherheitstreppenraum NRW",
-      "§ 33 Abs. 4 BauO NRW",
+      "§ 33 Abs. 2 Satz 3 BauO NRW",
       "zweiter Rettungsweg ersetzen",
       "SBauVO § 99",
       "Druckbelüftung Hochhaus",
@@ -28,7 +28,7 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
         id: "kurz",
         title: "Was ist ein Sicherheitstreppenraum?",
         paragraphs: [
-          "Ein Sicherheitstreppenraum (STR) ist ein Treppenraum, in den Feuer und Rauch nicht eindringen können. Nach § 33 Abs. 4 BauO NRW kann er den zweiten Rettungsweg entbehrlich machen – wenn er sicher erreichbar ist.",
+          "Ein Sicherheitstreppenraum (STR) ist ein Treppenraum, in den Feuer und Rauch nicht eindringen können. Nach § 33 Abs. 2 Satz 3 BauO NRW ist ein zweiter Rettungsweg nicht erforderlich, wenn die Rettung über einen sicher erreichbaren Sicherheitstreppenraum möglich ist.",
           "Er ersetzt nicht die notwendige Treppe (§ 34) und nicht den ersten Rettungsweg. Der STR ist eine besondere Qualitätsstufe des Treppenraums, kein Synonym für „notwendiger Treppenraum“ (§ 35).",
           "Normkette und Treppenraum-Pflicht: [Notwendige Treppe / Treppenraum](/ratgeber/notwendige-treppen-treppenraeume-bauo-sbauvo-nrw). Rettungsweg-Grundlagen: [Flucht- und Rettungswege](/ratgeber/flucht-und-rettungswege-bauo-nrw).",
         ],
@@ -43,16 +43,16 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
           rows: [
             ["Notwendige Treppe", "Vertikale Verbindung; oft erster Rettungsweg", "§ 34 BauO"],
             ["Notwendiger Treppenraum", "Geschützter Raum um die notwendige Treppe", "§ 35 BauO"],
-            ["Sicherheitstreppenraum", "Feuer/Rauch dürfen nicht eindringen; kann 2. Rettungsweg ersetzen", "§ 33 Abs. 4; § 99 SBauVO"],
+            ["Sicherheitstreppenraum", "Feuer/Rauch dürfen nicht eindringen; kann 2. Rettungsweg ersetzen", "§ 33 Abs. 2 Satz 3; § 99 SBauVO"],
           ],
         },
       },
       {
         id: "paragraph-33",
-        title: "§ 33 Abs. 4 BauO NRW – zweiter Rettungsweg",
+        title: "§ 33 Abs. 2 Satz 3 BauO NRW – Sicherheitstreppenraum",
         paragraphs: [
-          "Wortlaut: Ein zweiter Rettungsweg ist nicht erforderlich, wenn die Rettung über einen sicher erreichbaren Treppenraum möglich ist, in den Feuer und Rauch nicht eindringen können (Sicherheitstreppenraum) – oder bei zu ebener Erde liegenden Räumen mit unmittelbarem Ausgang ins Freie in höchstens 15 m von jeder Stelle.",
-          "Abs. 4 steht in der Rettungsweg-Systematik (§ 33), nicht in den Treppenraum-Bauarten (§ 35). Wirkung: Ausnahme vom zweiten Rettungsweg – nicht vom ersten und nicht von der notwendigen Treppe.",
+          "Wortlaut: Ein zweiter Rettungsweg ist nicht erforderlich, wenn die Rettung über einen sicher erreichbaren Treppenraum möglich ist, in den Feuer und Rauch nicht eindringen können (Sicherheitstreppenraum). (§ 33 Abs. 2 Satz 3)",
+          "Abs. 2 Satz 3 steht in der Rettungsweg-Systematik (§ 33), nicht in den Treppenraum-Bauarten (§ 35). Wirkung: Ausnahme vom vertikalen zweiten Rettungsweg – nicht vom ersten und nicht von der notwendigen Treppe. Die Regelung zu eingeschossigen Nutzungseinheiten zu ebener Erde mit direktem Ausgang liegt gesondert in § 33 Abs. 1 Satz 3; die frühere 15-m-Regel für erdgeschossige Räume entfällt seit 01.09.2026.",
           "Grenzfall ja: Büro mit nachgewiesenem STR und Stichflur ≤ 15 m – zweiter Weg über Feuerwehrfenster entfällt. Grenzfall nein: „Feuerbeständiger Treppenraum“ ohne Schutzzielnachweis – das allein ist kein STR.",
         ],
       },
@@ -60,7 +60,7 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
         id: "erreichbar",
         title: "„Sicher erreichbar“ und Flurlängen",
         paragraphs: [
-          "§ 33 Abs. 4 verlangt einen sicher erreichbaren STR. Die BauO verknüpft das mit den Flur- und Treppenraumregeln:",
+          "§ 33 Abs. 2 Satz 3 verlangt einen sicher erreichbaren STR. Die BauO verknüpft das mit den Flur- und Treppenraumregeln:",
           "Notwendige Flure mit nur einer Fluchtrichtung zum Sicherheitstreppenraum: maximal 15 m (§ 36 Abs. 3 Satz 5). Parallel gilt die allgemeine 35-m-Regel: von jeder Stelle eines Aufenthaltsraums oder Kellers Ausgang in einen notwendigen Treppenraum oder ins Freie in höchstens 35 m (§ 35 Abs. 1).",
           "Flurwände und Brandlasten: [Wände notwendiger Flure](/ratgeber/waende-notwendige-flure-bauo-nrw), [Brandlasten in Fluren](/ratgeber/brandlasten-notwendige-flure-bauo-nrw).",
         ],
@@ -69,7 +69,7 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
         id: "ausserhalb-hochhaus",
         title: "Außerhalb von Hochhäusern",
         paragraphs: [
-          "§ 33 Abs. 4 gilt allgemein – nicht nur für Hochhäuser. Die BauO nennt für Standardgebäude vor allem das Schutzziel; eine fertige Checkliste wie Vorraum plus Druckbelüftung steht dort nicht.",
+          "§ 33 Abs. 2 Satz 3 gilt allgemein – nicht nur für Hochhäuser. Die BauO nennt für Standardgebäude vor allem das Schutzziel; eine fertige Checkliste wie Vorraum plus Druckbelüftung steht dort nicht.",
           "Ob Feuer und Rauch nicht eindringen können, ist außerhalb des Hochhaus-Teils der SBauVO im Einzelfall nachzuweisen – typisch im Brandschutzkonzept oder in der Stellungnahme, Abstimmung mit Bauaufsicht und Brandschutzdienststelle in Köln und NRW.",
         ],
       },
@@ -123,7 +123,7 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
           caption: "Planung und Nachweis – gesetzliche Prüfpunkte",
           headers: ["Nr.", "Prüffrage", "Norm", "Soll"],
           rows: [
-            ["1", "STR statt 2. Rettungsweg?", "§ 33 Abs. 4", "Sicher erreichbar; Feuer/Rauch nicht eindringen"],
+            ["1", "STR statt 2. Rettungsweg?", "§ 33 Abs. 2 Satz 3", "Sicher erreichbar; Feuer/Rauch nicht eindringen"],
             ["2", "Notwendige Treppe / 1. Weg gesichert?", "§ 33 Abs. 2; § 34", "Ja – STR ersetzt keine Treppe"],
             ["3", "Sackflur nur zum STR?", "§ 36 Abs. 3 S. 5", "≤ 15 m"],
             ["4", "Ausgang zu TR / Freies?", "§ 35 Abs. 1", "≤ 35 m"],
@@ -161,7 +161,7 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
       {
         question: "Was ist ein Sicherheitstreppenraum?",
         answer:
-          "Ein Treppenraum, in den Feuer und Rauch nicht eindringen können. Nach § 33 Abs. 4 BauO NRW kann er den zweiten Rettungsweg ersetzen, wenn er sicher erreichbar ist.",
+          "Ein Treppenraum, in den Feuer und Rauch nicht eindringen können. Nach § 33 Abs. 2 Satz 3 BauO NRW ist ein zweiter Rettungsweg nicht erforderlich, wenn die Rettung über einen sicher erreichbaren Sicherheitstreppenraum möglich ist.",
       },
       {
         question: "Ersetzt der Sicherheitstreppenraum die notwendige Treppe?",
@@ -171,12 +171,12 @@ export const RATGEBER_ARTICLES_SICHERHEITSTREPPENRAUM: RatgeberArticle[] = [
       {
         question: "Ist jeder feuerbeständige Treppenraum ein Sicherheitstreppenraum?",
         answer:
-          "Nein. § 35 regelt den notwendigen Treppenraum. Der STR verlangt zusätzlich das Schutzziel aus § 33 Abs. 4 und in Hochhäusern die SBauVO-Konkretisierung (Vorraum/offener Gang, Druckbelüftung).",
+          "Nein. § 35 regelt den notwendigen Treppenraum. Der STR verlangt zusätzlich das Schutzziel aus § 33 Abs. 2 Satz 3 und in Hochhäusern die SBauVO-Konkretisierung (Vorraum/offener Gang, Druckbelüftung).",
       },
       {
         question: "Gilt der Sicherheitstreppenraum nur in Hochhäusern?",
         answer:
-          "Die Ausnahme des § 33 Abs. 4 gilt allgemein. Die detaillierten Hochhaus-Anforderungen stehen in der SBauVO (§§ 98–100, § 105) für Gebäude über 22 m.",
+          "Die Ausnahme des § 33 Abs. 2 Satz 3 gilt allgemein. Die detaillierten Hochhaus-Anforderungen stehen in der SBauVO (§§ 98–100, § 105) für Gebäude über 22 m.",
       },
       {
         question: "Wann gelten 15 m, wann 35 m?",

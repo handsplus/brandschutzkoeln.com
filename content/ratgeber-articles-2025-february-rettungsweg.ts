@@ -61,8 +61,8 @@ export const RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG: RatgeberArticle[] = [
         id: "nachweis",
         title: "Wer prüft und wer bescheinigt",
         paragraphs: [
-          "Im vereinfachten Baugenehmigungsverfahren für Anlagen, die keine großen Sonderbauten sind, prüft die sachverständige Person nach § 87 Abs. 2 BauO NRW oder ein staatlich anerkannter Sachverständiger für Brandschutz. Nach § 16 Abs. 2 SV-VO müssen sie den erhöhten Anforderungen der Brandschutzdienststelle entsprechen – sachverständige Person und Brandschutzdienststelle müssen übereinstimmen.",
-          "Nur dann darf eine Bescheinigung nach § 68 Abs. 2 BauO NRW ausgestellt werden. Widerspricht die Brandschutzdienststelle, darf der Sachverständige die Bescheinigung nicht gegen deren Forderungen ausstellen. Bei Sonderbauten und vollständigen Brandschutzkonzepten läuft die Prüfung über den Prüfingenieur Brandschutz – die [Feuerwehr-Abstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw) bleibt sinnvoll, wenn Rettung von außen mitgedacht wird.",
+          "Im vereinfachten Verfahren prüft die Bauaufsicht bei Sonderbauten, die keine großen Sonderbauten sind, auch den Brandschutz (§ 64 Abs. 1 Satz 2) und zieht dafür in der Regel eine Prüfingenieurin oder einen Prüfingenieur für Brandschutz hinzu (§ 68 Abs. 2 Satz 5). Bei GK 4 und 5 ohne Sonderbau reichst du die Bescheinigung einer oder eines Prüfsachverständigen für Brandschutz ein (§ 68 Abs. 2 Satz 3).",
+          "Die [Feuerwehr-Abstimmung](/ratgeber/feuerwehr-abstimmung-vor-bauamt-bauo-nrw) bleibt sinnvoll, wenn Rettung von außen oder ein Innenhof als zweiter Weg mitgedacht wird – unabhängig davon, ob die Stufe Prüfsachverständige oder Prüfingenieur greift.",
         ],
       },
       {
@@ -102,7 +102,7 @@ export const RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG: RatgeberArticle[] = [
       {
         question: "Kann ein Innenhof der zweite Rettungsweg sein?",
         answer:
-          "Ja, wenn kumulativ gilt: Personen können den Trümmerschatten verlassen, haben Abstand zu Feuer und Rauch aus Fassadenöffnungen und können sicher auf Rettungskräfte warten. Sachverständige Person und Brandschutzdienststelle müssen übereinstimmen (§ 68 Abs. 2, § 16 Abs. 2 SV-VO).",
+          "Ja, wenn kumulativ gilt: Personen können den Trümmerschatten verlassen, haben Abstand zu Feuer und Rauch aus Fassadenöffnungen und können sicher auf Rettungskräfte warten. Die Brandschutzstufe richtet sich nach § 68 Abs. 2: bei GK 4/5 ohne Sonderbau Prüfsachverständige, bei kleinen Sonderbauten im vereinfachten Verfahren in der Regel Prüfingenieur (§ 68 Abs. 2 Satz 5).",
       },
       {
         question: "Brauchen beide Rettungswege eine eigene Treppe?",
@@ -117,7 +117,7 @@ export const RATGEBER_ARTICLES_2025_FEBRUARY_RETTUNGSWEG: RatgeberArticle[] = [
       {
         question: "Wer prüft den Innenhof als Rettungsweg?",
         answer:
-          "Im vereinfachten Verfahren die sachverständige Person nach § 87 Abs. 2 BauO NRW oder ein staatlich anerkannter Sachverständiger – in Übereinstimmung mit der Brandschutzdienststelle. Bei Widerspruch der Dienststelle keine Bescheinigung gegen deren Forderungen. Bei Sonderbauten der Prüfingenieur Brandschutz im Konzept.",
+          "Im vereinfachten Verfahren: Bei Sonderbauten, die keine großen Sonderbauten sind, prüft die Bauaufsicht den Brandschutz (§ 64 Abs. 1 Satz 2) und zieht in der Regel eine Prüfingenieurin oder einen Prüfingenieur hinzu (§ 68 Abs. 2 Satz 5). Bei GK 4 und 5 ohne Sonderbau reicht die Bescheinigung einer oder eines Prüfsachverständigen für Brandschutz (§ 68 Abs. 2 Satz 3).",
       },
       {
         question: "Gilt das auch für Sonderbauten?",
