@@ -29,7 +29,7 @@ export const RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB: RatgeberArticle[] = [
         title: "Was eine Nutzungsänderung brandschutzrechtlich bedeutet",
         paragraphs: [
           "Brandschutzrechtlich zählt die tatsächliche Nutzung: Aufenthaltsräume, Personenzahl, Gefahrstoffe, Öffnungszeiten und Erschließung. Die Marketing-Bezeichnung allein entscheidet nicht. Ein Ladenlokal mit Mitnahmeverkauf ist ein anderes Risikoprofil als ein Imbiss mit Frittieren und Grill – auch bei ähnlicher Fläche.",
-          "Die Schutzpflicht aus § 3 Abs. 1 BauO NRW gilt dauerhaft, auch bei Nutzungsänderung. Zusätzlich entscheiden die Verfahrensvorschriften und bei bestehenden Anlagen § 59, was nachgerüstet oder neu nachgewiesen werden muss.",
+          "Die Schutzpflicht aus § 3 Satz 1 BauO NRW gilt dauerhaft, auch bei Nutzungsänderung. Zusätzlich entscheiden die Verfahrensvorschriften und bei bestehenden Anlagen § 59, was nachgerüstet oder neu nachgewiesen werden muss.",
           "H&S+ erstellt brandschutztechnische Stellungnahmen und Brandschutzkonzepte für Umnutzungen in Köln und NRW.",
         ],
       },
@@ -38,7 +38,7 @@ export const RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB: RatgeberArticle[] = [
         title: "Genehmigung, Anzeige oder „nur Gewerbe“?",
         paragraphs: [
           "Ob ein Vorhaben genehmigungspflichtig ist, richtet sich nach Art und Umfang der baulichen Änderung und der Nutzung. Rein betriebliche Maßnahmen ohne baulichen Eingriff – zum Beispiel eine neue Brandschutzordnung – sind nicht dasselbe wie ein Umbau mit neuen Wänden, Abluft oder geänderter Nutzung.",
-          "Eine Gewerbeanmeldung ersetzt keine Baugenehmigung, wenn Küche, Trennwände, Abluft oder Personenzahl neu sind. Genehmigungsfreiheit entbindet nicht von der Einhaltung der öffentlich-rechtlichen Anforderungen. Bei kleinen Gewerbevorhaben ohne Sonderbau-Komplexität kommt in der Praxis das vereinfachte Verfahren nach § 64 in Betracht – die Entscheidung trifft die Bauaufsicht.",
+          "Eine Gewerbeanmeldung ersetzt keine Baugenehmigung, wenn Küche, Trennwände, Abluft oder Personenzahl neu sind. Genehmigungsfreiheit entbindet nicht von der Einhaltung der öffentlich-rechtlichen Anforderungen. Außer bei großen Sonderbauten läuft der Bauantrag im vereinfachten Baugenehmigungsverfahren (§ 64 Abs. 1 BauO NRW).",
           "Vertiefung zu Ablauf und Nachweisen: [Umbau und Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz).",
         ],
       },
@@ -100,8 +100,8 @@ export const RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB: RatgeberArticle[] = [
         id: "bestand",
         title: "Bestandsschutz § 59 – was er leistet und was nicht",
         paragraphs: [
-          "§ 59 Abs. 1 begrenzt pauschale Nachrüstung im Weiterbetrieb rechtmäßig bestehender Anlagen. Nachrüstung kann verlangt werden, wenn dies im Einzelfall wegen der Abwehr von Gefahren für Leben und Gesundheit erforderlich ist.",
-          "Bei wesentlicher Änderung kann § 59 Abs. 2 verlangen, dass auch konstruktiv zusammenhängende Teile angepasst werden – sofern kein unverhältnismäßiger Mehraufwand entsteht. Bestandsschutz ist kein Freibrief für stille Umnutzung.",
+          "§ 59 Abs. 1 begrenzt pauschale Nachrüstung im Weiterbetrieb rechtmäßig bestehender Anlagen. Nachrüstung kann verlangt werden, wenn dies im Einzelfall zur Abwehr erheblicher Gefahren für Leben und Gesundheit erforderlich ist.",
+          "Änderst du ein bestehendes Gebäude wesentlich, dürfen an die nicht berührten Teile nur Anforderungen gestellt werden, wenn das im Einzelfall zur Abwehr von Gefahren für Leben und Gesundheit erforderlich ist. Beim Brandschutz beschränkt sich der Nachweis für den verbleibenden Bestand auf die Rettungswege nach § 33 (§ 59 Abs. 2). Bestandsschutz ist kein Freibrief für stille Umnutzung.",
           "Vertiefung: [Bestandsschutz](/ratgeber/bestandsschutz-technische-sanierung-bauo-nrw).",
         ],
       },
@@ -130,7 +130,7 @@ export const RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB: RatgeberArticle[] = [
             ["4", "Wird ein Sonderbau-Tatbestand neu erfüllt?", "§ 50 Abs. 1 und Abs. 2 getrennt."],
             ["5", "Stellungnahme oder Konzept?", "Umfang und Bauaufsicht klären."],
             ["6", "Gibt es genehmigte Bestandsunterlagen?", "BSK, Genehmigung, Fluchtpläne."],
-            ["7", "Greift § 59 Abs. 2?", "Wesentliche Änderung, Zusammenhang, Aufwand."],
+            ["7", "Greift § 59 Abs. 2?", "Wesentliche Änderung; unberührte Teile nur zur Gefahrenabwehr; Brandschutz Restbestand auf § 33."],
             ["8", "BSO und Fluchtpläne mitziehen?", "Bei geänderten Personenströmen typisch ja."],
           ],
         },
@@ -167,7 +167,7 @@ export const RATGEBER_ARTICLES_NUTZUNGSAENDERUNG_HUB: RatgeberArticle[] = [
       {
         question: "Schützt der Bestandsschutz vor Nachrüstung?",
         answer:
-          "§ 59 begrenzt pauschale Nachrüstung im Weiterbetrieb. Bei Änderung und Nutzungsänderung gelten die aktuellen Anforderungen im betroffenen Bereich; bei wesentlicher Änderung kann der Zusammenhang erweitert nachgezogen werden.",
+          "§ 59 begrenzt pauschale Nachrüstung im Weiterbetrieb. Bei wesentlicher Änderung dürfen an unberührte Teile nur Anforderungen zur Abwehr von Gefahren für Leben und Gesundheit gestellt werden; der Brandschutznachweis für den Restbestand beschränkt sich auf § 33 (§ 59 Abs. 2).",
       },
       {
         question: "Wann wird aus Laden ein Sonderbau?",

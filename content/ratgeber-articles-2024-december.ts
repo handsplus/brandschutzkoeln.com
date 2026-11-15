@@ -130,7 +130,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
           "Die konkreten Anforderungen an Zu- und Durchgänge, Zu- und Durchfahrten sowie Aufstell- und Bewegungsflächen auf den Grundstücken sind in den MRFlFw geregelt – als Technische Baubestimmung nach § 88 BauO NRW zwingend zu beachten.",
 
-          "Die Größe der Aufstell- und Bewegungsflächen legen die Entwurfsverfassenden beziehungsweise die staatlich anerkannten Sachverständigen für die Prüfung des Brandschutzes fest – in Abstimmung mit der Brandschutzdienststelle. Pauschale Skizzen ohne Fahrzeugmaße und Hubarmlänge reichen nicht.",
+          "Die Größe der Aufstell- und Bewegungsflächen legen die Entwurfsverfassenden beziehungsweise Prüfsachverständige für Brandschutz (§ 68 Abs. 2 Satz 3 BauO NRW) fest – in Abstimmung mit der Brandschutzdienststelle. Pauschale Skizzen ohne Fahrzeugmaße und Hubarmlänge reichen nicht.",
 
           "Im Lageplan gehören Zufahrt, Bewegungsflächen auf dem Grundstück und die Nutzung der öffentlichen Verkehrsfläche als Aufstellbereich für Hubrettungsfahrzeuge dazu – mit Kennzeichnung und Freihaltung. Bei Sonderbauten ergänzend [SBauVO § 93](/ratgeber/feuerwehrzufahrt-bewegungsflaeche-sbauvo-nrw).",
 
@@ -257,7 +257,7 @@ export const RATGEBER_ARTICLES_2024_DECEMBER: RatgeberArticle[] = [
 
         answer:
 
-          "Entwurfsverfassende oder staatlich anerkannte Sachverständige für Brandschutz in Abstimmung mit der Brandschutzdienststelle – nach MRFlFw als Technischer Baubestimmung.",
+          "Entwurfsverfassende oder Prüfsachverständige für Brandschutz (§ 68 Abs. 2 Satz 3) in Abstimmung mit der Brandschutzdienststelle – nach MRFlFw als Technischer Baubestimmung.",
 
       },
 

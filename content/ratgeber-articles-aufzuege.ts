@@ -53,7 +53,7 @@ export const RATGEBER_ARTICLES_AUFZUEGE: RatgeberArticle[] = [
         id: "fahrschacht",
         title: "§ 39 BauO – Fahrschacht und Rauchableitung",
         paragraphs: [
-          "Aufzüge im Innern von Gebäuden brauchen eigene Fahrschächte, um Brandausbreitung in andere Geschosse ausreichend lang zu verhindern. Pro Schacht höchstens drei Aufzüge.",
+          "Aufzüge im Innern von Gebäuden brauchen notwendige Fahrschächte (§ 39 Abs. 1), um Brandausbreitung in andere Geschosse ausreichend lang zu verhindern. Pro Schacht höchstens drei Aufzüge.",
           "Fahrschächte sind zu lüften; Rauchaustrittsöffnung mindestens 2,5 Prozent der Schachtgrundfläche, mindestens 0,10 m² – mit Abschluss, der im Brandfall selbsttätig öffnet und von geeigneter Stelle bedienbar ist. Windgeschützte Lage des Rauchaustritts.",
           "Fahrschachttüren und andere Öffnungen dürfen den Brandausbreitungsschutz des Schachts nicht beeinträchtigen. Details zu Türen: [Brandschutztüren](/ratgeber/tuerarten-brandschutz-bauo-nrw).",
         ],
