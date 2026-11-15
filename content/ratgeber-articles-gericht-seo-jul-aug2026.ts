@@ -36,7 +36,7 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
         title: "Was Gerichte dazu sagen",
         paragraphs: [
           "VG Mainz 3 K 39/23.MZ (Urteil vom 06.12.2023, Rheinland-Pfalz): Ohne wirksame Abweichungszulassung bleibt der rechtswidrige Brandwandzustand angreifbar; Nachbarzustimmung allein rettet nicht. Das ist kein NRW-Urteil – die NRW-Übertragung läuft über § 30, § 69 und § 82 BauO NRW sowie den MHKBD-Erlass zu § 69 (Verwaltungsvorschrift, kein Gesetz).",
-          "Für NRW gilt: Zweck der Brandwandvorschrift, öffentliche Belange (§ 3) und öffentlich-rechtlich geschützte Nachbarbelange müssen gewahrt sein. Bei nachbarlichen Belangen keine SV-Bescheinigung nach § 69 Abs. 1a – die Bauaufsicht entscheidet. Brandschutzdienststelle hören, wenn Löschen oder Retten berührt sind. Eine Abweichung schließt die Genehmigungsfreistellung aus (§ 63 Abs. 2 Nr. 4); Abs. 1a rettet die Freistellung nicht.",
+          "Für NRW gilt: Zweck der Brandwandvorschrift, öffentliche Belange (§ 3 Satz 1) und öffentlich-rechtlich geschützte Nachbarbelange müssen gewahrt sein. Bei nachbarlichen Belangen entscheidet die Bauaufsicht – nicht die SV-Bescheinigung nach § 69 Abs. 1 Satz 6. Brandschutzdienststelle hören, wenn Löschen oder Retten berührt sind. Seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus; die Abweichung beantragst du gesondert (§ 69 Abs. 2).",
         ],
       },
       {
@@ -51,7 +51,7 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
         id: "nachweis",
         title: "Drei Optionen vor dem Einschreiten",
         paragraphs: [
-          "Option A: Materielle Anforderung erfüllen (Brandwand feuerbeständig schließen). Option B: Abweichung § 69 mit Nachweis der Zweckerfüllung – bei Nachbarn behördlich, sonst ggf. SV nach Abs. 1a. Option C: ausgleichende Maßnahmen im Konzept bei großen Sonderbauten – nicht dasselbe wie § 69.",
+          "Option A: Materielle Anforderung erfüllen (Brandwand feuerbeständig schließen). Option B: Abweichung § 69 mit Nachweis der Zweckerfüllung – bei Nachbarn behördlich, sonst ggf. SV-Bescheinigung nach § 69 Abs. 1 Satz 6. Option C: ausgleichende Maßnahmen im Konzept bei großen Sonderbauten – nicht dasselbe wie § 69.",
           "Was die Öffnung rechtlich ist und ob ein „Fenstertausch“ überhaupt § 62 greift: [Glasbaustein vs. Fenster](/ratgeber/brandwand-glasbaustein-fenster-bauo-nrw), [Fenstertausch / Nutzungsänderung](/ratgeber/brandwand-fenstertausch-nutzungsaenderung-bauo-nrw). Hub: [Abweichung § 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
         ],
       },
@@ -73,9 +73,9 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
           rows: [
             ["1", "Genehmigung / rechtmäßiger Bestand belegt?", "Einschreiten wahrscheinlich"],
             ["2", "Brandwand / § 30 erfüllt?", "Abweichung oder Beseitigung"],
-            ["3", "Wirksame §-69-Zulassung (Behörde oder 1a ohne Nachbarn)?", "Zustand bleibt angreifbar"],
+            ["3", "Wirksame §-69-Zulassung (Behörde oder Abs. 1 Satz 6 ohne Nachbarn)?", "Zustand bleibt angreifbar"],
             ["4", "Brandschutzdienststelle gehört (Löschen/Retten)?", "Abweichung riskant"],
-            ["5", "Freistellung § 63 geplant trotz Abweichung?", "Freistellung ausgeschlossen"],
+            ["5", "Freistellung § 63 geplant trotz Abweichung?", "Seit 01.09.2026 nicht mehr ausgeschlossen; Abweichung gesondert beantragen"],
             ["6", "Frist / Zwangsgeld im Bescheid?", "Sofort handeln, nicht aussitzen"],
           ],
         },
@@ -125,7 +125,7 @@ export const RATGEBER_ARTICLES_GERICHT_SEO_JUL_AUG2026: RatgeberArticle[] = [
       {
         question: "Kann ich parallel Freistellung und Abweichung fahren?",
         answer:
-          "Nein. Eine Abweichung nach § 69 schließt die Genehmigungsfreistellung aus (§ 63 Abs. 2 Nr. 4). Die SV-Bescheinigung nach Abs. 1a rettet die Freistellung nicht.",
+          "Ja – seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus. Die Abweichung beantragst du gesondert (§ 69 Abs. 2); die Bescheinigungslösung steht in § 69 Abs. 1 Satz 6.",
       },
       {
         question: "Was vor der Anhörung tun?",

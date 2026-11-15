@@ -26,7 +26,7 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
         title: "Warum die BauO allein für Hallen nicht reicht",
         paragraphs: [
           "Große Lager- und Produktionshallen sind oft formal Gebäudeklasse 1 bis 3 – mit vergleichsweise moderaten Anforderungen an tragende Bauteile. Trotzdem kann die Bauaufsicht strengere Lösungen verlangen: Industriebauten mit hoher Brandlast, geringer Personenanzahl und schwieriger Brandbekämpfung fallen unter die Richtlinie über den baulichen Brandschutz im Industriebau (IndBauR NRW, MBl. NRW 2015).",
-          "Die IndBauR ist Technische Baubestimmung nach § 3 Abs. 3 BauO NRW und setzt Mindestanforderungen an Feuerwiderstand, Brandabschnittsgrößen, Brandbekämpfungsabschnitte und Rettungswege. Sie gilt für Industriebauten ohne Aufenthaltsräume in der in der Richtlinie beschriebenen Nutzung – typisch Logistik, Fertigung, Werkstätten mit Lageranteil.",
+          "Die IndBauR ist Technische Baubestimmung nach § 88 Abs. 1 BauO NRW und setzt Mindestanforderungen an Feuerwiderstand, Brandabschnittsgrößen, Brandbekämpfungsabschnitte und Rettungswege. Sie gilt für Industriebauten ohne Aufenthaltsräume in der in der Richtlinie beschriebenen Nutzung – typisch Logistik, Fertigung, Werkstätten mit Lageranteil.",
           "Grenzfall ja: Neue Halle 12.000 m² mit Regalhochlast, IndBauR-Nachweis mit Brandbekämpfungsabschnitten und Entrauchungskonzept nach DIN 18230-1. Grenzfall nein: „Nur GK 3, reicht schon“ – ohne IndBauR-Prüfung bei klarer Industrienutzung und hoher Brandlast.",
         ],
       },
@@ -58,7 +58,7 @@ export const RATGEBER_ARTICLES_2025_APRIL: RatgeberArticle[] = [
         paragraphs: [
           "Umnutzung Lager zu Büro ohne IndBauR-Neubewertung – [Lagerhalle Büro](/ratgeber/lagerhalle-buero-umnutzung-koeln) zeigt das Konzept-Thema; Industriebestand bleibt IndBauR-relevant, wenn Nutzung industriell bleibt.",
           "Teilweise IndBauR anwenden: Wird die Richtlinie gewählt, müssen alle sich ergebenden Anforderungen erfüllt werden – keine Cherry-Picking-Lösung.",
-          "Abweichung nur im Brandschutzkonzept: § 3 Abs. 1 Satz 3 BauO NRW erlaubt gleichwertige Lösungen – aber nur mit nachgewiesenem Sicherheitsniveau, nicht mit Verweis allein auf GK.",
+          "Gleichwertige Lösungen – etwa über dein Brandschutzkonzept – sind möglich: Von Planungs-, Bemessungs- und Ausführungsregeln der Technischen Baubestimmungen kannst du abweichen, wenn eine andere Lösung die Anforderungen in gleichem Maße erfüllt (§ 88 Abs. 1 Satz 3). Bei gesetzlichen Anforderungen geht das über eine Abweichung nach § 69 – nicht mit Verweis allein auf GK.",
           "Sprinkler als Ersatz für Abschnitte: Löschanlagen können Kompensation sein, müssen aber im [Brandschutzkonzept](/ratgeber/brandschutzkonzept-wann-noetig) und gegenüber der Behörde begründet sein.",
         ],
       },

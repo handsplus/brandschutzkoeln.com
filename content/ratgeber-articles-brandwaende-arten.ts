@@ -124,7 +124,7 @@ export const RATGEBER_ARTICLES_BRANDWAENDE_ARTEN: RatgeberArticle[] = [
         paragraphs: [
           "Brandwände müssen bis zur Bedachung durchgehen und in allen Geschossen übereinander liegen (§ 30 Abs. 4). Geschossweise versetzte innere Wände nur, wenn alle Voraussetzungen des Abs. 4 Satz 2 erfüllt sind – u. a. feuerbeständige Decken ohne Öffnungen, feuerbeständige Unterstützung und Außenwände im Versatzbereich.",
           "Dachabschluss § 30 Abs. 5: 0,30 m über die Bedachung oder feuerbeständige Auskragungsplatte beiderseits 0,50 m; GK 1–3 mindestens bis unter die Dachhaut. Brennbare Dachteile dürfen nicht über die Brandwand hinweggeführt werden.",
-          "Eck-Trennung § 30 Abs. 6: Abstand der Brandwand von der inneren Ecke mindestens 3 m – Ausnahmen bei Winkel > 120° oder öffnungsloser Außenwand auf 5 m (feuerbeständig bzw. bei GK 1–4 hochfeuerhemmend).",
+          "Eck-Trennung § 30 Abs. 6: Abstand der Brandwand von der inneren Ecke mindestens 3 m – Ausnahmen bei Winkel > 120° oder öffnungsloser Außenwand auf 3 m (feuerbeständig bzw. bei GK 1–4 hochfeuerhemmend).",
         ],
       },
       {
@@ -176,7 +176,7 @@ export const RATGEBER_ARTICLES_BRANDWAENDE_ARTEN: RatgeberArticle[] = [
             ["3", "Volle Brandwand oder Ersatzwand?", "§ 30 Abs. 3", "Feuerbeständig+nichtbrennbar bzw. GK-Ersatz korrekt"],
             ["4", "Durchgehend bis Dach / übereinander?", "§ 30 Abs. 4", "Ja – oder Versatz mit allen Voraussetzungen"],
             ["5", "Dachabschluss 0,30 m / Platte / GK 1–3?", "§ 30 Abs. 5", "Erfüllt"],
-            ["6", "Ecksituation ≥ 3 m?", "§ 30 Abs. 6", "Oder Ausnahme Winkel / öffnungslose Wand"],
+            ["6", "Ecksituation ≥ 3 m?", "§ 30 Abs. 6", "Oder Ausnahme Winkel / öffnungslose Außenwand auf 3 m"],
             ["7", "Öffnungen?", "§ 30 Abs. 10", "Nur innere, begrenzt; Abschlüsse feuerbeständig"],
             ["8", "Verwechslung mit Trennwand / Rauchabschnitt?", "§ 29 / § 36", "Norm und Türqualität stimmen"],
             ["9", "Sonderbau Verkauf / Garage?", "SBauVO §§ 65, 132", "SBauVO-Regeln prüfen"],

@@ -248,15 +248,15 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
     slug: "genehmigungsfrei-garage-freischank-bauo-nrw",
     title: "Genehmigungsfreie Vorhaben: Garagen, Freischank und die Brandschutz-Falle",
     excerpt:
-      "§ 62 BauO NRW erlaubt vieles ohne Baugenehmigung – aber nicht ohne Brandschutz. Garagen bis 30 m², Freischank bis 40 m²: wann genehmigungsfrei trotzdem Nachweis und Auflagen braucht.",
+      "Garagen bis 50 m², Freischank bis 40 m²: wann genehmigungsfrei trotzdem Nachweis und Auflagen braucht.",
     metaTitle: "Genehmigungsfrei §62 BauO: Brandschutz | H&S+",
     metaDescription:
-      "§ 62 BauO NRW genehmigungsfrei: Garage 30 m², Freischank 40 m², Wintergarten – Brandschutzpflichten bleiben. Handlungsempfehlung NRW.",
+      "§ 62 BauO NRW genehmigungsfrei: Garage 50 m², Freischank 40 m², Wintergarten – Brandschutzpflichten bleiben. Handlungsempfehlung NRW.",
     keywords: [
       "genehmigungsfrei BauO NRW",
       "§ 62 BauO NRW",
       "Freischankfläche Brandschutz",
-      "Garage 30 m² genehmigungsfrei",
+      "Garage 50 m² genehmigungsfrei",
       "Brandschutz ohne Baugenehmigung",
       "Wintergarten genehmigungsfrei",
     ],
@@ -267,15 +267,15 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         paragraphs: [
           "§ 62 BauO NRW listet genehmigungsfreie Bauvorhaben – isoliert, ohne funktionalen Zusammenhang mit größerem Vorhaben. Die Handlungsempfehlung der Bauaufsicht NRW (2018) präzisiert die Auslegung.",
           "Wichtig: Genehmigungsfreiheit entbindet nicht von öffentlich-rechtlichen Anforderungen – Brandschutz, Abstandsflächen, Stellplätze bleiben. Bauaufsicht kann eingreifen, wenn Vorschriften verletzt werden.",
-          "Grenzfall ja: Freischank 35 m² an Gaststätte, genehmigungsfrei nach § 62 Abs. 1 Nr. 10 f), aber Räumungswege, Feuerlöscher, ggf. Sonderbau-Umfeld des Gastbetriebs bleiben relevant. Grenzfall nein: „Steht unter § 62, brauchen wir kein Brandschutz“ – Feuerwehrzufahrt blockiert, Rettungsweg fehlt.",
+          "Grenzfall ja: Freischank 35 m² an Gaststätte, genehmigungsfrei nach § 62 Abs. 1 Satz 1 Nr. 14 e), aber Räumungswege, Feuerlöscher, ggf. Sonderbau-Umfeld des Gastbetriebs bleiben relevant. Grenzfall nein: „Steht unter § 62, brauchen wir kein Brandschutz“ – Feuerwehrzufahrt blockiert, Rettungsweg fehlt.",
         ],
       },
       {
         id: "garagen",
-        title: "Garagen und Stellplätze bis 30 m²",
+        title: "Garagen und Stellplätze bis 50 m²",
         paragraphs: [
-          "§ 62 Abs. 1 Nr. 1 b) BauO NRW: Garagen und überdachte Stellplätze genehmigungsfrei mit mittlerer Wandhöhe bis 3 m – Brutto-Grundfläche aller genehmigungsfrei errichteten Garagen/Stellplätze auf dem Grundstück zusammen max. 30 m².",
-          "Mehrere kleine Garagen: Summe 30 m², nicht je Garage. Überschreitung → Genehmigungsbedürftigkeit und ggf. [Mittelgarage SBauVO](/ratgeber/mittelgrossgaragen-brandschutz-sbauvo-nrw) ab 100 m².",
+          "§ 62 Abs. 1 Satz 1 Nr. 1 b) BauO NRW: Garagen einschließlich überdachter Stellplätze mit mittlerer Wandhöhe bis 3 m und einer Brutto-Grundfläche von insgesamt bis zu 50 m² sind verfahrensfrei – außer im Außenbereich.",
+          "Mehrere kleine Garagen: Summe 50 m², nicht je Garage. Überschreitung → Genehmigungsbedürftigkeit und ggf. [Mittelgarage SBauVO](/ratgeber/mittelgrossgaragen-brandschutz-sbauvo-nrw) ab 100 m².",
           "In Abstandsflächen: § 6 Abs. 8 BauO – privilegierte Nebenanlagen nur bis 30 m³ bzw. eingeschränkter – Abstand und Brandwand-Thema bleibt.",
         ],
       },
@@ -283,7 +283,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         id: "freischank",
         title: "Freischankflächen bis 40 m²",
         paragraphs: [
-          "§ 62 Abs. 1 Nr. 10 f): Errichtung und Änderung von Freischankflächen bis 40 m² inkl. verbundener Nutzungsänderung Gaststätte oder Verkaufsstelle Lebensmittelhandwerk – genehmigungsfrei.",
+          "§ 62 Abs. 1 Satz 1 Nr. 14 e): Errichtung und Änderung von Freischankflächen bis 40 m² inkl. verbundener Nutzungsänderung Gaststätte oder Verkaufsstelle Lebensmittelhandwerk – genehmigungsfrei.",
           "Freischank: im Freien liegender Teil der Gaststätte/Verkaufsstelle zum Verzehr vor Ort – nicht jede Terrasse mit Tischen.",
           "Brandschutz: [Gastronomie](/ratgeber/feuerloescher-gastronomie-koeln), Fluchtwege aus dem Gastbetrieb, Heißarbeiten, Fettbrand – genehmigungsfrei heißt nicht MVStättVO/SBauVO-frei, wenn Sonderbau-Tatbestand des Hauptbetriebs besteht.",
         ],
@@ -302,7 +302,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
         title: "Typische Fehler",
         paragraphs: [
           "Freischank + Innenraum-Erweiterung als ein Vorhaben – funktionaler Zusammenhang kann Genehmigungspflicht für Gesamtvorhaben auslösen.",
-          "Dritte Garage à 15 m² auf demselben Grundstück – Summe 45 m², § 62 überschritten.",
+          "Drei Garagen à 15 m² auf demselben Grundstück – Summe 45 m² bleibt unter 50 m² und ist verfahrensfrei, sofern die übrigen Voraussetzungen passen; ab 50 m² Summe greift § 62 nicht mehr.",
           "Genehmigungsfreier Wintergarten an GK-4-Gebäude – andere Grenzen als GK 1–3; Fachplanung prüfen.",
         ],
       },
@@ -330,7 +330,7 @@ export const RATGEBER_ARTICLES_2025_JUNE: RatgeberArticle[] = [
       {
         question: "Wie viele Garagen à 20 m² sind erlaubt?",
         answer:
-          "Summe aller genehmigungsfrei errichteten Garagen/Stellplätze max. 30 m² auf dem Grundstück – nicht pro Gebäude einzeln unbegrenzt.",
+          "Summe aller genehmigungsfrei errichteten Garagen/Stellplätze max. 50 m² auf dem Grundstück – nicht pro Gebäude einzeln unbegrenzt.",
       },
       {
         question: "Was ist eine Freischankfläche?",

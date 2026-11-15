@@ -59,7 +59,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         id: "nachweis",
         title: "Nachweis vor Umbau oder Legalisierung",
         paragraphs: [
-          "Pläne mit Brandwand, Öffnungsmaßen, Baustoff der Lichtfläche, Gebäudeklasse, Abstand Nachbargebäude. Ausnahme zuerst in der Brandwand-Norm suchen, dann erst § 69 – bei Nachbarn keine 1a-Bescheinigung, Bauaufsicht entscheidet; Freistellung § 63 und Abweichung schließen sich aus. Hub: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
+          "Pläne mit Brandwand, Öffnungsmaßen, Baustoff der Lichtfläche, Gebäudeklasse, Abstand Nachbargebäude. Ausnahme zuerst in der Brandwand-Norm suchen, dann erst § 69 – bei Nachbarn entscheidet die Bauaufsicht. Seit 01.09.2026 schließen sich Freistellung (§ 63) und Abweichung nicht mehr aus; die Abweichung beantragst du gesondert (§ 69 Abs. 2). Hub: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
           "Nachbarzustimmung allein reicht nicht – [welcher Nachbar zählt](/ratgeber/nachbarschutz-brandwand-abweichung-welcher-nachbar-nrw).",
         ],
       },
@@ -163,7 +163,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         title: "Was Gerichte dazu sagen",
         paragraphs: [
           "VG Mainz 3 K 39/23.MZ (06.12.2023, Rheinland-Pfalz): Genehmigungsfreiheit für Fenstertausch greift nicht, wenn Glasbausteine durch öffenbare Kunststofffenster ersetzt werden – es stellen sich gänzlich neue Zulässigkeitsfragen. Belichtung allein macht die Bauelemente nicht austauschbar. Kein NRW-Urteil – NRW-Übertragung über § 62, § 30 und § 69 BauO NRW.",
-          "Ohne Antrag entstehen formelle und materielle Illegalität parallel. Einschreiten: [Beseitigungsverfügung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw). Abweichung: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw) – Freistellung und Abweichung schließen sich aus; Abs. 1a rettet § 63 nicht.",
+          "Ohne Antrag entstehen formelle und materielle Illegalität parallel. Einschreiten: [Beseitigungsverfügung](/ratgeber/beseitigungsverfuegung-brandschutz-abweichung-bauo-nrw). Abweichung: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw) – seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus; Antrag gesondert (§ 69 Abs. 2), Bescheinigungslösung in § 69 Abs. 1 Satz 6.",
         ],
       },
       {
@@ -195,7 +195,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
             ["3", "Wird öffenbar eingebaut?", "Oft genehmigungspflichtig"],
             ["4", "Liegt §-62-Privileg wirklich vor?", "Sonst Bauantrag"],
             ["5", "Abweichung nötig?", "§ 69 + Behörde/SV, nicht mündlich"],
-            ["6", "Freistellung trotz Abweichung?", "Ausgeschlossen (§ 63 Abs. 2 Nr. 4)"],
+            ["6", "Freistellung trotz Abweichung?", "Seit 01.09.2026 nicht mehr ausgeschlossen; Abweichung gesondert (§ 69 Abs. 2)"],
           ],
         },
       },
@@ -250,7 +250,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
       {
         question: "Was ist mit Freistellung und Abweichung?",
         answer:
-          "Eine Abweichung nach § 69 schließt die Genehmigungsfreistellung aus. Abs. 1a rettet § 63 nicht.",
+          "Seit 01.09.2026 schließt eine Abweichung die Genehmigungsfreistellung nicht mehr aus. Die Abweichung beantragst du gesondert (§ 69 Abs. 2); die Bescheinigungslösung steht in § 69 Abs. 1 Satz 6.",
       },
     ],
   },
@@ -394,7 +394,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
         title: "Was Gerichte dazu sagen",
         paragraphs: [
           "VG Mainz 3 K 39/23.MZ (06.12.2023, Rheinland-Pfalz): Der unmittelbare Nachbar hatte zugestimmt und eine Baulast angeboten – das genügte nicht; betroffen war auch der Eigentümer des nächsten Gebäudes ohne Zustimmung. Kein NRW-Urteil – NRW-Übertragung über § 69 Abs. 1 BauO NRW (nachbarliche Belange) und § 30 (5-m-Abstand).",
-          "Privatrechtliche Einverständniserklärungen binden die Bauaufsicht nicht. Bei nachbarlichen Belangen keine SV-Bescheinigung nach Abs. 1a – die Behörde entscheidet. Brandschutzdienststelle hören, wenn Löschen/Retten berührt sind. Hub: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
+          "Privatrechtliche Einverständniserklärungen binden die Bauaufsicht nicht. Bei nachbarlichen Belangen keine SV-Bescheinigung nach § 69 Abs. 1 Satz 6 – die Behörde entscheidet. Brandschutzdienststelle hören, wenn Löschen/Retten berührt sind. Hub: [§ 69](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
         ],
       },
       {
@@ -415,7 +415,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
             ["1", "Alle brandbetroffenen Gebäude identifiziert?", "Unvollständige Zustimmung"],
             ["2", "5 m Abstand öffentlich-rechtlich gesichert?", "Brandwand bleibt Pflicht"],
             ["3", "Baulast deckt den gesetzlichen Abstand?", "Teillast unzureichend"],
-            ["4", "Nachbarliche Belange → behördliche Entscheidung?", "Keine 1a-Bescheinigung"],
+            ["4", "Nachbarliche Belange → behördliche Entscheidung?", "Keine Bescheinigung nach § 69 Abs. 1 Satz 6"],
             ["5", "Öffentliche Belange § 3 gewürdigt?", "Ablehnung trotz Nachbar-OK"],
           ],
         },
@@ -456,7 +456,7 @@ export const RATGEBER_ARTICLES_RECHTSPRECHUNG_SEHR_GUT: RatgeberArticle[] = [
       {
         question: "Kann die Bauaufsicht trotz aller Zustimmungen ablehnen?",
         answer:
-          "Ja, wenn öffentliche Belange oder formelle Voraussetzungen entgegenstehen. Bei Nachbarn entscheidet die Behörde – keine 1a-Bescheinigung.",
+          "Ja, wenn öffentliche Belange oder formelle Voraussetzungen entgegenstehen. Bei Nachbarn entscheidet die Behörde – keine Bescheinigung nach § 69 Abs. 1 Satz 6 allein.",
       },
       {
         question: "Wer ist brandbetroffen?",

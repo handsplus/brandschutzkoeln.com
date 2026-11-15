@@ -93,7 +93,7 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
       {
         question: "Was ist ein Sicherheitstreppenraum?",
         answer:
-          "Treppenraum, in den Feuer und Rauch nicht eindringen können (§ 33 Abs. 4) – in Hochhäusern detailliert in § 99 SBauVO, innenliegend mit Druckbelüftung (§ 105). Ausführlich: Ratgeber Sicherheitstreppenraum.",
+          "Treppenraum, in den Feuer und Rauch nicht eindringen können (§ 33 Abs. 2 Satz 3) – in Hochhäusern detailliert in § 99 SBauVO, innenliegend mit Druckbelüftung (§ 105). Ausführlich: Ratgeber Sicherheitstreppenraum.",
       },
       {
         question: "Wer prüft die Druckbelüftung?",
@@ -121,10 +121,10 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
     slug: "brandschutzkonzept-baupruefvo-nrw",
     title: "Brandschutzkonzept nach BauPrüfVO §9: Was wirklich rein muss",
     excerpt:
-      "„Konzept beifügen“ heißt mehr als ein Lageplan. BauPrüfVO §9 listet Pflichtinhalte von Feuerwehrzufahrt über Abschottungen bis BMA – dreifach zum Bauantrag, geprüft vom Prüfingenieur.",
+      "„Konzept beifügen“ heißt mehr als ein Lageplan. BauPrüfVO §9 listet Pflichtinhalte von Feuerwehrzufahrt über Abschottungen bis BMA – bei großen Sonderbauten mit den Bauvorlagen, grundsätzlich elektronisch.",
     metaTitle: "Brandschutzkonzept BauPrüfVO §9 | H&S+",
     metaDescription:
-      "Brandschutzkonzept Pflichtinhalte NRW: §9 BauPrüfVO, Feuerwehrzufahrt, Rettungswege, BMA, Löschanlagen, Ausgleichsmaßnahmen – dreifach zum Antrag.",
+      "Brandschutzkonzept Pflichtinhalte NRW: §9 BauPrüfVO, Feuerwehrzufahrt, Rettungswege, BMA, Löschanlagen, Ausgleichsmaßnahmen – Einreichung mit Bauvorlagen.",
     keywords: [
       "Brandschutzkonzept BauPrüfVO",
       "§ 9 Brandschutzkonzept NRW",
@@ -139,8 +139,8 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
         title: "Wann nötig vs. was rein muss",
         paragraphs: [
           "Ob ein Brandschutzkonzept erforderlich ist, regeln § 50 BauO NRW (Sonderbau) und [wann-Konzept](/ratgeber/brandschutzkonzept-wann-noetig) – Stellungnahme, Fortschreibung oder vollständiges Konzept. Dieser Artikel behandelt, was § 9 BauPrüfVO NRW im Konzept verlangt, wenn es eingereicht wird.",
-          "Das Brandschutzkonzept ist eine zielorientierte Gesamtbewertung des baulichen und abwehrenden Brandschutzes bei Sonderbauten – aufgestellt vom in § 54 Abs. 3 BauO bestimmten Personenkreis (qualifizierter Entwurfsverfasser / Brandschutzingenieur).",
-          "Grenzfall ja: Neues Hotel Sonderbau – Konzept mit Feuerwehrzufahrt, Brandabschnitten, BMA, Druckbelüftung, Nutzerzahl, Ausgleichsmaßnahmen, dreifach zum Bauantrag, Prüfingenieur bestätigt Vollständigkeit. Grenzfall nein: Nur Grundriss und „BMA kommt später“ – keine §-9-konforme Einreichung.",
+          "Das Brandschutzkonzept ist eine zielorientierte Gesamtbewertung des baulichen und abwehrenden Brandschutzes bei Sonderbauten – aufgestellt vom in § 54 Abs. 3 BauO bestimmten Personenkreis: sachverständige Personen nach § 87 Abs. 2 für die Prüfung des Brandschutzes, öffentlich bestellte und vereidigte Sachverständige für vorbeugenden Brandschutz oder im Einzelfall vergleichbar geeignete Personen.",
+          "Grenzfall ja: Neues Hotel Sonderbau – Konzept mit Feuerwehrzufahrt, Brandabschnitten, BMA, Druckbelüftung, Nutzerzahl, Ausgleichsmaßnahmen, mit den Bauvorlagen eingereicht, Prüfingenieur bestätigt Vollständigkeit. Grenzfall nein: Nur Grundriss und „BMA kommt später“ – keine §-9-konforme Einreichung.",
         ],
       },
       {
@@ -168,7 +168,7 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
         title: "Form und Beilage zum Antrag",
         paragraphs: [
           "Angaben in schriftlichem Erläuterungsbericht plus zeichnerische Darstellung der baulichen und technischen Anforderungen – nicht nur Prosa, nicht nur Pläne ohne Text.",
-          "Dem Bauantrag nach § 65 BauO ist das Brandschutzkonzept in dreifacher Ausfertigung beizufügen – neben den Bauvorlagen nach § 10.",
+          "Bei großen Sonderbauten reichst du das Konzept mit den Bauvorlagen ein (§ 70 Abs. 2 Satz 3), grundsätzlich elektronisch (§ 70 Abs. 1).",
           "Sonderbau-spezifische Ergänzungen in Bauvorlagen: z. B. Verkaufsstätten – Flächenberechnung Verkaufsräume und Brandabschnitte; Beherbergung – Gastbetten und Zuordnung zu Räumen.",
         ],
       },
@@ -188,7 +188,7 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
           "Fehlende Nutzerzahl und Evakuierungslogik – besonders bei Nutzungsänderungen.",
           "Löschwasser und Hydranten „extern geklärt“ ohne Nachweis auf dem Grundstück.",
           "Technische Anlagen nur in Gewerkeplänen, nicht im Konzept verknüpft (BMA ↔ Druckbelüftung ↔ Aufzug).",
-          "Abweichungen von BauO/SBauVO ohne dokumentierte Ausgleichsmaßnahmen – § 3 Abs. 1 Satz 3 BauO NRW ist kein Freifahrtschein ohne Nachweis.",
+          "Abweichungen von BauO/SBauVO ohne dokumentierte Ausgleichsmaßnahmen – gleichwertige Lösungen nach § 88 Abs. 1 Satz 3 bzw. Abweichungen nach § 69 brauchen einen belastbaren Nachweis.",
         ],
       },
       {
@@ -213,14 +213,14 @@ export const RATGEBER_ARTICLES_2025_MAY: RatgeberArticle[] = [
           "Nicht bei jedem Sonderbau – manche Vorhaben reichen mit Stellungnahme oder Fortschreibung. Maßgeblich: Sonderbau-Tatbestand, Änderungsumfang, Behörde.",
       },
       {
-        question: "Warum dreifach?",
+        question: "Wie reichst du das Konzept ein?",
         answer:
-          "BauPrüfVO §9: drei Ausfertigungen zum Bauantrag – Behörde, Prüfingenieur, Projektunterlagen.",
+          "Bei großen Sonderbauten mit den Bauvorlagen (§ 70 Abs. 2 Satz 3), grundsätzlich elektronisch (§ 70 Abs. 1).",
       },
       {
         question: "Wer schreibt das Konzept?",
         answer:
-          "Qualifizierter Entwurfsverfasser nach § 54 Abs. 3 BauO NRW – typisch Brandschutzingenieur, nicht der Architekt allein ohne Qualifikation.",
+          "Sachverständige Personen nach § 87 Abs. 2 für die Prüfung des Brandschutzes, öffentlich bestellte und vereidigte Sachverständige für vorbeugenden Brandschutz oder im Einzelfall vergleichbar geeignete Personen (§ 54 Abs. 3 BauO NRW) – nicht der Architekt allein ohne diese Qualifikation.",
       },
       {
         question: "Was sind Ausgleichsmaßnahmen?",

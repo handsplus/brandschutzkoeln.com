@@ -29,14 +29,15 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
         paragraphs: [
           "Die BauO NRW kennt keinen Paragraphen „Bestandsschutz“. Maßgeblich ist das System um § 59 BauO NRW (bestehende Anlagen), ergänzt durch § 69 (Abweichungen), § 60 Abs. 2 (Eingriff trotz Genehmigungsfreiheit) und die behördlichen Eingriffsbefugnisse der §§ 58, 82 und 84 BauO NRW.",
           "Brandschutz-Anforderungen für Bestand sind die Vorschriften der §§ 26 bis 49 BauO NRW sowie aufgrund des Gesetzes erlassene Vorschriften (z. B. SBauVO NRW).",
-          "Anlagen sind so anzuordnen, zu errichten, zu ändern und instand zu halten, dass Leben, Gesundheit und öffentliche Sicherheit nicht gefährdet werden – auch bei Nutzungsänderung (§ 3 Abs. 1 BauO NRW). Für rechtmäßig bestehende Anlagen begrenzt § 59 Abs. 1, wann die Behörde Nachrüstung verlangen darf.",
+          "Anlagen sind so anzuordnen, zu errichten, zu ändern und instand zu halten, dass die öffentliche Sicherheit und Ordnung – insbesondere Leben und Gesundheit – nicht gefährdet werden (§ 3 Satz 1 BauO NRW). Für rechtmäßig bestehende Anlagen begrenzt § 59 Abs. 1, wann die Behörde Nachrüstung verlangen darf.",
         ],
         list: [
-          "§ 3 Abs. 1 – Dauerhafte Schutzpflicht, auch bei Nutzungsänderung",
-          "§ 59 Abs. 1 – Weiterbetrieb: Nachrüstung nur bei Einzelfall-Gefahr für Leben und Gesundheit",
-          "§ 59 Abs. 2 – Wesentliche Änderung: Nachrüstung im konstruktiven Zusammenhang",
-          "§ 69 Abs. 1 – Abweichungen von §§ 26–49 bei bestehenden Anlagen",
-          "§ 69 Abs. 1a – Sachverständigenbescheinigung Brandschutz statt Abweichungszulassung",
+          "§ 3 Satz 1 – Dauerhafte Schutzpflicht (Leben, Gesundheit, öffentliche Sicherheit)",
+          "§ 59 Abs. 1 – Weiterbetrieb: Nachrüstung nur bei erheblichen Gefahren für Leben und Gesundheit",
+          "§ 59 Abs. 2 – Wesentliche Änderung: Anforderungen an unberührte Teile nur zur Gefahrenabwehr; Brandschutz-Restbestand auf § 33 beschränkt",
+          "§ 59 Abs. 3 – Modernisierungsvorhaben",
+          "§ 69 Abs. 1 – Abweichungen sollen zugelassen werden, wenn mit § 3 Satz 1 vereinbar; besonders Weiternutzung Bestand",
+          "§ 69 Abs. 1 Satz 6 – Sachverständigenbescheinigung statt Abweichungszulassung",
           "§ 60 Abs. 2 – Genehmigungsfreiheit schützt nicht vor Eingriffsbefugnissen",
           "§§ 82, 84 – Nutzungsuntersagung, Nutzungsverbot bis zur Prüfung",
         ],
@@ -54,22 +55,27 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
             [
               "Weiterbetrieb ohne Nachrüstung",
               "§ 59 Abs. 1",
-              "Anpassung nur, wenn im Einzelfall wegen Abwehr von Gefahren für Leben und Gesundheit erforderlich",
+              "Anpassung nur, wenn im Einzelfall zur Abwehr erheblicher Gefahren für Leben und Gesundheit erforderlich",
             ],
             [
               "Nachrüstung bei wesentlicher Änderung",
               "§ 59 Abs. 2",
-              "Nicht unmittelbar berührte, nicht vorschriftsmäßige Bauteile im konstruktiven Zusammenhang – ohne unverhältnismäßigen Mehraufwand",
+              "Anforderungen an unberührte Teile nur zur Gefahrenabwehr; Brandschutznachweis Restbestand beschränkt auf § 33",
+            ],
+            [
+              "Modernisierungsvorhaben",
+              "§ 59 Abs. 3",
+              "Eigene Regelung für Modernisierung bestehender Anlagen",
             ],
             [
               "Abweichung von Brandschutzvorschriften",
               "§ 69 Abs. 1",
-              "Abweichungen von §§ 26 bis 49 u. a. bei Modernisierung, Energieeinsparung, Nutzungsänderung, Denkmal",
+              "Soll-Zulassung bei Vereinbarkeit mit öffentlichen Belangen, insbesondere § 3 Satz 1 – besonders Weiternutzung bestehender Gebäude",
             ],
             [
               "Sachverständigenbescheinigung",
-              "§ 69 Abs. 1a",
-              "Keine Abweichungszulassung nötig, wenn SV nach § 87 Abs. 2 Brandschutz oder Standsicherheit bescheinigt",
+              "§ 69 Abs. 1 Satz 6",
+              "Keine Abweichungszulassung nötig, wenn die sachverständige Person die Voraussetzungen bescheinigt",
             ],
             [
               "Eingriffe trotz Genehmigungsfreiheit",
@@ -93,8 +99,9 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
         id: "para59",
         title: "§ 59 BauO NRW – bestehende Anlagen",
         paragraphs: [
-          "§ 59 Abs. 1: Entsprechen rechtmäßig bestehende Anlagen nicht den Vorschriften dieses Gesetzes oder aufgrund dieses Gesetzes erlassenen Vorschriften, so kann verlangt werden, dass die Anlagen angepasst werden, wenn dies im Einzelfall wegen der Abwehr von Gefahren für Leben und Gesundheit erforderlich ist. Ein alleiniger Bestandsmangel rechtfertigt keine pauschale Nachrüstung – die Behörde muss einen Einzelfall mit Gefahr für Leben und Gesundheit begründen.",
-          "§ 59 Abs. 2: Sollen Anlagen wesentlich geändert werden, so kann gefordert werden, dass auch nicht unmittelbar berührte Teile in Einklang gebracht werden, wenn die nicht vorschriftsmäßigen Bauteile mit den Änderungen in einem konstruktiven Zusammenhang stehen und die Nachrüstung nicht berührter Teile keinen unverhältnismäßigen Mehraufwand verursacht. In diesem Zusammenhang sind angemessene Regelungen zur Barrierefreiheit zu treffen.",
+          "§ 59 Abs. 1: Rechtmäßig bestehende Anlagen musst du nur anpassen, wenn das im Einzelfall zur Abwehr erheblicher Gefahren für Leben und Gesundheit erforderlich ist. Ein alleiniger Bestandsmangel rechtfertigt keine pauschale Nachrüstung – die Behörde muss den Einzelfall mit erheblicher Gefahr begründen.",
+          "§ 59 Abs. 2: Änderst du wesentlich, dürfen an unberührte Teile nur Anforderungen zur Gefahrenabwehr gestellt werden; beim Brandschutz beschränkt sich der Nachweis für den verbleibenden Bestand auf die Rettungswege nach § 33. Die früheren Kriterien „konstruktiver Zusammenhang“ und „unverhältnismäßiger Mehraufwand“ gelten so nicht mehr.",
+          "§ 59 Abs. 3 regelt Modernisierungsvorhaben gesondert.",
         ],
         table: {
           caption: "Entscheidungstabelle § 59 BauO NRW",
@@ -102,23 +109,23 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
           rows: [
             [
               "Rechtmäßig bestehende Anlage, kein Vorhaben, Mangel gegenüber heutigem Recht",
-              "Weiterbetrieb grundsätzlich möglich; Nachrüstung nur bei Einzelfall-Gefahr für Leben und Gesundheit",
+              "Weiterbetrieb grundsätzlich möglich; Nachrüstung nur bei erheblichen Gefahren für Leben und Gesundheit im Einzelfall",
               "§ 59 Abs. 1",
             ],
             [
               "Rechtmäßig bestehende Anlage, wesentliche Änderung geplant",
-              "Nachrüstung nicht unmittelbar berührter Bauteile im konstruktiven Zusammenhang möglich",
+              "Anforderungen an unberührte Teile nur zur Gefahrenabwehr; Brandschutz-Restbestand: Nachweis auf § 33 beschränkt",
               "§ 59 Abs. 2",
             ],
             [
-              "Nachrüstung nicht berührter Teile verursacht unverhältnismäßigen Mehraufwand",
-              "Keine Pflicht nach § 59 Abs. 2; ggf. Abweichung nach § 69",
-              "§ 59 Abs. 2; § 69",
+              "Modernisierungsvorhaben am Bestand",
+              "Eigene Regelung nach § 59 Abs. 3; Abweichung nach § 69 prüfen",
+              "§ 59 Abs. 3; § 69",
             ],
             [
               "Nutzungsänderung ohne wesentliche bauliche Änderung",
-              "§ 59 Abs. 2 greift nicht unmittelbar; § 3 Abs. 1 Satz 3 und ggf. § 69; Eingriffe nach § 82 bei Widerspruch",
-              "§ 3 Abs. 1; § 69; § 82",
+              "§ 59 Abs. 2 greift nicht unmittelbar; Schutzpflicht § 3 Satz 1 und ggf. § 69; Eingriffe nach § 82 bei Widerspruch",
+              "§ 3 Satz 1; § 69; § 82",
             ],
           ],
         },
@@ -127,11 +134,10 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
         id: "para69",
         title: "§ 69 BauO NRW – Abweichungen",
         paragraphs: [
-          "§ 69 Abs. 1 Satz 1: Die Bauaufsichtsbehörde kann Abweichungen zulassen, wenn sie mit den öffentlichen Belangen, insbesondere § 3, vereinbar ist; wird der Zweck der Anforderung nachweisbar auch unter Zulassung der Abweichung erreicht, soll die Abweichung zugelassen werden. Vertiefung: [Abweichungen § 69 Erlass](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
-          "§ 69 Abs. 1 Satz 2: Abweichungen von den §§ 4 bis 16 und § 26 bis § 49 sind bei bestehenden Anlagen zuzulassen zur Modernisierung von Wohnungen und Wohngebäuden (Baugenehmigung mindestens fünf Jahre zurück), zur Energie- oder Wassereinsparung, bei Nutzungsänderungen oder zur Erhaltung von Denkmälern.",
+          "Seit 01.09.2026 soll die Bauaufsicht Abweichungen zulassen, wenn sie mit den öffentlichen Belangen, insbesondere § 3 Satz 1, vereinbar sind – besonders bei der Weiternutzung bestehender Gebäude (§ 69 Abs. 1 Satz 2 Nr. 1). Vertiefung: [Abweichungen § 69 Erlass](/ratgeber/abweichungen-paragraph-69-erlass-bauo-nrw).",
           "§§ 26–49 umfassen u. a. Brandverhalten (§ 26), Brandwände (§ 30), Rettungswege (§§ 33, 37), Treppen und Flure (§§ 34–36), Leitungen (§ 40), Lüftung (§ 41) und Sonderbauten-Verweis (§ 50).",
-          "Abgrenzung: § 59 steuert den Weiterbetrieb ohne Vorhaben (Nachrüstung nur bei Einzelfall-Gefahr). § 69 eröffnet bei einem Vorhaben die Zulassung, von Vorschriften abzuweichen. Eine §-69-Abweichung schließt die Genehmigungsfreistellung aus (§ 63 Abs. 2 Nr. 4) – Abs. 1a rettet die Freistellung nicht.",
-          "§ 69 Abs. 1a: Der Zulassung einer Abweichung bedarf es nicht, wenn sachverständige Personen nach § 87 Abs. 2 bescheinigen, dass das Vorhaben den Anforderungen an den Brandschutz oder an die Standsicherheit entspricht und das Vorliegen der Voraussetzungen für Abweichungen bescheinigt wird.",
+          "Abgrenzung: § 59 steuert den Weiterbetrieb ohne Vorhaben (Nachrüstung nur bei erheblichen Gefahren im Einzelfall). § 69 eröffnet bei einem Vorhaben die Zulassung, von Vorschriften abzuweichen. Eine Abweichung schließt die Genehmigungsfreistellung nicht mehr aus; die Abweichung beantragst du gesondert (§ 69 Abs. 2).",
+          "§ 69 Abs. 1 Satz 6: Der Zulassung einer Abweichung bedarf es in den Fällen des § 68 Abs. 6 oder des § 69 Abs. 2 Satz 2 Halbsatz 1 nicht, wenn die sachverständige Person die Voraussetzungen der Abweichung bescheinigt.",
         ],
         table: {
           caption: "Abweichung oder Sachverständigenbescheinigung",
@@ -139,15 +145,15 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
           rows: [
             [
               "Abweichungsantrag",
-              "Tatbestand § 69 Abs. 1 Satz 2; Antrag in Textform mit Begründung",
+              "Vereinbarkeit mit öffentlichen Belangen (§ 3 Satz 1); Antrag gesondert",
               "Bauaufsichtsbehörde",
-              "§ 69 Abs. 1, 3, 4",
+              "§ 69 Abs. 1, Abs. 2",
             ],
             [
               "Sachverständigenbescheinigung",
-              "SV nach § 87 Abs. 2 bescheinigt Brandschutz/Standsicherheit und Abweichungsvoraussetzungen",
+              "Sachverständige Person bescheinigt die Abweichungsvoraussetzungen",
               "Keine behördliche Abweichungszulassung erforderlich",
-              "§ 69 Abs. 1a",
+              "§ 69 Abs. 1 Satz 6",
             ],
           ],
         },
@@ -157,7 +163,7 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
         title: "Verfahren und behördliche Eingriffe",
         paragraphs: [
           "§ 60 Abs. 2: Genehmigungsfreiheit nach §§ 61 bis 63, 78 und 79 Abs. 1 Satz 1 sowie Beschränkung der Prüfung nach § 64 entbinden nicht von öffentlich-rechtlichen Vorschriften und lassen Eingriffsbefugnisse unberührt.",
-          "§ 58 Abs. 4: Auch nach Baugenehmigung können Anforderungen gestellt werden, um nicht voraussehbare Gefahren abzuwenden – entsprechend bei genehmigungsfreien Anlagen.",
+          "Nachträgliche Anforderungen an rechtmäßig bestehende Anlagen sind nur nach § 59 Abs. 1 möglich – also wenn sie im Einzelfall zur Abwehr erheblicher Gefahren für Leben und Gesundheit erforderlich sind. § 58 Abs. 4 regelt seit der Neufassung die Rechtsnachfolge, nicht mehr nachträgliche Gefahrabwehr-Befugnisse nach Genehmigung.",
           "§ 82 Abs. 1: Werden Anlagen im Widerspruch zu öffentlich-rechtlichen Vorschriften errichtet, geändert oder beseitigt, kann die Einstellung der Arbeiten angeordnet werden.",
           "§ 82 Abs. 3: Werden Anlagen im Widerspruch errichtet oder geändert, kann Beseitigung angeordnet werden. Wird im Widerspruch genutzt, kann die Nutzung untersagt werden – unabhängig vom Bestandsalter und § 59 Abs. 1.",
           "§ 84 Abs. 5: Die Behörde kann verlangen, dass Anlagen erst benutzt werden, wenn sie oder ein beauftragter Sachverständiger sie geprüft hat.",
@@ -212,13 +218,13 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
           headers: ["Nr.", "Prüffrage", "Norm / Kriterium", "Ergebnis bei „Ja“"],
           rows: [
             ["1", "Rechtmäßig bestehende Anlage?", "§ 59 Abs. 1", "§ 59-System anwendbar"],
-            ["2", "Kein Bauvorhaben (nur Weiterbetrieb)?", "§ 59 Abs. 1", "Nachrüstung nur bei Einzelfall-Gefahr"],
-            ["3", "Wesentliche Änderung geplant?", "§ 59 Abs. 2; §§ 60 ff.", "Erweiterte Nachrüstung möglich; Genehmigungspflicht prüfen"],
-            ["4", "Nicht vorschriftsmäßige Bauteile im konstruktiven Zusammenhang?", "§ 59 Abs. 2", "Nachrüstung kann verlangt werden"],
-            ["5", "Unverhältnismäßiger Mehraufwand bei Nachrüstung?", "§ 59 Abs. 2", "Keine Pflicht nach Abs. 2; ggf. § 69"],
-            ["6", "Nutzungsänderung?", "§ 3 Abs. 1 Satz 3; § 69 Abs. 1 Satz 2 Nr. 3", "Schutzpflicht gilt; Abweichungstatbestand eröffnet"],
-            ["7", "Tatbestand § 69 Abs. 1 Satz 2 (Modernisierung > 5 Jahre, Energie, Denkmal …)?", "§ 69 Abs. 1", "Abweichung von §§ 26–49 grundsätzlich zuzulassen"],
-            ["8", "Sachverständigenbescheinigung nach § 87 Abs. 2?", "§ 69 Abs. 1a", "Keine behördliche Abweichungszulassung nötig"],
+            ["2", "Kein Bauvorhaben (nur Weiterbetrieb)?", "§ 59 Abs. 1", "Nachrüstung nur bei erheblichen Gefahren im Einzelfall"],
+            ["3", "Wesentliche Änderung geplant?", "§ 59 Abs. 2; §§ 60 ff.", "Unberührte Teile nur zur Gefahrenabwehr; Brandschutz-Rest auf § 33"],
+            ["4", "Gefahrenabwehr an unberührten Teilen erforderlich?", "§ 59 Abs. 2", "Anforderungen an Restbestand möglich"],
+            ["5", "Modernisierungsvorhaben?", "§ 59 Abs. 3", "Abs. 3 prüfen; ggf. § 69"],
+            ["6", "Nutzungsänderung?", "§ 3 Satz 1; § 69 Abs. 1", "Schutzpflicht gilt; Abweichung prüfen"],
+            ["7", "Abweichung mit öffentlichen Belangen (§ 3 Satz 1) vereinbar – Weiternutzung Bestand?", "§ 69 Abs. 1", "Abweichung soll zugelassen werden; Freistellung nicht ausgeschlossen"],
+            ["8", "Sachverständigenbescheinigung der Abweichungsvoraussetzungen?", "§ 69 Abs. 1 Satz 6", "Keine behördliche Abweichungszulassung nötig"],
             ["9", "Nutzung im Widerspruch zu Vorschriften?", "§ 82 Abs. 3", "Nutzungsuntersagung möglich"],
             ["10", "Genehmigungsfrei, aber nicht vorschriftsmäßig?", "§ 60 Abs. 2; § 82", "Eingriffsbefugnisse bleiben"],
             ["11", "Sonderbau mit Nachprüfungspflicht per Verordnung?", "§ 87 Abs. 1; § 50; SBauVO", "Bestandsnachprüfung möglich"],
@@ -239,7 +245,7 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
         title: "Beispiel: technische Sanierung ohne baulische Änderung",
         paragraphs: [
           "Eingeschossiges Technikgebäude (Baujahr 1971): ausschließlich Austausch von Anlagenteilen im Inneren – ohne Änderung der baulichen Struktur, Nutzung oder Gebäudeklasse. Frage: Muss die Holzdecke an heutige Feuerwiderstandsanforderungen angepasst werden?",
-          "Nach § 59 Abs. 1: Rechtmäßig bestehende Holzdecke – bei reinem Leitungstausch ohne Eingriff in die Decke keine pauschale Nachrüstungspflicht. Greift eine wesentliche Änderung (Decke öffnen, Nutzungswechsel, Teilsanierung mit Trockenbau), ist § 59 Abs. 2 oder ein Genehmigungsverfahren mit § 69 zu prüfen.",
+          "Nach § 59 Abs. 1: Rechtmäßig bestehende Holzdecke – bei reinem Leitungstausch ohne Eingriff in die Decke keine pauschale Nachrüstungspflicht, solange keine erheblichen Gefahren für Leben und Gesundheit im Einzelfall vorliegen. Greift eine wesentliche Änderung (Decke öffnen, Nutzungswechsel, Teilsanierung mit Trockenbau), ist § 59 Abs. 2 (unberührte Teile nur zur Gefahrenabwehr; Brandschutz-Rest auf § 33) oder ein Genehmigungsverfahren mit § 69 zu prüfen.",
           "Mehr zu baulichen Umbauten: [Teilsanierung Büro](/ratgeber/teilsanierung-buero-brandschutz-koeln), [Umbau und Nutzungsänderung](/ratgeber/umbau-nutzungsaenderung-brandschutz). Technische Betriebsgebäude: [eigener Ratgeber](/ratgeber/technische-betriebsgebaeude-brandschutz-nrw).",
         ],
       },
@@ -269,22 +275,22 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
       {
         question: "Wann darf die Behörde Nachrüstung verlangen?",
         answer:
-          "§ 59 Abs. 1: nur im Einzelfall wegen der Abwehr von Gefahren für Leben und Gesundheit. § 59 Abs. 2: bei wesentlicher Änderung und konstruktivem Zusammenhang, sofern kein unverhältnismäßiger Mehraufwand.",
+          "§ 59 Abs. 1: nur im Einzelfall zur Abwehr erheblicher Gefahren für Leben und Gesundheit. § 59 Abs. 2: bei wesentlicher Änderung Anforderungen an unberührte Teile nur zur Gefahrenabwehr; Brandschutznachweis für den Restbestand beschränkt auf § 33. Modernisierung: § 59 Abs. 3.",
       },
       {
-        question: "Was ist eine wesentliche Änderung nach § 59 Abs. 2?",
+        question: "Was gilt bei wesentlicher Änderung nach § 59 Abs. 2?",
         answer:
-          "Das Gesetz definiert den Begriff nicht abschließend. Relevant sind kumulativ: wesentliche Änderung, konstruktiver Zusammenhang nicht vorschriftsmäßiger Bauteile mit dem Vorhaben, kein unverhältnismäßiger Mehraufwand bei nicht berührten Teilen.",
+          "An unberührte Teile dürfen nur Anforderungen gestellt werden, die im Einzelfall zur Gefahrenabwehr nötig sind. Beim Brandschutz beschränkt sich der Nachweis für den verbleibenden Bestand auf die Rettungswege nach § 33. Die alten Kriterien „konstruktiver Zusammenhang“ und „unverhältnismäßiger Mehraufwand“ gelten seit 01.09.2026 nicht mehr.",
       },
       {
         question: "Wann greift § 69 für Brandschutz?",
         answer:
-          "Bei bestehenden Anlagen und Tatbeständen des § 69 Abs. 1 Satz 2 (u. a. Modernisierung mit Genehmigung ≥ 5 Jahre zurück, Energieeinsparung, Nutzungsänderung, Denkmal). Abweichungen von §§ 26 bis 49 können zugelassen werden.",
+          "Seit 01.09.2026 soll die Bauaufsicht Abweichungen zulassen, wenn sie mit den öffentlichen Belangen, insbesondere § 3 Satz 1, vereinbar sind – besonders bei der Weiternutzung bestehender Gebäude (§ 69 Abs. 1 Satz 2 Nr. 1). Eine Abweichung schließt die Genehmigungsfreistellung nicht mehr aus.",
       },
       {
-        question: "Was leistet § 69 Abs. 1a?",
+        question: "Was leistet § 69 Abs. 1 Satz 6?",
         answer:
-          "Sachverständige nach § 87 Abs. 2 können bescheinigen, dass das Vorhaben den Anforderungen an Brandschutz oder Standsicherheit entspricht – dann ist keine behördliche Abweichungszulassung erforderlich.",
+          "Der Zulassung einer Abweichung bedarf es in den Fällen des § 68 Abs. 6 oder des § 69 Abs. 2 Satz 2 Halbsatz 1 nicht, wenn die sachverständige Person die Voraussetzungen der Abweichung bescheinigt.",
       },
       {
         question: "Schützt Genehmigungsfreiheit den Bestand?",
@@ -294,7 +300,7 @@ export const RATGEBER_ARTICLES_BESTANDSSCHUTZ: RatgeberArticle[] = [
       {
         question: "Muss bei Leitungstausch die Holzdecke ertüchtigt werden?",
         answer:
-          "Nach § 59 Abs. 1 nicht pauschal, wenn die Decke unverändert bleibt und das Gebäude rechtmäßig bestand. Bei Eingriff in die Decke oder wesentlicher Änderung: § 59 Abs. 2 oder Genehmigungsverfahren.",
+          "Nach § 59 Abs. 1 nicht pauschal, wenn die Decke unverändert bleibt, das Gebäude rechtmäßig bestand und keine erheblichen Gefahren für Leben und Gesundheit im Einzelfall vorliegen. Bei Eingriff in die Decke oder wesentlicher Änderung: § 59 Abs. 2 oder Genehmigungsverfahren mit § 69.",
       },
       {
         question: "Was ist der Unterschied zu § 90 BauO NRW?",

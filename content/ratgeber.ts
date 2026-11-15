@@ -2081,10 +2081,10 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
     slug: "imbiss-ladenlokal-nutzungsaenderung-koeln",
     title: "Vom Ladenlokal zum Imbiss: Nutzungsänderung und Brandschutz",
     excerpt:
-      "Ein Imbiss mit Fritteuse und Holzkohlegrill auf rund 65 m² löst bei Nutzungsänderung Fragen zu Trennwänden (§ 29 BauO NRW), vereinfachtem Verfahren (§ 64 BauPrüfVO) und brandschutztechnischer Stellungnahme aus – am Beispiel aus der Praxis.",
+      "Ein Imbiss mit Fritteuse und Holzkohlegrill auf rund 65 m² löst bei Nutzungsänderung Fragen zu Trennwänden (§ 29 BauO NRW), vereinfachtem Baugenehmigungsverfahren (§ 64 Abs. 1 BauO NRW) und brandschutztechnischer Stellungnahme aus – am Beispiel aus der Praxis.",
     metaTitle: "Ladenlokal zum Imbiss | Nutzungsänderung Köln",
     metaDescription:
-      "Ladenlokal zu Imbiss: § 64 BauO NRW, Trennwände § 29, Küche/Grill, Stellungnahme. Sonderbau-Grenze – Ratgeber H&S+ NRW.",
+      "Ladenlokal zu Imbiss: vereinfachtes Verfahren § 64 Abs. 1 BauO NRW, Trennwände § 29, Küche/Grill, Stellungnahme. Sonderbau-Grenze – Ratgeber H&S+ NRW.",
     keywords: [
       "Nutzungsänderung Imbiss",
       "Ladenlokal Imbiss Genehmigung",
@@ -2113,8 +2113,8 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
         id: "verfahren",
         title: "§ 64 vereinfachtes Verfahren vs. Vollverfahren",
         paragraphs: [
-          "Nach § 64 BauO NRW kann die Bauaufsicht ein vereinfachtes Baugenehmigungsverfahren zulassen, wenn das Vorhaben in Anlage 1 Abschnitt II Nr. 1.2.1 der BauPrüfVO NRW (Anlage I/2) eingereiht werden kann – typisch kleine Gewerbenutzungen ohne Sonderbau-Komplexität.",
-          "Die Entscheidung trifft die Behörde: Lage im Gebäude, bauliche Eingriffe (Trennwände, Abluft, Elektro), Bestand und Nachbarschaft können das Vollverfahren erforderlich machen. Im dokumentierten Fall: Bauantrag mit Stellungnahme, einheitlichen Plänen und Betriebsbeschreibung.",
+          "Außer bei großen Sonderbauten läuft dein Bauantrag im vereinfachten Baugenehmigungsverfahren (§ 64 Abs. 1 BauO NRW). Ob und welche BauPrüfVO-Anlagen im Einzelfall greifen, klärst du mit der Bauaufsicht.",
+          "Lage im Gebäude, bauliche Eingriffe (Trennwände, Abluft, Elektro), Bestand und Nachbarschaft steuern den Nachweisaufwand. Im dokumentierten Fall: Bauantrag mit Stellungnahme, einheitlichen Plänen und Betriebsbeschreibung.",
           "Abgrenzung: Nur „Gewerbeanmeldung“ ohne bauliche/Nutzungsänderung ersetzt keine Baugenehmigung, wenn Küche, Wände oder Abluft neu sind.",
         ],
       },
@@ -2204,7 +2204,7 @@ export const RATGEBER_ARTICLES: RatgeberArticle[] = applyRatgeberPublishedDates(
       {
         question: "Braucht ein kleiner Imbiss immer eine Baugenehmigung?",
         answer:
-          "Bei Nutzungsänderung und baulichen Anpassungen (Wände, Küche, Abluft) in der Regel ja. Ob § 64 vereinfachtes Verfahren möglich ist, entscheidet die Bauaufsicht – vor Baubeginn klären.",
+          "Bei Nutzungsänderung und baulichen Anpassungen (Wände, Küche, Abluft) in der Regel ja. Außer bei großen Sonderbauten läuft der Bauantrag im vereinfachten Verfahren (§ 64 Abs. 1 BauO NRW) – vor Baubeginn mit der Bauaufsicht klären.",
       },
       {
         question: "Ist ein Imbiss mit 65 m² ein Sonderbau?",
